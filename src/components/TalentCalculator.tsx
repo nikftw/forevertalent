@@ -108,11 +108,37 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
           />
         </div>
       </header>
-      <ReviewLegend />
       <ExtrasSelect
         classSlug={cls.slug}
         selection={extras}
         onChange={updateExtras}
+        buildSummary={
+          <div className="calc-summary">
+            <p>
+              <span style={{ color: cls.color }}>{cls.name}</span> ({split})
+              {spent > 0 ? (
+                <button
+                  type="button"
+                  className="text-reset"
+                  onClick={() =>
+                    update(
+                      applyAction(cls, ranks, { type: "reset-all" }),
+                    )
+                  }
+                >
+                  ×
+                </button>
+              ) : null}
+            </p>
+            <p>Points left: {remaining}</p>
+            <p>
+              Share talent build
+              <button type="button" className="share" onClick={copyBuild}>
+                {copied ? "copied" : "copy"}
+              </button>
+            </p>
+          </div>
+        }
       />
       <div className="trees">
         {cls.trees.map((tree) => (
@@ -141,29 +167,7 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
           />
         ))}
       </div>
-      <footer className="calc-footer">
-        <p>
-          <span style={{ color: cls.color }}>{cls.name}</span> ({split})
-          {spent > 0 ? (
-            <button
-              type="button"
-              className="text-reset"
-              onClick={() =>
-                update(applyAction(cls, ranks, { type: "reset-all" }))
-              }
-            >
-              ×
-            </button>
-          ) : null}
-        </p>
-        <p>Points left: {remaining}</p>
-        <p>
-          Share talent build
-          <button type="button" className="share" onClick={copyBuild}>
-            {copied ? "copied" : "copy"}
-          </button>
-        </p>
-      </footer>
+      <ReviewLegend />
     </div>
   );
 }

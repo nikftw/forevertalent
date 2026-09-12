@@ -70,7 +70,7 @@
     "mage/brave_AvxLZRviJu.png",
     "mage/brave_hcdszJmi87.png"
   ],
-  "notes": "Layout authority is overview.png (+ fix1.png Arcane spent / Improved Channeling, fix2.png Hot Streak). Numbered mage/1.png–50.png are tooltip crops. brave_* + O2NJQmcycc.jpg are newer BlizzCon-stream captures (2026-09-12 evening). Columns 0-indexed. Classic talents.json used only for classicId/status.",
+  "notes": "Layout authority is overview.png (+ fix1.png Arcane spent / Improved Channeling, fix2.png Hot Streak). Numbered mage/1.png\u201350.png are tooltip crops. brave_* + O2NJQmcycc.jpg are newer BlizzCon-stream captures (2026-09-12 evening). Columns 0-indexed. Classic talents.json used only for classicId/status.",
   "trees": [
     {
       "name": "Arcane",
@@ -129,15 +129,15 @@
           "occupied": true,
           "guessName": "Arcane Concentration",
           "iconHint": "Head silhouette with glowing energy",
-          "notes": "Long arrow down to Missile Barrage row3 col2 (skips empty row2 col2); mage/3.png mage/9.png"
+          "notes": "Long arrow down to Arcane Meditation row3 col2 (skips empty row2 col2); mage/3.png mage/9.png"
         },
         {
           "row": 1,
           "col": 3,
           "occupied": true,
-          "guessName": null,
-          "iconHint": "Glowing purple sphere / cube",
-          "notes": "Forever extra vs Classic tier-2 (Classic had only 3 talents on this row); no tooltip"
+          "guessName": "Arcane Blast",
+          "iconHint": "Purple eye / arcane blast orb",
+          "notes": "Overview r1c3 unnamed purple-eye slot; brave_nVqSnzi9VK.png identity"
         },
         {
           "row": 2,
@@ -161,7 +161,7 @@
           "occupied": false,
           "guessName": null,
           "iconHint": null,
-          "notes": "Empty; dependency line from row1 col2 passes through to row3 col2 (confirmed empty in fix1 spent build)"
+          "notes": "Empty; Concentration\u2192Meditation dependency line passes through"
         },
         {
           "row": 2,
@@ -191,17 +191,17 @@
           "row": 3,
           "col": 2,
           "occupied": true,
-          "guessName": "Missile Barrage",
-          "iconHint": "Cluster of magical shards / missiles",
-          "notes": "Receives arrow from row1 col2; mage/17.png"
+          "guessName": "Arcane Meditation",
+          "iconHint": "Profile/silhouette with arcane energy",
+          "notes": "Receives arrow from Concentration; maxRank 3 matches fix1 spent 3"
         },
         {
           "row": 3,
           "col": 3,
           "occupied": true,
-          "guessName": "Arcane Meditation",
-          "iconHint": "Multiple purple bolts / projectiles",
-          "notes": "mage/16.png"
+          "guessName": "Missile Barrage",
+          "iconHint": "Cluster of white missile streaks",
+          "notes": "mage/17.png adjacent to Fire divider = col3"
         },
         {
           "row": 4,
@@ -308,9 +308,9 @@
           "row": 0,
           "col": 0,
           "occupied": true,
-          "guessName": "Improved Fireball",
-          "iconHint": "Orange Fireball",
-          "notes": "Green border; rank badge 0; no tooltip screenshot (Classic was row0 col1)"
+          "guessName": "Wake of Fire",
+          "iconHint": "Bright yellow/orange Fire Blast explosion",
+          "notes": "mage/22.png cursor on leftmost of three green icons = Wake"
         },
         {
           "row": 0,
@@ -318,15 +318,15 @@
           "occupied": true,
           "guessName": "Impact",
           "iconHint": "Black flaming claw/hand",
-          "notes": "Green border; rank badge 0; no tooltip screenshot (Classic was row0 col2)"
+          "notes": "Green border; middle of Fire row0"
         },
         {
           "row": 0,
           "col": 2,
           "occupied": true,
-          "guessName": "Wake of Fire",
-          "iconHint": "Orange explosion / Fire Blast blast",
-          "notes": "Green border; overview maxRank-2 badge; mage/22.png brave_9Gq3JCzwjz.png. VERIFY: some crops show Wake leftmost of three green icons — may conflict with Fireball|Impact|Wake order."
+          "guessName": "Improved Fireball",
+          "iconHint": "Orange Fireball",
+          "notes": "Rightmost of Fire row0; Classic was row0 col1"
         },
         {
           "row": 0,
@@ -454,7 +454,7 @@
           "occupied": false,
           "guessName": null,
           "iconHint": null,
-          "notes": "Empty in overview/fix2; Classic Blast Wave slot vacant — Blast Wave tooltip captured but unmatched"
+          "notes": "Empty in overview/fix2; Classic Blast Wave slot vacant \u2014 Blast Wave tooltip captured but unmatched"
         },
         {
           "row": 4,
@@ -651,7 +651,7 @@
           "occupied": true,
           "guessName": null,
           "iconHint": "Large cluster of ice shards",
-          "notes": "Arrow down to Fingers of Frost row4 col2; no tooltip (Classic Shatter was here — name not screenshot-confirmed)"
+          "notes": "Arrow down to Fingers of Frost row4 col2; no tooltip (Classic Shatter was here \u2014 name not screenshot-confirmed)"
         },
         {
           "row": 3,
@@ -659,7 +659,7 @@
           "occupied": true,
           "guessName": "Shatter",
           "iconHint": "Snowflake / sunburst frost",
-          "notes": "No tooltip screenshot — Classic Shatter name guessed from icon; Classic was row3 col2"
+          "notes": "No tooltip screenshot \u2014 Classic Shatter name guessed from icon; Classic was row3 col2"
         },
         {
           "row": 4,
@@ -1008,7 +1008,7 @@
       ],
       "iconHint": "Purple/white swirling energy blast",
       "status": "updated",
-      "diffNotes": "Rank-1 text matches Classic. Classic ranks 2–3 were Arcane Explosion-specific; Forever ranks 2–3 not captured."
+      "diffNotes": "Rank-1 text matches Classic. Classic ranks 2\u20133 were Arcane Explosion-specific; Forever ranks 2\u20133 not captured."
     },
     {
       "screenshots": [
@@ -1061,7 +1061,7 @@
       "classicId": 1142,
       "tree": "Arcane",
       "row": 3,
-      "col": 3,
+      "col": 2,
       "maxRank": 3,
       "ranks": [
         {
@@ -1082,7 +1082,7 @@
       "classicId": null,
       "tree": "Arcane",
       "row": 3,
-      "col": 2,
+      "col": 3,
       "maxRank": 1,
       "ranks": [
         {
@@ -1092,7 +1092,7 @@
       ],
       "iconHint": "Bright white missile streaks diagonally upward",
       "status": "new",
-      "diffNotes": "No Classic name match. Mentions Arcane Blast / Frostfire Bolt."
+      "diffNotes": "Arcane r3c3 near Fire divider (mage/17.png); Meditation takes r3c2 under Concentration arrow."
     },
     {
       "screenshots": [
@@ -1150,7 +1150,7 @@
       "classicId": null,
       "tree": "Fire",
       "row": 0,
-      "col": 2,
+      "col": 0,
       "maxRank": 2,
       "ranks": [
         {
@@ -1160,7 +1160,7 @@
       ],
       "iconHint": "Bright yellow/orange Fire Blast explosion",
       "status": "new",
-      "diffNotes": "No Classic name match. Tier-1 Fire slot (overview maxRank-2 badge on row0 col2)."
+      "diffNotes": "Fire r0c0 leftmost (mage/22.png)."
     },
     {
       "screenshots": [
@@ -1328,7 +1328,7 @@
       ],
       "iconHint": "Circular fiery explosion / radiating wave",
       "status": "updated",
-      "diffNotes": "Tooltip text matches talents.json, but overview/fix2 leave Classic row4 col2 empty — Forever layout position unmatched."
+      "diffNotes": "Tooltip text matches talents.json, but overview/fix2 leave Classic row4 col2 empty \u2014 Forever layout position unmatched."
     },
     {
       "screenshots": [
@@ -1789,8 +1789,8 @@
       "name": "Arcane Blast",
       "classicId": null,
       "tree": "Arcane",
-      "row": null,
-      "col": null,
+      "row": 1,
+      "col": 3,
       "maxRank": 1,
       "ranks": [
         {
@@ -1803,7 +1803,7 @@
       ],
       "iconHint": "Purple arcane blast orb / energy blast",
       "status": "new",
-      "diffNotes": "Forever spell-talent not in Classic calculator. POSITION UNRESOLVED: tooltip crop suggests mid-Arcane under a vertical chain that scrape currently assigns to Missile Barrage (r3c2). Do not merge row/col until icon under cursor is reconciled with mage/17.png Missile Barrage."
+      "diffNotes": "Placed at overview Arcane r1c3 (unnamed purple-eye slot)."
     },
     {
       "screenshots": [
@@ -1828,15 +1828,11 @@
   ],
   "unmatchedScreenshots": [],
   "layoutNotes": [
-    "Layout from overview.png; fix1.png confirms Arcane spent build (empty row2 col2, Improved Channeling at row0 col2); fix2.png confirms Hot Streak at Fire row3 col2.",
-    "brave_* / O2NJQmcycc.jpg (2026-09-12 evening) add many previously missing tooltips; overview duplicate brave_WLA8Rd7rKX.png.",
-    "Primary tab, 29 unspent on overview; Secondary locked.",
-    "Arcane: Improved Channeling replaces Improved Arcane Missiles. Arcane Geometry replaces Magic Attunement. Missile Barrage under Concentration arrow (mage/17). Extra unnamed occupied slot at row1 col3 still no tooltip. Capstone Presence of Mind → Arcane Power (tooltip now captured).",
-    "NEW conflict: Arcane Blast spell-talent tooltip (brave_nVqSnzi9VK.png) vs Missile Barrage at same claimed chain slot — row/col left null until reconciled.",
-    "Fire: Tier-1 Improved Fireball / Impact / Wake of Fire (VERIFY order — Wake crops may show leftmost). Hot Streak under Improved Flamestrike. Capstone Critical Mass → Combustion. Blast Wave tooltip exists but Classic row4 col2 empty in Forever — row/col null.",
-    "Fire: Incineration (brave_rIBDLFJIo6) Forever-new/renamed vs Classic Incinerate; maxRank 3; guessed row1 col2.",
-    "Frost: Frostbite at row1 col3; Permafrost at row1 col1. Ice Lance row2 col2; Fingers of Frost row4 col2. Frost Channeling/Arctic Reach columns swapped vs Classic. Row3 col2 occupied unnamed (no Shatter tooltip); Shatter guessed at row3 col3 from icon only.",
-    "Still no tooltip screenshots for: Ignite, Improved Fireball, Impact, Improved Fire Blast, Improved Flamestrike, Shatter, Arcane row1 col3 unnamed.",
-    "Arcane Focus Forever text is +hit (updated). Elemental Precision already scraped as +hit maxRank 5."
+    "Layout from overview.png / overview-focus.png; fix1.png Arcane spent; fix2.png Hot Streak; mage/22.png Wake leftmost.",
+    "P0: Fire r0 = Wake of Fire | Impact | Improved Fireball.",
+    "P0: Arcane Meditation r3c2 (Concentration arrow, maxRank 3); Missile Barrage r3c3 (mage/17).",
+    "P0: Arcane Blast at r1c3 (overview unnamed purple-eye). r2c2 remains empty.",
+    "Blast Wave tooltip exists but Forever overview r4c2 empty \u2014 not placed.",
+    "Frost r3c2 occupied unnamed (no tooltip) \u2014 Shatter at r3c3 from icon/scrape guess."
   ]
 }
