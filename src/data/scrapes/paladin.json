@@ -1,106 +1,884 @@
 {
   "class": "paladin",
-  "overviewFile": null,
-  "trees": [],
+  "overviewFile": "paladin/overview.png",
+  "sourceFiles": [
+    "paladin/overview.png",
+    "paladin/overview3.png",
+    "paladin/overview4.png",
+    "paladin/1.png",
+    "paladin/2.png",
+    "paladin/3.png",
+    "paladin/4.png",
+    "paladin/5.png",
+    "paladin/6.png",
+    "paladin/7.png",
+    "paladin/8.png",
+    "paladin/9.png",
+    "paladin/10.png",
+    "paladin/11.png",
+    "paladin/12.png",
+    "paladin/13.png",
+    "paladin/14.png",
+    "paladin/15.png",
+    "paladin/16.png",
+    "paladin/17.png",
+    "paladin/18.png",
+    "paladin/19.png",
+    "paladin/20.png",
+    "paladin/21.png",
+    "paladin/22.png",
+    "paladin/23.png",
+    "paladin/24.png",
+    "paladin/25.png",
+    "paladin/26.png",
+    "paladin/27.png",
+    "paladin/28.png",
+    "paladin/29.png",
+    "paladin/30.png",
+    "paladin/31.png",
+    "paladin/32.png",
+    "paladin/33.png",
+    "paladin/34.png",
+    "paladin/35.png",
+    "paladin/36.png",
+    "paladin/37.png"
+  ],
+  "notes": "Layout from overview.png (Ret 29 spent) + overview3/4 (0 spent, green available + Conviction tooltip). Pitch 54px. Columns 0-indexed. Classic talents.json used only for classicId/status by name — never for row/col. overview4.png appears duplicate of overview3.png.",
+  "trees": [
+    {
+      "name": "Holy",
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Holy Strike",
+          "iconHint": "Weapon / holy light; green when available",
+          "notes": "19.png leftmost of three green row0 icons",
+          "rankBadge": "0/2"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Clenched fist / paw; grey",
+          "notes": "middle of Holy row0 trio",
+          "rankBadge": "0/?"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Stylized eye; grey",
+          "notes": "right of Holy row0 trio",
+          "rankBadge": "0/?"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon; arrow down toward (2,1)",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon; vertical chain",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon; chain + horizontal to (3,0)",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon; receives horizontal from (4,1)",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon; hub of Holy mid-tree arrows",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon; receives arrow from (4,1)",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey icon; Holy capstone column",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Protection",
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Purple swirl / void; green border available",
+          "notes": "overview3 row0 left available",
+          "rankBadge": "0/?"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Redoubt",
+          "iconHint": "Gauntlet / shield; green; arrow down to (2,2)",
+          "notes": "16.png; Protection header",
+          "rankBadge": "0/5"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Seal of Fury",
+          "iconHint": "Silver gauntlet reaching up",
+          "notes": "20.png second-from-left style row; Forever-only",
+          "rankBadge": "0/1"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey shield / leaf",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Anticipation",
+          "iconHint": "Head/shoulders silhouette",
+          "notes": "17.png; classic Defense Skill talent",
+          "rankBadge": "0/5"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Crossed swords / shield",
+          "notes": "overview occupied; arrow down to (3,0)"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Winged crest",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Shield; receives arrow from Redoubt",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Three silhouettes",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Gauntlet / mace; receives arrow from (2,0)",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Hammer / mace",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Sacred Duty",
+          "iconHint": "Hooded / stylized figure",
+          "notes": "18.png; mentions Templar's Bulwark",
+          "rankBadge": "0/2"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Crested shield; arrow down to (6,1)",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Holy Shield",
+          "iconHint": "Crossed swords / glowing shield",
+          "notes": "22.png; vertical column",
+          "rankBadge": "0/1"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Round shield / buckler",
+          "notes": "overview occupied"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Templar's Bulwark",
+          "iconHint": "Winged shield / heart emblem",
+          "notes": "21.png; Forever-only active; long arrow from (4,1)",
+          "rankBadge": "0/1"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Retribution",
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Deflection",
+          "iconHint": "Crossed white blades / parry X; grey at 0 in 29-pt spend",
+          "notes": "overview.png; Forever tier-1",
+          "rankBadge": "0/5"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Conviction",
+          "iconHint": "Three swirling white/blue wisps; gold border",
+          "notes": "overview3 tooltip on this slot; overview.png 5/5",
+          "rankBadge": "5/5"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Judgement",
+          "iconHint": "Mace / judgement symbol; grey",
+          "notes": "top-left of row1; maxRank 2",
+          "rankBadge": "0/2"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Winged/raised-arm silhouette; grey 0",
+          "notes": "Occupied in overview; no tooltip identity yet",
+          "rankBadge": "0/?"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Benediction",
+          "iconHint": "Gauntlet/sword motif under Conviction; gold 5/5",
+          "notes": "directly under Conviction; Forever moved off Classic (0,2)",
+          "rankBadge": "5/5"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Vindication",
+          "iconHint": "Orange/yellow hand or face energy; gold 3/3",
+          "notes": "row2 leftmost; maxRank 3",
+          "rankBadge": "3/3"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Sanctified Judgement",
+          "iconHint": "Blue/white glowing seal or sword; gold 3/3; arrow down to Vengeance",
+          "notes": "dependency arrow to (4,1)",
+          "rankBadge": "3/3"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Seal of Command",
+          "iconHint": "Red winged figure; gold 1/1",
+          "notes": "maxRank 1; overview spend",
+          "rankBadge": "1/1"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Pursuit of Justice",
+          "iconHint": "Bright white/blue light burst; gold 2/2",
+          "notes": "",
+          "rankBadge": "2/2"
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Eye for an Eye",
+          "iconHint": "Dark mace/shield; grey 0",
+          "notes": "",
+          "rankBadge": "0/2"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Repentance",
+          "iconHint": "Yellow holy sunburst; gold 1/1",
+          "notes": "34.png column context under SoC-style 1",
+          "rankBadge": "1/1"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Crusade",
+          "iconHint": "Orange/yellow glow; gold 2/2",
+          "notes": "",
+          "rankBadge": "2/2"
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Two-Handed Weapon Specialization",
+          "iconHint": "Grey fist / 2H silhouette",
+          "notes": "",
+          "rankBadge": "0/3"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Vengeance",
+          "iconHint": "White sword slash / mailed fist; gold 3/3; receives arrow from (2,1)",
+          "notes": "dependency from row2 col1",
+          "rankBadge": "3/3"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Instrument of Law",
+          "iconHint": "White figure silhouette; grey 0",
+          "notes": "",
+          "rankBadge": "0/2"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Champion of the Light",
+          "iconHint": "Hammer/light strike; gold 3/3",
+          "notes": "above Twist of Light",
+          "rankBadge": "3/3"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Sacred Arbiter",
+          "iconHint": "Hammer on yellow sunburst; green border 1/1",
+          "notes": "",
+          "rankBadge": "1/1"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Twist of Light",
+          "iconHint": "Dark grey hammer/mace frame; inactive",
+          "notes": "bottom of col1 chain under two 3/3; Requires Level 40",
+          "rankBadge": "0/1"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
+      ]
+    }
+  ],
   "talents": [
     {
-      "screenshots": ["paladin/1.png", "paladin/37.png"],
+      "screenshots": [
+        "paladin/1.png",
+        "paladin/37.png"
+      ],
       "name": "Twist of Light",
-      "classicId": null,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Retribution",
+      "row": 6,
+      "col": 1,
       "maxRank": 1,
       "ranks": [
         {
           "rank": 1,
-          "description": "When you replace your Seal of Command, Seal of Righteousness, Seal of Fury, or Seal of Justice with a different Seal, gain an Echo. Your next melee attack applies the replaced Seal's effects, consuming the Echo."
+          "description": "When you replace your Seal of Command, Seal of Righteousness, Seal of Fury, or Seal of Justice with a different Seal, gain an Echo. Your next melee attack applies the replaced Seal's effects, consuming the Echo.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Greyed square at bottom of vertical dependency chain; two maxed (3/3) talents above with gold connector line (37.png)",
-      "requiresLevel": 40,
-      "status": "new",
-      "diffNotes": "Forever-only; Requires Level 40. Passive. No Classic name match."
-    },
-    {
-      "screenshots": ["paladin/2.png"],
-      "name": "Deflection",
-      "classicId": 1403,
-      "tree": null,
-      "row": null,
-      "col": null,
-      "maxRank": 5,
-      "ranks": [
-        {
-          "rank": 1,
-          "description": "Increases your Parry chance by 1%."
-        }
-      ],
-      "iconHint": "Top of green hexagonal talent border visible under tooltip; icon art cropped out",
-      "status": "unchanged",
-      "diffNotes": "Matches Classic foundation Deflection rank 1 (+1% Parry) and maxRank 5. Tree not labeled."
-    },
-    {
-      "screenshots": ["paladin/3.png", "paladin/24.png"],
-      "name": "Holy Conduit",
+      "iconHint": "Grey hammer/mace at bottom of col1 under two 3/3",
       "classicId": null,
-      "tree": "Retribution",
-      "row": null,
-      "col": null,
-      "maxRank": 2,
-      "ranks": [
-        {
-          "rank": 1,
-          "description": "Reduces the mana cost of your Consecration, Holy Wrath, Exorcism, and Hammer of Wrath spells by 20%."
-        }
-      ],
-      "iconHint": "White/silver glowing blade or beam angled diagonally on bright blue-white; green border; rank 0 (24.png)",
       "status": "new",
-      "diffNotes": "Forever-only. Retribution tree title visible in 3.png/24.png. Rank 2 not shown."
+      "diffNotes": "Forever-only; Requires Level 40. overview.png (6,1).",
+      "requiresLevel": 40
     },
     {
-      "screenshots": ["paladin/4.png"],
-      "name": "Improved Judgement",
-      "classicId": 1631,
-      "tree": "Retribution",
-      "row": null,
-      "col": null,
-      "maxRank": 2,
-      "ranks": [
-        {
-          "rank": 1,
-          "description": "Decreases the cooldown of your Judgement ability by 1 sec."
-        }
+      "screenshots": [
+        "paladin/2.png"
       ],
-      "iconHint": "Golden judgement symbol / figure (greyed at rank 0); near top of Retribution panel with points counter 0 above",
-      "status": "unchanged",
-      "diffNotes": "Matches Classic foundation rank 1 (Judgement ability, −1 sec). Retribution tab visible. Absolute row/col not reliable from crop."
-    },
-    {
-      "screenshots": ["paladin/5.png", "paladin/25.png"],
-      "name": "Conviction",
-      "classicId": 1411,
+      "name": "Deflection",
       "tree": "Retribution",
-      "row": null,
-      "col": null,
+      "row": 0,
+      "col": 1,
       "maxRank": 5,
       "ranks": [
         {
           "rank": 1,
-          "description": "Increases your chance to get a critical strike with melee attacks by 1%."
+          "description": "Increases your Parry chance by 1%.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Three white/grey swirling crescent energy shapes on pale blue/dark; green or gold border depending on shot",
+      "iconHint": "Crossed blades / parry X; Forever row0",
+      "classicId": 1403,
       "status": "unchanged",
-      "diffNotes": "Matches Classic foundation rank 1 (melee attacks, +1%). Retribution (...ribution / ...ution) visible."
+      "diffNotes": "Matches Classic rank1 (+1% Parry) maxRank 5. Forever at (0,1) vs Classic (1,2)."
     },
     {
-      "screenshots": ["paladin/6.png"],
-      "name": "Seal of Command",
-      "classicId": 1481,
+      "screenshots": [
+        "paladin/3.png",
+        "paladin/24.png"
+      ],
+      "name": "Holy Conduit",
       "tree": "Retribution",
       "row": null,
       "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the mana cost of your Consecration, Holy Wrath, Exorcism, and Hammer of Wrath spells by 20%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Yellow holy light / sunburst",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "Forever-only. Retribution-labeled in screenshots. Absolute slot uncertain vs Repentance/Crusade on row3 — left null (do not invent)."
+    },
+    {
+      "screenshots": [
+        "paladin/4.png"
+      ],
+      "name": "Improved Judgement",
+      "tree": "Retribution",
+      "row": 1,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Decreases the cooldown of your Judgement ability by 1 sec.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Mace / judgement; grey at 0 in 29-pt spend",
+      "classicId": 1631,
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank1. Forever (1,0)."
+    },
+    {
+      "screenshots": [
+        "paladin/5.png",
+        "paladin/25.png"
+      ],
+      "name": "Conviction",
+      "tree": "Retribution",
+      "row": 0,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your chance to get a critical strike with melee attacks by 1%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Three swirling wisps; overview3 tooltip",
+      "classicId": 1411,
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank1. Forever (0,2); overview3 confirms."
+    },
+    {
+      "screenshots": [
+        "paladin/6.png"
+      ],
+      "name": "Seal of Command",
+      "tree": "Retribution",
+      "row": 2,
+      "col": 2,
       "maxRank": 1,
       "ranks": [
         {
@@ -110,281 +888,337 @@
           "castTime": "Instant"
         }
       ],
-      "iconHint": "Sharp silver sword blade pointing up with bright light-blue/white glow; Retribution header and partial top-of-tree grid visible",
+      "iconHint": "Red winged figure; gold 1/1 in overview",
+      "classicId": 1481,
       "status": "unchanged",
-      "diffNotes": "Matches Classic foundation Seal of Command effect and judgement clause. 65 Mana Instant from Forever tooltip. Partial Retribution grid shown but Forever layout differs from Classic — row/col left null pending overview."
+      "diffNotes": "Matches Classic effect text. Forever (2,2)."
     },
     {
-      "screenshots": ["paladin/7.png", "paladin/27.png"],
+      "screenshots": [
+        "paladin/7.png",
+        "paladin/27.png"
+      ],
       "name": "Sanctified Judgement",
-      "classicId": null,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Retribution",
+      "row": 2,
+      "col": 1,
       "maxRank": 3,
       "ranks": [
         {
           "rank": 1,
-          "description": "Gives your Judgement ability a 33% chance to return 20% of the Mana cost of the judged seal."
+          "description": "Gives your Judgement ability a 33% chance to return 20% of the Mana cost of the judged seal.",
+          "type": "Passive"
         },
         {
           "rank": 3,
-          "description": "Gives your Judgement ability a 100% chance to return 60% of the Mana cost of the judged seal."
+          "description": "Gives your Judgement ability a 100% chance to return 60% of the Mana cost of the judged seal.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Silver/white sword angled diagonally on dark blue/grey; green border at rank 0 (7); humanoid-silhouette neighbor below",
+      "iconHint": "Blue/white glow; arrow down to Vengeance",
+      "classicId": null,
       "status": "new",
-      "diffNotes": "Not in Classic 1.12 Paladin tree. Rank 2 not shown (rank 0→1 preview and rank 3/3 captured)."
+      "diffNotes": "Forever-only. (2,1); dependency to Vengeance (4,1). Rank2 not shown."
     },
     {
-      "screenshots": ["paladin/8.png", "paladin/26.png"],
+      "screenshots": [
+        "paladin/8.png",
+        "paladin/26.png"
+      ],
       "name": "Vindication",
-      "classicId": 1633,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Retribution",
+      "row": 2,
+      "col": 0,
       "maxRank": 3,
       "ranks": [
         {
           "rank": 1,
-          "description": "Gives your damaging melee attacks a chance to reduce the target's Attack Power by 42, and increase your Attack Power by 1% for 30 sec."
+          "description": "Gives your damaging melee attacks a chance to reduce the target's Attack Power by 42, and increase your Attack Power by 1% for 30 sec.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Golden/yellow stylized figure with raised arm on dark (clearest in 26.png); green border; sits above a four-icon row",
+      "iconHint": "Orange/yellow energy hand; gold 3/3",
+      "classicId": 1633,
       "status": "unchanged",
-      "diffNotes": "Matches Classic foundation rank 1 text. Foundation ranks 2–3 still use Strength/Agility reduction wording — Forever ranks 2–3 not shown."
+      "diffNotes": "Matches Classic rank1 text. Forever (2,0)."
     },
     {
-      "screenshots": ["paladin/9.png", "paladin/29.png"],
+      "screenshots": [
+        "paladin/9.png",
+        "paladin/29.png"
+      ],
       "name": "Eye for an Eye",
-      "classicId": 1632,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Retribution",
+      "row": 3,
+      "col": 0,
       "maxRank": 2,
       "ranks": [
         {
           "rank": 1,
-          "description": "All critical strikes against you cause 5% of the damage taken to the attacker as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health."
+          "description": "All critical strikes against you cause 5% of the damage taken to the attacker as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.",
+          "type": "Passive"
         },
         {
           "rank": 2,
-          "description": "All critical strikes against you cause 10% of the damage taken to the attacker as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health."
+          "description": "All critical strikes against you cause 10% of the damage taken to the attacker as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Mostly covered by tooltip; neighboring column shows orange, golden plate, and silver mace icons (29.png)",
+      "iconHint": "Dark mace/shield; grey in overview",
+      "classicId": 1632,
       "status": "updated",
-      "diffNotes": "Forever rank 2 is all critical strikes at 10%. Classic foundation rank 2 is spell criticals only at 30%. Rank 1 text matches Classic."
+      "diffNotes": "Forever rank2 all-crits 10% vs Classic spell-crits 30%. (3,0)."
     },
     {
-      "screenshots": ["paladin/10.png", "paladin/32.png"],
+      "screenshots": [
+        "paladin/10.png",
+        "paladin/32.png"
+      ],
       "name": "Two-Handed Weapon Specialization",
-      "classicId": 1410,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Retribution",
+      "row": 4,
+      "col": 0,
       "maxRank": 3,
       "ranks": [
         {
           "rank": 1,
-          "description": "Increases the damage you deal with two-handed melee weapons by 3%."
+          "description": "Increases the damage you deal with two-handed melee weapons by 3%.",
+          "type": "Passive"
         },
         {
           "rank": 3,
-          "description": "Increases the damage you deal with two-handed melee weapons by 9%."
+          "description": "Increases the damage you deal with two-handed melee weapons by 9%.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Dark silhouette holding upright two-handed weapon (10.png); gold border at rank 3/3 (32.png)",
+      "iconHint": "Grey fist / 2H silhouette",
+      "classicId": 1410,
       "status": "updated",
-      "diffNotes": "Forever rank 3 is 9% (implies 3/6/9). Classic foundation is 3/4/6. Rank 1 text matches Classic."
+      "diffNotes": "Forever rank3 9% (3/6/9) vs Classic 3/4/6. (4,0)."
     },
     {
-      "screenshots": ["paladin/11.png", "paladin/33.png"],
+      "screenshots": [
+        "paladin/11.png",
+        "paladin/33.png"
+      ],
       "name": "Vengeance",
+      "tree": "Retribution",
+      "row": 4,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Physical and Holy damage dealt by 1% for 30 sec after landing a critical strike. Stacks up to 5 times.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "White sword / mailed fist; receives arrow from Sanctified Judgement",
       "classicId": 1402,
-      "tree": null,
-      "row": null,
-      "col": null,
-      "maxRank": 3,
-      "ranks": [
-        {
-          "rank": 1,
-          "description": "Increases your Physical and Holy damage dealt by 1% for 30 sec after landing a critical strike. Stacks up to 5 times."
-        }
-      ],
-      "iconHint": "Mailed fist / gauntlet with white-blue energy (33.png clearer); dependency arrow from talent above at rank 3; green border",
       "status": "unchanged",
-      "diffNotes": "Matches Classic foundation rank 1 and maxRank 3. Foundation ranks 2–3 still use older non-stacking 8-sec wording — Forever ranks 2–3 not shown."
+      "diffNotes": "Matches Classic rank1 stacking text. (4,1)."
     },
     {
-      "screenshots": ["paladin/12.png", "paladin/35.png"],
+      "screenshots": [
+        "paladin/12.png",
+        "paladin/35.png"
+      ],
       "name": "Champion of the Light",
-      "classicId": null,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Retribution",
+      "row": 5,
+      "col": 1,
       "maxRank": 3,
       "ranks": [
         {
           "rank": 1,
-          "description": "Increases your spell damage and healing by up to 33% of your Intellect."
+          "description": "Increases your spell damage and healing by up to 33% of your Intellect.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Figure in white/light-blue radiating light (35.png); dependency arrow from talent above; hammer-silhouette neighbor right/below",
+      "iconHint": "Hammer/light; gold 3/3 above Twist of Light",
+      "classicId": null,
       "status": "new",
-      "diffNotes": "Not in Classic 1.12 Paladin tree. Prerequisite arrow from talent above."
+      "diffNotes": "Forever-only. (5,1)."
     },
     {
-      "screenshots": ["paladin/13.png", "paladin/28.png"],
+      "screenshots": [
+        "paladin/13.png",
+        "paladin/28.png"
+      ],
       "name": "Pursuit of Justice",
+      "tree": "Retribution",
+      "row": 2,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases movement speed and mounted movement speed by 8%. This does not stack with other movement speed increasing effects.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Bright blue-white burst; gold 2/2",
       "classicId": 1634,
-      "tree": null,
-      "row": null,
-      "col": null,
-      "maxRank": 2,
-      "ranks": [
-        {
-          "rank": 1,
-          "description": "Increases movement speed and mounted movement speed by 8%. This does not stack with other movement speed increasing effects."
-        }
-      ],
-      "iconHint": "Glowing white/blue hand reaching upward (clearest in 28.png); green border; empty slot directly below in 28",
       "status": "unchanged",
-      "diffNotes": "Matches Classic foundation rank 1 (8%)."
+      "diffNotes": "Matches Classic rank1. (2,3)."
     },
     {
-      "screenshots": ["paladin/14.png", "paladin/31.png"],
+      "screenshots": [
+        "paladin/14.png",
+        "paladin/31.png"
+      ],
       "name": "Crusade",
-      "classicId": null,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Retribution",
+      "row": 3,
+      "col": 3,
       "maxRank": 2,
       "ranks": [
         {
           "rank": 1,
-          "description": "Increases all damage dealt by 1%. Increased by an additional 1% against Demon and Undead targets."
+          "description": "Increases all damage dealt by 1%. Increased by an additional 1% against Demon and Undead targets.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Yellow/gold icon below a blue-white upward-hand neighbor at rank 2 (31.png); vertical stack",
+      "iconHint": "Orange/yellow glow; gold 2/2",
+      "classicId": null,
       "status": "new",
-      "diffNotes": "Not in Classic 1.12 Paladin tree. Rank 2 not shown."
+      "diffNotes": "Forever-only. (3,3). Rank2 not shown."
     },
     {
-      "screenshots": ["paladin/15.png", "paladin/36.png"],
+      "screenshots": [
+        "paladin/15.png",
+        "paladin/36.png"
+      ],
       "name": "Instrument of Law",
-      "classicId": null,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Retribution",
+      "row": 4,
+      "col": 2,
       "maxRank": 2,
       "ranks": [
         {
           "rank": 1,
-          "description": "Reduces the cast time of your Hammer of Wrath by 0.5 sec, and reduces all threat you generate by 10% while Righteous Fury is not active."
+          "description": "Reduces the cast time of your Hammer of Wrath by 0.5 sec, and reduces all threat you generate by 10% while Righteous Fury is not active.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Silhouette holding hammer aloft on bright orange/yellow sunburst (36.png); green border rank 0; in a vertical column",
+      "iconHint": "White figure / hammer silhouette; grey 0 in overview",
+      "classicId": null,
       "status": "new",
-      "diffNotes": "Forever-only; not in Classic 1.12. Rank 2 not shown."
+      "diffNotes": "Forever-only. (4,2). Rank2 not shown."
     },
     {
-      "screenshots": ["paladin/16.png"],
+      "screenshots": [
+        "paladin/16.png"
+      ],
       "name": "Redoubt",
-      "classicId": 1421,
       "tree": "Protection",
-      "row": null,
-      "col": null,
+      "row": 0,
+      "col": 2,
       "maxRank": 5,
       "ranks": [
         {
           "rank": 1,
-          "description": "Damaging melee attacks against you have a 10% chance to increase your chance to block by 6%. Lasts 10 sec or 5 blocks."
+          "description": "Damaging melee attacks against you have a 10% chance to increase your chance to block by 6%. Lasts 10 sec or 5 blocks.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Silver armored gauntlet/hand; green border; vertical dependency line downward; Protection (...tection) header above",
+      "iconHint": "Gauntlet; green; arrow down",
+      "classicId": 1421,
       "status": "unchanged",
-      "diffNotes": "Matches Classic foundation rank 1. Protection tab visible. Foundation ranks 2–5 still use after-critical-strike wording — Forever ranks 2–5 not shown."
+      "diffNotes": "Matches Classic rank1. Protection (0,2)."
     },
     {
-      "screenshots": ["paladin/17.png"],
+      "screenshots": [
+        "paladin/17.png"
+      ],
       "name": "Anticipation",
-      "classicId": 1629,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Protection",
+      "row": 1,
+      "col": 3,
       "maxRank": 5,
       "ranks": [
         {
           "rank": 1,
-          "description": "Increases your Defense Skill by 4."
+          "description": "Increases your Defense Skill by 4.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Partial metallic gauntlet/fist under tooltip anchor",
+      "iconHint": "Head silhouette; Protection row1 right",
+      "classicId": 1629,
       "status": "unchanged",
-      "diffNotes": "Matches Classic foundation rank 1 (+4 Defense Skill)."
+      "diffNotes": "Matches Classic rank1. (1,3)."
     },
     {
-      "screenshots": ["paladin/18.png"],
+      "screenshots": [
+        "paladin/18.png"
+      ],
       "name": "Sacred Duty",
-      "classicId": null,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Protection",
+      "row": 3,
+      "col": 2,
       "maxRank": 2,
       "ranks": [
         {
           "rank": 1,
-          "description": "Increases your total Stamina by 2% and reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 30 sec."
+          "description": "Increases your total Stamina by 2% and reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 30 sec.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Dark desaturated humanoid head/shoulders silhouette under cursor",
+      "iconHint": "Hooded figure",
+      "classicId": null,
       "status": "new",
-      "diffNotes": "Not in Classic 1.12; mentions Templar's Bulwark. Tree not labeled. Rank 2 not shown."
+      "diffNotes": "Forever-only; mentions Templar's Bulwark. (3,2)."
     },
     {
-      "screenshots": ["paladin/19.png"],
+      "screenshots": [
+        "paladin/19.png"
+      ],
       "name": "Improved Holy Strike",
-      "classicId": null,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Holy",
+      "row": 0,
+      "col": 0,
       "maxRank": 2,
       "ranks": [
         {
           "rank": 1,
-          "description": "Reduces the cooldown of your Holy Strike ability by 1 sec."
+          "description": "Reduces the cooldown of your Holy Strike ability by 1 sec.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Golden mace/hammer head on bright field; green border; leftmost of three green-border icons (purple fist and eye neighbors)",
+      "iconHint": "Holy weapon light; leftmost of Holy row0 trio",
+      "classicId": null,
       "status": "new",
-      "diffNotes": "Forever-only; Holy Strike is not a Classic Paladin ability. Rank 2 not shown."
+      "diffNotes": "Forever-only. Holy (0,0)."
     },
     {
-      "screenshots": ["paladin/20.png"],
+      "screenshots": [
+        "paladin/20.png"
+      ],
       "name": "Improved Seal of Fury",
-      "classicId": null,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Protection",
+      "row": 1,
+      "col": 0,
       "maxRank": 1,
       "ranks": [
         {
           "rank": 1,
-          "description": "When Seal of Fury's shield is fully absorbed, restore 38 Mana, increased by 15% per level the attacker is above you, up to 45%."
+          "description": "When Seal of Fury's shield is fully absorbed, restore 38 Mana, increased by 15% per level the attacker is above you, up to 45%.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Silver armored gauntlet/hand reaching upward; second from left in a four-icon row with connector from above",
+      "iconHint": "Silver gauntlet reaching upward",
+      "classicId": null,
       "status": "new",
-      "diffNotes": "Forever-only; Seal of Fury not in Classic 1.12 talent data. No tree label in crop."
+      "diffNotes": "Forever-only. Protection (1,0)."
     },
     {
-      "screenshots": ["paladin/21.png"],
+      "screenshots": [
+        "paladin/21.png"
+      ],
       "name": "Templar's Bulwark",
-      "classicId": null,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Protection",
+      "row": 6,
+      "col": 1,
       "maxRank": 1,
       "ranks": [
         {
@@ -395,17 +1229,19 @@
           "cooldown": "5 min"
         }
       ],
-      "iconHint": "Grey/metallic shield with two feathered wings; bottom of left column; crossed-swords neighbor right",
+      "iconHint": "Winged shield; Protection capstone",
+      "classicId": null,
       "status": "new",
-      "diffNotes": "Forever-only active talent. 110 Mana, Instant, 5 min cooldown from tooltip."
+      "diffNotes": "Forever-only active. (6,1)."
     },
     {
-      "screenshots": ["paladin/22.png"],
+      "screenshots": [
+        "paladin/22.png"
+      ],
       "name": "Holy Shield",
-      "classicId": 1430,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Protection",
+      "row": 4,
+      "col": 2,
       "maxRank": 1,
       "ranks": [
         {
@@ -416,53 +1252,61 @@
           "cooldown": "10 sec"
         }
       ],
-      "iconHint": "Shield with glowing center; middle of vertical dependency column (crossed swords above, heart/fist below)",
+      "iconHint": "Glowing shield in Prot mid-column",
+      "classicId": 1430,
       "status": "unchanged",
-      "diffNotes": "Matches Classic foundation effect text (20% block / 110 Holy). Requires Shields in red. Forever tooltip also shows 150 Mana, Instant, 10 sec cooldown."
+      "diffNotes": "Matches Classic effect. Forever adds 150 Mana / Instant / 10 sec. (4,2)."
     },
     {
-      "screenshots": ["paladin/23.png"],
+      "screenshots": [
+        "paladin/23.png"
+      ],
       "name": "Benediction",
-      "classicId": 1407,
       "tree": "Retribution",
-      "row": null,
-      "col": null,
+      "row": 1,
+      "col": 2,
       "maxRank": 5,
       "ranks": [
         {
           "rank": 1,
-          "description": "Reduces the Mana cost of all instant cast spells and abilities by 2%."
+          "description": "Reduces the Mana cost of all instant cast spells and abilities by 2%.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Three white swirling curved shapes (triskelion) on dark; green circular border; Retribution (...ution) visible left",
+      "iconHint": "Under Conviction; gold 5/5 in overview",
+      "classicId": 1407,
       "status": "unchanged",
-      "diffNotes": "Matches Classic foundation rank 1. Retribution label visible. Foundation ranks 2–5 still say Judgement/Seal mana only — Forever ranks 2–5 not shown."
+      "diffNotes": "Matches Classic rank1 wording shift to all instant casts (Foundation ranks 2–5 still Judgement/Seal-only — Forever ranks 2–5 not shown). Forever (1,2)."
     },
     {
-      "screenshots": ["paladin/30.png"],
+      "screenshots": [
+        "paladin/30.png"
+      ],
       "name": "Sacred Arbiter",
-      "classicId": null,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Retribution",
+      "row": 5,
+      "col": 2,
       "maxRank": 1,
       "ranks": [
         {
           "rank": 1,
-          "description": "Increases the damage of your Holy Strike ability by 10% and causes it to refresh all Judgement effects on the target."
+          "description": "Increases the damage of your Holy Strike ability by 10% and causes it to refresh all Judgement effects on the target.",
+          "type": "Passive"
         }
       ],
-      "iconHint": "Stylized golden glowing hand/gauntlet; green border; bottom of vertical column under rank-1 and rank-5 icons above",
+      "iconHint": "Hammer on yellow sunburst; green border 1/1",
+      "classicId": null,
       "status": "new",
-      "diffNotes": "Forever-only; ties to Holy Strike. Yellow silhouette neighbor to the right."
+      "diffNotes": "Forever-only. (5,2)."
     },
     {
-      "screenshots": ["paladin/34.png"],
+      "screenshots": [
+        "paladin/34.png"
+      ],
       "name": "Repentance",
-      "classicId": 1441,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Retribution",
+      "row": 3,
+      "col": 2,
       "maxRank": 1,
       "ranks": [
         {
@@ -474,19 +1318,22 @@
           "cooldown": "1 min"
         }
       ],
-      "iconHint": "Golden winged figure on dark red; second in a four-icon vertical column (sword 5 above; gold 1 and blue 0 below)",
+      "iconHint": "Winged/golden figure in vertical column with ranks 5 and 1 above",
+      "classicId": 1441,
       "status": "unchanged",
-      "diffNotes": "Matches Classic foundation effect text. Forever tooltip adds 60 Mana, 20 yd, Instant, 1 min cooldown."
+      "diffNotes": "Matches Classic effect. Forever adds 60 Mana, 20 yd, Instant, 1 min. overview (3,2)."
     }
   ],
   "unmatchedScreenshots": [],
   "layoutNotes": [
-    "Listed public/paladin/: 1.png–37.png (37 files). No overview/image.png — overviewFile null; trees[] empty; all row/col null (IGNORE Classic placement). Partial Retribution/Protection headers+grids do not yield reliable Forever absolute coords.",
-    "Counts: 25 talents / 11 new / 2 updated / 12 unchanged / 0 unmatched. All 37 PNGs accounted for.",
-    "Duplicate tooltip shots merged: Twist of Light (1+37), Holy Conduit (3+24), Conviction (5+25), Sanctified Judgement (7+27), Vindication (8+26), Eye for an Eye (9+29), Two-Handed Weapon Specialization (10+32), Vengeance (11+33), Champion of the Light (12+35), Pursuit of Justice (13+28), Crusade (14+31), Instrument of Law (15+36).",
-    "Retribution label: Holy Conduit, Improved Judgement, Conviction, Seal of Command, Benediction. Protection label: Redoubt (...tection).",
+    "overview.png / overview3.png / overview4.png present (prior scrape wrongly claimed none). overview4≈overview3.",
+    "Retribution occupied (overview.png 29 spent): (0,1 Deflection)(0,2 Conviction) (1,0 Imp Judgement)(1,1 ?)(1,2 Benediction) (2,0 Vindication)(2,1 Sanctified Judgement)(2,2 Seal of Command)(2,3 Pursuit of Justice) (3,0 Eye for an Eye)(3,2 Repentance)(3,3 Crusade) (4,0 2H Spec)(4,1 Vengeance)(4,2 Instrument of Law) (5,1 Champion of the Light)(5,2 Sacred Arbiter) (6,1 Twist of Light). Empty (3,1)=arrow pass-through. Spent ranks sum 29.",
+    "Holy occupied: (0,0-2)(1,0-3)(2,0-2)(3,0-2)(4,0-2)(5,1)(6,1). Only Improved Holy Strike has a tooltip among Holy screenshots.",
+    "Protection occupied: (0,1)(0,2 Redoubt)(1,0 Imp Seal of Fury)(1,1)(1,3 Anticipation)(2,0-3)(3,0-2 Sacred Duty)(4,1)(4,2 Holy Shield)(5,2)(6,1 Templar's Bulwark).",
+    "Counts: 25 talents / 11 new / 2 updated / 12 unchanged / 0 unmatched. All 37 PNGs merged into 25 entries.",
     "new: Twist of Light, Holy Conduit, Sanctified Judgement, Champion of the Light, Crusade, Instrument of Law, Sacred Duty, Improved Holy Strike, Improved Seal of Fury, Templar's Bulwark, Sacred Arbiter.",
-    "updated: Eye for an Eye (rank 2 all-crits 10% vs Classic spell-crits 30%), Two-Handed Weapon Specialization (rank 3 9% vs Classic 6%).",
-    "classicId/status from talents.json Paladin by name match only — never used for row/col."
+    "updated: Eye for an Eye (rank2 all-crits 10% vs Classic spell-crits 30%), Two-Handed Weapon Specialization (rank3 9% vs Classic 6%).",
+    "Holy Conduit row/col null (Ret tree, slot ambiguous). Ret (1,1) occupied, unnamed.",
+    "classicId/status from talents.json by name only — never used for row/col."
   ]
 }
