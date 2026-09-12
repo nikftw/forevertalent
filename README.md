@@ -13,6 +13,8 @@ npm run dev
 
 Open http://localhost:3000 — it starts on Mage.
 
+Live site: https://nikftw.github.io/forevertalent/
+
 - Left click: spend a point
 - Right click: remove a point
 - Shift-click: fill that talent

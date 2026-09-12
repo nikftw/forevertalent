@@ -1,3 +1,5 @@
+import { withBasePath } from "@/lib/basePath";
+
 const ICON_BASE = "https://wow.zamimg.com/images/wow/icons";
 
 export function iconUrl(icon: string, size: "medium" | "large" = "large"): string {
@@ -6,7 +8,7 @@ export function iconUrl(icon: string, size: "medium" | "large" = "large"): strin
 
 export function treeBackgroundUrl(classSlug: string, treeName: string): string {
   const file = treeName.toLowerCase().replace(/\s+/g, "-");
-  return `/backgrounds/${classSlug}/${file}.jpg`;
+  return withBasePath(`/backgrounds/${classSlug}/${file}.jpg`);
 }
 
 export function classIconUrl(icon: string): string {

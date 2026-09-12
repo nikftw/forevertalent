@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { classIconUrl } from "@/lib/assets";
 import type { PlayerClass } from "@/data/types";
 
@@ -14,7 +15,7 @@ export function ClassSelect({ classes, activeSlug }: ClassSelectProps) {
       {classes.map((cls) => {
         const active = cls.slug === activeSlug;
         return (
-          <a
+          <Link
             key={cls.slug}
             href={`/${cls.slug}`}
             title={cls.name}
@@ -22,7 +23,7 @@ export function ClassSelect({ classes, activeSlug }: ClassSelectProps) {
             style={{ ["--class-color" as string]: cls.color }}
           >
             <img src={classIconUrl(cls.icon)} alt={cls.name} width={36} height={36} />
-          </a>
+          </Link>
         );
       })}
     </nav>

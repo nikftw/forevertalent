@@ -10,7 +10,7 @@ type CalculatorPageProps = {
 };
 
 export function generateStaticParams() {
-  return CLASSES.map((cls) => ({ classSlug: cls.slug }));
+  return CLASSES.map((cls) => ({ classSlug: cls.slug, build: [] }));
 }
 
 export async function generateMetadata({ params }: CalculatorPageProps) {

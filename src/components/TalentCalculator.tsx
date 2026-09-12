@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { ClassSelect } from "@/components/ClassSelect";
 import { TalentTreeCard } from "@/components/TalentTree";
+import { withBasePath } from "@/lib/basePath";
 import { CLASSES, MAX_POINTS } from "@/lib/classes";
 import {
   applyAction,
@@ -29,11 +30,18 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
   const build = encodeBuild(cls, ranks);
 
   useEffect(() => {
-    const nextPath = build ? `/${cls.slug}/${build}` : `/${cls.slug}`;
+    const hash = window.location.hash.replace(/^#/, "");
+    if (hash && !build) {
+      setRanks(decodeBuild(cls, hash));
+      return;
+    }
+    const nextPath = build
+      ? withBasePath(`/${cls.slug}/${build}`)
+      : withBasePath(`/${cls.slug}/`);
     if (window.location.pathname !== nextPath) {
       window.history.replaceState(null, "", nextPath);
     }
-  }, [build, cls.slug]);
+  }, [build, cls]);
 
   function update(next: RankState) {
     setRanks(next);
@@ -41,7 +49,10 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
   }
 
   async function copyBuild() {
-    const url = `${window.location.origin}/${cls.slug}${build ? `/${build}` : ""}`;
+    const path = build
+      ? withBasePath(`/${cls.slug}/${build}`)
+      : withBasePath(`/${cls.slug}/`);
+    const url = `${window.location.origin}${path}`;
     await navigator.clipboard.writeText(url);
     setCopied(true);
   }
