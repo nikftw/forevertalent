@@ -332,10 +332,8 @@ body {
 }
 
 .talent-tooltip {
-  position: absolute;
-  z-index: 20;
-  left: 48px;
-  top: 48px;
+  position: fixed;
+  z-index: 1000;
   min-width: 15rem;
   max-width: 19rem;
   padding: 8px 10px;
@@ -435,10 +433,10 @@ body {
 
 @media (max-width: 500px) {
   .talent-tooltip {
-    position: fixed;
-    left: 1rem;
+    left: 1rem !important;
     right: 1rem;
     bottom: 1rem;
+    top: auto !important;
     max-width: none;
   }
 }

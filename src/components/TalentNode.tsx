@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { iconUrl } from "@/lib/assets";
 import { reviewLabel, talentReview } from "@/lib/review";
 import {
@@ -22,6 +23,11 @@ type TalentNodeProps = {
   onClear: () => void;
 };
 
+type TooltipPos = {
+  top: number;
+  left: number;
+};
+
 export function TalentNode({
   cls,
   talent,
@@ -31,7 +37,9 @@ export function TalentNode({
   onMax,
   onClear,
 }: TalentNodeProps) {
+  const slotRef = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
+  const [pos, setPos] = useState<TooltipPos | null>(null);
   const current = rankOf(ranks, talent.id);
   const availability = talentAvailability(cls, ranks, talent);
   const learnable = canLearn(cls, ranks, talent.id);
@@ -42,8 +50,61 @@ export function TalentNode({
     current > 0 && current < talent.maxRank ? talent.ranks[current] : undefined;
   const review = talentReview(talent);
 
+  useLayoutEffect(() => {
+    if (!open || !slotRef.current) {
+      setPos(null);
+      return;
+    }
+
+    function update() {
+      const slot = slotRef.current;
+      if (!slot) return;
+      const rect = slot.getBoundingClientRect();
+      setPos({ top: rect.bottom - 12, left: rect.right - 12 });
+    }
+
+    update();
+    window.addEventListener("scroll", update, true);
+    window.addEventListener("resize", update);
+    return () => {
+      window.removeEventListener("scroll", update, true);
+      window.removeEventListener("resize", update);
+    };
+  }, [open]);
+
+  const tooltip =
+    open && currentRank && pos
+      ? createPortal(
+          <div
+            className="talent-tooltip"
+            role="tooltip"
+            style={{ top: pos.top, left: pos.left }}
+          >
+            <div className="tooltip-head">
+              <strong>{talent.name}</strong>
+              <span>
+                Rank {current}/{talent.maxRank}
+              </span>
+            </div>
+            <p>{formatTooltip(currentRank.description)}</p>
+            {nextRank ? (
+              <>
+                <div className="tooltip-next">Next rank:</div>
+                <p>{formatTooltip(nextRank.description)}</p>
+              </>
+            ) : null}
+            {learnable ? <div className="tooltip-hint">Click to learn</div> : null}
+            {unlearnable ? (
+              <div className="tooltip-hint">Right-click to unlearn</div>
+            ) : null}
+          </div>,
+          document.body,
+        )
+      : null;
+
   return (
     <div
+      ref={slotRef}
       className="talent-slot"
       style={{ gridColumn: talent.col + 1, gridRow: talent.row + 1 }}
       onMouseEnter={() => setOpen(true)}
@@ -75,27 +136,7 @@ export function TalentNode({
           {current}/{talent.maxRank}
         </span>
       </button>
-      {open && currentRank ? (
-        <div className="talent-tooltip" role="tooltip">
-          <div className="tooltip-head">
-            <strong>{talent.name}</strong>
-            <span>
-              Rank {current}/{talent.maxRank}
-            </span>
-          </div>
-          {currentRank ? <p>{formatTooltip(currentRank.description)}</p> : null}
-          {nextRank ? (
-            <>
-              <div className="tooltip-next">Next rank:</div>
-              <p>{formatTooltip(nextRank.description)}</p>
-            </>
-          ) : null}
-          {learnable ? <div className="tooltip-hint">Click to learn</div> : null}
-          {unlearnable ? (
-            <div className="tooltip-hint">Right-click to unlearn</div>
-          ) : null}
-        </div>
-      ) : null}
+      {tooltip}
     </div>
   );
 }
