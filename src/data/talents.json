@@ -1368,6 +1368,27 @@
           "name": "Holy",
           "talents": [
             {
+              "id": 90306,
+              "row": 0,
+              "col": 0,
+              "icon": "spell_holy_sealofrighteousness",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Improved Holy Strike",
+              "ranks": [
+                {
+                  "spellId": 900760,
+                  "name": "Improved Holy Strike",
+                  "description": "Reduces the cooldown of your Holy Strike ability by 1 sec."
+                },
+                {
+                  "spellId": 900761,
+                  "name": "Improved Holy Strike",
+                  "description": "Reduces the cooldown of your Holy Strike ability by 2 sec."
+                }
+              ]
+            },
+            {
               "id": 1450,
               "row": 0,
               "col": 1,
@@ -1436,6 +1457,27 @@
                   "spellId": 20261,
                   "name": "Divine Intellect",
                   "description": "Increases your total Intellect by 10%."
+                }
+              ]
+            },
+            {
+              "id": 1628,
+              "row": 1,
+              "col": 0,
+              "icon": "spell_holy_unyieldingfaith",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Unyielding Faith",
+              "ranks": [
+                {
+                  "spellId": 9453,
+                  "name": "Unyielding Faith",
+                  "description": "Increases your chance to resist Fear and Disorient effects by an additional 5%."
+                },
+                {
+                  "spellId": 25836,
+                  "name": "Unyielding Faith",
+                  "description": "Increases your chance to resist Fear and Disorient effects by an additional 10%."
                 }
               ]
             },
@@ -1512,6 +1554,42 @@
               ]
             },
             {
+              "id": 1627,
+              "row": 1,
+              "col": 3,
+              "icon": "spell_holy_power",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Holy Power",
+              "ranks": [
+                {
+                  "spellId": 5923,
+                  "name": "Holy Power",
+                  "description": "Increases the critical effect chance of your Holy spells by 1%."
+                },
+                {
+                  "spellId": 5924,
+                  "name": "Holy Power",
+                  "description": "Increases the critical effect chance of your Holy spells by 2%."
+                },
+                {
+                  "spellId": 5925,
+                  "name": "Holy Power",
+                  "description": "Increases the critical effect chance of your Holy spells by 3%."
+                },
+                {
+                  "spellId": 5926,
+                  "name": "Holy Power",
+                  "description": "Increases the critical effect chance of your Holy spells by 4%."
+                },
+                {
+                  "spellId": 25829,
+                  "name": "Holy Power",
+                  "description": "Increases the critical effect chance of your Holy spells by 5%."
+                }
+              ]
+            },
+            {
               "id": 1444,
               "row": 2,
               "col": 0,
@@ -1571,27 +1649,6 @@
                   "spellId": 20235,
                   "name": "Improved Lay on Hands",
                   "description": "Gives the target of your Lay on Hands spell a 30% bonus to their armor value from items for 2 min.  In addition, the cooldown for your Lay on Hands spell is reduced by 20 min."
-                }
-              ]
-            },
-            {
-              "id": 1628,
-              "row": 2,
-              "col": 3,
-              "icon": "spell_holy_unyieldingfaith",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Unyielding Faith",
-              "ranks": [
-                {
-                  "spellId": 9453,
-                  "name": "Unyielding Faith",
-                  "description": "Increases your chance to resist Fear and Disorient effects by an additional 5%."
-                },
-                {
-                  "spellId": 25836,
-                  "name": "Unyielding Faith",
-                  "description": "Increases your chance to resist Fear and Disorient effects by an additional 10%."
                 }
               ]
             },
@@ -1700,42 +1757,6 @@
               ]
             },
             {
-              "id": 1627,
-              "row": 5,
-              "col": 2,
-              "icon": "spell_holy_power",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Holy Power",
-              "ranks": [
-                {
-                  "spellId": 5923,
-                  "name": "Holy Power",
-                  "description": "Increases the critical effect chance of your Holy spells by 1%."
-                },
-                {
-                  "spellId": 5924,
-                  "name": "Holy Power",
-                  "description": "Increases the critical effect chance of your Holy spells by 2%."
-                },
-                {
-                  "spellId": 5925,
-                  "name": "Holy Power",
-                  "description": "Increases the critical effect chance of your Holy spells by 3%."
-                },
-                {
-                  "spellId": 5926,
-                  "name": "Holy Power",
-                  "description": "Increases the critical effect chance of your Holy spells by 4%."
-                },
-                {
-                  "spellId": 25829,
-                  "name": "Holy Power",
-                  "description": "Increases the critical effect chance of your Holy spells by 5%."
-                }
-              ]
-            },
-            {
               "id": 1502,
               "row": 6,
               "col": 1,
@@ -1836,28 +1857,18 @@
               ]
             },
             {
-              "id": 1630,
+              "id": 90307,
               "row": 1,
               "col": 0,
-              "icon": "ability_rogue_ambush",
-              "maxRank": 3,
+              "icon": "spell_holy_sealoffury",
+              "maxRank": 1,
               "requires": [],
-              "name": "Precision",
+              "name": "Improved Seal of Fury",
               "ranks": [
                 {
-                  "spellId": 20189,
-                  "name": "Precision",
-                  "description": "Increases your chance to hit with melee weapons by 1%."
-                },
-                {
-                  "spellId": 20192,
-                  "name": "Precision",
-                  "description": "Increases your chance to hit with melee weapons by 2%."
-                },
-                {
-                  "spellId": 20193,
-                  "name": "Precision",
-                  "description": "Increases your chance to hit with melee weapons by 3%."
+                  "spellId": 900770,
+                  "name": "Improved Seal of Fury",
+                  "description": "When Seal of Fury's shield is fully absorbed, restore 38 Mana, increased by 15% per level the attacker is above you, up to 45%."
                 }
               ]
             },
@@ -1883,38 +1894,38 @@
               ]
             },
             {
-              "id": 1423,
+              "id": 1629,
               "row": 1,
               "col": 3,
-              "icon": "spell_holy_devotion",
+              "icon": "spell_magic_lesserinvisibilty",
               "maxRank": 5,
               "requires": [],
-              "name": "Toughness",
+              "name": "Anticipation",
               "ranks": [
                 {
-                  "spellId": 20143,
-                  "name": "Toughness",
-                  "description": "Increases your armor value from items by 2%."
+                  "spellId": 20096,
+                  "name": "Anticipation",
+                  "description": "Increases your Defense Skill by 4."
                 },
                 {
-                  "spellId": 20144,
-                  "name": "Toughness",
-                  "description": "Increases your armor value from items by 4%."
+                  "spellId": 20097,
+                  "name": "Anticipation",
+                  "description": "Increases your Defense skill by 4."
                 },
                 {
-                  "spellId": 20145,
-                  "name": "Toughness",
-                  "description": "Increases your armor value from items by 6%."
+                  "spellId": 20098,
+                  "name": "Anticipation",
+                  "description": "Increases your Defense skill by 6."
                 },
                 {
-                  "spellId": 20146,
-                  "name": "Toughness",
-                  "description": "Increases your armor value from items by 8%."
+                  "spellId": 20099,
+                  "name": "Anticipation",
+                  "description": "Increases your Defense skill by 8."
                 },
                 {
-                  "spellId": 20147,
-                  "name": "Toughness",
-                  "description": "Increases your armor value from items by 10%."
+                  "spellId": 20100,
+                  "name": "Anticipation",
+                  "description": "Increases your Defense skill by 10."
                 }
               ]
             },
@@ -1992,38 +2003,64 @@
               ]
             },
             {
-              "id": 1629,
+              "id": 1630,
               "row": 2,
               "col": 3,
-              "icon": "spell_magic_lesserinvisibilty",
-              "maxRank": 5,
+              "icon": "ability_rogue_ambush",
+              "maxRank": 3,
               "requires": [],
-              "name": "Anticipation",
+              "name": "Precision",
               "ranks": [
                 {
-                  "spellId": 20096,
-                  "name": "Anticipation",
-                  "description": "Increases your Defense Skill by 4."
+                  "spellId": 20189,
+                  "name": "Precision",
+                  "description": "Increases your chance to hit with melee weapons by 1%."
                 },
                 {
-                  "spellId": 20097,
-                  "name": "Anticipation",
-                  "description": "Increases your Defense skill by 4."
+                  "spellId": 20192,
+                  "name": "Precision",
+                  "description": "Increases your chance to hit with melee weapons by 2%."
                 },
                 {
-                  "spellId": 20098,
-                  "name": "Anticipation",
-                  "description": "Increases your Defense skill by 6."
+                  "spellId": 20193,
+                  "name": "Precision",
+                  "description": "Increases your chance to hit with melee weapons by 3%."
+                }
+              ]
+            },
+            {
+              "id": 1423,
+              "row": 3,
+              "col": 0,
+              "icon": "spell_holy_devotion",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Toughness",
+              "ranks": [
+                {
+                  "spellId": 20143,
+                  "name": "Toughness",
+                  "description": "Increases your armor value from items by 2%."
                 },
                 {
-                  "spellId": 20099,
-                  "name": "Anticipation",
-                  "description": "Increases your Defense skill by 8."
+                  "spellId": 20144,
+                  "name": "Toughness",
+                  "description": "Increases your armor value from items by 4%."
                 },
                 {
-                  "spellId": 20100,
-                  "name": "Anticipation",
-                  "description": "Increases your Defense skill by 10."
+                  "spellId": 20145,
+                  "name": "Toughness",
+                  "description": "Increases your armor value from items by 6%."
+                },
+                {
+                  "spellId": 20146,
+                  "name": "Toughness",
+                  "description": "Increases your armor value from items by 8%."
+                },
+                {
+                  "spellId": 20147,
+                  "name": "Toughness",
+                  "description": "Increases your armor value from items by 10%."
                 }
               ]
             },
@@ -2054,28 +2091,23 @@
               ]
             },
             {
-              "id": 1626,
+              "id": 90305,
               "row": 3,
               "col": 2,
-              "icon": "spell_holy_mindsooth",
-              "maxRank": 3,
+              "icon": "spell_holy_divinepurpose",
+              "maxRank": 2,
               "requires": [],
-              "name": "Improved Concentration Aura",
+              "name": "Sacred Duty",
               "ranks": [
                 {
-                  "spellId": 20254,
-                  "name": "Improved Concentration Aura",
-                  "description": "Increases the effect of your Concentration Aura by an additional 5% and gives all group members affected by the aura an additional 5% chance to resist Silence and Interrupt effects."
+                  "spellId": 900750,
+                  "name": "Sacred Duty",
+                  "description": "Increases your total Stamina by 2% and reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 30 sec."
                 },
                 {
-                  "spellId": 20255,
-                  "name": "Improved Concentration Aura",
-                  "description": "Increases the effect of your Concentration Aura by an additional 10% and gives all group members affected by the aura an additional 10% chance to resist Silence and Interrupt effects."
-                },
-                {
-                  "spellId": 20256,
-                  "name": "Improved Concentration Aura",
-                  "description": "Increases the effect of your Concentration Aura by an additional 15% and gives all group members affected by the aura an additional 15% chance to resist Silence and Interrupt effects."
+                  "spellId": 900751,
+                  "name": "Sacred Duty",
+                  "description": "Increases your total Stamina by 4% and reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 60 sec."
                 }
               ]
             },
@@ -2096,38 +2128,23 @@
               ]
             },
             {
-              "id": 1426,
+              "id": 1430,
               "row": 4,
               "col": 2,
-              "icon": "spell_holy_blessingofstrength",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Reckoning",
+              "icon": "classic_spell_holy_blessingofprotection",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 90305,
+                  "qty": 2
+                }
+              ],
+              "name": "Holy Shield",
               "ranks": [
                 {
-                  "spellId": 20177,
-                  "name": "Reckoning",
-                  "description": "Gives you a 20% chance to gain an extra attack after being the victim of a critical strike."
-                },
-                {
-                  "spellId": 20179,
-                  "name": "Reckoning",
-                  "description": "Gives you a 40% chance to gain an extra attack after being the victim of a critical strike."
-                },
-                {
-                  "spellId": 20181,
-                  "name": "Reckoning",
-                  "description": "Gives you a 60% chance to gain an extra attack after being the victim of a critical strike."
-                },
-                {
-                  "spellId": 20180,
-                  "name": "Reckoning",
-                  "description": "Gives you a 80% chance to gain an extra attack after being the victim of a critical strike."
-                },
-                {
-                  "spellId": 20182,
-                  "name": "Reckoning",
-                  "description": "Gives you a 100% chance to gain an extra attack after being the victim of a critical strike."
+                  "spellId": 20925,
+                  "name": "Holy Shield",
+                  "description": "Increases chance to block by 20% for 10 sec, and deals 110 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 20% additional threat. Each block expends a charge. 4 charges."
                 }
               ]
             },
@@ -2168,10 +2185,10 @@
               ]
             },
             {
-              "id": 1430,
+              "id": 90308,
               "row": 6,
               "col": 1,
-              "icon": "classic_spell_holy_blessingofprotection",
+              "icon": "spell_holy_ardentdefender",
               "maxRank": 1,
               "requires": [
                 {
@@ -2179,12 +2196,12 @@
                   "qty": 1
                 }
               ],
-              "name": "Holy Shield",
+              "name": "Templar's Bulwark",
               "ranks": [
                 {
-                  "spellId": 20925,
-                  "name": "Holy Shield",
-                  "description": "Increases chance to block by 20% for 10 sec, and deals 110 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 20% additional threat. Each block expends a charge. 4 charges."
+                  "spellId": 900780,
+                  "name": "Templar's Bulwark",
+                  "description": "When activated, this ability grants you an absorb shield equal to 100% of your maximum health for 8 sec. Applies Forbearance for 1 min. Cannot be cast while Forbearance is active."
                 }
               ]
             }
@@ -2196,74 +2213,74 @@
           "name": "Retribution",
           "talents": [
             {
-              "id": 1401,
+              "id": 1403,
               "row": 0,
               "col": 1,
-              "icon": "spell_holy_fistofjustice",
+              "icon": "ability_parry",
               "maxRank": 5,
               "requires": [],
-              "name": "Improved Blessing of Might",
+              "name": "Deflection",
               "ranks": [
                 {
-                  "spellId": 20042,
-                  "name": "Improved Blessing of Might",
-                  "description": "Increases the melee attack power bonus of your Blessing of Might by 4%."
+                  "spellId": 20060,
+                  "name": "Deflection",
+                  "description": "Increases your Parry chance by 1%."
                 },
                 {
-                  "spellId": 20045,
-                  "name": "Improved Blessing of Might",
-                  "description": "Increases the melee attack power bonus of your Blessing of Might by 8%."
+                  "spellId": 20061,
+                  "name": "Deflection",
+                  "description": "Increases your Parry chance by 2%."
                 },
                 {
-                  "spellId": 20046,
-                  "name": "Improved Blessing of Might",
-                  "description": "Increases the melee attack power bonus of your Blessing of Might by 12%."
+                  "spellId": 20062,
+                  "name": "Deflection",
+                  "description": "Increases your Parry chance by 3%."
                 },
                 {
-                  "spellId": 20047,
-                  "name": "Improved Blessing of Might",
-                  "description": "Increases the melee attack power bonus of your Blessing of Might by 16%."
+                  "spellId": 20063,
+                  "name": "Deflection",
+                  "description": "Increases your Parry chance by 4%."
                 },
                 {
-                  "spellId": 20048,
-                  "name": "Improved Blessing of Might",
-                  "description": "Increases the melee attack power bonus of your Blessing of Might by 20%."
+                  "spellId": 20064,
+                  "name": "Deflection",
+                  "description": "Increases your Parry chance by 5%."
                 }
               ]
             },
             {
-              "id": 1407,
+              "id": 1411,
               "row": 0,
               "col": 2,
-              "icon": "spell_frost_windwalkon",
+              "icon": "spell_holy_retributionaura",
               "maxRank": 5,
               "requires": [],
-              "name": "Benediction",
+              "name": "Conviction",
               "ranks": [
                 {
-                  "spellId": 20101,
-                  "name": "Benediction",
-                  "description": "Reduces the Mana cost of all instant cast spells and abilities by 2%."
+                  "spellId": 20117,
+                  "name": "Conviction",
+                  "description": "Increases your chance to get a critical strike with melee attacks by 1%."
                 },
                 {
-                  "spellId": 20102,
-                  "name": "Benediction",
-                  "description": "Reduces the Mana cost of your Judgement and Seal spells by 6%."
+                  "spellId": 20118,
+                  "name": "Conviction",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 2%."
                 },
                 {
-                  "spellId": 20103,
-                  "name": "Benediction",
-                  "description": "Reduces the Mana cost of your Judgement and Seal spells by 9%."
+                  "spellId": 20119,
+                  "name": "Conviction",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 3%."
                 },
                 {
-                  "spellId": 20104,
-                  "name": "Benediction",
-                  "description": "Reduces the Mana cost of your Judgement and Seal spells by 12%."
+                  "spellId": 20120,
+                  "name": "Conviction",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 4%."
                 },
                 {
-                  "spellId": 20105,
-                  "name": "Benediction",
-                  "description": "Reduces the Mana cost of your Judgement and Seal spells by 15%."
+                  "spellId": 20121,
+                  "name": "Conviction",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 5%."
                 }
               ]
             },
@@ -2315,38 +2332,38 @@
               ]
             },
             {
-              "id": 1403,
+              "id": 1407,
               "row": 1,
               "col": 2,
-              "icon": "ability_parry",
+              "icon": "spell_frost_windwalkon",
               "maxRank": 5,
               "requires": [],
-              "name": "Deflection",
+              "name": "Benediction",
               "ranks": [
                 {
-                  "spellId": 20060,
-                  "name": "Deflection",
-                  "description": "Increases your Parry chance by 1%."
+                  "spellId": 20101,
+                  "name": "Benediction",
+                  "description": "Reduces the Mana cost of all instant cast spells and abilities by 2%."
                 },
                 {
-                  "spellId": 20061,
-                  "name": "Deflection",
-                  "description": "Increases your Parry chance by 2%."
+                  "spellId": 20102,
+                  "name": "Benediction",
+                  "description": "Reduces the Mana cost of your Judgement and Seal spells by 6%."
                 },
                 {
-                  "spellId": 20062,
-                  "name": "Deflection",
-                  "description": "Increases your Parry chance by 3%."
+                  "spellId": 20103,
+                  "name": "Benediction",
+                  "description": "Reduces the Mana cost of your Judgement and Seal spells by 9%."
                 },
                 {
-                  "spellId": 20063,
-                  "name": "Deflection",
-                  "description": "Increases your Parry chance by 4%."
+                  "spellId": 20104,
+                  "name": "Benediction",
+                  "description": "Reduces the Mana cost of your Judgement and Seal spells by 12%."
                 },
                 {
-                  "spellId": 20064,
-                  "name": "Deflection",
-                  "description": "Increases your Parry chance by 5%."
+                  "spellId": 20105,
+                  "name": "Benediction",
+                  "description": "Reduces the Mana cost of your Judgement and Seal spells by 15%."
                 }
               ]
             },
@@ -2377,38 +2394,28 @@
               ]
             },
             {
-              "id": 1411,
+              "id": 90301,
               "row": 2,
               "col": 1,
-              "icon": "spell_holy_retributionaura",
-              "maxRank": 5,
+              "icon": "spell_holy_sealofwisdom",
+              "maxRank": 3,
               "requires": [],
-              "name": "Conviction",
+              "name": "Sanctified Judgement",
               "ranks": [
                 {
-                  "spellId": 20117,
-                  "name": "Conviction",
-                  "description": "Increases your chance to get a critical strike with melee attacks by 1%."
+                  "spellId": 900710,
+                  "name": "Sanctified Judgement",
+                  "description": "Gives your Judgement ability a 33% chance to return 20% of the Mana cost of the judged seal."
                 },
                 {
-                  "spellId": 20118,
-                  "name": "Conviction",
-                  "description": "Increases your chance to get a critical strike with melee weapons by 2%."
+                  "spellId": 900711,
+                  "name": "Sanctified Judgement",
+                  "description": "Gives your Judgement ability a 66% chance to return 40% of the Mana cost of the judged seal."
                 },
                 {
-                  "spellId": 20119,
-                  "name": "Conviction",
-                  "description": "Increases your chance to get a critical strike with melee weapons by 3%."
-                },
-                {
-                  "spellId": 20120,
-                  "name": "Conviction",
-                  "description": "Increases your chance to get a critical strike with melee weapons by 4%."
-                },
-                {
-                  "spellId": 20121,
-                  "name": "Conviction",
-                  "description": "Increases your chance to get a critical strike with melee weapons by 5%."
+                  "spellId": 900712,
+                  "name": "Sanctified Judgement",
+                  "description": "Gives your Judgement ability a 100% chance to return 60% of the Mana cost of the judged seal."
                 }
               ]
             },
@@ -2466,28 +2473,49 @@
                 {
                   "spellId": 25988,
                   "name": "Eye for an Eye",
-                  "description": "All spell criticals against you cause 30% of the damage taken to the caster as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health."
+                  "description": "All critical strikes against you cause 10% of the damage taken to the attacker as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health."
                 }
               ]
             },
             {
-              "id": 1405,
+              "id": 1441,
               "row": 3,
               "col": 2,
-              "icon": "spell_holy_auraoflight",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Improved Retribution Aura",
+              "icon": "spell_holy_prayerofhealing",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 1481,
+                  "qty": 1
+                }
+              ],
+              "name": "Repentance",
               "ranks": [
                 {
-                  "spellId": 20091,
-                  "name": "Improved Retribution Aura",
-                  "description": "Increases the damage done by your Retribution Aura by 25%."
+                  "spellId": 20066,
+                  "name": "Repentance",
+                  "description": "Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec. Any damage caused will awaken the target. Only works against Humanoids."
+                }
+              ]
+            },
+            {
+              "id": 90303,
+              "row": 3,
+              "col": 3,
+              "icon": "spell_holy_crusade",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Crusade",
+              "ranks": [
+                {
+                  "spellId": 900730,
+                  "name": "Crusade",
+                  "description": "Increases all damage dealt by 1%. Increased by an additional 1% against Demon and Undead targets."
                 },
                 {
-                  "spellId": 20092,
-                  "name": "Improved Retribution Aura",
-                  "description": "Increases the damage done by your Retribution Aura by 50%."
+                  "spellId": 900731,
+                  "name": "Crusade",
+                  "description": "Increases all damage dealt by 2%. Increased by an additional 2% against Demon and Undead targets."
                 }
               ]
             },
@@ -2508,41 +2536,25 @@
                 {
                   "spellId": 20112,
                   "name": "Two-Handed Weapon Specialization",
-                  "description": "Increases the damage you deal with two-handed melee weapons by 4%."
+                  "description": "Increases the damage you deal with two-handed melee weapons by 6%."
                 },
                 {
                   "spellId": 20113,
                   "name": "Two-Handed Weapon Specialization",
-                  "description": "Increases the damage you deal with two-handed melee weapons by 6%."
-                }
-              ]
-            },
-            {
-              "id": 1409,
-              "row": 4,
-              "col": 2,
-              "icon": "spell_holy_mindvision",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Sanctity Aura",
-              "ranks": [
-                {
-                  "spellId": 20218,
-                  "name": "Sanctity Aura",
-                  "description": "Increases Holy damage done by party members within 30 yards by 10%.  Players may only have one Aura on them per Paladin at any one time."
+                  "description": "Increases the damage you deal with two-handed melee weapons by 9%."
                 }
               ]
             },
             {
               "id": 1402,
-              "row": 5,
+              "row": 4,
               "col": 1,
               "icon": "ability_racial_avatar",
               "maxRank": 3,
               "requires": [
                 {
-                  "id": 1411,
-                  "qty": 5
+                  "id": 90301,
+                  "qty": 3
                 }
               ],
               "name": "Vengeance",
@@ -2565,18 +2577,96 @@
               ]
             },
             {
-              "id": 1441,
-              "row": 6,
-              "col": 1,
-              "icon": "spell_holy_prayerofhealing",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Repentance",
+              "id": 90304,
+              "row": 4,
+              "col": 2,
+              "icon": "spell_holy_weaponmastery",
+              "maxRank": 2,
+              "requires": [
+                {
+                  "id": 1441,
+                  "qty": 1
+                }
+              ],
+              "name": "Instrument of Law",
               "ranks": [
                 {
-                  "spellId": 20066,
-                  "name": "Repentance",
-                  "description": "Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec.  Any damage caused will awaken the target.  Only works against Humanoids."
+                  "spellId": 900740,
+                  "name": "Instrument of Law",
+                  "description": "Reduces the cast time of your Hammer of Wrath by 0.5 sec, and reduces all threat you generate by 10% while Righteous Fury is not active."
+                },
+                {
+                  "spellId": 900741,
+                  "name": "Instrument of Law",
+                  "description": "Reduces the cast time of your Hammer of Wrath by 1 sec, and reduces all threat you generate by 20% while Righteous Fury is not active."
+                }
+              ]
+            },
+            {
+              "id": 90302,
+              "row": 5,
+              "col": 1,
+              "icon": "spell_holy_holyguidance",
+              "maxRank": 3,
+              "requires": [
+                {
+                  "id": 1402,
+                  "qty": 3
+                }
+              ],
+              "name": "Champion of the Light",
+              "ranks": [
+                {
+                  "spellId": 900720,
+                  "name": "Champion of the Light",
+                  "description": "Increases your spell damage and healing by up to 33% of your Intellect."
+                },
+                {
+                  "spellId": 900721,
+                  "name": "Champion of the Light",
+                  "description": "Increases your spell damage and healing by up to 66% of your Intellect."
+                },
+                {
+                  "spellId": 900722,
+                  "name": "Champion of the Light",
+                  "description": "Increases your spell damage and healing by up to 99% of your Intellect."
+                }
+              ]
+            },
+            {
+              "id": 90309,
+              "row": 5,
+              "col": 2,
+              "icon": "ability_warrior_innerrage",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Sacred Arbiter",
+              "ranks": [
+                {
+                  "spellId": 900790,
+                  "name": "Sacred Arbiter",
+                  "description": "Increases the damage of your Holy Strike ability by 10% and causes it to refresh all Judgement effects on the target."
+                }
+              ]
+            },
+            {
+              "id": 90300,
+              "row": 6,
+              "col": 1,
+              "icon": "inv_hammer_04",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 90302,
+                  "qty": 3
+                }
+              ],
+              "name": "Twist of Light",
+              "ranks": [
+                {
+                  "spellId": 900700,
+                  "name": "Twist of Light",
+                  "description": "When you replace your Seal of Command, Seal of Righteousness, Seal of Fury, or Seal of Justice with a different Seal, gain an Echo. Your next melee attack applies the replaced Seal's effects, consuming the Echo."
                 }
               ]
             }
@@ -8160,38 +8250,38 @@
               ]
             },
             {
-              "id": 80,
+              "id": 90040,
               "row": 0,
               "col": 2,
-              "icon": "spell_nature_starfall",
+              "icon": "spell_frost_iceshock",
               "maxRank": 5,
               "requires": [],
-              "name": "Improved Arcane Missiles",
+              "name": "Improved Channeling",
               "ranks": [
                 {
-                  "spellId": 11237,
-                  "name": "Improved Arcane Missiles",
-                  "description": "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles."
+                  "spellId": 900401,
+                  "name": "Improved Channeling",
+                  "description": "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 14% chance while casting Arcane Blast."
                 },
                 {
-                  "spellId": 12463,
-                  "name": "Improved Arcane Missiles",
-                  "description": "Gives you a 40% chance to avoid interruption caused by damage while channeling Arcane Missiles."
+                  "spellId": 900402,
+                  "name": "Improved Channeling",
+                  "description": "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 14% chance while casting Arcane Blast."
                 },
                 {
-                  "spellId": 12464,
-                  "name": "Improved Arcane Missiles",
-                  "description": "Gives you a 60% chance to avoid interruption caused by damage while channeling Arcane Missiles."
+                  "spellId": 900403,
+                  "name": "Improved Channeling",
+                  "description": "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 14% chance while casting Arcane Blast."
                 },
                 {
-                  "spellId": 16769,
-                  "name": "Improved Arcane Missiles",
-                  "description": "Gives you a 80% chance to avoid interruption caused by damage while channeling Arcane Missiles."
+                  "spellId": 900404,
+                  "name": "Improved Channeling",
+                  "description": "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 14% chance while casting Arcane Blast."
                 },
                 {
-                  "spellId": 16770,
-                  "name": "Improved Arcane Missiles",
-                  "description": "Gives you a 100% chance to avoid interruption caused by damage while channeling Arcane Missiles."
+                  "spellId": 900405,
+                  "name": "Improved Channeling",
+                  "description": "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 14% chance while casting Arcane Blast."
                 }
               ]
             },
@@ -8274,23 +8364,39 @@
               ]
             },
             {
-              "id": 82,
-              "row": 2,
-              "col": 0,
-              "icon": "spell_nature_abolishmagic",
-              "maxRank": 2,
+              "id": 90043,
+              "row": 1,
+              "col": 3,
+              "icon": "spell_arcane_blast",
+              "maxRank": 1,
               "requires": [],
-              "name": "Magic Attunement",
+              "name": "Arcane Blast",
               "ranks": [
                 {
-                  "spellId": 11247,
-                  "name": "Magic Attunement",
-                  "description": "Increases the effect of your Amplify Magic and Dampen Magic spells by 25%."
+                  "spellId": 900431,
+                  "name": "Arcane Blast",
+                  "description": "Blasts the target with energy, dealing 95 to 104 Arcane damage. Each time you cast Arcane Blast, the damage of all your other spells is increased by 10% and the mana cost of Arcane Blast is increased by 175%. Effect stacks up to 4 times and lasts 8 sec or until any other damage spell is cast."
+                }
+              ]
+            },
+            {
+              "id": 90041,
+              "row": 2,
+              "col": 0,
+              "icon": "spell_arcane_studentofmagic",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Arcane Geometry",
+              "ranks": [
+                {
+                  "spellId": 900411,
+                  "name": "Arcane Geometry",
+                  "description": "Increases the range of your Arcane spells by 3 yards."
                 },
                 {
-                  "spellId": 12606,
-                  "name": "Magic Attunement",
-                  "description": "Increases the effect of your Amplify Magic and Dampen Magic spells by 50%."
+                  "spellId": 900412,
+                  "name": "Arcane Geometry",
+                  "description": "Increases the range of your Arcane spells by 3 yards."
                 }
               ]
             },
@@ -8323,7 +8429,7 @@
             {
               "id": 85,
               "row": 2,
-              "col": 2,
+              "col": 3,
               "icon": "spell_arcane_arcaneresilience",
               "maxRank": 1,
               "requires": [],
@@ -8381,10 +8487,15 @@
             {
               "id": 1142,
               "row": 3,
-              "col": 3,
+              "col": 2,
               "icon": "spell_shadow_siphonmana",
               "maxRank": 3,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 75,
+                  "qty": 5
+                }
+              ],
               "name": "Arcane Meditation",
               "ranks": [
                 {
@@ -8401,6 +8512,22 @@
                   "spellId": 18464,
                   "name": "Arcane Meditation",
                   "description": "Allows 15% of your Mana regeneration to continue while casting."
+                }
+              ]
+            },
+            {
+              "id": 90042,
+              "row": 3,
+              "col": 3,
+              "icon": "ability_mage_missiles",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Missile Barrage",
+              "ranks": [
+                {
+                  "spellId": 900421,
+                  "name": "Missile Barrage",
+                  "description": "Gives your Arcane Blast spell a 40% chance, and your Fireball, Frostbolt, and Frostfire Bolt spells a 20% chance to reduce the channeled duration of your next Arcane Missiles spell by 50%, reduce the Mana cost by 100%, and missiles will fire every 0.5 sec."
                 }
               ]
             },
@@ -8426,12 +8553,7 @@
               "col": 2,
               "icon": "spell_shadow_charm",
               "maxRank": 5,
-              "requires": [
-                {
-                  "id": 85,
-                  "qty": 1
-                }
-              ],
+              "requires": [],
               "name": "Arcane Mind",
               "ranks": [
                 {
@@ -8469,8 +8591,8 @@
               "maxRank": 3,
               "requires": [
                 {
-                  "id": 86,
-                  "qty": 1
+                  "id": 77,
+                  "qty": 5
                 }
               ],
               "name": "Arcane Instability",
@@ -8500,8 +8622,8 @@
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 421,
-                  "qty": 3
+                  "id": 86,
+                  "qty": 1
                 }
               ],
               "name": "Arcane Power",
@@ -8521,45 +8643,30 @@
           "name": "Fire",
           "talents": [
             {
-              "id": 26,
+              "id": 90044,
               "row": 0,
-              "col": 1,
-              "icon": "spell_fire_flamebolt",
-              "maxRank": 5,
+              "col": 0,
+              "icon": "spell_fire_fireball",
+              "maxRank": 2,
               "requires": [],
-              "name": "Improved Fireball",
+              "name": "Wake of Fire",
               "ranks": [
                 {
-                  "spellId": 11069,
-                  "name": "Improved Fireball",
-                  "description": "Reduces the casting time of your Fireball spell by 0.1 sec."
+                  "spellId": 900441,
+                  "name": "Wake of Fire",
+                  "description": "Reduces the cooldown of your Fire Blast spell by 1 sec. Killing a non-trivial target increases the critical strike chance of your next Fire Blast cast within 20 sec by 25%."
                 },
                 {
-                  "spellId": 12338,
-                  "name": "Improved Fireball",
-                  "description": "Reduces the casting time of your Fireball spell by 0.2 sec."
-                },
-                {
-                  "spellId": 12339,
-                  "name": "Improved Fireball",
-                  "description": "Reduces the casting time of your Fireball spell by 0.3 sec."
-                },
-                {
-                  "spellId": 12340,
-                  "name": "Improved Fireball",
-                  "description": "Reduces the casting time of your Fireball spell by 0.4 sec."
-                },
-                {
-                  "spellId": 12341,
-                  "name": "Improved Fireball",
-                  "description": "Reduces the casting time of your Fireball spell by 0.5 sec."
+                  "spellId": 900442,
+                  "name": "Wake of Fire",
+                  "description": "Reduces the cooldown of your Fire Blast spell by 1 sec. Killing a non-trivial target increases the critical strike chance of your next Fire Blast cast within 20 sec by 25%."
                 }
               ]
             },
             {
               "id": 30,
               "row": 0,
-              "col": 2,
+              "col": 1,
               "icon": "spell_fire_meteorstorm",
               "maxRank": 5,
               "requires": [],
@@ -8589,6 +8696,42 @@
                   "spellId": 12360,
                   "name": "Impact",
                   "description": "Gives your Fire spells a 10% chance to stun the target for 2 sec."
+                }
+              ]
+            },
+            {
+              "id": 26,
+              "row": 0,
+              "col": 2,
+              "icon": "spell_fire_flamebolt",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Improved Fireball",
+              "ranks": [
+                {
+                  "spellId": 11069,
+                  "name": "Improved Fireball",
+                  "description": "Reduces the casting time of your Fireball spell by 0.1 sec."
+                },
+                {
+                  "spellId": 12338,
+                  "name": "Improved Fireball",
+                  "description": "Reduces the casting time of your Fireball spell by 0.2 sec."
+                },
+                {
+                  "spellId": 12339,
+                  "name": "Improved Fireball",
+                  "description": "Reduces the casting time of your Fireball spell by 0.3 sec."
+                },
+                {
+                  "spellId": 12340,
+                  "name": "Improved Fireball",
+                  "description": "Reduces the casting time of your Fireball spell by 0.4 sec."
+                },
+                {
+                  "spellId": 12341,
+                  "name": "Improved Fireball",
+                  "description": "Reduces the casting time of your Fireball spell by 0.5 sec."
                 }
               ]
             },
@@ -8629,30 +8772,9 @@
               ]
             },
             {
-              "id": 28,
-              "row": 1,
-              "col": 1,
-              "icon": "spell_fire_flare",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Flame Throwing",
-              "ranks": [
-                {
-                  "spellId": 11100,
-                  "name": "Flame Throwing",
-                  "description": "Increases the range of your Fire spells by 3 yards."
-                },
-                {
-                  "spellId": 12353,
-                  "name": "Flame Throwing",
-                  "description": "Increases the range of your Fire spells by 6 yards."
-                }
-              ]
-            },
-            {
               "id": 27,
               "row": 1,
-              "col": 2,
+              "col": 1,
               "icon": "spell_fire_fireball",
               "maxRank": 3,
               "requires": [],
@@ -8677,29 +8799,71 @@
             },
             {
               "id": 1141,
-              "row": 2,
-              "col": 0,
+              "row": 1,
+              "col": 2,
               "icon": "spell_fire_flameshock",
               "maxRank": 2,
               "requires": [],
-              "name": "Incinerate",
+              "name": "Incineration",
               "ranks": [
                 {
                   "spellId": 18459,
-                  "name": "Incinerate",
+                  "name": "Incineration",
                   "description": "Increases the critical strike chance of your Fire Blast and Scorch spells by 2%."
                 },
                 {
                   "spellId": 18460,
-                  "name": "Incinerate",
+                  "name": "Incineration",
                   "description": "Increases the critical strike chance of your Fire Blast and Scorch spells by 4%."
+                }
+              ]
+            },
+            {
+              "id": 23,
+              "row": 2,
+              "col": 0,
+              "icon": "spell_fire_fire",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Burning Soul",
+              "ranks": [
+                {
+                  "spellId": 11083,
+                  "name": "Burning Soul",
+                  "description": "Gives your Fire spells a 23% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 10%."
+                },
+                {
+                  "spellId": 12351,
+                  "name": "Burning Soul",
+                  "description": "Gives your Fire spells a 70% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 30%."
+                }
+              ]
+            },
+            {
+              "id": 29,
+              "row": 2,
+              "col": 1,
+              "icon": "spell_fire_fireball02",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 27,
+                  "qty": 3
+                }
+              ],
+              "name": "Pyroblast",
+              "ranks": [
+                {
+                  "spellId": 11366,
+                  "name": "Pyroblast",
+                  "description": "Hurls an immense fiery boulder that causes 155 to 185 Fire damage and an additional 76 Fire damage over 12 sec."
                 }
               ]
             },
             {
               "id": 31,
               "row": 2,
-              "col": 1,
+              "col": 2,
               "icon": "spell_fire_selfdestruct",
               "maxRank": 3,
               "requires": [],
@@ -8719,43 +8883,6 @@
                   "spellId": 12350,
                   "name": "Improved Flamestrike",
                   "description": "Increases the critical strike chance of your Flamestrike spell by 15%."
-                }
-              ]
-            },
-            {
-              "id": 29,
-              "row": 2,
-              "col": 2,
-              "icon": "spell_fire_fireball02",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Pyroblast",
-              "ranks": [
-                {
-                  "spellId": 11366,
-                  "name": "Pyroblast",
-                  "description": "Hurls an immense fiery boulder that causes 155 to 185 Fire damage and an additional 76 Fire damage over 12 sec."
-                }
-              ]
-            },
-            {
-              "id": 23,
-              "row": 2,
-              "col": 3,
-              "icon": "spell_fire_fire",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Burning Soul",
-              "ranks": [
-                {
-                  "spellId": 11083,
-                  "name": "Burning Soul",
-                  "description": "Gives your Fire spells a 23% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 10%."
-                },
-                {
-                  "spellId": 12351,
-                  "name": "Burning Soul",
-                  "description": "Gives your Fire spells a 70% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 30%."
                 }
               ]
             },
@@ -8803,6 +8930,27 @@
                   "spellId": 13043,
                   "name": "Improved Fire Ward",
                   "description": "Causes your Fire Ward to have a 20% chance to reflect Fire spells while active."
+                }
+              ]
+            },
+            {
+              "id": 90045,
+              "row": 3,
+              "col": 2,
+              "icon": "ability_mage_hotstreak",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 31,
+                  "qty": 3
+                }
+              ],
+              "name": "Hot Streak",
+              "ranks": [
+                {
+                  "spellId": 900451,
+                  "name": "Hot Streak",
+                  "description": "Your non-periodic critical strikes with Fireball, Frostfire Bolt, Fire Blast, and Scorch grant Hot Streak for 15 sec. Hot Streak reduces the cast time of Pyroblast by 25%, stacking up to 3 times."
                 }
               ]
             },
@@ -8855,27 +9003,6 @@
                   "spellId": 11368,
                   "name": "Critical Mass",
                   "description": "Increases the critical strike chance of your Fire spells by 6%."
-                }
-              ]
-            },
-            {
-              "id": 32,
-              "row": 4,
-              "col": 2,
-              "icon": "spell_holy_excorcism_02",
-              "maxRank": 1,
-              "requires": [
-                {
-                  "id": 29,
-                  "qty": 1
-                }
-              ],
-              "name": "Blast Wave",
-              "ranks": [
-                {
-                  "spellId": 11113,
-                  "name": "Blast Wave",
-                  "description": "A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for 160 to 191 Fire damage, and Dazing them for 50% reduced movement speed for 6 sec."
                 }
               ]
             },
@@ -9063,28 +9190,28 @@
               ]
             },
             {
-              "id": 38,
+              "id": 65,
               "row": 1,
               "col": 1,
-              "icon": "spell_frost_frostarmor",
+              "icon": "spell_frost_wisp",
               "maxRank": 3,
               "requires": [],
-              "name": "Frostbite",
+              "name": "Permafrost",
               "ranks": [
                 {
-                  "spellId": 11071,
-                  "name": "Frostbite",
-                  "description": "Gives your Chill effects a 5% chance to Freeze the target for 5 sec."
+                  "spellId": 11175,
+                  "name": "Permafrost",
+                  "description": "Increases the duration of your Chill effects by 11% and reduces the target's speed by an additional 3%."
                 },
                 {
-                  "spellId": 12496,
-                  "name": "Frostbite",
-                  "description": "Gives your Chill effects a 10% chance to freeze the target for 5 sec."
+                  "spellId": 12569,
+                  "name": "Permafrost",
+                  "description": "Increases the duration of your Chill effects by 2 <!--singular:sec:secs-->secs<!--singular--> and reduces the target's speed by an additional 7%."
                 },
                 {
-                  "spellId": 12497,
-                  "name": "Frostbite",
-                  "description": "Gives your Chill effects a 15% chance to freeze the target for 5 sec."
+                  "spellId": 12571,
+                  "name": "Permafrost",
+                  "description": "Increases the duration of your Chill effects by 3 <!--singular:sec:secs-->secs<!--singular--> and reduces the target's speed by an additional 10%."
                 }
               ]
             },
@@ -9110,28 +9237,28 @@
               ]
             },
             {
-              "id": 65,
+              "id": 38,
               "row": 1,
               "col": 3,
-              "icon": "spell_frost_wisp",
+              "icon": "spell_frost_frostarmor",
               "maxRank": 3,
               "requires": [],
-              "name": "Permafrost",
+              "name": "Frostbite",
               "ranks": [
                 {
-                  "spellId": 11175,
-                  "name": "Permafrost",
-                  "description": "Increases the duration of your Chill effects by 11% and reduces the target's speed by an additional 3%."
+                  "spellId": 11071,
+                  "name": "Frostbite",
+                  "description": "Gives your Chill effects a 5% chance to Freeze the target for 5 sec."
                 },
                 {
-                  "spellId": 12569,
-                  "name": "Permafrost",
-                  "description": "Increases the duration of your Chill effects by 2 <!--singular:sec:secs-->secs<!--singular--> and reduces the target's speed by an additional 7%."
+                  "spellId": 12496,
+                  "name": "Frostbite",
+                  "description": "Gives your Chill effects a 10% chance to freeze the target for 5 sec."
                 },
                 {
-                  "spellId": 12571,
-                  "name": "Permafrost",
-                  "description": "Increases the duration of your Chill effects by 3 <!--singular:sec:secs-->secs<!--singular--> and reduces the target's speed by an additional 10%."
+                  "spellId": 12497,
+                  "name": "Frostbite",
+                  "description": "Gives your Chill effects a 15% chance to freeze the target for 5 sec."
                 }
               ]
             },
@@ -9178,6 +9305,27 @@
               ]
             },
             {
+              "id": 90004,
+              "row": 2,
+              "col": 2,
+              "icon": "inv_misc_questionmark",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 62,
+                  "qty": 2
+                }
+              ],
+              "name": "Ice Lance",
+              "ranks": [
+                {
+                  "spellId": 900000,
+                  "name": "Ice Lance",
+                  "description": "Deals 28 to 33 Frost damage to an enemy target. Deals 300% increased damage to Frozen targets."
+                }
+              ]
+            },
+            {
               "id": 63,
               "row": 2,
               "col": 3,
@@ -9204,30 +9352,9 @@
               ]
             },
             {
-              "id": 741,
-              "row": 3,
-              "col": 0,
-              "icon": "spell_shadow_darkritual",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Arctic Reach",
-              "ranks": [
-                {
-                  "spellId": 16757,
-                  "name": "Arctic Reach",
-                  "description": "Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 10%."
-                },
-                {
-                  "spellId": 16758,
-                  "name": "Arctic Reach",
-                  "description": "Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 20%."
-                }
-              ]
-            },
-            {
               "id": 66,
               "row": 3,
-              "col": 1,
+              "col": 0,
               "icon": "spell_frost_stun",
               "maxRank": 3,
               "requires": [],
@@ -9251,17 +9378,33 @@
               ]
             },
             {
+              "id": 741,
+              "row": 3,
+              "col": 1,
+              "icon": "spell_shadow_darkritual",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Arctic Reach",
+              "ranks": [
+                {
+                  "spellId": 16757,
+                  "name": "Arctic Reach",
+                  "description": "Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 10%."
+                },
+                {
+                  "spellId": 16758,
+                  "name": "Arctic Reach",
+                  "description": "Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 20%."
+                }
+              ]
+            },
+            {
               "id": 67,
               "row": 3,
-              "col": 2,
+              "col": 3,
               "icon": "spell_frost_frostshock",
               "maxRank": 5,
-              "requires": [
-                {
-                  "id": 62,
-                  "qty": 2
-                }
-              ],
+              "requires": [],
               "name": "Shatter",
               "ranks": [
                 {
@@ -9292,22 +9435,6 @@
               ]
             },
             {
-              "id": 72,
-              "row": 4,
-              "col": 1,
-              "icon": "spell_frost_frost",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Ice Block",
-              "ranks": [
-                {
-                  "spellId": 11958,
-                  "name": "Ice Block",
-                  "description": "You become encased in a block of ice, protecting you from all physical attacks and spells for 10 sec, but during that time you cannot attack, move, or cast spells."
-                }
-              ]
-            },
-            {
               "id": 64,
               "row": 4,
               "col": 0,
@@ -9330,6 +9457,43 @@
                   "spellId": 12490,
                   "name": "Improved Cone of Cold",
                   "description": "Increases the damage dealt by your Cone of Cold spell by 35%."
+                }
+              ]
+            },
+            {
+              "id": 72,
+              "row": 4,
+              "col": 1,
+              "icon": "spell_frost_frost",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Ice Block",
+              "ranks": [
+                {
+                  "spellId": 11958,
+                  "name": "Ice Block",
+                  "description": "You become encased in a block of ice, protecting you from all physical attacks and spells for 10 sec, but during that time you cannot attack, move, or cast spells."
+                }
+              ]
+            },
+            {
+              "id": 90010,
+              "row": 4,
+              "col": 2,
+              "icon": "ability_mage_wintersgrasp",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Fingers of Frost",
+              "ranks": [
+                {
+                  "spellId": 900100,
+                  "name": "Fingers of Frost",
+                  "description": "Gives your Chill effects a 15% chance to grant you the Fingers of Frost effect, which treats your next 1 spell cast as if the target were Frozen. Lasts 15 sec."
+                },
+                {
+                  "spellId": 900101,
+                  "name": "Fingers of Frost",
+                  "description": "Gives your Chill effects a 30% chance to grant you the Fingers of Frost effect, which treats your next 1 spell cast as if the target were Frozen. Lasts 15 sec."
                 }
               ]
             },
@@ -9375,55 +9539,13 @@
               "col": 1,
               "icon": "spell_ice_lament",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 72,
-                  "qty": 1
-                }
-              ],
+              "requires": [],
               "name": "Ice Barrier",
               "ranks": [
                 {
                   "spellId": 11426,
                   "name": "Ice Barrier",
                   "description": "Instantly shields you, absorbing 431 damage. Lasts 1 min. While the shield holds, your spellcasts will not be interrupted or delayed from taking damage."
-                }
-              ]
-            },
-            {
-              "id": 90004,
-              "row": 2,
-              "col": 2,
-              "icon": "inv_misc_questionmark",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Ice Lance",
-              "ranks": [
-                {
-                  "spellId": 900000,
-                  "name": "Ice Lance",
-                  "description": "Deals 28 to 33 Frost damage to an enemy target. Deals 300% increased damage to Frozen targets."
-                }
-              ]
-            },
-            {
-              "id": 90010,
-              "row": 4,
-              "col": 2,
-              "icon": "ability_mage_wintersgrasp",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Fingers of Frost",
-              "ranks": [
-                {
-                  "spellId": 900100,
-                  "name": "Fingers of Frost",
-                  "description": "Gives your Chill effects a 15% chance to grant you the Fingers of Frost effect, which treats your next 1 spell cast as if the target were Frozen. Lasts 15 sec."
-                },
-                {
-                  "spellId": 900101,
-                  "name": "Fingers of Frost",
-                  "description": "Gives your Chill effects a 30% chance to grant you the Fingers of Frost effect, which treats your next 1 spell cast as if the target were Frozen. Lasts 15 sec."
                 }
               ]
             }

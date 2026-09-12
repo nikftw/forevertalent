@@ -1,7 +1,8 @@
 {
   "class": "hunter",
-  "overviewFile": "hunter/ovvveriview.png",
+  "overviewFile": "hunter/overview-clean.png",
   "sourceFiles": [
+    "hunter/overview-clean.png",
     "hunter/ovvveriview.png",
     "hunter/overview.png",
     "hunter/1.png",
@@ -75,7 +76,7 @@
     "hunter/69.png",
     "hunter/70.png"
   ],
-  "notes": "Layout authority is ovvveriview.png (full BM/MM/Survival, spent Survival/MM). overview.png is BM-only with Bestial Wrath tooltip. Numbered hunter/1.png–47.png are Hunter Forever tooltip crops. hunter/48.png–70.png are misplaced Druid dumps (verified) — not used for talent text. Columns 0-indexed. Classic talents.json used only for classicId/status by exact name match.",
+  "notes": "Layout authority is hunter/overview-clean.png (full BM/MM/Survival). hunter/ovvveriview.png is secondary (spent Survival/MM build). hunter/overview.png is BM-only with Bestial Wrath tooltip. Numbered hunter/1.png–47.png are Hunter Forever tooltip crops. hunter/48.png–70.png are misplaced Druid dumps (verified) — not used. Columns 0-indexed. Classic talents.json used only for classicId/status by exact name match.",
   "trees": [
     {
       "name": "Beast Mastery",
@@ -1773,6 +1774,7 @@
     "Rows/cols are 0-indexed on a 4×7 grid. Survival placement guided by the spent 31-point overview build. MM Improved Stings at row2 col3; Lone Wolf at row4 col3; Sniper Shot under RWS at row5 col2; Rapid Recuperation under Rapid Killing at row5 col0.",
     "Only rank-0 hover text captured (rank-1 effect preview). Higher-rank Forever scaling not shown.",
     "BM overview slots without tooltips: row1 col2 (Thick Hide icon likely), row3 col2 (Ferocity icon likely). MM overview slot without tooltip: row1 col1 (eye — possible Improved Hunter's Mark).",
-    "Classic Survival names absent from Forever tree: Monster Slaying, Humanoid Slaying, Trap Mastery, Improved Feign Death, Killer Instinct, Wyvern Sting (slot replaced by Lacerating Strikes)."
+    "Classic Survival names absent from Forever tree: Monster Slaying, Humanoid Slaying, Trap Mastery, Improved Feign Death, Killer Instinct, Wyvern Sting (slot replaced by Lacerating Strikes).",
+    "Merged into talents.json (Hunter only). Forever-new ids 90092–90106. Unnamed occupied BM/MM slots retain Classic Thick Hide, Ferocity, Improved Hunter's Mark."
   ]
 }

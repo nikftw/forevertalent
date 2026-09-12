@@ -17,11 +17,31 @@
       "mage/25.png"
     ]
   },
+  "26": {
+    "review": "updated",
+    "screenshots": []
+  },
+  "27": {
+    "review": "updated",
+    "screenshots": []
+  },
+  "28": {
+    "review": "updated",
+    "screenshots": []
+  },
   "29": {
     "review": "updated",
     "screenshots": [
       "mage/23.png"
     ]
+  },
+  "30": {
+    "review": "updated",
+    "screenshots": []
+  },
+  "31": {
+    "review": "updated",
+    "screenshots": []
   },
   "32": {
     "review": "updated",
@@ -54,7 +74,7 @@
     ]
   },
   "38": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "mage/39.png"
     ]
@@ -90,10 +110,14 @@
     ]
   },
   "66": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "mage/42.png"
     ]
+  },
+  "67": {
+    "review": "updated",
+    "screenshots": []
   },
   "68": {
     "review": "updated",
@@ -157,11 +181,19 @@
       "mage/4.png"
     ]
   },
+  "80": {
+    "review": "updated",
+    "screenshots": []
+  },
   "81": {
     "review": "updated",
     "screenshots": [
       "mage/13.png"
     ]
+  },
+  "82": {
+    "review": "updated",
+    "screenshots": []
   },
   "83": {
     "review": "updated",
@@ -180,6 +212,10 @@
     "screenshots": [
       "mage/19.png"
     ]
+  },
+  "87": {
+    "review": "updated",
+    "screenshots": []
   },
   "88": {
     "review": "updated",
@@ -1000,7 +1036,7 @@
     ]
   },
   "741": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "mage/44.png"
     ]
@@ -1374,6 +1410,10 @@
       "warlock/48.png"
     ]
   },
+  "1141": {
+    "review": "updated",
+    "screenshots": []
+  },
   "1142": {
     "review": "updated",
     "screenshots": [
@@ -1724,9 +1764,10 @@
     ]
   },
   "1402": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
-      "paladin/11.png"
+      "paladin/11.png",
+      "paladin/33.png"
     ]
   },
   "1403": {
@@ -1736,7 +1777,7 @@
     ]
   },
   "1407": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
       "paladin/23.png"
     ]
@@ -1744,7 +1785,8 @@
   "1410": {
     "review": "updated",
     "screenshots": [
-      "paladin/10.png"
+      "paladin/10.png",
+      "paladin/32.png"
     ]
   },
   "1411": {
@@ -1755,21 +1797,181 @@
     ]
   },
   "1421": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
       "paladin/16.png"
     ]
   },
+  "1422": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1423": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1424": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1425": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1429": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
   "1430": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
       "paladin/22.png"
+    ]
+  },
+  "1431": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1432": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1433": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1435": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1441": {
+    "review": "unchanged",
+    "screenshots": [
+      "paladin/34.png"
+    ]
+  },
+  "1442": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1443": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1444": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1446": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1449": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1450": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1461": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1463": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1464": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1465": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
     ]
   },
   "1481": {
     "review": "unchanged",
     "screenshots": [
       "paladin/6.png"
+    ]
+  },
+  "1501": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1502": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1521": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
     ]
   },
   "1541": {
@@ -1844,10 +2046,31 @@
       "hunter/39.png"
     ]
   },
+  "1627": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
+  "1628": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
+    ]
+  },
   "1629": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
       "paladin/17.png"
+    ]
+  },
+  "1630": {
+    "review": "classic",
+    "screenshots": [
+      "paladin/overview.png",
+      "paladin/overview3.png"
     ]
   },
   "1631": {
@@ -1859,20 +2082,22 @@
   "1632": {
     "review": "updated",
     "screenshots": [
-      "paladin/9.png"
+      "paladin/9.png",
+      "paladin/29.png"
     ]
   },
   "1633": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
       "paladin/8.png",
       "paladin/26.png"
     ]
   },
   "1634": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
-      "paladin/13.png"
+      "paladin/13.png",
+      "paladin/28.png"
     ]
   },
   "1635": {
@@ -1955,7 +2180,7 @@
     ]
   },
   "90004": {
-    "review": "new",
+    "review": "updated",
     "screenshots": [
       "mage/41.png"
     ]
@@ -2164,6 +2389,50 @@
       "priest/Shadow-forever.png",
       "priest/overview.png",
       "priest/Priest_talents.png"
+    ]
+  },
+  "90040": {
+    "review": "new",
+    "screenshots": [
+      "mage/fix1.png",
+      "mage/brave_dhN9RyhkVa.png",
+      "mage/brave_fWi9iK6evW.png"
+    ]
+  },
+  "90041": {
+    "review": "new",
+    "screenshots": [
+      "mage/12.png",
+      "mage/brave_AvxLZRviJu.png",
+      "mage/brave_hcdszJmi87.png"
+    ]
+  },
+  "90042": {
+    "review": "new",
+    "screenshots": [
+      "mage/17.png",
+      "mage/O2NJQmcycc.jpg"
+    ]
+  },
+  "90043": {
+    "review": "new",
+    "screenshots": [
+      "mage/brave_nVqSnzi9VK.png"
+    ]
+  },
+  "90044": {
+    "review": "new",
+    "screenshots": [
+      "mage/22.png",
+      "mage/brave_9Gq3JCzwjz.png"
+    ]
+  },
+  "90045": {
+    "review": "new",
+    "screenshots": [
+      "mage/27.png",
+      "mage/fix2.png",
+      "mage/brave_EHClz5yETV.png"
     ]
   },
   "90050": {
@@ -2480,6 +2749,71 @@
     "screenshots": [
       "warlock/overview.png",
       "warlock/22.png"
+    ]
+  },
+  "90300": {
+    "review": "new",
+    "screenshots": [
+      "paladin/1.png",
+      "paladin/37.png"
+    ]
+  },
+  "90301": {
+    "review": "new",
+    "screenshots": [
+      "paladin/7.png",
+      "paladin/27.png"
+    ]
+  },
+  "90302": {
+    "review": "new",
+    "screenshots": [
+      "paladin/12.png",
+      "paladin/35.png"
+    ]
+  },
+  "90303": {
+    "review": "new",
+    "screenshots": [
+      "paladin/14.png",
+      "paladin/31.png"
+    ]
+  },
+  "90304": {
+    "review": "new",
+    "screenshots": [
+      "paladin/15.png",
+      "paladin/36.png"
+    ]
+  },
+  "90305": {
+    "review": "new",
+    "screenshots": [
+      "paladin/18.png"
+    ]
+  },
+  "90306": {
+    "review": "new",
+    "screenshots": [
+      "paladin/19.png"
+    ]
+  },
+  "90307": {
+    "review": "new",
+    "screenshots": [
+      "paladin/20.png"
+    ]
+  },
+  "90308": {
+    "review": "new",
+    "screenshots": [
+      "paladin/21.png"
+    ]
+  },
+  "90309": {
+    "review": "new",
+    "screenshots": [
+      "paladin/30.png"
     ]
   }
 }
