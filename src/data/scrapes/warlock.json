@@ -1,0 +1,1815 @@
+{
+  "class": "warlock",
+  "overviewFile": "warlock/overview.png",
+  "sourceFiles": [
+    "warlock/overview.png",
+    "warlock/1.png",
+    "warlock/2.png",
+    "warlock/3.png",
+    "warlock/4.png",
+    "warlock/5.png",
+    "warlock/6.png",
+    "warlock/7.png",
+    "warlock/8.png",
+    "warlock/9.png",
+    "warlock/10.png",
+    "warlock/11.png",
+    "warlock/12.png",
+    "warlock/13.png",
+    "warlock/14.png",
+    "warlock/15.png",
+    "warlock/16.png",
+    "warlock/17.png",
+    "warlock/18.png",
+    "warlock/19.png",
+    "warlock/20.png",
+    "warlock/21.png",
+    "warlock/22.png",
+    "warlock/23.png",
+    "warlock/24.png",
+    "warlock/25.png",
+    "warlock/26.png",
+    "warlock/27.png",
+    "warlock/28.png",
+    "warlock/29.png",
+    "warlock/30.png",
+    "warlock/31.png",
+    "warlock/32.png",
+    "warlock/33.png",
+    "warlock/34.png",
+    "warlock/35.png",
+    "warlock/36.png",
+    "warlock/37.png",
+    "warlock/38.png",
+    "warlock/39.png",
+    "warlock/40.png",
+    "warlock/41.png",
+    "warlock/42.png",
+    "warlock/43.png",
+    "warlock/44.png",
+    "warlock/45.png",
+    "warlock/46.png",
+    "warlock/47.png",
+    "warlock/48.png",
+    "warlock/49.png",
+    "warlock/50.png",
+    "warlock/51.png",
+    "warlock/52.png"
+  ],
+  "notes": "Layout authority is overview.png only (4×7). Numbered 1–52 are tooltip/icon shots matched by icon+tree context. Classic talents.json used only for classicId/status by exact name. Only rank-0 hover (rank-1 preview) captured for multi-rank talents.",
+  "trees": [
+    {
+      "name": "Affliction",
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Life Tap",
+          "iconHint": "Purple silhouette / maw",
+          "notes": "warlock/39.png; leftmost top green"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Suppression",
+          "iconHint": "Blue energy / skeletal hand burst",
+          "notes": "warlock/38.png; middle top green"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Improved Corruption",
+          "iconHint": "Red/white claw or imp-face",
+          "notes": "warlock/37.png; overview tooltip; arrow down to Fel Concentration"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Soul Harvesting",
+          "iconHint": "Purple/blue ghostly hand",
+          "notes": "warlock/41.png"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Drains",
+          "iconHint": "Red screaming mouth / drain sigil",
+          "notes": "warlock/42.png"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Fel Concentration",
+          "iconHint": "Blue skeletal hand grasping light",
+          "notes": "warlock/44.png; arrow from Improved Corruption; arrow down to Nightfall"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Amplify Curse",
+          "iconHint": "Open mouth / curse sigil",
+          "notes": "warlock/43.png"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Bane of Agony",
+          "iconHint": "Purple agony / eye sigil",
+          "notes": "warlock/45.png"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Nightfall",
+          "iconHint": "Skull / shadow trance",
+          "notes": "warlock/47.png; receives arrow from Fel Concentration; arrow down to Siphon Life"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Malediction",
+          "iconHint": "Dark purple winged silhouette",
+          "notes": "warlock/40.png"
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Malevolence",
+          "iconHint": "Hand in dark energy",
+          "notes": "warlock/46.png"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Siphon Life",
+          "iconHint": "Green spiral / life transfer",
+          "notes": "warlock/50.png; receives arrow from Nightfall"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Curse of Exhaustion",
+          "iconHint": "Hand reaching out",
+          "notes": "warlock/48.png; arrow down to Drain Hope"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Soul Siphon",
+          "iconHint": "Spectral face",
+          "notes": "warlock/49.png; left of Shadow Mastery"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Shadow Mastery",
+          "iconHint": "Dark shadowed mastery figure",
+          "notes": "warlock/51.png"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Drain Hope",
+          "iconHint": "Gauntlet / hope drain",
+          "notes": "warlock/18.png + warlock/52.png; Affliction capstone under Exhaustion arrow"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Demonology",
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Decimation",
+          "iconHint": "Red claw / energy blast",
+          "notes": "warlock/23.png; leftmost top green"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Imp",
+          "iconHint": "Green-skinned Imp face",
+          "notes": "warlock/35.png"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Demonic Embrace",
+          "iconHint": "Purple horned demon face",
+          "notes": "warlock/34.png"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Demonic Aegis",
+          "iconHint": "Bright yellow/white circular glow",
+          "notes": "warlock/32.png; top-row rightmost"
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Demonic Energies",
+          "iconHint": "Demonic mask",
+          "notes": "warlock/29.png"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Voidwalker",
+          "iconHint": "Circular maw/eye",
+          "notes": "warlock/31.png"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Fel Vitality",
+          "iconHint": "Armored helmet",
+          "notes": "warlock/30.png"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Demonic Brand",
+          "iconHint": "Scroll / brand mark",
+          "notes": "warlock/28.png"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Sayaad",
+          "iconHint": "Face profile looking left",
+          "notes": "warlock/24.png"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Fel Domination",
+          "iconHint": "Shadowy hooded figure",
+          "notes": "warlock/27.png; long arrow toward Soul Link (col1 chain)"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Demonic Sacrifice",
+          "iconHint": "Spiky sacrificial swirl",
+          "notes": "warlock/25.png; path toward Demonic Pact"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Unholy Power",
+          "iconHint": "Yellow/orange orb / ghostly face",
+          "notes": "warlock/33.png"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Master Summoner",
+          "iconHint": "Skeletal hand reaching upward",
+          "notes": "warlock/26.png"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Improved Health Funnel",
+          "iconHint": "Swirling funnel / red energy crest",
+          "notes": "warlock/36.png"
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Felhunter",
+          "iconHint": "Beast head in profile",
+          "notes": "warlock/22.png"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Master Demonologist",
+          "iconHint": "Tentacled/alien demon face",
+          "notes": "warlock/19.png; on Fel Domination→Soul Link col1 path"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Demonic Knowledge",
+          "iconHint": "Chest armor / cuirass",
+          "notes": "warlock/20.png"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Demonic Pact",
+          "iconHint": "Winged demonic helmet",
+          "notes": "warlock/17.png"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Soul Link",
+          "iconHint": "Monstrous open-maw face",
+          "notes": "warlock/21.png; Demonology capstone"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Destruction",
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Destructive Reach",
+          "iconHint": "Red demonic skull/face",
+          "notes": "warlock/3.png; leftmost top green"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Shadow Bolt",
+          "iconHint": "Purple/white swirling shadow energy",
+          "notes": "warlock/2.png"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Aftermath",
+          "iconHint": "Clenched fist in orange/red fire",
+          "notes": "warlock/6.png"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Molten Skin",
+          "iconHint": "Red molten demonic face/skull",
+          "notes": "warlock/4.png"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Bane",
+          "iconHint": "Gauntlet clutching glowing red organ",
+          "notes": "warlock/1.png"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Cataclysm",
+          "iconHint": "Orange flame burst",
+          "notes": "warlock/5.png"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Shadowburn",
+          "iconHint": "Dark shadow blast / fist",
+          "notes": "warlock/7.png"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Ruin",
+          "iconHint": "Purple/pink swirling energy",
+          "notes": "warlock/8.png"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Agonizing Flames",
+          "iconHint": "Fiery orange face/skull",
+          "notes": "warlock/9.png"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Intensity",
+          "iconHint": "White ghostly toothy grin",
+          "notes": "warlock/10.png"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Pyroclasm",
+          "iconHint": "Dark shadowy mask with glowing eyes",
+          "notes": "warlock/14.png"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Incinerate",
+          "iconHint": "Upward casting hand / flame head",
+          "notes": "warlock/16.png"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Conflagrate",
+          "iconHint": "Fiery explosive burst",
+          "notes": "warlock/11.png; arrow down to Bane of Havoc"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Fire and Brimstone",
+          "iconHint": "Charred sticks with orange embers",
+          "notes": "warlock/12.png"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Shadow and Flame",
+          "iconHint": "Dark shadowy face / flame profile",
+          "notes": "warlock/15.png"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Bane of Havoc",
+          "iconHint": "Dark face/mask",
+          "notes": "warlock/13.png; Destruction capstone under Conflagrate arrow"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
+      ]
+    }
+  ],
+  "talents": [
+    {
+      "screenshots": [
+        "warlock/39.png"
+      ],
+      "name": "Improved Life Tap",
+      "tree": "Affliction",
+      "row": 0,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the amount of Mana awarded by your Life Tap spell by 10%."
+        }
+      ],
+      "iconHint": "Purple silhouette / maw; leftmost top green",
+      "classicId": 1007,
+      "status": "unchanged",
+      "diffNotes": "Matches talents.json rank 1 text and maxRank."
+    },
+    {
+      "screenshots": [
+        "warlock/38.png"
+      ],
+      "name": "Suppression",
+      "tree": "Affliction",
+      "row": 0,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your chance to hit with all spells and attacks by 1% and reduces all threat you generate by 4%."
+        }
+      ],
+      "iconHint": "Blue energy / skeletal hand burst; middle top green",
+      "classicId": 1005,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Reduces the chance for enemies to resist your Affliction spells by 2%."
+    },
+    {
+      "screenshots": [
+        "warlock/37.png"
+      ],
+      "name": "Improved Corruption",
+      "tree": "Affliction",
+      "row": 0,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the casting time of your Corruption spell by 0.4 sec and increases the damage it deals by 2%."
+        }
+      ],
+      "iconHint": "Red/white claw; rightmost top green; overview tooltip",
+      "classicId": 1003,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Reduces the casting time of your Corruption spell by 0.4 sec."
+    },
+    {
+      "screenshots": [
+        "warlock/41.png"
+      ],
+      "name": "Soul Harvesting",
+      "tree": "Affliction",
+      "row": 1,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "You gain Soul Harvest for 10 sec if a victim is killed while afflicted with your Drain Soul. Soul Harvest allows your Mana to regenerate at 50% of normal speed while you are casting spells, and grants a 50% increase to your Mana regeneration."
+        }
+      ],
+      "iconHint": "Purple/blue ghostly hand",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/42.png"
+      ],
+      "name": "Improved Drains",
+      "tree": "Affliction",
+      "row": 1,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage done or health drained by your Drain Life and Drain Soul spells by 2% per each of your other Affliction effects active on the target, up to a maximum increase of 6%. When your Drain Soul damages targets below 20% health, this bonus is tripled. Additionally, your Drain Life range is extended by 3 yards."
+        }
+      ],
+      "iconHint": "Red screaming mouth / drain sigil",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/44.png"
+      ],
+      "name": "Fel Concentration",
+      "tree": "Affliction",
+      "row": 1,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives you a 23% chance to avoid interruption caused by damage while channeling or casting your Drain Life, Drain Mana, or Drain Soul spells."
+        }
+      ],
+      "iconHint": "Blue skeletal hand grasping light; arrow from Improved Corruption; arrow down to Nightfall",
+      "classicId": 1001,
+      "status": "updated",
+      "diffNotes": "maxRank 5→3; Classic R1 differed: Gives you a 14% chance to avoid interruption caused by damage while channeling the Drain Life, Drain Mana, or Drain Soul"
+    },
+    {
+      "screenshots": [
+        "warlock/43.png"
+      ],
+      "name": "Amplify Curse",
+      "tree": "Affliction",
+      "row": 2,
+      "col": 0,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the effect of your next Curse of Weakness or Bane of Agony by 50%, or your next Curse of Exhaustion by 20%. Lasts 30 sec.",
+          "castTime": "Instant",
+          "cooldown": "3 min"
+        }
+      ],
+      "iconHint": "Open mouth / curse sigil",
+      "classicId": 1061,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Increases the effect of your next Curse of Weakness or Curse of Agony by 50%, or your next Curse of Exhaustion by 20%."
+    },
+    {
+      "screenshots": [
+        "warlock/45.png"
+      ],
+      "name": "Improved Bane of Agony",
+      "tree": "Affliction",
+      "row": 2,
+      "col": 1,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage done by your Bane of Agony by 5%."
+        }
+      ],
+      "iconHint": "Purple agony / eye sigil",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "Related to Classic Improved Curse of Agony (id 1284); classicId null (name differs)."
+    },
+    {
+      "screenshots": [
+        "warlock/47.png"
+      ],
+      "name": "Nightfall",
+      "tree": "Affliction",
+      "row": 2,
+      "col": 2,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your Corruption, Drain Soul, and Drain Life spells a 2% chance to cause you to enter a Shadow Trance after damaging the opponent. The Shadow Trance reduces the casting time of your next Shadow Bolt spell by 100%."
+        }
+      ],
+      "iconHint": "Skull; receives arrow from Fel Concentration",
+      "classicId": 1002,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Gives your Corruption and Drain Life spells a 2% chance to cause you to enter a Shadow Trance state after damaging the o"
+    },
+    {
+      "screenshots": [
+        "warlock/40.png"
+      ],
+      "name": "Malediction",
+      "tree": "Affliction",
+      "row": 2,
+      "col": 3,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases all periodic damage done by your Warlock spells by 1%."
+        }
+      ],
+      "iconHint": "Dark purple winged silhouette",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/46.png"
+      ],
+      "name": "Malevolence",
+      "tree": "Affliction",
+      "row": 3,
+      "col": 0,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical effect chance of your Shadow spells by 1%."
+        }
+      ],
+      "iconHint": "Hand in dark energy",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/50.png"
+      ],
+      "name": "Siphon Life",
+      "tree": "Affliction",
+      "row": 3,
+      "col": 2,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Transfers 15 health from the target to the caster every 3 sec. Lasts 30 sec.",
+          "mana": 150,
+          "range": "30 yd",
+          "castTime": "Instant"
+        }
+      ],
+      "iconHint": "Green spiral / life transfer",
+      "classicId": 1041,
+      "status": "unchanged",
+      "diffNotes": "Matches talents.json rank 1 effect text and maxRank (spacing differs)."
+    },
+    {
+      "screenshots": [
+        "warlock/48.png"
+      ],
+      "name": "Curse of Exhaustion",
+      "tree": "Affliction",
+      "row": 4,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the target's movement speed by 30% for 12 sec. Only one Curse per Warlock can be active on any one target.",
+          "mana": 69,
+          "range": "30 yd",
+          "castTime": "Instant"
+        }
+      ],
+      "iconHint": "Hand reaching out; arrow down to Drain Hope",
+      "classicId": 1081,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Reduces the target's movement speed by 10% for 12 sec."
+    },
+    {
+      "screenshots": [
+        "warlock/49.png"
+      ],
+      "name": "Soul Siphon",
+      "tree": "Affliction",
+      "row": 5,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the rate at which your Drain Life and Drain Soul deal damage by 17%, but reduces your healing from Drain Life by 10%."
+        }
+      ],
+      "iconHint": "Spectral face; left of Shadow Mastery",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/51.png"
+      ],
+      "name": "Shadow Mastery",
+      "tree": "Affliction",
+      "row": 5,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage dealt or life drained by your Shadow spells by 1%."
+        }
+      ],
+      "iconHint": "Dark shadowed mastery figure",
+      "classicId": 1042,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Increases the damage dealt or life drained by your Shadow spells by 2%."
+    },
+    {
+      "screenshots": [
+        "warlock/18.png",
+        "warlock/52.png"
+      ],
+      "name": "Drain Hope",
+      "tree": "Affliction",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Drains all hope from the target, dealing 52 Shadow damage every 1 sec and increasing all other Shadow damage over time you deal to that target by 10%. Lasts 6 sec.",
+          "mana": 200,
+          "range": "30 yd",
+          "castTime": "Channeled"
+        }
+      ],
+      "iconHint": "Affliction capstone under Exhaustion arrow",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock. 18.png and 52.png are duplicates."
+    },
+    {
+      "screenshots": [
+        "warlock/23.png"
+      ],
+      "name": "Decimation",
+      "tree": "Demonology",
+      "row": 0,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown of your Soul Fire spell by 45%. When you cast Shadow Bolt or Searing Pain on an enemy below 35% health, they deal 3% increased damage, and for the next 10 sec your Soul Fire spell has its cast time reduced by 20% and costs no Soul Shards."
+        }
+      ],
+      "iconHint": "Red claw / energy blast; leftmost top green",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/35.png"
+      ],
+      "name": "Improved Imp",
+      "tree": "Demonology",
+      "row": 0,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage of your Imp's Firebolt spell by 10% and the effect of its Fire Shield spell by 10%."
+        }
+      ],
+      "iconHint": "Green-skinned Imp face",
+      "classicId": 1222,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Increases the effect of your Imp's Firebolt, Fire Shield, and Blood Pact spells by 10%."
+    },
+    {
+      "screenshots": [
+        "warlock/34.png"
+      ],
+      "name": "Demonic Embrace",
+      "tree": "Demonology",
+      "row": 0,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your total Stamina by 3%."
+        }
+      ],
+      "iconHint": "Purple horned demon face with orange eyes",
+      "classicId": 1223,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Increases your total Stamina by 3% but reduces your total Spirit by 1%."
+    },
+    {
+      "screenshots": [
+        "warlock/32.png"
+      ],
+      "name": "Demonic Aegis",
+      "tree": "Demonology",
+      "row": 0,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the effectiveness of your Demon Skin and Demon Armor spells by 15%."
+        }
+      ],
+      "iconHint": "Bright yellow/white circular glow; top-row rightmost",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/29.png"
+      ],
+      "name": "Demonic Energies",
+      "tree": "Demonology",
+      "row": 1,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "You heal your pet for 8% of all spell damage you deal. When you gain Mana from Life Tap, your summoned demon gains 50% of the Mana you gain."
+        }
+      ],
+      "iconHint": "Demonic mask",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/31.png"
+      ],
+      "name": "Improved Voidwalker",
+      "tree": "Demonology",
+      "row": 1,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the effectiveness of your Voidwalker's Torment, Consume Shadows, Sacrifice, and Suffering spells by 10%."
+        }
+      ],
+      "iconHint": "Circular maw/eye",
+      "classicId": 1225,
+      "status": "unchanged",
+      "diffNotes": "Matches talents.json rank 1 text and maxRank (comma spacing differs)."
+    },
+    {
+      "screenshots": [
+        "warlock/30.png"
+      ],
+      "name": "Fel Vitality",
+      "tree": "Demonology",
+      "row": 1,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the maximum health and Mana of your Imp, Voidwalker, Succubus, Incubus, and Felhunter by 5%, and increases your maximum Mana by 5%."
+        }
+      ],
+      "iconHint": "Armored helmet",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "Related to Classic Fel Stamina/Fel Intellect; classicId null (name differs)."
+    },
+    {
+      "screenshots": [
+        "warlock/28.png"
+      ],
+      "name": "Demonic Brand",
+      "tree": "Demonology",
+      "row": 1,
+      "col": 3,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your Searing Pain generates 17% less threat and brands the target for 10 sec. Your pet's next 2 attacks against the target generate high threat and deal 39 to 42 Fire or Shadow damage based on the pet."
+        }
+      ],
+      "iconHint": "Scroll / brand mark",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/24.png"
+      ],
+      "name": "Improved Sayaad",
+      "tree": "Demonology",
+      "row": 2,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the effect of your Succubus' and Incubus' Lash of Pain and Soothing Kiss spells by 10%, and increases the duration of your Succubus' and Incubus' Seduction and Lesser Invisibility by 10%."
+        }
+      ],
+      "iconHint": "Face profile looking left",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "Related to Classic Improved Succubus (id 1243); classicId null (name differs)."
+    },
+    {
+      "screenshots": [
+        "warlock/27.png"
+      ],
+      "name": "Fel Domination",
+      "tree": "Demonology",
+      "row": 2,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your next Imp, Voidwalker, Succubus, Incubus, or Felhunter Summon spell has its casting time reduced by 5.5 sec and its Mana cost reduced by 50%.",
+          "castTime": "Instant",
+          "cooldown": "5 min"
+        }
+      ],
+      "iconHint": "Shadowy hooded figure; long arrow toward Soul Link",
+      "classicId": 1226,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Your next Imp, Voidwalker, Succubus, or Felhunter Summon spell has its casting time reduced by 5.5 sec and its Mana cost"
+    },
+    {
+      "screenshots": [
+        "warlock/25.png"
+      ],
+      "name": "Demonic Sacrifice",
+      "tree": "Demonology",
+      "row": 2,
+      "col": 2,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When activated, sacrifices your summoned Demon to enhance the opposing aspect of your power, granting you an effect that lasts 2 hrs. The effect is canceled if any Demon is summoned. Imp: Increases your Shadow damage by 15%. Voidwalker: Restores 2% of your total Mana every 4 sec. Succubus/Incubus: Increases your Fire damage by 15%. Felhunter: Restores 3% of your total Health every 4 sec.",
+          "range": "100 yd",
+          "castTime": "Instant"
+        }
+      ],
+      "iconHint": "Spiky sacrificial swirl",
+      "classicId": 1281,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: When activated, sacrifices your summoned demon to grant you an effect that lasts 30 min."
+    },
+    {
+      "screenshots": [
+        "warlock/33.png"
+      ],
+      "name": "Unholy Power",
+      "tree": "Demonology",
+      "row": 3,
+      "col": 0,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases all damage done by your Imp, Voidwalker, Succubus, Incubus, and Felhunter pets by 2%."
+        }
+      ],
+      "iconHint": "Yellow/orange orb / ghostly demonic face",
+      "classicId": 1262,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Increases the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 4%. Forever R1 is 2% all pet damage."
+    },
+    {
+      "screenshots": [
+        "warlock/26.png"
+      ],
+      "name": "Master Summoner",
+      "tree": "Demonology",
+      "row": 3,
+      "col": 2,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the casting time of your Imp, Voidwalker, Succubus, Incubus, and Felhunter Summoning spells by 2 sec and the Mana cost by 20%."
+        }
+      ],
+      "iconHint": "Skeletal hand reaching upward",
+      "classicId": 1227,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Reduces the casting time of your Imp, Voidwalker, Succubus, and Felhunter Summoning spells by 2 sec and the Mana cost by"
+    },
+    {
+      "screenshots": [
+        "warlock/36.png"
+      ],
+      "name": "Improved Health Funnel",
+      "tree": "Demonology",
+      "row": 3,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the amount of health transferred by your Health Funnel spell by 20%, reduces its health cost by 15%, and reduces all threat your Health Funnel generates by 50%. Allows Health Funnel to be used regardless of your demon's health."
+        }
+      ],
+      "iconHint": "Swirling funnel / red energy crest",
+      "classicId": 1224,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Increases the amount of Health transferred by your Health Funnel spell by 10%."
+    },
+    {
+      "screenshots": [
+        "warlock/22.png"
+      ],
+      "name": "Improved Felhunter",
+      "tree": "Demonology",
+      "row": 4,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the Attack Power reduction of your Felhunter's Tainted Blood, the healing of its Devour Magic, and the detection level of its Paranoia by 10%, and reduces the cooldown of its Spell Lock by 2 sec."
+        }
+      ],
+      "iconHint": "Beast head in profile",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/19.png"
+      ],
+      "name": "Master Demonologist",
+      "tree": "Demonology",
+      "row": 4,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Grants both the Warlock and the summoned demon an effect as long as that demon is active. Imp - Increases Fire damage done by 2%. Voidwalker - Reduces Physical damage taken by 2%. Succubus/Incubus - Increases Shadow damage done by 2%. Felhunter - Reduces Magic damage taken by 2%."
+        }
+      ],
+      "iconHint": "Tentacled/alien demon face on col1 path",
+      "classicId": 1244,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Imp threat reduction / different per-pet effects."
+    },
+    {
+      "screenshots": [
+        "warlock/20.png"
+      ],
+      "name": "Demonic Knowledge",
+      "tree": "Demonology",
+      "row": 4,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your spell damage and healing by up to 3% of your level while you have a summoned Demon pet active."
+        }
+      ],
+      "iconHint": "Chest armor / cuirass",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/17.png"
+      ],
+      "name": "Demonic Pact",
+      "tree": "Demonology",
+      "row": 5,
+      "col": 2,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your Demonic Sacrifice effect is no longer cancelled by summoning a different Demon. Resummoning the sacrificed demon will still cancel the effect."
+        }
+      ],
+      "iconHint": "Winged demonic helmet",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/21.png"
+      ],
+      "name": "Soul Link",
+      "tree": "Demonology",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When active, 30% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, Incubus, or Felhunter Demon instead. In addition, both the Demon and the master will inflict 3% more damage. Lasts as long as the Demon is active.",
+          "mana": 173,
+          "range": "100 yd",
+          "castTime": "Instant"
+        }
+      ],
+      "iconHint": "Monstrous open-maw face; Demonology capstone",
+      "classicId": 1282,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: omitted Incubus; Forever adds Incubus and lists 100 yd range."
+    },
+    {
+      "screenshots": [
+        "warlock/3.png"
+      ],
+      "name": "Destructive Reach",
+      "tree": "Destruction",
+      "row": 0,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the range of your damaging spells by 10%."
+        }
+      ],
+      "iconHint": "Red demonic skull/face; leftmost top green",
+      "classicId": 964,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Increases the range of your Destruction spells by 10%."
+    },
+    {
+      "screenshots": [
+        "warlock/2.png"
+      ],
+      "name": "Improved Shadow Bolt",
+      "tree": "Destruction",
+      "row": 0,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your Shadow Bolt critical strikes increase Shadow damage taken by the target from your attacks by 4% for 12 sec."
+        }
+      ],
+      "iconHint": "Purple/white swirling shadow energy",
+      "classicId": 944,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Your Shadow Bolt critical strikes increase Shadow damage dealt to the target by 4% until 4 non-periodic damage sources a"
+    },
+    {
+      "screenshots": [
+        "warlock/6.png"
+      ],
+      "name": "Aftermath",
+      "tree": "Destruction",
+      "row": 0,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the initial damage of your Immolate spell by 10% and your Conflagrate spell has a 20% chance to Daze the target, reducing the target's movement speed by 50% for 5 sec."
+        }
+      ],
+      "iconHint": "Clenched fist in orange/red fire",
+      "classicId": 982,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Gives your Destruction spells a 2% chance to daze the target for 5 sec."
+    },
+    {
+      "screenshots": [
+        "warlock/4.png"
+      ],
+      "name": "Molten Skin",
+      "tree": "Destruction",
+      "row": 1,
+      "col": 0,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces all damage taken by 2%."
+        }
+      ],
+      "iconHint": "Red molten demonic face/skull",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/1.png"
+      ],
+      "name": "Bane",
+      "tree": "Destruction",
+      "row": 1,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the casting time of your Shadow Bolt, Immolate, and Incinerate spells by 0.1 sec and your Soul Fire spell by 0.4 sec."
+        }
+      ],
+      "iconHint": "Gauntlet clutching glowing red organ",
+      "classicId": 943,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Reduces the casting time of your Shadow Bolt and Immolate spells by 0.1 sec and your Soul Fire spell by 0.4 sec."
+    },
+    {
+      "screenshots": [
+        "warlock/5.png"
+      ],
+      "name": "Cataclysm",
+      "tree": "Destruction",
+      "row": 1,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the Mana cost of your Destruction spells by 3%."
+        }
+      ],
+      "iconHint": "Orange flame burst",
+      "classicId": 941,
+      "status": "updated",
+      "diffNotes": "maxRank 5→3; Classic R1 differed: Reduces the Mana cost of your Destruction spells by 1%."
+    },
+    {
+      "screenshots": [
+        "warlock/7.png"
+      ],
+      "name": "Shadowburn",
+      "tree": "Destruction",
+      "row": 2,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Instantly blasts the target for 102 to 111 Shadow damage. If a non-trivial target dies within 8 sec of being hit with Shadowburn, the caster gains a Soul Shard.",
+          "mana": 105,
+          "range": "30 yd",
+          "castTime": "Instant",
+          "cooldown": "15 sec",
+          "reagents": "Soul Shard"
+        }
+      ],
+      "iconHint": "Dark shadow blast / fist",
+      "classicId": 963,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: lower damage numbers in Classic tooltip markup."
+    },
+    {
+      "screenshots": [
+        "warlock/8.png"
+      ],
+      "name": "Ruin",
+      "tree": "Destruction",
+      "row": 2,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical strike damage bonus of your Destruction spells by 20%."
+        }
+      ],
+      "iconHint": "Purple/pink swirling energy",
+      "classicId": 967,
+      "status": "updated",
+      "diffNotes": "maxRank 1→5; Classic R1 differed: Increases the critical strike damage bonus of your Destruction spells by 100%."
+    },
+    {
+      "screenshots": [
+        "warlock/9.png"
+      ],
+      "name": "Agonizing Flames",
+      "tree": "Destruction",
+      "row": 3,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical strike chance of your Searing Pain spell by 3% and the damage done by all your Destruction spells by 3%."
+        }
+      ],
+      "iconHint": "Fiery orange face/skull",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/10.png"
+      ],
+      "name": "Intensity",
+      "tree": "Destruction",
+      "row": 3,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives you a 23% chance to resist interruption caused by damage while casting or channeling any Destruction spell."
+        }
+      ],
+      "iconHint": "White ghostly toothy grin",
+      "classicId": 985,
+      "status": "updated",
+      "diffNotes": "maxRank 2→3; Classic R1 differed: Gives you a 35% chance to resist interruption caused by damage while channeling the Rain of Fire, Hellfire or Soul Fire"
+    },
+    {
+      "screenshots": [
+        "warlock/14.png"
+      ],
+      "name": "Pyroclasm",
+      "tree": "Destruction",
+      "row": 3,
+      "col": 2,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your Soul Fire spell a 13% chance to Stun the target for 3 sec, and your Rain of Fire and Hellfire spells a 13% chance over their duration to Stun targets they damage for 3 sec."
+        }
+      ],
+      "iconHint": "Dark shadowy mask with glowing eyes",
+      "classicId": 986,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: Gives your Rain of Fire, Hellfire, and Soul Fire spells a 13% chance to stun the target for 3 sec."
+    },
+    {
+      "screenshots": [
+        "warlock/16.png"
+      ],
+      "name": "Incinerate",
+      "tree": "Destruction",
+      "row": 4,
+      "col": 0,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Deals 125 to 140 Fire damage to your target and an additional 25% damage if the target is afflicted by Immolate.",
+          "mana": 205,
+          "range": "30 yd",
+          "castTime": "2.5 sec"
+        }
+      ],
+      "iconHint": "Upward casting hand / flame head",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/11.png"
+      ],
+      "name": "Conflagrate",
+      "tree": "Destruction",
+      "row": 4,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Ignites a target that is already afflicted by your Immolate spell, dealing 109 to 132 Fire damage and consuming your Immolate effect.",
+          "mana": 100,
+          "range": "30 yd",
+          "castTime": "Instant",
+          "cooldown": "10 sec"
+        }
+      ],
+      "iconHint": "Fiery explosive burst; arrow down to Bane of Havoc",
+      "classicId": 968,
+      "status": "updated",
+      "diffNotes": "Classic R1 differed: higher Classic damage markup; Forever lists 109-132 and 10 sec cooldown."
+    },
+    {
+      "screenshots": [
+        "warlock/12.png"
+      ],
+      "name": "Fire and Brimstone",
+      "tree": "Destruction",
+      "row": 4,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical strike chance of your Conflagrate spell by 8%."
+        }
+      ],
+      "iconHint": "Charred sticks with orange embers",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/15.png"
+      ],
+      "name": "Shadow and Flame",
+      "tree": "Destruction",
+      "row": 5,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Hitting an enemy with Conflagrate increases all Shadow damage you deal by 2% for 20 sec, and hitting an enemy with Shadowburn increases all Fire damage you deal by 2% for 20 sec. In addition, Conflagrate has a 20% chance not to consume Immolate, and Shadowburn has a 20% chance to instantly refund a Soul Shard."
+        }
+      ],
+      "iconHint": "Dark shadowy face / flame profile",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    },
+    {
+      "screenshots": [
+        "warlock/13.png"
+      ],
+      "name": "Bane of Havoc",
+      "tree": "Destruction",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Afflicts the target for 5 min, causing 15% of all damage done by the Warlock to other targets to also be dealt to the cursed target. Bane of Havoc is limited to 1 target, and only one Bane per Warlock can be active on any one target.",
+          "mana": 43,
+          "range": "30 yd",
+          "castTime": "Instant"
+        }
+      ],
+      "iconHint": "Dark face/mask; Destruction capstone",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match in talents.json warlock."
+    }
+  ],
+  "unmatchedScreenshots": [],
+  "layoutNotes": [
+    "overview.png is sole 4×7 layout authority for Affliction / Demonology / Destruction. Classic row/col ignored.",
+    "Directory public/warlock/: overview.png + 1.png–52.png (53 files). 18.png and 52.png both Drain Hope.",
+    "Affliction top greens r0: Improved Life Tap | Suppression | Improved Corruption (overview tooltip on Corruption; arrow Corruption→Fel Concentration→Nightfall→Siphon Life). Occupied: r0c0-2, r1c0-2, r2c0-3, r3c0+c2, r4c1, r5c1-2, r6c1 Drain Hope.",
+    "Demonology top greens r0: Decimation | Improved Imp | Demonic Embrace | Demonic Aegis. Capstone Soul Link r6c1 on Fel Domination col1 chain. Demonic Sacrifice r2c2 → Demonic Pact r5c2.",
+    "Destruction top greens r0: Destructive Reach | Improved Shadow Bolt | Aftermath (r0c3 empty). Capstone Bane of Havoc r6c1 under Conflagrate arrow. Molten Skin at r1c0.",
+    "classicId by exact name only vs talents.json warlock; status from rank-1 text/maxRank compare. Renames (Improved Sayaad, Improved Bane of Agony, Fel Vitality) → classicId null.",
+    "Rescrape fixes vs prior scrape: Affliction r0 Suppression/Corruption column swap; Soul Harvesting 50% regen; Fel Concentration omits Drain Hope; Improved Drains 20%/tripled; Demonic Aegis 15%; Demonic Energies 50% Mana; Unholy Power 2%; Demonic Sacrifice Felhunter 3%; Health Funnel regardless of demon health; Drain Hope DoT wording; Demonic Brand threat/damage numbers; Fel Vitality self Mana 5%; Shadow Mastery 1%."
+  ]
+}

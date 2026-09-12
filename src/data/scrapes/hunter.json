@@ -1,28 +1,705 @@
 {
   "class": "hunter",
-  "overviewFile": null,
+  "overviewFile": "hunter/ovvveriview.png",
   "trees": [
     {
       "name": "Beast Mastery",
-      "slots": []
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Deadly Aspects",
+          "iconHint": "Hand grasping hawk/bird",
+          "notes": "hunter/36.png; replaces Classic Improved Aspect of the Hawk"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Endurance Training",
+          "iconHint": "Stag/bear head",
+          "notes": "hunter/37.png"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Focused Fire",
+          "iconHint": "Clawed hand / focus sigil",
+          "notes": "hunter/40.png; Forever extra vs Classic Improved Eyes"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Pathfinding",
+          "iconHint": "Running figure / trail / boot",
+          "notes": "hunter/38.png; Forever tier-2 placement inferred (Classic was row2 col0)"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Thick hide / fur",
+          "notes": "Overview occupied; no tooltip in 1-47"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Improved Revive Pet",
+          "iconHint": "Pet head / revive",
+          "notes": "hunter/39.png"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": "Empty on Forever overview (Classic Pathfinding was here)"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Bestial Swiftness",
+          "iconHint": "Motion streaks / paws",
+          "notes": "hunter/41.png; arrow down toward Intimidation"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Unleashed Fury",
+          "iconHint": "Snarling beast / fist",
+          "notes": "hunter/42.png"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Summon Hawk",
+          "iconHint": "Hawk dive / bird",
+          "notes": "hunter/43.png; Forever active replacing Classic Improved Mend Pet slot area"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Growling beast face (Ferocity?)",
+          "notes": "Overview occupied; arrow down toward Frenzy; no Ferocity tooltip in set"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Spirit Bond",
+          "iconHint": "Hunter+pet / cloud bond",
+          "notes": "hunter/45.png; overview places mid-tree"
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Intimidation",
+          "iconHint": "Roaring beast head",
+          "notes": "hunter/46.png; arrow from Bestial Swiftness; arrow down to Bestial Wrath"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Bestial Discipline",
+          "iconHint": "Discipline / focus icon",
+          "notes": "hunter/44.png"
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Frenzy",
+          "iconHint": "Claw marks",
+          "notes": "hunter/47.png; arrow from Ferocity-slot above"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Bestial Wrath",
+          "iconHint": "Enraged beast / ribs",
+          "notes": "hunter/overview.png tooltip"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
+      ]
     },
     {
       "name": "Marksmanship",
-      "slots": []
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Concussive Shot",
+          "iconHint": "Foot / concussive impact",
+          "notes": "hunter/21.png"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Efficiency",
+          "iconHint": "White circular swirl",
+          "notes": "hunter/24.png"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Careful Aim",
+          "iconHint": "Flaming spear/arrowhead; spent 3/5 on overview",
+          "notes": "hunter/23.png; overview shows green 3"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Lethal Attacks",
+          "iconHint": "Gauntlet holding blade",
+          "notes": "hunter/22.png; Forever rename/change of Lethal Shots"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Glowing eye / orb",
+          "notes": "Overview occupied; no tooltip"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Improved Arcane Shot",
+          "iconHint": "Archer silhouette / arcane swirl",
+          "notes": "hunter/29.png; arrow down chain"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Scatter Shot",
+          "iconHint": "Crossed weapons / scatter",
+          "notes": "hunter/33.png; arrow down toward lower left"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Hawk Eye",
+          "iconHint": "Vertical arrowhead / hawk",
+          "notes": "hunter/20.png"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Improved Stings",
+          "iconHint": "Wolf/beast head / sting",
+          "notes": "hunter/25.png"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Barrage",
+          "iconHint": "Bow/quiver / multi arrows",
+          "notes": "hunter/32.png; arrow chain toward Trueshot"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Mortal Shots",
+          "iconHint": "Downward arrowhead / mortal",
+          "notes": "hunter/31.png; receives arrow from above"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Rapid Killing",
+          "iconHint": "Explosion / rapid fire burst",
+          "notes": "hunter/26.png"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Rapid Recuperation",
+          "iconHint": "Gauntlet / recuperation",
+          "notes": "hunter/27.png; arrow from above"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Ranged Weapon Specialization",
+          "iconHint": "Crossbow / winged hood",
+          "notes": "hunter/34.png"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Sniper Shot",
+          "iconHint": "Rifle / long gun",
+          "notes": "hunter/19.png hunter/35.png; Aimed Shot replacement; arrow from above"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Trueshot Aura",
+          "iconHint": "Specialized arrowhead / aura",
+          "notes": "hunter/28.png"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
+      ]
     },
     {
       "name": "Survival",
-      "slots": []
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Tracking",
+          "iconHint": "Purple snarling wolf",
+          "notes": "hunter/1.png; overview spent 5/5"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Deflection",
+          "iconHint": "Crossed silver blades",
+          "notes": "hunter/2.png"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Entrapment",
+          "iconHint": "Roaring feline / net",
+          "notes": "hunter/3.png"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Savage Strikes",
+          "iconHint": "Fiery burst / purple beast",
+          "notes": "hunter/4.png; overview spent 2/2"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Improved Wing Clip",
+          "iconHint": "Hunter silhouette / moon; or gauntlet in crops",
+          "notes": "hunter/6.png; overview spent 3/3; arrow toward Deterrence chain"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Survival Tactics",
+          "iconHint": "Broken chain",
+          "notes": "hunter/12.png"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Clever Traps",
+          "iconHint": "Compass / circular trap dial",
+          "notes": "hunter/7.png; overview spent 1/2"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Surefooted",
+          "iconHint": "Metal-toed boot",
+          "notes": "hunter/8.png; overview spent 3/3"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Deterrence",
+          "iconHint": "Blue shield / deflection",
+          "notes": "hunter/9.png; overview spent 1/1; arrow down to Counterattack"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Predator's Edge",
+          "iconHint": "Grey mesh / scales",
+          "notes": "hunter/11.png"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Survivalist",
+          "iconHint": "Dark gauntlet / plate spaulder",
+          "notes": "hunter/5.png; overview spent 5/5"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Counterattack",
+          "iconHint": "Projectile / crossed daggers",
+          "notes": "hunter/10.png; overview spent 1/1"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Strider Kick",
+          "iconHint": "Purple/blue swirl / kick",
+          "notes": "hunter/16.png; overview spent 1/1"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Resourcefulness",
+          "iconHint": "Open parchment / scroll",
+          "notes": "hunter/13.png; overview spent 2/2; long arrow to Lacerating Strikes"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Expose Prey",
+          "iconHint": "Dark vortex / expose",
+          "notes": "hunter/14.png"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Survivalist's Discipline",
+          "iconHint": "Purple gem / bag",
+          "notes": "hunter/15.png; overview spent 1/2"
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Lightning Reflexes",
+          "iconHint": "Bald human face",
+          "notes": "hunter/17.png; overview spent 5/5"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Lacerating Strikes",
+          "iconHint": "Curved bloody blade",
+          "notes": "hunter/18.png; overview spent 1/1; arrow from Resourcefulness"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
+      ]
     }
   ],
   "talents": [
     {
-      "screenshots": ["hunter/1.png"],
+      "screenshots": [
+        "hunter/1.png"
+      ],
       "name": "Improved Tracking",
       "classicId": null,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Survival",
+      "row": 0,
+      "col": 1,
       "maxRank": 5,
       "ranks": [
         {
@@ -30,17 +707,19 @@
           "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 1%."
         }
       ],
-      "iconHint": "Icon not visible; tooltip-only crop over large green '29'",
+      "iconHint": "Purple snarling wolf; overview 5/5",
       "status": "new",
-      "diffNotes": "No Classic name match. Tracking-type damage bonus (Beasts/Demons/Dragonkin/Elementals/Giants/Humanoids/Undead)."
+      "diffNotes": "No Classic name match. Replaces Humanoid/Monster Slaying tier-1 slot area on Forever overview."
     },
     {
-      "screenshots": ["hunter/2.png"],
+      "screenshots": [
+        "hunter/2.png"
+      ],
       "name": "Deflection",
       "classicId": 1311,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 0,
+      "col": 2,
       "maxRank": 5,
       "ranks": [
         {
@@ -48,17 +727,19 @@
           "description": "Increases your Parry chance by 2%."
         }
       ],
-      "iconHint": "Gauntleted hand holding a curved silver blade upright; green border; rank badge 0",
+      "iconHint": "Crossed silver blades; green border",
       "status": "unchanged",
-      "diffNotes": "Matches talents.json Deflection rank 1 (+2% Parry) and maxRank 5. Partial tree label 'vival' confirms Survival."
+      "diffNotes": "Matches talents.json Deflection rank 1 (+2% Parry) and maxRank 5."
     },
     {
-      "screenshots": ["hunter/3.png"],
+      "screenshots": [
+        "hunter/3.png"
+      ],
       "name": "Entrapment",
       "classicId": 1304,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 1,
+      "col": 0,
       "maxRank": 5,
       "ranks": [
         {
@@ -66,17 +747,19 @@
           "description": "When your traps are triggered, all affected targets are Entrapped, preventing them from moving for 1 sec."
         }
       ],
-      "iconHint": "Tangled web / net pattern on dark background; greyed at 0; leftmost of a 4-icon row",
+      "iconHint": "Net / feline; leftmost of row",
       "status": "unchanged",
-      "diffNotes": "Matches talents.json Entrapment rank 1 text and maxRank 5. Survival header visible. Higher Classic-style ranks still present in talents.json ranks 2–5."
+      "diffNotes": "Matches talents.json Entrapment rank 1 text and maxRank 5."
     },
     {
-      "screenshots": ["hunter/4.png"],
+      "screenshots": [
+        "hunter/4.png"
+      ],
       "name": "Savage Strikes",
       "classicId": 1621,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 1,
+      "col": 1,
       "maxRank": 2,
       "ranks": [
         {
@@ -84,17 +767,19 @@
           "description": "Increases the critical strike chance of all your melee abilities by 2%."
         }
       ],
-      "iconHint": "Purple snarling beast/dinosaur head in profile; green border; rank badge 0",
+      "iconHint": "Purple beast head / fiery burst; overview 2/2",
       "status": "unchanged",
-      "diffNotes": "Matches talents.json Savage Strikes rank 1 (all melee +2% crit) and maxRank 2. Rank 2 in talents.json still has Classic Raptor Strike/Mongoose Bite wording."
+      "diffNotes": "Matches talents.json Savage Strikes rank 1 (all melee +2% crit) and maxRank 2."
     },
     {
-      "screenshots": ["hunter/5.png"],
+      "screenshots": [
+        "hunter/5.png"
+      ],
       "name": "Survivalist",
       "classicId": 1622,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 3,
+      "col": 1,
       "maxRank": 5,
       "ranks": [
         {
@@ -102,17 +787,19 @@
           "description": "Increases your total Health by 2%."
         }
       ],
-      "iconHint": "White/silver blade tip angled upper-right on dark blue; green border; rank badge 0; gauntlet icon greyed below",
+      "iconHint": "Silver blade / spaulder; overview 5/5",
       "status": "unchanged",
-      "diffNotes": "Matches talents.json Survivalist rank 1 (+2% total Health) and maxRank 5. Teal Survival-tree background."
+      "diffNotes": "Matches talents.json Survivalist rank 1 (+2% total Health) and maxRank 5."
     },
     {
-      "screenshots": ["hunter/6.png"],
+      "screenshots": [
+        "hunter/6.png"
+      ],
       "name": "Improved Wing Clip",
       "classicId": 1305,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 1,
+      "col": 2,
       "maxRank": 3,
       "ranks": [
         {
@@ -120,17 +807,19 @@
           "description": "Gives your Wing Clip ability a 7% chance to immobilize the target for 5 sec."
         }
       ],
-      "iconHint": "Metallic grey gauntlet / armored hand; dark square icon",
+      "iconHint": "Gauntlet / moon-hunter; overview 3/3",
       "status": "unchanged",
       "diffNotes": "Matches talents.json Improved Wing Clip rank 1 (7%) and maxRank 3."
     },
     {
-      "screenshots": ["hunter/7.png"],
+      "screenshots": [
+        "hunter/7.png"
+      ],
       "name": "Clever Traps",
       "classicId": 1306,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 2,
+      "col": 0,
       "maxRank": 2,
       "ranks": [
         {
@@ -138,17 +827,19 @@
           "description": "Increases the duration of Freezing and Frost trap effects by 15% and the damage of Immolation and Explosive trap effects by 15%."
         }
       ],
-      "iconHint": "Circular metallic trap / snare; second from left in its visible row",
+      "iconHint": "Compass / circular trap; overview 1/2",
       "status": "unchanged",
-      "diffNotes": "Matches talents.json Clever Traps rank 1 text and maxRank 2. Forest Survival-tree background."
+      "diffNotes": "Matches talents.json Clever Traps rank 1 text and maxRank 2."
     },
     {
-      "screenshots": ["hunter/8.png"],
+      "screenshots": [
+        "hunter/8.png"
+      ],
       "name": "Surefooted",
       "classicId": 1310,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 2,
+      "col": 1,
       "maxRank": 3,
       "ranks": [
         {
@@ -156,17 +847,19 @@
           "description": "Increases your hit chance by 1% and reduces the duration of movement impairing effects on you by 10%."
         }
       ],
-      "iconHint": "Purple-hued foot/boot in stride; green border; rank badge 0",
+      "iconHint": "Boot / striding foot; overview 3/3",
       "status": "unchanged",
-      "diffNotes": "Matches talents.json Surefooted rank 1 text and maxRank 3. Higher ranks in talents.json still use Classic resist-chance wording."
+      "diffNotes": "Matches talents.json Surefooted rank 1 text and maxRank 3."
     },
     {
-      "screenshots": ["hunter/9.png"],
+      "screenshots": [
+        "hunter/9.png"
+      ],
       "name": "Deterrence",
       "classicId": 1308,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 2,
+      "col": 2,
       "maxRank": 1,
       "ranks": [
         {
@@ -176,17 +869,19 @@
           "cooldown": "5 min"
         }
       ],
-      "iconHint": "Greyed circular defensive silhouette / curved flourish; rank 0",
+      "iconHint": "Blue shield; overview 1/1",
       "status": "unchanged",
-      "diffNotes": "Matches talents.json Deterrence effect text and maxRank 1. Tooltip also shows Instant and 5 min cooldown. Teal Survival background; icons with green 0 above."
+      "diffNotes": "Matches talents.json Deterrence effect text and maxRank 1."
     },
     {
-      "screenshots": ["hunter/10.png"],
+      "screenshots": [
+        "hunter/10.png"
+      ],
       "name": "Counterattack",
       "classicId": 1312,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 3,
+      "col": 2,
       "maxRank": 1,
       "ranks": [
         {
@@ -198,17 +893,19 @@
           "cooldown": "5 sec"
         }
       ],
-      "iconHint": "White slanted sword on dark blue; green border; rank badge 0; purple beast-head neighbor to the left (Savage Strikes)",
+      "iconHint": "Blue sword slash; overview 1/1",
       "status": "unchanged",
-      "diffNotes": "Matches talents.json Counterattack rank 1 text and maxRank 1. Tooltip also shows 30 Mana, Melee Range, Instant, 5 sec cooldown."
+      "diffNotes": "Matches talents.json Counterattack rank 1 text and maxRank 1."
     },
     {
-      "screenshots": ["hunter/11.png"],
+      "screenshots": [
+        "hunter/11.png"
+      ],
       "name": "Predator's Edge",
       "classicId": null,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 3,
+      "col": 0,
       "maxRank": 5,
       "ranks": [
         {
@@ -216,17 +913,19 @@
           "description": "Increases your melee critical strike damage by 6% and your offhand weapon damage by 10%."
         }
       ],
-      "iconHint": "Curved blade or claw; greyed at 0; silver gauntlet talent directly below",
+      "iconHint": "Curved blade / mesh scales",
       "status": "new",
-      "diffNotes": "No Classic name match. Survival forest aesthetic."
+      "diffNotes": "No Classic name match."
     },
     {
-      "screenshots": ["hunter/12.png"],
+      "screenshots": [
+        "hunter/12.png"
+      ],
       "name": "Survival Tactics",
       "classicId": null,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 1,
+      "col": 3,
       "maxRank": 2,
       "ranks": [
         {
@@ -234,17 +933,19 @@
           "description": "Increases your chance to hit with your Trap and Feign Death abilities by 5%."
         }
       ],
-      "iconHint": "Icon mostly obscured by cursor; leftmost column in crop; teal forest background",
+      "iconHint": "Broken chain",
       "status": "new",
-      "diffNotes": "No Classic name match. Conceptually overlaps Classic Trap Mastery / Improved Feign Death hit resist themes."
+      "diffNotes": "No Classic name match. Conceptually overlaps Trap Mastery / Improved Feign Death."
     },
     {
-      "screenshots": ["hunter/13.png"],
+      "screenshots": [
+        "hunter/13.png"
+      ],
       "name": "Resourcefulness",
       "classicId": null,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 4,
+      "col": 1,
       "maxRank": 2,
       "ranks": [
         {
@@ -252,17 +953,19 @@
           "description": "Reduces the mana cost of your Trap abilities and melee abilities by 30%. In addition, your critical strikes have a 30% chance to allow 50% of your Mana regeneration to continue while casting for 30 sec."
         }
       ],
-      "iconHint": "Greyed circular object (stopwatch/clock-like); second down in visible vertical column",
+      "iconHint": "Scroll / parchment; overview 2/2; arrow to Lacerating Strikes",
       "status": "new",
-      "diffNotes": "No Classic name match. Survival forest background."
+      "diffNotes": "No Classic name match."
     },
     {
-      "screenshots": ["hunter/14.png"],
+      "screenshots": [
+        "hunter/14.png"
+      ],
       "name": "Expose Prey",
       "classicId": null,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 4,
+      "col": 2,
       "maxRank": 2,
       "ranks": [
         {
@@ -270,17 +973,19 @@
           "description": "Your attacks against targets with Hunter's Mark have a 5% chance to activate your Mongoose Bite for 5 sec."
         }
       ],
-      "iconHint": "Greyed stylized animal head or shadowy figure; row of three icons below",
+      "iconHint": "Dark vortex / animal silhouette",
       "status": "new",
       "diffNotes": "No Classic name match (not Expose Weakness)."
     },
     {
-      "screenshots": ["hunter/15.png"],
+      "screenshots": [
+        "hunter/15.png"
+      ],
       "name": "Survivalist's Discipline",
       "classicId": null,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 4,
+      "col": 3,
       "maxRank": 2,
       "ranks": [
         {
@@ -288,17 +993,19 @@
           "description": "Reduces the cooldown of your Trap and Deterrence abilities by 20%."
         }
       ],
-      "iconHint": "Dark square icon obscured by cursor; vertical prerequisite line from talent above; neighbor to the right",
+      "iconHint": "Purple gem / bag; overview 1/2",
       "status": "new",
-      "diffNotes": "No Classic name match. Dependency arrow from above."
+      "diffNotes": "No Classic name match."
     },
     {
-      "screenshots": ["hunter/16.png"],
+      "screenshots": [
+        "hunter/16.png"
+      ],
       "name": "Strider Kick",
       "classicId": null,
-      "tree": null,
-      "row": null,
-      "col": null,
+      "tree": "Survival",
+      "row": 4,
+      "col": 0,
       "maxRank": 1,
       "ranks": [
         {
@@ -310,17 +1017,19 @@
           "cooldown": "8 sec"
         }
       ],
-      "iconHint": "Partial greyed leg/foot kick silhouette",
+      "iconHint": "Kick swirl; overview 1/1",
       "status": "new",
-      "diffNotes": "No Classic name match. Tooltip shows 61 Mana, Melee Range, Instant, 8 sec cooldown. Tree not labeled."
+      "diffNotes": "No Classic name match."
     },
     {
-      "screenshots": ["hunter/17.png"],
+      "screenshots": [
+        "hunter/17.png"
+      ],
       "name": "Lightning Reflexes",
       "classicId": 1303,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 5,
+      "col": 2,
       "maxRank": 5,
       "ranks": [
         {
@@ -328,17 +1037,19 @@
           "description": "Increases your Agility by 2%."
         }
       ],
-      "iconHint": "Greyed humanoid face/head silhouette; circular ripple icon directly above",
+      "iconHint": "Bald human face; overview 5/5",
       "status": "unchanged",
-      "diffNotes": "Matches talents.json Lightning Reflexes rank 1 (+2% Agility) and maxRank 5. Higher ranks in talents.json scale 6/9/12/15%."
+      "diffNotes": "Matches talents.json Lightning Reflexes rank 1 (+2% Agility) and maxRank 5."
     },
     {
-      "screenshots": ["hunter/18.png"],
+      "screenshots": [
+        "hunter/18.png"
+      ],
       "name": "Lacerating Strikes",
       "classicId": null,
       "tree": "Survival",
-      "row": null,
-      "col": null,
+      "row": 6,
+      "col": 1,
       "maxRank": 1,
       "ranks": [
         {
@@ -346,17 +1057,326 @@
           "description": "Your Mongoose Bite also causes the target to Bleed for damage over 21 sec equal to 40% of the damage done by Mongoose Bite."
         }
       ],
-      "iconHint": "Curved blade / claw slash; greyed; downward arrow from talent above",
+      "iconHint": "Curved bloody blade; overview 1/1",
       "status": "new",
-      "diffNotes": "No Classic name match. Capstone-style dependency from talent above. Survival forest background."
+      "diffNotes": "No Classic name match. Capstone under Resourcefulness arrow (replaces Wyvern Sting slot)."
     },
     {
-      "screenshots": ["hunter/19.png"],
-      "name": "Sniper Shot",
+      "screenshots": [
+        "hunter/20.png"
+      ],
+      "name": "Hawk Eye",
+      "classicId": 1352,
+      "tree": "Marksmanship",
+      "row": 2,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the range of your ranged weapons by 2 yards."
+        }
+      ],
+      "iconHint": "Arrowhead / hawk",
+      "status": "unchanged",
+      "diffNotes": "Matches talents.json Hawk Eye rank 1 (+2 yd) and maxRank 3."
+    },
+    {
+      "screenshots": [
+        "hunter/21.png"
+      ],
+      "name": "Improved Concussive Shot",
+      "classicId": 1341,
+      "tree": "Marksmanship",
+      "row": 0,
+      "col": 0,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your Concussive Shot a 4% chance to stun the target for 3 sec."
+        }
+      ],
+      "iconHint": "Circular red/white shot icon",
+      "status": "unchanged",
+      "diffNotes": "Matches talents.json Improved Concussive Shot rank 1 text and maxRank 5."
+    },
+    {
+      "screenshots": [
+        "hunter/22.png"
+      ],
+      "name": "Lethal Attacks",
+      "classicId": 1344,
+      "tree": "Marksmanship",
+      "row": 1,
+      "col": 0,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your critical strike chance with all attacks by 1%."
+        }
+      ],
+      "iconHint": "Gauntlet holding blade",
+      "status": "updated",
+      "diffNotes": "Renamed from Lethal Shots; Forever applies to all attacks (Classic was ranged weapons only)."
+    },
+    {
+      "screenshots": [
+        "hunter/23.png"
+      ],
+      "name": "Careful Aim",
       "classicId": null,
-      "tree": null,
+      "tree": "Marksmanship",
+      "row": 0,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Attack Power by 20% of your Intellect."
+        }
+      ],
+      "iconHint": "Flaming spear/arrowhead; overview spent 3",
+      "status": "new",
+      "diffNotes": "No Classic name match. Tier-1 Forever talent."
+    },
+    {
+      "screenshots": [
+        "hunter/24.png"
+      ],
+      "name": "Efficiency",
+      "classicId": 1342,
+      "tree": "Marksmanship",
+      "row": 0,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the Mana cost of your Shots, Stings, and melee abilities by 3%."
+        }
+      ],
+      "iconHint": "White circular swirl",
+      "status": "updated",
+      "diffNotes": "Classic was 2% on Shots and Stings only; Forever is 3% and includes melee abilities."
+    },
+    {
+      "screenshots": [
+        "hunter/25.png"
+      ],
+      "name": "Improved Stings",
+      "classicId": null,
+      "tree": "Marksmanship",
+      "row": 2,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage of your Serpent Sting ability by 6%, reduces the cooldown of your Viper Sting ability by 2 sec, and increases the duration of your Scorpid Sting ability by 15 sec."
+        }
+      ],
+      "iconHint": "Beast head / sting cluster",
+      "status": "new",
+      "diffNotes": "Combined Forever sting talent (not Classic Improved Serpent Sting / Improved Scorpid Sting separately)."
+    },
+    {
+      "screenshots": [
+        "hunter/26.png"
+      ],
+      "name": "Rapid Killing",
+      "classicId": null,
+      "tree": "Marksmanship",
+      "row": 4,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown on your Rapid Fire ability by 1 min. In addition, when you kill a non-trivial enemy or it dies while afflicted by your Serpent Sting, you gain Rapid Killing, increasing the damage of your next Shot ability within 20 sec by 10%."
+        }
+      ],
+      "iconHint": "Rapid fire burst",
+      "status": "new",
+      "diffNotes": "No Classic name match."
+    },
+    {
+      "screenshots": [
+        "hunter/27.png"
+      ],
+      "name": "Rapid Recuperation",
+      "classicId": null,
+      "tree": "Marksmanship",
+      "row": 4,
+      "col": 1,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Hitting a target with your Serpent Sting ability grants you 25% and consuming Rapid Killing grants you 50% of your Mana regeneration while casting for the next 15 sec."
+        }
+      ],
+      "iconHint": "Recuperation icon under Rapid Killing chain",
+      "status": "new",
+      "diffNotes": "No Classic name match."
+    },
+    {
+      "screenshots": [
+        "hunter/28.png"
+      ],
+      "name": "Trueshot Aura",
+      "classicId": 1361,
+      "tree": "Marksmanship",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the Ranged Attack Power of party members within 45 yards by 30. Lasts 30 min.",
+          "mana": 180,
+          "castTime": "Instant"
+        }
+      ],
+      "iconHint": "Aura arrowhead",
+      "status": "updated",
+      "diffNotes": "Classic foundation grants +50 attack power; Forever tooltip is +30 Ranged Attack Power."
+    },
+    {
+      "screenshots": [
+        "hunter/29.png"
+      ],
+      "name": "Improved Arcane Shot",
+      "classicId": 1346,
+      "tree": "Marksmanship",
+      "row": 1,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown of your Arcane Shot by 0.3 sec. Does not affect the cooldown of abilities which share a cooldown with Arcane Shot."
+        }
+      ],
+      "iconHint": "Arcane swirl / archer",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was -0.2 sec; Forever is -0.3 sec and mentions shared-cooldown exclusion."
+    },
+    {
+      "screenshots": [
+        "hunter/30.png"
+      ],
+      "name": "Lone Wolf",
+      "classicId": null,
+      "tree": "Marksmanship",
       "row": null,
       "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "You deal 20% increased damage with all attacks while you do not have an active pet."
+        }
+      ],
+      "iconHint": "Wolf head; crop shows Survival Clever Traps stopwatch to the right",
+      "status": "new",
+      "diffNotes": "No Classic name match. Tree Marksmanship from petless damage theme; row/col unclear (crop sits at MM/Survival boundary beside Clever Traps)."
+    },
+    {
+      "screenshots": [
+        "hunter/31.png"
+      ],
+      "name": "Mortal Shots",
+      "classicId": 1349,
+      "tree": "Marksmanship",
+      "row": 3,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical strike damage bonus on all ranged abilities by 6%."
+        }
+      ],
+      "iconHint": "Mortal arrowhead; dependency from above",
+      "status": "updated",
+      "diffNotes": "Classic referenced ranged weapon crit damage; Forever says all ranged abilities."
+    },
+    {
+      "screenshots": [
+        "hunter/32.png"
+      ],
+      "name": "Barrage",
+      "classicId": 1347,
+      "tree": "Marksmanship",
+      "row": 3,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by 3%."
+        }
+      ],
+      "iconHint": "Bow/quiver",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was +5% to Multi-Shot and Volley only; Forever is +3% and includes Aimed Shot."
+    },
+    {
+      "screenshots": [
+        "hunter/33.png"
+      ],
+      "name": "Scatter Shot",
+      "classicId": 1353,
+      "tree": "Marksmanship",
+      "row": 2,
+      "col": 0,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "A short-range shot that deals 50% weapon damage and disorients the target for 4 sec. Any damage caused will remove the effect. Turns off your attack when used.",
+          "mana": 84,
+          "range": "15 yd",
+          "castTime": "Instant",
+          "cooldown": "30 sec"
+        }
+      ],
+      "iconHint": "Scatter / crossed weapons",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Scatter Shot effect; mana shown as 84 on Forever tooltip."
+    },
+    {
+      "screenshots": [
+        "hunter/34.png"
+      ],
+      "name": "Ranged Weapon Specialization",
+      "classicId": 1362,
+      "tree": "Marksmanship",
+      "row": 4,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage you deal with ranged weapons by 1%."
+        }
+      ],
+      "iconHint": "Crossbow silhouette",
+      "status": "unchanged",
+      "diffNotes": "Matches talents.json Ranged Weapon Specialization rank 1 and maxRank 5."
+    },
+    {
+      "screenshots": [
+        "hunter/19.png",
+        "hunter/35.png"
+      ],
+      "name": "Sniper Shot",
+      "classicId": 1345,
+      "tree": "Marksmanship",
+      "row": 5,
+      "col": 1,
       "maxRank": 1,
       "ranks": [
         {
@@ -368,17 +1388,319 @@
           "cooldown": "15 sec"
         }
       ],
-      "iconHint": "Dark circular silhouette; cursor-obscured; prerequisite line from above; brownish parchment background (not teal Survival)",
+      "iconHint": "Rifle / dark circular shot; arrow from above",
+      "status": "updated",
+      "diffNotes": "Replaces Aimed Shot naming; Forever +160 ranged damage (Classic Aimed Shot +70) with 4 sec cast / 15 sec cooldown."
+    },
+    {
+      "screenshots": [
+        "hunter/36.png"
+      ],
+      "name": "Deadly Aspects",
+      "classicId": 1382,
+      "tree": "Beast Mastery",
+      "row": 0,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 2% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 2% chance of increasing melee attack speed by 30% for 12 sec."
+        }
+      ],
+      "iconHint": "Hand grasping bird; next to Endurance Training",
+      "status": "updated",
+      "diffNotes": "Renamed/replaced Improved Aspect of the Hawk; Forever covers Hawk and Beast aspects with attack-speed procs."
+    },
+    {
+      "screenshots": [
+        "hunter/37.png"
+      ],
+      "name": "Endurance Training",
+      "classicId": 1389,
+      "tree": "Beast Mastery",
+      "row": 0,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the Health and Armor of your pets by 3%."
+        }
+      ],
+      "iconHint": "Stag/bear head",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was Health only (+3%); Forever also increases Armor by 3%."
+    },
+    {
+      "screenshots": [
+        "hunter/38.png"
+      ],
+      "name": "Pathfinding",
+      "classicId": 1384,
+      "tree": "Beast Mastery",
+      "row": 1,
+      "col": 1,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 3%."
+        }
+      ],
+      "iconHint": "Running silhouette",
+      "status": "unchanged",
+      "diffNotes": "Matches talents.json Pathfinding rank 1 text and maxRank 2. Forever overview moves it off Classic row2 col0 into tier-2."
+    },
+    {
+      "screenshots": [
+        "hunter/39.png"
+      ],
+      "name": "Improved Revive Pet",
+      "classicId": 1625,
+      "tree": "Beast Mastery",
+      "row": 1,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Revive Pet's casting time is reduced by 3 sec, mana cost is reduced by 20%, and increases the health your pet returns with by an additional 15%."
+        }
+      ],
+      "iconHint": "Pet revive face",
+      "status": "unchanged",
+      "diffNotes": "Matches talents.json Improved Revive Pet rank 1 text and maxRank 2."
+    },
+    {
+      "screenshots": [
+        "hunter/40.png"
+      ],
+      "name": "Focused Fire",
+      "classicId": null,
+      "tree": "Beast Mastery",
+      "row": 1,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases all damage you deal by 1% while your pet is active."
+        }
+      ],
+      "iconHint": "Focus / clawed hand",
       "status": "new",
-      "diffNotes": "No Classic name match. Pattern similar to Classic Aimed Shot (id 1345, +70 ranged) but different name/values. Tree not labeled."
+      "diffNotes": "No Classic name match."
+    },
+    {
+      "screenshots": [
+        "hunter/41.png"
+      ],
+      "name": "Bestial Swiftness",
+      "classicId": 1391,
+      "tree": "Beast Mastery",
+      "row": 2,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the movement speed of your pets by 30%."
+        }
+      ],
+      "iconHint": "Motion streaks",
+      "status": "updated",
+      "diffNotes": "Classic specified outdoor movement speed; Forever says movement speed of pets (no outdoor restriction in tooltip)."
+    },
+    {
+      "screenshots": [
+        "hunter/42.png"
+      ],
+      "name": "Unleashed Fury",
+      "classicId": 1396,
+      "tree": "Beast Mastery",
+      "row": 2,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage done by your pets and hawks by 3%."
+        }
+      ],
+      "iconHint": "Snarling beast / fist",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was +4% pet damage only; Forever is +3% to pets and hawks."
+    },
+    {
+      "screenshots": [
+        "hunter/43.png"
+      ],
+      "name": "Summon Hawk",
+      "classicId": null,
+      "tree": "Beast Mastery",
+      "row": 3,
+      "col": 0,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Command a hawk to dive-bomb your targeted enemy, dealing 54 Physical damage and continuing its assault for 18 sec. Only 2 hawks can be active at once. Summon Hawk shares its cooldown with Arcane Shot.",
+          "mana": 80,
+          "range": "35 yd",
+          "castTime": "Instant",
+          "cooldown": "6 sec"
+        }
+      ],
+      "iconHint": "Hawk dive",
+      "status": "new",
+      "diffNotes": "No Classic name match. New Forever BM active."
+    },
+    {
+      "screenshots": [
+        "hunter/44.png"
+      ],
+      "name": "Bestial Discipline",
+      "classicId": 1390,
+      "tree": "Beast Mastery",
+      "row": 4,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the Focus regeneration of your pets by 10% and allows 25% of your Mana regeneration to continue while casting."
+        }
+      ],
+      "iconHint": "Discipline icon near MM divider",
+      "status": "updated",
+      "diffNotes": "Classic was Focus regeneration only; Forever also grants partial mana regen while casting."
+    },
+    {
+      "screenshots": [
+        "hunter/45.png"
+      ],
+      "name": "Spirit Bond",
+      "classicId": 1388,
+      "tree": "Beast Mastery",
+      "row": 3,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "While your pet is active, you and your pet will regenerate 1% of total health every 10 sec."
+        }
+      ],
+      "iconHint": "Bond / dual silhouette",
+      "status": "unchanged",
+      "diffNotes": "Matches talents.json Spirit Bond rank 1 text and maxRank 2."
+    },
+    {
+      "screenshots": [
+        "hunter/46.png"
+      ],
+      "name": "Intimidation",
+      "classicId": 1387,
+      "tree": "Beast Mastery",
+      "row": 4,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Command your pet to Stun the target for 3 sec on its next successful attack, which also gains 100% increased critical strike chance. Generates high threat.",
+          "mana": 84,
+          "range": "100 yd",
+          "castTime": "Instant",
+          "cooldown": "1 min"
+        }
+      ],
+      "iconHint": "Roaring intimidate head",
+      "status": "updated",
+      "diffNotes": "Classic intimidate/fear-style text differs; Forever is a 3 sec Stun with 100% crit chance and high threat."
+    },
+    {
+      "screenshots": [
+        "hunter/47.png"
+      ],
+      "name": "Frenzy",
+      "classicId": 1397,
+      "tree": "Beast Mastery",
+      "row": 5,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your pet a 20% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike."
+        }
+      ],
+      "iconHint": "Three claw marks",
+      "status": "unchanged",
+      "diffNotes": "Matches talents.json Frenzy rank 1 text and maxRank 5."
+    },
+    {
+      "screenshots": [
+        "hunter/overview.png"
+      ],
+      "name": "Bestial Wrath",
+      "classicId": 1386,
+      "tree": "Beast Mastery",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Send your pet into a rage causing 50% additional damage for 18 sec. While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed.",
+          "mana": 125,
+          "range": "100 yd",
+          "castTime": "Instant",
+          "cooldown": "2 min"
+        }
+      ],
+      "iconHint": "Bestial Wrath icon; overview.png tooltip",
+      "status": "unchanged",
+      "diffNotes": "Matches talents.json Bestial Wrath text and maxRank 1."
     }
   ],
-  "unmatchedScreenshots": [],
+  "unmatchedScreenshots": [
+    "hunter/48.png",
+    "hunter/49.png",
+    "hunter/50.png",
+    "hunter/51.png",
+    "hunter/52.png",
+    "hunter/53.png",
+    "hunter/54.png",
+    "hunter/55.png",
+    "hunter/56.png",
+    "hunter/57.png",
+    "hunter/58.png",
+    "hunter/59.png",
+    "hunter/60.png",
+    "hunter/61.png",
+    "hunter/62.png",
+    "hunter/63.png",
+    "hunter/64.png",
+    "hunter/65.png",
+    "hunter/66.png",
+    "hunter/67.png",
+    "hunter/68.png",
+    "hunter/69.png",
+    "hunter/70.png",
+    "hunter/overview part.png",
+    "hunter/overviewpartt2.png"
+  ],
   "layoutNotes": [
-    "No overview/image.png present — only hunter/1.png–19.png. overviewFile null; all trees[].slots empty; all row/col null.",
-    "All 19 PNGs are individual tooltip crops. Survival tree label visible on 2.png/3.png; most others share teal forest Survival UI. No Beast Mastery shots. Sniper Shot (19) has parchment/brown UI and no tree label.",
+    "Primary layout from hunter/ovvveriview.png (full BM/MM/Survival). hunter/overview.png is BM-only with Bestial Wrath tooltip.",
+    "hunter/overview part.png and hunter/overviewpartt2.png are Druid Balance/Restoration dumps \u2014 not Hunter; listed unmatched.",
+    "hunter/1.png\u201347.png are Hunter Forever tooltips spanning Survival (~1\u201318), Marksmanship (~19\u201335), and Beast Mastery (~36\u201347). hunter/19.png and hunter/35.png are duplicate Sniper Shot shots.",
+    "hunter/48.png\u201370.png are Druid Restoration/Feral Combat screenshots mistakenly sitting in public/hunter/; listed unmatched (not scraped into talents).",
+    "Rows/cols are 0-indexed on a 4x7 grid. Survival placement heavily guided by the spent 31-point overview build. Some BM/MM mid-tree guessNames without tooltips left null.",
     "Only rank-0 hover text captured (rank-1 effect preview). Higher-rank Forever scaling not shown.",
-    "Classic Survival names absent from this set: Monster Slaying, Humanoid Slaying, Trap Mastery, Improved Feign Death, Killer Instinct, Wyvern Sting.",
-    "No BM/MM Classic talent names appear in this screenshot set."
+    "Classic BM names without Forever tooltips in this set: Improved Aspect of the Monkey, Thick Hide, Improved Mend Pet, Ferocity (icon slot present).",
+    "Classic MM names without Forever tooltips: Improved Hunter's Mark (eye slot may be it).",
+    "Classic Survival names absent: Monster Slaying, Humanoid Slaying, Trap Mastery, Improved Feign Death, Killer Instinct, Wyvern Sting (slot replaced by Lacerating Strikes)."
   ]
 }

@@ -1,16 +1,522 @@
 {
   "class": "warrior",
-  "overviewFile": "warrior/image.png",
+  "overviewFile": "warrior/overview.png",
   "trees": [
     {
       "name": "Arms",
-      "slots": [],
-      "notes": "Not visible in image.png — file is Protection-only collage, not a 3-tree overview"
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Heroic Strike",
+          "iconHint": "white multi-slash strikes",
+          "rankBadge": "0/3",
+          "notes": "warrior/1.png"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Deflection",
+          "iconHint": "crossed swords",
+          "rankBadge": "0/5",
+          "notes": "Arrow down to Improved Tactical Mastery; warrior/2.png"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Improved Rend",
+          "iconHint": "single curved white slash",
+          "rankBadge": "0/3",
+          "notes": "Arrow down to Impale; warrior/3.png"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Charge",
+          "iconHint": "sword blade pointing up",
+          "rankBadge": "0/2",
+          "notes": "warrior/5.png; dup warrior/7.png"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Tactical Mastery",
+          "iconHint": "front-facing knight helmet",
+          "rankBadge": "0/5",
+          "notes": "Arrow from Deflection; arrow down to Anger Management; warrior/4.png; dup warrior/6.png"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Improved Overpower",
+          "iconHint": "broadsword pointing down",
+          "rankBadge": "0/2",
+          "notes": "warrior/9.png"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Anger Management",
+          "iconHint": "bull / crest head",
+          "rankBadge": "0/1",
+          "notes": "Arrow from Improved Tactical Mastery; warrior/8.png"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Impale",
+          "iconHint": "strike / pierce silhouette",
+          "rankBadge": "0/2",
+          "notes": "Arrow from Improved Rend; warrior/11.png"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Spearing Strike",
+          "iconHint": "spear / arrowhead tip",
+          "rankBadge": "0/1",
+          "notes": "Forever-only; warrior/12.png"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Two-Handed Weapon Specialization",
+          "iconHint": "crossed axe and mace / weapons",
+          "rankBadge": "0/3",
+          "notes": "warrior/10.png"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Bloodthrill",
+          "iconHint": "metal gauntlet / fist",
+          "rankBadge": "0/5",
+          "notes": "Forever-only; Rend synergy; warrior/14.png"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Weaponmaster",
+          "iconHint": "horizontal sword / weapon",
+          "rankBadge": "0/5",
+          "notes": "Forever-only; consolidates classic weapon specs; warrior/15.png"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Sweeping Strikes",
+          "iconHint": "rectangular anvil / stone block",
+          "rankBadge": "0/1",
+          "notes": "Arrow down to Mortal Strike; warrior/13.png"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Slam",
+          "iconHint": "cluster of stones / impact",
+          "rankBadge": "0/2",
+          "notes": "Moved from Classic Fury; warrior/16.png"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Improved Hamstring",
+          "iconHint": "diagonal sword slash",
+          "rankBadge": "0/3",
+          "notes": "warrior/17.png"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Mortal Strike",
+          "iconHint": "knight helmet side profile / gauntlet",
+          "rankBadge": "0/1",
+          "notes": "Arrow from Sweeping Strikes; warrior/18.png"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        }
+      ],
+      "notes": "Layout from overview.png; tooltips warrior/1–18.png (4=6, 5=7 duplicates). Deep Wounds / weapon-spec row absent — Weaponmaster + Bloodthrill + Spearing Strike appear instead. Imp Thunder Clap moved to Protection."
     },
     {
       "name": "Fury",
-      "slots": [],
-      "notes": "Not visible in image.png — file is Protection-only collage, not a 3-tree overview"
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Booming Voice",
+          "iconHint": "man shouting / mountain peak",
+          "rankBadge": "0/5",
+          "notes": "warrior/19.png"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Cruelty",
+          "iconHint": "bearded face portrait",
+          "rankBadge": "0/5",
+          "notes": "warrior/20.png"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Iron Will",
+          "iconHint": "purple helmet / visor",
+          "rankBadge": "0/5",
+          "notes": "Moved from Classic Protection r1c3; warrior/21.png"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Unbridled Wrath",
+          "iconHint": "burning hands / fiery figure",
+          "rankBadge": "0/5",
+          "notes": "warrior/22.png"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Cleave",
+          "iconHint": "axe blade striking",
+          "rankBadge": "0/3",
+          "notes": "warrior/26.png"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Piercing Howl",
+          "iconHint": "roaring mask / face",
+          "rankBadge": "0/1",
+          "notes": "warrior/25.png"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Blood Craze",
+          "iconHint": "bird / wings emblem",
+          "rankBadge": "0/3",
+          "notes": "warrior/24.png"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Boundless Rage",
+          "iconHint": "red muscular silhouette",
+          "rankBadge": "0/3",
+          "notes": "Forever-only; replaces Classic Improved Battle Shout slot; warrior/23.png; overview spent build showed 2/2 with points available"
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Dual Wield Specialization",
+          "iconHint": "crossed swords / daggers",
+          "rankBadge": "0/5",
+          "notes": "warrior/27.png"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Death Wish",
+          "iconHint": "blue / gold winged helmet",
+          "rankBadge": "0/1",
+          "notes": "warrior/32.png; arrow path toward Bloodthirst"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Enrage",
+          "iconHint": "orange / purple orb / flaming face",
+          "rankBadge": "0/5",
+          "notes": "Arrow down to Flurry; warrior/29.png"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Improved Execute",
+          "iconHint": "gauntlet with red blade / shield-like",
+          "rankBadge": "0/2",
+          "notes": "Below Boundless Rage; warrior/30.png"
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Precision",
+          "iconHint": "red bullseye / target",
+          "rankBadge": "0/3",
+          "notes": "Forever add vs Classic 1.12 Fury; warrior/33.png"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Raging Blows",
+          "iconHint": "fiery claw / hand",
+          "rankBadge": "0/1",
+          "notes": "Forever-only; arrow down to Bloodthirst; warrior/28.png"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Improved Intercept",
+          "iconHint": "winged boots",
+          "rankBadge": "0/2",
+          "notes": "warrior/31.png"
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Berserker Rage",
+          "iconHint": "bull head",
+          "rankBadge": "0/2",
+          "notes": "warrior/34.png"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Flurry",
+          "iconHint": "triple claw marks",
+          "rankBadge": "0/5",
+          "notes": "Arrow from Enrage; warrior/35.png"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Bloodthirst",
+          "iconHint": "orange flame / metallic gauntlet mask",
+          "rankBadge": "0/1",
+          "notes": "Arrow from Raging Blows (skips row 5); warrior/36.png"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        }
+      ],
+      "notes": "Layout from overview.png (34 points spent in shot); tooltips warrior/19–36.png. Iron Will moved in from Protection; Boundless Rage / Raging Blows / Precision are Forever adds; Improved Slam moved to Arms."
     },
     {
       "name": "Protection",
@@ -31,16 +537,16 @@
           "guessName": "Shield Specialization",
           "iconHint": "blue heater shield with silver trim",
           "rankBadge": "0/5",
-          "notes": "Arrow down to Master of Defense (r2c1)"
+          "notes": "Arrow down to Master of Defense"
         },
         {
           "row": 0,
           "col": 2,
           "occupied": true,
           "guessName": "Anticipation",
-          "iconHint": "green head silhouette with glowing brain / third-eye area",
+          "iconHint": "green head / glowing mind",
           "rankBadge": "0/5",
-          "notes": "Arrow down to Toughness (r1c2)"
+          "notes": "Arrow down to Toughness"
         },
         {
           "row": 0,
@@ -56,7 +562,7 @@
           "col": 0,
           "occupied": true,
           "guessName": "Improved Bloodrage",
-          "iconHint": "red figure in swirling red aura",
+          "iconHint": "red figure in swirling aura",
           "rankBadge": "0/2",
           "notes": ""
         },
@@ -74,43 +580,43 @@
           "col": 2,
           "occupied": true,
           "guessName": "Toughness",
-          "iconHint": "green-tinted armored gauntlet / fist",
+          "iconHint": "green-tinted armored gauntlet",
           "rankBadge": "0/5",
-          "notes": "Arrow down to Improved Revenge (r2c2); receives arrow from Anticipation"
+          "notes": "Arrow down to Improved Revenge; arrow from Anticipation"
         },
         {
           "row": 1,
           "col": 3,
           "occupied": true,
           "guessName": "Improved Thunder Clap",
-          "iconHint": "gauntlet striking ground with blue circular shockwave",
+          "iconHint": "gauntlet striking ground with blue shockwave",
           "rankBadge": "0/3",
-          "notes": "Classic Protection had Iron Will here; Imp Thunder Clap was Arms r1c3"
+          "notes": "Moved from Classic Arms r1c3; displaces Iron Will"
         },
         {
           "row": 2,
           "col": 0,
           "occupied": true,
           "guessName": "Last Stand",
-          "iconHint": "red stylized heart / life emblem",
+          "iconHint": "red stylized heart",
           "rankBadge": "0/1",
-          "notes": "Tooltip also shows Instant, 3 min cooldown"
+          "notes": "Instant, 3 min cooldown"
         },
         {
           "row": 2,
           "col": 1,
           "occupied": true,
           "guessName": "Master of Defense",
-          "iconHint": "blue shield with white circular / zero emblem in center",
+          "iconHint": "blue shield with white circular emblem",
           "rankBadge": "0/2",
-          "notes": "Replaces Classic Improved Shield Block; arrow from Shield Specialization"
+          "notes": "Forever-only; arrow from Shield Specialization"
         },
         {
           "row": 2,
           "col": 2,
           "occupied": true,
           "guessName": "Improved Revenge",
-          "iconHint": "sword striking against a shield",
+          "iconHint": "sword striking shield",
           "rankBadge": "0/3",
           "notes": "Arrow from Toughness"
         },
@@ -121,14 +627,14 @@
           "guessName": "Defiance",
           "iconHint": "red clenched fist",
           "rankBadge": "0/3",
-          "notes": "Classic maxRank was 5; Forever maxRank 3"
+          "notes": "Classic maxRank 5"
         },
         {
           "row": 3,
           "col": 0,
           "occupied": true,
           "guessName": "Improved Sunder Armor",
-          "iconHint": "yellow shield cracked / broken by a sword",
+          "iconHint": "yellow cracked shield",
           "rankBadge": "0/3",
           "notes": ""
         },
@@ -137,7 +643,7 @@
           "col": 1,
           "occupied": true,
           "guessName": "Improved Disarm",
-          "iconHint": "hand grasping the blade of a sword",
+          "iconHint": "hand grasping sword blade",
           "rankBadge": "0/3",
           "notes": ""
         },
@@ -146,9 +652,9 @@
           "col": 2,
           "occupied": true,
           "guessName": "Vanguard",
-          "iconHint": "silver/grey Spartan-style helmet",
+          "iconHint": "silver Spartan-style helmet",
           "rankBadge": "0/1",
-          "notes": "Replaces Classic Improved Taunt"
+          "notes": "Forever-only; replaces Classic Improved Taunt"
         },
         {
           "row": 3,
@@ -164,7 +670,7 @@
           "col": 0,
           "occupied": true,
           "guessName": "Improved Shield Wall",
-          "iconHint": "purple/dark shield with glowing center",
+          "iconHint": "purple/dark shield with glow",
           "rankBadge": "0/2",
           "notes": ""
         },
@@ -173,16 +679,16 @@
           "col": 1,
           "occupied": true,
           "guessName": "Concussion Blow",
-          "iconHint": "mace / hammer striking a stylized head",
+          "iconHint": "mace striking head",
           "rankBadge": "0/1",
-          "notes": "Arrow down to Shield Slam (r6c1); tooltip shows 10 Rage, Melee Range, Instant, 45 sec cooldown"
+          "notes": "Arrow down to Shield Slam; 10 Rage, 45 sec CD"
         },
         {
           "row": 4,
           "col": 2,
           "occupied": true,
           "guessName": "Improved Shield Bash",
-          "iconHint": "shield striking a target's face",
+          "iconHint": "shield striking face",
           "rankBadge": "0/2",
           "notes": ""
         },
@@ -193,16 +699,16 @@
           "guessName": "Vitality",
           "iconHint": "flexed muscular arm",
           "rankBadge": "0/5",
-          "notes": "New slot — Classic Protection had empty r4c3"
+          "notes": "Forever-only"
         },
         {
           "row": 5,
           "col": 0,
           "occupied": true,
           "guessName": "Focused Rage",
-          "iconHint": "red stylized eye / focusing reticle",
+          "iconHint": "red eye / reticle",
           "rankBadge": "0/3",
-          "notes": "New slot — Classic Protection had empty r5c0"
+          "notes": "Forever-only"
         },
         {
           "row": 5,
@@ -220,7 +726,7 @@
           "guessName": "Bastion",
           "iconHint": "golden ornate shield",
           "rankBadge": "0/5",
-          "notes": "Replaces Classic One-Handed Weapon Specialization"
+          "notes": "Forever-only; replaces Classic One-Handed Weapon Specialization"
         },
         {
           "row": 5,
@@ -245,9 +751,9 @@
           "col": 1,
           "occupied": true,
           "guessName": "Shield Slam",
-          "iconHint": "blue shield with white impact lines (V/X)",
+          "iconHint": "blue shield with white impact",
           "rankBadge": "0/1",
-          "notes": "Arrow from Concussion Blow; tooltip shows 20 Rage, Instant, 6 sec cooldown, Requires Shields"
+          "notes": "Arrow from Concussion Blow; Requires Shields"
         },
         {
           "row": 6,
@@ -267,12 +773,697 @@
           "rankBadge": null,
           "notes": ""
         }
-      ]
+      ],
+      "notes": "Layout from overview.png; all tooltips from warrior/image.png Prot collage. Iron Will moved to Fury; Imp Thunder Clap moved in from Arms."
     }
   ],
   "talents": [
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/1.png"
+      ],
+      "name": "Improved Heroic Strike",
+      "classicId": 124,
+      "tree": "Arms",
+      "row": 0,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cost of your Heroic Strike ability by 1 Rage."
+        }
+      ],
+      "iconHint": "white multi-slash strikes",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank-1 rage cost reduction and maxRank 3."
+    },
+    {
+      "screenshots": [
+        "warrior/2.png"
+      ],
+      "name": "Deflection",
+      "classicId": 130,
+      "tree": "Arms",
+      "row": 0,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Parry chance by 1%."
+        }
+      ],
+      "iconHint": "crossed swords",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank-1 parry and maxRank 5. Forever adds arrow to Improved Tactical Mastery."
+    },
+    {
+      "screenshots": [
+        "warrior/3.png"
+      ],
+      "name": "Improved Rend",
+      "classicId": 127,
+      "tree": "Arms",
+      "row": 0,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the Bleed damage done by your Rend ability by 12%."
+        }
+      ],
+      "iconHint": "single curved white slash",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was +15% Rend damage; Forever rank 1 is +12%. Arrow now targets Impale (Deep Wounds absent)."
+    },
+    {
+      "screenshots": [
+        "warrior/4.png",
+        "warrior/6.png"
+      ],
+      "name": "Improved Tactical Mastery",
+      "classicId": 641,
+      "tree": "Arms",
+      "row": 1,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Tactical Mastery lets you retain up to an additional 3 Rage when you change stances."
+        }
+      ],
+      "iconHint": "front-facing knight helmet",
+      "status": "updated",
+      "diffNotes": "Renamed from Classic Tactical Mastery. Classic rank 1 retained 5 Rage; Forever +3 additional Rage retained. Arrow from Deflection; arrow to Anger Management."
+    },
+    {
+      "screenshots": [
+        "warrior/5.png",
+        "warrior/7.png"
+      ],
+      "name": "Improved Charge",
+      "classicId": 126,
+      "tree": "Arms",
+      "row": 1,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the Rage generated by your Charge ability by 3."
+        }
+      ],
+      "iconHint": "sword blade pointing up",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was +3 Rage (same); confirm per-rank scaling vs Classic +3/+6."
+    },
+    {
+      "screenshots": [
+        "warrior/9.png"
+      ],
+      "name": "Improved Overpower",
+      "classicId": 131,
+      "tree": "Arms",
+      "row": 1,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical strike chance of your Overpower ability by 25%."
+        }
+      ],
+      "iconHint": "broadsword pointing down",
+      "status": "updated",
+      "diffNotes": "Moved from Classic Arms r2c0 to Forever r1c3 (Classic Imp Thunder Clap slot emptied by move to Protection)."
+    },
+    {
+      "screenshots": [
+        "warrior/8.png"
+      ],
+      "name": "Anger Management",
+      "classicId": 137,
+      "tree": "Arms",
+      "row": 2,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Generates 1 Rage every 3 sec while in combat, and reduces Rage loss while out of combat by 30%."
+        }
+      ],
+      "iconHint": "bull / crest head",
+      "status": "updated",
+      "diffNotes": "Classic: 1 Rage every 3 sec while in combat only. Forever adds 30% reduced Rage loss out of combat."
+    },
+    {
+      "screenshots": [
+        "warrior/11.png"
+      ],
+      "name": "Impale",
+      "classicId": 662,
+      "tree": "Arms",
+      "row": 2,
+      "col": 2,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical strike damage bonus of your abilities by 10%."
+        }
+      ],
+      "iconHint": "strike / pierce silhouette",
+      "status": "updated",
+      "diffNotes": "Classic required Deep Wounds and buffed ability crit damage. Forever sits on Deep Wounds slot with arrow from Improved Rend; Deep Wounds not present in screenshots."
+    },
+    {
+      "screenshots": [
+        "warrior/12.png"
+      ],
+      "name": "Spearing Strike",
+      "classicId": null,
+      "tree": "Arms",
+      "row": 3,
+      "col": 0,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "A brutal attack that deals 40% weapon damage. Deals an additional 80% weapon damage against Giants, Dragonkin, and mounted targets. Mounted targets are dismounted."
+        }
+      ],
+      "iconHint": "spear / arrowhead tip",
+      "status": "new",
+      "diffNotes": "Forever-only active (15 Rage, Melee, Instant, 20 sec CD). Occupies former Two-Handed / mid-tree space near r3c0."
+    },
+    {
+      "screenshots": [
+        "warrior/10.png"
+      ],
+      "name": "Two-Handed Weapon Specialization",
+      "classicId": 136,
+      "tree": "Arms",
+      "row": 3,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage you deal with two-handed melee weapons by 1%."
+        }
+      ],
+      "iconHint": "crossed axe and mace / weapons",
+      "status": "updated",
+      "diffNotes": "Classic maxRank 5 at r3c1; Forever maxRank 3 same column area."
+    },
+    {
+      "screenshots": [
+        "warrior/14.png"
+      ],
+      "name": "Bloodthrill",
+      "classicId": null,
+      "tree": "Arms",
+      "row": 3,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your melee attacks against targets afflicted by your Rend have a 2% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec."
+        }
+      ],
+      "iconHint": "metal gauntlet / fist",
+      "status": "new",
+      "diffNotes": "Forever-only; occupies classic Impale neighborhood (Impale moved up to r2c2)."
+    },
+    {
+      "screenshots": [
+        "warrior/13.png"
+      ],
+      "name": "Sweeping Strikes",
+      "classicId": 133,
+      "tree": "Arms",
+      "row": 4,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your next 5 melee attacks strike an additional nearby opponent."
+        }
+      ],
+      "iconHint": "rectangular anvil / stone block",
+      "status": "unchanged",
+      "diffNotes": "Same effect; 30 Rage, Instant, 30 sec CD, Requires Battle Stance. Arrow to Mortal Strike retained."
+    },
+    {
+      "screenshots": [
+        "warrior/15.png"
+      ],
+      "name": "Weaponmaster",
+      "classicId": null,
+      "tree": "Arms",
+      "row": 4,
+      "col": 0,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your melee weapon attacks a benefit depending on the weapon. Axe/Polearm: Increases your critical strike chance by 1%. Mace/Staff: Your attacks ignore 3% of your target's armor. Sword: Your successful melee attacks have a 1% chance to trigger an extra attack on the target."
+        }
+      ],
+      "iconHint": "horizontal sword / weapon",
+      "status": "new",
+      "diffNotes": "Forever-only consolidation replacing Classic Axe/Mace/Sword/Polearm Specialization rows."
+    },
+    {
+      "screenshots": [
+        "warrior/16.png"
+      ],
+      "name": "Improved Slam",
+      "classicId": 168,
+      "tree": "Arms",
+      "row": 5,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the global cooldown and cast time of your Slam ability by 0.25 sec. In addition, Slam no longer interrupts your melee swing time."
+        }
+      ],
+      "iconHint": "cluster of stones / impact",
+      "status": "updated",
+      "diffNotes": "Moved from Classic Fury r4c0 into Arms r5c0. Forever adds swing-timer non-interrupt clause."
+    },
+    {
+      "screenshots": [
+        "warrior/17.png"
+      ],
+      "name": "Improved Hamstring",
+      "classicId": 129,
+      "tree": "Arms",
+      "row": 5,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your Hamstring ability a 5% chance to immobilize the target for 5 sec."
+        }
+      ],
+      "iconHint": "diagonal sword slash",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank-1 immobilize chance/duration."
+    },
+    {
+      "screenshots": [
+        "warrior/18.png"
+      ],
+      "name": "Mortal Strike",
+      "classicId": 135,
+      "tree": "Arms",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "A vicious strike that deals weapon damage plus 85 and wounds the target, reducing the effectiveness of any healing by 50% for 10 sec."
+        }
+      ],
+      "iconHint": "knight helmet side profile / gauntlet",
+      "status": "updated",
+      "diffNotes": "Classic bonus damage was +85 (same ballpark). Forever tooltip shows 30 Rage, Instant, 6 sec CD."
+    },
+    {
+      "screenshots": [
+        "warrior/19.png"
+      ],
+      "name": "Booming Voice",
+      "classicId": 158,
+      "tree": "Fury",
+      "row": 0,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the radius of your Battle Shout and Demoralizing Shout abilities by 10%."
+        }
+      ],
+      "iconHint": "man shouting / mountain peak",
+      "status": "updated",
+      "diffNotes": "Classic also increased duration; Forever rank-1 tooltip shows radius only."
+    },
+    {
+      "screenshots": [
+        "warrior/20.png"
+      ],
+      "name": "Cruelty",
+      "classicId": 157,
+      "tree": "Fury",
+      "row": 0,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your chance to get a critical strike with melee attacks by 1%."
+        }
+      ],
+      "iconHint": "bearded face portrait",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank-1 melee crit and maxRank 5."
+    },
+    {
+      "screenshots": [
+        "warrior/21.png"
+      ],
+      "name": "Iron Will",
+      "classicId": 141,
+      "tree": "Fury",
+      "row": 1,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the duration of Stun and Fear effects inflicted on you by 3%."
+        }
+      ],
+      "iconHint": "purple helmet / visor",
+      "status": "updated",
+      "diffNotes": "Moved from Classic Protection r1c3 into Fury r1c1 (displaces Improved Demoralizing Shout)."
+    },
+    {
+      "screenshots": [
+        "warrior/22.png"
+      ],
+      "name": "Unbridled Wrath",
+      "classicId": 159,
+      "tree": "Fury",
+      "row": 1,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives you a 12% chance to generate 1 additional Rage when you deal melee damage with a weapon. This effect is increased to 2 Rage for two-handed weapons."
+        }
+      ],
+      "iconHint": "burning hands / fiery figure",
+      "status": "updated",
+      "diffNotes": "Classic was 8% chance for 1 Rage on melee hit. Forever 12% and 2 Rage for two-handers."
+    },
+    {
+      "screenshots": [
+        "warrior/26.png"
+      ],
+      "name": "Improved Cleave",
+      "classicId": 166,
+      "tree": "Fury",
+      "row": 2,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the Rage cost of your Cleave ability by 1."
+        }
+      ],
+      "iconHint": "axe blade striking",
+      "status": "updated",
+      "diffNotes": "Classic increased Cleave bonus damage; Forever reduces Cleave Rage cost."
+    },
+    {
+      "screenshots": [
+        "warrior/25.png"
+      ],
+      "name": "Piercing Howl",
+      "classicId": 160,
+      "tree": "Fury",
+      "row": 2,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Causes all nearby enemies to be Dazed, reducing movement speed by 50% for 6 sec."
+        }
+      ],
+      "iconHint": "roaring mask / face",
+      "status": "unchanged",
+      "diffNotes": "Same daze effect; Forever tooltip shows 10 Rage Instant."
+    },
+    {
+      "screenshots": [
+        "warrior/24.png"
+      ],
+      "name": "Blood Craze",
+      "classicId": 661,
+      "tree": "Fury",
+      "row": 2,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Regenerates 1% of your total Health over 6 sec after being the victim of a critical strike, dealing damage with Bloodthirst, or suffering more than 20% of your maximum Health from a single attack."
+        }
+      ],
+      "iconHint": "bird / wings emblem",
+      "status": "updated",
+      "diffNotes": "Classic healed on being crit only. Forever also triggers from Bloodthirst damage and large single hits."
+    },
+    {
+      "screenshots": [
+        "warrior/23.png"
+      ],
+      "name": "Boundless Rage",
+      "classicId": null,
+      "tree": "Fury",
+      "row": 2,
+      "col": 3,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your maximum Rage by 10."
+        }
+      ],
+      "iconHint": "red muscular silhouette",
+      "status": "new",
+      "diffNotes": "Forever-only; replaces Classic Improved Battle Shout at r2c3. Tooltip maxRank 3 (overview spent build showed 2 points)."
+    },
+    {
+      "screenshots": [
+        "warrior/27.png"
+      ],
+      "name": "Dual Wield Specialization",
+      "classicId": 1581,
+      "tree": "Fury",
+      "row": 3,
+      "col": 0,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your off-hand weapon damage by 5%, off-hand Rage generation by 20%, and chance to hit with off-hand attacks by 2%."
+        }
+      ],
+      "iconHint": "crossed swords / daggers",
+      "status": "updated",
+      "diffNotes": "Classic was off-hand damage only (+5%/rank). Forever adds off-hand Rage gen and hit chance."
+    },
+    {
+      "screenshots": [
+        "warrior/32.png"
+      ],
+      "name": "Death Wish",
+      "classicId": 165,
+      "tree": "Fury",
+      "row": 3,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When activated, increases your Physical damage done by 20% and makes you immune to Fear effects, but increases all damage you take by 5%. Lasts 30 sec."
+        }
+      ],
+      "iconHint": "blue / gold winged helmet",
+      "status": "updated",
+      "diffNotes": "Moved up from Classic r4c1 to r3c1. Classic +20% damage / +5% taken / Fear immune 30s similar; Forever shows 10 Rage, Instant, 3 min CD."
+    },
+    {
+      "screenshots": [
+        "warrior/29.png"
+      ],
+      "name": "Enrage",
+      "classicId": 155,
+      "tree": "Fury",
+      "row": 3,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives you a 30% chance to deal 2% increased Physical damage for 12 sec after being the victim of any damaging attack."
+        }
+      ],
+      "iconHint": "orange / purple orb / flaming face",
+      "status": "updated",
+      "diffNotes": "Classic was after being crit. Forever after any damaging attack; arrow to Flurry retained."
+    },
+    {
+      "screenshots": [
+        "warrior/30.png"
+      ],
+      "name": "Improved Execute",
+      "classicId": 1542,
+      "tree": "Fury",
+      "row": 3,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the Rage cost of your Execute ability by 3."
+        }
+      ],
+      "iconHint": "gauntlet with red blade",
+      "status": "updated",
+      "diffNotes": "Moved from Classic r3c1 to r3c3 (below Boundless Rage). Classic reduced Execute rage cost similarly."
+    },
+    {
+      "screenshots": [
+        "warrior/28.png"
+      ],
+      "name": "Raging Blows",
+      "classicId": null,
+      "tree": "Fury",
+      "row": 4,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Causes your Whirlwind to also strike with your off-hand weapon, and reduces the Rage cost of your Cleave ability by 2."
+        }
+      ],
+      "iconHint": "fiery claw / hand",
+      "status": "new",
+      "diffNotes": "Forever-only; sits on Classic Death Wish column path above Bloodthirst; arrow down to Bloodthirst."
+    },
+    {
+      "screenshots": [
+        "warrior/33.png"
+      ],
+      "name": "Precision",
+      "classicId": null,
+      "tree": "Fury",
+      "row": 4,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your chance to hit with all abilities and attacks by 1%."
+        }
+      ],
+      "iconHint": "red bullseye / target",
+      "status": "new",
+      "diffNotes": "Not in Classic 1.12 Warrior trees; Forever Fury r4c0 (Classic Improved Slam moved to Arms)."
+    },
+    {
+      "screenshots": [
+        "warrior/31.png"
+      ],
+      "name": "Improved Intercept",
+      "classicId": 1543,
+      "tree": "Fury",
+      "row": 4,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown of your Intercept ability by 5 sec."
+        }
+      ],
+      "iconHint": "winged boots",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank-1 Intercept CDR; remains on right side of mid tree."
+    },
+    {
+      "screenshots": [
+        "warrior/34.png"
+      ],
+      "name": "Improved Berserker Rage",
+      "classicId": 1541,
+      "tree": "Fury",
+      "row": 5,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your Berserker Rage ability will instantly generate 5 Rage and has a 50% chance to remove all movement impairing effects when activated."
+        }
+      ],
+      "iconHint": "bull head",
+      "status": "updated",
+      "diffNotes": "Classic generated extra Rage only. Forever adds 50% chance to clear movement impairs."
+    },
+    {
+      "screenshots": [
+        "warrior/35.png"
+      ],
+      "name": "Flurry",
+      "classicId": 156,
+      "tree": "Fury",
+      "row": 5,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your melee attack speed by 5% for your next 3 swings after dealing a melee critical strike."
+        }
+      ],
+      "iconHint": "triple claw marks",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank-1 Flurry haste; arrow from Enrage."
+    },
+    {
+      "screenshots": [
+        "warrior/36.png"
+      ],
+      "name": "Bloodthirst",
+      "classicId": 167,
+      "tree": "Fury",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Instantly attack the target causing damage equal to 35% of your Attack Power plus 30 and increasing your movement speed by 10% for 10 sec."
+        }
+      ],
+      "iconHint": "orange flame / metallic gauntlet mask",
+      "status": "updated",
+      "diffNotes": "Classic was AP-based damage without the Forever movement-speed rider. Arrow from Raging Blows (Classic arrow was from Death Wish)."
+    },
+    {
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Shield Specialization",
       "classicId": 1601,
       "tree": "Protection",
@@ -287,10 +1478,12 @@
       ],
       "iconHint": "blue heater shield with silver trim",
       "status": "updated",
-      "diffNotes": "Classic: 1% block + 20% chance to generate 1 rage on block. Forever: same block chance but 5 Rage on proc. Arrow target changed from Improved Shield Block to Master of Defense."
+      "diffNotes": "Classic: 1% block + 20% chance to generate 1 Rage on block. Forever: 5 Rage on proc. Arrow to Master of Defense."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Anticipation",
       "classicId": 138,
       "tree": "Protection",
@@ -303,12 +1496,14 @@
           "description": "Increases your Defense Skill by 4."
         }
       ],
-      "iconHint": "green head silhouette with glowing brain / third-eye area",
+      "iconHint": "green head / glowing mind",
       "status": "updated",
-      "diffNotes": "Classic: +2 Defense per rank. Forever: +4 Defense per rank."
+      "diffNotes": "Classic +2 Defense per rank; Forever +4 per rank."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Improved Bloodrage",
       "classicId": 142,
       "tree": "Protection",
@@ -321,12 +1516,14 @@
           "description": "Increases all the Rage generated by your Bloodrage ability by 25%."
         }
       ],
-      "iconHint": "red figure in swirling red aura",
+      "iconHint": "red figure in swirling aura",
       "status": "updated",
-      "diffNotes": "Classic: +2/+5 instant Rage from Bloodrage. Forever: +25% all Rage from Bloodrage (rank 1 shown)."
+      "diffNotes": "Classic +2/+5 instant Rage; Forever +25% all Bloodrage Rage (rank 1 shown)."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Toughness",
       "classicId": 140,
       "tree": "Protection",
@@ -339,12 +1536,14 @@
           "description": "Increases your Armor value from items by 2%."
         }
       ],
-      "iconHint": "green-tinted armored gauntlet / fist",
+      "iconHint": "green-tinted armored gauntlet",
       "status": "unchanged",
-      "diffNotes": "Same slot and rank-1 armor % as Classic; Forever adds arrow down to Improved Revenge."
+      "diffNotes": "Same slot and rank-1 armor %. Forever arrow to Improved Revenge."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Improved Thunder Clap",
       "classicId": 128,
       "tree": "Protection",
@@ -357,12 +1556,14 @@
           "description": "Reduces the Rage cost of your Thunder Clap ability by 2."
         }
       ],
-      "iconHint": "gauntlet striking ground with blue circular shockwave",
+      "iconHint": "gauntlet striking ground with blue shockwave",
       "status": "updated",
-      "diffNotes": "Moved from Arms r1c3 into Protection r1c3 (displaces Iron Will). Classic Arms rank 1 reduced cost by 1; Forever rank 1 reduces by 2."
+      "diffNotes": "Moved from Arms r1c3. Classic Arms rank 1 reduced cost by 1; Forever rank 1 by 2."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Last Stand",
       "classicId": 153,
       "tree": "Protection",
@@ -375,12 +1576,14 @@
           "description": "When activated, this ability temporarily grants you 30% of your maximum health for 20 sec. After the effect expires, the health is lost."
         }
       ],
-      "iconHint": "red stylized heart / life emblem",
+      "iconHint": "red stylized heart",
       "status": "unchanged",
-      "diffNotes": "Same effect as Classic (wording: health vs hit points). Tooltip shows Instant, 3 min cooldown."
+      "diffNotes": "Same effect; Instant, 3 min cooldown."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Master of Defense",
       "classicId": null,
       "tree": "Protection",
@@ -393,12 +1596,14 @@
           "description": "Grants you a 50% chance to generate 5 Rage when you Dodge or Parry while a shield is equipped."
         }
       ],
-      "iconHint": "blue shield with white circular / zero emblem in center",
+      "iconHint": "blue shield with white circular emblem",
       "status": "new",
-      "diffNotes": "Occupies Classic Improved Shield Block slot (r2c1). Requires Shield Specialization (arrow)."
+      "diffNotes": "Occupies Classic Improved Shield Block slot; requires Shield Specialization."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Improved Revenge",
       "classicId": 147,
       "tree": "Protection",
@@ -411,12 +1616,14 @@
           "description": "Increases damage dealt by your Revenge ability by 20%."
         }
       ],
-      "iconHint": "sword striking against a shield",
+      "iconHint": "sword striking shield",
       "status": "updated",
-      "diffNotes": "Classic: % chance for Revenge to stun. Forever: +% Revenge damage. Arrow from Toughness."
+      "diffNotes": "Classic: chance for Revenge to stun. Forever: +% Revenge damage."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Defiance",
       "classicId": 144,
       "tree": "Protection",
@@ -431,10 +1638,12 @@
       ],
       "iconHint": "red clenched fist",
       "status": "updated",
-      "diffNotes": "Classic maxRank 5, +3% threat per rank in Defensive Stance. Forever maxRank 3, +5% threat per rank while shield equipped."
+      "diffNotes": "Classic maxRank 5 +3% threat/rank; Forever maxRank 3 +5%/rank with shield."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Improved Sunder Armor",
       "classicId": 146,
       "tree": "Protection",
@@ -447,12 +1656,14 @@
           "description": "Reduces the Rage cost of your Sunder Armor ability by 1."
         }
       ],
-      "iconHint": "yellow shield cracked / broken by a sword",
+      "iconHint": "yellow cracked shield",
       "status": "unchanged",
-      "diffNotes": "Same slot and rank-1 rage cost reduction as Classic."
+      "diffNotes": "Same slot and rank-1 rage cost reduction."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Improved Disarm",
       "classicId": 151,
       "tree": "Protection",
@@ -465,12 +1676,14 @@
           "description": "Reduces the cooldown of your Disarm ability by 7 secs."
         }
       ],
-      "iconHint": "hand grasping the blade of a sword",
+      "iconHint": "hand grasping sword blade",
       "status": "updated",
-      "diffNotes": "Classic: +1/+2/+3 sec Disarm duration. Forever: −7 sec Disarm cooldown (rank 1 shown)."
+      "diffNotes": "Classic lengthened Disarm duration; Forever reduces Disarm cooldown."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Vanguard",
       "classicId": null,
       "tree": "Protection",
@@ -483,12 +1696,14 @@
           "description": "Your Charge ability is now usable while in Defensive Stance."
         }
       ],
-      "iconHint": "silver/grey Spartan-style helmet",
+      "iconHint": "silver Spartan-style helmet",
       "status": "new",
-      "diffNotes": "Occupies Classic Improved Taunt slot (r3c2)."
+      "diffNotes": "Occupies Classic Improved Taunt slot."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Improved Shield Wall",
       "classicId": 150,
       "tree": "Protection",
@@ -501,12 +1716,14 @@
           "description": "Reduces the cooldown of your Shield Wall ability by 5.5 min."
         }
       ],
-      "iconHint": "purple/dark shield with glowing center",
+      "iconHint": "purple/dark shield with glow",
       "status": "updated",
-      "diffNotes": "Classic: +3/+5 sec Shield Wall duration. Forever: −5.5 min Shield Wall cooldown (rank 1 shown)."
+      "diffNotes": "Classic lengthened Shield Wall; Forever reduces cooldown."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Concussion Blow",
       "classicId": 152,
       "tree": "Protection",
@@ -519,12 +1736,14 @@
           "description": "Stuns the target for 5 sec."
         }
       ],
-      "iconHint": "mace / hammer striking a stylized head",
+      "iconHint": "mace striking head",
       "status": "unchanged",
-      "diffNotes": "Same 5 sec stun. Forever tooltip also shows 10 Rage, Melee Range, Instant, 45 sec cooldown. Arrow to Shield Slam retained."
+      "diffNotes": "Same 5 sec stun; Forever also shows 10 Rage, Melee, Instant, 45 sec CD. Arrow to Shield Slam."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Improved Shield Bash",
       "classicId": 149,
       "tree": "Protection",
@@ -537,12 +1756,14 @@
           "description": "Gives your Shield Bash ability a 50% chance to Silence the target for 3 sec."
         }
       ],
-      "iconHint": "shield striking a target's face",
+      "iconHint": "shield striking face",
       "status": "unchanged",
       "diffNotes": "Matches Classic rank 1 silence chance/duration."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Vitality",
       "classicId": null,
       "tree": "Protection",
@@ -560,7 +1781,9 @@
       "diffNotes": "New talent in previously empty Classic r4c3."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Focused Rage",
       "classicId": null,
       "tree": "Protection",
@@ -573,12 +1796,14 @@
           "description": "Reduces the Rage cost of your offensive abilities by 1."
         }
       ],
-      "iconHint": "red stylized eye / focusing reticle",
+      "iconHint": "red eye / reticle",
       "status": "new",
       "diffNotes": "New talent in previously empty Classic r5c0."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Bastion",
       "classicId": null,
       "tree": "Protection",
@@ -593,10 +1818,12 @@
       ],
       "iconHint": "golden ornate shield",
       "status": "new",
-      "diffNotes": "Occupies Classic One-Handed Weapon Specialization slot (r5c2)."
+      "diffNotes": "Occupies Classic One-Handed Weapon Specialization slot."
     },
     {
-      "screenshots": ["warrior/image.png"],
+      "screenshots": [
+        "warrior/image.png"
+      ],
       "name": "Shield Slam",
       "classicId": 148,
       "tree": "Protection",
@@ -609,21 +1836,22 @@
           "description": "Slam the target with your shield, causing 421 to 439 damage, increased by your Block Value, and has a 50% chance of dispelling 1 magic effect on the target. Causes a very high amount of threat."
         }
       ],
-      "iconHint": "blue shield with white impact lines (V/X)",
+      "iconHint": "blue shield with white impact",
       "status": "updated",
-      "diffNotes": "Classic damage 225–235; Forever 421–439. Forever tooltip also shows 20 Rage, Instant, 6 sec cooldown, Requires Shields. Threat wording: very high vs high."
+      "diffNotes": "Classic damage 225–235; Forever 421–439. Forever also shows 20 Rage, Instant, 6 sec CD, Requires Shields."
     }
   ],
-  "unmatchedScreenshots": [],
+  "unmatchedScreenshots": [
+    "warrior/37.png — identical to overview.png (MD5 match); not a tooltip"
+  ],
   "layoutNotes": [
-    "image.png is NOT a 3-tree overview — it is a Protection-tree collage with hover tooltips for every occupied slot. Arms and Fury are absent.",
-    "Only file in public/warrior/ at scrape time: image.png.",
-    "Protection occupied slots: 19 (Classic had 17).",
-    "Missing vs Classic Protection: Iron Will (r1c3), Improved Shield Block (r2c1), Improved Taunt (r3c2), One-Handed Weapon Specialization (r5c2).",
-    "New vs Classic Protection: Master of Defense (r2c1), Vanguard (r3c2), Vitality (r4c3), Focused Rage (r5c0), Bastion (r5c2).",
-    "Moved into Protection: Improved Thunder Clap (Classic Arms r1c3 → Forever Protection r1c3).",
-    "Rank badges all 0/X (unspent). Arrows: Shield Spec→Master of Defense, Anticipation→Toughness, Toughness→Improved Revenge, Concussion Blow→Shield Slam.",
-    "No numbered per-talent screenshot files — all tooltip text scraped from the collage overlays.",
-    "classicId matched by name only against talents.json warrior; Forever-only names (Master of Defense, Vanguard, Vitality, Focused Rage, Bastion) get classicId null."
+    "overview.png is the 3-tree layout (Arms / Fury / Protection). image.png is Protection-only tooltip collage.",
+    "Numbered 1–18 Arms (duplicates: 4=6 Improved Tactical Mastery, 5=7 Improved Charge). 19–36 Fury. 37=overview duplicate.",
+    "Rows/cols are 0-indexed on a 4×7 grid per tree.",
+    "Arms occupied: 16. Missing vs Classic Arms: Deep Wounds, Imp Thunder Clap (→Prot), Axe/Mace/Sword/Polearm Specialization. New: Spearing Strike, Bloodthrill, Weaponmaster. Moved in: Improved Slam (from Fury). Improved Overpower shifted to r1c3. Impale sits on former Deep Wounds slot.",
+    "Fury occupied: 18. Missing vs Classic Fury: Improved Demoralizing Shout, Improved Battle Shout, Improved Slam (→Arms). New: Boundless Rage, Raging Blows, Precision. Moved in: Iron Will (from Prot). Death Wish raised to r3c1; Bloodthirst remains bottom with arrow from Raging Blows.",
+    "Protection occupied: 19. Missing vs Classic Prot: Iron Will (→Fury), Improved Shield Block, Improved Taunt, One-Handed Weapon Specialization. New: Master of Defense, Vanguard, Vitality, Focused Rage, Bastion. Moved in: Improved Thunder Clap.",
+    "Arms/Fury icon→name placements for mid/lower rows use overview occupancy + screenshot neighbor context; a few Forever icons differ from Classic art.",
+    "classicId matched by name against talents.json warrior (Improved Tactical Mastery → Tactical Mastery id 641). Forever-only names get classicId null."
   ]
 }

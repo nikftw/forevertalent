@@ -1,13 +1,14 @@
 {
   "class": "priest",
-  "overviewFile": "priest/Priest_talents.png",
+  "overviewFile": "priest/overview.png",
   "sourceFiles": [
+    "priest/overview.png",
     "priest/Priest_talents.png",
     "priest/Disc.forever.jpg",
     "priest/Holy-forever.png",
     "priest/Shadow-forever.png"
   ],
-  "notes": "Layout authority is Forever screenshots only (IGNORE Classic placement and public/priest/overview.png). Disc.forever.jpg / Holy-forever.png / Shadow-forever.png are tooltip collages mapped onto 4×7 grids; Priest_talents.png confirms occupied slots, arrows, and Holy spent ranks. Columns are 0-indexed. Classic talents.json used only for classicId/status when names are readable.",
+  "notes": "Layout authority: overview.png + Priest_talents.png (4×7 occupied slots and arrows). Names, maxRank, and tooltips from Disc.forever.jpg / Holy-forever.png / Shadow-forever.png. Columns 0-indexed. Classic talents.json used for classicId when names match.",
   "trees": [
     {
       "name": "Discipline",
@@ -1960,6 +1961,31 @@
       "updated": 27,
       "unchanged": 12
     },
-    "layoutNotes": "All three trees fully mapped from Forever tooltip collages + Priest_talents.png. Classic row/col ignored for placement."
+    "layoutNotes": "Slots confirmed against overview.png and Priest_talents.png; tooltips from Forever collages.",
+    "remainingUncertainty": [
+      "Holy Precision Rank 0/3 tooltip shows 6% hit; expanded as 6/12/18 (may be intended 2/4/6 if UI showed max).",
+      "Meditation Rank 0/3 shows 17%; expanded as ~17/33/50 (Classic was 5/10/15).",
+      "Multi-rank passives with only one collage rank use linear extrapolation for missing ranks.",
+      "Improved Mind Flay rank 2 slow (20%) is extrapolated; only rank 1 (35% slow) is screenshot-confirmed.",
+      "Spiritual Guidance ranks 1-3 interpolated from screenshot ranks 4-5 (20%/6% and 25%/8%).",
+      "Penance values from Disc.forever collage (98 dmg / 258 heal / 2 sec); a crop fragment showed different numbers.",
+      "Live tree name kept as Shadow (not Shadow Magic) for backgrounds/priest/shadow.jpg."
+    ],
+    "appliedForeverIds": [
+      90020,
+      90021,
+      90022,
+      90023,
+      90024,
+      90025,
+      90026,
+      90027,
+      90028,
+      90029,
+      90030,
+      90031,
+      90032,
+      90033
+    ]
   }
 }
