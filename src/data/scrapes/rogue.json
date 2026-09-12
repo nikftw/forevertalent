@@ -1,0 +1,1055 @@
+{
+  "class": "rogue",
+  "overviewFile": "rogue/overview.png",
+  "sourceFiles": [
+    "rogue/overview.png",
+    "rogue/1.png",
+    "rogue/2.png",
+    "rogue/3.png",
+    "rogue/4.png",
+    "rogue/5.png",
+    "rogue/6.png",
+    "rogue/7.png",
+    "rogue/8.png",
+    "rogue/9.png",
+    "rogue/10.png",
+    "rogue/11.png",
+    "rogue/12.png",
+    "rogue/13.png"
+  ],
+  "notes": "First Forever Rogue scrape. Layout from overview.png (4×7 grids). ALL 13 numbered tooltip screenshots are Combat-tree only — Assassination and Subtlety have zero tooltip files. Do not invent tooltip text for missing shots. Lower-row grey icons are hard to resolve; occupied flags follow overview panel reads (2× crops) and Combat neighbor context from tips 1–13. Overview shows unspent 29; tip crops are from spent builds.",
+  "trees": [
+    {
+      "name": "Assassination",
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Red curved bloody dagger/claw",
+          "rankBadge": "0",
+          "notes": "Green border; arrow down toward row1 col0; MISSING tooltip screenshot"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Grey/white beast or hooded mask face",
+          "rankBadge": "0",
+          "notes": "Green border; MISSING tooltip screenshot"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Orange fiery blast / flaming claw",
+          "rankBadge": "0",
+          "notes": "Green border; arrow down toward row1 col2; MISSING tooltip screenshot"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed icon under bloody dagger",
+          "rankBadge": null,
+          "notes": "Greyed; receives arrow from row0 col0; MISSING tooltip screenshot"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed icon (gauntlet/hand-like in panel crop)",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed icon under fiery blast",
+          "rankBadge": null,
+          "notes": "Greyed; receives arrow from row0 col2; MISSING tooltip screenshot"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed fourth-column icon on tier 2",
+          "rankBadge": null,
+          "notes": "Greyed; Forever extra vs Classic Assassination tier-2 width; MISSING tooltip screenshot"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed dagger-like icon",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed curved-blade icon",
+          "rankBadge": null,
+          "notes": "Greyed; mid-column path; MISSING tooltip screenshot"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed icon",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed skull-like icon",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed scroll/open parchment icon",
+          "rankBadge": null,
+          "notes": "Greyed; arrow down toward row4 col1; MISSING tooltip screenshot"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed blade icon",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed vial/poison bottle icon",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed crossed daggers",
+          "rankBadge": null,
+          "notes": "Greyed; receives arrow from row3 col1; long arrow down toward row6 col1; MISSING tooltip screenshot"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed leaf/nature-like icon",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": "Empty; dependency line from row4 col1 may pass through toward capstone"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": "Empty; arrow from row4 col1 passes through toward row6 col1"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed serrated dagger icon",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed spearhead / pointed blade capstone",
+          "rankBadge": null,
+          "notes": "Greyed; receives long arrow from row4 col1; MISSING tooltip screenshot"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Combat",
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Eviscerate",
+          "iconHint": "Red/brown hooded figure",
+          "rankBadge": "0",
+          "notes": "Green border; rogue/2.png; Forever moves Imp Eviscerate into Combat (Classic Assassination r0c0)"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Sinister Strike",
+          "iconHint": "Purple glowing vial / ritual dagger",
+          "rankBadge": "0",
+          "notes": "Green border; arrow down to Deflection; rogue/1.png"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Bald human face in profile",
+          "rankBadge": "0",
+          "notes": "Green border; top of col2 chain above Puncturing Wounds (rogue/10.png); MISSING tooltip screenshot — do not invent name"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Gauntlet / bloody claw-hand",
+          "rankBadge": null,
+          "notes": "Greyed in overview; visible in spent tip crops under Imp Eviscerate; MISSING tooltip screenshot"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Deflection",
+          "iconHint": "Silver parrying blade",
+          "rankBadge": null,
+          "notes": "Under Imp Sinister Strike; rogue/4.png; arrow down toward row2 col1"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Puncturing Wounds",
+          "iconHint": "Red bullseye / target with dagger",
+          "rankBadge": null,
+          "notes": "Right of Deflection; rogue/5.png; arrow down to Dual Wield Specialization"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Endurance",
+          "iconHint": "Purple mask / hooded endurance face",
+          "rankBadge": null,
+          "notes": "rogue/7.png; under claw-hand column; arrow down toward row3 col0 in tip crop"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed curved blade / mid-column icon",
+          "rankBadge": null,
+          "notes": "Greyed; receives arrow from Deflection; MISSING tooltip screenshot (Classic Riposte sat near here — name not confirmed)"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Dual Wield Specialization",
+          "iconHint": "Crossed daggers",
+          "rankBadge": null,
+          "notes": "rogue/8.png; requires Puncturing Wounds above; arrow down to Hack and Slash"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Improved Sprint",
+          "iconHint": "Winged / red boot with motion lines",
+          "rankBadge": null,
+          "notes": "rogue/6.png; rightmost tier-3 slot in overview Combat panel"
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed icon under Endurance",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed face/helm-like icon",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Hack and Slash",
+          "iconHint": "Gauntleted hand on sword hilt",
+          "rankBadge": null,
+          "notes": "rogue/10.png; under Dual Wield Specialization in col2 chain"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Blade Flurry",
+          "iconHint": "Crossed swords / flurry blades",
+          "rankBadge": null,
+          "notes": "rogue/13.png; lower-tree placement best-effort from tip neighbors + overview mid-column occupancy"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed boot/armor icon",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Weapon Expertise",
+          "iconHint": "Crossed swords expertise seal",
+          "rankBadge": null,
+          "notes": "rogue/11.png; near Blade Flurry in tip crop; exact column best-effort"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Aggression",
+          "iconHint": "Greyed aggression / weapon icon",
+          "rankBadge": null,
+          "notes": "rogue/12.png; right of lower mid-column talents in tip crop; best-effort slot"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed longsword / standing figure capstone",
+          "rankBadge": null,
+          "notes": "Greyed; middle-column capstone under overview arrow chain; MISSING tooltip screenshot (likely Adrenaline Rush by Classic position — name not confirmed from Forever tip)"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Subtlety",
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Blue-grey hooded figure facing left",
+          "rankBadge": "0",
+          "notes": "Green border; MISSING tooltip screenshot"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Purple glowing-eyed mask / shadowy face",
+          "rankBadge": "0",
+          "notes": "Green border; MISSING tooltip screenshot"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Green beast/orc face or leaping figure",
+          "rankBadge": "0",
+          "notes": "Green border; MISSING tooltip screenshot"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed dagger / stealth silhouette",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed cloaked figure / helmet",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed crossed blades / ghostly figure",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed swirling smoke / claw slashes",
+          "rankBadge": null,
+          "notes": "Greyed; Forever four-wide tier-2; MISSING tooltip screenshot"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed hooded head",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed humanoid / hand-on-hilt",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed vertical blade / boot-step",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed masked face",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed dark circular / blue figure",
+          "rankBadge": null,
+          "notes": "Greyed; arrow down to row4 col1; MISSING tooltip screenshot"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed upward blade",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed forward-facing head",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed hooded silhouette",
+          "rankBadge": null,
+          "notes": "Greyed; receives arrow from row3 col1; long arrow down to row6 col1; MISSING tooltip screenshot"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed winged/feather shape or hand with dagger",
+          "rankBadge": null,
+          "notes": "Greyed; arrow down toward row5 col2; MISSING tooltip screenshot"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed trap/gear-like icon",
+          "rankBadge": null,
+          "notes": "Greyed; MISSING tooltip screenshot"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": "Empty; dependency line from row4 col1 passes through to row6 col1"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed downward dagger",
+          "rankBadge": null,
+          "notes": "Greyed; receives arrow from row4 col2; MISSING tooltip screenshot"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Greyed vertical sword capstone",
+          "rankBadge": null,
+          "notes": "Greyed; receives long arrow from row4 col1; MISSING tooltip screenshot"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "rankBadge": null,
+          "notes": ""
+        }
+      ]
+    }
+  ],
+  "talents": [
+    {
+      "screenshots": ["rogue/1.png"],
+      "name": "Improved Sinister Strike",
+      "tree": "Combat",
+      "row": 0,
+      "col": 1,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 2,
+          "description": "Reduces the Energy cost of your Sinister Strike ability by 5."
+        }
+      ],
+      "iconHint": "Purple glowing vial / ritual dagger; green border; spent badge 2",
+      "classicId": 201,
+      "status": "unchanged",
+      "diffNotes": "Tip shows Rank 2/2 text matching Classic rank 2 (+5 Energy reduction) and maxRank 2. Rank 1 Forever text not captured."
+    },
+    {
+      "screenshots": ["rogue/2.png"],
+      "name": "Improved Eviscerate",
+      "tree": "Combat",
+      "row": 0,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage done by your Eviscerate ability by 7%."
+        }
+      ],
+      "iconHint": "Red/brown hooded figure; leftmost of Combat row0 trio",
+      "classicId": 276,
+      "status": "updated",
+      "diffNotes": "Moved into Combat (Classic Assassination r0c0). Rank 1 is +7% (Classic was +5%). maxRank still 3."
+    },
+    {
+      "screenshots": ["rogue/3.png"],
+      "name": "Precision",
+      "tree": "Combat",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your chance to hit with all attacks and Poisons by 1%."
+        }
+      ],
+      "iconHint": "Mostly obscured; tip crop shows little tree context",
+      "classicId": 181,
+      "status": "updated",
+      "diffNotes": "Combat confirmed by class context of tip set. Slot not reliably placed from tip crop (row/col null). Forever R1 hits all attacks and Poisons at maxRank 3; Classic was melee-only hit, maxRank 5."
+    },
+    {
+      "screenshots": ["rogue/4.png"],
+      "name": "Deflection",
+      "tree": "Combat",
+      "row": 1,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Parry chance by 2%."
+        }
+      ],
+      "iconHint": "Silver parrying blade; under Imp Sinister Strike",
+      "classicId": 187,
+      "status": "updated",
+      "diffNotes": "Combat header visible. R1 is +2% Parry at maxRank 3; Classic R1 was +1% Parry at maxRank 5."
+    },
+    {
+      "screenshots": ["rogue/5.png"],
+      "name": "Puncturing Wounds",
+      "tree": "Combat",
+      "row": 1,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical strike chance of your Backstab by 10% and your Mutilate by 5%, and gives Backstab a 15% chance to add an additional Combo Point."
+        }
+      ],
+      "iconHint": "Red bullseye/target with dagger point",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match (related idea to Improved Backstab id 202, but Forever name/text includes Mutilate + extra CP chance). Sits where Classic Precision often was."
+    },
+    {
+      "screenshots": ["rogue/6.png"],
+      "name": "Improved Sprint",
+      "tree": "Combat",
+      "row": 2,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives a 50% chance to remove all movement impairing effects when you activate your Sprint ability."
+        },
+        {
+          "rank": 2,
+          "description": "Gives a 100% chance to remove all movement impairing effects when you activate your Sprint ability."
+        }
+      ],
+      "iconHint": "Red/orange winged boot with motion lines",
+      "classicId": 222,
+      "status": "unchanged",
+      "diffNotes": "Tip Rank 1/2 shows R1 text and Next Rank R2 text matching Classic Improved Sprint."
+    },
+    {
+      "screenshots": ["rogue/7.png"],
+      "name": "Endurance",
+      "tree": "Combat",
+      "row": 2,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown of your Sprint and Evasion abilities by 30%."
+        }
+      ],
+      "iconHint": "Purple mask / hooded face",
+      "classicId": 204,
+      "status": "updated",
+      "diffNotes": "Forever R1 is 30% cooldown reduction; Classic used flat 45 sec / 1.5 min reductions. maxRank still 2."
+    },
+    {
+      "screenshots": ["rogue/8.png"],
+      "name": "Dual Wield Specialization",
+      "tree": "Combat",
+      "row": 2,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage done by your off-hand weapon by 5%."
+        }
+      ],
+      "iconHint": "Crossed daggers; arrow from Puncturing Wounds above",
+      "classicId": 221,
+      "status": "updated",
+      "diffNotes": "R1 is +5% off-hand (Classic R1 was +10%). maxRank still 5. Requires talent above (Puncturing Wounds at 3 in spent tip)."
+    },
+    {
+      "screenshots": ["rogue/9.png"],
+      "name": "Restless Blades",
+      "tree": "Combat",
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your damaging finishing moves reduce the remaining cooldown of your Adrenaline Rush, Blade Flurry, Evasion, Sprint, and Vanish abilities by 2 sec per combo point."
+        }
+      ],
+      "iconHint": "Crossed swords; lower Combat column near Hack and Slash neighbors",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match. Combat inferred from tip-set neighbors. Exact row/col not confidently fixed from tip crop — left null."
+    },
+    {
+      "screenshots": ["rogue/10.png"],
+      "name": "Hack and Slash",
+      "tree": "Combat",
+      "row": 3,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your melee weapon attacks a benefit depending on the weapon. Axe/Sword: Your successful melee attacks have a 1% chance to trigger an extra attack on the target. Dagger/Fist: Increases your critical strike chance by 1%. Mace: Your attacks ignore 3% of your target's armor."
+        },
+        {
+          "rank": 2,
+          "description": "Gives your melee weapon attacks a benefit depending on the weapon. Axe/Sword: Your successful melee attacks have a 2% chance to trigger an extra attack on the target. Dagger/Fist: Increases your critical strike chance by 2%. Mace: Your attacks ignore 6% of your target's armor."
+        }
+      ],
+      "iconHint": "Gauntleted hand on sword; under Dual Wield in col2",
+      "classicId": null,
+      "status": "new",
+      "diffNotes": "No Classic name match (weapon-type proc talent). Tip shows Rank 1/5 plus Next Rank. Combat header visible. Col2 chain: bald face → Puncturing Wounds → Dual Wield → Hack and Slash."
+    },
+    {
+      "screenshots": ["rogue/11.png"],
+      "name": "Weapon Expertise",
+      "tree": "Combat",
+      "row": 5,
+      "col": 1,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the chance for your attacks to be Dodged or Parried by 1%."
+        },
+        {
+          "rank": 2,
+          "description": "Reduces the chance for your attacks to be Dodged or Parried by 2%."
+        }
+      ],
+      "iconHint": "Crossed swords; near Blade Flurry in tip crop",
+      "classicId": 1703,
+      "status": "updated",
+      "diffNotes": "Forever R1/R2 are dodge/parry chance reductions; Classic was Sword/Fist/Dagger skill. maxRank still 2. Row/col best-effort near Blade Flurry."
+    },
+    {
+      "screenshots": ["rogue/12.png"],
+      "name": "Aggression",
+      "tree": "Combat",
+      "row": 5,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 2%."
+        }
+      ],
+      "iconHint": "Lower Combat; tip shows neighbors with spent ranks 4/5",
+      "classicId": 1122,
+      "status": "updated",
+      "diffNotes": "Forever R1 includes Backstab (Classic was Sinister Strike and Eviscerate only). maxRank still 3. Slot best-effort."
+    },
+    {
+      "screenshots": ["rogue/13.png"],
+      "name": "Blade Flurry",
+      "tree": "Combat",
+      "row": 4,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your melee attack speed by 20% and your melee attacks strike an additional nearby opponent. Lasts 15 sec.",
+          "cost": "25 Energy",
+          "castTime": "Instant",
+          "cooldown": "2 min"
+        }
+      ],
+      "iconHint": "Crossed silver blades",
+      "classicId": 223,
+      "status": "updated",
+      "diffNotes": "Active tip shows 25 Energy, Instant, 2 min CD, +20% melee speed and cleave for 15 sec. Classic wording differed slightly (attack speed / additional nearby opponent). Slot best-effort in lower Combat mid-column."
+    }
+  ],
+  "unmatchedScreenshots": [],
+  "layoutNotes": [
+    "Coverage is incomplete: public/rogue/ has overview.png + rogue/1.png–13.png only.",
+    "All 13 tooltip screenshots are Combat. Assassination occupied slots: 18 with ZERO tooltips. Subtlety occupied slots: 19 with ZERO tooltips.",
+    "Combat tip set covers 13 named talents; several occupied Combat slots still lack tips (row0 col2 bald face; row1 col0 claw/gauntlet; row2 col1 under Deflection; row3 col0/col1; row4 col2; row6 col1 capstone).",
+    "Precision and Restless Blades have tip text but row/col left null where placement was not clear from the tip crop.",
+    "Do not invent Assassination/Subtlety names or descriptions until more screenshots exist.",
+    "Lower-tree Combat row/col for Blade Flurry / Weapon Expertise / Aggression are best-effort from tip neighbors + overview occupancy — re-verify when more tips land.",
+    "Improved Eviscerate appears in Combat forever (not Assassination) per rogue/2.png neighbors matching Combat row0."
+  ]
+}
