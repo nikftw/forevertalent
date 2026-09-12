@@ -1,0 +1,269 @@
+{
+  "source": "Forever profession bonuses reference",
+  "professions": [
+    {
+      "slug": "alchemy",
+      "name": "Alchemy",
+      "icon": "trade_alchemy",
+      "bonuses": [
+        {
+          "name": "Mixology",
+          "icon": "inv_potion_27",
+          "description": "Elixirs and flasks last longer and provide stronger effects."
+        },
+        {
+          "name": "Philosopher's Stone",
+          "icon": "inv_misc_orb_01",
+          "description": "Craft an upgradable trinket that grows with your Alchemy skill."
+        },
+        {
+          "name": "New Recipes",
+          "icon": "inv_misc_note_01",
+          "description": "Access Forever alchemy recipes beyond Classic."
+        }
+      ]
+    },
+    {
+      "slug": "blacksmithing",
+      "name": "Blacksmithing",
+      "icon": "trade_blacksmithing",
+      "bonuses": [
+        {
+          "name": "Repair All",
+          "icon": "inv_hammer_20",
+          "description": "Repair all of your equipment at once."
+        },
+        {
+          "name": "Belt Buckles",
+          "icon": "inv_belt_18",
+          "description": "Craft belt buckles that add socketed stats to waist armor."
+        },
+        {
+          "name": "New Recipes",
+          "icon": "inv_misc_note_01",
+          "description": "Access Forever blacksmithing recipes beyond Classic."
+        }
+      ]
+    },
+    {
+      "slug": "cooking",
+      "name": "Cooking",
+      "icon": "inv_misc_food_15",
+      "bonuses": [
+        {
+          "name": "Black Coffee",
+          "icon": "inv_drink_15",
+          "description": "Brew Black Coffee for a potent temporary boost."
+        },
+        {
+          "name": "Juicy Bear Burgers",
+          "icon": "inv_misc_food_65",
+          "description": "Cook Juicy Bear Burgers and other Forever specialty foods."
+        },
+        {
+          "name": "And More",
+          "icon": "inv_misc_food_73cinnamonroll",
+          "description": "Additional cooking recipes and buff foods for Forever."
+        }
+      ]
+    },
+    {
+      "slug": "enchanting",
+      "name": "Enchanting",
+      "icon": "trade_engraving",
+      "bonuses": [
+        {
+          "name": "Ring Enchants",
+          "icon": "inv_jewelry_ring_31",
+          "description": "Enchant rings with permanent combat bonuses."
+        },
+        {
+          "name": "Shard Transmutes",
+          "icon": "inv_enchant_shardnexuslarge",
+          "description": "Transmute enchanting shards into higher grades."
+        },
+        {
+          "name": "Stave Crafting... and More!",
+          "icon": "inv_staff_13",
+          "description": "Craft staves and additional Forever enchanting recipes."
+        }
+      ]
+    },
+    {
+      "slug": "engineering",
+      "name": "Engineering",
+      "icon": "trade_engineering",
+      "bonuses": [
+        {
+          "name": "Powerful Profession",
+          "icon": "inv_gizmo_02",
+          "description": "Engineering remains one of the most powerful combat professions."
+        },
+        {
+          "name": "But Wait... There's More!",
+          "icon": "inv_misc_enggizmos_13",
+          "description": "Additional gadgets, bombs, and trinkets beyond Classic."
+        },
+        {
+          "name": "Goblin or Gnome?",
+          "icon": "inv_misc_head_gnome_01",
+          "description": "Specialize into Goblin or Gnomish Engineering for unique recipes."
+        }
+      ]
+    },
+    {
+      "slug": "fishing",
+      "name": "Fishing",
+      "icon": "trade_fishing",
+      "bonuses": [
+        {
+          "name": "Fishing with Flair",
+          "icon": "inv_misc_fish_02",
+          "description": "Improved fishing catches and specialty fish for Forever."
+        },
+        {
+          "name": "Casting Fire",
+          "icon": "spell_fire_fireball",
+          "description": "New fishing content and fire-themed catches."
+        },
+        {
+          "name": "Bobbing with Friends",
+          "icon": "inv_misc_fish_14",
+          "description": "Social and cooperative fishing rewards."
+        }
+      ]
+    },
+    {
+      "slug": "first-aid",
+      "name": "First Aid",
+      "icon": "spell_holy_sealofsacrifice",
+      "bonuses": [
+        {
+          "name": "Classic First Aid",
+          "icon": "inv_misc_bandage_15",
+          "description": "Core bandage and anti-venom recipes return."
+        },
+        {
+          "name": "Upgraded Bandages",
+          "icon": "inv_misc_bandage_12",
+          "description": "Stronger Forever bandages for higher healing."
+        },
+        {
+          "name": "Engaging Content",
+          "icon": "inv_misc_note_02",
+          "description": "Additional first aid recipes and progression."
+        }
+      ]
+    },
+    {
+      "slug": "herbalism",
+      "name": "Herbalism",
+      "icon": "trade_herbalism",
+      "bonuses": [
+        {
+          "name": "Natural Talent",
+          "icon": "spell_nature_protectionformnature",
+          "description": "Resistance to all schools of magic increased."
+        },
+        {
+          "name": "Lotus Affinity",
+          "icon": "inv_misc_herb_blacklotus",
+          "description": "Improved chance to find rare lotus herbs."
+        },
+        {
+          "name": "Brutal Pickings",
+          "icon": "inv_misc_herb_19",
+          "description": "Gather more herbs from nodes while Herbalism is trained."
+        }
+      ]
+    },
+    {
+      "slug": "leatherworking",
+      "name": "Leatherworking",
+      "icon": "inv_misc_armorkit_17",
+      "bonuses": [
+        {
+          "name": "Armor Kits",
+          "icon": "inv_misc_armorkit_05",
+          "description": "Craft armor kits that improve leather and mail gear."
+        },
+        {
+          "name": "Must Go Faster...",
+          "icon": "ability_mount_jungletiger",
+          "description": "Mounted speed increased while Leatherworking is trained."
+        },
+        {
+          "name": "Dragons and Elements",
+          "icon": "inv_misc_monsterscales_15",
+          "description": "Craft dragonscale and elemental leather sets."
+        }
+      ]
+    },
+    {
+      "slug": "mining",
+      "name": "Mining",
+      "icon": "trade_mining",
+      "bonuses": [
+        {
+          "name": "Made of Metal",
+          "icon": "inv_ore_thorium_01",
+          "description": "All your hard work spent mining has made you exceptionally tough, increasing your total health by 5%."
+        },
+        {
+          "name": "A Lode of Ore",
+          "icon": "inv_ore_mithril_01",
+          "description": "Gather additional ore from mineral nodes."
+        },
+        {
+          "name": "Malicious Mining",
+          "icon": "inv_pick_02",
+          "description": "Mining nodes may yield rare or combat-oriented materials."
+        }
+      ]
+    },
+    {
+      "slug": "skinning",
+      "name": "Skinning",
+      "icon": "inv_misc_pelt_wolf_01",
+      "bonuses": [
+        {
+          "name": "Beasts of the Wild",
+          "icon": "ability_hunter_pet_wolf",
+          "description": "Damage to Beasts and Dragonkin increased by 5%."
+        },
+        {
+          "name": "Rare Hides",
+          "icon": "inv_misc_leatherscrap_08",
+          "description": "Improved chance to skin rare and specialty hides."
+        },
+        {
+          "name": "A Classic Starter Profession",
+          "icon": "inv_misc_pelt_bear_03",
+          "description": "Skinning remains an easy pairing with Leatherworking."
+        }
+      ]
+    },
+    {
+      "slug": "tailoring",
+      "name": "Tailoring",
+      "icon": "trade_tailoring",
+      "bonuses": [
+        {
+          "name": "Embroider Your Work",
+          "icon": "inv_fabric_moonrag_01",
+          "description": "Embroider cloth gear with profession-only bonuses."
+        },
+        {
+          "name": "Cloth Scavenging",
+          "icon": "inv_fabric_linen_01",
+          "description": "Chance to find extra cloth from humanoid enemies."
+        },
+        {
+          "name": "New and Reworked Recipes",
+          "icon": "inv_chest_cloth_17",
+          "description": "Forever cloth sets and recipes beyond Classic."
+        }
+      ]
+    }
+  ]
+}

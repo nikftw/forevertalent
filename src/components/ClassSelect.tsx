@@ -7,9 +7,14 @@ import type { PlayerClass } from "@/data/types";
 type ClassSelectProps = {
   classes: PlayerClass[];
   activeSlug: string;
+  query?: string;
 };
 
-export function ClassSelect({ classes, activeSlug }: ClassSelectProps) {
+export function ClassSelect({
+  classes,
+  activeSlug,
+  query = "",
+}: ClassSelectProps) {
   return (
     <nav className="class-select" aria-label="Classes">
       {classes.map((cls) => {
@@ -17,7 +22,7 @@ export function ClassSelect({ classes, activeSlug }: ClassSelectProps) {
         return (
           <Link
             key={cls.slug}
-            href={`/${cls.slug}`}
+            href={`/${cls.slug}${query}`}
             title={cls.name}
             className={active ? "class-icon is-active" : "class-icon"}
             style={{ ["--class-color" as string]: cls.color }}

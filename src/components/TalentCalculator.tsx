@@ -3,11 +3,13 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ClassSelect } from "@/components/ClassSelect";
+import { ExtrasSelect } from "@/components/ExtrasSelect";
 import { ReviewLegend } from "@/components/ReviewLegend";
 import { TalentTreeCard } from "@/components/TalentTree";
 import { foreverLogoUrl } from "@/lib/assets";
 import { withBasePath } from "@/lib/basePath";
 import { CLASSES, MAX_POINTS } from "@/lib/classes";
+import { parseExtras, serializeExtras } from "@/lib/extras";
 import {
   applyAction,
   classPoints,
@@ -15,24 +17,35 @@ import {
   encodeBuild,
   treePoints,
 } from "@/lib/talents";
-import type { PlayerClass, RankState } from "@/data/types";
+import type { ExtrasSelection, PlayerClass, RankState } from "@/data/types";
 
 type TalentCalculatorProps = {
   cls: PlayerClass;
   initialBuild: string;
 };
 
+const EMPTY_EXTRAS: ExtrasSelection = { race: null, p1: null, p2: null };
+
 export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
   const [ranks, setRanks] = useState<RankState>(() =>
     decodeBuild(cls, initialBuild),
   );
+  const [extras, setExtras] = useState<ExtrasSelection>(EMPTY_EXTRAS);
+  const [urlReady, setUrlReady] = useState(false);
   const [copied, setCopied] = useState(false);
   const spent = classPoints(cls, ranks);
   const remaining = MAX_POINTS - spent;
   const split = cls.trees.map((tree) => treePoints(tree, ranks)).join("/");
   const build = encodeBuild(cls, ranks);
+  const extrasQuery = serializeExtras(extras);
 
   useEffect(() => {
+    setExtras(parseExtras(window.location.search));
+    setUrlReady(true);
+  }, [cls.slug]);
+
+  useEffect(() => {
+    if (!urlReady) return;
     const hash = window.location.hash.replace(/^#/, "");
     if (hash && !build) {
       setRanks(decodeBuild(cls, hash));
@@ -41,13 +54,20 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
     const nextPath = build
       ? withBasePath(`/${cls.slug}/${build}`)
       : withBasePath(`/${cls.slug}/`);
-    if (window.location.pathname !== nextPath) {
-      window.history.replaceState(null, "", nextPath);
+    const nextUrl = `${nextPath}${extrasQuery}`;
+    const current = `${window.location.pathname}${window.location.search}`;
+    if (current !== nextUrl) {
+      window.history.replaceState(null, "", nextUrl);
     }
-  }, [build, cls]);
+  }, [build, cls, extrasQuery, urlReady]);
 
   function update(next: RankState) {
     setRanks(next);
+    setCopied(false);
+  }
+
+  function updateExtras(next: ExtrasSelection) {
+    setExtras(next);
     setCopied(false);
   }
 
@@ -55,7 +75,7 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
     const path = build
       ? withBasePath(`/${cls.slug}/${build}`)
       : withBasePath(`/${cls.slug}/`);
-    const url = `${window.location.origin}${path}`;
+    const url = `${window.location.origin}${path}${extrasQuery}`;
     await navigator.clipboard.writeText(url);
     setCopied(true);
   }
@@ -63,7 +83,7 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
   return (
     <div className="calculator">
       <header className="masthead">
-        <Link className="brand-logo" href={`/${cls.slug}`}>
+        <Link className="brand-logo" href={`/${cls.slug}${extrasQuery}`}>
           <img
             src={foreverLogoUrl()}
             alt="World of Warcraft Forever"
@@ -73,10 +93,15 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
         </Link>
         <div className="masthead-copy">
           <h1>Talent Calculator</h1>
-          <ClassSelect classes={CLASSES} activeSlug={cls.slug} />
+          <ClassSelect
+            classes={CLASSES}
+            activeSlug={cls.slug}
+            query={extrasQuery}
+          />
         </div>
       </header>
       <ReviewLegend />
+      <ExtrasSelect selection={extras} onChange={updateExtras} />
       <div className="trees">
         {cls.trees.map((tree) => (
           <TalentTreeCard
@@ -97,7 +122,9 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
               update(applyAction(cls, ranks, { type: "clear", talentId }))
             }
             onReset={() =>
-              update(applyAction(cls, ranks, { type: "reset-tree", treeId: tree.id }))
+              update(
+                applyAction(cls, ranks, { type: "reset-tree", treeId: tree.id }),
+              )
             }
           />
         ))}
@@ -109,7 +136,9 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
             <button
               type="button"
               className="text-reset"
-              onClick={() => update(applyAction(cls, ranks, { type: "reset-all" }))}
+              onClick={() =>
+                update(applyAction(cls, ranks, { type: "reset-all" }))
+              }
             >
               ×
             </button>

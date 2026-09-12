@@ -1,0 +1,1130 @@
+{
+  "class": "priest",
+  "overviewFile": "priest/Priest_talents.png",
+  "sourceFiles": [
+    "priest/Priest_talents.png",
+    "priest/Disc.forever.jpg",
+    "priest/Holy-forever.png",
+    "priest/Shadow-forever.png"
+  ],
+  "notes": "Layout authority is Forever screenshots only (IGNORE Classic placement). Disc.forever.jpg / Holy-forever.png / Shadow-forever.png are tooltip collages mapped onto 4×7 grids; Priest_talents.png confirms occupied slots, arrows, and Holy spent ranks. Columns are 0-indexed.",
+  "trees": [
+    {
+      "name": "Discipline",
+      "slots": [
+        { "row": 0, "col": 0, "occupied": true, "guessName": "Power in Light", "iconHint": "Bright white/blue holy burst or shield-of-light", "rankBadge": "0/5", "notes": "Disc.forever.jpg tooltip; Forever-only" },
+        { "row": 0, "col": 1, "occupied": true, "guessName": "Wand Specialization", "iconHint": "Hand holding wand / crossed wands", "rankBadge": "0/2", "notes": "Forever maxRank 2 (Classic 5)" },
+        { "row": 0, "col": 2, "occupied": true, "guessName": "Twin Disciplines", "iconHint": "Crossed swords / dual discipline sigil", "rankBadge": "0/5", "notes": "Forever-only" },
+        { "row": 0, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 1, "col": 0, "occupied": true, "guessName": "Silent Resolve", "iconHint": "Shadowy face / shushing silhouette", "rankBadge": "0/3", "notes": "" },
+        { "row": 1, "col": 1, "occupied": true, "guessName": "Holy Precision", "iconHint": "Circle of light / white flare", "rankBadge": "0/3", "notes": "Forever-only" },
+        { "row": 1, "col": 2, "occupied": true, "guessName": "Improved Power Word: Shield", "iconHint": "Rectangular PW:S shield", "rankBadge": "0/3", "notes": "Arrow down to Soul Warding (r3c2)" },
+        { "row": 1, "col": 3, "occupied": true, "guessName": "Martyrdom", "iconHint": "Kneeling / tranquility-style figure", "rankBadge": "0/2", "notes": "" },
+        { "row": 2, "col": 0, "occupied": true, "guessName": "Mental Agility", "iconHint": "Praying hands / agility silhouette", "rankBadge": "0/3", "notes": "" },
+        { "row": 2, "col": 1, "occupied": true, "guessName": "Inner Focus", "iconHint": "Star-like light burst (classic Inner Focus)", "rankBadge": "0/1", "notes": "" },
+        { "row": 2, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "Arrow from Imp PW:S passes toward Soul Warding" },
+        { "row": 2, "col": 3, "occupied": true, "guessName": "Meditation", "iconHint": "Kneeling meditating figure", "rankBadge": "0/3", "notes": "" },
+        { "row": 3, "col": 0, "occupied": true, "guessName": "Improved Inner Fire", "iconHint": "Open book/tome or Inner Fire glyph", "rankBadge": "0/3", "notes": "" },
+        { "row": 3, "col": 1, "occupied": true, "guessName": "Mental Strength", "iconHint": "Glowing cross / enchanted armor sigil", "rankBadge": "0/5", "notes": "" },
+        { "row": 3, "col": 2, "occupied": true, "guessName": "Soul Warding", "iconHint": "Staff / fortified shield ward", "rankBadge": "0/1", "notes": "Requires Imp PW:S; arrow down to Renewed Hope" },
+        { "row": 3, "col": 3, "occupied": true, "guessName": "Improved Mana Burn", "iconHint": "Mana burn swirl / violet burn", "rankBadge": "0/2", "notes": "" },
+        { "row": 4, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 4, "col": 1, "occupied": true, "guessName": "Penance", "iconHint": "Angelic wings / holy volley", "rankBadge": "0/1", "notes": "Long arrow down to Power Infusion (r6c1)" },
+        { "row": 4, "col": 2, "occupied": true, "guessName": "Renewed Hope", "iconHint": "Radiating sun / hope flare", "rankBadge": "0/5", "notes": "Receives arrow from Soul Warding" },
+        { "row": 4, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 5, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 5, "col": 1, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "Penance→Power Infusion arrow passes through" },
+        { "row": 5, "col": 2, "occupied": true, "guessName": "Divine Aegis", "iconHint": "Figure with large protective aura", "rankBadge": "0/3", "notes": "Directly under Renewed Hope in collage" },
+        { "row": 5, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 6, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 6, "col": 1, "occupied": true, "guessName": "Power Infusion", "iconHint": "Cloaked/hooded figure or power-infusion hands", "rankBadge": "0/1", "notes": "Requires Penance (arrow)" },
+        { "row": 6, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 6, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" }
+      ]
+    },
+    {
+      "name": "Holy",
+      "slots": [
+        { "row": 0, "col": 0, "occupied": true, "guessName": "Twilight Focus", "iconHint": "Yellow hand pointing up / wing-light", "rankBadge": "3/3", "notes": "Spent in Priest_talents.png; Forever rename of Healing Focus concept" },
+        { "row": 0, "col": 1, "occupied": true, "guessName": "Improved Renew", "iconHint": "Kneeling renew figure / classic Renew swirl", "rankBadge": "0/3", "notes": "Greyed in overview (0 spent)" },
+        { "row": 0, "col": 2, "occupied": true, "guessName": "Holy Specialization", "iconHint": "Hand reaching for light / holy seal figure", "rankBadge": "3/5", "notes": "Spent 3/5 in overview + Holy-forever" },
+        { "row": 0, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 1, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "Twilight Focus chain may pass through" },
+        { "row": 1, "col": 1, "occupied": true, "guessName": "Spell Warding", "iconHint": "Figure with shield / spell ward cross", "rankBadge": "0/5", "notes": "Greyed" },
+        { "row": 1, "col": 2, "occupied": true, "guessName": "Divine Fury", "iconHint": "Face/mask with glowing eye", "rankBadge": "5/5", "notes": "Arrow down to Searing Light (r3c2)" },
+        { "row": 1, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 2, "col": 0, "occupied": true, "guessName": "Holy Nova", "iconHint": "Golden sunburst / holy explosion", "rankBadge": "1/1", "notes": "" },
+        { "row": 2, "col": 1, "occupied": true, "guessName": "Blessed Recovery", "iconHint": "Figure with outstretched arms / recovery cross", "rankBadge": "0/3", "notes": "Greyed in overview" },
+        { "row": 2, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "Divine Fury→Searing Light arrow passes through" },
+        { "row": 2, "col": 3, "occupied": true, "guessName": "Inspiration", "iconHint": "Hand with sparkles / white light orb", "rankBadge": "3/3", "notes": "" },
+        { "row": 3, "col": 0, "occupied": true, "guessName": "Holy Reach", "iconHint": "Figure holding staff / purify hand", "rankBadge": "1/2", "notes": "Overview may show as 1; Holy-forever shows 1/2" },
+        { "row": 3, "col": 1, "occupied": true, "guessName": "Improved Healing", "iconHint": "Scroll/parchment or heal hand with green plus", "rankBadge": "3/3", "notes": "" },
+        { "row": 3, "col": 2, "occupied": true, "guessName": "Searing Light", "iconHint": "Angelic figure / searing light burst (greyed at 0)", "rankBadge": "0/2", "notes": "Requires Divine Fury" },
+        { "row": 3, "col": 3, "occupied": true, "guessName": "Binding Heal", "iconHint": "Light burst / dual glowing hands", "rankBadge": "1/1", "notes": "Forever-only active heal" },
+        { "row": 4, "col": 0, "occupied": true, "guessName": "Litany of Light", "iconHint": "Bag/satchel or litany book", "rankBadge": "2/2", "notes": "Forever-only" },
+        { "row": 4, "col": 1, "occupied": true, "guessName": "Spirit of Redemption", "iconHint": "Blue/white spirit burst / essence", "rankBadge": "1/1", "notes": "Long arrow down to Prayer of Mending (r6c1)" },
+        { "row": 4, "col": 2, "occupied": true, "guessName": "Spiritual Guidance", "iconHint": "Head with halo / spiritual guidance face", "rankBadge": "4/5", "notes": "" },
+        { "row": 4, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 5, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 5, "col": 1, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "SoR→PoM arrow passes through" },
+        { "row": 5, "col": 2, "occupied": true, "guessName": "Spiritual Healing", "iconHint": "Purple swirling energy / moonglow heal", "rankBadge": "2/3", "notes": "Forever maxRank 3 (Classic 5)" },
+        { "row": 5, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 6, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 6, "col": 1, "occupied": true, "guessName": "Prayer of Mending", "iconHint": "Bottom-center angelic/hooded figure or blue star", "rankBadge": "0/1", "notes": "Requires Spirit of Redemption; replaces Classic Lightwell slot role" },
+        { "row": 6, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 6, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" }
+      ]
+    },
+    {
+      "name": "Shadow Magic",
+      "slots": [
+        { "row": 0, "col": 0, "occupied": true, "guessName": "Shadow Focus", "iconHint": "Dark shadow face / burning spirit", "rankBadge": "0/5", "notes": "Moved to tier-1 left vs Classic row1" },
+        { "row": 0, "col": 1, "occupied": true, "guessName": "Blackout", "iconHint": "Shadow claws/explosion (cursor hover in overview)", "rankBadge": "0/5", "notes": "Vertical chain toward Vampiric Embrace" },
+        { "row": 0, "col": 2, "occupied": true, "guessName": "Spirit Tap", "iconHint": "Clenched shadow fist", "rankBadge": "0/5", "notes": "Moved right vs Classic col1" },
+        { "row": 0, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 1, "col": 0, "occupied": true, "guessName": "Shadow Affinity", "iconHint": "Swirling shadow / shadow ward face", "rankBadge": "0/3", "notes": "" },
+        { "row": 1, "col": 1, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "Blackout chain passes through; Classic Imp SW:P was here" },
+        { "row": 1, "col": 2, "occupied": true, "guessName": "Improved Shadow Word: Pain", "iconHint": "Skull / SW:P glyph", "rankBadge": "0/2", "notes": "" },
+        { "row": 1, "col": 3, "occupied": true, "guessName": "Shadow Reach", "iconHint": "Glowing dark eye / chill-touch reach", "rankBadge": "0/2", "notes": "Forever maxRank 2 (Classic 3)" },
+        { "row": 2, "col": 0, "occupied": true, "guessName": "Improved Mind Blast", "iconHint": "Dark blast / unholy frenzy face", "rankBadge": "0/5", "notes": "" },
+        { "row": 2, "col": 1, "occupied": true, "guessName": "Improved Psychic Scream", "iconHint": "Screaming face", "rankBadge": "0/2", "notes": "" },
+        { "row": 2, "col": 2, "occupied": true, "guessName": "Mind Flay", "iconHint": "Shadowy tentacles / siphon swirl", "rankBadge": "0/1", "notes": "Horizontal arrow to Improved Mind Flay" },
+        { "row": 2, "col": 3, "occupied": true, "guessName": "Improved Mind Flay", "iconHint": "Shadow tentacle variant / flay burst", "rankBadge": "0/2", "notes": "Requires Mind Flay; Forever-only" },
+        { "row": 3, "col": 0, "occupied": true, "guessName": "Improved Fade", "iconHint": "Bat-like shadow wing / fade silhouette", "rankBadge": "0/2", "notes": "" },
+        { "row": 3, "col": 1, "occupied": true, "guessName": "Vampiric Embrace", "iconHint": "Shadow skull / unsummon embrace", "rankBadge": "0/1", "notes": "On Blackout vertical chain; arrow down to Shadowform" },
+        { "row": 3, "col": 2, "occupied": true, "guessName": "Shadow Weaving", "iconHint": "Dark figure / black plague weave", "rankBadge": "0/3", "notes": "Forever maxRank 3 (Classic 5)" },
+        { "row": 3, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "Classic Shadow Weaving was col3; Forever empty" },
+        { "row": 4, "col": 0, "occupied": true, "guessName": "Silence", "iconHint": "Shadowy cross / silence hood", "rankBadge": "0/1", "notes": "Above Early Demise in same column" },
+        { "row": 4, "col": 1, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "VE→Shadowform arrow passes through" },
+        { "row": 4, "col": 2, "occupied": true, "guessName": "Devouring Contagion", "iconHint": "Dark glowing aura / plague spread", "rankBadge": "0/2", "notes": "Forever-only" },
+        { "row": 4, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 5, "col": 0, "occupied": true, "guessName": "Early Demise", "iconHint": "Shadow-priest stance / SW:D crit face", "rankBadge": "0/2", "notes": "Forever-only; under Silence" },
+        { "row": 5, "col": 1, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "VE→Shadowform arrow passes through" },
+        { "row": 5, "col": 2, "occupied": true, "guessName": "Darkness", "iconHint": "Twilight hand / shadow damage glyph", "rankBadge": "0/5", "notes": "" },
+        { "row": 5, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 6, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 6, "col": 1, "occupied": true, "guessName": "Shadowform", "iconHint": "Dark hooded / winged shadowform figure", "rankBadge": "0/1", "notes": "Requires Vampiric Embrace" },
+        { "row": 6, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" },
+        { "row": 6, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "rankBadge": null, "notes": "" }
+      ]
+    }
+  ],
+  "talents": [
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Power in Light",
+      "classicId": null,
+      "tree": "Discipline",
+      "row": 0,
+      "col": 0,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your Smite and Penance spells deal 2% increased damage to targets afflicted with your Holy Fire."
+        }
+      ],
+      "iconHint": "Bright white/blue holy burst",
+      "status": "new",
+      "diffNotes": "Forever-only. Rank badge 0/5 in Disc.forever.jpg."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Wand Specialization",
+      "classicId": 345,
+      "tree": "Discipline",
+      "row": 0,
+      "col": 1,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your damage with Wands by 13%."
+        }
+      ],
+      "iconHint": "Hand holding wand / crossed wands",
+      "status": "updated",
+      "diffNotes": "Classic maxRank 5 at +5% per rank; Forever maxRank 2 showing +13% at rank 1."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Twin Disciplines",
+      "classicId": null,
+      "tree": "Discipline",
+      "row": 0,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage and healing of your instant cast spells by 1%."
+        }
+      ],
+      "iconHint": "Crossed swords / dual discipline sigil",
+      "status": "new",
+      "diffNotes": "Forever-only."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Silent Resolve",
+      "classicId": 352,
+      "tree": "Discipline",
+      "row": 1,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the threat generated by your Holy spells by 10% and reduces the duration of Stun, Fear, and Silence effects inflicted on you by 5%."
+        }
+      ],
+      "iconHint": "Shadowy face / silence silhouette",
+      "status": "updated",
+      "diffNotes": "Classic was all spells threat −4%/rank max 5, no CC duration clause. Forever: Holy-only threat −10% + CC duration −5%, maxRank 3."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Holy Precision",
+      "classicId": null,
+      "tree": "Discipline",
+      "row": 1,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your chance to hit with Holy spells by 6%."
+        }
+      ],
+      "iconHint": "Circle of light / white flare",
+      "status": "new",
+      "diffNotes": "Forever-only. Rank 0/3 tooltip shows 6% (rank-1 effect)."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Improved Power Word: Shield",
+      "classicId": 343,
+      "tree": "Discipline",
+      "row": 1,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage absorbed by your Power Word: Shield by 7%."
+        }
+      ],
+      "iconHint": "Rectangular PW:S shield",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was +5% absorb. Forever +7%. Arrow down to Soul Warding."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Martyrdom",
+      "classicId": 321,
+      "tree": "Discipline",
+      "row": 1,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives you a 50% chance to gain Focused Casting for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage and increases your resistance to Interrupt effects by 20%."
+        }
+      ],
+      "iconHint": "Kneeling / tranquility-style figure",
+      "status": "updated",
+      "diffNotes": "Adds Interrupt resistance +20% to Focused Casting vs Classic foundation text."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Mental Agility",
+      "classicId": 341,
+      "tree": "Discipline",
+      "row": 2,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the mana cost of your Smite, Holy Fire, and instant cast spells by 3%."
+        }
+      ],
+      "iconHint": "Praying hands / agility silhouette",
+      "status": "updated",
+      "diffNotes": "Classic was instant-cast only −2%/rank max 5. Forever includes Smite/Holy Fire, −3%, maxRank 3."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Inner Focus",
+      "classicId": 348,
+      "tree": "Discipline",
+      "row": 2,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When activated, reduces the Mana cost of your next spell by 100% and increases its critical effect chance by 25% if it is capable of a critical effect.",
+          "castTime": "Instant",
+          "cooldown": "3 min"
+        }
+      ],
+      "iconHint": "Star-like light burst",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Inner Focus effect text."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Meditation",
+      "classicId": 347,
+      "tree": "Discipline",
+      "row": 2,
+      "col": 3,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Allows 17% of your Mana regeneration to continue while casting."
+        }
+      ],
+      "iconHint": "Kneeling meditating figure",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was 5% (then 10/15). Forever shows 17% at rank 1."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Improved Inner Fire",
+      "classicId": 346,
+      "tree": "Discipline",
+      "row": 3,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the Armor bonus of your Inner Fire spell by 15% and increases its total charges by 4."
+        }
+      ],
+      "iconHint": "Open book/tome or Inner Fire glyph",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was +10% armor only. Forever +15% armor and +4 charges."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Mental Strength",
+      "classicId": 1201,
+      "tree": "Discipline",
+      "row": 3,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your total Intellect by 3%."
+        }
+      ],
+      "iconHint": "Glowing cross / enchanted armor",
+      "status": "updated",
+      "diffNotes": "Classic increased maximum Mana by 2%/rank. Forever increases total Intellect by 3%/rank."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Soul Warding",
+      "classicId": null,
+      "tree": "Discipline",
+      "row": 3,
+      "col": 2,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown on your Power Word: Shield spell by 4 sec and reduces its mana cost by 15%."
+        }
+      ],
+      "iconHint": "Staff / fortified shield ward",
+      "status": "new",
+      "diffNotes": "Forever-only. Requires Improved Power Word: Shield; arrow continues to Renewed Hope. Replaces Classic Divine Spirit slot role."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Improved Mana Burn",
+      "classicId": 350,
+      "tree": "Discipline",
+      "row": 3,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the casting time of your Mana Burn spell by 0.5 sec."
+        }
+      ],
+      "iconHint": "Mana burn swirl",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was −0.25 sec. Forever −0.5 sec."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Penance",
+      "classicId": null,
+      "tree": "Discipline",
+      "row": 4,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Launches a volley of holy light at the target, causing 98 Holy damage to an enemy, or 258 healing to an ally, instantly and every 1 sec for 2 sec.",
+          "mana": 85,
+          "castTime": "Channeled",
+          "cooldown": "12 sec",
+          "range": "Enemy 36 yd / Friendly 40 yd"
+        }
+      ],
+      "iconHint": "Angelic wings / holy volley",
+      "status": "new",
+      "diffNotes": "Forever-only. Long arrow down to Power Infusion."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Renewed Hope",
+      "classicId": null,
+      "tree": "Discipline",
+      "row": 4,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 2% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 1 sec."
+        }
+      ],
+      "iconHint": "Radiating sun / hope flare",
+      "status": "new",
+      "diffNotes": "Forever-only. Rank badge 0/5. Requires Soul Warding (arrow)."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Divine Aegis",
+      "classicId": null,
+      "tree": "Discipline",
+      "row": 5,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your critical heals create a protective shield on the target, absorbing 5% of the amount healed. Lasts 12 sec."
+        }
+      ],
+      "iconHint": "Figure with large protective aura",
+      "status": "new",
+      "diffNotes": "Forever-only. Directly under Renewed Hope in Disc.forever.jpg."
+    },
+    {
+      "screenshots": ["priest/Disc.forever.jpg", "priest/Priest_talents.png"],
+      "name": "Power Infusion",
+      "classicId": 322,
+      "tree": "Discipline",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Infuses the target with power, increasing their spell damage and healing done by 20% for 15 sec.",
+          "mana": 173,
+          "castTime": "Instant",
+          "cooldown": "3 min",
+          "range": "30 yd"
+        }
+      ],
+      "iconHint": "Cloaked/hooded figure or infusion hands",
+      "status": "updated",
+      "diffNotes": "Effect % matches Classic; Forever requires Penance (not Mental Strength), shows 173 mana / 3 min CD explicitly."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Twilight Focus",
+      "classicId": null,
+      "tree": "Holy",
+      "row": 0,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 3,
+          "description": "Gives you a 70% chance to avoid interruption caused by damage while casting any spell."
+        }
+      ],
+      "iconHint": "Yellow hand pointing up / wing-light",
+      "status": "new",
+      "diffNotes": "Forever-only name. Functionally similar to Classic Healing Focus (410) but applies to any spell and is maxRank 3 (70% at 3/3). Spent 3/3 in overview."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Improved Renew",
+      "classicId": 406,
+      "tree": "Holy",
+      "row": 0,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the amount healed by your Renew spell by 5%."
+        }
+      ],
+      "iconHint": "Kneeling renew figure / Renew swirl",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Improved Renew rank 1 (+5%)."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Holy Specialization",
+      "classicId": 401,
+      "tree": "Holy",
+      "row": 0,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 3,
+          "description": "Increases the critical effect chance of your Holy spells by 3%."
+        },
+        {
+          "rank": 4,
+          "description": "Increases the critical effect chance of your Holy spells by 4%."
+        }
+      ],
+      "iconHint": "Hand reaching for light / holy seal figure",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic +1%/rank Holy crit. Spent 3/5 in screenshots."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Spell Warding",
+      "classicId": 411,
+      "tree": "Holy",
+      "row": 1,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces all spell damage taken by 2%."
+        }
+      ],
+      "iconHint": "Shield with white cross",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Spell Warding rank 1."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Divine Fury",
+      "classicId": 1181,
+      "tree": "Holy",
+      "row": 1,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 5,
+          "description": "Reduces the casting time of your Smite, Holy Fire, Heal, and Greater Heal spells by 0.5 sec."
+        }
+      ],
+      "iconHint": "Face/mask with glowing eye",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Divine Fury at max (0.5 sec). Arrow to Searing Light."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Holy Nova",
+      "classicId": 442,
+      "tree": "Holy",
+      "row": 2,
+      "col": 0,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Causes an explosion of holy light around the caster, causing 32 to 37 Holy damage to all enemy targets within 11 yards and healing all party members within 11 yards for 75 to 85. These effects cause no threat.",
+          "mana": 185,
+          "castTime": "Instant"
+        }
+      ],
+      "iconHint": "Golden sunburst",
+      "status": "updated",
+      "diffNotes": "Forever shows concrete values (185 mana, 32–37 dmg, 75–85 heal, 11 yd) vs Classic template placeholders."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Blessed Recovery",
+      "classicId": 1636,
+      "tree": "Holy",
+      "row": 2,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "After being struck by a melee or ranged critical hit, or suffering more than 30% of your maximum Health from a single attack, heal 8% of the damage taken over 6 sec. Refreshing this effect carries over any remaining healing."
+        }
+      ],
+      "iconHint": "Figure with outstretched arms / recovery cross",
+      "status": "updated",
+      "diffNotes": "Adds >30% max HP single-hit trigger and refresh carryover vs Classic crit-only text."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Inspiration",
+      "classicId": 361,
+      "tree": "Holy",
+      "row": 2,
+      "col": 3,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 3,
+          "description": "Your non-periodic critical heals increase your target's Armor by 25% for 15 sec."
+        }
+      ],
+      "iconHint": "Hand with sparkles / white light orb",
+      "status": "updated",
+      "diffNotes": "Wording changed to non-periodic critical heals; 25% at 3/3 matches Classic max armor buff magnitude."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Holy Reach",
+      "classicId": 1635,
+      "tree": "Holy",
+      "row": 3,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the range of Smite and Holy Fire spells and the radius of Prayer of Healing and Holy Nova spells by 10%."
+        },
+        {
+          "rank": 2,
+          "description": "Increases the range of Smite and Holy Fire spells and the radius of Prayer of Healing and Holy Nova spells by 20%."
+        }
+      ],
+      "iconHint": "Figure holding staff / purify hand",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Holy Reach 10%/20%."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Improved Healing",
+      "classicId": 408,
+      "tree": "Holy",
+      "row": 3,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 3,
+          "description": "Reduces the Mana cost of Lesser Heal, Heal, Greater Heal, Penance, and Prayer of Mending spells by 15%."
+        }
+      ],
+      "iconHint": "Scroll/parchment or heal hand with green plus",
+      "status": "updated",
+      "diffNotes": "Adds Penance and Prayer of Mending to the mana-cost list vs Classic Lesser/Heal/Greater only."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Searing Light",
+      "classicId": 403,
+      "tree": "Holy",
+      "row": 3,
+      "col": 2,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases Holy damage done by 2%, and gives a 5% chance each time Holy Fire deals periodic damage for the next Holy Nova to cost no Mana."
+        }
+      ],
+      "iconHint": "Angelic figure / searing light burst",
+      "status": "updated",
+      "diffNotes": "Classic increased Smite/Holy Fire damage by 5%/rank. Forever is general Holy damage + Holy Nova free-cast proc. Requires Divine Fury."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Binding Heal",
+      "classicId": null,
+      "tree": "Holy",
+      "row": 3,
+      "col": 3,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Heals a friendly target and the caster for 382 to 443. Low threat.",
+          "mana": 155,
+          "castTime": "1.5 sec",
+          "range": "40 yd"
+        }
+      ],
+      "iconHint": "Dual glowing hands / light burst",
+      "status": "new",
+      "diffNotes": "Forever-only talent (not in Classic 1.12 tree)."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Litany of Light",
+      "classicId": null,
+      "tree": "Holy",
+      "row": 4,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 2,
+          "description": "When you cast a healing spell, gain Mana equal to 10% of the base cost of the spell if your previous heal was a different spell."
+        }
+      ],
+      "iconHint": "Bag/satchel or litany book",
+      "status": "new",
+      "diffNotes": "Forever-only. Spent 2/2 in screenshots. Occupies Classic Improved Prayer of Healing column area."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Spirit of Redemption",
+      "classicId": 1561,
+      "tree": "Holy",
+      "row": 4,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Upon death, the priest becomes the Spirit of Redemption for 15 sec. Cannot move, attack, or be targeted. Can cast any healing spell free of cost. When the effect ends, the priest dies."
+        }
+      ],
+      "iconHint": "Blue/white spirit burst",
+      "status": "updated",
+      "diffNotes": "Duration 15 sec vs Classic 10 sec. Arrow down to Prayer of Mending (not Lightwell)."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Spiritual Guidance",
+      "classicId": 402,
+      "tree": "Holy",
+      "row": 4,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 4,
+          "description": "Increases spell healing by up to 20% of your total Spirit and spell damage by up to 6% of your total Spirit."
+        },
+        {
+          "rank": 5,
+          "description": "Increases spell healing by up to 25% of your total Spirit and spell damage by up to 8% of your total Spirit."
+        }
+      ],
+      "iconHint": "Head with halo / spiritual guidance face",
+      "status": "updated",
+      "diffNotes": "Classic was unified spell damage and healing up to 5% of Spirit per rank. Forever splits heal/damage coefficients."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Spiritual Healing",
+      "classicId": 404,
+      "tree": "Holy",
+      "row": 5,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 2,
+          "description": "Increases the amount healed by your spells by 7%."
+        },
+        {
+          "rank": 3,
+          "description": "Increases the amount healed by your spells by 10%."
+        }
+      ],
+      "iconHint": "Purple swirling energy / moonglow heal",
+      "status": "updated",
+      "diffNotes": "Forever maxRank 3 (Classic 5 at +2%/rank). Spent 2/3 showing 7%."
+    },
+    {
+      "screenshots": ["priest/Holy-forever.png", "priest/Priest_talents.png"],
+      "name": "Prayer of Mending",
+      "classicId": null,
+      "tree": "Holy",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Places a spell on the target that heals them for 263 the next time they take damage or receive non-periodic healing. When this heal occurs, Prayer of Mending jumps to a nearby party or raid member within 20 yards. Jumps up to 5 times and lasts 30 sec after each jump. Only one Prayer of Mending can be active per caster.",
+          "mana": 178,
+          "castTime": "Instant",
+          "cooldown": "10 sec",
+          "range": "40 yd"
+        }
+      ],
+      "iconHint": "Blue glowing star / bottom-center angelic silhouette",
+      "status": "new",
+      "diffNotes": "Forever-only capstone. Requires Spirit of Redemption. Replaces Classic Lightwell dependency chain."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Shadow Focus",
+      "classicId": 463,
+      "tree": "Shadow Magic",
+      "row": 0,
+      "col": 0,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your chance to hit with your Shadow spells by 1%."
+        }
+      ],
+      "iconHint": "Dark shadow face",
+      "status": "updated",
+      "diffNotes": "Classic reduced target resist by 2%/rank. Forever is +1% hit/rank. Moved to row0 col0."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Blackout",
+      "classicId": 464,
+      "tree": "Shadow Magic",
+      "row": 0,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your Shadow damage spells a 2% chance to stun the target for 3 sec."
+        }
+      ],
+      "iconHint": "Shadow claws/explosion",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Blackout. Vertical dependency toward Vampiric Embrace."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Spirit Tap",
+      "classicId": 465,
+      "tree": "Shadow Magic",
+      "row": 0,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives you a 20% chance to gain a 100% bonus to your Spirit for 15 sec after killing a non-trivial target. For the duration, your Mana will regenerate at a 50% of normal rate while casting."
+        }
+      ],
+      "iconHint": "Clenched shadow fist",
+      "status": "updated",
+      "diffNotes": "Wording updated (non-trivial target; 50% of normal rate). Moved to row0 col2 vs Classic col1."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Shadow Affinity",
+      "classicId": 466,
+      "tree": "Shadow Magic",
+      "row": 1,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the threat generated by your Shadow spells by 10%."
+        }
+      ],
+      "iconHint": "Swirling shadow / shadow ward face",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was −8% threat. Forever −10%."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Improved Shadow Word: Pain",
+      "classicId": 482,
+      "tree": "Shadow Magic",
+      "row": 1,
+      "col": 2,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the duration of your Shadow Word: Pain spell by 3 sec."
+        }
+      ],
+      "iconHint": "Skull / SW:P glyph",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic +3 sec duration. Moved to col2 (Classic col1)."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Shadow Reach",
+      "classicId": 881,
+      "tree": "Shadow Magic",
+      "row": 1,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the range of your offensive Shadow spells by 10%."
+        }
+      ],
+      "iconHint": "Glowing dark eye",
+      "status": "updated",
+      "diffNotes": "Classic was +6%/rank max 3 on Shadow damage spells. Forever +10% offensive Shadow, maxRank 2, tier-2 col3."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Improved Mind Blast",
+      "classicId": 481,
+      "tree": "Shadow Magic",
+      "row": 2,
+      "col": 0,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown of your Mind Blast spell by 0.5 sec."
+        }
+      ],
+      "iconHint": "Dark blast / unholy frenzy face",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic −0.5 sec/rank. Moved left vs Classic col1."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Improved Psychic Scream",
+      "classicId": 542,
+      "tree": "Shadow Magic",
+      "row": 2,
+      "col": 1,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown of your Psychic Scream spell by 2 sec."
+        }
+      ],
+      "iconHint": "Screaming face",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic. Moved to col1 (Classic col0)."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Mind Flay",
+      "classicId": 501,
+      "tree": "Shadow Magic",
+      "row": 2,
+      "col": 2,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Assault the target's mind with Shadow energy, causing 108 Shadow damage over 3 sec and slowing their movement speed by 50%.",
+          "mana": 45,
+          "castTime": "Channeled",
+          "range": "20 yd"
+        }
+      ],
+      "iconHint": "Shadowy tentacles / siphon swirl",
+      "status": "updated",
+      "diffNotes": "Damage 108 over 3 sec vs Classic 75. Horizontal arrow to Improved Mind Flay."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Improved Mind Flay",
+      "classicId": null,
+      "tree": "Shadow Magic",
+      "row": 2,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your Mind Flay now deals 10% more damage, gains 5 yards increased range, but slows the target's movement speed by 35%."
+        }
+      ],
+      "iconHint": "Shadow tentacle variant / flay burst",
+      "status": "new",
+      "diffNotes": "Forever-only. Requires Mind Flay (horizontal arrow)."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Improved Fade",
+      "classicId": 483,
+      "tree": "Shadow Magic",
+      "row": 3,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Decreases the cooldown of your Fade ability by 3 sec."
+        }
+      ],
+      "iconHint": "Bat-like shadow wing / fade silhouette",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic −3 sec/rank. Moved to col0 (Classic col1)."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Vampiric Embrace",
+      "classicId": 484,
+      "tree": "Shadow Magic",
+      "row": 3,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Afflicts your target with Shadow energy that causes all party members to be healed for 20% of any Shadow spell damage you deal for 30 sec. Vampiric Embrace also grants a chance for your Spirit Tap talent to trigger when enemies afflicted by it die.",
+          "mana": 40,
+          "castTime": "Instant",
+          "cooldown": "1 min",
+          "range": "30 yd"
+        }
+      ],
+      "iconHint": "Shadow skull / unsummon embrace",
+      "status": "updated",
+      "diffNotes": "Adds Spirit Tap trigger on VE target death. On Blackout chain; arrow down to Shadowform. Classic Improved Vampiric Embrace neighbor removed."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Shadow Weaving",
+      "classicId": 461,
+      "tree": "Shadow Magic",
+      "row": 3,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your Shadow damage spells have a 33% chance to increase the Shadow damage you deal by 2% for 15 sec, stacking up to 5 times."
+        }
+      ],
+      "iconHint": "Dark figure / black plague weave",
+      "status": "updated",
+      "diffNotes": "Classic was target Shadow vulnerability stacks maxRank 5. Forever is self damage buff stacks, maxRank 3."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Silence",
+      "classicId": 541,
+      "tree": "Shadow Magic",
+      "row": 4,
+      "col": 0,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Silences the target, preventing them from casting spells for 5 sec and interrupting their spellcasts for 3 sec.",
+          "mana": 225,
+          "castTime": "Instant",
+          "cooldown": "45 sec",
+          "range": "20 yd"
+        }
+      ],
+      "iconHint": "Shadowy cross / silence hood",
+      "status": "updated",
+      "diffNotes": "Adds interrupt-spellcasts-for-3-sec clause vs Classic silence-only. Above Early Demise."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Devouring Contagion",
+      "classicId": null,
+      "tree": "Shadow Magic",
+      "row": 4,
+      "col": 2,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the mana cost of your Devouring Plague by 25%. Targets that die while Devouring Plague is active spreads it, jumping to a nearby enemy within 5 yards for the remaining duration."
+        }
+      ],
+      "iconHint": "Dark glowing aura / plague spread",
+      "status": "new",
+      "diffNotes": "Forever-only. Occupies area near Classic Improved Vampiric Embrace."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Early Demise",
+      "classicId": null,
+      "tree": "Shadow Magic",
+      "row": 5,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases Shadow Word: Death's critical strike chance on targets at or below 20% health by 15%."
+        }
+      ],
+      "iconHint": "Shadow-priest stance / SW:D crit face",
+      "status": "new",
+      "diffNotes": "Forever-only. Directly under Silence."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Darkness",
+      "classicId": 462,
+      "tree": "Shadow Magic",
+      "row": 5,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Shadow damage done by 2%."
+        }
+      ],
+      "iconHint": "Twilight hand / shadow damage glyph",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic +2% Shadow damage per rank (minor wording: 'damage done' vs 'spell damage')."
+    },
+    {
+      "screenshots": ["priest/Shadow-forever.png", "priest/Priest_talents.png"],
+      "name": "Shadowform",
+      "classicId": 521,
+      "tree": "Shadow Magic",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Assume Shadowform, increasing your Shadow damage by 10%, reducing the Mana cost of all Shadow spells by 50%, increasing the critical strike damage bonus of your Shadow spells by 100%, and reducing Physical damage taken by you by 15%. However, you may not cast healing spells while in this form.",
+          "mana": 345,
+          "castTime": "Instant",
+          "cooldown": "1.5 sec"
+        }
+      ],
+      "iconHint": "Dark hooded / winged shadowform figure",
+      "status": "updated",
+      "diffNotes": "Classic was +15% Shadow damage / −15% Physical taken only. Forever adds −50% Shadow mana cost and +100% Shadow crit damage bonus; Shadow damage bonus now 10%."
+    }
+  ],
+  "summary": {
+    "disciplineTalents": 18,
+    "holyTalents": 17,
+    "shadowTalents": 18,
+    "totalTalents": 53,
+    "treesFullyMapped": ["Discipline", "Holy", "Shadow Magic"],
+    "statusCounts": {
+      "new": 14,
+      "updated": 27,
+      "unchanged": 12
+    },
+    "layoutNotes": "All three trees fully mapped from Forever tooltip collages + Priest_talents.png overview. Classic row/col ignored for placement."
+  }
+}

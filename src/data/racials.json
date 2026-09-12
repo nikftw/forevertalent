@@ -1,0 +1,269 @@
+{
+  "source": "Forever racial talents reference",
+  "races": [
+    {
+      "slug": "orc",
+      "name": "Orc",
+      "faction": "horde",
+      "icon": "race_orc_male",
+      "description": "Focused, ferocious, and sometimes monstrous, the Horde values strength and honor, but struggles to keep aggression in check.",
+      "abilities": [
+        {
+          "name": "Blood Fury",
+          "icon": "racial_orc_berserkerstrength",
+          "passive": false,
+          "description": "Increases Attack Power and Spell Power by 10% for 15 sec."
+        },
+        {
+          "name": "Shatter Curse",
+          "icon": "spell_shadow_antishadow",
+          "passive": false,
+          "description": "Immunity to Curses and Banes and reduce Magical damage taken for 8 sec."
+        },
+        {
+          "name": "Axe Specialization",
+          "icon": "inv_axe_02",
+          "passive": true,
+          "description": "Axes increase spell and ability critical chance by 1%."
+        },
+        {
+          "name": "Hardiness",
+          "icon": "inv_helmet_23",
+          "passive": true,
+          "description": "Stun durations decreased by 20%."
+        }
+      ]
+    },
+    {
+      "slug": "undead",
+      "name": "Undead",
+      "faction": "horde",
+      "icon": "race_scourge_male",
+      "description": "The plague of undeath was unleashed upon the land, and those who survived are the Forsaken.",
+      "abilities": [
+        {
+          "name": "Will of the Forsaken",
+          "icon": "spell_shadow_raisedead",
+          "passive": false,
+          "description": "Removes Charm, Fear, and Sleep effects."
+        },
+        {
+          "name": "Cannibalize",
+          "icon": "ability_racial_cannibalize",
+          "passive": false,
+          "description": "When activated, regenerates 35% of total health and mana over 10 sec. Only works on Humanoid or Undead corpses within 5 yards. Any movement, action, or damage taken while Cannibalizing will cancel the effect."
+        },
+        {
+          "name": "Underwater Breathing",
+          "icon": "spell_shadow_demonbreath",
+          "passive": true,
+          "description": "Underwater breath lasts 300% longer."
+        },
+        {
+          "name": "Touch of the Grave",
+          "icon": "spell_shadow_lifedrain",
+          "passive": true,
+          "description": "Your attacks and harmful spells have a chance to drain life from the target, healing you."
+        }
+      ]
+    },
+    {
+      "slug": "tauren",
+      "name": "Tauren",
+      "faction": "horde",
+      "icon": "race_tauren_male",
+      "description": "The peaceful Tauren have long roamed the central plains, but now their way of life is under threat.",
+      "abilities": [
+        {
+          "name": "War Stomp",
+          "icon": "ability_warstomp",
+          "passive": false,
+          "description": "Stuns up to 5 enemies within 8 yards for 2 sec."
+        },
+        {
+          "name": "Cultivation",
+          "icon": "inv_misc_herb_07",
+          "passive": true,
+          "description": "Grow bonus herbs that don't require Herbalism to gather."
+        },
+        {
+          "name": "Plainstrunning",
+          "icon": "ability_warstomp",
+          "passive": true,
+          "description": "Gain increased movement speed the longer you remain moving."
+        },
+        {
+          "name": "Endurance",
+          "icon": "spell_nature_unyeildingstamina",
+          "passive": true,
+          "description": "Total Health increased by 5% and Hit Chance increased by 1%."
+        }
+      ]
+    },
+    {
+      "slug": "troll",
+      "name": "Troll",
+      "faction": "horde",
+      "icon": "race_troll_male",
+      "description": "The savage and mysterious Trolls are known for their regeneration and their affinity for the elements.",
+      "abilities": [
+        {
+          "name": "Walk on Air",
+          "icon": "ability_racial_shadowmeld",
+          "passive": false,
+          "description": "Glide downward through the air for 10 sec."
+        },
+        {
+          "name": "Skysight",
+          "icon": "spell_nature_eyeofthestorm",
+          "passive": false,
+          "description": "Receive an Elemental Blessing increasing run speed by 10%."
+        },
+        {
+          "name": "Wind Blessed",
+          "icon": "ability_hunter_swiftstrike",
+          "passive": true,
+          "description": "1% increased melee, ranged, and spellcasting Haste."
+        },
+        {
+          "name": "Elemental Insight",
+          "icon": "spell_fire_elementaldevastation",
+          "passive": true,
+          "description": "Damage to Elementals increased by 5%."
+        }
+      ]
+    },
+    {
+      "slug": "dwarf",
+      "name": "Dwarf",
+      "faction": "alliance",
+      "icon": "race_dwarf_male",
+      "description": "The ancient Dwarves are known for their engineering prowess, their resistance, and their love of treasure.",
+      "abilities": [
+        {
+          "name": "Find Treasure",
+          "icon": "racial_dwarf_findtreasure",
+          "passive": false,
+          "description": "Allows the dwarf to sense nearby treasure, making it appear on the minimap."
+        },
+        {
+          "name": "Stoneform",
+          "icon": "spell_shadow_unholystrength",
+          "passive": false,
+          "description": "Removes all Poison and Disease effects and reduces Physical damage taken for 8 sec."
+        },
+        {
+          "name": "Mace Specialization",
+          "icon": "inv_hammer_05",
+          "passive": true,
+          "description": "Maces increase spell and ability critical chance by 1%."
+        },
+        {
+          "name": "Big Game Hunter",
+          "icon": "ability_hunter_snipershot",
+          "passive": true,
+          "description": "Damage to Beasts increased by 5%."
+        }
+      ]
+    },
+    {
+      "slug": "human",
+      "name": "Human",
+      "faction": "alliance",
+      "icon": "race_human_male",
+      "description": "Humans are versatile and ambitious, bringing their technical, arcane, and spiritual wisdom toward the goal of a peaceful world.",
+      "abilities": [
+        {
+          "name": "Will to Survive",
+          "icon": "spell_shadow_charm",
+          "passive": false,
+          "description": "Removes all Stun effects."
+        },
+        {
+          "name": "Perception",
+          "icon": "spell_nature_sleep",
+          "passive": false,
+          "description": "Dramatically increases stealth detection for 20 sec."
+        },
+        {
+          "name": "Sword Specialization",
+          "icon": "ability_meleedamage",
+          "passive": true,
+          "description": "Swords increase spell and ability critical chance by 2%."
+        },
+        {
+          "name": "The Human Spirit",
+          "icon": "inv_enchant_shardbrilliantsmall",
+          "passive": true,
+          "description": "Spirit increased by 5%."
+        }
+      ]
+    },
+    {
+      "slug": "night-elf",
+      "name": "Night Elf",
+      "faction": "alliance",
+      "icon": "race_nightelf_male",
+      "description": "The mysterious and ageless Night Elves possess an innate connection to nature and a mastery of the shadows.",
+      "abilities": [
+        {
+          "name": "Elune's Light",
+          "icon": "spell_arcane_starfire",
+          "passive": false,
+          "description": "Increases critical chance by 10% for 15 sec."
+        },
+        {
+          "name": "Shadowmeld",
+          "icon": "ability_ambush",
+          "passive": false,
+          "description": "Activate to slip into the shadows, reducing the chance for enemies to detect your presence. Lasts until cancelled or upon moving. Any threat is restored versus enemies still in combat upon cancellation of this effect."
+        },
+        {
+          "name": "Quickness",
+          "icon": "ability_racial_shadowmeld",
+          "passive": true,
+          "description": "1% increased Dodge chance and 2% increased run speed."
+        },
+        {
+          "name": "Wisp Spirit",
+          "icon": "spell_nature_wispsplode",
+          "passive": true,
+          "description": "Transform into a wisp upon death, increasing speed by 75% while dead."
+        }
+      ]
+    },
+    {
+      "slug": "gnome",
+      "name": "Gnome",
+      "faction": "alliance",
+      "icon": "race_gnome_male",
+      "description": "Gnomes are brilliant and eccentric inventors, known for their quick wits and expansive minds.",
+      "abilities": [
+        {
+          "name": "Eureka!",
+          "icon": "inv_misc_enggizmos_30",
+          "passive": false,
+          "description": "Your next 5 spells or heals cost less and deal or heal 10% more."
+        },
+        {
+          "name": "Expansive Mind",
+          "icon": "inv_enchant_essenceeternallarge",
+          "passive": true,
+          "description": "Maximum Mana increased by 5%."
+        },
+        {
+          "name": "Engineering Specialization",
+          "icon": "inv_misc_gear_01",
+          "passive": true,
+          "description": "Engineering skill increased."
+        },
+        {
+          "name": "Escape Artist",
+          "icon": "ability_rogue_trip",
+          "passive": false,
+          "description": "Escape the effects of any immobilization or movement speed reduction effect."
+        }
+      ]
+    }
+  ]
+}

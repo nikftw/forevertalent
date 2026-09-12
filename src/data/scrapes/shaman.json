@@ -1,0 +1,1731 @@
+{
+  "class": "shaman",
+  "overviewFile": "shaman/overview.png",
+  "trees": [
+    {
+      "name": "Elemental",
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Convection",
+          "iconHint": "Purple/white glowing energy orb",
+          "notes": "Green border; rank 0"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Concussion",
+          "iconHint": "Jagged mountain silhouette on orange/yellow",
+          "notes": "Green border; rank 0; tooltip open on overview"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Call of Flame",
+          "iconHint": "Volcanic mountain peaks with fire",
+          "notes": "Green border; arrow down to Lava Burst; visible right of Concussion in screenshots"
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Elemental Warding",
+          "iconHint": "Circular elemental shield/emblem",
+          "notes": "Greyed; leftmost of four row1 talents"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Reverberation",
+          "iconHint": "White/purple starburst / radiating X",
+          "notes": "Greyed"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Elemental Focus",
+          "iconHint": "Standing humanoid silhouette / glowing focus orb",
+          "notes": "Greyed; arrow down col2 chain"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Lava Burst",
+          "iconHint": "Molten hand / lava silhouette",
+          "notes": "Greyed; receives arrow from Call of Flame"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Call of Thunder",
+          "iconHint": "Hand grasping lightning / swirl",
+          "notes": "Greyed; start of thunder→overload→alacrity chain in col1"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Elemental Devastation",
+          "iconHint": "Shield or stylized face / humanoid",
+          "notes": "Greyed; in col2 dependency chain"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Fire Nova",
+          "iconHint": "Curved claw / fiery explosion",
+          "notes": "Greyed"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Lightning Overload",
+          "iconHint": "Eye/vortex or lightning strike on target",
+          "notes": "Greyed; arrow from Call of Thunder; arrow down to Elemental Alacrity"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Elemental Fury",
+          "iconHint": "Beast/wolf head or mountain on yellow (Fury icon)",
+          "notes": "Greyed; arrow down col2"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Elemental Reach",
+          "iconHint": "Humanoid figure reaching out",
+          "notes": "Greyed"
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Elemental Alacrity",
+          "iconHint": "Snake-hook / stylized face with energy",
+          "notes": "Greyed; arrow down skipping row5 to row6 col1"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Eye of the Storm",
+          "iconHint": "Vertical lightning bolt",
+          "notes": "Greyed; arrow down to row5 col2"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Earthbound?",
+          "iconHint": "Branching lightning bolts",
+          "notes": "Greyed; intermediate slot on overview; Earthbound assigned to row6 col1"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Earthbound",
+          "iconHint": "Winged humanoid / Earthbind totem silhouette",
+          "notes": "Greyed; receives long arrow from row4 col1"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Enhancement",
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Guardian Totems",
+          "iconHint": "Fiery/orange totem or beast on green",
+          "notes": "Green border; rank 0"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Shamanistic Focus",
+          "iconHint": "White scroll / metallic mask",
+          "notes": "Green border; rank 0"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Anticipation",
+          "iconHint": "Metal helmet / bearded face",
+          "notes": "Green border; rank 0; right edge before Restoration"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Ghost Wolf",
+          "iconHint": "Ghost wolf head profile",
+          "notes": "Greyed"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Mental Dexterity",
+          "iconHint": "Mace/energy or head/brain Intellect icon",
+          "notes": "Greyed; arrow from row0 col1 chain"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Improved Lightning Shield",
+          "iconHint": "Blue swirling energy / lightning orbs",
+          "notes": "Greyed; arrow down toward Flurry chain"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Toughness",
+          "iconHint": "Shield being struck / armored defense",
+          "notes": "Greyed"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Flurry",
+          "iconHint": "Three claw marks",
+          "notes": "Greyed; arrow from row1 col2"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Elemental Weapons?",
+          "iconHint": "Clenched fist / flaming fist",
+          "notes": "Greyed; Elemental Weapons primary placement is row3 col1"
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Spirit Weapons",
+          "iconHint": "Crossed spectral axes / Parry swords",
+          "notes": "Greyed"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Elemental Weapons",
+          "iconHint": "Searing totem / flaming weapon hand",
+          "notes": "Greyed; on col1 arrow chain toward Stormstrike/Maelstrom"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Stormstrike",
+          "iconHint": "Shield with elemental symbols or crossed weapons with lightning",
+          "notes": "Greyed"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Stormstrike",
+          "iconHint": "Lightning strike on axe / armored gauntlet",
+          "notes": "Greyed"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Maelstrom Weapon",
+          "iconHint": "Ring of lightning / swirling vortex",
+          "notes": "Greyed; arrow toward row6 col1"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Mental Quickness",
+          "iconHint": "Brain with lightning / metallic gauntlet",
+          "notes": "Greyed; arrow from Flurry/col2 chain"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Rage of the Farseer",
+          "iconHint": "Glowing wolf/mask face with glowing eyes",
+          "notes": "Greyed; capstone; arrow from col1 chain"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "name": "Restoration",
+      "slots": [
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Healing Wave",
+          "iconHint": "Green glowing hand casting",
+          "notes": "Green border; rank 0"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Tidal Focus",
+          "iconHint": "White/blue cloudy sky / water landscape",
+          "notes": "Green border; rank 0; screenshots 58 vs 61 conflict — prefer Tidal Focus (61)"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Mindfulness",
+          "iconHint": "Dark face/mask with glowing center",
+          "notes": "Greyed"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Natural Grace",
+          "iconHint": "Green leaf",
+          "notes": "Greyed; Healing Grace rename"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Healing Focus",
+          "iconHint": "White wing/feather or glowing staff",
+          "notes": "Greyed"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Ancestral Healing",
+          "iconHint": "Hand surrounded by sparkles / spectral figure",
+          "notes": "Greyed"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Totemic Focus",
+          "iconHint": "Totem base",
+          "notes": "Greyed"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Reincarnation",
+          "iconHint": "Two hands clasped / ankh-like",
+          "notes": "Greyed"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Tidal Mastery",
+          "iconHint": "Single blue water drop",
+          "notes": "Greyed; screenshot 58 also claimed row0 cloudy slot"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Water Shield",
+          "iconHint": "Blue shield with wave patterns",
+          "notes": "Greyed"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Healing Way",
+          "iconHint": "Spreading green leaves / nature",
+          "notes": "Greyed"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Mana Tide Totem",
+          "iconHint": "Hand holding glowing blue water / totem energy",
+          "notes": "Greyed"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Restorative Totems",
+          "iconHint": "Small vial/bottle or multi-totem",
+          "notes": "Greyed; long arrow down to row6 col1"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Nature's Swiftness",
+          "iconHint": "Totem / leaf symbol",
+          "notes": "Greyed"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Purification",
+          "iconHint": "Circular glowing blue eye / radiating heal",
+          "notes": "Greyed"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Riptide",
+          "iconHint": "Gauntlet / totem with glowing base",
+          "notes": "Greyed; bottom of arrow chain from Restorative Totems"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
+      ]
+    }
+  ],
+  "talents": [
+    {
+      "screenshots": [
+        "shaman/1.png"
+      ],
+      "name": "Concussion",
+      "classicId": 563,
+      "tree": "Elemental",
+      "row": 0,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage done by your Lightning Bolt, Chain Lightning, and Earth Shock spells by 1%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Jagged mountain silhouette on orange/yellow; green border",
+      "status": "updated",
+      "diffNotes": "Classic hit all Shocks (+1%/rank); Forever only Lightning Bolt, Chain Lightning, and Earth Shock."
+    },
+    {
+      "screenshots": [
+        "shaman/2.png"
+      ],
+      "name": "Convection",
+      "classicId": 564,
+      "tree": "Elemental",
+      "row": 0,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 2%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Purple/white glowing orb; green border",
+      "status": "updated",
+      "diffNotes": "Forever adds Lava Burst to mana-cost reduction list (Classic: Shock, LB, CL only)."
+    },
+    {
+      "screenshots": [
+        "shaman/3.png",
+        "shaman/17.png",
+        "shaman/34.png"
+      ],
+      "name": "Call of Flame",
+      "classicId": 561,
+      "tree": "Elemental",
+      "row": 0,
+      "col": 3,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 5%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Volcanic mountain peaks with erupting fire; green border; arrow to Lava Burst",
+      "status": "updated",
+      "diffNotes": "Classic was Fire Totems only (+5%/rank); Forever also buffs Flame Shock, Fire Nova, and Lava Burst."
+    },
+    {
+      "screenshots": [
+        "shaman/4.png"
+      ],
+      "name": "Lava Burst",
+      "classicId": null,
+      "tree": "Elemental",
+      "row": 1,
+      "col": 3,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "You hurl molten lava at the target, dealing 158 to 187 Fire damage. If your Flame Shock is on the target, Lava Burst deals 20% increased damage.",
+          "mana": 165,
+          "range": "30 yd",
+          "castTime": "2.5 sec cast",
+          "cooldown": "10 sec"
+        }
+      ],
+      "iconHint": "Molten lava / dark orange-red icon; receives arrow from Call of Flame",
+      "status": "new",
+      "diffNotes": "New active talent; not in Classic 1.12 shaman tree."
+    },
+    {
+      "screenshots": [
+        "shaman/8.png",
+        "shaman/26.png",
+        "shaman/41.png"
+      ],
+      "name": "Lightning Overload",
+      "classicId": null,
+      "tree": "Elemental",
+      "row": 3,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your Lightning Bolt and Chain Lightning spells a 3% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Lightning bolt striking circular target; mid col1 chain",
+      "status": "new",
+      "diffNotes": "New talent; not in Classic 1.12."
+    },
+    {
+      "screenshots": [
+        "shaman/15.png",
+        "shaman/33.png"
+      ],
+      "name": "Earthbound",
+      "classicId": null,
+      "tree": "Elemental",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your Earthbind Totem immobilizes nearby targets for 5 sec when cast.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Earthbind totem / dust swirl; near Elemental/Enhancement divider",
+      "status": "new",
+      "diffNotes": "New talent; not in Classic 1.12. Slot: bottom of col1 arrow chain."
+    },
+    {
+      "screenshots": [
+        "shaman/16.png"
+      ],
+      "name": "Elemental Devastation",
+      "classicId": 1645,
+      "tree": "Elemental",
+      "row": 2,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your offensive spell critical strikes will increase your chance to get a critical strike with melee attacks by 3% for 10 sec.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Humanoid silhouette near Enhancement border",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Elemental Devastation rank1 (+3% melee crit for 10 sec) and maxRank 3."
+    },
+    {
+      "screenshots": [
+        "shaman/18.png",
+        "shaman/35.png"
+      ],
+      "name": "Reverberation",
+      "classicId": 575,
+      "tree": "Elemental",
+      "row": 1,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown of your Shock spells by 0.2 sec.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Purple/white orb with radiating X starburst",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Reverberation rank1 (-0.2 sec) and maxRank 5."
+    },
+    {
+      "screenshots": [
+        "shaman/19.png",
+        "shaman/20.png",
+        "shaman/36.png"
+      ],
+      "name": "Elemental Warding",
+      "classicId": 1640,
+      "tree": "Elemental",
+      "row": 1,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces damage taken from Fire, Frost, and Nature effects by 3%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Circular elemental shield emblem; row1 col0",
+      "status": "updated",
+      "diffNotes": "Classic rank1 was 4% (then 7%/10%); Forever is 3% per rank."
+    },
+    {
+      "screenshots": [
+        "shaman/21.png",
+        "shaman/37.png"
+      ],
+      "name": "Elemental Focus",
+      "classicId": 574,
+      "tree": "Elemental",
+      "row": 1,
+      "col": 2,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives you a 10% chance to enter a Clearcasting state after casting any Fire, Frost, or Nature damage spell.  The Clearcasting state reduces the mana cost of your next damage spell by 100%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Bright white/blue sphere or Clearcasting-style orb",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Elemental Focus Clearcasting text and maxRank 1."
+    },
+    {
+      "screenshots": [
+        "shaman/22.png",
+        "shaman/38.png"
+      ],
+      "name": "Elemental Fury",
+      "classicId": 565,
+      "tree": "Elemental",
+      "row": 3,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 20%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Mountain silhouette on yellow/orange (Classic Fury icon family)",
+      "status": "updated",
+      "diffNotes": "Classic was maxRank 1 at +100% crit damage; Forever is 5 ranks at +20% per rank."
+    },
+    {
+      "screenshots": [
+        "shaman/23.png"
+      ],
+      "name": "Eye of the Storm",
+      "classicId": 1642,
+      "tree": "Elemental",
+      "row": 4,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the pushback suffered from damaging attacks while casting Lightning Bolt, Chain Lightning, and Lava Burst by 23%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Storm/eye style icon in mid-lower Elemental",
+      "status": "updated",
+      "diffNotes": "Classic covered LB/CL/Fire Nova/Healing Wave; Forever lists LB, CL, and Lava Burst at 23%/rank."
+    },
+    {
+      "screenshots": [
+        "shaman/24.png",
+        "shaman/39.png"
+      ],
+      "name": "Improved Fire Nova",
+      "classicId": 567,
+      "tree": "Elemental",
+      "row": 3,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage done by your Fire Nova spell by 10% and reduces its cooldown by 2 sec.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Fiery explosion pattern",
+      "status": "updated",
+      "diffNotes": "Replaces Classic Improved Fire Totems. Forever is Fire Nova damage + CD; name changed."
+    },
+    {
+      "screenshots": [
+        "shaman/25.png",
+        "shaman/40.png"
+      ],
+      "name": "Elemental Reach",
+      "classicId": 1641,
+      "tree": "Elemental",
+      "row": 3,
+      "col": 3,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 3 yards, and increases the range of your Flame Shock spell by 8 yards.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Hand reaching upward / energy burst",
+      "status": "updated",
+      "diffNotes": "Renamed from Classic Storm Reach; Forever adds Fire Nova/Lava Burst/Flame Shock range."
+    },
+    {
+      "screenshots": [
+        "shaman/27.png",
+        "shaman/42.png"
+      ],
+      "name": "Call of Thunder",
+      "classicId": 562,
+      "tree": "Elemental",
+      "row": 2,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by 3%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Hand grasping lightning bolt",
+      "status": "updated",
+      "diffNotes": "Classic was maxRank 5 at +1% crit/rank; Forever is a single rank at +3%."
+    },
+    {
+      "screenshots": [
+        "shaman/28.png",
+        "shaman/43.png"
+      ],
+      "name": "Elemental Alacrity",
+      "classicId": null,
+      "tree": "Elemental",
+      "row": 4,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.17 sec.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Stylized face/head with swirling energy; below Lightning Overload",
+      "status": "new",
+      "diffNotes": "New talent; not in Classic 1.12."
+    },
+    {
+      "screenshots": [
+        "shaman/5.png"
+      ],
+      "name": "Rage of the Farseer",
+      "classicId": null,
+      "tree": "Enhancement",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your melee attack speed and spell casting speed by 30% for 25 sec.",
+          "castTime": "Instant",
+          "cooldown": "3 min"
+        }
+      ],
+      "iconHint": "Mask/face with glowing eyes; Enhancement capstone",
+      "status": "new",
+      "diffNotes": "New active talent; not in Classic 1.12."
+    },
+    {
+      "screenshots": [
+        "shaman/6.png",
+        "shaman/53.png"
+      ],
+      "name": "Improved Stormstrike",
+      "classicId": null,
+      "tree": "Enhancement",
+      "row": 4,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When you Stormstrike, you have a 50% chance to gain 50% mana regeneration while casting spells for 15 sec, and Stormstrike's cooldown has a 50% chance to reset each time you Dodge or Parry.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Maces with blue lightning / armored gauntlet",
+      "status": "new",
+      "diffNotes": "New talent; not in Classic 1.12."
+    },
+    {
+      "screenshots": [
+        "shaman/7.png",
+        "shaman/56.png"
+      ],
+      "name": "Maelstrom Weapon",
+      "classicId": null,
+      "tree": "Enhancement",
+      "row": 4,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When you deal damage with a melee attack, you have a chance to reduce the cast time and Mana cost of your next Lightning Bolt spell by 4%. Stacks up to 5 times. Lasts 30 sec.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Swirling grey/blue vortex",
+      "status": "new",
+      "diffNotes": "New talent; not in Classic 1.12."
+    },
+    {
+      "screenshots": [
+        "shaman/9.png",
+        "shaman/55.png"
+      ],
+      "name": "Spirit Weapons",
+      "classicId": null,
+      "tree": "Enhancement",
+      "row": 3,
+      "col": 0,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives a chance to parry enemy melee attacks, reduces all threat generated by your attacks by 30% while Rockbiter Weapon is not active, and increases all threat generated by 30% while Rockbiter Weapon is active.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Crossed swords/axes (Parry-style)",
+      "status": "new",
+      "diffNotes": "New talent combining parry + Rockbiter threat swing; Classic Parry was separate."
+    },
+    {
+      "screenshots": [
+        "shaman/11.png",
+        "shaman/51.png"
+      ],
+      "name": "Toughness",
+      "classicId": 615,
+      "tree": "Enhancement",
+      "row": 1,
+      "col": 3,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Stamina by 2%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Metallic shield or clenched armored fist",
+      "status": "updated",
+      "diffNotes": "Classic Toughness increased armor by 2%/rank; Forever increases Stamina by 2%/rank."
+    },
+    {
+      "screenshots": [
+        "shaman/12.png",
+        "shaman/29.png",
+        "shaman/44.png"
+      ],
+      "name": "Guardian Totems",
+      "classicId": 609,
+      "tree": "Enhancement",
+      "row": 0,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the amount of damage reduced by your Stoneskin Totem and Windwall Totem by 10% and reduces the cooldown of your Grounding Totem by 1 sec.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Orange/brown totem on green; green border tier-1",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Guardian Totems rank1 text and maxRank 2."
+    },
+    {
+      "screenshots": [
+        "shaman/13.png",
+        "shaman/31.png",
+        "shaman/46.png"
+      ],
+      "name": "Improved Ghost Wolf",
+      "classicId": 605,
+      "tree": "Enhancement",
+      "row": 1,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cast time of your Ghost Wolf spell by 1.0 sec, and Ghost Wolf may be used indoors.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "White wolf head profile",
+      "status": "updated",
+      "diffNotes": "Classic was cast-time only; Forever also allows Ghost Wolf indoors."
+    },
+    {
+      "screenshots": [
+        "shaman/14.png"
+      ],
+      "name": "Stormstrike",
+      "classicId": 901,
+      "tree": "Enhancement",
+      "row": 3,
+      "col": 2,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Instantly strike for normal weapon damage and increase Nature damage you deal to the target by 20% for 12 sec.",
+          "mana": 125,
+          "range": "Melee Range",
+          "castTime": "Instant",
+          "cooldown": "8 sec"
+        }
+      ],
+      "iconHint": "Crossed weapons with lightning",
+      "status": "updated",
+      "diffNotes": "Values/text differ from Classic Stormstrike."
+    },
+    {
+      "screenshots": [
+        "shaman/30.png",
+        "shaman/45.png",
+        "shaman/100.png"
+      ],
+      "name": "Mental Dexterity",
+      "classicId": null,
+      "tree": "Enhancement",
+      "row": 1,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Attack Power by an amount equal to 33% of your Intellect.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Head/brain or scroll-like Intellect icon",
+      "status": "new",
+      "diffNotes": "New talent; not in Classic 1.12."
+    },
+    {
+      "screenshots": [
+        "shaman/47.png"
+      ],
+      "name": "Improved Lightning Shield",
+      "classicId": 607,
+      "tree": "Enhancement",
+      "row": 1,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage done by your Lightning Shield orbs by 5%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Three blue lightning orbs",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Improved Lightning Shield rank1 (+5%) and maxRank 3."
+    },
+    {
+      "screenshots": [
+        "shaman/48.png"
+      ],
+      "name": "Anticipation",
+      "classicId": 601,
+      "tree": "Enhancement",
+      "row": 0,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your chance to dodge by an additional 2%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Grey/white helmet or face; green border tier-1 right",
+      "status": "updated",
+      "diffNotes": "Classic was maxRank 5 at +1% dodge/rank; Forever is 3 ranks at +2%/rank."
+    },
+    {
+      "screenshots": [
+        "shaman/49.png"
+      ],
+      "name": "Shamanistic Focus",
+      "classicId": null,
+      "tree": "Enhancement",
+      "row": 0,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the mana cost of your Shock and Lightning Shield spells by 45%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Metallic mask/helmet or scroll; green border tier-1 center",
+      "status": "new",
+      "diffNotes": "New talent; not in Classic 1.12."
+    },
+    {
+      "screenshots": [
+        "shaman/50.png"
+      ],
+      "name": "Elemental Weapons",
+      "classicId": 611,
+      "tree": "Enhancement",
+      "row": 3,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the melee attack power bonus of your Rockbiter Weapon by 7%, your Windfury Weapon effect by 13% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 5%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Fist engulfed in orange/yellow flames",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Elemental Weapons rank1 percentages and maxRank 3."
+    },
+    {
+      "screenshots": [
+        "shaman/52.png"
+      ],
+      "name": "Flurry",
+      "classicId": 602,
+      "tree": "Enhancement",
+      "row": 2,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your attack speed by 5% for your next 3 swings after dealing a melee critical strike.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Three white claw/slash marks",
+      "status": "updated",
+      "diffNotes": "Classic rank1 was +10% attack speed; Forever rank1 is +5%."
+    },
+    {
+      "screenshots": [
+        "shaman/54.png"
+      ],
+      "name": "Mental Quickness",
+      "classicId": null,
+      "tree": "Enhancement",
+      "row": 5,
+      "col": 2,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your spell damage and healing by up to 15% of your Intellect.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Brain with lightning or metallic gauntlet",
+      "status": "new",
+      "diffNotes": "New talent; not in Classic 1.12."
+    },
+    {
+      "screenshots": [
+        "shaman/57.png"
+      ],
+      "name": "Improved Healing Wave",
+      "classicId": 586,
+      "tree": "Restoration",
+      "row": 0,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the casting time of your Healing Wave spell by 0.1 sec.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Green glowing hand; green border",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Improved Healing Wave rank1 (-0.1 sec) and maxRank 5."
+    },
+    {
+      "screenshots": [
+        "shaman/58.png"
+      ],
+      "name": "Tidal Mastery",
+      "classicId": 594,
+      "tree": "Restoration",
+      "row": 2,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical effect chance of your healing spells by 1%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Swirling white/light-blue water/clouds (also claimed row0 in 58.png)",
+      "status": "updated",
+      "diffNotes": "Classic also buffed lightning spell crit; Forever is healing spells only."
+    },
+    {
+      "screenshots": [
+        "shaman/59.png"
+      ],
+      "name": "Mindfulness",
+      "classicId": null,
+      "tree": "Restoration",
+      "row": 1,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Allows 17% of your Mana regeneration to continue while casting.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Head silhouette with glowing center",
+      "status": "new",
+      "diffNotes": "New talent; not in Classic 1.12."
+    },
+    {
+      "screenshots": [
+        "shaman/60.png"
+      ],
+      "name": "Natural Grace",
+      "classicId": 1646,
+      "tree": "Restoration",
+      "row": 1,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the threat generated by your spells by 5%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Green glowing hand / leaf",
+      "status": "updated",
+      "diffNotes": "Renamed from Classic Healing Grace; Forever reduces threat from spells."
+    },
+    {
+      "screenshots": [
+        "shaman/61.png"
+      ],
+      "name": "Tidal Focus",
+      "classicId": 593,
+      "tree": "Restoration",
+      "row": 0,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the Mana cost of your healing spells by 1% and increases your chance to hit with all spells and attacks by 1%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Blue/grey cloudy sky next to Improved Healing Wave; green border",
+      "status": "updated",
+      "diffNotes": "Classic was mana cost only (-1%/rank); Forever also grants +1% hit per rank."
+    },
+    {
+      "screenshots": [
+        "shaman/62.png"
+      ],
+      "name": "Improved Reincarnation",
+      "classicId": 589,
+      "tree": "Restoration",
+      "row": 2,
+      "col": 1,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown of your Reincarnation spell by 10 min. Increases your maximum health by 2%, and increases the amount of health and Mana you reincarnate with by an additional 10%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Stylized figure/ankh",
+      "status": "updated",
+      "diffNotes": "Forever adds +2% maximum health; Classic was CD + reincarnate HP/mana only."
+    },
+    {
+      "screenshots": [
+        "shaman/63.png"
+      ],
+      "name": "Ancestral Healing",
+      "classicId": 581,
+      "tree": "Restoration",
+      "row": 1,
+      "col": 3,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your target's armor value by 8% for 15 sec after getting a critical effect from one of your healing spells.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Spectral figure / energy burst",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Ancestral Healing rank1 (+8% armor 15 sec) and maxRank 3."
+    },
+    {
+      "screenshots": [
+        "shaman/64.png"
+      ],
+      "name": "Healing Focus",
+      "classicId": 587,
+      "tree": "Restoration",
+      "row": 1,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives you a 23% chance to avoid interruption caused by damage while casting any healing spell.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Green-glowing staff or beam",
+      "status": "updated",
+      "diffNotes": "Classic was maxRank 5 at 14%/rank; Forever is 3 ranks at 23%/rank."
+    },
+    {
+      "screenshots": [
+        "shaman/65.png"
+      ],
+      "name": "Water Shield",
+      "classicId": null,
+      "tree": "Restoration",
+      "row": 3,
+      "col": 0,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "The caster is surrounded by 3 globes of water. When a spell, melee, or ranged attack hits the caster or when one of the caster's healing spells gets a critical result, 2% of maximum mana is restored to the caster, expending one water globe. Only one globe will activate every few seconds. Lasts 10 min. Only one Elemental Shield can be active on the Shaman at any one time.",
+          "castTime": "Instant",
+          "cooldown": "15 sec"
+        }
+      ],
+      "iconHint": "Blue circular shield with water energy",
+      "status": "new",
+      "diffNotes": "New talent; not in Classic 1.12."
+    },
+    {
+      "screenshots": [
+        "shaman/66.png"
+      ],
+      "name": "Mana Tide Totem",
+      "classicId": 590,
+      "tree": "Restoration",
+      "row": 3,
+      "col": 2,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Summons a Mana Tide Totem with 5 health at the feet of the caster for 12 sec that restores 88 mana every 3 seconds to group members within 30 yards.",
+          "mana": 10,
+          "castTime": "Instant",
+          "cooldown": "5 min",
+          "tools": "Water Totem"
+        }
+      ],
+      "iconHint": "Totem with wispy white/blue energy",
+      "status": "updated",
+      "diffNotes": "Numbers/range differ from Classic Mana Tide Totem."
+    },
+    {
+      "screenshots": [
+        "shaman/67.png"
+      ],
+      "name": "Restorative Totems",
+      "classicId": 588,
+      "tree": "Restoration",
+      "row": 4,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the effect of your Mana Spring Totem by 5% and increases the effect of your Healing Stream Totem by 10%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Multiple totems with blue/white energy / vial",
+      "status": "updated",
+      "diffNotes": "Classic Healing Stream was +5%/rank; Forever Healing Stream is +10%/rank."
+    },
+    {
+      "screenshots": [
+        "shaman/68.png"
+      ],
+      "name": "Totemic Focus",
+      "classicId": 595,
+      "tree": "Restoration",
+      "row": 2,
+      "col": 0,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the Mana cost of your totems and any spells that summon or move them by 5%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Totem base icon",
+      "status": "updated",
+      "diffNotes": "Classic was totem mana cost only; Forever also covers spells that summon or move totems."
+    },
+    {
+      "screenshots": [
+        "shaman/69.png"
+      ],
+      "name": "Healing Way",
+      "classicId": 1648,
+      "tree": "Restoration",
+      "row": 3,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the amount healed by your Healing Wave spell by 8%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Hand reaching upward with soft glow",
+      "status": "updated",
+      "diffNotes": "Classic was a stacking HW proc buff; Forever is a flat +8% Healing Wave per rank."
+    },
+    {
+      "screenshots": [
+        "shaman/70.png"
+      ],
+      "name": "Nature's Swiftness",
+      "classicId": 591,
+      "tree": "Restoration",
+      "row": 4,
+      "col": 2,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When activated, your next Nature spell with a casting time less than 10 sec. becomes an instant cast spell.",
+          "castTime": "Instant",
+          "cooldown": "3 min"
+        }
+      ],
+      "iconHint": "Silver-white leaf or wing",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Nature's Swiftness text and maxRank 1."
+    },
+    {
+      "screenshots": [
+        "shaman/71.png"
+      ],
+      "name": "Purification",
+      "classicId": 592,
+      "tree": "Restoration",
+      "row": 5,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the effectiveness of your healing spells by 2%.",
+          "type": "Passive"
+        }
+      ],
+      "iconHint": "Hand radiating white/yellow light",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Purification rank1 (+2%) and maxRank 5."
+    },
+    {
+      "screenshots": [
+        "shaman/72.png"
+      ],
+      "name": "Riptide",
+      "classicId": null,
+      "tree": "Restoration",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Heals a friendly target for 479 to 528, an additional 499 over 15 sec, and increases the effectiveness of your Chain Heal casts directly on that target by 25%.",
+          "mana": 245,
+          "range": "40 yd",
+          "castTime": "Instant",
+          "cooldown": "6 sec"
+        }
+      ],
+      "iconHint": "Metallic gauntlet / glowing totem base; bottom of column",
+      "status": "new",
+      "diffNotes": "New active talent; not in Classic 1.12."
+    }
+  ],
+  "unmatchedScreenshots": [],
+  "layoutNotes": [
+    "Layout from overview.png; Classic ignored for placement",
+    "Rows/cols are 0-indexed on a 4x7 grid per tree",
+    "Elemental row0 col3 Call of Flame from numbered screenshots (fiery icon right of Concussion; arrow to Lava Burst); overview crop sometimes hid this under the Concussion tooltip",
+    "Screenshots 58.png (Tidal Mastery) and 61.png (Tidal Focus) both visually claim Restoration row0 cloudy slot; assigned cloudy row0 col2 to Tidal Focus and placed Tidal Mastery at row2 col2 (blue drop)",
+    "Some mid/lower Enhancement and Restoration icon-to-name matches are best-effort from overview occupancy + screenshot neighbors",
+    "Duplicate screenshot files (same content): 20=19, 31=13, 33=15, 34=17, 35=18, 36=19, 37=21, 38=22, 39=24, 40=25, 41=26, 42=27, 43=28, 44=29, 45=30 — attached to the matching talent",
+    "Missing numbered files in folder: 10.png, 32.png (not present)"
+  ]
+}

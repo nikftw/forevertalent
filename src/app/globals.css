@@ -160,6 +160,133 @@ body {
   background: #8a8a8a;
 }
 
+.extras {
+  width: min(760px, 100%);
+  margin: 0 0 1.25rem;
+}
+
+.extras-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.extras-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.65rem;
+}
+
+.extras-label {
+  flex: 0 0 6.5rem;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.extras-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.extra-icon {
+  display: flex;
+  width: 38px;
+  height: 38px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid #ffffff26;
+  border-radius: 5px;
+  background: #ffffff0d;
+  opacity: 0.55;
+  cursor: pointer;
+  transition: opacity 120ms ease, border-color 120ms ease, transform 120ms ease;
+}
+
+.extra-icon img {
+  width: 32px;
+  height: 32px;
+  border-radius: 3px;
+}
+
+.extra-icon:hover,
+.extra-icon.is-active {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.extra-icon.is-active {
+  border-color: var(--gold);
+}
+
+.extra-icon[data-faction="horde"].is-active {
+  border-color: #c41e3a;
+}
+
+.extra-icon[data-faction="alliance"].is-active {
+  border-color: #3fc7eb;
+}
+
+.extra-icon.is-disabled,
+.extra-icon:disabled {
+  opacity: 0.22;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.extras-panels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.85rem;
+}
+
+.extra-panel {
+  min-width: 11rem;
+  padding: 0.45rem 0.55rem 0.55rem;
+  background: #00000055;
+  border: 1px solid #ffffff1a;
+  border-radius: 4px;
+}
+
+.extra-panel-title {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 0.4rem;
+  font-size: 12px;
+  color: var(--parchment);
+}
+
+.extra-panel-title img {
+  border-radius: 2px;
+}
+
+.extra-ability-row {
+  display: flex;
+  gap: 4px;
+}
+
+.extra-ability {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.extra-ability img {
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #000, 0 0 0 2px var(--gold);
+}
+
 .class-icon {
   display: flex;
   width: 44px;
@@ -404,6 +531,132 @@ body {
 
 .talent-arrow.is-on[data-dir="down"]::after {
   border-top-color: var(--gold);
+}
+
+.extras {
+  width: min(760px, 100%);
+  margin: 0 0 1.15rem;
+}
+
+.extras-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.85rem 1.25rem;
+}
+
+.extras-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.extras-label {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.extras-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
+
+.extra-icon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid #ffffff26;
+  border-radius: 5px;
+  background: #ffffff0d;
+  opacity: 0.55;
+  cursor: pointer;
+  transition: opacity 120ms ease, border-color 120ms ease, transform 120ms ease;
+}
+
+.extra-icon img {
+  width: 32px;
+  height: 32px;
+  border-radius: 3px;
+}
+
+.extra-icon:hover,
+.extra-icon.is-active {
+  opacity: 1;
+  border-color: var(--gold);
+  transform: translateY(-1px);
+}
+
+.extra-icon[data-faction="alliance"].is-active {
+  border-color: #3fc7eb;
+}
+
+.extra-icon[data-faction="horde"].is-active {
+  border-color: #c41e3a;
+}
+
+.extra-icon.is-disabled,
+.extra-icon:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.extras-panels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 0.85rem;
+}
+
+.extra-panel {
+  min-width: 160px;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #ffffff26;
+  border-radius: 6px;
+  background: #ffffff0d;
+}
+
+.extra-panel-title {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 0.45rem;
+  font-size: 13px;
+  color: var(--parchment);
+}
+
+.extra-panel-title img {
+  border-radius: 2px;
+}
+
+.extra-ability-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.extra-ability {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.extra-ability img {
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px #000;
 }
 
 .calc-footer {

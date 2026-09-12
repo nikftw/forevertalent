@@ -55,3 +55,34 @@ export type TalentAction =
   | { type: "clear"; talentId: number }
   | { type: "reset-tree"; treeId: number }
   | { type: "reset-all" };
+
+export type Faction = "alliance" | "horde";
+
+export type ExtraAbility = {
+  name: string;
+  icon: string;
+  description: string;
+  passive?: boolean;
+};
+
+export type RaceInfo = {
+  slug: string;
+  name: string;
+  faction: Faction;
+  icon: string;
+  description: string;
+  abilities: ExtraAbility[];
+};
+
+export type ProfessionInfo = {
+  slug: string;
+  name: string;
+  icon: string;
+  bonuses: ExtraAbility[];
+};
+
+export type ExtrasSelection = {
+  race: string | null;
+  p1: string | null;
+  p2: string | null;
+};
