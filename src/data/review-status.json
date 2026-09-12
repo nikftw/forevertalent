@@ -316,7 +316,7 @@
     ]
   },
   "789": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
       "druid/22.png",
       "druid/38.png"
@@ -347,7 +347,7 @@
     ]
   },
   "797": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
       "druid/3.png",
       "druid/13.png"
@@ -392,9 +392,9 @@
     ]
   },
   "822": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
-      "druid/image.png"
+      "druid/overview.png"
     ]
   },
   "827": {
@@ -583,24 +583,6 @@
     "review": "updated",
     "screenshots": [
       "mage/5.png"
-    ]
-  },
-  "90001": {
-    "review": "new",
-    "screenshots": [
-      "druid/2.png"
-    ]
-  },
-  "90002": {
-    "review": "new",
-    "screenshots": [
-      "druid/4.png"
-    ]
-  },
-  "90003": {
-    "review": "new",
-    "screenshots": [
-      "druid/9.png"
     ]
   },
   "90004": {
@@ -1067,6 +1049,187 @@
       "priest/Shadow-forever.png",
       "priest/overview.png",
       "priest/Priest_talents.png"
+    ]
+  },
+  "90050": {
+    "review": "new",
+    "screenshots": [
+      "druid/29.png"
+    ]
+  },
+  "90051": {
+    "review": "new",
+    "screenshots": [
+      "druid/18.png"
+    ]
+  },
+  "90052": {
+    "review": "new",
+    "screenshots": [
+      "druid/37.png"
+    ]
+  },
+  "90055": {
+    "review": "new",
+    "screenshots": [
+      "druid/24.png",
+      "druid/39.png"
+    ]
+  },
+  "90053": {
+    "review": "new",
+    "screenshots": [
+      "druid/20.png"
+    ]
+  },
+  "90054": {
+    "review": "new",
+    "screenshots": [
+      "druid/23.png"
+    ]
+  },
+  "90063": {
+    "review": "new",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "796": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "799": {
+    "review": "updated",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "803": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "800": {
+    "review": "updated",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "90060": {
+    "review": "new",
+    "screenshots": [
+      "druid/15.png"
+    ]
+  },
+  "90058": {
+    "review": "new",
+    "screenshots": [
+      "druid/6.png"
+    ]
+  },
+  "1162": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "809": {
+    "review": "updated",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "90056": {
+    "review": "new",
+    "screenshots": [
+      "druid/4.png"
+    ]
+  },
+  "90059": {
+    "review": "new",
+    "screenshots": [
+      "druid/9.png"
+    ]
+  },
+  "90057": {
+    "review": "new",
+    "screenshots": [
+      "druid/5.png"
+    ]
+  },
+  "90064": {
+    "review": "new",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "823": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "824": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "829": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "841": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "826": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "843": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "830": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "828": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "842": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "90062": {
+    "review": "new",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "90061": {
+    "review": "new",
+    "screenshots": [
+      "druid/2.png"
     ]
   }
 }
