@@ -1555,8 +1555,8 @@
             },
             {
               "id": 1627,
-              "row": 1,
-              "col": 3,
+              "row": 5,
+              "col": 1,
               "icon": "spell_holy_power",
               "maxRank": 5,
               "requires": [],
@@ -4077,32 +4077,6 @@
           "name": "Assassination",
           "talents": [
             {
-              "id": 276,
-              "row": 0,
-              "col": 0,
-              "icon": "ability_rogue_eviscerate",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Improved Eviscerate",
-              "ranks": [
-                {
-                  "spellId": 14162,
-                  "name": "Improved Eviscerate",
-                  "description": "Increases the damage done by your Eviscerate ability by 5%."
-                },
-                {
-                  "spellId": 14163,
-                  "name": "Improved Eviscerate",
-                  "description": "Increases the damage done by your Eviscerate ability by 10%."
-                },
-                {
-                  "spellId": 14164,
-                  "name": "Improved Eviscerate",
-                  "description": "Increases the damage done by your Eviscerate ability by 15%."
-                }
-              ]
-            },
-            {
               "id": 272,
               "row": 0,
               "col": 1,
@@ -4203,32 +4177,6 @@
                   "spellId": 14159,
                   "name": "Murder",
                   "description": "Increases all damage caused against Humanoid, Giant, Beast and Dragonkin targets by 2%."
-                }
-              ]
-            },
-            {
-              "id": 277,
-              "row": 1,
-              "col": 3,
-              "icon": "ability_rogue_slicedice",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Improved Slice and Dice",
-              "ranks": [
-                {
-                  "spellId": 14165,
-                  "name": "Improved Slice and Dice",
-                  "description": "Increases the duration of your Slice and Dice ability by 15%."
-                },
-                {
-                  "spellId": 14166,
-                  "name": "Improved Slice and Dice",
-                  "description": "Increases the duration of your Slice and Dice ability by 30%."
-                },
-                {
-                  "spellId": 14167,
-                  "name": "Improved Slice and Dice",
-                  "description": "Increases the duration of your Slice and Dice ability by 45%."
                 }
               ]
             },
@@ -4425,53 +4373,17 @@
               ]
             },
             {
-              "id": 283,
-              "row": 5,
+              "id": 382,
+              "row": 6,
               "col": 1,
-              "icon": "spell_shadow_chilltouch",
-              "maxRank": 5,
+              "icon": "spell_nature_earthbindtotem",
+              "maxRank": 1,
               "requires": [
                 {
                   "id": 280,
                   "qty": 1
                 }
               ],
-              "name": "Seal Fate",
-              "ranks": [
-                {
-                  "spellId": 14186,
-                  "name": "Seal Fate",
-                  "description": "Your critical strikes from abilities that add combo points  have a 20% chance to add an additional combo point."
-                },
-                {
-                  "spellId": 14190,
-                  "name": "Seal Fate",
-                  "description": "Your critical strikes from abilities that add combo points  have a 40% chance to add an additional combo point."
-                },
-                {
-                  "spellId": 14193,
-                  "name": "Seal Fate",
-                  "description": "Your critical strikes from abilities that add combo points  have a 60% chance to add an additional combo point."
-                },
-                {
-                  "spellId": 14194,
-                  "name": "Seal Fate",
-                  "description": "Your critical strikes from abilities that add combo points  have a 80% chance to add an additional combo point."
-                },
-                {
-                  "spellId": 14195,
-                  "name": "Seal Fate",
-                  "description": "Your critical strikes from abilities that add combo points  have a 100% chance to add an additional combo point."
-                }
-              ]
-            },
-            {
-              "id": 382,
-              "row": 6,
-              "col": 1,
-              "icon": "spell_nature_earthbindtotem",
-              "maxRank": 1,
-              "requires": [],
               "name": "Vigor",
               "ranks": [
                 {
@@ -4489,28 +4401,28 @@
           "name": "Combat",
           "talents": [
             {
-              "id": 203,
+              "id": 276,
               "row": 0,
               "col": 0,
               "icon": "ability_gouge",
               "maxRank": 3,
               "requires": [],
-              "name": "Improved Gouge",
+              "name": "Improved Eviscerate",
               "ranks": [
                 {
-                  "spellId": 13741,
-                  "name": "Improved Gouge",
-                  "description": "Increases the effect duration of your Gouge ability by 0.5 sec."
+                  "spellId": 14162,
+                  "name": "Improved Eviscerate",
+                  "description": "Increases the damage done by your Eviscerate ability by 7%."
                 },
                 {
-                  "spellId": 13793,
-                  "name": "Improved Gouge",
-                  "description": "Increases the effect duration of your Gouge ability by 1 sec."
+                  "spellId": 14163,
+                  "name": "Improved Eviscerate",
+                  "description": "Increases the damage done by your Eviscerate ability by 14%."
                 },
                 {
-                  "spellId": 13792,
-                  "name": "Improved Gouge",
-                  "description": "Increases the effect duration of your Gouge ability by 1.5 sec."
+                  "spellId": 14164,
+                  "name": "Improved Eviscerate",
+                  "description": "Increases the damage done by your Eviscerate ability by 21%."
                 }
               ]
             },
@@ -4572,28 +4484,28 @@
               ]
             },
             {
-              "id": 202,
+              "id": 181,
               "row": 1,
               "col": 0,
-              "icon": "ability_backstab",
+              "icon": "ability_marksmanship",
               "maxRank": 3,
               "requires": [],
-              "name": "Improved Backstab",
+              "name": "Precision",
               "ranks": [
                 {
-                  "spellId": 13733,
-                  "name": "Improved Backstab",
-                  "description": "Increases the critical strike chance of your Backstab ability by 10%."
+                  "spellId": 13705,
+                  "name": "Precision",
+                  "description": "Increases your chance to hit with all attacks and Poisons by 1%."
                 },
                 {
-                  "spellId": 13865,
-                  "name": "Improved Backstab",
-                  "description": "Increases the critical strike chance of your Backstab ability by 20%."
+                  "spellId": 13832,
+                  "name": "Precision",
+                  "description": "Increases your chance to hit with all attacks and Poisons by 2%."
                 },
                 {
-                  "spellId": 13866,
-                  "name": "Improved Backstab",
-                  "description": "Increases the critical strike chance of your Backstab ability by 30%."
+                  "spellId": 13843,
+                  "name": "Precision",
+                  "description": "Increases your chance to hit with all attacks and Poisons by 3%."
                 }
               ]
             },
@@ -4602,70 +4514,50 @@
               "row": 1,
               "col": 1,
               "icon": "ability_parry",
-              "maxRank": 5,
+              "maxRank": 3,
               "requires": [],
               "name": "Deflection",
               "ranks": [
                 {
                   "spellId": 13713,
                   "name": "Deflection",
-                  "description": "Increases your Parry chance by 1%."
+                  "description": "Increases your Parry chance by 2%."
                 },
                 {
                   "spellId": 13853,
                   "name": "Deflection",
-                  "description": "Increases your Parry chance by 2%."
+                  "description": "Increases your Parry chance by 4%."
                 },
                 {
                   "spellId": 13854,
                   "name": "Deflection",
-                  "description": "Increases your Parry chance by 3%."
-                },
-                {
-                  "spellId": 13855,
-                  "name": "Deflection",
-                  "description": "Increases your Parry chance by 4%."
-                },
-                {
-                  "spellId": 13856,
-                  "name": "Deflection",
-                  "description": "Increases your Parry chance by 5%."
+                  "description": "Increases your Parry chance by 6%."
                 }
               ]
             },
             {
-              "id": 181,
+              "id": 90110,
               "row": 1,
               "col": 2,
-              "icon": "ability_marksmanship",
-              "maxRank": 5,
+              "icon": "ability_backstab",
+              "maxRank": 3,
               "requires": [],
-              "name": "Precision",
+              "name": "Puncturing Wounds",
               "ranks": [
                 {
-                  "spellId": 13705,
-                  "name": "Precision",
-                  "description": "Increases your chance to hit with melee weapons by 1%."
+                  "spellId": 901100,
+                  "name": "Puncturing Wounds",
+                  "description": "Increases the critical strike chance of your Backstab by 10% and your Mutilate by 5%, and gives Backstab a 15% chance to add an additional Combo Point."
                 },
                 {
-                  "spellId": 13832,
-                  "name": "Precision",
-                  "description": "Increases your chance to hit with melee weapons by 2%."
+                  "spellId": 901101,
+                  "name": "Puncturing Wounds",
+                  "description": "Increases the critical strike chance of your Backstab by 20% and your Mutilate by 10%, and gives Backstab a 30% chance to add an additional Combo Point."
                 },
                 {
-                  "spellId": 13843,
-                  "name": "Precision",
-                  "description": "Increases your chance to hit with melee weapons by 3%."
-                },
-                {
-                  "spellId": 13844,
-                  "name": "Precision",
-                  "description": "Increases your chance to hit with melee weapons by 4%."
-                },
-                {
-                  "spellId": 13845,
-                  "name": "Precision",
-                  "description": "Increases your chance to hit with melee weapons by 5%."
+                  "spellId": 901102,
+                  "name": "Puncturing Wounds",
+                  "description": "Increases the critical strike chance of your Backstab by 30% and your Mutilate by 15%, and gives Backstab a 45% chance to add an additional Combo Point."
                 }
               ]
             },
@@ -4681,17 +4573,17 @@
                 {
                   "spellId": 13742,
                   "name": "Endurance",
-                  "description": "Reduces the cooldown of your Sprint and Evasion abilities by 45 sec."
+                  "description": "Reduces the cooldown of your Sprint and Evasion abilities by 30%."
                 },
                 {
                   "spellId": 13872,
                   "name": "Endurance",
-                  "description": "Reduces the cooldown of your Sprint and Evasion abilities by 1.5 min."
+                  "description": "Reduces the cooldown of your Sprint and Evasion abilities by 60%."
                 }
               ]
             },
             {
-              "id": 301,
+              "id": 90111,
               "row": 2,
               "col": 1,
               "icon": "ability_warrior_challange",
@@ -4699,15 +4591,56 @@
               "requires": [
                 {
                   "id": 187,
-                  "qty": 5
+                  "qty": 3
                 }
               ],
-              "name": "Riposte",
+              "name": "Restless Blades",
               "ranks": [
                 {
-                  "spellId": 14251,
-                  "name": "Riposte",
-                  "description": "A strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 sec."
+                  "spellId": 901110,
+                  "name": "Restless Blades",
+                  "description": "Your damaging finishing moves reduce the remaining cooldown of your Adrenaline Rush, Blade Flurry, Evasion, Sprint, and Vanish abilities by 2 sec per combo point."
+                }
+              ]
+            },
+            {
+              "id": 221,
+              "row": 2,
+              "col": 2,
+              "icon": "ability_dualwield",
+              "maxRank": 5,
+              "requires": [
+                {
+                  "id": 90110,
+                  "qty": 3
+                }
+              ],
+              "name": "Dual Wield Specialization",
+              "ranks": [
+                {
+                  "spellId": 13715,
+                  "name": "Dual Wield Specialization",
+                  "description": "Increases the damage done by your off-hand weapon by 5%."
+                },
+                {
+                  "spellId": 13848,
+                  "name": "Dual Wield Specialization",
+                  "description": "Increases the damage done by your off-hand weapon by 10%."
+                },
+                {
+                  "spellId": 13849,
+                  "name": "Dual Wield Specialization",
+                  "description": "Increases the damage done by your off-hand weapon by 15%."
+                },
+                {
+                  "spellId": 13851,
+                  "name": "Dual Wield Specialization",
+                  "description": "Increases the damage done by your off-hand weapon by 20%."
+                },
+                {
+                  "spellId": 13852,
+                  "name": "Dual Wield Specialization",
+                  "description": "Increases the damage done by your off-hand weapon by 25%."
                 }
               ]
             },
@@ -4790,79 +4723,43 @@
               ]
             },
             {
-              "id": 221,
+              "id": 90112,
               "row": 3,
               "col": 2,
-              "icon": "ability_dualwield",
+              "icon": "inv_sword_27",
               "maxRank": 5,
               "requires": [
                 {
-                  "id": 181,
+                  "id": 221,
                   "qty": 5
                 }
               ],
-              "name": "Dual Wield Specialization",
+              "name": "Hack and Slash",
               "ranks": [
                 {
-                  "spellId": 13715,
-                  "name": "Dual Wield Specialization",
-                  "description": "Increases the damage done by your offhand weapon by 10%."
+                  "spellId": 901120,
+                  "name": "Hack and Slash",
+                  "description": "Gives your melee weapon attacks a benefit depending on the weapon. Axe/Sword: Your successful melee attacks have a 1% chance to trigger an extra attack on the target. Dagger/Fist: Increases your critical strike chance by 1%. Mace: Your attacks ignore 3% of your target's armor."
                 },
                 {
-                  "spellId": 13848,
-                  "name": "Dual Wield Specialization",
-                  "description": "Increases the damage done by your offhand weapon by 20%."
+                  "spellId": 901121,
+                  "name": "Hack and Slash",
+                  "description": "Gives your melee weapon attacks a benefit depending on the weapon. Axe/Sword: Your successful melee attacks have a 2% chance to trigger an extra attack on the target. Dagger/Fist: Increases your critical strike chance by 2%. Mace: Your attacks ignore 6% of your target's armor."
                 },
                 {
-                  "spellId": 13849,
-                  "name": "Dual Wield Specialization",
-                  "description": "Increases the damage done by your offhand weapon by 30%."
+                  "spellId": 901122,
+                  "name": "Hack and Slash",
+                  "description": "Gives your melee weapon attacks a benefit depending on the weapon. Axe/Sword: Your successful melee attacks have a 3% chance to trigger an extra attack on the target. Dagger/Fist: Increases your critical strike chance by 3%. Mace: Your attacks ignore 9% of your target's armor."
                 },
                 {
-                  "spellId": 13851,
-                  "name": "Dual Wield Specialization",
-                  "description": "Increases the damage done by your offhand weapon by 40%."
+                  "spellId": 901123,
+                  "name": "Hack and Slash",
+                  "description": "Gives your melee weapon attacks a benefit depending on the weapon. Axe/Sword: Your successful melee attacks have a 4% chance to trigger an extra attack on the target. Dagger/Fist: Increases your critical strike chance by 4%. Mace: Your attacks ignore 12% of your target's armor."
                 },
                 {
-                  "spellId": 13852,
-                  "name": "Dual Wield Specialization",
-                  "description": "Increases the damage done by your offhand weapon by 50%."
-                }
-              ]
-            },
-            {
-              "id": 184,
-              "row": 4,
-              "col": 0,
-              "icon": "inv_mace_01",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Mace Specialization",
-              "ranks": [
-                {
-                  "spellId": 13709,
-                  "name": "Mace Specialization",
-                  "description": "Increases your skill with Maces by 1, and gives you a 1% chance to stun your target for 3 sec with a mace."
-                },
-                {
-                  "spellId": 13800,
-                  "name": "Mace Specialization",
-                  "description": "Increases your skill with Maces by 2, and gives you a 2% chance to stun your target for 3 sec with a mace."
-                },
-                {
-                  "spellId": 13801,
-                  "name": "Mace Specialization",
-                  "description": "Increases your skill with Maces by 3, and gives you a 3% chance to stun your target for 3 sec with a mace."
-                },
-                {
-                  "spellId": 13802,
-                  "name": "Mace Specialization",
-                  "description": "Increases your skill with Maces by 4, and gives you a 4% chance to stun your target for 3 sec with a mace."
-                },
-                {
-                  "spellId": 13803,
-                  "name": "Mace Specialization",
-                  "description": "Increases your skill with Maces by 5, and gives you a 6% chance to stun your target for 3 sec with a mace."
+                  "spellId": 901124,
+                  "name": "Hack and Slash",
+                  "description": "Gives your melee weapon attacks a benefit depending on the weapon. Axe/Sword: Your successful melee attacks have a 5% chance to trigger an extra attack on the target. Dagger/Fist: Increases your critical strike chance by 5%. Mace: Your attacks ignore 15% of your target's armor."
                 }
               ]
             },
@@ -4878,7 +4775,10 @@
                 {
                   "spellId": 13877,
                   "name": "Blade Flurry",
-                  "description": "Increases your attack speed by 20%.  In addition, attacks strike an additional nearby opponent.  Lasts 15 sec."
+                  "description": "Increases your melee attack speed by 20% and your melee attacks strike an additional nearby opponent. Lasts 15 sec.",
+                  "cost": "25 Energy",
+                  "castTime": "Instant",
+                  "cooldown": "2 min"
                 }
               ]
             },
@@ -4919,42 +4819,6 @@
               ]
             },
             {
-              "id": 183,
-              "row": 4,
-              "col": 3,
-              "icon": "inv_gauntlets_04",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Fist Weapon Specialization",
-              "ranks": [
-                {
-                  "spellId": 13707,
-                  "name": "Fist Weapon Specialization",
-                  "description": "Increases your chance to get a critical strike with Fist Weapons by 1%."
-                },
-                {
-                  "spellId": 13966,
-                  "name": "Fist Weapon Specialization",
-                  "description": "Increases your chance to get a critical strike with Fist Weapons by 2%."
-                },
-                {
-                  "spellId": 13967,
-                  "name": "Fist Weapon Specialization",
-                  "description": "Increases your chance to get a critical strike with Fist Weapons by 3%."
-                },
-                {
-                  "spellId": 13968,
-                  "name": "Fist Weapon Specialization",
-                  "description": "Increases your chance to get a critical strike with Fist Weapons by 4%."
-                },
-                {
-                  "spellId": 13969,
-                  "name": "Fist Weapon Specialization",
-                  "description": "Increases your chance to get a critical strike with Fist Weapons by 5%."
-                }
-              ]
-            },
-            {
               "id": 1703,
               "row": 5,
               "col": 1,
@@ -4971,12 +4835,12 @@
                 {
                   "spellId": 30919,
                   "name": "Weapon Expertise",
-                  "description": "Increases your skill with Sword, Fist and Dagger weapons by 3."
+                  "description": "Reduces the chance for your attacks to be Dodged or Parried by 1%."
                 },
                 {
                   "spellId": 30920,
                   "name": "Weapon Expertise",
-                  "description": "Increases your skill with Sword, Fist and Dagger weapons by 5."
+                  "description": "Reduces the chance for your attacks to be Dodged or Parried by 2%."
                 }
               ]
             },
@@ -4992,17 +4856,17 @@
                 {
                   "spellId": 18427,
                   "name": "Aggression",
-                  "description": "Increases the damage of your Sinister Strike and Eviscerate abilities by 2%."
+                  "description": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 2%."
                 },
                 {
                   "spellId": 18428,
                   "name": "Aggression",
-                  "description": "Increases the damage of your Sinister Strike and Eviscerate abilities by 4%."
+                  "description": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 4%."
                 },
                 {
                   "spellId": 18429,
                   "name": "Aggression",
-                  "description": "Increases the damage of your Sinister Strike and Eviscerate abilities by 6%."
+                  "description": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 6%."
                 }
               ]
             },
@@ -5032,7 +4896,7 @@
             {
               "id": 241,
               "row": 0,
-              "col": 1,
+              "col": 0,
               "icon": "spell_shadow_charm",
               "maxRank": 5,
               "requires": [],
@@ -5068,7 +4932,7 @@
             {
               "id": 261,
               "row": 0,
-              "col": 2,
+              "col": 1,
               "icon": "ability_warrior_warcry",
               "maxRank": 5,
               "requires": [],
@@ -5098,6 +4962,42 @@
                   "spellId": 14075,
                   "name": "Opportunity",
                   "description": "Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 20%."
+                }
+              ]
+            },
+            {
+              "id": 244,
+              "row": 0,
+              "col": 2,
+              "icon": "ability_stealth",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Camouflage",
+              "ranks": [
+                {
+                  "spellId": 13975,
+                  "name": "Camouflage",
+                  "description": "Increases your speed while stealthed by 3% and reduces the cooldown of your Stealth ability by 1 sec."
+                },
+                {
+                  "spellId": 14062,
+                  "name": "Camouflage",
+                  "description": "Increases your speed while stealthed by 6% and reduces the cooldown of your Stealth ability by 2 sec."
+                },
+                {
+                  "spellId": 14063,
+                  "name": "Camouflage",
+                  "description": "Increases your speed while stealthed by 9% and reduces the cooldown of your Stealth ability by 3 sec."
+                },
+                {
+                  "spellId": 14064,
+                  "name": "Camouflage",
+                  "description": "Increases your speed while stealthed by 12% and reduces the cooldown of your Stealth ability by 4 sec."
+                },
+                {
+                  "spellId": 14065,
+                  "name": "Camouflage",
+                  "description": "Increases your speed while stealthed by 15% and reduces the cooldown of your Stealth ability by 5 sec."
                 }
               ]
             },
@@ -5140,42 +5040,6 @@
                   "spellId": 14066,
                   "name": "Elusiveness",
                   "description": "Reduces the cooldown of your Vanish and Blind abilities by 1.5 min."
-                }
-              ]
-            },
-            {
-              "id": 244,
-              "row": 1,
-              "col": 2,
-              "icon": "ability_stealth",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Camouflage",
-              "ranks": [
-                {
-                  "spellId": 13975,
-                  "name": "Camouflage",
-                  "description": "Increases your speed while stealthed by 3% and reduces the cooldown of your Stealth ability by 1 sec."
-                },
-                {
-                  "spellId": 14062,
-                  "name": "Camouflage",
-                  "description": "Increases your speed while stealthed by 6% and reduces the cooldown of your Stealth ability by 2 sec."
-                },
-                {
-                  "spellId": 14063,
-                  "name": "Camouflage",
-                  "description": "Increases your speed while stealthed by 9% and reduces the cooldown of your Stealth ability by 3 sec."
-                },
-                {
-                  "spellId": 14064,
-                  "name": "Camouflage",
-                  "description": "Increases your speed while stealthed by 12% and reduces the cooldown of your Stealth ability by 4 sec."
-                },
-                {
-                  "spellId": 14065,
-                  "name": "Camouflage",
-                  "description": "Increases your speed while stealthed by 15% and reduces the cooldown of your Stealth ability by 5 sec."
                 }
               ]
             },
@@ -5347,22 +5211,6 @@
               ]
             },
             {
-              "id": 284,
-              "row": 4,
-              "col": 1,
-              "icon": "spell_shadow_antishadow",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Preparation",
-              "ranks": [
-                {
-                  "spellId": 14185,
-                  "name": "Preparation",
-                  "description": "When activated, this ability immediately finishes the cooldown on your other Rogue abilities."
-                }
-              ]
-            },
-            {
               "id": 265,
               "row": 4,
               "col": 2,
@@ -5384,74 +5232,12 @@
               ]
             },
             {
-              "id": 681,
-              "row": 4,
-              "col": 3,
-              "icon": "spell_shadow_lifedrain",
-              "maxRank": 1,
-              "requires": [
-                {
-                  "id": 1123,
-                  "qty": 3
-                }
-              ],
-              "name": "Hemorrhage",
-              "ranks": [
-                {
-                  "spellId": 16511,
-                  "name": "Hemorrhage",
-                  "description": "An instant strike that damages the opponent and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to 3.  Lasts 30 charges or 15 sec.  Awards 1 combo <!--singular:point:points-->point<!--singular-->."
-                }
-              ]
-            },
-            {
-              "id": 1702,
-              "row": 5,
-              "col": 2,
-              "icon": "inv_weapon_crossbow_11",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Deadliness",
-              "ranks": [
-                {
-                  "spellId": 30902,
-                  "name": "Deadliness",
-                  "description": "Increases your Attack Power by 2%."
-                },
-                {
-                  "spellId": 30903,
-                  "name": "Deadliness",
-                  "description": "Increases your Attack Power by 4%."
-                },
-                {
-                  "spellId": 30904,
-                  "name": "Deadliness",
-                  "description": "Increases your Attack Power by 6%."
-                },
-                {
-                  "spellId": 30905,
-                  "name": "Deadliness",
-                  "description": "Increases your Attack Power by 8%."
-                },
-                {
-                  "spellId": 30906,
-                  "name": "Deadliness",
-                  "description": "Increases your Attack Power by 10%."
-                }
-              ]
-            },
-            {
               "id": 381,
               "row": 6,
               "col": 1,
               "icon": "spell_shadow_possession",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 284,
-                  "qty": 1
-                }
-              ],
+              "requires": [],
               "name": "Premeditation",
               "ranks": [
                 {

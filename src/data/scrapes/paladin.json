@@ -43,7 +43,7 @@
     "paladin/36.png",
     "paladin/37.png"
   ],
-  "notes": "Layout from overview.png (Ret 29 spent) + overview3/4 (0 spent, green available + Conviction tooltip). Pitch 54px. Columns 0-indexed. Classic talents.json used only for classicId/status by name — never for row/col. overview4.png appears duplicate of overview3.png.",
+  "notes": "Layout from overview.png (Ret 29 spent) + overview3/4 (0 spent). Columns 0-indexed. Classic talents.json used only for classicId/status by name — never for row/col. overview4.png ≈ overview3.png. Holy Power placed at (5,1) per Forever occupied slot.",
   "trees": [
     {
       "name": "Holy",
@@ -61,7 +61,7 @@
           "row": 0,
           "col": 1,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Divine Strength",
           "iconHint": "Clenched fist / paw; grey",
           "notes": "middle of Holy row0 trio",
           "rankBadge": "0/?"
@@ -70,7 +70,7 @@
           "row": 0,
           "col": 2,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Divine Intellect",
           "iconHint": "Stylized eye; grey",
           "notes": "right of Holy row0 trio",
           "rankBadge": "0/?"
@@ -87,7 +87,7 @@
           "row": 1,
           "col": 0,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Unyielding Faith",
           "iconHint": "Grey icon",
           "notes": "overview occupied"
         },
@@ -95,7 +95,7 @@
           "row": 1,
           "col": 1,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Spiritual Focus",
           "iconHint": "Grey icon; arrow down toward (2,1)",
           "notes": "overview occupied"
         },
@@ -103,7 +103,7 @@
           "row": 1,
           "col": 2,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Improved Seal of Righteousness",
           "iconHint": "Grey icon",
           "notes": "overview occupied"
         },
@@ -113,13 +113,13 @@
           "occupied": true,
           "guessName": null,
           "iconHint": "Grey icon",
-          "notes": "overview occupied"
+          "notes": "overview occupied; unnamed Forever-new (Holy Power is at 5,1)"
         },
         {
           "row": 2,
           "col": 0,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Healing Light",
           "iconHint": "Grey icon",
           "notes": "overview occupied"
         },
@@ -127,7 +127,7 @@
           "row": 2,
           "col": 1,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Consecration",
           "iconHint": "Grey icon; vertical chain",
           "notes": "overview occupied"
         },
@@ -135,7 +135,7 @@
           "row": 2,
           "col": 2,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Improved Lay on Hands",
           "iconHint": "Grey icon",
           "notes": "overview occupied"
         },
@@ -153,13 +153,13 @@
           "occupied": true,
           "guessName": null,
           "iconHint": "Grey icon",
-          "notes": "overview occupied"
+          "notes": "overview occupied; unnamed Forever-new — no tooltip yet"
         },
         {
           "row": 3,
           "col": 1,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Illumination",
           "iconHint": "Grey icon; chain + horizontal to (3,0)",
           "notes": "overview occupied"
         },
@@ -167,7 +167,7 @@
           "row": 3,
           "col": 2,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Improved Blessing of Wisdom",
           "iconHint": "Grey icon",
           "notes": "overview occupied"
         },
@@ -185,13 +185,13 @@
           "occupied": true,
           "guessName": null,
           "iconHint": "Grey icon; receives horizontal from (4,1)",
-          "notes": "overview occupied"
+          "notes": "overview occupied; unnamed Forever-new — no tooltip yet"
         },
         {
           "row": 4,
           "col": 1,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Divine Favor",
           "iconHint": "Grey icon; hub of Holy mid-tree arrows",
           "notes": "overview occupied"
         },
@@ -199,7 +199,7 @@
           "row": 4,
           "col": 2,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Lasting Judgement",
           "iconHint": "Grey icon",
           "notes": "overview occupied"
         },
@@ -223,9 +223,9 @@
           "row": 5,
           "col": 1,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Holy Power",
           "iconHint": "Grey icon; receives arrow from (4,1)",
-          "notes": "overview occupied"
+          "notes": "Classic was (5,2); Forever only row5 occupied cell is (5,1)"
         },
         {
           "row": 5,
@@ -233,7 +233,7 @@
           "occupied": false,
           "guessName": null,
           "iconHint": null,
-          "notes": ""
+          "notes": "empty on Forever overview (Classic Holy Power was here)"
         },
         {
           "row": 5,
@@ -255,7 +255,7 @@
           "row": 6,
           "col": 1,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Holy Shock",
           "iconHint": "Grey icon; Holy capstone column",
           "notes": "overview occupied"
         },
@@ -292,7 +292,7 @@
           "row": 0,
           "col": 1,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Improved Devotion Aura",
           "iconHint": "Purple swirl / void; green border available",
           "notes": "overview3 row0 left available",
           "rankBadge": "0/?"
@@ -327,7 +327,7 @@
           "row": 1,
           "col": 1,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Guardian's Favor",
           "iconHint": "Grey shield / leaf",
           "notes": "overview occupied"
         },
@@ -352,7 +352,7 @@
           "row": 2,
           "col": 0,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Blessing of Kings",
           "iconHint": "Crossed swords / shield",
           "notes": "overview occupied; arrow down to (3,0)"
         },
@@ -360,7 +360,7 @@
           "row": 2,
           "col": 1,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Improved Righteous Fury",
           "iconHint": "Winged crest",
           "notes": "overview occupied"
         },
@@ -368,7 +368,7 @@
           "row": 2,
           "col": 2,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Shield Specialization",
           "iconHint": "Shield; receives arrow from Redoubt",
           "notes": "overview occupied"
         },
@@ -376,7 +376,7 @@
           "row": 2,
           "col": 3,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Precision",
           "iconHint": "Three silhouettes",
           "notes": "overview occupied"
         },
@@ -384,7 +384,7 @@
           "row": 3,
           "col": 0,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Toughness",
           "iconHint": "Gauntlet / mace; receives arrow from (2,0)",
           "notes": "overview occupied"
         },
@@ -392,7 +392,7 @@
           "row": 3,
           "col": 1,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Improved Hammer of Justice",
           "iconHint": "Hammer / mace",
           "notes": "overview occupied"
         },
@@ -425,7 +425,7 @@
           "row": 4,
           "col": 1,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Blessing of Sanctuary",
           "iconHint": "Crested shield; arrow down to (6,1)",
           "notes": "overview occupied"
         },
@@ -466,7 +466,7 @@
           "row": 5,
           "col": 2,
           "occupied": true,
-          "guessName": null,
+          "guessName": "One-Handed Weapon Specialization",
           "iconHint": "Round shield / buckler",
           "notes": "overview occupied"
         },
@@ -563,7 +563,7 @@
           "row": 1,
           "col": 1,
           "occupied": true,
-          "guessName": null,
+          "guessName": "Improved Seal of the Crusader",
           "iconHint": "Winged/raised-arm silhouette; grey 0",
           "notes": "Occupied in overview; no tooltip identity yet",
           "rankBadge": "0/?"
@@ -783,7 +783,14 @@
       "classicId": null,
       "status": "new",
       "diffNotes": "Forever-only; Requires Level 40. overview.png (6,1).",
-      "requiresLevel": 40
+      "requiresLevel": 40,
+      "requires": [
+        {
+          "name": "Champion of the Light",
+          "qty": 3
+        }
+      ],
+      "foreverId": 90300
     },
     {
       "screenshots": [
@@ -918,7 +925,8 @@
       "iconHint": "Blue/white glow; arrow down to Vengeance",
       "classicId": null,
       "status": "new",
-      "diffNotes": "Forever-only. (2,1); dependency to Vengeance (4,1). Rank2 not shown."
+      "diffNotes": "Forever-only. (2,1); dependency to Vengeance (4,1). Rank2 not shown.",
+      "foreverId": 90301
     },
     {
       "screenshots": [
@@ -1016,7 +1024,13 @@
       "iconHint": "White sword / mailed fist; receives arrow from Sanctified Judgement",
       "classicId": 1402,
       "status": "unchanged",
-      "diffNotes": "Matches Classic rank1 stacking text. (4,1)."
+      "diffNotes": "Matches Classic rank1 stacking text. (4,1).",
+      "requires": [
+        {
+          "name": "Sanctified Judgement",
+          "qty": 3
+        }
+      ]
     },
     {
       "screenshots": [
@@ -1038,7 +1052,14 @@
       "iconHint": "Hammer/light; gold 3/3 above Twist of Light",
       "classicId": null,
       "status": "new",
-      "diffNotes": "Forever-only. (5,1)."
+      "diffNotes": "Forever-only. (5,1).",
+      "requires": [
+        {
+          "name": "Vengeance",
+          "qty": 3
+        }
+      ],
+      "foreverId": 90302
     },
     {
       "screenshots": [
@@ -1082,7 +1103,8 @@
       "iconHint": "Orange/yellow glow; gold 2/2",
       "classicId": null,
       "status": "new",
-      "diffNotes": "Forever-only. (3,3). Rank2 not shown."
+      "diffNotes": "Forever-only. (3,3). Rank2 not shown.",
+      "foreverId": 90303
     },
     {
       "screenshots": [
@@ -1104,7 +1126,14 @@
       "iconHint": "White figure / hammer silhouette; grey 0 in overview",
       "classicId": null,
       "status": "new",
-      "diffNotes": "Forever-only. (4,2). Rank2 not shown."
+      "diffNotes": "Forever-only. (4,2). Rank2 not shown.",
+      "requires": [
+        {
+          "name": "Repentance",
+          "qty": 1
+        }
+      ],
+      "foreverId": 90304
     },
     {
       "screenshots": [
@@ -1167,7 +1196,8 @@
       "iconHint": "Hooded figure",
       "classicId": null,
       "status": "new",
-      "diffNotes": "Forever-only; mentions Templar's Bulwark. (3,2)."
+      "diffNotes": "Forever-only; mentions Templar's Bulwark. (3,2).",
+      "foreverId": 90305
     },
     {
       "screenshots": [
@@ -1188,7 +1218,8 @@
       "iconHint": "Holy weapon light; leftmost of Holy row0 trio",
       "classicId": null,
       "status": "new",
-      "diffNotes": "Forever-only. Holy (0,0)."
+      "diffNotes": "Forever-only. Holy (0,0).",
+      "foreverId": 90306
     },
     {
       "screenshots": [
@@ -1209,7 +1240,8 @@
       "iconHint": "Silver gauntlet reaching upward",
       "classicId": null,
       "status": "new",
-      "diffNotes": "Forever-only. Protection (1,0)."
+      "diffNotes": "Forever-only. Protection (1,0).",
+      "foreverId": 90307
     },
     {
       "screenshots": [
@@ -1232,7 +1264,14 @@
       "iconHint": "Winged shield; Protection capstone",
       "classicId": null,
       "status": "new",
-      "diffNotes": "Forever-only active. (6,1)."
+      "diffNotes": "Forever-only active. (6,1).",
+      "requires": [
+        {
+          "name": "Blessing of Sanctuary",
+          "qty": 1
+        }
+      ],
+      "foreverId": 90308
     },
     {
       "screenshots": [
@@ -1255,7 +1294,13 @@
       "iconHint": "Glowing shield in Prot mid-column",
       "classicId": 1430,
       "status": "unchanged",
-      "diffNotes": "Matches Classic effect. Forever adds 150 Mana / Instant / 10 sec. (4,2)."
+      "diffNotes": "Matches Classic effect. Forever adds 150 Mana / Instant / 10 sec. (4,2).",
+      "requires": [
+        {
+          "name": "Sacred Duty",
+          "qty": 2
+        }
+      ]
     },
     {
       "screenshots": [
@@ -1297,7 +1342,8 @@
       "iconHint": "Hammer on yellow sunburst; green border 1/1",
       "classicId": null,
       "status": "new",
-      "diffNotes": "Forever-only. (5,2)."
+      "diffNotes": "Forever-only. (5,2).",
+      "foreverId": 90309
     },
     {
       "screenshots": [
@@ -1321,19 +1367,22 @@
       "iconHint": "Winged/golden figure in vertical column with ranks 5 and 1 above",
       "classicId": 1441,
       "status": "unchanged",
-      "diffNotes": "Matches Classic effect. Forever adds 60 Mana, 20 yd, Instant, 1 min. overview (3,2)."
+      "diffNotes": "Matches Classic effect. Forever adds 60 Mana, 20 yd, Instant, 1 min. overview (3,2).",
+      "requires": [
+        {
+          "name": "Seal of Command",
+          "qty": 1
+        }
+      ]
     }
   ],
   "unmatchedScreenshots": [],
   "layoutNotes": [
-    "overview.png / overview3.png / overview4.png present (prior scrape wrongly claimed none). overview4≈overview3.",
-    "Retribution occupied (overview.png 29 spent): (0,1 Deflection)(0,2 Conviction) (1,0 Imp Judgement)(1,1 ?)(1,2 Benediction) (2,0 Vindication)(2,1 Sanctified Judgement)(2,2 Seal of Command)(2,3 Pursuit of Justice) (3,0 Eye for an Eye)(3,2 Repentance)(3,3 Crusade) (4,0 2H Spec)(4,1 Vengeance)(4,2 Instrument of Law) (5,1 Champion of the Light)(5,2 Sacred Arbiter) (6,1 Twist of Light). Empty (3,1)=arrow pass-through. Spent ranks sum 29.",
-    "Holy occupied: (0,0-2)(1,0-3)(2,0-2)(3,0-2)(4,0-2)(5,1)(6,1). Only Improved Holy Strike has a tooltip among Holy screenshots.",
-    "Protection occupied: (0,1)(0,2 Redoubt)(1,0 Imp Seal of Fury)(1,1)(1,3 Anticipation)(2,0-3)(3,0-2 Sacred Duty)(4,1)(4,2 Holy Shield)(5,2)(6,1 Templar's Bulwark).",
-    "Counts: 25 talents / 11 new / 2 updated / 12 unchanged / 0 unmatched. All 37 PNGs merged into 25 entries.",
-    "new: Twist of Light, Holy Conduit, Sanctified Judgement, Champion of the Light, Crusade, Instrument of Law, Sacred Duty, Improved Holy Strike, Improved Seal of Fury, Templar's Bulwark, Sacred Arbiter.",
-    "updated: Eye for an Eye (rank2 all-crits 10% vs Classic spell-crits 30%), Two-Handed Weapon Specialization (rank3 9% vs Classic 6%).",
-    "Holy Conduit row/col null (Ret tree, slot ambiguous). Ret (1,1) occupied, unnamed.",
-    "classicId/status from talents.json by name only — never used for row/col."
+    "Retribution occupied (overview.png 29 spent): (0,1 Deflection)(0,2 Conviction) (1,0 Imp Judgement)(1,1 Imp Seal of the Crusader)(1,2 Benediction) (2,0 Vindication)(2,1 Sanctified Judgement)(2,2 Seal of Command)(2,3 Pursuit of Justice) (3,0 Eye for an Eye)(3,2 Repentance)(3,3 Crusade) (4,0 2H Spec)(4,1 Vengeance)(4,2 Instrument of Law) (5,1 Champion of the Light)(5,2 Sacred Arbiter) (6,1 Twist of Light). Empty (3,1)=arrow pass-through. Spent ranks sum 29.",
+    "Requires (overview arrows / tooltip context): SoC->Repentance; Sanctified Judgement->Vengeance->Champion->Twist; Repentance->Instrument of Law; Redoubt->Shield Spec; Sacred Duty->Holy Shield; Blessing of Sanctuary->Templar's Bulwark; Illumination->Divine Favor->Holy Shock.",
+    "Holy occupied: (0,0 Imp Holy Strike)(0,1-2)(1,0 Unyielding Faith fill)(1,1-2)(1,3 unnamed)(2,0-2)(3,0 unnamed)(3,1-2)(4,0 unnamed)(4,1-2)(5,1 Holy Power)(6,1 Holy Shock). Only Imp Holy Strike has a Holy tooltip screenshot.",
+    "Protection occupied: (0,1 Imp Devotion Aura)(0,2 Redoubt)(1,0 Imp Seal of Fury)(1,1 Guardian's Favor)(1,3 Anticipation)(2,0-3)(3,0 Toughness fill)(3,1 Imp HoJ)(3,2 Sacred Duty)(4,1 BoS)(4,2 Holy Shield)(5,2 1H Spec)(6,1 Templar's Bulwark). Precision@(2,3) and Toughness@(3,0) are Classic fills after slot swaps — confirm with a clearer Prot overview if icons disagree.",
+    "Holy Conduit left unplaced (row/col null).",
+    "Forever ids 90300-90309."
   ]
 }

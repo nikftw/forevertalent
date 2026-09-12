@@ -2047,7 +2047,7 @@
     ]
   },
   "1627": {
-    "review": "classic",
+    "review": "updated",
     "screenshots": [
       "paladin/overview.png",
       "paladin/overview3.png"
@@ -2814,6 +2814,84 @@
     "review": "new",
     "screenshots": [
       "paladin/30.png"
+    ]
+  },
+  "276": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/2.png"
+    ]
+  },
+  "181": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/3.png"
+    ]
+  },
+  "187": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/4.png"
+    ]
+  },
+  "90110": {
+    "review": "new",
+    "screenshots": [
+      "rogue/5.png"
+    ]
+  },
+  "204": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/7.png"
+    ]
+  },
+  "90111": {
+    "review": "new",
+    "screenshots": [
+      "rogue/9.png"
+    ]
+  },
+  "221": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/8.png"
+    ]
+  },
+  "222": {
+    "review": "unchanged",
+    "screenshots": [
+      "rogue/6.png"
+    ]
+  },
+  "201": {
+    "review": "unchanged",
+    "screenshots": [
+      "rogue/1.png"
+    ]
+  },
+  "90112": {
+    "review": "new",
+    "screenshots": [
+      "rogue/10.png"
+    ]
+  },
+  "223": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/13.png"
+    ]
+  },
+  "1703": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/11.png"
+    ]
+  },
+  "1122": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/12.png"
     ]
   }
 }
