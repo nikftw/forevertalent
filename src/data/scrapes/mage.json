@@ -54,113 +54,719 @@
     "mage/47.png",
     "mage/48.png",
     "mage/49.png",
-    "mage/50.png"
+    "mage/50.png",
+    "mage/brave_WLA8Rd7rKX.png",
+    "mage/O2NJQmcycc.jpg",
+    "mage/brave_b7jBjMmeQ3.png",
+    "mage/brave_tr3J1RaHYj.png",
+    "mage/brave_4Ntj8pV1e3.png",
+    "mage/brave_92KLRTDv0f.png",
+    "mage/brave_nVqSnzi9VK.png",
+    "mage/brave_rIBDLFJIo6.png",
+    "mage/brave_9Gq3JCzwjz.png",
+    "mage/brave_dhN9RyhkVa.png",
+    "mage/brave_fWi9iK6evW.png",
+    "mage/brave_EHClz5yETV.png",
+    "mage/brave_AvxLZRviJu.png",
+    "mage/brave_hcdszJmi87.png"
   ],
-  "notes": "Layout authority is overview.png (+ fix1.png Arcane spent / Improved Channeling, fix2.png Hot Streak). Numbered mage/1.png–50.png are tooltip crops. Columns 0-indexed. Classic talents.json used only for classicId/status.",
+  "notes": "Layout authority is overview.png (+ fix1.png Arcane spent / Improved Channeling, fix2.png Hot Streak). Numbered mage/1.png–50.png are tooltip crops. brave_* + O2NJQmcycc.jpg are newer BlizzCon-stream captures (2026-09-12 evening). Columns 0-indexed. Classic talents.json used only for classicId/status.",
   "trees": [
     {
       "name": "Arcane",
       "slots": [
-        { "row": 0, "col": 0, "occupied": true, "guessName": "Arcane Subtlety", "iconHint": "Blue/white magical starburst", "notes": "Green border; rank badge 0; mage/2.png mage/11.png" },
-        { "row": 0, "col": 1, "occupied": true, "guessName": "Arcane Focus", "iconHint": "Purple figure / swirling energy", "notes": "Green border; rank badge 0; no tooltip screenshot" },
-        { "row": 0, "col": 2, "occupied": true, "guessName": "Improved Channeling", "iconHint": "Purple hand / arcane projectiles", "notes": "Green border; rank badge 0; fix1.png tooltip; replaces Classic Improved Arcane Missiles; arrow down toward Concentration chain" },
-        { "row": 0, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 1, "col": 0, "occupied": true, "guessName": "Wand Specialization", "iconHint": "Shield/wand / blue energy hand", "notes": "mage/4.png" },
-        { "row": 1, "col": 1, "occupied": true, "guessName": "Magic Absorption", "iconHint": "Purple missile/bolt / absorption swirl", "notes": "mage/5.png mage/10.png" },
-        { "row": 1, "col": 2, "occupied": true, "guessName": "Arcane Concentration", "iconHint": "Head silhouette with glowing energy", "notes": "Long arrow down to Missile Barrage row3 col2 (skips empty row2 col2); mage/3.png mage/9.png" },
-        { "row": 1, "col": 3, "occupied": true, "guessName": null, "iconHint": "Glowing purple sphere / cube", "notes": "Forever extra vs Classic tier-2 (Classic had only 3 talents on this row); no tooltip" },
-        { "row": 2, "col": 0, "occupied": true, "guessName": "Arcane Geometry", "iconHint": "Circular geometric sigil with nested triangle", "notes": "Replaces Classic Magic Attunement slot; mage/12.png" },
-        { "row": 2, "col": 1, "occupied": true, "guessName": "Arcane Impact", "iconHint": "Circular runic / purple swirl", "notes": "mage/13.png" },
-        { "row": 2, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "notes": "Empty; dependency line from row1 col2 passes through to row3 col2 (confirmed empty in fix1 spent build)" },
-        { "row": 2, "col": 3, "occupied": true, "guessName": "Arcane Resilience", "iconHint": "Gear-like / sunburst arcane seal", "notes": "Moved from Classic row2 col2; mage/8.png" },
-        { "row": 3, "col": 0, "occupied": true, "guessName": "Arcane Shielding", "iconHint": "Vertical glowing crystal / shard", "notes": "mage/14.png" },
-        { "row": 3, "col": 1, "occupied": true, "guessName": "Improved Counterspell", "iconHint": "Small flame / energy spark", "notes": "mage/15.png" },
-        { "row": 3, "col": 2, "occupied": true, "guessName": "Missile Barrage", "iconHint": "Cluster of magical shards / missiles", "notes": "Receives arrow from row1 col2; mage/17.png" },
-        { "row": 3, "col": 3, "occupied": true, "guessName": "Arcane Meditation", "iconHint": "Multiple purple bolts / projectiles", "notes": "mage/16.png" },
-        { "row": 4, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 4, "col": 1, "occupied": true, "guessName": "Presence of Mind", "iconHint": "Hooded figure / glowing head", "notes": "Long arrow down to Arcane Power row6 col1; mage/19.png" },
-        { "row": 4, "col": 2, "occupied": true, "guessName": "Arcane Mind", "iconHint": "Face silhouette with forehead energy", "notes": "mage/6.png mage/18.png mage/20.png" },
-        { "row": 4, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 5, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 5, "col": 1, "occupied": false, "guessName": null, "iconHint": null, "notes": "Dependency line from Presence of Mind passes through" },
-        { "row": 5, "col": 2, "occupied": true, "guessName": "Arcane Instability", "iconHint": "Bright white/purple orb", "notes": "mage/7.png mage/21.png" },
-        { "row": 5, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 6, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 6, "col": 1, "occupied": true, "guessName": "Arcane Power", "iconHint": "Zig-zag arcane energy line", "notes": "Receives arrow from row4 col1; no tooltip screenshot" },
-        { "row": 6, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 6, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" }
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Arcane Subtlety",
+          "iconHint": "Blue/white magical starburst",
+          "notes": "Green border; rank badge 0; mage/2.png mage/11.png"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Arcane Focus",
+          "iconHint": "Purple figure / swirling energy",
+          "notes": "Green border; rank badge 0; brave_b7jBjMmeQ3.png brave_tr3J1RaHYj.png (Forever hit%, not Classic resist%)"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Improved Channeling",
+          "iconHint": "Purple hand / arcane projectiles",
+          "notes": "Green border; rank badge 0; fix1.png tooltip; replaces Classic Improved Arcane Missiles; arrow down toward Concentration chain"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Wand Specialization",
+          "iconHint": "Shield/wand / blue energy hand",
+          "notes": "mage/4.png"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Magic Absorption",
+          "iconHint": "Purple missile/bolt / absorption swirl",
+          "notes": "mage/5.png mage/10.png"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Arcane Concentration",
+          "iconHint": "Head silhouette with glowing energy",
+          "notes": "Long arrow down to Missile Barrage row3 col2 (skips empty row2 col2); mage/3.png mage/9.png"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Glowing purple sphere / cube",
+          "notes": "Forever extra vs Classic tier-2 (Classic had only 3 talents on this row); no tooltip"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Arcane Geometry",
+          "iconHint": "Circular geometric sigil with nested triangle",
+          "notes": "Replaces Classic Magic Attunement slot; mage/12.png"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Arcane Impact",
+          "iconHint": "Circular runic / purple swirl",
+          "notes": "mage/13.png"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": "Empty; dependency line from row1 col2 passes through to row3 col2 (confirmed empty in fix1 spent build)"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Arcane Resilience",
+          "iconHint": "Gear-like / sunburst arcane seal",
+          "notes": "Moved from Classic row2 col2; mage/8.png"
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Arcane Shielding",
+          "iconHint": "Vertical glowing crystal / shard",
+          "notes": "mage/14.png"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Counterspell",
+          "iconHint": "Small flame / energy spark",
+          "notes": "mage/15.png"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Missile Barrage",
+          "iconHint": "Cluster of magical shards / missiles",
+          "notes": "Receives arrow from row1 col2; mage/17.png"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Arcane Meditation",
+          "iconHint": "Multiple purple bolts / projectiles",
+          "notes": "mage/16.png"
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Presence of Mind",
+          "iconHint": "Hooded figure / glowing head",
+          "notes": "Long arrow down to Arcane Power row6 col1; mage/19.png"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Arcane Mind",
+          "iconHint": "Face silhouette with forehead energy",
+          "notes": "mage/6.png mage/18.png mage/20.png"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": "Dependency line from Presence of Mind passes through"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Arcane Instability",
+          "iconHint": "Bright white/purple orb",
+          "notes": "mage/7.png mage/21.png"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Arcane Power",
+          "iconHint": "Zig-zag arcane energy line",
+          "notes": "Receives arrow from row4 col1; brave_4Ntj8pV1e3.png brave_92KLRTDv0f.png"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
       ]
     },
     {
       "name": "Fire",
       "slots": [
-        { "row": 0, "col": 0, "occupied": true, "guessName": "Improved Fireball", "iconHint": "Orange Fireball", "notes": "Green border; rank badge 0; no tooltip screenshot (Classic was row0 col1)" },
-        { "row": 0, "col": 1, "occupied": true, "guessName": "Impact", "iconHint": "Black flaming claw/hand", "notes": "Green border; rank badge 0; no tooltip screenshot (Classic was row0 col2)" },
-        { "row": 0, "col": 2, "occupied": true, "guessName": "Wake of Fire", "iconHint": "Orange explosion / Fire Blast blast", "notes": "Green border; overview maxRank-2 badge; mage/22.png" },
-        { "row": 0, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 1, "col": 0, "occupied": true, "guessName": "Ignite", "iconHint": "Flaming scroll / heat wave", "notes": "No tooltip screenshot" },
-        { "row": 1, "col": 1, "occupied": true, "guessName": "Improved Fire Blast", "iconHint": "Focused flame blast", "notes": "Arrow down to Pyroblast row2 col1; no tooltip (Classic Flame Throwing was here)" },
-        { "row": 1, "col": 2, "occupied": true, "guessName": "Incinerate", "iconHint": "Multiple fireballs", "notes": "No tooltip screenshot (Classic Improved Fire Blast was here)" },
-        { "row": 1, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 2, "col": 0, "occupied": true, "guessName": "Burning Soul", "iconHint": "Small orange flame", "notes": "Moved from Classic row2 col3; mage/24.png" },
-        { "row": 2, "col": 1, "occupied": true, "guessName": "Pyroblast", "iconHint": "Figure engulfed in flames", "notes": "Receives arrow from row1 col1; moved from Classic row2 col2; mage/23.png" },
-        { "row": 2, "col": 2, "occupied": true, "guessName": "Improved Flamestrike", "iconHint": "Fire blast / shockwave", "notes": "Arrow down to Hot Streak row3 col2; no tooltip (Classic Pyroblast was here)" },
-        { "row": 2, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "Empty (Classic Burning Soul was here)" },
-        { "row": 3, "col": 0, "occupied": true, "guessName": "Improved Scorch", "iconHint": "Horizontal fire blast / Scorch head", "notes": "Leftmost of four; mage/25.png" },
-        { "row": 3, "col": 1, "occupied": true, "guessName": "Improved Fire Ward", "iconHint": "Shield with flame", "notes": "fix2 shows line down toward Critical Mass path; mage/26.png" },
-        { "row": 3, "col": 2, "occupied": true, "guessName": "Hot Streak", "iconHint": "Phoenix / winged fire creature / gauntlet", "notes": "fix2.png confirms row3 col2; arrow from row2 col2; mage/27.png" },
-        { "row": 3, "col": 3, "occupied": true, "guessName": "Master of Elements", "iconHint": "Figure standing in fire", "notes": "mage/28.png" },
-        { "row": 4, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 4, "col": 1, "occupied": true, "guessName": "Critical Mass", "iconHint": "Curved flaming trail", "notes": "Long arrow down to Combustion row6 col1; mage/29.png" },
-        { "row": 4, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "notes": "Empty in overview/fix2; Classic Blast Wave slot vacant — Blast Wave tooltip captured but unmatched" },
-        { "row": 4, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 5, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 5, "col": 1, "occupied": false, "guessName": null, "iconHint": null, "notes": "Dependency line from Critical Mass passes through" },
-        { "row": 5, "col": 2, "occupied": true, "guessName": "Fire Power", "iconHint": "Roaring fiery head / flaming hand", "notes": "mage/31.png" },
-        { "row": 5, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 6, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 6, "col": 1, "occupied": true, "guessName": "Combustion", "iconHint": "Small bomb / round fire orb", "notes": "Receives arrow from row4 col1; mage/32.png" },
-        { "row": 6, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 6, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" }
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Fireball",
+          "iconHint": "Orange Fireball",
+          "notes": "Green border; rank badge 0; no tooltip screenshot (Classic was row0 col1)"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Impact",
+          "iconHint": "Black flaming claw/hand",
+          "notes": "Green border; rank badge 0; no tooltip screenshot (Classic was row0 col2)"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Wake of Fire",
+          "iconHint": "Orange explosion / Fire Blast blast",
+          "notes": "Green border; overview maxRank-2 badge; mage/22.png brave_9Gq3JCzwjz.png. VERIFY: some crops show Wake leftmost of three green icons — may conflict with Fireball|Impact|Wake order."
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Ignite",
+          "iconHint": "Flaming scroll / heat wave",
+          "notes": "No tooltip screenshot"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Fire Blast",
+          "iconHint": "Focused flame blast",
+          "notes": "Arrow down to Pyroblast row2 col1; no tooltip (Classic Flame Throwing was here)"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Incineration",
+          "iconHint": "Multiple fireballs",
+          "notes": "brave_rIBDLFJIo6.png Rank 0/3; Forever name Incineration (Classic Incinerate); crit on Fire Blast/Ice Lance/Arcane Blast/Scorch. Slot vs Classic Incinerate row still needs layout confirm."
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Burning Soul",
+          "iconHint": "Small orange flame",
+          "notes": "Moved from Classic row2 col3; mage/24.png"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Pyroblast",
+          "iconHint": "Figure engulfed in flames",
+          "notes": "Receives arrow from row1 col1; moved from Classic row2 col2; mage/23.png"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Improved Flamestrike",
+          "iconHint": "Fire blast / shockwave",
+          "notes": "Arrow down to Hot Streak row3 col2; no tooltip (Classic Pyroblast was here)"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": "Empty (Classic Burning Soul was here)"
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Scorch",
+          "iconHint": "Horizontal fire blast / Scorch head",
+          "notes": "Leftmost of four; mage/25.png"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Fire Ward",
+          "iconHint": "Shield with flame",
+          "notes": "fix2 shows line down toward Critical Mass path; mage/26.png"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Hot Streak",
+          "iconHint": "Phoenix / winged fire creature / gauntlet",
+          "notes": "fix2.png confirms row3 col2; arrow from row2 col2; mage/27.png"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Master of Elements",
+          "iconHint": "Figure standing in fire",
+          "notes": "mage/28.png"
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Critical Mass",
+          "iconHint": "Curved flaming trail",
+          "notes": "Long arrow down to Combustion row6 col1; mage/29.png"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": "Empty in overview/fix2; Classic Blast Wave slot vacant — Blast Wave tooltip captured but unmatched"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": "Dependency line from Critical Mass passes through"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Fire Power",
+          "iconHint": "Roaring fiery head / flaming hand",
+          "notes": "mage/31.png"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Combustion",
+          "iconHint": "Small bomb / round fire orb",
+          "notes": "Receives arrow from row4 col1; mage/32.png"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
       ]
     },
     {
       "name": "Frost",
       "slots": [
-        { "row": 0, "col": 0, "occupied": true, "guessName": "Frost Warding", "iconHint": "White frost blast / snowflake starburst", "notes": "Green border; leftmost of three; mage/33.png" },
-        { "row": 0, "col": 1, "occupied": true, "guessName": "Improved Frostbolt", "iconHint": "Blue frostbolt projectile", "notes": "Green border; mage/34.png" },
-        { "row": 0, "col": 2, "occupied": true, "guessName": "Elemental Precision", "iconHint": "Blue oval / gem / spark", "notes": "Green border; mage/35.png" },
-        { "row": 0, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 1, "col": 0, "occupied": true, "guessName": "Ice Shards", "iconHint": "Ice block / jagged ice shard", "notes": "mage/36.png" },
-        { "row": 1, "col": 1, "occupied": true, "guessName": "Permafrost", "iconHint": "Frosty shield", "notes": "Forever occupies this slot (Classic Frostbite was here); mage/37.png" },
-        { "row": 1, "col": 2, "occupied": true, "guessName": "Improved Frost Nova", "iconHint": "Upward ice spikes", "notes": "Arrow down to Ice Lance row2 col2; mage/38.png" },
-        { "row": 1, "col": 3, "occupied": true, "guessName": "Frostbite", "iconHint": "Frozen skull / icy face", "notes": "Moved from Classic row1 col1; mage/39.png" },
-        { "row": 2, "col": 0, "occupied": true, "guessName": "Piercing Ice", "iconHint": "Small blue ice shard", "notes": "mage/43.png" },
-        { "row": 2, "col": 1, "occupied": true, "guessName": "Cold Snap", "iconHint": "Blue swirl / portal", "notes": "mage/46.png" },
-        { "row": 2, "col": 2, "occupied": true, "guessName": "Ice Lance", "iconHint": "Frozen sword / ice spear", "notes": "Receives arrow from row1 col2; mage/41.png" },
-        { "row": 2, "col": 3, "occupied": true, "guessName": "Improved Blizzard", "iconHint": "Exploding ice blast / crystal cluster", "notes": "mage/40.png" },
-        { "row": 3, "col": 0, "occupied": true, "guessName": "Frost Channeling", "iconHint": "Head silhouette with frost energy", "notes": "Forever col0 (Classic Arctic Reach was here); mage/42.png" },
-        { "row": 3, "col": 1, "occupied": true, "guessName": "Arctic Reach", "iconHint": "Blue sphere / orb / reaching hand", "notes": "Forever col1 (Classic Frost Channeling was here); mage/44.png" },
-        { "row": 3, "col": 2, "occupied": true, "guessName": null, "iconHint": "Large cluster of ice shards", "notes": "Arrow down to Fingers of Frost row4 col2; no tooltip (Classic Shatter was here — name not screenshot-confirmed)" },
-        { "row": 3, "col": 3, "occupied": true, "guessName": "Shatter", "iconHint": "Snowflake / sunburst frost", "notes": "No tooltip screenshot — Classic Shatter name guessed from icon; Classic was row3 col2" },
-        { "row": 4, "col": 0, "occupied": true, "guessName": "Improved Cone of Cold", "iconHint": "Frosty bird / owl silhouette", "notes": "mage/47.png" },
-        { "row": 4, "col": 1, "occupied": true, "guessName": "Ice Block", "iconHint": "Eye with blue energy / ice ring", "notes": "mage/45.png" },
-        { "row": 4, "col": 2, "occupied": true, "guessName": "Fingers of Frost", "iconHint": "Frozen bird / icy claw hand", "notes": "Receives arrow from row3 col2; mage/49.png" },
-        { "row": 4, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 5, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 5, "col": 1, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 5, "col": 2, "occupied": true, "guessName": "Winter's Chill", "iconHint": "Square frosted shield / ice block", "notes": "mage/48.png" },
-        { "row": 5, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 6, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 6, "col": 1, "occupied": true, "guessName": "Ice Barrier", "iconHint": "Heavy frozen helmet / icy skull crest", "notes": "mage/1.png mage/50.png" },
-        { "row": 6, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
-        { "row": 6, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" }
+        {
+          "row": 0,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Frost Warding",
+          "iconHint": "White frost blast / snowflake starburst",
+          "notes": "Green border; leftmost of three; mage/33.png"
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Frostbolt",
+          "iconHint": "Blue frostbolt projectile",
+          "notes": "Green border; mage/34.png"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Elemental Precision",
+          "iconHint": "Blue oval / gem / spark",
+          "notes": "Green border; mage/35.png"
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Ice Shards",
+          "iconHint": "Ice block / jagged ice shard",
+          "notes": "mage/36.png"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Permafrost",
+          "iconHint": "Frosty shield",
+          "notes": "Forever occupies this slot (Classic Frostbite was here); mage/37.png"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Improved Frost Nova",
+          "iconHint": "Upward ice spikes",
+          "notes": "Arrow down to Ice Lance row2 col2; mage/38.png"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Frostbite",
+          "iconHint": "Frozen skull / icy face",
+          "notes": "Moved from Classic row1 col1; mage/39.png"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Piercing Ice",
+          "iconHint": "Small blue ice shard",
+          "notes": "mage/43.png"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Cold Snap",
+          "iconHint": "Blue swirl / portal",
+          "notes": "mage/46.png"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Ice Lance",
+          "iconHint": "Frozen sword / ice spear",
+          "notes": "Receives arrow from row1 col2; mage/41.png"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Improved Blizzard",
+          "iconHint": "Exploding ice blast / crystal cluster",
+          "notes": "mage/40.png"
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Frost Channeling",
+          "iconHint": "Head silhouette with frost energy",
+          "notes": "Forever col0 (Classic Arctic Reach was here); mage/42.png"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Arctic Reach",
+          "iconHint": "Blue sphere / orb / reaching hand",
+          "notes": "Forever col1 (Classic Frost Channeling was here); mage/44.png"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": null,
+          "iconHint": "Large cluster of ice shards",
+          "notes": "Arrow down to Fingers of Frost row4 col2; no tooltip (Classic Shatter was here — name not screenshot-confirmed)"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Shatter",
+          "iconHint": "Snowflake / sunburst frost",
+          "notes": "No tooltip screenshot — Classic Shatter name guessed from icon; Classic was row3 col2"
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Cone of Cold",
+          "iconHint": "Frosty bird / owl silhouette",
+          "notes": "mage/47.png"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Ice Block",
+          "iconHint": "Eye with blue energy / ice ring",
+          "notes": "mage/45.png"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Fingers of Frost",
+          "iconHint": "Frozen bird / icy claw hand",
+          "notes": "Receives arrow from row3 col2; mage/49.png"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Winter's Chill",
+          "iconHint": "Square frosted shield / ice block",
+          "notes": "mage/48.png"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 0,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Ice Barrier",
+          "iconHint": "Heavy frozen helmet / icy skull crest",
+          "notes": "mage/1.png mage/50.png"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "occupied": false,
+          "guessName": null,
+          "iconHint": null,
+          "notes": ""
+        }
       ]
     }
   ],
   "talents": [
     {
-      "screenshots": ["mage/1.png", "mage/50.png"],
+      "screenshots": [
+        "mage/1.png",
+        "mage/50.png",
+        "mage/brave_HGoDTXrsgK.png"
+      ],
       "name": "Ice Barrier",
       "classicId": 71,
       "tree": "Frost",
@@ -181,7 +787,11 @@
       "diffNotes": "Absorb/text matches talents.json; tooltip also lists 305 mana, Instant, 30 sec cooldown."
     },
     {
-      "screenshots": ["mage/2.png", "mage/11.png"],
+      "screenshots": [
+        "mage/2.png",
+        "mage/11.png",
+        "mage/brave_T2tTs0FeUa.png"
+      ],
       "name": "Arcane Subtlety",
       "classicId": 74,
       "tree": "Arcane",
@@ -203,7 +813,12 @@
       "diffNotes": "Rank 1/2 text matches talents.json foundation."
     },
     {
-      "screenshots": ["mage/3.png", "mage/9.png"],
+      "screenshots": [
+        "mage/3.png",
+        "mage/9.png",
+        "mage/brave_J9rRyzQk79.png",
+        "mage/brave_TIEp4cj6t8.png"
+      ],
       "name": "Arcane Concentration",
       "classicId": 75,
       "tree": "Arcane",
@@ -229,7 +844,11 @@
       "diffNotes": "Clearcasting percentages match talents.json 2/4/6/8/10%."
     },
     {
-      "screenshots": ["mage/4.png"],
+      "screenshots": [
+        "mage/4.png",
+        "mage/brave_GZDS2XDOU5.png",
+        "mage/brave_NzGmtaLf3c.png"
+      ],
       "name": "Wand Specialization",
       "classicId": 78,
       "tree": "Arcane",
@@ -247,7 +866,12 @@
       "diffNotes": "Matches Classic rank 1 (13%)."
     },
     {
-      "screenshots": ["mage/5.png", "mage/10.png"],
+      "screenshots": [
+        "mage/5.png",
+        "mage/10.png",
+        "mage/brave_gOYp8QnUvi.png",
+        "mage/brave_W7lXK0yJgA.png"
+      ],
       "name": "Magic Absorption",
       "classicId": 1650,
       "tree": "Arcane",
@@ -265,7 +889,13 @@
       "diffNotes": "Matches Classic rank 1 text."
     },
     {
-      "screenshots": ["mage/6.png", "mage/18.png", "mage/20.png"],
+      "screenshots": [
+        "mage/6.png",
+        "mage/18.png",
+        "mage/20.png",
+        "mage/brave_9WT9Oo2vx6.png",
+        "mage/brave_RNkBGt9wF9.png"
+      ],
       "name": "Arcane Mind",
       "classicId": 77,
       "tree": "Arcane",
@@ -291,7 +921,11 @@
       "diffNotes": "Matches Classic Intellect % and Arcane crit-damage bonus progression."
     },
     {
-      "screenshots": ["mage/7.png", "mage/21.png"],
+      "screenshots": [
+        "mage/7.png",
+        "mage/21.png",
+        "mage/brave_M6XL88kdTn.png"
+      ],
       "name": "Arcane Instability",
       "classicId": 421,
       "tree": "Arcane",
@@ -313,7 +947,10 @@
       "diffNotes": "Rank 1/3 wording matches talents.json foundation."
     },
     {
-      "screenshots": ["mage/8.png"],
+      "screenshots": [
+        "mage/8.png",
+        "mage/brave_E8KfypWiT5.png"
+      ],
       "name": "Arcane Resilience",
       "classicId": 85,
       "tree": "Arcane",
@@ -331,7 +968,11 @@
       "diffNotes": "Classic maxRank 1 at row2 col2. Forever maxRank 2 at row2 col3; rank-1 armor text unchanged."
     },
     {
-      "screenshots": ["mage/12.png"],
+      "screenshots": [
+        "mage/12.png",
+        "mage/brave_AvxLZRviJu.png",
+        "mage/brave_hcdszJmi87.png"
+      ],
       "name": "Arcane Geometry",
       "classicId": null,
       "tree": "Arcane",
@@ -349,7 +990,10 @@
       "diffNotes": "No Classic name match. Occupies former Magic Attunement slot; distinct from Amplify/Dampen attunement."
     },
     {
-      "screenshots": ["mage/13.png"],
+      "screenshots": [
+        "mage/13.png",
+        "mage/brave_BeeM8Kf1dH.png"
+      ],
       "name": "Arcane Impact",
       "classicId": 81,
       "tree": "Arcane",
@@ -367,7 +1011,10 @@
       "diffNotes": "Rank-1 text matches Classic. Classic ranks 2–3 were Arcane Explosion-specific; Forever ranks 2–3 not captured."
     },
     {
-      "screenshots": ["mage/14.png"],
+      "screenshots": [
+        "mage/14.png",
+        "mage/brave_pgOaFbV8Ai.png"
+      ],
       "name": "Arcane Shielding",
       "classicId": 83,
       "tree": "Arcane",
@@ -385,7 +1032,10 @@
       "diffNotes": "Matches talents.json Arcane Shielding rank 1 text."
     },
     {
-      "screenshots": ["mage/15.png"],
+      "screenshots": [
+        "mage/15.png",
+        "mage/brave_iq9WkGdOaF.png"
+      ],
       "name": "Improved Counterspell",
       "classicId": 88,
       "tree": "Arcane",
@@ -403,7 +1053,10 @@
       "diffNotes": "Rank 1 silence duration matches talents.json rank 1."
     },
     {
-      "screenshots": ["mage/16.png"],
+      "screenshots": [
+        "mage/16.png",
+        "mage/brave_SjSyV7ZcD4.png"
+      ],
       "name": "Arcane Meditation",
       "classicId": 1142,
       "tree": "Arcane",
@@ -421,7 +1074,10 @@
       "diffNotes": "Rank 1 17% matches talents.json foundation rank 1."
     },
     {
-      "screenshots": ["mage/17.png"],
+      "screenshots": [
+        "mage/17.png",
+        "mage/O2NJQmcycc.jpg"
+      ],
       "name": "Missile Barrage",
       "classicId": null,
       "tree": "Arcane",
@@ -439,7 +1095,12 @@
       "diffNotes": "No Classic name match. Mentions Arcane Blast / Frostfire Bolt."
     },
     {
-      "screenshots": ["mage/19.png"],
+      "screenshots": [
+        "mage/19.png",
+        "mage/brave_knGLeNrfMZ.png",
+        "mage/brave_qyPVXBGTKX.png",
+        "mage/brave_ussqgrEUNH.png"
+      ],
       "name": "Presence of Mind",
       "classicId": 86,
       "tree": "Arcane",
@@ -459,7 +1120,11 @@
       "diffNotes": "Effect text matches Classic; tooltip shows Instant / 3 min cooldown."
     },
     {
-      "screenshots": ["mage/fix1.png"],
+      "screenshots": [
+        "mage/fix1.png",
+        "mage/brave_dhN9RyhkVa.png",
+        "mage/brave_fWi9iK6evW.png"
+      ],
       "name": "Improved Channeling",
       "classicId": null,
       "tree": "Arcane",
@@ -477,7 +1142,10 @@
       "diffNotes": "No Classic name match (replaces Improved Arcane Missiles slot). Adds Arcane Blast pushback resist; Classic IAM was Missiles-only."
     },
     {
-      "screenshots": ["mage/22.png"],
+      "screenshots": [
+        "mage/22.png",
+        "mage/brave_9Gq3JCzwjz.png"
+      ],
       "name": "Wake of Fire",
       "classicId": null,
       "tree": "Fire",
@@ -495,7 +1163,9 @@
       "diffNotes": "No Classic name match. Tier-1 Fire slot (overview maxRank-2 badge on row0 col2)."
     },
     {
-      "screenshots": ["mage/23.png"],
+      "screenshots": [
+        "mage/23.png"
+      ],
       "name": "Pyroblast",
       "classicId": 29,
       "tree": "Fire",
@@ -516,7 +1186,9 @@
       "diffNotes": "Damage/cast values match talents.json; Forever layout moved to row2 col1 (Classic row2 col2)."
     },
     {
-      "screenshots": ["mage/24.png"],
+      "screenshots": [
+        "mage/24.png"
+      ],
       "name": "Burning Soul",
       "classicId": 23,
       "tree": "Fire",
@@ -534,7 +1206,9 @@
       "diffNotes": "Classic maxRank 2 at row2 col3. Forever maxRank 3 at row2 col0; rank-1 values match."
     },
     {
-      "screenshots": ["mage/25.png"],
+      "screenshots": [
+        "mage/25.png"
+      ],
       "name": "Improved Scorch",
       "classicId": 25,
       "tree": "Fire",
@@ -552,7 +1226,9 @@
       "diffNotes": "Rank 1 text matches talents.json foundation."
     },
     {
-      "screenshots": ["mage/26.png"],
+      "screenshots": [
+        "mage/26.png"
+      ],
       "name": "Improved Fire Ward",
       "classicId": 24,
       "tree": "Fire",
@@ -570,7 +1246,11 @@
       "diffNotes": "Matches Classic rank 1."
     },
     {
-      "screenshots": ["mage/27.png", "mage/fix2.png"],
+      "screenshots": [
+        "mage/27.png",
+        "mage/fix2.png",
+        "mage/brave_EHClz5yETV.png"
+      ],
       "name": "Hot Streak",
       "classicId": null,
       "tree": "Fire",
@@ -588,7 +1268,9 @@
       "diffNotes": "No Classic name match. Stacking Pyroblast cast-time reduction."
     },
     {
-      "screenshots": ["mage/28.png"],
+      "screenshots": [
+        "mage/28.png"
+      ],
       "name": "Master of Elements",
       "classicId": 1639,
       "tree": "Fire",
@@ -606,7 +1288,9 @@
       "diffNotes": "Matches Classic rank 1 refund value."
     },
     {
-      "screenshots": ["mage/29.png"],
+      "screenshots": [
+        "mage/29.png"
+      ],
       "name": "Critical Mass",
       "classicId": 33,
       "tree": "Fire",
@@ -624,7 +1308,9 @@
       "diffNotes": "Matches Classic rank 1."
     },
     {
-      "screenshots": ["mage/30.png"],
+      "screenshots": [
+        "mage/30.png"
+      ],
       "name": "Blast Wave",
       "classicId": 32,
       "tree": "Fire",
@@ -645,7 +1331,9 @@
       "diffNotes": "Tooltip text matches talents.json, but overview/fix2 leave Classic row4 col2 empty — Forever layout position unmatched."
     },
     {
-      "screenshots": ["mage/31.png"],
+      "screenshots": [
+        "mage/31.png"
+      ],
       "name": "Fire Power",
       "classicId": 35,
       "tree": "Fire",
@@ -663,7 +1351,10 @@
       "diffNotes": "Matches Classic rank 1 (+2%)."
     },
     {
-      "screenshots": ["mage/32.png"],
+      "screenshots": [
+        "mage/32.png",
+        "mage/brave_dcKxQqICec.png"
+      ],
       "name": "Combustion",
       "classicId": 36,
       "tree": "Fire",
@@ -683,7 +1374,10 @@
       "diffNotes": "Matches talents.json 4 non-periodic crits wording; tooltip shows Instant / 3 min."
     },
     {
-      "screenshots": ["mage/33.png"],
+      "screenshots": [
+        "mage/33.png",
+        "mage/brave_X4QyWpNshq.png"
+      ],
       "name": "Frost Warding",
       "classicId": 70,
       "tree": "Frost",
@@ -701,7 +1395,10 @@
       "diffNotes": "Matches Classic rank 1."
     },
     {
-      "screenshots": ["mage/34.png"],
+      "screenshots": [
+        "mage/34.png",
+        "mage/brave_UB1EEbUg63.png"
+      ],
       "name": "Improved Frostbolt",
       "classicId": 37,
       "tree": "Frost",
@@ -719,7 +1416,10 @@
       "diffNotes": "Matches Classic rank 1."
     },
     {
-      "screenshots": ["mage/35.png"],
+      "screenshots": [
+        "mage/35.png",
+        "mage/brave_eSJMLDOHoO.png"
+      ],
       "name": "Elemental Precision",
       "classicId": 1649,
       "tree": "Frost",
@@ -737,7 +1437,10 @@
       "diffNotes": "Classic maxRank 3 (R2/R3 resist reduction). Forever maxRank 5 granting +1% hit per rank."
     },
     {
-      "screenshots": ["mage/36.png"],
+      "screenshots": [
+        "mage/36.png",
+        "mage/brave_3AoMbjrK50.png"
+      ],
       "name": "Ice Shards",
       "classicId": 73,
       "tree": "Frost",
@@ -755,7 +1458,10 @@
       "diffNotes": "Matches Classic rank 1."
     },
     {
-      "screenshots": ["mage/37.png"],
+      "screenshots": [
+        "mage/37.png",
+        "mage/brave_xpQJp5WWgs.png"
+      ],
       "name": "Permafrost",
       "classicId": 65,
       "tree": "Frost",
@@ -773,7 +1479,10 @@
       "diffNotes": "Matches Classic rank 1 (11% / +3% slow); Forever places it at row1 col1 (Classic Frostbite slot)."
     },
     {
-      "screenshots": ["mage/38.png"],
+      "screenshots": [
+        "mage/38.png",
+        "mage/brave_4EGKwyxgst.png"
+      ],
       "name": "Improved Frost Nova",
       "classicId": 62,
       "tree": "Frost",
@@ -791,7 +1500,10 @@
       "diffNotes": "Matches Classic rank 1."
     },
     {
-      "screenshots": ["mage/39.png"],
+      "screenshots": [
+        "mage/39.png",
+        "mage/brave_QsyyEMj24g.png"
+      ],
       "name": "Frostbite",
       "classicId": 38,
       "tree": "Frost",
@@ -809,7 +1521,10 @@
       "diffNotes": "Matches Classic rank 1; Forever places it at row1 col3 (not Classic col1)."
     },
     {
-      "screenshots": ["mage/40.png"],
+      "screenshots": [
+        "mage/40.png",
+        "mage/brave_L7ISTOdqQ0.png"
+      ],
       "name": "Improved Blizzard",
       "classicId": 63,
       "tree": "Frost",
@@ -827,7 +1542,10 @@
       "diffNotes": "Matches Classic rank 1 chill values."
     },
     {
-      "screenshots": ["mage/41.png"],
+      "screenshots": [
+        "mage/41.png",
+        "mage/brave_DEOieR80rB.png"
+      ],
       "name": "Ice Lance",
       "classicId": 90004,
       "tree": "Frost",
@@ -848,7 +1566,10 @@
       "diffNotes": "Name/text matches talents.json Ice Lance entry; Forever tree position row2 col2."
     },
     {
-      "screenshots": ["mage/42.png"],
+      "screenshots": [
+        "mage/42.png",
+        "mage/brave_7GKp20Ww66.png"
+      ],
       "name": "Frost Channeling",
       "classicId": 66,
       "tree": "Frost",
@@ -866,7 +1587,10 @@
       "diffNotes": "Matches Classic rank 1; Forever column swapped vs Classic (was col1)."
     },
     {
-      "screenshots": ["mage/43.png"],
+      "screenshots": [
+        "mage/43.png",
+        "mage/brave_XyWFkTCul3.png"
+      ],
       "name": "Piercing Ice",
       "classicId": 61,
       "tree": "Frost",
@@ -884,7 +1608,10 @@
       "diffNotes": "Matches Classic rank 1."
     },
     {
-      "screenshots": ["mage/44.png"],
+      "screenshots": [
+        "mage/44.png",
+        "mage/brave_dfvkuaHGmi.png"
+      ],
       "name": "Arctic Reach",
       "classicId": 741,
       "tree": "Frost",
@@ -902,7 +1629,10 @@
       "diffNotes": "Matches Classic rank 1; Forever column swapped vs Classic (was col0)."
     },
     {
-      "screenshots": ["mage/45.png"],
+      "screenshots": [
+        "mage/45.png",
+        "mage/brave_nNi55dWEEu.png"
+      ],
       "name": "Ice Block",
       "classicId": 72,
       "tree": "Frost",
@@ -923,7 +1653,10 @@
       "diffNotes": "Effect matches Classic; tooltip lists 15 mana, Instant, 5 min cooldown."
     },
     {
-      "screenshots": ["mage/46.png"],
+      "screenshots": [
+        "mage/46.png",
+        "mage/brave_fvRWGSnIGn.png"
+      ],
       "name": "Cold Snap",
       "classicId": 69,
       "tree": "Frost",
@@ -943,7 +1676,10 @@
       "diffNotes": "Effect text matches Classic; Forever tooltip explicitly shows Instant / 10 min cooldown."
     },
     {
-      "screenshots": ["mage/47.png"],
+      "screenshots": [
+        "mage/47.png",
+        "mage/brave_pinRHIJ73g.png"
+      ],
       "name": "Improved Cone of Cold",
       "classicId": 64,
       "tree": "Frost",
@@ -961,7 +1697,10 @@
       "diffNotes": "Matches Classic rank 1 (+12%)."
     },
     {
-      "screenshots": ["mage/48.png"],
+      "screenshots": [
+        "mage/48.png",
+        "mage/brave_rJKW1cWCHO.png"
+      ],
       "name": "Winter's Chill",
       "classicId": 68,
       "tree": "Frost",
@@ -979,7 +1718,10 @@
       "diffNotes": "Rank 1 text matches talents.json foundation (Ice Lance/Frostbolt; stacks up to 1)."
     },
     {
-      "screenshots": ["mage/49.png"],
+      "screenshots": [
+        "mage/49.png",
+        "mage/brave_gDw85mrWEF.png"
+      ],
       "name": "Fingers of Frost",
       "classicId": 90010,
       "tree": "Frost",
@@ -995,16 +1737,106 @@
       "iconHint": "Pale blue/grey icy claw / three-fingered hand; arrow from above",
       "status": "unchanged",
       "diffNotes": "Matches talents.json Fingers of Frost entry; Forever position row4 col2 under Ice Lance chain."
+    },
+    {
+      "screenshots": [
+        "mage/brave_b7jBjMmeQ3.png",
+        "mage/brave_tr3J1RaHYj.png"
+      ],
+      "name": "Arcane Focus",
+      "classicId": 76,
+      "tree": "Arcane",
+      "row": 0,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your chance to hit with your Arcane spells by 1%."
+        }
+      ],
+      "iconHint": "Purple figure / swirling focus energy",
+      "status": "updated",
+      "diffNotes": "Classic: resist reduction 2%/rank. Forever: +1% hit with Arcane spells per rank (same pattern as Elemental Precision hit conversion)."
+    },
+    {
+      "screenshots": [
+        "mage/brave_4Ntj8pV1e3.png",
+        "mage/brave_92KLRTDv0f.png"
+      ],
+      "name": "Arcane Power",
+      "classicId": 87,
+      "tree": "Arcane",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "For the next 15 sec, your spells deal 30% more damage while costing 30% more mana to cast.",
+          "castTime": "Instant",
+          "cooldown": "3 min"
+        }
+      ],
+      "iconHint": "Zig-zag / radiating arcane energy hand",
+      "status": "updated",
+      "diffNotes": "Wording differs slightly from Classic ('When activated...'); same 30%/30%/15s. Tooltip shows Instant + 3 min cooldown."
+    },
+    {
+      "screenshots": [
+        "mage/brave_nVqSnzi9VK.png"
+      ],
+      "name": "Arcane Blast",
+      "classicId": null,
+      "tree": "Arcane",
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Blasts the target with energy, dealing 95 to 104 Arcane damage. Each time you cast Arcane Blast, the damage of all your other spells is increased by 10% and the mana cost of Arcane Blast is increased by 175%. Effect stacks up to 4 times and lasts 8 sec or until any other damage spell is cast.",
+          "mana": 122,
+          "castTime": "2.5 sec",
+          "range": "30 yd"
+        }
+      ],
+      "iconHint": "Purple arcane blast orb / energy blast",
+      "status": "new",
+      "diffNotes": "Forever spell-talent not in Classic calculator. POSITION UNRESOLVED: tooltip crop suggests mid-Arcane under a vertical chain that scrape currently assigns to Missile Barrage (r3c2). Do not merge row/col until icon under cursor is reconciled with mage/17.png Missile Barrage."
+    },
+    {
+      "screenshots": [
+        "mage/brave_rIBDLFJIo6.png"
+      ],
+      "name": "Incineration",
+      "classicId": 1141,
+      "tree": "Fire",
+      "row": 1,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical strike chance of your Fire Blast, Ice Lance, Arcane Blast, and Scorch spells by 2%."
+        }
+      ],
+      "iconHint": "Focused flame / incinerate blast",
+      "status": "new",
+      "diffNotes": "Replaces Classic Incinerate (maxRank 2; Fire Blast+Scorch only). Forever renamed Incineration, maxRank 3, adds Ice Lance + Arcane Blast. Slot guessed as Fire row1 col2 pending layout confirm."
     }
   ],
   "unmatchedScreenshots": [],
   "layoutNotes": [
     "Layout from overview.png; fix1.png confirms Arcane spent build (empty row2 col2, Improved Channeling at row0 col2); fix2.png confirms Hot Streak at Fire row3 col2.",
+    "brave_* / O2NJQmcycc.jpg (2026-09-12 evening) add many previously missing tooltips; overview duplicate brave_WLA8Rd7rKX.png.",
     "Primary tab, 29 unspent on overview; Secondary locked.",
-    "Arcane: Improved Channeling replaces Improved Arcane Missiles. Arcane Geometry replaces Magic Attunement. Missile Barrage under Concentration arrow. Extra unnamed occupied slot at row1 col3. Capstone Presence of Mind → Arcane Power.",
-    "Fire: Tier-1 Improved Fireball / Impact / Wake of Fire. Hot Streak under Improved Flamestrike. Capstone Critical Mass → Combustion. Blast Wave tooltip exists but Classic row4 col2 empty in Forever — row/col null.",
+    "Arcane: Improved Channeling replaces Improved Arcane Missiles. Arcane Geometry replaces Magic Attunement. Missile Barrage under Concentration arrow (mage/17). Extra unnamed occupied slot at row1 col3 still no tooltip. Capstone Presence of Mind → Arcane Power (tooltip now captured).",
+    "NEW conflict: Arcane Blast spell-talent tooltip (brave_nVqSnzi9VK.png) vs Missile Barrage at same claimed chain slot — row/col left null until reconciled.",
+    "Fire: Tier-1 Improved Fireball / Impact / Wake of Fire (VERIFY order — Wake crops may show leftmost). Hot Streak under Improved Flamestrike. Capstone Critical Mass → Combustion. Blast Wave tooltip exists but Classic row4 col2 empty in Forever — row/col null.",
+    "Fire: Incineration (brave_rIBDLFJIo6) Forever-new/renamed vs Classic Incinerate; maxRank 3; guessed row1 col2.",
     "Frost: Frostbite at row1 col3; Permafrost at row1 col1. Ice Lance row2 col2; Fingers of Frost row4 col2. Frost Channeling/Arctic Reach columns swapped vs Classic. Row3 col2 occupied unnamed (no Shatter tooltip); Shatter guessed at row3 col3 from icon only.",
-    "No tooltip screenshots for: Arcane Focus, Arcane Power, Improved Fireball, Impact, Ignite, Improved Fire Blast, Incinerate, Improved Flamestrike, Shatter (and unnamed Arcane row1 col3 / Frost row3 col2). Those remain guessName-only or null in trees.slots.",
-    "All mage/1.png–50.png plus mage/fix1.png and mage/fix2.png are listed under talents[].screenshots."
+    "Still no tooltip screenshots for: Ignite, Improved Fireball, Impact, Improved Fire Blast, Improved Flamestrike, Shatter, Arcane row1 col3 unnamed.",
+    "Arcane Focus Forever text is +hit (updated). Elemental Precision already scraped as +hit maxRank 5."
   ]
 }
