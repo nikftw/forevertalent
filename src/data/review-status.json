@@ -190,78 +190,104 @@
   "128": {
     "review": "updated",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "138": {
     "review": "updated",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "140": {
     "review": "unchanged",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "142": {
     "review": "updated",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "144": {
     "review": "updated",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "146": {
     "review": "unchanged",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "147": {
     "review": "updated",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "148": {
     "review": "updated",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "149": {
     "review": "unchanged",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "150": {
     "review": "updated",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "151": {
     "review": "updated",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "152": {
     "review": "unchanged",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "153": {
     "review": "unchanged",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
@@ -521,6 +547,8 @@
   "1601": {
     "review": "updated",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
@@ -594,30 +622,40 @@
   "90005": {
     "review": "new",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "90006": {
     "review": "new",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "90007": {
     "review": "new",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "90008": {
     "review": "new",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
   "90009": {
     "review": "new",
     "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
       "warrior/image.png"
     ]
   },
@@ -1231,5 +1269,939 @@
     "screenshots": [
       "druid/2.png"
     ]
+  },
+  "563": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/1.png"
+    ]
+  },
+  "564": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/2.png"
+    ]
+  },
+  "561": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/3.png",
+      "shaman/17.png",
+      "shaman/34.png"
+    ]
+  },
+  "90070": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/41.png"
+    ]
+  },
+  "1640": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/19.png",
+      "shaman/20.png",
+      "shaman/36.png"
+    ]
+  },
+  "575": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/18.png",
+      "shaman/35.png"
+    ]
+  },
+  "574": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/21.png",
+      "shaman/37.png"
+    ]
+  },
+  "562": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/27.png",
+      "shaman/42.png"
+    ]
+  },
+  "1645": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/16.png"
+    ]
+  },
+  "567": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/24.png",
+      "shaman/39.png"
+    ]
+  },
+  "90071": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/42.png"
+    ]
+  },
+  "565": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/22.png",
+      "shaman/38.png"
+    ]
+  },
+  "1641": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/25.png",
+      "shaman/40.png"
+    ]
+  },
+  "90072": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/45.png"
+    ]
+  },
+  "1642": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/23.png"
+    ]
+  },
+  "90073": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/40.png"
+    ]
+  },
+  "609": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/12.png",
+      "shaman/29.png",
+      "shaman/44.png"
+    ]
+  },
+  "90074": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/46.png"
+    ]
+  },
+  "601": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/48.png"
+    ]
+  },
+  "605": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/13.png",
+      "shaman/31.png",
+      "shaman/46.png"
+    ]
+  },
+  "90075": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/49.png"
+    ]
+  },
+  "607": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/47.png"
+    ]
+  },
+  "615": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/11.png",
+      "shaman/51.png"
+    ]
+  },
+  "90076": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/18.png",
+      "warlock/52.png"
+    ]
+  },
+  "602": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/52.png"
+    ]
+  },
+  "901": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/14.png"
+    ]
+  },
+  "90077": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/23.png"
+    ]
+  },
+  "90078": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/32.png"
+    ]
+  },
+  "611": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/50.png"
+    ]
+  },
+  "90079": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/29.png"
+    ]
+  },
+  "90080": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/30.png"
+    ]
+  },
+  "586": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/57.png"
+    ]
+  },
+  "593": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/61.png"
+    ]
+  },
+  "90081": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/28.png"
+    ]
+  },
+  "1646": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/60.png"
+    ]
+  },
+  "587": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/64.png"
+    ]
+  },
+  "581": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/63.png"
+    ]
+  },
+  "595": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/68.png"
+    ]
+  },
+  "589": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/62.png"
+    ]
+  },
+  "594": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/58.png"
+    ]
+  },
+  "90082": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/24.png"
+    ]
+  },
+  "1648": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/69.png"
+    ]
+  },
+  "590": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/66.png"
+    ]
+  },
+  "588": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/67.png"
+    ]
+  },
+  "591": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/70.png"
+    ]
+  },
+  "592": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/71.png"
+    ]
+  },
+  "90083": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/22.png"
+    ]
+  },
+  "1007": {
+    "review": "unchanged",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/39.png"
+    ]
+  },
+  "1005": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/38.png"
+    ]
+  },
+  "1003": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/37.png"
+    ]
+  },
+  "1001": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/44.png"
+    ]
+  },
+  "1061": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/43.png"
+    ]
+  },
+  "1002": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/47.png"
+    ]
+  },
+  "1041": {
+    "review": "unchanged",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/50.png"
+    ]
+  },
+  "1081": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/48.png"
+    ]
+  },
+  "1042": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/51.png"
+    ]
+  },
+  "1222": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/35.png"
+    ]
+  },
+  "1223": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/34.png"
+    ]
+  },
+  "1225": {
+    "review": "unchanged",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/31.png"
+    ]
+  },
+  "1226": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/27.png"
+    ]
+  },
+  "1281": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/25.png"
+    ]
+  },
+  "1262": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/33.png"
+    ]
+  },
+  "1227": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/26.png"
+    ]
+  },
+  "1224": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/36.png"
+    ]
+  },
+  "1244": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/19.png"
+    ]
+  },
+  "90084": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/20.png"
+    ]
+  },
+  "90085": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/17.png"
+    ]
+  },
+  "1282": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/21.png"
+    ]
+  },
+  "964": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/3.png"
+    ]
+  },
+  "944": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/2.png"
+    ]
+  },
+  "982": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/6.png"
+    ]
+  },
+  "90086": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/4.png"
+    ]
+  },
+  "943": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/1.png"
+    ]
+  },
+  "941": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/5.png"
+    ]
+  },
+  "963": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/7.png"
+    ]
+  },
+  "967": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/8.png"
+    ]
+  },
+  "90087": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/9.png"
+    ]
+  },
+  "985": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/10.png"
+    ]
+  },
+  "986": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/14.png"
+    ]
+  },
+  "90088": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/16.png"
+    ]
+  },
+  "968": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/11.png"
+    ]
+  },
+  "90089": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/12.png"
+    ]
+  },
+  "90090": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/15.png"
+    ]
+  },
+  "90091": {
+    "review": "new",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/13.png"
+    ]
+  },
+  "124": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/1.png"
+    ]
+  },
+  "130": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/2.png"
+    ]
+  },
+  "127": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/3.png"
+    ]
+  },
+  "641": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/4.png",
+      "warrior/6.png"
+    ]
+  },
+  "126": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/5.png",
+      "warrior/7.png"
+    ]
+  },
+  "131": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/9.png"
+    ]
+  },
+  "137": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/8.png"
+    ]
+  },
+  "662": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/11.png"
+    ]
+  },
+  "90011": {
+    "review": "new",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/12.png"
+    ]
+  },
+  "136": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/10.png"
+    ]
+  },
+  "90012": {
+    "review": "new",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/14.png"
+    ]
+  },
+  "133": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/13.png"
+    ]
+  },
+  "90013": {
+    "review": "new",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/15.png"
+    ]
+  },
+  "168": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/16.png"
+    ]
+  },
+  "129": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/17.png"
+    ]
+  },
+  "135": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/18.png"
+    ]
+  },
+  "158": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/19.png"
+    ]
+  },
+  "157": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/20.png"
+    ]
+  },
+  "141": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/21.png"
+    ]
+  },
+  "159": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/22.png"
+    ]
+  },
+  "166": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/26.png"
+    ]
+  },
+  "160": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/25.png"
+    ]
+  },
+  "661": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/24.png"
+    ]
+  },
+  "90014": {
+    "review": "new",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/23.png"
+    ]
+  },
+  "1581": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/27.png"
+    ]
+  },
+  "165": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/32.png"
+    ]
+  },
+  "155": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/29.png"
+    ]
+  },
+  "1542": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/30.png"
+    ]
+  },
+  "90015": {
+    "review": "new",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/28.png"
+    ]
+  },
+  "90016": {
+    "review": "new",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/33.png"
+    ]
+  },
+  "1543": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/31.png"
+    ]
+  },
+  "1541": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/34.png"
+    ]
+  },
+  "156": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/35.png"
+    ]
+  },
+  "167": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/36.png"
+    ]
+  },
+  "121": {
+    "review": "classic",
+    "screenshots": [
+      "warrior/overview-rend.png",
+      "warrior/overview.png"
+    ],
+    "notes": "Absent from Forever overview (Deep Wounds)"
+  },
+  "132": {
+    "review": "classic",
+    "screenshots": [
+      "warrior/overview-rend.png",
+      "warrior/overview.png"
+    ],
+    "notes": "Absent from Forever overview (Axe Specialization)"
+  },
+  "125": {
+    "review": "classic",
+    "screenshots": [
+      "warrior/overview-rend.png",
+      "warrior/overview.png"
+    ],
+    "notes": "Absent from Forever overview (Mace Specialization)"
+  },
+  "123": {
+    "review": "classic",
+    "screenshots": [
+      "warrior/overview-rend.png",
+      "warrior/overview.png"
+    ],
+    "notes": "Absent from Forever overview (Sword Specialization)"
+  },
+  "134": {
+    "review": "classic",
+    "screenshots": [
+      "warrior/overview-rend.png",
+      "warrior/overview.png"
+    ],
+    "notes": "Absent from Forever overview (Polearm Specialization)"
+  },
+  "161": {
+    "review": "classic",
+    "screenshots": [
+      "warrior/overview-rend.png",
+      "warrior/overview.png"
+    ],
+    "notes": "Absent from Forever overview (Improved Demoralizing Shout)"
+  },
+  "154": {
+    "review": "classic",
+    "screenshots": [
+      "warrior/overview-rend.png",
+      "warrior/overview.png"
+    ],
+    "notes": "Absent from Forever overview (Improved Battle Shout)"
   }
 }

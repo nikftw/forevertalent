@@ -867,7 +867,7 @@
       "iconHint": "Hand grasping lightning",
       "classicId": 562,
       "status": "updated",
-      "diffNotes": "maxRank 5\u21921; Classic R1 was +1% crit (per rank)."
+      "diffNotes": "maxRank 5→1; Classic R1 was +1% crit (per rank)."
     },
     {
       "screenshots": [
@@ -955,7 +955,7 @@
       "iconHint": "Mountain peaks on yellow",
       "classicId": 565,
       "status": "updated",
-      "diffNotes": "maxRank 1\u21925; Classic was +100% crit damage at 1 rank; Forever +20%/rank and omits Fire Nova Totem wording."
+      "diffNotes": "maxRank 1→5; Classic was +100% crit damage at 1 rank; Forever +20%/rank and omits Fire Nova Totem wording."
     },
     {
       "screenshots": [
@@ -1107,7 +1107,7 @@
       "iconHint": "Bearded face/mask; green border",
       "classicId": 601,
       "status": "updated",
-      "diffNotes": "maxRank 5\u21923; Classic R1 was +1% dodge."
+      "diffNotes": "maxRank 5→3; Classic R1 was +1% dodge."
     },
     {
       "screenshots": [
@@ -1476,7 +1476,7 @@
       "iconHint": "Feather/wing/hand",
       "classicId": 587,
       "status": "updated",
-      "diffNotes": "maxRank 5\u21923; Classic R1 was 14% chance."
+      "diffNotes": "maxRank 5→3; Classic R1 was 14% chance."
     },
     {
       "screenshots": [
@@ -1560,7 +1560,7 @@
       "iconHint": "Water/tide icon",
       "classicId": 594,
       "status": "updated",
-      "diffNotes": "Classic also buffed lightning spell crit; Forever healing spells only. Slot from overview (not r0 cloudy \u2014 that is Tidal Focus)."
+      "diffNotes": "Classic also buffed lightning spell crit; Forever healing spells only. Slot from overview (not r0 cloudy — that is Tidal Focus)."
     },
     {
       "screenshots": [
@@ -1721,15 +1721,17 @@
   ],
   "unmatchedScreenshots": [],
   "layoutNotes": [
-    "overview.png is sole 4\u00d77 layout authority for Elemental / Enhancement / Restoration. Classic row/col ignored.",
+    "overview.png is sole 4×7 layout authority for Elemental / Enhancement / Restoration. Classic row/col ignored.",
     "Directory public/shaman/: overview.png + numbered PNGs. Missing 10.png and 32.png. Extra 100.png = Mental Dexterity (dup of 30/45).",
     "Duplicate content: 20=19, 31=13, 33=15, 34=17, 35=18, 36=19, 37=21, 38=22, 39=24, 40=25, 41=26, 42=27, 43=28, 44=29, 45=30; 73=Water Shield with 65.",
     "Elemental r0c3 Call of Flame often hidden under Concussion tooltip on overview; confirmed via shaman/3.png.",
-    "Elemental r5c2 occupied on overview (Eye of the Storm column) but no tooltip PNG \u2014 left unnamed, no invented text.",
-    "Enhancement r2c0/c2/c3 occupied on overview but no tooltip PNGs matched \u2014 left unnamed.",
+    "Elemental r5c2 occupied on overview (Eye of the Storm column) but no tooltip PNG — left unnamed, no invented text.",
+    "Enhancement r2c0/c2/c3 occupied on overview but no tooltip PNGs matched — left unnamed.",
     "Enhancement Flurry placed at r3c1 (claw-mark icon on overview), not r2c2.",
     "Restoration r0 cloudy slot = Tidal Focus (61.png beside Improved Healing Wave). Tidal Mastery (58.png) at r2c2.",
-    "classicId by exact Classic name (Natural Grace\u2192Healing Grace id 1646; Improved Fire Nova\u2190Improved Fire Totems id 567; Elemental Reach\u2190Storm Reach id 1641). Status from R1 text/maxRank compare.",
-    "Only rank-0 hover (rank-1 preview) captured for multi-rank talents."
+    "classicId by exact Classic name (Natural Grace→Healing Grace id 1646; Improved Fire Nova←Improved Fire Totems id 567; Elemental Reach←Storm Reach id 1641). Status from R1 text/maxRank compare.",
+    "Only rank-0 hover (rank-1 preview) captured for multi-rank talents.",
+    "Merged into talents.json (Shaman only). Forever-new ids 90070–90083. Unnamed occupied slots left empty (no invented tooltips).",
+    "NEED BETTER OVERVIEW: clean Elemental shot without Concussion tooltip covering r0c3; tooltip crops for Elemental r5c2 and Enhancement r2c0/c2/c3."
   ]
 }
