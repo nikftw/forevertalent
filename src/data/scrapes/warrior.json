@@ -1,6 +1,6 @@
 {
   "class": "warrior",
-  "overviewFile": "warrior/overview.png",
+  "overviewFile": "warrior/overview-rend.png",
   "trees": [
     {
       "name": "Arms",
@@ -1845,6 +1845,7 @@
     "warrior/37.png — identical to overview.png (MD5 match); not a tooltip"
   ],
   "layoutNotes": [
+    "Layout authority: overview-rend.png (clearer full tree; Imp Rend tooltip at Arms r0c2) + overview.png (spent Fury). image.png is Protection tooltip collage only.",
     "overview.png is the 3-tree layout (Arms / Fury / Protection). image.png is Protection-only tooltip collage.",
     "Numbered 1–18 Arms (duplicates: 4=6 Improved Tactical Mastery, 5=7 Improved Charge). 19–36 Fury. 37=overview duplicate.",
     "Rows/cols are 0-indexed on a 4×7 grid per tree.",

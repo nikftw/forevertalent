@@ -1085,7 +1085,12 @@
               "col": 2,
               "icon": "ability_warrior_revenge",
               "maxRank": 3,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 140,
+                  "qty": 5
+                }
+              ],
               "name": "Improved Revenge",
               "ranks": [
                 {
@@ -2598,32 +2603,32 @@
               "icon": "spell_nature_ravenform",
               "maxRank": 5,
               "requires": [],
-              "name": "Improved Aspect of the Hawk",
+              "name": "Deadly Aspects",
               "ranks": [
                 {
                   "spellId": 19552,
-                  "name": "Improved Aspect of the Hawk",
-                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 1% chance of increasing ranged attack speed by 30% for 12 sec."
+                  "name": "Deadly Aspects",
+                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 2% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 2% chance of increasing melee attack speed by 30% for 12 sec."
                 },
                 {
                   "spellId": 19553,
-                  "name": "Improved Aspect of the Hawk",
-                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 2% chance of increasing ranged attack speed by 30% for 12 sec."
+                  "name": "Deadly Aspects",
+                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 4% chance of increasing ranged attack speed by 60% for 24 sec. While Aspect of the Beast is active, all melee auto attacks have a 4% chance of increasing melee attack speed by 60% for 24 sec."
                 },
                 {
                   "spellId": 19554,
-                  "name": "Improved Aspect of the Hawk",
-                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 3% chance of increasing ranged attack speed by 30% for 12 sec."
+                  "name": "Deadly Aspects",
+                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 6% chance of increasing ranged attack speed by 90% for 36 sec. While Aspect of the Beast is active, all melee auto attacks have a 6% chance of increasing melee attack speed by 90% for 36 sec."
                 },
                 {
                   "spellId": 19555,
-                  "name": "Improved Aspect of the Hawk",
-                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 4% chance of increasing ranged attack speed by 30% for 12 sec."
+                  "name": "Deadly Aspects",
+                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 8% chance of increasing ranged attack speed by 120% for 48 sec. While Aspect of the Beast is active, all melee auto attacks have a 8% chance of increasing melee attack speed by 120% for 48 sec."
                 },
                 {
                   "spellId": 19556,
-                  "name": "Improved Aspect of the Hawk",
-                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 5% chance of increasing ranged attack speed by 30% for 12 sec."
+                  "name": "Deadly Aspects",
+                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 10% chance of increasing ranged attack speed by 150% for 60 sec. While Aspect of the Beast is active, all melee auto attacks have a 10% chance of increasing melee attack speed by 150% for 60 sec."
                 }
               ]
             },
@@ -2639,84 +2644,69 @@
                 {
                   "spellId": 19583,
                   "name": "Endurance Training",
-                  "description": "Increases the Health of your pets by 3%."
+                  "description": "Increases the Health and Armor of your pets by 3%."
                 },
                 {
                   "spellId": 19584,
                   "name": "Endurance Training",
-                  "description": "Increases the Health of your pets by 6%."
+                  "description": "Increases the Health and Armor of your pets by 6%."
                 },
                 {
                   "spellId": 19585,
                   "name": "Endurance Training",
-                  "description": "Increases the Health of your pets by 9%."
+                  "description": "Increases the Health and Armor of your pets by 9%."
                 },
                 {
                   "spellId": 19586,
                   "name": "Endurance Training",
-                  "description": "Increases the Health of your pets by 12%."
+                  "description": "Increases the Health and Armor of your pets by 12%."
                 },
                 {
                   "spellId": 19587,
                   "name": "Endurance Training",
-                  "description": "Increases the Health of your pets by 15%."
+                  "description": "Increases the Health and Armor of your pets by 15%."
                 }
               ]
             },
             {
-              "id": 1624,
+              "id": 90105,
               "row": 1,
               "col": 0,
-              "icon": "ability_eyeoftheowl",
+              "icon": "ability_hunter_focusedaim",
               "maxRank": 2,
               "requires": [],
-              "name": "Improved Eyes of the Beast",
+              "name": "Focused Fire",
               "ranks": [
                 {
-                  "spellId": 19557,
-                  "name": "Improved Eyes of the Beast",
-                  "description": "Increases the duration of your Eyes of the Beast by 30 sec."
+                  "spellId": 901050,
+                  "name": "Focused Fire",
+                  "description": "Increases all damage you deal by 1% while your pet is active."
                 },
                 {
-                  "spellId": 19558,
-                  "name": "Improved Eyes of the Beast",
-                  "description": "Increases the duration of your Eyes of the Beast by 60 sec."
+                  "spellId": 901051,
+                  "name": "Focused Fire",
+                  "description": "Increases all damage you deal by 2% while your pet is active."
                 }
               ]
             },
             {
-              "id": 1381,
+              "id": 1384,
               "row": 1,
               "col": 1,
-              "icon": "ability_hunter_aspectofthemonkey",
-              "maxRank": 5,
+              "icon": "ability_mount_jungletiger",
+              "maxRank": 2,
               "requires": [],
-              "name": "Improved Aspect of the Monkey",
+              "name": "Pathfinding",
               "ranks": [
                 {
-                  "spellId": 19549,
-                  "name": "Improved Aspect of the Monkey",
-                  "description": "Increases the Dodge bonus of your Aspect of the Monkey by 1%."
+                  "spellId": 19559,
+                  "name": "Pathfinding",
+                  "description": "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 3%."
                 },
                 {
-                  "spellId": 19550,
-                  "name": "Improved Aspect of the Monkey",
-                  "description": "Increases the Dodge bonus of your Aspect of the Monkey by 2%."
-                },
-                {
-                  "spellId": 19551,
-                  "name": "Improved Aspect of the Monkey",
-                  "description": "Increases the Dodge bonus of your Aspect of the Monkey by 3%."
-                },
-                {
-                  "spellId": 24386,
-                  "name": "Improved Aspect of the Monkey",
-                  "description": "Increases the Dodge bonus of your Aspect of the Monkey by 4%."
-                },
-                {
-                  "spellId": 24387,
-                  "name": "Improved Aspect of the Monkey",
-                  "description": "Increases the Dodge bonus of your Aspect of the Monkey by 5%."
+                  "spellId": 19560,
+                  "name": "Pathfinding",
+                  "description": "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 6%."
                 }
               ]
             },
@@ -2768,27 +2758,6 @@
               ]
             },
             {
-              "id": 1384,
-              "row": 2,
-              "col": 0,
-              "icon": "ability_mount_jungletiger",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Pathfinding",
-              "ranks": [
-                {
-                  "spellId": 19559,
-                  "name": "Pathfinding",
-                  "description": "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 3%."
-                },
-                {
-                  "spellId": 19560,
-                  "name": "Pathfinding",
-                  "description": "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 6%."
-                }
-              ]
-            },
-            {
               "id": 1391,
               "row": 2,
               "col": 1,
@@ -2800,7 +2769,7 @@
                 {
                   "spellId": 19596,
                   "name": "Bestial Swiftness",
-                  "description": "Increases the outdoor movement speed of your pets by 30%."
+                  "description": "Increases the movement speed of your pets by 30%."
                 }
               ]
             },
@@ -2816,48 +2785,43 @@
                 {
                   "spellId": 19616,
                   "name": "Unleashed Fury",
-                  "description": "Increases the damage done by your pets by 4%."
+                  "description": "Increases the damage done by your pets and hawks by 3%."
                 },
                 {
                   "spellId": 19617,
                   "name": "Unleashed Fury",
-                  "description": "Increases the damage done by your pets by 8%."
+                  "description": "Increases the damage done by your pets and hawks by 6%."
                 },
                 {
                   "spellId": 19618,
                   "name": "Unleashed Fury",
-                  "description": "Increases the damage done by your pets by 12%."
+                  "description": "Increases the damage done by your pets and hawks by 9%."
                 },
                 {
                   "spellId": 19619,
                   "name": "Unleashed Fury",
-                  "description": "Increases the damage done by your pets by 16%."
+                  "description": "Increases the damage done by your pets and hawks by 12%."
                 },
                 {
                   "spellId": 19620,
                   "name": "Unleashed Fury",
-                  "description": "Increases the damage done by your pets by 20%."
+                  "description": "Increases the damage done by your pets and hawks by 15%."
                 }
               ]
             },
             {
-              "id": 1385,
+              "id": 90106,
               "row": 3,
-              "col": 1,
-              "icon": "ability_hunter_mendpet",
-              "maxRank": 2,
+              "col": 0,
+              "icon": "ability_hunter_eagleeye",
+              "maxRank": 1,
               "requires": [],
-              "name": "Improved Mend Pet",
+              "name": "Summon Hawk",
               "ranks": [
                 {
-                  "spellId": 19572,
-                  "name": "Improved Mend Pet",
-                  "description": "Gives the Mend Pet spell a 15% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick."
-                },
-                {
-                  "spellId": 19573,
-                  "name": "Improved Mend Pet",
-                  "description": "Gives the Mend Pet spell a 50% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick."
+                  "spellId": 901060,
+                  "name": "Summon Hawk",
+                  "description": "Command a hawk to dive-bomb your targeted enemy, dealing 54 Physical damage and continuing its assault for 18 sec. Only 2 hawks can be active at once. Summon Hawk shares its cooldown with Arcane Shot."
                 }
               ]
             },
@@ -2899,8 +2863,8 @@
             },
             {
               "id": 1388,
-              "row": 4,
-              "col": 0,
+              "row": 3,
+              "col": 3,
               "icon": "classic_ability_druid_demoralizingroar",
               "maxRank": 2,
               "requires": [],
@@ -2924,13 +2888,18 @@
               "col": 1,
               "icon": "ability_devour",
               "maxRank": 1,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 1391,
+                  "qty": 1
+                }
+              ],
               "name": "Intimidation",
               "ranks": [
                 {
                   "spellId": 19577,
                   "name": "Intimidation",
-                  "description": "Command your pet to intimidate the target on the next successful melee attack, causing a high amount of threat and stunning the target for 3 sec."
+                  "description": "Command your pet to Stun the target for 3 sec on its next successful attack, which also gains 100% increased critical strike chance. Generates high threat."
                 }
               ]
             },
@@ -2946,12 +2915,12 @@
                 {
                   "spellId": 19590,
                   "name": "Bestial Discipline",
-                  "description": "Increases the Focus regeneration of your pets by 10%."
+                  "description": "Increases the Focus regeneration of your pets by 10% and allows 25% of your Mana regeneration to continue while casting."
                 },
                 {
                   "spellId": 19592,
                   "name": "Bestial Discipline",
-                  "description": "Increases the Focus regeneration of your pets by 20%."
+                  "description": "Increases the Focus regeneration of your pets by 20% and allows 50% of your Mana regeneration to continue while casting."
                 }
               ]
             },
@@ -3013,7 +2982,7 @@
                 {
                   "spellId": 19574,
                   "name": "Bestial Wrath",
-                  "description": "Send your pet into a rage causing 50% additional damage for 18 sec.  While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed."
+                  "description": "Send your pet into a rage causing 50% additional damage for 18 sec. While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed."
                 }
               ]
             }
@@ -3027,7 +2996,7 @@
             {
               "id": 1341,
               "row": 0,
-              "col": 1,
+              "col": 0,
               "icon": "spell_frost_stun",
               "maxRank": 5,
               "requires": [],
@@ -3063,7 +3032,7 @@
             {
               "id": 1342,
               "row": 0,
-              "col": 2,
+              "col": 1,
               "icon": "spell_frost_wizardmark",
               "maxRank": 5,
               "requires": [],
@@ -3072,27 +3041,99 @@
                 {
                   "spellId": 19416,
                   "name": "Efficiency",
-                  "description": "Reduces the Mana cost of your Shots and Stings by 2%."
+                  "description": "Reduces the Mana cost of your Shots, Stings, and melee abilities by 3%."
                 },
                 {
                   "spellId": 19417,
                   "name": "Efficiency",
-                  "description": "Reduces the Mana cost of your Shots and Stings by 4%."
+                  "description": "Reduces the Mana cost of your Shots, Stings, and melee abilities by 6%."
                 },
                 {
                   "spellId": 19418,
                   "name": "Efficiency",
-                  "description": "Reduces the Mana cost of your Shots and Stings by 6%."
+                  "description": "Reduces the Mana cost of your Shots, Stings, and melee abilities by 9%."
                 },
                 {
                   "spellId": 19419,
                   "name": "Efficiency",
-                  "description": "Reduces the Mana cost of your Shots and Stings by 8%."
+                  "description": "Reduces the Mana cost of your Shots, Stings, and melee abilities by 12%."
                 },
                 {
                   "spellId": 19420,
                   "name": "Efficiency",
-                  "description": "Reduces the Mana cost of your Shots and Stings by 10%."
+                  "description": "Reduces the Mana cost of your Shots, Stings, and melee abilities by 15%."
+                }
+              ]
+            },
+            {
+              "id": 90100,
+              "row": 0,
+              "col": 2,
+              "icon": "ability_hunter_zenarchery",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Careful Aim",
+              "ranks": [
+                {
+                  "spellId": 901000,
+                  "name": "Careful Aim",
+                  "description": "Increases your Attack Power by 20% of your Intellect."
+                },
+                {
+                  "spellId": 901001,
+                  "name": "Careful Aim",
+                  "description": "Increases your Attack Power by 40% of your Intellect."
+                },
+                {
+                  "spellId": 901002,
+                  "name": "Careful Aim",
+                  "description": "Increases your Attack Power by 60% of your Intellect."
+                },
+                {
+                  "spellId": 901003,
+                  "name": "Careful Aim",
+                  "description": "Increases your Attack Power by 80% of your Intellect."
+                },
+                {
+                  "spellId": 901004,
+                  "name": "Careful Aim",
+                  "description": "Increases your Attack Power by 100% of your Intellect."
+                }
+              ]
+            },
+            {
+              "id": 1344,
+              "row": 1,
+              "col": 0,
+              "icon": "ability_searingarrow",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Lethal Attacks",
+              "ranks": [
+                {
+                  "spellId": 19426,
+                  "name": "Lethal Attacks",
+                  "description": "Increases your critical strike chance with all attacks by 1%."
+                },
+                {
+                  "spellId": 19427,
+                  "name": "Lethal Attacks",
+                  "description": "Increases your critical strike chance with all attacks by 2%."
+                },
+                {
+                  "spellId": 19429,
+                  "name": "Lethal Attacks",
+                  "description": "Increases your critical strike chance with all attacks by 3%."
+                },
+                {
+                  "spellId": 19430,
+                  "name": "Lethal Attacks",
+                  "description": "Increases your critical strike chance with all attacks by 4%."
+                },
+                {
+                  "spellId": 19431,
+                  "name": "Lethal Attacks",
+                  "description": "Increases your critical strike chance with all attacks by 5%."
                 }
               ]
             },
@@ -3133,97 +3174,66 @@
               ]
             },
             {
-              "id": 1344,
+              "id": 1346,
               "row": 1,
               "col": 2,
-              "icon": "ability_searingarrow",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Lethal Shots",
-              "ranks": [
-                {
-                  "spellId": 19426,
-                  "name": "Lethal Shots",
-                  "description": "Increases your critical strike chance with ranged weapons by 1%."
-                },
-                {
-                  "spellId": 19427,
-                  "name": "Lethal Shots",
-                  "description": "Increases your critical strike chance with ranged weapons by 2%."
-                },
-                {
-                  "spellId": 19429,
-                  "name": "Lethal Shots",
-                  "description": "Increases your critical strike chance with ranged weapons by 3%."
-                },
-                {
-                  "spellId": 19430,
-                  "name": "Lethal Shots",
-                  "description": "Increases your critical strike chance with ranged weapons by 4%."
-                },
-                {
-                  "spellId": 19431,
-                  "name": "Lethal Shots",
-                  "description": "Increases your critical strike chance with ranged weapons by 5%."
-                }
-              ]
-            },
-            {
-              "id": 1345,
-              "row": 2,
-              "col": 0,
-              "icon": "inv_spear_07",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Aimed Shot",
-              "ranks": [
-                {
-                  "spellId": 19434,
-                  "name": "Aimed Shot",
-                  "description": "An aimed shot that increases ranged damage by 70."
-                }
-              ]
-            },
-            {
-              "id": 1346,
-              "row": 2,
-              "col": 1,
               "icon": "ability_impalingbolt",
               "maxRank": 5,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 90100,
+                  "qty": 1
+                }
+              ],
               "name": "Improved Arcane Shot",
               "ranks": [
                 {
                   "spellId": 19454,
                   "name": "Improved Arcane Shot",
-                  "description": "Reduces the cooldown of your Arcane Shot by 0.2 sec."
+                  "description": "Reduces the cooldown of your Arcane Shot by 0.3 sec. Does not affect the cooldown of abilities which share a cooldown with Arcane Shot."
                 },
                 {
                   "spellId": 19455,
                   "name": "Improved Arcane Shot",
-                  "description": "Reduces the cooldown of your Arcane Shot by 0.4 sec."
+                  "description": "Reduces the cooldown of your Arcane Shot by 0.6 sec. Does not affect the cooldown of abilities which share a cooldown with Arcane Shot."
                 },
                 {
                   "spellId": 19456,
                   "name": "Improved Arcane Shot",
-                  "description": "Reduces the cooldown of your Arcane Shot by 0.6 sec."
+                  "description": "Reduces the cooldown of your Arcane Shot by 0.9 sec. Does not affect the cooldown of abilities which share a cooldown with Arcane Shot."
                 },
                 {
                   "spellId": 19457,
                   "name": "Improved Arcane Shot",
-                  "description": "Reduces the cooldown of your Arcane Shot by 0.8 sec."
+                  "description": "Reduces the cooldown of your Arcane Shot by 1.2 sec. Does not affect the cooldown of abilities which share a cooldown with Arcane Shot."
                 },
                 {
                   "spellId": 19458,
                   "name": "Improved Arcane Shot",
-                  "description": "Reduces the cooldown of your Arcane Shot by 1 sec."
+                  "description": "Reduces the cooldown of your Arcane Shot by 1.5 sec. Does not affect the cooldown of abilities which share a cooldown with Arcane Shot."
+                }
+              ]
+            },
+            {
+              "id": 1353,
+              "row": 2,
+              "col": 0,
+              "icon": "ability_golemstormbolt",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Scatter Shot",
+              "ranks": [
+                {
+                  "spellId": 19503,
+                  "name": "Scatter Shot",
+                  "description": "A short-range shot that deals 50% weapon damage and disorients the target for 4 sec. Any damage caused will remove the effect. Turns off your attack when used."
                 }
               ]
             },
             {
               "id": 1352,
               "row": 2,
-              "col": 3,
+              "col": 1,
               "icon": "ability_townwatch",
               "maxRank": 3,
               "requires": [],
@@ -3247,38 +3257,54 @@
               ]
             },
             {
-              "id": 1348,
-              "row": 3,
-              "col": 1,
+              "id": 90101,
+              "row": 2,
+              "col": 3,
               "icon": "ability_hunter_quickshot",
-              "maxRank": 5,
+              "maxRank": 3,
               "requires": [],
-              "name": "Improved Serpent Sting",
+              "name": "Improved Stings",
               "ranks": [
                 {
-                  "spellId": 19464,
-                  "name": "Improved Serpent Sting",
-                  "description": "Increases the damage done by your Serpent Sting by 2%."
+                  "spellId": 901010,
+                  "name": "Improved Stings",
+                  "description": "Increases the damage of your Serpent Sting ability by 6%, reduces the cooldown of your Viper Sting ability by 2 sec, and increases the duration of your Scorpid Sting ability by 15 sec."
                 },
                 {
-                  "spellId": 19465,
-                  "name": "Improved Serpent Sting",
-                  "description": "Increases the damage done by your Serpent Sting by 4%."
+                  "spellId": 901011,
+                  "name": "Improved Stings",
+                  "description": "Increases the damage of your Serpent Sting ability by 12%, reduces the cooldown of your Viper Sting ability by 4 sec, and increases the duration of your Scorpid Sting ability by 30 sec."
                 },
                 {
-                  "spellId": 19466,
-                  "name": "Improved Serpent Sting",
-                  "description": "Increases the damage done by your Serpent Sting by 6%."
+                  "spellId": 901012,
+                  "name": "Improved Stings",
+                  "description": "Increases the damage of your Serpent Sting ability by 18%, reduces the cooldown of your Viper Sting ability by 6 sec, and increases the duration of your Scorpid Sting ability by 45 sec."
+                }
+              ]
+            },
+            {
+              "id": 1347,
+              "row": 3,
+              "col": 1,
+              "icon": "ability_upgrademoonglaive",
+              "maxRank": 3,
+              "requires": [],
+              "name": "Barrage",
+              "ranks": [
+                {
+                  "spellId": 19461,
+                  "name": "Barrage",
+                  "description": "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by 3%."
                 },
                 {
-                  "spellId": 19467,
-                  "name": "Improved Serpent Sting",
-                  "description": "Increases the damage done by your Serpent Sting by 8%."
+                  "spellId": 19462,
+                  "name": "Barrage",
+                  "description": "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by 6%."
                 },
                 {
-                  "spellId": 19468,
-                  "name": "Improved Serpent Sting",
-                  "description": "Increases the damage done by your Serpent Sting by 10%."
+                  "spellId": 24691,
+                  "name": "Barrage",
+                  "description": "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by 9%."
                 }
               ]
             },
@@ -3299,101 +3325,59 @@
                 {
                   "spellId": 19485,
                   "name": "Mortal Shots",
-                  "description": "Increases your ranged weapon critical strike damage bonus by 6%."
+                  "description": "Increases the critical strike damage bonus on all ranged abilities by 6%."
                 },
                 {
                   "spellId": 19487,
                   "name": "Mortal Shots",
-                  "description": "Increases your ranged weapon critical strike damage bonus by 12%."
+                  "description": "Increases the critical strike damage bonus on all ranged abilities by 12%."
                 },
                 {
                   "spellId": 19488,
                   "name": "Mortal Shots",
-                  "description": "Increases your ranged weapon critical strike damage bonus by 18%."
+                  "description": "Increases the critical strike damage bonus on all ranged abilities by 18%."
                 },
                 {
                   "spellId": 19489,
                   "name": "Mortal Shots",
-                  "description": "Increases your ranged weapon critical strike damage bonus by 24%."
+                  "description": "Increases the critical strike damage bonus on all ranged abilities by 24%."
                 },
                 {
                   "spellId": 19490,
                   "name": "Mortal Shots",
-                  "description": "Increases your ranged weapon critical strike damage bonus by 30%."
+                  "description": "Increases the critical strike damage bonus on all ranged abilities by 30%."
                 }
               ]
             },
             {
-              "id": 1353,
+              "id": 90102,
               "row": 4,
               "col": 0,
-              "icon": "ability_golemstormbolt",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Scatter Shot",
-              "ranks": [
+              "icon": "ability_hunter_rapidkilling",
+              "maxRank": 2,
+              "requires": [
                 {
-                  "spellId": 19503,
-                  "name": "Scatter Shot",
-                  "description": "A short-range shot that deals 50% weapon damage and disorients the target for 4 sec.  Any damage caused will remove the effect.  Turns off your attack when used."
+                  "id": 1353,
+                  "qty": 1
                 }
-              ]
-            },
-            {
-              "id": 1347,
-              "row": 4,
-              "col": 1,
-              "icon": "ability_upgrademoonglaive",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Barrage",
+              ],
+              "name": "Rapid Killing",
               "ranks": [
                 {
-                  "spellId": 19461,
-                  "name": "Barrage",
-                  "description": "Increases the damage done by your Multi-Shot and Volley spells by 5%."
+                  "spellId": 901020,
+                  "name": "Rapid Killing",
+                  "description": "Reduces the cooldown on your Rapid Fire ability by 1 min. In addition, when you kill a non-trivial enemy or it dies while afflicted by your Serpent Sting, you gain Rapid Killing, increasing the damage of your next Shot ability within 20 sec by 10%."
                 },
                 {
-                  "spellId": 19462,
-                  "name": "Barrage",
-                  "description": "Increases the damage done by your Multi-Shot and Volley spells by 10%."
-                },
-                {
-                  "spellId": 24691,
-                  "name": "Barrage",
-                  "description": "Increases the damage done by your Multi-Shot and Volley spells by 15%."
-                }
-              ]
-            },
-            {
-              "id": 1351,
-              "row": 4,
-              "col": 2,
-              "icon": "ability_hunter_criticalshot",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Improved Scorpid Sting",
-              "ranks": [
-                {
-                  "spellId": 19491,
-                  "name": "Improved Scorpid Sting",
-                  "description": "Reduces the Stamina of targets affected by your Scorpid Sting by 10% of the amount of Strength reduced."
-                },
-                {
-                  "spellId": 19493,
-                  "name": "Improved Scorpid Sting",
-                  "description": "Reduces the Stamina of targets affected by your Scorpid Sting by 20% of the amount of Strength reduced."
-                },
-                {
-                  "spellId": 19494,
-                  "name": "Improved Scorpid Sting",
-                  "description": "Reduces the Stamina of targets affected by your Scorpid Sting by 30% of the amount of Strength reduced."
+                  "spellId": 901021,
+                  "name": "Rapid Killing",
+                  "description": "Reduces the cooldown on your Rapid Fire ability by 2 min. In addition, when you kill a non-trivial enemy or it dies while afflicted by your Serpent Sting, you gain Rapid Killing, increasing the damage of your next Shot ability within 40 sec by 20%."
                 }
               ]
             },
             {
               "id": 1362,
-              "row": 5,
+              "row": 4,
               "col": 2,
               "icon": "inv_weapon_rifle_06",
               "maxRank": 5,
@@ -3428,6 +3412,69 @@
               ]
             },
             {
+              "id": 90104,
+              "row": 4,
+              "col": 3,
+              "icon": "spell_hunter_lonewolf",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Lone Wolf",
+              "ranks": [
+                {
+                  "spellId": 901040,
+                  "name": "Lone Wolf",
+                  "description": "You deal 20% increased damage with all attacks while you do not have an active pet."
+                }
+              ]
+            },
+            {
+              "id": 90103,
+              "row": 5,
+              "col": 0,
+              "icon": "ability_hunter_rapidregeneration",
+              "maxRank": 2,
+              "requires": [
+                {
+                  "id": 90102,
+                  "qty": 1
+                }
+              ],
+              "name": "Rapid Recuperation",
+              "ranks": [
+                {
+                  "spellId": 901030,
+                  "name": "Rapid Recuperation",
+                  "description": "Hitting a target with your Serpent Sting ability grants you 25% and consuming Rapid Killing grants you 50% of your Mana regeneration while casting for the next 15 sec."
+                },
+                {
+                  "spellId": 901031,
+                  "name": "Rapid Recuperation",
+                  "description": "Hitting a target with your Serpent Sting ability grants you 50% and consuming Rapid Killing grants you 100% of your Mana regeneration while casting for the next 30 sec."
+                }
+              ]
+            },
+            {
+              "id": 1345,
+              "row": 5,
+              "col": 2,
+              "icon": "inv_spear_07",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 1362,
+                  "qty": 5
+                }
+              ],
+              "name": "Sniper Shot",
+              "ranks": [
+                {
+                  "spellId": 19434,
+                  "name": "Sniper Shot",
+                  "description": "A steady snipe that increases ranged damage by 160."
+                }
+              ]
+            },
+            {
               "id": 1361,
               "row": 6,
               "col": 1,
@@ -3444,7 +3491,7 @@
                 {
                   "spellId": 19506,
                   "name": "Trueshot Aura",
-                  "description": "Increases the attack power of party members within 45 yards by 50.  Lasts 30 min."
+                  "description": "Increases the Ranged Attack Power of party members within 45 yards by 30. Lasts 30 min."
                 }
               ]
             }
@@ -3456,54 +3503,38 @@
           "name": "Survival",
           "talents": [
             {
-              "id": 1623,
-              "row": 0,
-              "col": 0,
-              "icon": "inv_misc_head_dragon_black",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Monster Slaying",
-              "ranks": [
-                {
-                  "spellId": 24293,
-                  "name": "Monster Slaying",
-                  "description": "Increases all damage caused against Beasts, Giants and Dragonkin targets by 1% and increases critical damage caused against Beasts, Giants and Dragonkin targets by an additional 1%."
-                },
-                {
-                  "spellId": 24294,
-                  "name": "Monster Slaying",
-                  "description": "Increases all damage caused against Beasts, Giants and Dragonkin targets by 2% and increases critical damage caused against Beasts, Giants and Dragonkin targets by an additional 2%."
-                },
-                {
-                  "spellId": 24295,
-                  "name": "Monster Slaying",
-                  "description": "Increases all damage caused against Beasts, Giants and Dragonkin targets by 3% and increases critical damage caused against Beasts, Giants and Dragonkin targets by an additional 3%."
-                }
-              ]
-            },
-            {
-              "id": 1301,
+              "id": 90092,
               "row": 0,
               "col": 1,
-              "icon": "spell_holy_prayerofhealing",
-              "maxRank": 3,
+              "icon": "ability_hunter_survivalinstincts",
+              "maxRank": 5,
               "requires": [],
-              "name": "Humanoid Slaying",
+              "name": "Improved Tracking",
               "ranks": [
                 {
-                  "spellId": 19151,
-                  "name": "Humanoid Slaying",
-                  "description": "Increases all damage caused against Humanoid targets by 1% and increases critical damage caused against Humanoid targets by an additional 1%."
+                  "spellId": 900920,
+                  "name": "Improved Tracking",
+                  "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 1%."
                 },
                 {
-                  "spellId": 19152,
-                  "name": "Humanoid Slaying",
-                  "description": "Increases all damage caused against Humanoid targets by 2% and increases critical damage caused against Humanoid targets by an additional 2%."
+                  "spellId": 900921,
+                  "name": "Improved Tracking",
+                  "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 2%."
                 },
                 {
-                  "spellId": 19153,
-                  "name": "Humanoid Slaying",
-                  "description": "Increases all damage caused against Humanoid targets by 3% and increases critical damage caused against Humanoid targets by an additional 3%."
+                  "spellId": 900922,
+                  "name": "Improved Tracking",
+                  "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 3%."
+                },
+                {
+                  "spellId": 900923,
+                  "name": "Improved Tracking",
+                  "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 4%."
+                },
+                {
+                  "spellId": 900924,
+                  "name": "Improved Tracking",
+                  "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 5%."
                 }
               ]
             },
@@ -3627,6 +3658,27 @@
               ]
             },
             {
+              "id": 90094,
+              "row": 1,
+              "col": 3,
+              "icon": "ability_hunter_traplauncher",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Survival Tactics",
+              "ranks": [
+                {
+                  "spellId": 900940,
+                  "name": "Survival Tactics",
+                  "description": "Increases your chance to hit with your Trap and Feign Death abilities by 5%."
+                },
+                {
+                  "spellId": 900941,
+                  "name": "Survival Tactics",
+                  "description": "Increases your chance to hit with your Trap and Feign Death abilities by 10%."
+                }
+              ]
+            },
+            {
               "id": 1306,
               "row": 2,
               "col": 0,
@@ -3648,8 +3700,86 @@
               ]
             },
             {
-              "id": 1622,
+              "id": 1310,
               "row": 2,
+              "col": 1,
+              "icon": "ability_kick",
+              "maxRank": 3,
+              "requires": [],
+              "name": "Surefooted",
+              "ranks": [
+                {
+                  "spellId": 19290,
+                  "name": "Surefooted",
+                  "description": "Increases your hit chance by 1% and reduces the duration of movement impairing effects on you by 10%."
+                },
+                {
+                  "spellId": 19294,
+                  "name": "Surefooted",
+                  "description": "Increases hit chance by 2% and increases the chance movement impairing effects will be resisted by an additional 10%."
+                },
+                {
+                  "spellId": 24283,
+                  "name": "Surefooted",
+                  "description": "Increases hit chance by 3% and increases the chance movement impairing effects will be resisted by an additional 15%."
+                }
+              ]
+            },
+            {
+              "id": 1308,
+              "row": 2,
+              "col": 2,
+              "icon": "ability_whirlwind",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Deterrence",
+              "ranks": [
+                {
+                  "spellId": 19263,
+                  "name": "Deterrence",
+                  "description": "When activated, increases your Dodge and Parry chance by 25% for 10 sec."
+                }
+              ]
+            },
+            {
+              "id": 90093,
+              "row": 3,
+              "col": 0,
+              "icon": "ability_hunter_swiftstrike",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Predator's Edge",
+              "ranks": [
+                {
+                  "spellId": 900930,
+                  "name": "Predator's Edge",
+                  "description": "Increases your melee critical strike damage by 6% and your offhand weapon damage by 10%."
+                },
+                {
+                  "spellId": 900931,
+                  "name": "Predator's Edge",
+                  "description": "Increases your melee critical strike damage by 12% and your offhand weapon damage by 20%."
+                },
+                {
+                  "spellId": 900932,
+                  "name": "Predator's Edge",
+                  "description": "Increases your melee critical strike damage by 18% and your offhand weapon damage by 30%."
+                },
+                {
+                  "spellId": 900933,
+                  "name": "Predator's Edge",
+                  "description": "Increases your melee critical strike damage by 24% and your offhand weapon damage by 40%."
+                },
+                {
+                  "spellId": 900934,
+                  "name": "Predator's Edge",
+                  "description": "Increases your melee critical strike damage by 30% and your offhand weapon damage by 50%."
+                }
+              ]
+            },
+            {
+              "id": 1622,
+              "row": 3,
               "col": 1,
               "icon": "spell_shadow_twilight",
               "maxRank": 5,
@@ -3684,118 +3814,8 @@
               ]
             },
             {
-              "id": 1308,
-              "row": 2,
-              "col": 2,
-              "icon": "ability_whirlwind",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Deterrence",
-              "ranks": [
-                {
-                  "spellId": 19263,
-                  "name": "Deterrence",
-                  "description": "When activated, increases your Dodge and Parry chance by 25% for 10 sec."
-                }
-              ]
-            },
-            {
-              "id": 1322,
-              "row": 3,
-              "col": 0,
-              "icon": "ability_ensnare",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Trap Mastery",
-              "ranks": [
-                {
-                  "spellId": 19376,
-                  "name": "Trap Mastery",
-                  "description": "Decreases the chance enemies will resist trap effects by 5%."
-                },
-                {
-                  "spellId": 19377,
-                  "name": "Trap Mastery",
-                  "description": "Decreases the chance enemies will resist trap effects by 10%."
-                }
-              ]
-            },
-            {
-              "id": 1310,
-              "row": 3,
-              "col": 1,
-              "icon": "ability_kick",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Surefooted",
-              "ranks": [
-                {
-                  "spellId": 19290,
-                  "name": "Surefooted",
-                  "description": "Increases your hit chance by 1% and reduces the duration of movement impairing effects on you by 10%."
-                },
-                {
-                  "spellId": 19294,
-                  "name": "Surefooted",
-                  "description": "Increases hit chance by 2% and increases the chance movement impairing effects will be resisted by an additional 10%."
-                },
-                {
-                  "spellId": 24283,
-                  "name": "Surefooted",
-                  "description": "Increases hit chance by 3% and increases the chance movement impairing effects will be resisted by an additional 15%."
-                }
-              ]
-            },
-            {
-              "id": 1309,
-              "row": 3,
-              "col": 3,
-              "icon": "ability_rogue_feigndeath",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Improved Feign Death",
-              "ranks": [
-                {
-                  "spellId": 19286,
-                  "name": "Improved Feign Death",
-                  "description": "Reduces the chance your Feign Death ability will be resisted by 2%."
-                },
-                {
-                  "spellId": 19287,
-                  "name": "Improved Feign Death",
-                  "description": "Reduces the chance your Feign Death ability will be resisted by 4%."
-                }
-              ]
-            },
-            {
-              "id": 1321,
-              "row": 4,
-              "col": 1,
-              "icon": "spell_holy_blessingofstamina",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Killer Instinct",
-              "ranks": [
-                {
-                  "spellId": 19370,
-                  "name": "Killer Instinct",
-                  "description": "Increases your critical strike chance with all attacks by 1%."
-                },
-                {
-                  "spellId": 19371,
-                  "name": "Killer Instinct",
-                  "description": "Increases your critical strike chance with all attacks by 2%."
-                },
-                {
-                  "spellId": 19373,
-                  "name": "Killer Instinct",
-                  "description": "Increases your critical strike chance with all attacks by 3%."
-                }
-              ]
-            },
-            {
               "id": 1312,
-              "row": 4,
+              "row": 3,
               "col": 2,
               "icon": "ability_warrior_challange",
               "maxRank": 1,
@@ -3811,6 +3831,85 @@
                   "spellId": 19306,
                   "name": "Counterattack",
                   "description": "A strike that becomes active after parrying an opponent's attack. This attack deals 50% weapon damage plus 13 and immobilizes the target for 5 sec. Counterattack cannot be blocked, dodged, or parried."
+                }
+              ]
+            },
+            {
+              "id": 90098,
+              "row": 4,
+              "col": 0,
+              "icon": "ability_warrior_punishingblow",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Strider Kick",
+              "ranks": [
+                {
+                  "spellId": 900980,
+                  "name": "Strider Kick",
+                  "description": "A powerful kick that deals 100% melee weapon damage."
+                }
+              ]
+            },
+            {
+              "id": 90095,
+              "row": 4,
+              "col": 1,
+              "icon": "inv_misc_book_11",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Resourcefulness",
+              "ranks": [
+                {
+                  "spellId": 900950,
+                  "name": "Resourcefulness",
+                  "description": "Reduces the mana cost of your Trap abilities and melee abilities by 30%. In addition, your critical strikes have a 30% chance to allow 50% of your Mana regeneration to continue while casting for 30 sec."
+                },
+                {
+                  "spellId": 900951,
+                  "name": "Resourcefulness",
+                  "description": "Reduces the mana cost of your Trap abilities and melee abilities by 60%. In addition, your critical strikes have a 60% chance to allow 100% of your Mana regeneration to continue while casting for 60 sec."
+                }
+              ]
+            },
+            {
+              "id": 90096,
+              "row": 4,
+              "col": 2,
+              "icon": "ability_hunter_snipershot",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Expose Prey",
+              "ranks": [
+                {
+                  "spellId": 900960,
+                  "name": "Expose Prey",
+                  "description": "Your attacks against targets with Hunter's Mark have a 5% chance to activate your Mongoose Bite for 5 sec."
+                },
+                {
+                  "spellId": 900961,
+                  "name": "Expose Prey",
+                  "description": "Your attacks against targets with Hunter's Mark have a 10% chance to activate your Mongoose Bite for 10 sec."
+                }
+              ]
+            },
+            {
+              "id": 90097,
+              "row": 4,
+              "col": 3,
+              "icon": "spell_nature_timestop",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Survivalist's Discipline",
+              "ranks": [
+                {
+                  "spellId": 900970,
+                  "name": "Survivalist's Discipline",
+                  "description": "Reduces the cooldown of your Trap and Deterrence abilities by 20%."
+                },
+                {
+                  "spellId": 900971,
+                  "name": "Survivalist's Discipline",
+                  "description": "Reduces the cooldown of your Trap and Deterrence abilities by 40%."
                 }
               ]
             },
@@ -3851,23 +3950,23 @@
               ]
             },
             {
-              "id": 1325,
+              "id": 90099,
               "row": 6,
               "col": 1,
-              "icon": "inv_spear_02",
+              "icon": "ability_druid_lacerate",
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 1321,
-                  "qty": 3
+                  "id": 90095,
+                  "qty": 2
                 }
               ],
-              "name": "Wyvern Sting",
+              "name": "Lacerating Strikes",
               "ranks": [
                 {
-                  "spellId": 19386,
-                  "name": "Wyvern Sting",
-                  "description": "A stinging shot that puts the target to sleep for 12 sec.  Any damage will cancel the effect.  When the target wakes up, the Sting causes 300 Nature damage over 12 sec.  Only usable out of combat.  Only one Sting per Hunter can be active on the target at a time."
+                  "spellId": 900990,
+                  "name": "Lacerating Strikes",
+                  "description": "Your Mongoose Bite also causes the target to Bleed for damage over 21 sec equal to 40% of the damage done by Mongoose Bite."
                 }
               ]
             }
@@ -9438,7 +9537,7 @@
               ]
             },
             {
-              "id": 90070,
+              "id": 90208,
               "row": 1,
               "col": 0,
               "icon": "spell_shadow_haunting",
@@ -9459,7 +9558,7 @@
               ]
             },
             {
-              "id": 90071,
+              "id": 90209,
               "row": 1,
               "col": 1,
               "icon": "spell_shadow_lifedrain02",
@@ -9532,7 +9631,7 @@
               ]
             },
             {
-              "id": 90072,
+              "id": 90210,
               "row": 2,
               "col": 1,
               "icon": "spell_shadow_curseofsargeras",
@@ -9579,7 +9678,7 @@
               ]
             },
             {
-              "id": 90073,
+              "id": 90211,
               "row": 2,
               "col": 3,
               "icon": "spell_shadow_curseofachimonde",
@@ -9615,7 +9714,7 @@
               ]
             },
             {
-              "id": 90074,
+              "id": 90212,
               "row": 3,
               "col": 0,
               "icon": "spell_shadow_unholyfrenzy",
@@ -9688,7 +9787,7 @@
               ]
             },
             {
-              "id": 90075,
+              "id": 90213,
               "row": 5,
               "col": 1,
               "icon": "spell_shadow_haunting",
@@ -9750,7 +9849,7 @@
               ]
             },
             {
-              "id": 90076,
+              "id": 90214,
               "row": 6,
               "col": 1,
               "icon": "spell_shadow_abominationexplosion",
@@ -9778,7 +9877,7 @@
           "name": "Demonology",
           "talents": [
             {
-              "id": 90077,
+              "id": 90215,
               "row": 0,
               "col": 0,
               "icon": "spell_fire_fireball02",
@@ -9861,7 +9960,7 @@
               ]
             },
             {
-              "id": 90078,
+              "id": 90216,
               "row": 0,
               "col": 3,
               "icon": "spell_shadow_ragingscream",
@@ -9882,7 +9981,7 @@
               ]
             },
             {
-              "id": 90079,
+              "id": 90217,
               "row": 1,
               "col": 0,
               "icon": "spell_shadow_metamorphosis",
@@ -9929,7 +10028,7 @@
               ]
             },
             {
-              "id": 90080,
+              "id": 90218,
               "row": 1,
               "col": 2,
               "icon": "spell_shadow_antishadow",
@@ -9955,7 +10054,7 @@
               ]
             },
             {
-              "id": 90081,
+              "id": 90219,
               "row": 1,
               "col": 3,
               "icon": "inv_jewelry_talisman_07",
@@ -9981,7 +10080,7 @@
               ]
             },
             {
-              "id": 90082,
+              "id": 90220,
               "row": 2,
               "col": 0,
               "icon": "spell_shadow_summonsuccubus",
@@ -10117,7 +10216,7 @@
               ]
             },
             {
-              "id": 90083,
+              "id": 90221,
               "row": 4,
               "col": 0,
               "icon": "spell_shadow_summonfelhunter",
@@ -10184,7 +10283,7 @@
               ]
             },
             {
-              "id": 90084,
+              "id": 90200,
               "row": 4,
               "col": 2,
               "icon": "spell_shadow_improvedvampiricembrace",
@@ -10210,7 +10309,7 @@
               ]
             },
             {
-              "id": 90085,
+              "id": 90201,
               "row": 5,
               "col": 2,
               "icon": "spell_shadow_demonicempathy",
@@ -10352,7 +10451,7 @@
               ]
             },
             {
-              "id": 90086,
+              "id": 90202,
               "row": 1,
               "col": 0,
               "icon": "ability_mage_moltenarmor",
@@ -10502,7 +10601,7 @@
               ]
             },
             {
-              "id": 90087,
+              "id": 90203,
               "row": 3,
               "col": 0,
               "icon": "spell_fire_playingwithfire",
@@ -10575,7 +10674,7 @@
               ]
             },
             {
-              "id": 90088,
+              "id": 90204,
               "row": 4,
               "col": 0,
               "icon": "spell_fire_burnout",
@@ -10607,7 +10706,7 @@
               ]
             },
             {
-              "id": 90089,
+              "id": 90205,
               "row": 4,
               "col": 2,
               "icon": "ability_warlock_fireandbrimstone",
@@ -10633,7 +10732,7 @@
               ]
             },
             {
-              "id": 90090,
+              "id": 90206,
               "row": 5,
               "col": 2,
               "icon": "spell_shadow_shadowandflame",
@@ -10669,7 +10768,7 @@
               ]
             },
             {
-              "id": 90091,
+              "id": 90207,
               "row": 6,
               "col": 1,
               "icon": "ability_warlock_jinx",

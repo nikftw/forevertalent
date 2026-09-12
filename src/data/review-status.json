@@ -187,12 +187,128 @@
       "mage/15.png"
     ]
   },
+  "121": {
+    "review": "classic",
+    "screenshots": [
+      "warrior/overview-rend.png",
+      "warrior/overview.png"
+    ]
+  },
+  "123": {
+    "review": "classic",
+    "screenshots": [
+      "warrior/overview-rend.png",
+      "warrior/overview.png"
+    ]
+  },
+  "124": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/1.png"
+    ]
+  },
+  "125": {
+    "review": "classic",
+    "screenshots": [
+      "warrior/overview-rend.png",
+      "warrior/overview.png"
+    ]
+  },
+  "126": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/5.png",
+      "warrior/7.png"
+    ]
+  },
+  "127": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/3.png"
+    ]
+  },
   "128": {
     "review": "updated",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
       "warrior/image.png"
+    ]
+  },
+  "129": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/17.png"
+    ]
+  },
+  "130": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/2.png"
+    ]
+  },
+  "131": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/9.png"
+    ]
+  },
+  "132": {
+    "review": "classic",
+    "screenshots": [
+      "warrior/overview-rend.png",
+      "warrior/overview.png"
+    ]
+  },
+  "133": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/13.png"
+    ]
+  },
+  "134": {
+    "review": "classic",
+    "screenshots": [
+      "warrior/overview-rend.png",
+      "warrior/overview.png"
+    ]
+  },
+  "135": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/18.png"
+    ]
+  },
+  "136": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/10.png"
+    ]
+  },
+  "137": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/8.png"
     ]
   },
   "138": {
@@ -209,6 +325,14 @@
       "warrior/overview.png",
       "warrior/overview-rend.png",
       "warrior/image.png"
+    ]
+  },
+  "141": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/21.png"
     ]
   },
   "142": {
@@ -291,11 +415,588 @@
       "warrior/image.png"
     ]
   },
+  "154": {
+    "review": "classic",
+    "screenshots": [
+      "warrior/overview-rend.png",
+      "warrior/overview.png"
+    ]
+  },
+  "155": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/29.png"
+    ]
+  },
+  "156": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/35.png"
+    ]
+  },
+  "157": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/20.png"
+    ]
+  },
+  "158": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/19.png"
+    ]
+  },
+  "159": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/22.png"
+    ]
+  },
+  "160": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/25.png"
+    ]
+  },
+  "161": {
+    "review": "classic",
+    "screenshots": [
+      "warrior/overview-rend.png",
+      "warrior/overview.png"
+    ]
+  },
+  "165": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/32.png"
+    ]
+  },
+  "166": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/26.png"
+    ]
+  },
+  "167": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/36.png"
+    ]
+  },
+  "168": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/16.png"
+    ]
+  },
+  "321": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Disc.forever.jpg",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "322": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Disc.forever.jpg",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "341": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Disc.forever.jpg",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "343": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Disc.forever.jpg",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "345": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Disc.forever.jpg",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "346": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Disc.forever.jpg",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "347": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Disc.forever.jpg",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "348": {
+    "review": "unchanged",
+    "screenshots": [
+      "priest/Disc.forever.jpg",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "350": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Disc.forever.jpg",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "352": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Disc.forever.jpg",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "361": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Holy-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "401": {
+    "review": "unchanged",
+    "screenshots": [
+      "priest/Holy-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "402": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Holy-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "403": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Holy-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "404": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Holy-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "406": {
+    "review": "unchanged",
+    "screenshots": [
+      "priest/Holy-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "408": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Holy-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "411": {
+    "review": "unchanged",
+    "screenshots": [
+      "priest/Holy-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
   "421": {
     "review": "updated",
     "screenshots": [
       "mage/7.png",
       "mage/21.png"
+    ]
+  },
+  "442": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Holy-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "461": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "462": {
+    "review": "unchanged",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "463": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "464": {
+    "review": "unchanged",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "465": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "466": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "481": {
+    "review": "unchanged",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "482": {
+    "review": "unchanged",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "483": {
+    "review": "unchanged",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "484": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "501": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "521": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "541": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "542": {
+    "review": "unchanged",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "561": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/3.png",
+      "shaman/17.png",
+      "shaman/34.png"
+    ]
+  },
+  "562": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/27.png",
+      "shaman/42.png"
+    ]
+  },
+  "563": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/1.png"
+    ]
+  },
+  "564": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/2.png"
+    ]
+  },
+  "565": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/22.png",
+      "shaman/38.png"
+    ]
+  },
+  "567": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/24.png",
+      "shaman/39.png"
+    ]
+  },
+  "574": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/21.png",
+      "shaman/37.png"
+    ]
+  },
+  "575": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/18.png",
+      "shaman/35.png"
+    ]
+  },
+  "581": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/63.png"
+    ]
+  },
+  "586": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/57.png"
+    ]
+  },
+  "587": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/64.png"
+    ]
+  },
+  "588": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/67.png"
+    ]
+  },
+  "589": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/62.png"
+    ]
+  },
+  "590": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/66.png"
+    ]
+  },
+  "591": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/70.png"
+    ]
+  },
+  "592": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/71.png"
+    ]
+  },
+  "593": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/61.png"
+    ]
+  },
+  "594": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/58.png"
+    ]
+  },
+  "595": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/68.png"
+    ]
+  },
+  "601": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/48.png"
+    ]
+  },
+  "602": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/52.png"
+    ]
+  },
+  "605": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/13.png",
+      "shaman/31.png",
+      "shaman/46.png"
+    ]
+  },
+  "607": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/47.png"
+    ]
+  },
+  "609": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/12.png",
+      "shaman/29.png",
+      "shaman/44.png"
+    ]
+  },
+  "611": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/50.png"
+    ]
+  },
+  "615": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/11.png",
+      "shaman/51.png"
+    ]
+  },
+  "641": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/4.png",
+      "warrior/6.png"
+    ]
+  },
+  "661": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/24.png"
+    ]
+  },
+  "662": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/11.png"
     ]
   },
   "741": {
@@ -372,6 +1073,12 @@
       "druid/12.png"
     ]
   },
+  "796": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
   "797": {
     "review": "unchanged",
     "screenshots": [
@@ -386,6 +1093,18 @@
       "druid/35.png"
     ]
   },
+  "799": {
+    "review": "updated",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "800": {
+    "review": "updated",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
   "801": {
     "review": "updated",
     "screenshots": [
@@ -396,6 +1115,12 @@
     "review": "updated",
     "screenshots": [
       "druid/7.png"
+    ]
+  },
+  "803": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
     ]
   },
   "804": {
@@ -417,7 +1142,31 @@
       "druid/14.png"
     ]
   },
+  "809": {
+    "review": "updated",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
   "822": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "823": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "824": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "826": {
     "review": "unchanged",
     "screenshots": [
       "druid/overview.png"
@@ -429,10 +1178,46 @@
       "druid/32.png"
     ]
   },
+  "828": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "829": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "830": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
   "831": {
     "review": "unchanged",
     "screenshots": [
       "druid/28.png"
+    ]
+  },
+  "841": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "842": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "843": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
     ]
   },
   "844": {
@@ -441,58 +1226,501 @@
       "druid/1.png"
     ]
   },
+  "881": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Shadow-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "901": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/14.png"
+    ]
+  },
+  "941": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/5.png"
+    ]
+  },
+  "943": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/1.png"
+    ]
+  },
+  "944": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/2.png"
+    ]
+  },
+  "963": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/7.png"
+    ]
+  },
+  "964": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/3.png"
+    ]
+  },
+  "967": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/8.png"
+    ]
+  },
+  "968": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/11.png"
+    ]
+  },
+  "982": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/6.png"
+    ]
+  },
+  "985": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/10.png"
+    ]
+  },
+  "986": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/14.png"
+    ]
+  },
+  "1001": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/44.png"
+    ]
+  },
+  "1002": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/47.png"
+    ]
+  },
+  "1003": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/37.png"
+    ]
+  },
+  "1005": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/38.png"
+    ]
+  },
+  "1007": {
+    "review": "unchanged",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/39.png"
+    ]
+  },
+  "1041": {
+    "review": "unchanged",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/50.png"
+    ]
+  },
+  "1042": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/51.png"
+    ]
+  },
+  "1061": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/43.png"
+    ]
+  },
+  "1081": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/48.png"
+    ]
+  },
   "1142": {
     "review": "updated",
     "screenshots": [
       "mage/16.png"
     ]
   },
-  "1303": {
+  "1162": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/overview.png"
+    ]
+  },
+  "1181": {
+    "review": "unchanged",
+    "screenshots": [
+      "priest/Holy-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "1201": {
     "review": "updated",
     "screenshots": [
+      "priest/Disc.forever.jpg",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "1222": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/35.png"
+    ]
+  },
+  "1223": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/34.png"
+    ]
+  },
+  "1224": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/36.png"
+    ]
+  },
+  "1225": {
+    "review": "unchanged",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/31.png"
+    ]
+  },
+  "1226": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/27.png"
+    ]
+  },
+  "1227": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/26.png"
+    ]
+  },
+  "1244": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/19.png"
+    ]
+  },
+  "1262": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/33.png"
+    ]
+  },
+  "1281": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/25.png"
+    ]
+  },
+  "1282": {
+    "review": "updated",
+    "screenshots": [
+      "warlock/overview.png",
+      "warlock/21.png"
+    ]
+  },
+  "1303": {
+    "review": "unchanged",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
       "hunter/17.png"
     ]
   },
   "1304": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
       "hunter/3.png"
     ]
   },
   "1305": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
       "hunter/6.png"
     ]
   },
   "1306": {
     "review": "unchanged",
     "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
       "hunter/7.png"
     ]
   },
   "1308": {
     "review": "unchanged",
     "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
       "hunter/9.png"
     ]
   },
   "1310": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
       "hunter/8.png"
     ]
   },
   "1311": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
       "hunter/2.png"
     ]
   },
   "1312": {
+    "review": "unchanged",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/10.png"
+    ]
+  },
+  "1341": {
+    "review": "unchanged",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/21.png"
+    ]
+  },
+  "1342": {
     "review": "updated",
     "screenshots": [
-      "hunter/10.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/24.png"
+    ]
+  },
+  "1343": {
+    "review": "classic",
+    "screenshots": [
+      "hunter/overview-clean.png"
+    ]
+  },
+  "1344": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/22.png"
+    ]
+  },
+  "1345": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/19.png",
+      "hunter/35.png"
+    ]
+  },
+  "1346": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/29.png"
+    ]
+  },
+  "1347": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/32.png"
+    ]
+  },
+  "1349": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/31.png"
+    ]
+  },
+  "1352": {
+    "review": "unchanged",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/20.png"
+    ]
+  },
+  "1353": {
+    "review": "unchanged",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/33.png"
+    ]
+  },
+  "1361": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/28.png"
+    ]
+  },
+  "1362": {
+    "review": "unchanged",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/34.png"
+    ]
+  },
+  "1382": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/36.png"
+    ]
+  },
+  "1384": {
+    "review": "unchanged",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/38.png"
+    ]
+  },
+  "1386": {
+    "review": "unchanged",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/overview.png"
+    ]
+  },
+  "1387": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/46.png"
+    ]
+  },
+  "1388": {
+    "review": "unchanged",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/45.png"
+    ]
+  },
+  "1389": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/37.png"
+    ]
+  },
+  "1390": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/44.png"
+    ]
+  },
+  "1391": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/41.png"
+    ]
+  },
+  "1393": {
+    "review": "classic",
+    "screenshots": [
+      "hunter/overview-clean.png"
+    ]
+  },
+  "1395": {
+    "review": "classic",
+    "screenshots": [
+      "hunter/overview-clean.png"
+    ]
+  },
+  "1396": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/42.png"
+    ]
+  },
+  "1397": {
+    "review": "unchanged",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/47.png"
     ]
   },
   "1402": {
@@ -544,6 +1772,46 @@
       "paladin/6.png"
     ]
   },
+  "1541": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/34.png"
+    ]
+  },
+  "1542": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/30.png"
+    ]
+  },
+  "1543": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/31.png"
+    ]
+  },
+  "1561": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Holy-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "1581": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/27.png"
+    ]
+  },
   "1601": {
     "review": "updated",
     "screenshots": [
@@ -553,15 +1821,27 @@
     ]
   },
   "1621": {
-    "review": "updated",
+    "review": "unchanged",
     "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
       "hunter/4.png"
     ]
   },
   "1622": {
     "review": "unchanged",
     "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
       "hunter/5.png"
+    ]
+  },
+  "1625": {
+    "review": "unchanged",
+    "screenshots": [
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/39.png"
     ]
   },
   "1629": {
@@ -595,10 +1875,71 @@
       "paladin/13.png"
     ]
   },
+  "1635": {
+    "review": "unchanged",
+    "screenshots": [
+      "priest/Holy-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
+  "1636": {
+    "review": "updated",
+    "screenshots": [
+      "priest/Holy-forever.png",
+      "priest/overview.png",
+      "priest/Priest_talents.png"
+    ]
+  },
   "1639": {
     "review": "unchanged",
     "screenshots": [
       "mage/28.png"
+    ]
+  },
+  "1640": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/19.png",
+      "shaman/20.png",
+      "shaman/36.png"
+    ]
+  },
+  "1641": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/25.png",
+      "shaman/40.png"
+    ]
+  },
+  "1642": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/23.png"
+    ]
+  },
+  "1645": {
+    "review": "unchanged",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/16.png"
+    ]
+  },
+  "1646": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/60.png"
+    ]
+  },
+  "1648": {
+    "review": "updated",
+    "screenshots": [
+      "shaman/overview.png",
+      "shaman/69.png"
     ]
   },
   "1649": {
@@ -665,16 +2006,56 @@
       "mage/49.png"
     ]
   },
-  "90020": {
+  "90011": {
     "review": "new",
     "screenshots": [
-      "priest/Disc.forever.jpg",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/12.png"
     ]
   },
-  "345": {
-    "review": "updated",
+  "90012": {
+    "review": "new",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/14.png"
+    ]
+  },
+  "90013": {
+    "review": "new",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/15.png"
+    ]
+  },
+  "90014": {
+    "review": "new",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/23.png"
+    ]
+  },
+  "90015": {
+    "review": "new",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/28.png"
+    ]
+  },
+  "90016": {
+    "review": "new",
+    "screenshots": [
+      "warrior/overview.png",
+      "warrior/overview-rend.png",
+      "warrior/33.png"
+    ]
+  },
+  "90020": {
+    "review": "new",
     "screenshots": [
       "priest/Disc.forever.jpg",
       "priest/overview.png",
@@ -689,14 +2070,6 @@
       "priest/Priest_talents.png"
     ]
   },
-  "352": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Disc.forever.jpg",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
   "90022": {
     "review": "new",
     "screenshots": [
@@ -705,72 +2078,8 @@
       "priest/Priest_talents.png"
     ]
   },
-  "343": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Disc.forever.jpg",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "321": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Disc.forever.jpg",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "341": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Disc.forever.jpg",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "348": {
-    "review": "unchanged",
-    "screenshots": [
-      "priest/Disc.forever.jpg",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "347": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Disc.forever.jpg",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "346": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Disc.forever.jpg",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "1201": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Disc.forever.jpg",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
   "90023": {
     "review": "new",
-    "screenshots": [
-      "priest/Disc.forever.jpg",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "350": {
-    "review": "updated",
     "screenshots": [
       "priest/Disc.forever.jpg",
       "priest/overview.png",
@@ -801,96 +2110,8 @@
       "priest/Priest_talents.png"
     ]
   },
-  "322": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Disc.forever.jpg",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
   "90027": {
     "review": "new",
-    "screenshots": [
-      "priest/Holy-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "406": {
-    "review": "unchanged",
-    "screenshots": [
-      "priest/Holy-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "401": {
-    "review": "unchanged",
-    "screenshots": [
-      "priest/Holy-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "411": {
-    "review": "unchanged",
-    "screenshots": [
-      "priest/Holy-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "1181": {
-    "review": "unchanged",
-    "screenshots": [
-      "priest/Holy-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "442": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Holy-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "1636": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Holy-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "361": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Holy-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "1635": {
-    "review": "unchanged",
-    "screenshots": [
-      "priest/Holy-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "408": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Holy-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "403": {
-    "review": "updated",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -913,30 +2134,6 @@
       "priest/Priest_talents.png"
     ]
   },
-  "1561": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Holy-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "402": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Holy-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "404": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Holy-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
   "90030": {
     "review": "new",
     "screenshots": [
@@ -945,112 +2142,8 @@
       "priest/Priest_talents.png"
     ]
   },
-  "463": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "464": {
-    "review": "unchanged",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "465": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "466": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "482": {
-    "review": "unchanged",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "881": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "481": {
-    "review": "unchanged",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "542": {
-    "review": "unchanged",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "501": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
   "90031": {
     "review": "new",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "483": {
-    "review": "unchanged",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "484": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "461": {
-    "review": "updated",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "541": {
-    "review": "updated",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -1067,22 +2160,6 @@
   },
   "90033": {
     "review": "new",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "462": {
-    "review": "unchanged",
-    "screenshots": [
-      "priest/Shadow-forever.png",
-      "priest/overview.png",
-      "priest/Priest_talents.png"
-    ]
-  },
-  "521": {
-    "review": "updated",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -1107,13 +2184,6 @@
       "druid/37.png"
     ]
   },
-  "90055": {
-    "review": "new",
-    "screenshots": [
-      "druid/24.png",
-      "druid/39.png"
-    ]
-  },
   "90053": {
     "review": "new",
     "screenshots": [
@@ -1126,58 +2196,11 @@
       "druid/23.png"
     ]
   },
-  "90063": {
+  "90055": {
     "review": "new",
     "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "796": {
-    "review": "unchanged",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "799": {
-    "review": "updated",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "803": {
-    "review": "unchanged",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "800": {
-    "review": "updated",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "90060": {
-    "review": "new",
-    "screenshots": [
-      "druid/15.png"
-    ]
-  },
-  "90058": {
-    "review": "new",
-    "screenshots": [
-      "druid/6.png"
-    ]
-  },
-  "1162": {
-    "review": "unchanged",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "809": {
-    "review": "updated",
-    "screenshots": [
-      "druid/overview.png"
+      "druid/24.png",
+      "druid/39.png"
     ]
   },
   "90056": {
@@ -1186,82 +2209,28 @@
       "druid/4.png"
     ]
   },
-  "90059": {
-    "review": "new",
-    "screenshots": [
-      "druid/9.png"
-    ]
-  },
   "90057": {
     "review": "new",
     "screenshots": [
       "druid/5.png"
     ]
   },
-  "90064": {
+  "90058": {
     "review": "new",
     "screenshots": [
-      "druid/overview.png"
+      "druid/6.png"
     ]
   },
-  "823": {
-    "review": "unchanged",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "824": {
-    "review": "unchanged",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "829": {
-    "review": "unchanged",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "841": {
-    "review": "unchanged",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "826": {
-    "review": "unchanged",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "843": {
-    "review": "unchanged",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "830": {
-    "review": "unchanged",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "828": {
-    "review": "unchanged",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "842": {
-    "review": "unchanged",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
-  "90062": {
+  "90059": {
     "review": "new",
     "screenshots": [
-      "druid/overview.png"
+      "druid/9.png"
+    ]
+  },
+  "90060": {
+    "review": "new",
+    "screenshots": [
+      "druid/15.png"
     ]
   },
   "90061": {
@@ -1270,938 +2239,247 @@
       "druid/2.png"
     ]
   },
-  "563": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/1.png"
-    ]
-  },
-  "564": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/2.png"
-    ]
-  },
-  "561": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/3.png",
-      "shaman/17.png",
-      "shaman/34.png"
-    ]
-  },
-  "90070": {
+  "90062": {
     "review": "new",
     "screenshots": [
-      "warlock/overview.png",
-      "warlock/41.png"
+      "druid/overview.png"
     ]
   },
-  "1640": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/19.png",
-      "shaman/20.png",
-      "shaman/36.png"
-    ]
-  },
-  "575": {
-    "review": "unchanged",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/18.png",
-      "shaman/35.png"
-    ]
-  },
-  "574": {
-    "review": "unchanged",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/21.png",
-      "shaman/37.png"
-    ]
-  },
-  "562": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/27.png",
-      "shaman/42.png"
-    ]
-  },
-  "1645": {
-    "review": "unchanged",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/16.png"
-    ]
-  },
-  "567": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/24.png",
-      "shaman/39.png"
-    ]
-  },
-  "90071": {
+  "90063": {
     "review": "new",
     "screenshots": [
-      "warlock/overview.png",
-      "warlock/42.png"
+      "druid/overview.png"
     ]
   },
-  "565": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/22.png",
-      "shaman/38.png"
-    ]
-  },
-  "1641": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/25.png",
-      "shaman/40.png"
-    ]
-  },
-  "90072": {
+  "90064": {
     "review": "new",
     "screenshots": [
-      "warlock/overview.png",
-      "warlock/45.png"
+      "druid/overview.png"
     ]
   },
-  "1642": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/23.png"
-    ]
-  },
-  "90073": {
+  "90092": {
     "review": "new",
     "screenshots": [
-      "warlock/overview.png",
-      "warlock/40.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/1.png"
     ]
   },
-  "609": {
-    "review": "unchanged",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/12.png",
-      "shaman/29.png",
-      "shaman/44.png"
-    ]
-  },
-  "90074": {
+  "90093": {
     "review": "new",
     "screenshots": [
-      "warlock/overview.png",
-      "warlock/46.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/11.png"
     ]
   },
-  "601": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/48.png"
-    ]
-  },
-  "605": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/13.png",
-      "shaman/31.png",
-      "shaman/46.png"
-    ]
-  },
-  "90075": {
+  "90094": {
     "review": "new",
     "screenshots": [
-      "warlock/overview.png",
-      "warlock/49.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/12.png"
     ]
   },
-  "607": {
-    "review": "unchanged",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/47.png"
-    ]
-  },
-  "615": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/11.png",
-      "shaman/51.png"
-    ]
-  },
-  "90076": {
+  "90095": {
     "review": "new",
     "screenshots": [
-      "warlock/overview.png",
-      "warlock/18.png",
-      "warlock/52.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/13.png"
     ]
   },
-  "602": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/52.png"
-    ]
-  },
-  "901": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/14.png"
-    ]
-  },
-  "90077": {
+  "90096": {
     "review": "new",
     "screenshots": [
-      "warlock/overview.png",
-      "warlock/23.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/14.png"
     ]
   },
-  "90078": {
+  "90097": {
     "review": "new",
     "screenshots": [
-      "warlock/overview.png",
-      "warlock/32.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/15.png"
     ]
   },
-  "611": {
-    "review": "unchanged",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/50.png"
-    ]
-  },
-  "90079": {
+  "90098": {
     "review": "new",
     "screenshots": [
-      "warlock/overview.png",
-      "warlock/29.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/16.png"
     ]
   },
-  "90080": {
+  "90099": {
     "review": "new",
     "screenshots": [
-      "warlock/overview.png",
-      "warlock/30.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/18.png"
     ]
   },
-  "586": {
-    "review": "unchanged",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/57.png"
-    ]
-  },
-  "593": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/61.png"
-    ]
-  },
-  "90081": {
-    "review": "new",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/28.png"
-    ]
-  },
-  "1646": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/60.png"
-    ]
-  },
-  "587": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/64.png"
-    ]
-  },
-  "581": {
-    "review": "unchanged",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/63.png"
-    ]
-  },
-  "595": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/68.png"
-    ]
-  },
-  "589": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/62.png"
-    ]
-  },
-  "594": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/58.png"
-    ]
-  },
-  "90082": {
-    "review": "new",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/24.png"
-    ]
-  },
-  "1648": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/69.png"
-    ]
-  },
-  "590": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/66.png"
-    ]
-  },
-  "588": {
-    "review": "updated",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/67.png"
-    ]
-  },
-  "591": {
-    "review": "unchanged",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/70.png"
-    ]
-  },
-  "592": {
-    "review": "unchanged",
-    "screenshots": [
-      "shaman/overview.png",
-      "shaman/71.png"
-    ]
-  },
-  "90083": {
-    "review": "new",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/22.png"
-    ]
-  },
-  "1007": {
-    "review": "unchanged",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/39.png"
-    ]
-  },
-  "1005": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/38.png"
-    ]
-  },
-  "1003": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/37.png"
-    ]
-  },
-  "1001": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/44.png"
-    ]
-  },
-  "1061": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/43.png"
-    ]
-  },
-  "1002": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/47.png"
-    ]
-  },
-  "1041": {
-    "review": "unchanged",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/50.png"
-    ]
-  },
-  "1081": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/48.png"
-    ]
-  },
-  "1042": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/51.png"
-    ]
-  },
-  "1222": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/35.png"
-    ]
-  },
-  "1223": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/34.png"
-    ]
-  },
-  "1225": {
-    "review": "unchanged",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/31.png"
-    ]
-  },
-  "1226": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/27.png"
-    ]
-  },
-  "1281": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/25.png"
-    ]
-  },
-  "1262": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/33.png"
-    ]
-  },
-  "1227": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/26.png"
-    ]
-  },
-  "1224": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/36.png"
-    ]
-  },
-  "1244": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/19.png"
-    ]
-  },
-  "90084": {
+  "90200": {
     "review": "new",
     "screenshots": [
       "warlock/overview.png",
       "warlock/20.png"
     ]
   },
-  "90085": {
+  "90201": {
     "review": "new",
     "screenshots": [
       "warlock/overview.png",
       "warlock/17.png"
     ]
   },
-  "1282": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/21.png"
-    ]
-  },
-  "964": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/3.png"
-    ]
-  },
-  "944": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/2.png"
-    ]
-  },
-  "982": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/6.png"
-    ]
-  },
-  "90086": {
+  "90202": {
     "review": "new",
     "screenshots": [
       "warlock/overview.png",
       "warlock/4.png"
     ]
   },
-  "943": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/1.png"
-    ]
-  },
-  "941": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/5.png"
-    ]
-  },
-  "963": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/7.png"
-    ]
-  },
-  "967": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/8.png"
-    ]
-  },
-  "90087": {
+  "90203": {
     "review": "new",
     "screenshots": [
       "warlock/overview.png",
       "warlock/9.png"
     ]
   },
-  "985": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/10.png"
-    ]
-  },
-  "986": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/14.png"
-    ]
-  },
-  "90088": {
+  "90204": {
     "review": "new",
     "screenshots": [
       "warlock/overview.png",
       "warlock/16.png"
     ]
   },
-  "968": {
-    "review": "updated",
-    "screenshots": [
-      "warlock/overview.png",
-      "warlock/11.png"
-    ]
-  },
-  "90089": {
+  "90205": {
     "review": "new",
     "screenshots": [
       "warlock/overview.png",
       "warlock/12.png"
     ]
   },
-  "90090": {
+  "90206": {
     "review": "new",
     "screenshots": [
       "warlock/overview.png",
       "warlock/15.png"
     ]
   },
-  "90091": {
+  "90207": {
     "review": "new",
     "screenshots": [
       "warlock/overview.png",
       "warlock/13.png"
     ]
   },
-  "124": {
-    "review": "unchanged",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/1.png"
-    ]
-  },
-  "130": {
-    "review": "unchanged",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/2.png"
-    ]
-  },
-  "127": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/3.png"
-    ]
-  },
-  "641": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/4.png",
-      "warrior/6.png"
-    ]
-  },
-  "126": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/5.png",
-      "warrior/7.png"
-    ]
-  },
-  "131": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/9.png"
-    ]
-  },
-  "137": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/8.png"
-    ]
-  },
-  "662": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/11.png"
-    ]
-  },
-  "90011": {
+  "90208": {
     "review": "new",
     "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/12.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/23.png"
     ]
   },
-  "136": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/10.png"
-    ]
-  },
-  "90012": {
+  "90209": {
     "review": "new",
     "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/14.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/25.png"
     ]
   },
-  "133": {
-    "review": "unchanged",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/13.png"
-    ]
-  },
-  "90013": {
+  "90210": {
     "review": "new",
     "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/15.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/26.png"
     ]
   },
-  "168": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/16.png"
-    ]
-  },
-  "129": {
-    "review": "unchanged",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/17.png"
-    ]
-  },
-  "135": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/18.png"
-    ]
-  },
-  "158": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/19.png"
-    ]
-  },
-  "157": {
-    "review": "unchanged",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/20.png"
-    ]
-  },
-  "141": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/21.png"
-    ]
-  },
-  "159": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/22.png"
-    ]
-  },
-  "166": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/26.png"
-    ]
-  },
-  "160": {
-    "review": "unchanged",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/25.png"
-    ]
-  },
-  "661": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/24.png"
-    ]
-  },
-  "90014": {
+  "90211": {
     "review": "new",
     "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/23.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/27.png"
     ]
   },
-  "1581": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/27.png"
-    ]
-  },
-  "165": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/32.png"
-    ]
-  },
-  "155": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/29.png"
-    ]
-  },
-  "1542": {
-    "review": "updated",
-    "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/30.png"
-    ]
-  },
-  "90015": {
+  "90212": {
     "review": "new",
     "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/28.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/30.png"
     ]
   },
-  "90016": {
+  "90213": {
     "review": "new",
     "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/33.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/40.png"
     ]
   },
-  "1543": {
-    "review": "unchanged",
+  "90214": {
+    "review": "new",
     "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/31.png"
+      "hunter/ovvveriview.png",
+      "hunter/overview-clean.png",
+      "hunter/43.png"
     ]
   },
-  "1541": {
-    "review": "updated",
+  "90215": {
+    "review": "new",
     "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/34.png"
+      "warlock/overview.png",
+      "warlock/23.png"
     ]
   },
-  "156": {
-    "review": "unchanged",
+  "90216": {
+    "review": "new",
     "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/35.png"
+      "warlock/overview.png",
+      "warlock/32.png"
     ]
   },
-  "167": {
-    "review": "updated",
+  "90217": {
+    "review": "new",
     "screenshots": [
-      "warrior/overview.png",
-      "warrior/overview-rend.png",
-      "warrior/36.png"
+      "warlock/overview.png",
+      "warlock/29.png"
     ]
   },
-  "121": {
-    "review": "classic",
+  "90218": {
+    "review": "new",
     "screenshots": [
-      "warrior/overview-rend.png",
-      "warrior/overview.png"
-    ],
-    "notes": "Absent from Forever overview (Deep Wounds)"
+      "warlock/overview.png",
+      "warlock/30.png"
+    ]
   },
-  "132": {
-    "review": "classic",
+  "90219": {
+    "review": "new",
     "screenshots": [
-      "warrior/overview-rend.png",
-      "warrior/overview.png"
-    ],
-    "notes": "Absent from Forever overview (Axe Specialization)"
+      "warlock/overview.png",
+      "warlock/28.png"
+    ]
   },
-  "125": {
-    "review": "classic",
+  "90220": {
+    "review": "new",
     "screenshots": [
-      "warrior/overview-rend.png",
-      "warrior/overview.png"
-    ],
-    "notes": "Absent from Forever overview (Mace Specialization)"
+      "warlock/overview.png",
+      "warlock/24.png"
+    ]
   },
-  "123": {
-    "review": "classic",
+  "90221": {
+    "review": "new",
     "screenshots": [
-      "warrior/overview-rend.png",
-      "warrior/overview.png"
-    ],
-    "notes": "Absent from Forever overview (Sword Specialization)"
-  },
-  "134": {
-    "review": "classic",
-    "screenshots": [
-      "warrior/overview-rend.png",
-      "warrior/overview.png"
-    ],
-    "notes": "Absent from Forever overview (Polearm Specialization)"
-  },
-  "161": {
-    "review": "classic",
-    "screenshots": [
-      "warrior/overview-rend.png",
-      "warrior/overview.png"
-    ],
-    "notes": "Absent from Forever overview (Improved Demoralizing Shout)"
-  },
-  "154": {
-    "review": "classic",
-    "screenshots": [
-      "warrior/overview-rend.png",
-      "warrior/overview.png"
-    ],
-    "notes": "Absent from Forever overview (Improved Battle Shout)"
+      "warlock/overview.png",
+      "warlock/22.png"
+    ]
   }
 }
