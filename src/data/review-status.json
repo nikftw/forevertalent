@@ -1,50 +1,648 @@
 {
+  "23": {
+    "review": "updated",
+    "screenshots": [
+      "mage/24.png"
+    ]
+  },
+  "24": {
+    "review": "unchanged",
+    "screenshots": [
+      "mage/26.png"
+    ]
+  },
+  "25": {
+    "review": "updated",
+    "screenshots": [
+      "mage/25.png"
+    ]
+  },
+  "29": {
+    "review": "updated",
+    "screenshots": [
+      "mage/23.png"
+    ]
+  },
+  "32": {
+    "review": "updated",
+    "screenshots": [
+      "mage/30.png"
+    ]
+  },
+  "33": {
+    "review": "unchanged",
+    "screenshots": [
+      "mage/29.png"
+    ]
+  },
+  "35": {
+    "review": "unchanged",
+    "screenshots": [
+      "mage/31.png"
+    ]
+  },
+  "36": {
+    "review": "updated",
+    "screenshots": [
+      "mage/32.png"
+    ]
+  },
+  "37": {
+    "review": "unchanged",
+    "screenshots": [
+      "mage/34.png"
+    ]
+  },
+  "38": {
+    "review": "unchanged",
+    "screenshots": [
+      "mage/39.png"
+    ]
+  },
+  "61": {
+    "review": "unchanged",
+    "screenshots": [
+      "mage/43.png"
+    ]
+  },
+  "62": {
+    "review": "unchanged",
+    "screenshots": [
+      "mage/38.png"
+    ]
+  },
+  "63": {
+    "review": "updated",
+    "screenshots": [
+      "mage/40.png"
+    ]
+  },
+  "64": {
+    "review": "updated",
+    "screenshots": [
+      "mage/47.png"
+    ]
+  },
+  "65": {
+    "review": "updated",
+    "screenshots": [
+      "mage/37.png"
+    ]
+  },
+  "66": {
+    "review": "unchanged",
+    "screenshots": [
+      "mage/42.png"
+    ]
+  },
+  "68": {
+    "review": "updated",
+    "screenshots": [
+      "mage/48.png"
+    ]
+  },
+  "69": {
+    "review": "updated",
+    "screenshots": [
+      "mage/46.png"
+    ]
+  },
+  "70": {
+    "review": "unchanged",
+    "screenshots": [
+      "mage/33.png"
+    ]
+  },
   "71": {
     "review": "updated",
-    "screenshots": ["mage/1.png"]
+    "screenshots": [
+      "mage/1.png",
+      "mage/50.png"
+    ]
+  },
+  "72": {
+    "review": "unchanged",
+    "screenshots": [
+      "mage/45.png"
+    ]
+  },
+  "73": {
+    "review": "unchanged",
+    "screenshots": [
+      "mage/36.png"
+    ]
   },
   "74": {
     "review": "updated",
-    "screenshots": ["mage/2.png"]
+    "screenshots": [
+      "mage/2.png"
+    ]
   },
   "75": {
     "review": "unchanged",
-    "screenshots": ["mage/3.png"]
+    "screenshots": [
+      "mage/3.png",
+      "mage/9.png"
+    ]
   },
   "77": {
     "review": "updated",
-    "screenshots": ["mage/6.png"]
+    "screenshots": [
+      "mage/6.png"
+    ]
   },
   "78": {
     "review": "unchanged",
-    "screenshots": ["mage/4.png"]
+    "screenshots": [
+      "mage/4.png"
+    ]
   },
-  "1650": {
+  "81": {
     "review": "updated",
-    "screenshots": ["mage/5.png"]
+    "screenshots": [
+      "mage/13.png"
+    ]
   },
-  "1403": {
-    "review": "unchanged",
-    "screenshots": ["paladin/2.png"]
+  "83": {
+    "review": "updated",
+    "screenshots": [
+      "mage/14.png"
+    ]
   },
-  "1631": {
+  "85": {
+    "review": "updated",
+    "screenshots": [
+      "mage/8.png"
+    ]
+  },
+  "86": {
     "review": "unchanged",
-    "screenshots": ["paladin/4.png"]
+    "screenshots": [
+      "mage/19.png"
+    ]
+  },
+  "88": {
+    "review": "updated",
+    "screenshots": [
+      "mage/15.png"
+    ]
+  },
+  "128": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "138": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "140": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "142": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "144": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "146": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "147": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "148": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "149": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "150": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "151": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "152": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "153": {
+    "review": "unchanged",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "421": {
+    "review": "updated",
+    "screenshots": [
+      "mage/7.png",
+      "mage/21.png"
+    ]
+  },
+  "741": {
+    "review": "unchanged",
+    "screenshots": [
+      "mage/44.png"
+    ]
+  },
+  "762": {
+    "review": "updated",
+    "screenshots": [
+      "druid/16.png"
+    ]
+  },
+  "763": {
+    "review": "updated",
+    "screenshots": [
+      "druid/17.png",
+      "druid/31.png"
+    ]
+  },
+  "764": {
+    "review": "updated",
+    "screenshots": [
+      "druid/19.png"
+    ]
+  },
+  "781": {
+    "review": "updated",
+    "screenshots": [
+      "druid/27.png"
+    ]
+  },
+  "783": {
+    "review": "updated",
+    "screenshots": [
+      "druid/30.png"
+    ]
+  },
+  "784": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/21.png"
+    ]
+  },
+  "789": {
+    "review": "updated",
+    "screenshots": [
+      "druid/22.png",
+      "druid/38.png"
+    ]
+  },
+  "790": {
+    "review": "updated",
+    "screenshots": [
+      "druid/25.png"
+    ]
+  },
+  "792": {
+    "review": "updated",
+    "screenshots": [
+      "druid/33.png"
+    ]
+  },
+  "793": {
+    "review": "updated",
+    "screenshots": [
+      "druid/26.png"
+    ]
+  },
+  "794": {
+    "review": "updated",
+    "screenshots": [
+      "druid/12.png"
+    ]
   },
   "797": {
     "review": "updated",
-    "screenshots": ["druid/3.png"]
+    "screenshots": [
+      "druid/3.png",
+      "druid/13.png"
+    ]
+  },
+  "798": {
+    "review": "updated",
+    "screenshots": [
+      "druid/11.png",
+      "druid/35.png"
+    ]
+  },
+  "801": {
+    "review": "updated",
+    "screenshots": [
+      "druid/10.png"
+    ]
+  },
+  "802": {
+    "review": "updated",
+    "screenshots": [
+      "druid/7.png"
+    ]
+  },
+  "804": {
+    "review": "updated",
+    "screenshots": [
+      "druid/34.png"
+    ]
+  },
+  "805": {
+    "review": "updated",
+    "screenshots": [
+      "druid/8.png",
+      "druid/36.png"
+    ]
+  },
+  "808": {
+    "review": "updated",
+    "screenshots": [
+      "druid/14.png"
+    ]
   },
   "822": {
     "review": "updated",
-    "screenshots": ["druid/image.png"]
+    "screenshots": [
+      "druid/image.png"
+    ]
+  },
+  "827": {
+    "review": "updated",
+    "screenshots": [
+      "druid/32.png"
+    ]
+  },
+  "831": {
+    "review": "unchanged",
+    "screenshots": [
+      "druid/28.png"
+    ]
   },
   "844": {
     "review": "updated",
-    "screenshots": ["druid/1.png"]
+    "screenshots": [
+      "druid/1.png"
+    ]
+  },
+  "1142": {
+    "review": "updated",
+    "screenshots": [
+      "mage/16.png"
+    ]
+  },
+  "1303": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/17.png"
+    ]
+  },
+  "1304": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/3.png"
+    ]
+  },
+  "1305": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/6.png"
+    ]
+  },
+  "1306": {
+    "review": "unchanged",
+    "screenshots": [
+      "hunter/7.png"
+    ]
+  },
+  "1308": {
+    "review": "unchanged",
+    "screenshots": [
+      "hunter/9.png"
+    ]
+  },
+  "1310": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/8.png"
+    ]
+  },
+  "1311": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/2.png"
+    ]
+  },
+  "1312": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/10.png"
+    ]
+  },
+  "1402": {
+    "review": "updated",
+    "screenshots": [
+      "paladin/11.png"
+    ]
+  },
+  "1403": {
+    "review": "unchanged",
+    "screenshots": [
+      "paladin/2.png"
+    ]
+  },
+  "1407": {
+    "review": "updated",
+    "screenshots": [
+      "paladin/23.png"
+    ]
+  },
+  "1410": {
+    "review": "updated",
+    "screenshots": [
+      "paladin/10.png"
+    ]
+  },
+  "1411": {
+    "review": "unchanged",
+    "screenshots": [
+      "paladin/5.png",
+      "paladin/25.png"
+    ]
+  },
+  "1421": {
+    "review": "updated",
+    "screenshots": [
+      "paladin/16.png"
+    ]
+  },
+  "1430": {
+    "review": "updated",
+    "screenshots": [
+      "paladin/22.png"
+    ]
+  },
+  "1481": {
+    "review": "unchanged",
+    "screenshots": [
+      "paladin/6.png"
+    ]
+  },
+  "1601": {
+    "review": "updated",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "1621": {
+    "review": "updated",
+    "screenshots": [
+      "hunter/4.png"
+    ]
+  },
+  "1622": {
+    "review": "unchanged",
+    "screenshots": [
+      "hunter/5.png"
+    ]
+  },
+  "1629": {
+    "review": "updated",
+    "screenshots": [
+      "paladin/17.png"
+    ]
+  },
+  "1631": {
+    "review": "unchanged",
+    "screenshots": [
+      "paladin/4.png"
+    ]
+  },
+  "1632": {
+    "review": "updated",
+    "screenshots": [
+      "paladin/9.png"
+    ]
+  },
+  "1633": {
+    "review": "updated",
+    "screenshots": [
+      "paladin/8.png",
+      "paladin/26.png"
+    ]
+  },
+  "1634": {
+    "review": "updated",
+    "screenshots": [
+      "paladin/13.png"
+    ]
+  },
+  "1639": {
+    "review": "unchanged",
+    "screenshots": [
+      "mage/28.png"
+    ]
+  },
+  "1649": {
+    "review": "updated",
+    "screenshots": [
+      "mage/35.png"
+    ]
+  },
+  "1650": {
+    "review": "updated",
+    "screenshots": [
+      "mage/5.png"
+    ]
   },
   "90001": {
     "review": "new",
-    "screenshots": ["druid/2.png"]
+    "screenshots": [
+      "druid/2.png"
+    ]
+  },
+  "90002": {
+    "review": "new",
+    "screenshots": [
+      "druid/4.png"
+    ]
+  },
+  "90003": {
+    "review": "new",
+    "screenshots": [
+      "druid/9.png"
+    ]
+  },
+  "90004": {
+    "review": "new",
+    "screenshots": [
+      "mage/41.png"
+    ]
+  },
+  "90005": {
+    "review": "new",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "90006": {
+    "review": "new",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "90007": {
+    "review": "new",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "90008": {
+    "review": "new",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "90009": {
+    "review": "new",
+    "screenshots": [
+      "warrior/image.png"
+    ]
+  },
+  "90010": {
+    "review": "new",
+    "screenshots": [
+      "mage/49.png"
+    ]
   }
 }

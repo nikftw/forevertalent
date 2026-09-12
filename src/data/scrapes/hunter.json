@@ -1,0 +1,370 @@
+{
+  "class": "hunter",
+  "overviewFile": null,
+  "trees": [
+    {
+      "name": "Beast Mastery",
+      "slots": []
+    },
+    {
+      "name": "Marksmanship",
+      "slots": []
+    },
+    {
+      "name": "Survival",
+      "slots": []
+    }
+  ],
+  "talents": [
+    {
+      "screenshots": ["hunter/1.png"],
+      "name": "Improved Tracking",
+      "classicId": null,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 1%."
+        }
+      ],
+      "iconHint": "Icon not visible in screenshot; tooltip-only crop",
+      "status": "new",
+      "diffNotes": "No Classic name match. Replaces/supplements Classic Monster Slaying / Humanoid Slaying style tracking bonuses."
+    },
+    {
+      "screenshots": ["hunter/2.png"],
+      "name": "Deflection",
+      "classicId": 1311,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Parry chance by 2%."
+        }
+      ],
+      "iconHint": "Gauntleted hand holding a curved silver parrying blade; green border; rank badge 0",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was 1% Parry; Forever rank-1 preview shows 2%. Tree label partial 'ival' confirms Survival."
+    },
+    {
+      "screenshots": ["hunter/3.png"],
+      "name": "Entrapment",
+      "classicId": 1304,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When your traps are triggered, all affected targets are Entrapped, preventing them from moving for 1 sec."
+        }
+      ],
+      "iconHint": "Dark circular net / spiked trap pattern; greyed at 0",
+      "status": "updated",
+      "diffNotes": "Classic was a % chance on Immolation/Frost/Explosive Trap to root for 5 sec; Forever roots all affected targets for 1 sec when traps trigger. Shot shows leftmost icon in a 4-icon row under Survival header."
+    },
+    {
+      "screenshots": ["hunter/4.png"],
+      "name": "Savage Strikes",
+      "classicId": 1621,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical strike chance of all your melee abilities by 2%."
+        }
+      ],
+      "iconHint": "Silhouette of snarling wolf/beast head in dark purple/black; green border; rank badge 0",
+      "status": "updated",
+      "diffNotes": "Classic was +10% crit on Raptor Strike and Mongoose Bite only; Forever is +2% crit on all melee abilities."
+    },
+    {
+      "screenshots": ["hunter/5.png"],
+      "name": "Survivalist",
+      "classicId": 1622,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your total Health by 2%."
+        }
+      ],
+      "iconHint": "Silver straight sword angled upper-right on dark blue with light streaks; green border; rank badge 0",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1 (+2% health); minor wording ('your total Health' vs 'total health'). Icon appears different from Classic spell_shadow_twilight."
+    },
+    {
+      "screenshots": ["hunter/6.png"],
+      "name": "Improved Wing Clip",
+      "classicId": 1305,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your Wing Clip ability a 7% chance to immobilize the target for 5 sec."
+        }
+      ],
+      "iconHint": "Dark metallic armored gauntlet / clawed hand",
+      "status": "updated",
+      "diffNotes": "Classic maxRank 5 at 4/8/12/16/20%; Forever maxRank 3 with rank-1 preview at 7%."
+    },
+    {
+      "screenshots": ["hunter/7.png"],
+      "name": "Clever Traps",
+      "classicId": 1306,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the duration of Freezing and Frost trap effects by 15% and the damage of Immolation and Explosive trap effects by 15%."
+        }
+      ],
+      "iconHint": "Coiled rope / snare",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1 text and maxRank 2."
+    },
+    {
+      "screenshots": ["hunter/8.png"],
+      "name": "Surefooted",
+      "classicId": 1310,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your hit chance by 1% and reduces the duration of movement impairing effects on you by 10%."
+        }
+      ],
+      "iconHint": "Purple-hued wolf/beast howling profile; green border; rank badge 0",
+      "status": "updated",
+      "diffNotes": "Classic added resist chance vs movement impairing (+5% per rank); Forever reduces duration of movement impairing effects on you (10% at rank 1)."
+    },
+    {
+      "screenshots": ["hunter/9.png"],
+      "name": "Deterrence",
+      "classicId": 1308,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When activated, increases your Dodge and Parry chance by 25% for 10 sec."
+        }
+      ],
+      "iconHint": "Curved circular blade/defensive flourish; greyed at 0",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic effect text. Tooltip also shows Instant and 5 min cooldown."
+    },
+    {
+      "screenshots": ["hunter/10.png"],
+      "name": "Counterattack",
+      "classicId": 1312,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "A strike that becomes active after parrying an opponent's attack. This attack deals 50% weapon damage plus 13 and immobilizes the target for 5 sec. Counterattack cannot be blocked, dodged, or parried."
+        }
+      ],
+      "iconHint": "Slanted silver sword on dark blue; green border; rank badge 0",
+      "status": "updated",
+      "diffNotes": "Classic dealt flat 40 damage; Forever is 50% weapon damage + 13. Tooltip also shows 30 Mana, Melee Range, Instant, 5 sec cooldown."
+    },
+    {
+      "screenshots": ["hunter/11.png"],
+      "name": "Predator's Edge",
+      "classicId": null,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your melee critical strike damage by 6% and your offhand weapon damage by 10%."
+        }
+      ],
+      "iconHint": "Metallic armored gauntlet/glove; greyed at 0",
+      "status": "new",
+      "diffNotes": "No Classic name match. Survival tree aesthetic (green forest)."
+    },
+    {
+      "screenshots": ["hunter/12.png"],
+      "name": "Survival Tactics",
+      "classicId": null,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your chance to hit with your Trap and Feign Death abilities by 5%."
+        }
+      ],
+      "iconHint": "Circular mechanical trap-like object; leftmost column in crop",
+      "status": "new",
+      "diffNotes": "No Classic name match. Conceptually overlaps Classic Trap Mastery / Improved Feign Death but different name and combined hit bonus."
+    },
+    {
+      "screenshots": ["hunter/13.png"],
+      "name": "Resourcefulness",
+      "classicId": null,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the mana cost of your Trap abilities and melee abilities by 30%. In addition, your critical strikes have a 30% chance to allow 50% of your Mana regeneration to continue while casting for 30 sec."
+        }
+      ],
+      "iconHint": "Icon obscured by tooltip; Survival green forest background",
+      "status": "new",
+      "diffNotes": "No Classic name match."
+    },
+    {
+      "screenshots": ["hunter/14.png"],
+      "name": "Expose Prey",
+      "classicId": null,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your attacks against targets with Hunter's Mark have a 5% chance to activate your Mongoose Bite for 5 sec."
+        }
+      ],
+      "iconHint": "Faint greyed creature-head or strike artwork",
+      "status": "new",
+      "diffNotes": "No Classic name match (not Expose Weakness)."
+    },
+    {
+      "screenshots": ["hunter/15.png"],
+      "name": "Survivalist's Discipline",
+      "classicId": null,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown of your Trap and Deterrence abilities by 20%."
+        }
+      ],
+      "iconHint": "Hooded figure silhouette; greyed at 0; vertical prerequisite arrow from talent above",
+      "status": "new",
+      "diffNotes": "No Classic name match. Has prerequisite dependency arrow from above."
+    },
+    {
+      "screenshots": ["hunter/16.png"],
+      "name": "Strider Kick",
+      "classicId": null,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "A powerful kick that deals 100% melee weapon damage."
+        }
+      ],
+      "iconHint": "Partial dark hoofed/clawed leg icon; greyed at 0",
+      "status": "new",
+      "diffNotes": "No Classic name match. Tooltip shows 61 Mana, Melee Range, Instant, 8 sec cooldown. Background split teal/orange (Survival/MM border) but tree not labeled."
+    },
+    {
+      "screenshots": ["hunter/17.png"],
+      "name": "Lightning Reflexes",
+      "classicId": 1303,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Agility by 2%."
+        }
+      ],
+      "iconHint": "Monochrome humanoid face/head in profile; greyed at 0",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was +3% Agility; Forever rank-1 preview shows +2%."
+    },
+    {
+      "screenshots": ["hunter/18.png"],
+      "name": "Lacerating Strikes",
+      "classicId": null,
+      "tree": "Survival",
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your Mongoose Bite also causes the target to Bleed for damage over 21 sec equal to 40% of the damage done by Mongoose Bite."
+        }
+      ],
+      "iconHint": "Curved blade / claw slash mark; greyed; downward arrow from talent above (boot/armor icon)",
+      "status": "new",
+      "diffNotes": "No Classic name match. Capstone-style dependency from talent above."
+    },
+    {
+      "screenshots": ["hunter/19.png"],
+      "name": "Sniper Shot",
+      "classicId": null,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "A steady snipe that increases ranged damage by 160."
+        }
+      ],
+      "iconHint": "Dark circular silhouette; partially cursor-obscured; prerequisite line from above",
+      "status": "new",
+      "diffNotes": "No Classic name match. Similar pattern to Classic Aimed Shot (id 1345, +70 ranged damage) but renamed/reworked; tooltip shows 365 Mana, 8-35 yd, 4 sec cast, 15 sec cooldown."
+    }
+  ],
+  "unmatchedScreenshots": [],
+  "layoutNotes": [
+    "No overview screenshot present (only hunter/1.png–19.png). trees[].slots left empty; all row/col null.",
+    "All 19 shots are individual tooltip crops; most are Survival-tree teal/green backgrounds. No Beast Mastery tooltip shots. No confirmed Marksmanship tree label (Sniper Shot may be MM).",
+    "Only rank-0 hover text captured (rank-1 effect preview). Higher-rank scaling not shown except where maxRank implies linear stacks.",
+    "Classic Survival talents not appearing in this set: Monster Slaying, Humanoid Slaying, Trap Mastery, Improved Feign Death, Killer Instinct, Wyvern Sting.",
+    "No BM/MM Classic talents appear in this screenshot set."
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "class": "warrior",
+  "overviewFile": "warrior/image.png",
+  "trees": [
+    {
+      "name": "Arms",
+      "slots": [],
+      "notes": "Not visible in image.png — file is Protection-only collage, not a 3-tree overview"
+    },
+    {
+      "name": "Fury",
+      "slots": [],
+      "notes": "Not visible in image.png — file is Protection-only collage, not a 3-tree overview"
+    },
+    {
+      "name": "Protection",
+      "slots": [
+        {
+          "row": 0,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Shield Specialization",
+          "iconHint": "circular wooden/metal shield",
+          "rankBadge": "0/5",
+          "notes": "Arrow down to Master of Defense (r2c1)"
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Anticipation",
+          "iconHint": "green defensive stance figure",
+          "rankBadge": "0/5",
+          "notes": "Arrow down to Toughness (r1c2)"
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Bloodrage",
+          "iconHint": "red screaming face",
+          "rankBadge": "0/2",
+          "notes": ""
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Toughness",
+          "iconHint": "green muscular arm/fist",
+          "rankBadge": "0/5",
+          "notes": "Arrow down to Improved Revenge (r2c2)"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Improved Thunder Clap",
+          "iconHint": "dark icon with blue circular shockwave",
+          "rankBadge": "0/3",
+          "notes": "Classic Protection had Iron Will here; Imp Thunder Clap was Arms r1c3"
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Last Stand",
+          "iconHint": "blue white figure with shield",
+          "rankBadge": "0/1",
+          "notes": ""
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Master of Defense",
+          "iconHint": "blue shield with small digit",
+          "rankBadge": "0/2",
+          "notes": "Replaces Classic Improved Shield Block; arrow from Shield Specialization"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Improved Revenge",
+          "iconHint": "shield with crossed swords",
+          "rankBadge": "0/3",
+          "notes": "Arrow from Toughness"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Defiance",
+          "iconHint": "dark icon with red glow / hand",
+          "rankBadge": "0/3",
+          "notes": "Classic maxRank was 5"
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Sunder Armor",
+          "iconHint": "blue/purple cracked armor plate",
+          "rankBadge": "0/3",
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Improved Disarm",
+          "iconHint": "dark broken axe",
+          "rankBadge": "0/3",
+          "notes": ""
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Vanguard",
+          "iconHint": "dark metallic helmet",
+          "rankBadge": "0/1",
+          "notes": "Replaces Classic Improved Taunt"
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Improved Shield Wall",
+          "iconHint": "purple figure crouching behind large shield",
+          "rankBadge": "0/2",
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Concussion Blow",
+          "iconHint": "blue hammer striking head",
+          "rankBadge": "0/1",
+          "notes": "Arrow down to Shield Slam (r6c1)"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Improved Shield Bash",
+          "iconHint": "blue shield striking object",
+          "rankBadge": "0/2",
+          "notes": ""
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "occupied": true,
+          "guessName": "Vitality",
+          "iconHint": "dark red/blue veins or blood vessels",
+          "rankBadge": "0/5",
+          "notes": "New slot — Classic Protection had empty r4c3"
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "occupied": true,
+          "guessName": "Focused Rage",
+          "iconHint": "dark red angry face",
+          "rankBadge": "0/3",
+          "notes": "New slot — Classic Protection had empty r5c0"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "occupied": true,
+          "guessName": "Bastion",
+          "iconHint": "blue shield with defensive aura",
+          "rankBadge": "0/5",
+          "notes": "Replaces Classic One-Handed Weapon Specialization"
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "occupied": true,
+          "guessName": "Shield Slam",
+          "iconHint": "blue shield slam forward",
+          "rankBadge": "0/1",
+          "notes": "Arrow from Concussion Blow"
+        }
+      ]
+    }
+  ],
+  "talents": [
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Shield Specialization",
+      "classicId": 1601,
+      "tree": "Protection",
+      "row": 0,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your chance to Block attacks with your shield by 1% and grants you a 20% chance to generate 5 Rage when you Block."
+        }
+      ],
+      "iconHint": "circular wooden/metal shield",
+      "status": "updated",
+      "diffNotes": "Classic: 1% block + 20% chance to generate 1 rage on block. Forever: same block chance but 5 Rage on proc. Arrow target changed from Improved Shield Block to Master of Defense."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Anticipation",
+      "classicId": 138,
+      "tree": "Protection",
+      "row": 0,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Defense Skill by 4."
+        }
+      ],
+      "iconHint": "green defensive stance figure",
+      "status": "updated",
+      "diffNotes": "Classic: +2 Defense per rank. Forever: +4 Defense per rank."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Improved Bloodrage",
+      "classicId": 142,
+      "tree": "Protection",
+      "row": 1,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases all the Rage generated by your Bloodrage ability by 25%."
+        }
+      ],
+      "iconHint": "red screaming face",
+      "status": "updated",
+      "diffNotes": "Classic: +2/+5 instant Rage from Bloodrage. Forever: +25% all Rage from Bloodrage (rank 1 shown)."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Toughness",
+      "classicId": 140,
+      "tree": "Protection",
+      "row": 1,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Armor value from items by 2%."
+        }
+      ],
+      "iconHint": "green muscular arm/fist",
+      "status": "unchanged",
+      "diffNotes": "Same slot and rank-1 armor % as Classic; Forever adds arrow down to Improved Revenge."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Improved Thunder Clap",
+      "classicId": 128,
+      "tree": "Protection",
+      "row": 1,
+      "col": 3,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the Rage cost of your Thunder Clap ability by 2."
+        }
+      ],
+      "iconHint": "dark icon with blue circular shockwave",
+      "status": "updated",
+      "diffNotes": "Moved from Arms r1c3 into Protection r1c3 (displaces Iron Will). Classic Arms rank 1 reduced cost by 1; Forever rank 1 reduces by 2."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Last Stand",
+      "classicId": 153,
+      "tree": "Protection",
+      "row": 2,
+      "col": 0,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When activated, this ability temporarily grants you 30% of your maximum health for 20 sec. After the effect expires, the health is lost."
+        }
+      ],
+      "iconHint": "blue white figure with shield",
+      "status": "unchanged",
+      "diffNotes": "Same effect as Classic (wording: health vs hit points). Tooltip shows Instant, 3 min cooldown."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Master of Defense",
+      "classicId": null,
+      "tree": "Protection",
+      "row": 2,
+      "col": 1,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Grants you a 50% chance to generate 5 Rage when you Dodge or Parry while a shield is equipped."
+        }
+      ],
+      "iconHint": "blue shield with small digit",
+      "status": "new",
+      "diffNotes": "Occupies Classic Improved Shield Block slot (r2c1). Requires Shield Specialization (arrow)."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Improved Revenge",
+      "classicId": 147,
+      "tree": "Protection",
+      "row": 2,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases damage dealt by your Revenge ability by 20%."
+        }
+      ],
+      "iconHint": "shield with crossed swords",
+      "status": "updated",
+      "diffNotes": "Classic: % chance for Revenge to stun. Forever: +% Revenge damage. Arrow from Toughness."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Defiance",
+      "classicId": 144,
+      "tree": "Protection",
+      "row": 2,
+      "col": 3,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Requires Defensive Stance. Increases all threat generated in Defensive Stance by an additional 5% while a shield is equipped."
+        }
+      ],
+      "iconHint": "dark icon with red glow / hand",
+      "status": "updated",
+      "diffNotes": "Classic maxRank 5, +3% threat per rank in Defensive Stance. Forever maxRank 3, +5% threat per rank while shield equipped."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Improved Sunder Armor",
+      "classicId": 146,
+      "tree": "Protection",
+      "row": 3,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the Rage cost of your Sunder Armor ability by 1."
+        }
+      ],
+      "iconHint": "blue/purple cracked armor plate",
+      "status": "unchanged",
+      "diffNotes": "Same slot and rank-1 rage cost reduction as Classic."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Improved Disarm",
+      "classicId": 151,
+      "tree": "Protection",
+      "row": 3,
+      "col": 1,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown of your Disarm ability by 7 secs."
+        }
+      ],
+      "iconHint": "dark broken axe",
+      "status": "updated",
+      "diffNotes": "Classic: +1/+2/+3 sec Disarm duration. Forever: −7 sec Disarm cooldown (rank 1 shown)."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Vanguard",
+      "classicId": null,
+      "tree": "Protection",
+      "row": 3,
+      "col": 2,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your Charge ability is now usable while in Defensive Stance."
+        }
+      ],
+      "iconHint": "dark metallic helmet",
+      "status": "new",
+      "diffNotes": "Occupies Classic Improved Taunt slot (r3c2)."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Improved Shield Wall",
+      "classicId": 150,
+      "tree": "Protection",
+      "row": 4,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown of your Shield Wall ability by 5.5 min."
+        }
+      ],
+      "iconHint": "purple figure crouching behind large shield",
+      "status": "updated",
+      "diffNotes": "Classic: +3/+5 sec Shield Wall duration. Forever: −5.5 min Shield Wall cooldown (rank 1 shown)."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Concussion Blow",
+      "classicId": 152,
+      "tree": "Protection",
+      "row": 4,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Stuns the target for 5 sec."
+        }
+      ],
+      "iconHint": "blue hammer striking head",
+      "status": "unchanged",
+      "diffNotes": "Same 5 sec stun. Forever tooltip also shows 10 Rage, Melee Range, Instant, 45 sec cooldown. Arrow to Shield Slam retained."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Improved Shield Bash",
+      "classicId": 149,
+      "tree": "Protection",
+      "row": 4,
+      "col": 2,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your Shield Bash ability a 50% chance to Silence the target for 3 sec."
+        }
+      ],
+      "iconHint": "blue shield striking object",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1 silence chance/duration."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Vitality",
+      "classicId": null,
+      "tree": "Protection",
+      "row": 4,
+      "col": 3,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Stamina and Strength by 2%."
+        }
+      ],
+      "iconHint": "dark red/blue veins",
+      "status": "new",
+      "diffNotes": "New talent in previously empty Classic r4c3."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Focused Rage",
+      "classicId": null,
+      "tree": "Protection",
+      "row": 5,
+      "col": 0,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the Rage cost of your offensive abilities by 1."
+        }
+      ],
+      "iconHint": "dark red angry face",
+      "status": "new",
+      "diffNotes": "New talent in previously empty Classic r5c0."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Bastion",
+      "classicId": null,
+      "tree": "Protection",
+      "row": 5,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases all damage you deal by 2% while a shield is equipped."
+        }
+      ],
+      "iconHint": "blue shield with defensive aura",
+      "status": "new",
+      "diffNotes": "Occupies Classic One-Handed Weapon Specialization slot (r5c2)."
+    },
+    {
+      "screenshots": ["warrior/image.png"],
+      "name": "Shield Slam",
+      "classicId": 148,
+      "tree": "Protection",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Slam the target with your shield, causing 421 to 439 damage, increased by your Block Value, and has a 50% chance of dispelling 1 magic effect on the target. Causes a very high amount of threat."
+        }
+      ],
+      "iconHint": "blue shield slam forward",
+      "status": "updated",
+      "diffNotes": "Classic damage 225–235; Forever 421–439. Forever tooltip also shows 20 Rage, Instant, 6 sec cooldown, Requires Shields. Threat wording: very high vs high."
+    }
+  ],
+  "unmatchedScreenshots": [],
+  "layoutNotes": [
+    "image.png is NOT a 3-tree overview — it is a Protection-tree collage with hover tooltips for every occupied slot. Arms and Fury are absent.",
+    "Protection occupied slots: 19 (Classic had 17).",
+    "Missing vs Classic Protection: Iron Will (r1c3), Improved Shield Block (r2c1), Improved Taunt (r3c2), One-Handed Weapon Specialization (r5c2).",
+    "New vs Classic Protection: Master of Defense (r2c1), Vanguard (r3c2), Vitality (r4c3), Focused Rage (r5c0), Bastion (r5c2).",
+    "Moved into Protection: Improved Thunder Clap (Classic Arms r1c3 → Forever Protection r1c3).",
+    "Rank badges all 0/X (unspent). Arrows: Shield Spec→Master of Defense, Anticipation→Toughness, Toughness→Improved Revenge, Concussion Blow→Shield Slam.",
+    "No numbered per-talent screenshot files yet — all tooltip text scraped from the collage overlays."
+  ]
+}

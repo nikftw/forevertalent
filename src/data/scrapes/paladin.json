@@ -1,0 +1,434 @@
+{
+  "class": "paladin",
+  "overviewFile": null,
+  "trees": [],
+  "talents": [
+    {
+      "screenshots": ["paladin/1.png"],
+      "name": "Twist of Light",
+      "classicId": null,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When you replace your Seal of Command, Seal of Righteousness, Seal of Fury, or Seal of Justice with a different Seal, gain an Echo. Your next melee attack applies the replaced Seal's effects, consuming the Echo."
+        }
+      ],
+      "iconHint": null,
+      "requiresLevel": 40,
+      "status": "new",
+      "diffNotes": "Forever-only talent; Requires Level 40. No tree/row/col without overview."
+    },
+    {
+      "screenshots": ["paladin/2.png"],
+      "name": "Deflection",
+      "classicId": 1403,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Parry chance by 1%."
+        }
+      ],
+      "iconHint": null,
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Retribution Deflection rank 1 text."
+    },
+    {
+      "screenshots": ["paladin/3.png", "paladin/24.png"],
+      "name": "Holy Conduit",
+      "classicId": null,
+      "tree": "Retribution",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the mana cost of your Consecration, Holy Wrath, Exorcism, and Hammer of Wrath spells by 20%."
+        }
+      ],
+      "iconHint": "Silver sword blade on bright blue/white glow",
+      "status": "new",
+      "diffNotes": "Forever-only; Retribution tree label visible. Row/col unknown without overview."
+    },
+    {
+      "screenshots": ["paladin/4.png"],
+      "name": "Improved Judgement",
+      "classicId": 1631,
+      "tree": "Retribution",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Decreases the cooldown of your Judgement ability by 1 sec."
+        }
+      ],
+      "iconHint": null,
+      "status": "unchanged",
+      "diffNotes": "Same effect as Classic; wording uses 'ability' instead of 'spell'."
+    },
+    {
+      "screenshots": ["paladin/5.png", "paladin/25.png"],
+      "name": "Conviction",
+      "classicId": 1411,
+      "tree": "Retribution",
+      "row": null,
+      "col": null,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your chance to get a critical strike with melee attacks by 1%."
+        }
+      ],
+      "iconHint": "Three white/grey swirling energy shapes",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic effect; Classic wording uses 'melee weapons'."
+    },
+    {
+      "screenshots": ["paladin/6.png"],
+      "name": "Seal of Command",
+      "classicId": 1481,
+      "tree": "Retribution",
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives the Paladin a chance to deal additional Holy damage equal to 70% of normal weapon damage. Only one Seal can be active on the Paladin at any one time. Lasts 30 sec.\n\nUnleashing this Seal's energy will judge an enemy, instantly causing 68 to 73 Holy damage, 137 to 146 if the target is stunned or incapacitated."
+        }
+      ],
+      "iconHint": "Silver sword blade with blue trails on dark blue background",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Seal of Command values and effect."
+    },
+    {
+      "screenshots": ["paladin/7.png", "paladin/27.png"],
+      "name": "Sanctified Judgement",
+      "classicId": null,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your Judgement ability a 33% chance to return 20% of the Mana cost of the judged seal."
+        },
+        {
+          "rank": 3,
+          "description": "Gives your Judgement ability a 100% chance to return 60% of the Mana cost of the judged seal."
+        }
+      ],
+      "iconHint": "Silver sword on dark blue (rank 0 shot); golden humanoid silhouette (rank 3 shot)",
+      "status": "new",
+      "diffNotes": "Not in Classic 1.12 Paladin tree. Rank 2 not shown in screenshots."
+    },
+    {
+      "screenshots": ["paladin/8.png", "paladin/26.png"],
+      "name": "Vindication",
+      "classicId": 1633,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your damaging melee attacks a chance to reduce the target's Attack Power by 42, and increase your Attack Power by 1% for 30 sec."
+        }
+      ],
+      "iconHint": "Golden-orange fiery face/figure (26.png); gauntlet/fist also visible nearby in crops",
+      "status": "updated",
+      "diffNotes": "Classic reduces target Strength and Agility by 5% for 10 sec; Forever reduces target AP by 42 and grants +1% AP for 30 sec."
+    },
+    {
+      "screenshots": ["paladin/9.png"],
+      "name": "Eye for an Eye",
+      "classicId": 1632,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "All critical strikes against you cause 5% of the damage taken to the attacker as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health."
+        }
+      ],
+      "iconHint": "Dark eye-like icon (greyed)",
+      "status": "updated",
+      "diffNotes": "Classic reflects spell crits only at 15% rank 1; Forever reflects all critical strikes at 5% rank 1 (same 50% health cap)."
+    },
+    {
+      "screenshots": ["paladin/10.png"],
+      "name": "Two-Handed Weapon Specialization",
+      "classicId": 1410,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage you deal with two-handed melee weapons by 3%."
+        }
+      ],
+      "iconHint": "Two-handed axe / crossed blades",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 is 2% (2/4/6); Forever rank 1 is 3%."
+    },
+    {
+      "screenshots": ["paladin/11.png"],
+      "name": "Vengeance",
+      "classicId": 1402,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Physical and Holy damage dealt by 1% for 30 sec after landing a critical strike. Stacks up to 5 times."
+        }
+      ],
+      "iconHint": "Silver armored gauntlet/fist",
+      "status": "updated",
+      "diffNotes": "Classic is 5 ranks, 3% bonus for 8 sec after crit, no stacks; Forever is 3 ranks, 1% for 30 sec stacking to 5."
+    },
+    {
+      "screenshots": ["paladin/12.png"],
+      "name": "Champion of the Light",
+      "classicId": null,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your spell damage and healing by up to 33% of your Intellect."
+        }
+      ],
+      "iconHint": "Dark silhouette / helmet-or-crown style icon (greyed)",
+      "status": "new",
+      "diffNotes": "Not in Classic 1.12 Paladin tree. Prerequisite line visible above; row/col unknown."
+    },
+    {
+      "screenshots": ["paladin/13.png"],
+      "name": "Pursuit of Justice",
+      "classicId": 1634,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases movement speed and mounted movement speed by 8%. This does not stack with other movement speed increasing effects."
+        }
+      ],
+      "iconHint": "Silver armored gauntlet",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 is 4%; Forever rank 1 is 8%."
+    },
+    {
+      "screenshots": ["paladin/14.png"],
+      "name": "Crusade",
+      "classicId": null,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases all damage dealt by 1%. Increased by an additional 1% against Demon and Undead targets."
+        }
+      ],
+      "iconHint": "Dark greyed icon in vertical column",
+      "status": "new",
+      "diffNotes": "Not in Classic 1.12 Paladin tree."
+    },
+    {
+      "screenshots": ["paladin/15.png"],
+      "name": "Instrument of Law",
+      "classicId": null,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cast time of your Hammer of Wrath by 0.5 sec, and reduces all threat you generate by 10% while Righteous Fury is not active."
+        }
+      ],
+      "iconHint": "Silhouette of figure holding hammer aloft",
+      "status": "new",
+      "diffNotes": "Forever-only talent; not in Classic 1.12."
+    },
+    {
+      "screenshots": ["paladin/16.png"],
+      "name": "Redoubt",
+      "classicId": 1421,
+      "tree": "Protection",
+      "row": null,
+      "col": null,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Damaging melee attacks against you have a 10% chance to increase your chance to block by 6%. Lasts 10 sec or 5 blocks."
+        }
+      ],
+      "iconHint": "Silver armored gauntlet/defend icon",
+      "status": "updated",
+      "diffNotes": "Classic procs after being the victim of a critical strike; Forever is 10% chance on damaging melee attacks against you. Same +6% block / 10 sec / 5 blocks at rank 1."
+    },
+    {
+      "screenshots": ["paladin/17.png"],
+      "name": "Anticipation",
+      "classicId": 1629,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Defense Skill by 4."
+        }
+      ],
+      "iconHint": "Partial face/head icon; nearby gauntlet icon in crop",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 is +2 Defense; Forever rank 1 is +4."
+    },
+    {
+      "screenshots": ["paladin/18.png"],
+      "name": "Sacred Duty",
+      "classicId": null,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your total Stamina by 2% and reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 30 sec."
+        }
+      ],
+      "iconHint": "Dark humanoid head/shoulders silhouette",
+      "status": "new",
+      "diffNotes": "Not in Classic 1.12; mentions Templar's Bulwark. Tree not labeled in shot."
+    },
+    {
+      "screenshots": ["paladin/19.png"],
+      "name": "Improved Holy Strike",
+      "classicId": null,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown of your Holy Strike ability by 1 sec."
+        }
+      ],
+      "iconHint": "Golden glowing sword/weapon surrounded by light",
+      "status": "new",
+      "diffNotes": "Forever-only; Holy Strike is not a Classic Paladin ability."
+    },
+    {
+      "screenshots": ["paladin/20.png"],
+      "name": "Improved Seal of Fury",
+      "classicId": null,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When Seal of Fury's shield is fully absorbed, restore 38 Mana, increased by 15% per level the attacker is above you, up to 45%."
+        }
+      ],
+      "iconHint": "Faint white shield/crest silhouette (greyed)",
+      "status": "new",
+      "diffNotes": "Forever-only; Seal of Fury not in Classic 1.12 talent data."
+    },
+    {
+      "screenshots": ["paladin/21.png"],
+      "name": "Templar's Bulwark",
+      "classicId": null,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When activated, this ability grants you an absorb shield equal to 100% of your maximum health for 8 sec. Applies Forbearance for 1 min. Cannot be cast while Forbearance is active."
+        }
+      ],
+      "iconHint": "Silver kite shield with wings/light rays",
+      "status": "new",
+      "diffNotes": "Forever-only active talent; 110 Mana, Instant, 5 min cooldown."
+    },
+    {
+      "screenshots": ["paladin/22.png"],
+      "name": "Holy Shield",
+      "classicId": 1430,
+      "tree": null,
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases chance to block by 20% for 10 sec, and deals 110 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 20% additional threat. Each block expends a charge. 4 charges."
+        }
+      ],
+      "iconHint": "Shield with yellow/gold glowing center",
+      "status": "updated",
+      "diffNotes": "Classic is +30% block and 65 Holy damage per block; Forever is +20% block and 110 Holy damage. Same duration, charges, and threat clause. Requires Shields."
+    },
+    {
+      "screenshots": ["paladin/23.png"],
+      "name": "Benediction",
+      "classicId": 1407,
+      "tree": "Retribution",
+      "row": null,
+      "col": null,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the Mana cost of all instant cast spells and abilities by 2%."
+        }
+      ],
+      "iconHint": "White/silver circular triskelion-like emblem",
+      "status": "updated",
+      "diffNotes": "Classic reduces Judgement and Seal mana cost by 3% per rank; Forever reduces all instant cast spells/abilities by 2% per rank."
+    }
+  ],
+  "unmatchedScreenshots": [],
+  "layoutNotes": [
+    "No overview.png or full-tree shot — trees[], row, and col left null except where a tree tab label is visible in the crop.",
+    "27 PNGs accounted for as 23 unique talents; duplicate tooltip shots merged: Holy Conduit (3+24), Conviction (5+25), Vindication (8+26), Sanctified Judgement (7+27).",
+    "Retribution label visible on: Holy Conduit, Improved Judgement, Conviction, Seal of Command, Benediction.",
+    "Protection label visible on: Redoubt (...tection).",
+    "Forever-only confirmed in shots: Twist of Light, Holy Conduit, Sanctified Judgement, Champion of the Light, Crusade, Instrument of Law, Sacred Duty, Improved Holy Strike, Improved Seal of Fury, Templar's Bulwark."
+  ]
+}

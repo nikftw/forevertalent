@@ -1,0 +1,935 @@
+{
+  "class": "mage",
+  "overviewFile": "mage/overview.png",
+  "trees": [
+    {
+      "name": "Arcane",
+      "slots": [
+        { "row": 0, "col": 0, "occupied": true, "guessName": "Arcane Subtlety", "iconHint": "Blue arcane starburst/swirl", "notes": "Green border; rank badge 0; available at 0 points" },
+        { "row": 0, "col": 1, "occupied": true, "guessName": "Arcane Focus", "iconHint": "Purple swirling energy", "notes": "Green border; rank badge 0" },
+        { "row": 0, "col": 2, "occupied": true, "guessName": "Improved Arcane Missiles", "iconHint": "White/purple starburst projectiles", "notes": "Green border; rank badge 0" },
+        { "row": 0, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 1, "col": 0, "occupied": true, "guessName": "Wand Specialization", "iconHint": "Dark mist / wand-hand silhouette", "notes": "Greyed" },
+        { "row": 1, "col": 1, "occupied": true, "guessName": "Magic Absorption", "iconHint": "Concentric arcane circles / absorption sigil", "notes": "Greyed" },
+        { "row": 1, "col": 2, "occupied": true, "guessName": "Arcane Concentration", "iconHint": "Glowing head/figure silhouette", "notes": "Greyed; arrow down to row 3 col 2" },
+        { "row": 1, "col": 3, "occupied": true, "guessName": "Arcane Impact?", "iconHint": "Glowing cube / block of energy", "notes": "Greyed; extra vs Classic row1 (Classic had only 3 talents)" },
+        { "row": 2, "col": 0, "occupied": true, "guessName": "Arcane Geometry", "iconHint": "Triangle-in-circle geometric sigil", "notes": "Greyed; replaces Classic Magic Attunement slot visually" },
+        { "row": 2, "col": 1, "occupied": true, "guessName": "Improved Arcane Explosion / Arcane Impact?", "iconHint": "Bright yellow-white glowing orb", "notes": "Greyed" },
+        { "row": 2, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "notes": "Classic Arcane Resilience was here; Forever empty" },
+        { "row": 2, "col": 3, "occupied": true, "guessName": "Arcane Resilience?", "iconHint": "Spiked gear / sun-like arcane ring", "notes": "Greyed; likely moved from Classic row2 col2" },
+        { "row": 3, "col": 0, "occupied": true, "guessName": "Arcane Shielding", "iconHint": "Shield/eye geometric purple symbol", "notes": "Greyed; Classic Improved Mana Shield slot" },
+        { "row": 3, "col": 1, "occupied": true, "guessName": "Improved Counterspell?", "iconHint": "Faint purple/blue energy wisp", "notes": "Greyed" },
+        { "row": 3, "col": 2, "occupied": true, "guessName": "Missile Barrage?", "iconHint": "Figure with radiating energy / missiles", "notes": "Greyed; receives arrow from row1 col2" },
+        { "row": 3, "col": 3, "occupied": true, "guessName": "Arcane Meditation?", "iconHint": "Multiple blue shards/bolts", "notes": "Greyed; Classic Arcane Meditation was here" },
+        { "row": 4, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 4, "col": 1, "occupied": true, "guessName": "Presence of Mind?", "iconHint": "Helmet / cloaked head", "notes": "Greyed; long arrow down to row6 col1" },
+        { "row": 4, "col": 2, "occupied": true, "guessName": "Arcane Mind", "iconHint": "Hooded face profile", "notes": "Greyed" },
+        { "row": 4, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 5, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 5, "col": 1, "occupied": false, "guessName": null, "iconHint": null, "notes": "Classic Arcane Instability was row5 col1; Forever empty here" },
+        { "row": 5, "col": 2, "occupied": true, "guessName": "Arcane Instability", "iconHint": "Bright white circular flare / crystal", "notes": "Greyed; moved right vs Classic" },
+        { "row": 5, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 6, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 6, "col": 1, "occupied": true, "guessName": "Arcane Power", "iconHint": "Zig-zag arcane energy bolt", "notes": "Greyed; receives arrow from row4 col1" },
+        { "row": 6, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 6, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" }
+      ]
+    },
+    {
+      "name": "Fire",
+      "slots": [
+        { "row": 0, "col": 0, "occupied": true, "guessName": "Improved Fireball", "iconHint": "Glowing orange fireball", "notes": "Green border; rank 0; Classic was col1 — Forever shifted left" },
+        { "row": 0, "col": 1, "occupied": true, "guessName": "Impact", "iconHint": "Dark swirl on orange / flaming hand", "notes": "Green border; rank 0" },
+        { "row": 0, "col": 2, "occupied": true, "guessName": "Ignite / Wake of Fire?", "iconHint": "Fiery explosion / meteor impact", "notes": "Green border; rank 0; third tier-1 talent (Classic only had 2)" },
+        { "row": 0, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 1, "col": 0, "occupied": true, "guessName": "Flame Throwing?", "iconHint": "Hooded figure against fire", "notes": "Greyed" },
+        { "row": 1, "col": 1, "occupied": true, "guessName": "Improved Fire Blast?", "iconHint": "Single flame streak / firebolt", "notes": "Greyed" },
+        { "row": 1, "col": 2, "occupied": true, "guessName": "Incinerate?", "iconHint": "Multiple small flame projectiles", "notes": "Greyed" },
+        { "row": 1, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "Classic Ignite was row1 col0; layout reshuffled" },
+        { "row": 2, "col": 0, "occupied": true, "guessName": "Burning Soul?", "iconHint": "Billowing orange fire/smoke", "notes": "Greyed" },
+        { "row": 2, "col": 1, "occupied": true, "guessName": "Pyroblast", "iconHint": "Massive bright orange explosion", "notes": "Greyed" },
+        { "row": 2, "col": 2, "occupied": true, "guessName": "Improved Flamestrike?", "iconHint": "Radial fire burst", "notes": "Greyed; arrow down to row3 col2" },
+        { "row": 2, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "Classic Burning Soul was row2 col3; Forever empty" },
+        { "row": 3, "col": 0, "occupied": true, "guessName": "Improved Scorch", "iconHint": "Heat waves / fire blast", "notes": "Greyed" },
+        { "row": 3, "col": 1, "occupied": true, "guessName": "Improved Fire Ward", "iconHint": "Shield with flame center", "notes": "Greyed" },
+        { "row": 3, "col": 2, "occupied": true, "guessName": "Hot Streak?", "iconHint": "Circular expanding fire wave / phoenix wings", "notes": "Greyed; receives arrow from row2 col2" },
+        { "row": 3, "col": 3, "occupied": true, "guessName": "Master of Elements", "iconHint": "Phoenix / bird of fire", "notes": "Greyed; Classic was col3 without col2 neighbor" },
+        { "row": 4, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 4, "col": 1, "occupied": true, "guessName": "Critical Mass", "iconHint": "Wavy stream of orange flame", "notes": "Greyed; long arrow down to row6 col1" },
+        { "row": 4, "col": 2, "occupied": true, "guessName": "Blast Wave", "iconHint": "Clenched flaming fist", "notes": "Greyed; Classic Blast Wave was here after Pyroblast arrow — Forever arrow path changed" },
+        { "row": 4, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 5, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 5, "col": 1, "occupied": false, "guessName": null, "iconHint": null, "notes": "Dependency line from Critical Mass passes through" },
+        { "row": 5, "col": 2, "occupied": true, "guessName": "Fire Power", "iconHint": "Kneeling figure / phoenix head profile", "notes": "Greyed" },
+        { "row": 5, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 6, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 6, "col": 1, "occupied": true, "guessName": "Combustion", "iconHint": "Intense circular explosion / fiery seal", "notes": "Greyed; receives arrow from row4 col1" },
+        { "row": 6, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 6, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" }
+      ]
+    },
+    {
+      "name": "Frost",
+      "slots": [
+        { "row": 0, "col": 0, "occupied": true, "guessName": "Frost Warding", "iconHint": "White/light-blue snowflake radial burst", "notes": "Green border; rank 0" },
+        { "row": 0, "col": 1, "occupied": true, "guessName": "Improved Frostbolt", "iconHint": "Blue/purple frostbolt projectile", "notes": "Green border; rank 0" },
+        { "row": 0, "col": 2, "occupied": true, "guessName": "Elemental Precision", "iconHint": "Bright blue glowing orb/tear", "notes": "Green border; rank 0" },
+        { "row": 0, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 1, "col": 0, "occupied": true, "guessName": "Ice Shards", "iconHint": "Jagged ice shards / snowy mountain", "notes": "Greyed" },
+        { "row": 1, "col": 1, "occupied": false, "guessName": null, "iconHint": null, "notes": "Classic Frostbite was here; Forever empty" },
+        { "row": 1, "col": 2, "occupied": true, "guessName": "Improved Frost Nova", "iconHint": "Circular frost burst", "notes": "Greyed" },
+        { "row": 1, "col": 3, "occupied": true, "guessName": "Permafrost / Frostbite?", "iconHint": "Ice-spiked shield", "notes": "Greyed" },
+        { "row": 2, "col": 0, "occupied": true, "guessName": "Piercing Ice", "iconHint": "Horizontal ice spike wave", "notes": "Greyed" },
+        { "row": 2, "col": 1, "occupied": true, "guessName": "Cold Snap", "iconHint": "Blue-gray swirl / vortex", "notes": "Greyed" },
+        { "row": 2, "col": 2, "occupied": true, "guessName": "Ice Lance", "iconHint": "Straight ice spear/beam pointing down", "notes": "Greyed; arrow down to row4 col2; new vs Classic (Classic had no talent here)" },
+        { "row": 2, "col": 3, "occupied": true, "guessName": "Improved Blizzard", "iconHint": "Cluster of sharp ice crystals", "notes": "Greyed" },
+        { "row": 3, "col": 0, "occupied": true, "guessName": "Frost Channeling", "iconHint": "Humanoid silhouette in frost energy", "notes": "Greyed" },
+        { "row": 3, "col": 1, "occupied": true, "guessName": "Arctic Reach?", "iconHint": "Blue teardrop", "notes": "Greyed" },
+        { "row": 3, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "notes": "Classic Shatter was row3 col2; Forever empty" },
+        { "row": 3, "col": 3, "occupied": true, "guessName": "Shatter?", "iconHint": "Bright white-yellow circular burst", "notes": "Greyed; possibly Shatter moved to col3" },
+        { "row": 4, "col": 0, "occupied": true, "guessName": "Improved Cone of Cold?", "iconHint": "Hand with frost emanations", "notes": "Greyed" },
+        { "row": 4, "col": 1, "occupied": true, "guessName": "Ice Block", "iconHint": "Circular eye / portal / ice ring", "notes": "Greyed; arrow down to row6 col1" },
+        { "row": 4, "col": 2, "occupied": true, "guessName": "Fingers of Frost", "iconHint": "Icy claw / hand", "notes": "Greyed; receives arrow from row2 col2 (Ice Lance)" },
+        { "row": 4, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 5, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 5, "col": 1, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 5, "col": 2, "occupied": true, "guessName": "Winter's Chill", "iconHint": "Ice block / barrier rectangle", "notes": "Greyed" },
+        { "row": 5, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 6, "col": 0, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 6, "col": 1, "occupied": true, "guessName": "Ice Barrier", "iconHint": "Ice skull / crest / shield", "notes": "Greyed; receives arrow from row4 col1 (Ice Block)" },
+        { "row": 6, "col": 2, "occupied": false, "guessName": null, "iconHint": null, "notes": "" },
+        { "row": 6, "col": 3, "occupied": false, "guessName": null, "iconHint": null, "notes": "" }
+      ]
+    }
+  ],
+  "talents": [
+    {
+      "screenshots": ["mage/1.png", "mage/50.png"],
+      "name": "Ice Barrier",
+      "classicId": 71,
+      "tree": "Frost",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Instantly shields you, absorbing 431 damage. Lasts 1 min. While the shield holds, your spellcasts will not be interrupted or delayed from taking damage.",
+          "mana": 305,
+          "castTime": "Instant",
+          "cooldown": "30 sec"
+        }
+      ],
+      "iconHint": "Blue/white ice shield (tooltip-only in 1.png; icon visible in 50.png)",
+      "status": "updated",
+      "diffNotes": "Classic absorb was 455 at the ranks.json sample; Forever shows 431 absorb and lists 30 sec cooldown / 305 mana."
+    },
+    {
+      "screenshots": ["mage/2.png", "mage/11.png"],
+      "name": "Arcane Subtlety",
+      "classicId": 74,
+      "tree": "Arcane",
+      "row": 0,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces your target's resistance to all your spells by 8 and reduces the threat caused by your Arcane spells by 15%."
+        },
+        {
+          "rank": 2,
+          "description": "Reduces your target's resistance to all your spells by 15 and reduces the threat caused by your Arcane spells by 30%."
+        }
+      ],
+      "iconHint": "Blue swirling magical energy / starburst",
+      "status": "updated",
+      "diffNotes": "Rank 1 changed from Classic 5 resist / 20% threat to 8 resist / 15% threat. Rank 2 text matches Classic foundation (15 / 30%)."
+    },
+    {
+      "screenshots": ["mage/3.png", "mage/9.png"],
+      "name": "Arcane Concentration",
+      "classicId": 75,
+      "tree": "Arcane",
+      "row": null,
+      "col": null,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives you a 2% chance of entering a Clearcasting state after any damage spell hits a target. The Clearcasting state reduces the mana cost of your next damage spell by 100%."
+        },
+        {
+          "rank": 4,
+          "description": "Gives you a 8% chance of entering a Clearcasting state after any damage spell hits a target. The Clearcasting state reduces the mana cost of your next damage spell by 100%."
+        },
+        {
+          "rank": 5,
+          "description": "Gives you a 10% chance of entering a Clearcasting state after any damage spell hits a target. The Clearcasting state reduces the mana cost of your next damage spell by 100%."
+        }
+      ],
+      "iconHint": "Purple/white magical burst or figure emitting blue beam",
+      "status": "unchanged",
+      "diffNotes": "Rank percentages match Classic 2/4/6/8/10% Clearcasting. Layout may differ from Classic row1 col2."
+    },
+    {
+      "screenshots": ["mage/4.png"],
+      "name": "Wand Specialization",
+      "classicId": 78,
+      "tree": "Arcane",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your damage with Wands by 13%."
+        }
+      ],
+      "iconHint": "Hand with blue glowing wand / energy burst; green border rank 0",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1 (13%)."
+    },
+    {
+      "screenshots": ["mage/5.png", "mage/10.png"],
+      "name": "Magic Absorption",
+      "classicId": 1650,
+      "tree": "Arcane",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases all your resistances by 5 and causes all spells you fully resist to restore 1% of your total mana. Cannot trigger more often than 1 time per sec."
+        }
+      ],
+      "iconHint": "Swirling purple/pink energy or blue silhouette with radiating white energy",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1 text."
+    },
+    {
+      "screenshots": ["mage/6.png", "mage/18.png", "mage/20.png"],
+      "name": "Arcane Mind",
+      "classicId": 77,
+      "tree": "Arcane",
+      "row": null,
+      "col": null,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Intellect by 2% and increases the critical strike damage bonus of your Arcane spells by 20%."
+        },
+        {
+          "rank": 3,
+          "description": "Increases your Intellect by 6% and increases the critical strike damage bonus of your Arcane spells by 60%."
+        },
+        {
+          "rank": 4,
+          "description": "Increases your Intellect by 8% and increases the critical strike damage bonus of your Arcane spells by 80%."
+        }
+      ],
+      "iconHint": "Side profile of head with arcane energy at forehead / shadowy purple face",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic Intellect % and Arcane crit damage bonus progression. Dependency arrow from talent above visible in shots."
+    },
+    {
+      "screenshots": ["mage/7.png", "mage/21.png"],
+      "name": "Arcane Instability",
+      "classicId": 421,
+      "tree": "Arcane",
+      "row": 5,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage done by all your spells by 1% and your critical strike chance with all attacks by 1%."
+        },
+        {
+          "rank": 3,
+          "description": "Increases the damage done by all your spells by 3% and your critical strike chance with all attacks by 3%."
+        }
+      ],
+      "iconHint": "Head with blue energy from eyes/skull / dark purple face",
+      "status": "updated",
+      "diffNotes": "Classic: '+spell damage and critical strike chance by N%'. Forever: damage of all spells + crit chance with all attacks. Also moved to row5 col2 (Classic was row5 col1)."
+    },
+    {
+      "screenshots": ["mage/8.png"],
+      "name": "Arcane Resilience",
+      "classicId": 85,
+      "tree": "Arcane",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your Armor by an amount equal to 25% of your Intellect."
+        }
+      ],
+      "iconHint": "Purple/blue Arcane Resilience sigil",
+      "status": "updated",
+      "diffNotes": "Classic was 1 rank at 50% Intellect armor. Forever is 2 ranks at 25% Intellect (rank 1 preview). Likely moved off Classic row2 col2."
+    },
+    {
+      "screenshots": ["mage/12.png"],
+      "name": "Arcane Geometry",
+      "classicId": null,
+      "tree": "Arcane",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the range of your Arcane spells by 3 yards."
+        }
+      ],
+      "iconHint": "Circular brown/grey arcane sigil with nested triangles",
+      "status": "new",
+      "diffNotes": "No Classic name match. Range talent for Arcane spells (Magic Attunement was Amplify/Dampen effect, not range)."
+    },
+    {
+      "screenshots": ["mage/13.png"],
+      "name": "Arcane Impact",
+      "classicId": 81,
+      "tree": "Arcane",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical strike chance of your Arcane spells by 2%."
+        }
+      ],
+      "iconHint": "Purple and white swirling energy blast",
+      "status": "updated",
+      "diffNotes": "Likely renamed/replaced Improved Arcane Explosion (classicId 81). Classic was Arcane Explosion crit only; Forever is all Arcane spells +2% crit per rank."
+    },
+    {
+      "screenshots": ["mage/14.png"],
+      "name": "Arcane Shielding",
+      "classicId": 83,
+      "tree": "Arcane",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Decreases the Mana lost per point of damage taken when your Mana Shield spell is active by 17% and increases the resistances granted by your Mage Armor spell by 25%."
+        }
+      ],
+      "iconHint": "Purple geometric shield / eye symbol",
+      "status": "updated",
+      "diffNotes": "Renamed from Improved Mana Shield. Classic was 10%/20% mana-loss reduction only. Forever adds Mage Armor resistance and uses 17% at rank 1."
+    },
+    {
+      "screenshots": ["mage/15.png"],
+      "name": "Improved Counterspell",
+      "classicId": 88,
+      "tree": "Arcane",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your Counterspell also Silences the target for 2 sec."
+        }
+      ],
+      "iconHint": "Counterspell swirl (blue/white energy)",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was 50% chance to silence for 4 sec. Forever rank 1 is a guaranteed 2 sec silence."
+    },
+    {
+      "screenshots": ["mage/16.png"],
+      "name": "Arcane Meditation",
+      "classicId": 1142,
+      "tree": "Arcane",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Allows 17% of your Mana regeneration to continue while casting."
+        }
+      ],
+      "iconHint": "Swirling white/grey mystical energy vortex",
+      "status": "updated",
+      "diffNotes": "Classic was 5/10/15%. Forever rank 1 preview shows 17%."
+    },
+    {
+      "screenshots": ["mage/17.png"],
+      "name": "Missile Barrage",
+      "classicId": null,
+      "tree": "Arcane",
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your Arcane Blast spell a 40% chance, and your Fireball, Frostbolt, and Frostfire Bolt spells a 20% chance to reduce the channeled duration of your next Arcane Missiles spell by 50%, reduce the Mana cost by 100%, and missiles will fire every 0.5 sec."
+        }
+      ],
+      "iconHint": "White projectile streaks diagonally upward",
+      "status": "new",
+      "diffNotes": "Forever-only (WotLK-era style proc). Mentions Arcane Blast / Frostfire Bolt which are not Classic 1.12 baseline."
+    },
+    {
+      "screenshots": ["mage/19.png"],
+      "name": "Presence of Mind",
+      "classicId": 86,
+      "tree": "Arcane",
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When activated, your next Mage spell with a casting time less than 10 sec becomes an instant cast spell.",
+          "castTime": "Instant",
+          "cooldown": "3 min"
+        }
+      ],
+      "iconHint": "Glowing stylized head/mask silhouette",
+      "status": "unchanged",
+      "diffNotes": "Effect text matches Classic; cooldown (3 min) explicitly shown in tooltip."
+    },
+    {
+      "screenshots": ["mage/22.png"],
+      "name": "Wake of Fire",
+      "classicId": null,
+      "tree": "Fire",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown of your Fire Blast spell by 1 sec. Killing a non-trivial target increases the critical strike chance of your next Fire Blast cast within 20 sec by 25%."
+        }
+      ],
+      "iconHint": "Bright yellow/orange fiery explosion",
+      "status": "new",
+      "diffNotes": "No Classic name match. Related to Fire Blast but distinct from Improved Fire Blast (CD-only)."
+    },
+    {
+      "screenshots": ["mage/23.png"],
+      "name": "Pyroblast",
+      "classicId": 29,
+      "tree": "Fire",
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Hurls an immense fiery boulder that causes 155 to 185 Fire damage and an additional 76 Fire damage over 12 sec.",
+          "mana": 125,
+          "range": "35 yd",
+          "castTime": "6 sec"
+        }
+      ],
+      "iconHint": "Bright fiery boulder / explosion; green border rank 0",
+      "status": "updated",
+      "diffNotes": "Damage numbers differ from Classic placeholder (148–195 + 56 DoT). Still 6 sec cast / 1 rank."
+    },
+    {
+      "screenshots": ["mage/24.png"],
+      "name": "Burning Soul",
+      "classicId": 23,
+      "tree": "Fire",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your Fire spells a 23% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 10%."
+        }
+      ],
+      "iconHint": "Circular orange/yellow fiery explosion",
+      "status": "updated",
+      "diffNotes": "Classic maxRank 2 at 35%/15% and 70%/30%. Forever maxRank 3 with rank 1 at 23% pushback resist / 10% threat."
+    },
+    {
+      "screenshots": ["mage/25.png"],
+      "name": "Improved Scorch",
+      "classicId": 25,
+      "tree": "Fire",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your Scorch spell has a 33% chance to cause your target to be vulnerable to Fire damage. This vulnerability increases all Fire damage you deal to your target by 3% and lasts 30 sec, stacking up to 5 times."
+        }
+      ],
+      "iconHint": "Concentrated orange/yellow fire blast; greyed at 0",
+      "status": "updated",
+      "diffNotes": "Wording: Classic 'Fire damage dealt to your target' → Forever 'all Fire damage you deal to your target'. Same 33%/3%/5 stacks structure."
+    },
+    {
+      "screenshots": ["mage/26.png"],
+      "name": "Improved Fire Ward",
+      "classicId": 24,
+      "tree": "Fire",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Causes your Fire Ward to have a 10% chance to reflect Fire spells while active."
+        }
+      ],
+      "iconHint": "Fiery shield emblem",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1."
+    },
+    {
+      "screenshots": ["mage/27.png"],
+      "name": "Hot Streak",
+      "classicId": null,
+      "tree": "Fire",
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your non-periodic critical strikes with Fireball, Frostfire Bolt, Fire Blast, and Scorch grant Hot Streak for 15 sec. Hot Streak reduces the cast time of Pyroblast by 25%, stacking up to 3 times."
+        }
+      ],
+      "iconHint": "Hand/claw surrounded by orange flames; dependency arrow from above",
+      "status": "new",
+      "diffNotes": "Forever-only. Stacking Pyroblast cast-time reduction (not the WotLK instant-after-2-crits version)."
+    },
+    {
+      "screenshots": ["mage/28.png"],
+      "name": "Master of Elements",
+      "classicId": 1639,
+      "tree": "Fire",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your Fire and Frost critical strikes will refund 10% of their base mana cost."
+        }
+      ],
+      "iconHint": "Dark silhouette head in profile (greyed)",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1 refund value; minor wording ('critical strikes' vs 'spell criticals')."
+    },
+    {
+      "screenshots": ["mage/29.png"],
+      "name": "Critical Mass",
+      "classicId": 33,
+      "tree": "Fire",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical strike chance of your Fire spells by 2%."
+        }
+      ],
+      "iconHint": "Fiery explosion / cluster of fire",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1."
+    },
+    {
+      "screenshots": ["mage/30.png"],
+      "name": "Blast Wave",
+      "classicId": 32,
+      "tree": "Fire",
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for 160 to 191 Fire damage, and Dazing them for 50% reduced movement speed for 6 sec.",
+          "mana": 215,
+          "castTime": "Instant",
+          "cooldown": "45 sec"
+        }
+      ],
+      "iconHint": "Fiery circular explosion / wave",
+      "status": "updated",
+      "diffNotes": "Explicit 50% movement-speed daze and specific damage band; Classic text said 'dazing them for 6 sec' with different placeholder damage."
+    },
+    {
+      "screenshots": ["mage/31.png"],
+      "name": "Fire Power",
+      "classicId": 35,
+      "tree": "Fire",
+      "row": 5,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage done by your Fire spells by 2%."
+        }
+      ],
+      "iconHint": "Greyscale hand with flame above palm",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1 (+2%)."
+    },
+    {
+      "screenshots": ["mage/32.png"],
+      "name": "Combustion",
+      "classicId": 36,
+      "tree": "Fire",
+      "row": 6,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "When activated, this spell causes each of your Fire damage spell hits to increase your critical strike chance with Fire damage spells by 10%. This effect lasts until you have caused 4 non-periodic critical strikes with Fire spells.",
+          "castTime": "Instant",
+          "cooldown": "3 min"
+        }
+      ],
+      "iconHint": "Dark silhouette on fiery orange; dependency from above",
+      "status": "updated",
+      "diffNotes": "Classic ended after 3 Fire crits. Forever: 4 non-periodic critical strikes."
+    },
+    {
+      "screenshots": ["mage/33.png"],
+      "name": "Frost Warding",
+      "classicId": 70,
+      "tree": "Frost",
+      "row": 0,
+      "col": 0,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the Armor and resistance given by your Frost Armor and Ice Armor spells by 15%. In addition, gives your Frost Ward a 10% chance to reflect Frost spells and effects while active."
+        }
+      ],
+      "iconHint": "Bright white multi-point snowflake / frost burst",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1."
+    },
+    {
+      "screenshots": ["mage/34.png"],
+      "name": "Improved Frostbolt",
+      "classicId": 37,
+      "tree": "Frost",
+      "row": 0,
+      "col": 1,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the casting time of your Frostbolt spell by 0.1 sec."
+        }
+      ],
+      "iconHint": "Glowing blue/white Frostbolt projectile",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1."
+    },
+    {
+      "screenshots": ["mage/35.png"],
+      "name": "Elemental Precision",
+      "classicId": 1649,
+      "tree": "Frost",
+      "row": 0,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases your chance to hit with Frost and Fire spells by 1%."
+        }
+      ],
+      "iconHint": "Bright blue glowing spark/projectile comet",
+      "status": "updated",
+      "diffNotes": "Classic was maxRank 3 reducing resist chance by 2% per rank. Forever is maxRank 5 granting +1% hit per rank."
+    },
+    {
+      "screenshots": ["mage/36.png"],
+      "name": "Ice Shards",
+      "classicId": 73,
+      "tree": "Frost",
+      "row": null,
+      "col": null,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the critical strike damage bonus of your Frost spells by 20%."
+        }
+      ],
+      "iconHint": "Sharp blue/white ice shards burst",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1."
+    },
+    {
+      "screenshots": ["mage/37.png"],
+      "name": "Permafrost",
+      "classicId": 65,
+      "tree": "Frost",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the duration of your Chill effects by 11% and reduces the target's speed by an additional 3%."
+        }
+      ],
+      "iconHint": "White/blue frost burst or snowflake",
+      "status": "updated",
+      "diffNotes": "Classic rank 1: +1 sec Chill duration and +4% slow. Forever: +11% duration and +3% slow."
+    },
+    {
+      "screenshots": ["mage/38.png"],
+      "name": "Improved Frost Nova",
+      "classicId": 62,
+      "tree": "Frost",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the cooldown of your Frost Nova spell by 2 sec."
+        }
+      ],
+      "iconHint": "Bright blue glowing oval on dark background",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1."
+    },
+    {
+      "screenshots": ["mage/39.png"],
+      "name": "Frostbite",
+      "classicId": 38,
+      "tree": "Frost",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your Chill effects a 5% chance to Freeze the target for 5 sec."
+        }
+      ],
+      "iconHint": "Skull/skeletal head encased in ice",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1. Overview suggests Classic row1 col1 may be empty in Forever — possible layout move."
+    },
+    {
+      "screenshots": ["mage/40.png"],
+      "name": "Improved Blizzard",
+      "classicId": 63,
+      "tree": "Frost",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Adds a Chill effect to your Blizzard spell. This effect lowers the target's movement speed by 15% for 1.5 sec."
+        }
+      ],
+      "iconHint": "Swirling white/grey blizzard vortex",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 Chill was 30% slow for 1.50 sec. Forever rank 1 is 15% for 1.5 sec."
+    },
+    {
+      "screenshots": ["mage/41.png"],
+      "name": "Ice Lance",
+      "classicId": null,
+      "tree": "Frost",
+      "row": 2,
+      "col": 2,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Deals 28 to 33 Frost damage to an enemy target. Deals 300% increased damage to Frozen targets.",
+          "mana": 45,
+          "range": "30 yd",
+          "castTime": "Instant"
+        }
+      ],
+      "iconHint": "Glowing slanted blue ice shard; green border rank 0; arrow down toward Fingers of Frost",
+      "status": "new",
+      "diffNotes": "Forever talent spell (not in Classic 1.12 Mage tree)."
+    },
+    {
+      "screenshots": ["mage/42.png"],
+      "name": "Frost Channeling",
+      "classicId": 66,
+      "tree": "Frost",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Reduces the mana cost of your Frost spells by 5% and reduces the threat caused by your Frost spells by 10%."
+        }
+      ],
+      "iconHint": "Bright white-blue magical flash/burst",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1."
+    },
+    {
+      "screenshots": ["mage/43.png"],
+      "name": "Piercing Ice",
+      "classicId": 61,
+      "tree": "Frost",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage done by your Frost spells by 2%."
+        }
+      ],
+      "iconHint": "Blue/white icy graphic",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1."
+    },
+    {
+      "screenshots": ["mage/44.png"],
+      "name": "Arctic Reach",
+      "classicId": 741,
+      "tree": "Frost",
+      "row": null,
+      "col": null,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 10%."
+        }
+      ],
+      "iconHint": "White jagged ice-like burst",
+      "status": "unchanged",
+      "diffNotes": "Matches Classic rank 1."
+    },
+    {
+      "screenshots": ["mage/45.png"],
+      "name": "Ice Block",
+      "classicId": 72,
+      "tree": "Frost",
+      "row": 4,
+      "col": 1,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "You become encased in a block of ice, protecting you from all physical attacks and spells for 10 sec, but during that time you cannot attack, move, or cast spells.",
+          "mana": 15,
+          "castTime": "Instant",
+          "cooldown": "5 min"
+        }
+      ],
+      "iconHint": "Swirling blue/white ice vortex",
+      "status": "unchanged",
+      "diffNotes": "Effect matches Classic; mana (15) and 5 min CD explicitly listed."
+    },
+    {
+      "screenshots": ["mage/46.png"],
+      "name": "Cold Snap",
+      "classicId": 69,
+      "tree": "Frost",
+      "row": null,
+      "col": null,
+      "maxRank": 1,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Finishes the remaining cooldown on all your other Frost spells.",
+          "castTime": "Instant",
+          "cooldown": "10 min"
+        }
+      ],
+      "iconHint": "Circular swirling blue/white pattern",
+      "status": "updated",
+      "diffNotes": "Classic: finishes cooldown on all Frost spells. Forever: 'all your other Frost spells' with 10 min CD listed."
+    },
+    {
+      "screenshots": ["mage/47.png"],
+      "name": "Improved Cone of Cold",
+      "classicId": 64,
+      "tree": "Frost",
+      "row": null,
+      "col": null,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Increases the damage dealt by your Cone of Cold spell by 12%."
+        }
+      ],
+      "iconHint": "Blue/white conical frost blast",
+      "status": "updated",
+      "diffNotes": "Classic rank 1 was +15% damage. Forever rank 1 is +12%."
+    },
+    {
+      "screenshots": ["mage/48.png"],
+      "name": "Winter's Chill",
+      "classicId": 68,
+      "tree": "Frost",
+      "row": 5,
+      "col": 2,
+      "maxRank": 5,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your Frost damage spells a 20% chance to apply the Winter's Chill effect, which increases the chance your Ice Lance and Frostbolt spells will critically hit the target by 2% for 15 sec. Stacks up to 1 times."
+        }
+      ],
+      "iconHint": "Pale claw/hand reaching upward",
+      "status": "updated",
+      "diffNotes": "Classic applied to Frost spell crits in general and stacked up to 5. Forever names Ice Lance and Frostbolt; screenshot text reads 'Stacks up to 1 times' (verify in-game — OCR may have misread 5)."
+    },
+    {
+      "screenshots": ["mage/49.png"],
+      "name": "Fingers of Frost",
+      "classicId": null,
+      "tree": "Frost",
+      "row": 4,
+      "col": 2,
+      "maxRank": 2,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Gives your Chill effects a 15% chance to grant you the Fingers of Frost effect, which treats your next 1 spell cast as if the target were Frozen. Lasts 15 sec."
+        }
+      ],
+      "iconHint": "Claw-like hand with icy glowing fingertips; dependency arrow from above (Ice Lance)",
+      "status": "new",
+      "diffNotes": "Forever-only Frost talent."
+    }
+  ],
+  "unmatchedScreenshots": [],
+  "layoutNotes": [
+    "Overview shows Primary tab with 29 unspent points; Secondary tab locked. Webcam overlay in bottom-left of overview is not part of the UI.",
+    "Arcane: Forever has an extra occupied slot at row1 col3 vs Classic. Classic Arcane Resilience (row2 col2) appears vacated; a new/moved talent sits at row2 col3. Arcane Instability appears moved to row5 col2 (Classic row5 col1). Dependency arrows: row1 col2 → row3 col2; row4 col1 → row6 col1 (not Classic Presence of Mind → Arcane Instability → Arcane Power chain).",
+    "Fire: Tier 1 shifted left and gained a third talent (row0 cols 0–2 vs Classic cols 1–2 only). Classic Burning Soul at row2 col3 vacated. New Hot Streak / Wake of Fire fill reshuffled mid-tree slots. Capstone arrow is Critical Mass (row4 col1) → Combustion (row6 col1).",
+    "Frost: Ice Lance appears at row2 col2 (empty in Classic) with arrow to Fingers of Frost at row4 col2. Classic Shatter row3 col2 looks empty; a burst icon at row3 col3 may be Shatter relocated. Frostbite may have left Classic row1 col1 (empty in overview).",
+    "Screenshots do not cover every Classic talent by name (e.g. Arcane Focus, Improved Arcane Missiles, Improved Fireball, Impact, Ignite, Shatter, Arcane Power, Magic Attunement). Those slots are occupied in overview but lack tooltip shots — left as guessName only.",
+    "All numbered files mage/1.png–mage/50.png are accounted for under talents (1+50 both Ice Barrier)."
+  ]
+}
