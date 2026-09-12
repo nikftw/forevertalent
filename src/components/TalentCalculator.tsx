@@ -9,7 +9,11 @@ import { TalentTreeCard } from "@/components/TalentTree";
 import { foreverLogoUrl } from "@/lib/assets";
 import { withBasePath } from "@/lib/basePath";
 import { CLASSES, MAX_POINTS } from "@/lib/classes";
-import { parseExtras, serializeExtras } from "@/lib/extras";
+import {
+  parseExtrasForClass,
+  sanitizeExtrasForClass,
+  serializeExtras,
+} from "@/lib/extras";
 import {
   applyAction,
   classPoints,
@@ -44,7 +48,7 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
   const extrasQuery = serializeExtras(extras);
 
   useEffect(() => {
-    setExtras(parseExtras(window.location.search));
+    setExtras(parseExtrasForClass(window.location.search, cls.slug));
     setUrlReady(true);
   }, [cls.slug]);
 
@@ -71,7 +75,7 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
   }
 
   function updateExtras(next: ExtrasSelection) {
-    setExtras(next);
+    setExtras(sanitizeExtrasForClass(next, cls.slug));
     setCopied(false);
   }
 
@@ -100,12 +104,16 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
           <ClassSelect
             classes={CLASSES}
             activeSlug={cls.slug}
-            query={extrasQuery}
+            extras={extras}
           />
         </div>
       </header>
       <ReviewLegend />
-      <ExtrasSelect selection={extras} onChange={updateExtras} />
+      <ExtrasSelect
+        classSlug={cls.slug}
+        selection={extras}
+        onChange={updateExtras}
+      />
       <div className="trees">
         {cls.trees.map((tree) => (
           <TalentTreeCard

@@ -30,6 +30,34 @@ export function isProfessionSlug(slug: string): boolean {
   return PROFESSIONS.some((profession) => profession.slug === slug);
 }
 
+export function isRaceAllowedForClass(
+  raceSlug: string | null | undefined,
+  classSlug: string,
+): boolean {
+  if (!raceSlug) return false;
+  const race = getRace(raceSlug);
+  if (!race) return false;
+  return race.allowedClasses.includes(classSlug);
+}
+
+export function racesForClass(classSlug: string): RaceInfo[] {
+  return RACES.filter((race) => race.allowedClasses.includes(classSlug));
+}
+
+/** Drop race if it cannot play the given class (keeps professions). */
+export function sanitizeExtrasForClass(
+  selection: ExtrasSelection,
+  classSlug: string,
+): ExtrasSelection {
+  if (
+    selection.race &&
+    !isRaceAllowedForClass(selection.race, classSlug)
+  ) {
+    return { ...selection, race: null };
+  }
+  return selection;
+}
+
 export function parseExtras(search: string): ExtrasSelection {
   const params = new URLSearchParams(
     search.startsWith("?") ? search.slice(1) : search,
@@ -44,6 +72,13 @@ export function parseExtras(search: string): ExtrasSelection {
   if (p1 && p2 && p1 === p2) p2 = null;
 
   return { race, p1, p2 };
+}
+
+export function parseExtrasForClass(
+  search: string,
+  classSlug: string,
+): ExtrasSelection {
+  return sanitizeExtrasForClass(parseExtras(search), classSlug);
 }
 
 export function serializeExtras(selection: ExtrasSelection): string {

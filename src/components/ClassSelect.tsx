@@ -2,23 +2,30 @@
 
 import Link from "next/link";
 import { classIconUrl } from "@/lib/assets";
-import type { PlayerClass } from "@/data/types";
+import {
+  sanitizeExtrasForClass,
+  serializeExtras,
+} from "@/lib/extras";
+import type { ExtrasSelection, PlayerClass } from "@/data/types";
 
 type ClassSelectProps = {
   classes: PlayerClass[];
   activeSlug: string;
-  query?: string;
+  extras: ExtrasSelection;
 };
 
 export function ClassSelect({
   classes,
   activeSlug,
-  query = "",
+  extras,
 }: ClassSelectProps) {
   return (
     <nav className="class-select" aria-label="Classes">
       {classes.map((cls) => {
         const active = cls.slug === activeSlug;
+        const query = serializeExtras(
+          sanitizeExtrasForClass(extras, cls.slug),
+        );
         return (
           <Link
             key={cls.slug}

@@ -1,5 +1,5 @@
 {
-  "source": "Forever racial talents reference",
+  "source": "Forever racial talents reference + race/class matrix",
   "races": [
     {
       "slug": "orc",
@@ -7,6 +7,7 @@
       "faction": "horde",
       "icon": "race_orc_male",
       "description": "Focused, ferocious, and sometimes monstrous, the Horde values strength and honor, but struggles to keep aggression in check.",
+      "allowedClasses": ["warrior", "hunter", "mage", "rogue", "warlock", "shaman"],
       "abilities": [
         {
           "name": "Blood Fury",
@@ -40,6 +41,7 @@
       "faction": "horde",
       "icon": "race_scourge_male",
       "description": "The plague of undeath was unleashed upon the land, and those who survived are the Forsaken.",
+      "allowedClasses": ["warrior", "mage", "rogue", "priest", "warlock", "paladin"],
       "abilities": [
         {
           "name": "Will of the Forsaken",
@@ -73,6 +75,7 @@
       "faction": "horde",
       "icon": "race_tauren_male",
       "description": "The peaceful Tauren have long roamed the central plains, but now their way of life is under threat.",
+      "allowedClasses": ["warrior", "hunter", "druid", "shaman"],
       "abilities": [
         {
           "name": "War Stomp",
@@ -106,6 +109,7 @@
       "faction": "horde",
       "icon": "race_troll_male",
       "description": "The savage and mysterious Trolls are known for their regeneration and their affinity for the elements.",
+      "allowedClasses": ["warrior", "hunter", "mage", "rogue", "priest", "warlock", "shaman"],
       "abilities": [
         {
           "name": "Walk on Air",
@@ -134,37 +138,13 @@
       ]
     },
     {
-      "slug": "dwarf",
-      "name": "Dwarf",
-      "faction": "alliance",
-      "icon": "race_dwarf_male",
-      "description": "The ancient Dwarves are known for their engineering prowess, their resistance, and their love of treasure.",
-      "abilities": [
-        {
-          "name": "Find Treasure",
-          "icon": "racial_dwarf_findtreasure",
-          "passive": false,
-          "description": "Allows the dwarf to sense nearby treasure, making it appear on the minimap."
-        },
-        {
-          "name": "Stoneform",
-          "icon": "spell_shadow_unholystrength",
-          "passive": false,
-          "description": "Removes all Poison and Disease effects and reduces Physical damage taken for 8 sec."
-        },
-        {
-          "name": "Mace Specialization",
-          "icon": "inv_hammer_05",
-          "passive": true,
-          "description": "Maces increase spell and ability critical chance by 1%."
-        },
-        {
-          "name": "Big Game Hunter",
-          "icon": "ability_hunter_snipershot",
-          "passive": true,
-          "description": "Damage to Beasts increased by 5%."
-        }
-      ]
+      "slug": "skyborne-horde",
+      "name": "Skyborne",
+      "faction": "horde",
+      "icon": "inv_misc_head_dragon_01",
+      "description": "Skyborne of the Horde — Forever race. Racial abilities TBD.",
+      "allowedClasses": ["warrior", "hunter", "rogue", "druid", "shaman"],
+      "abilities": []
     },
     {
       "slug": "human",
@@ -172,6 +152,7 @@
       "faction": "alliance",
       "icon": "race_human_male",
       "description": "Humans are versatile and ambitious, bringing their technical, arcane, and spiritual wisdom toward the goal of a peaceful world.",
+      "allowedClasses": ["warrior", "hunter", "mage", "rogue", "priest", "warlock", "paladin"],
       "abilities": [
         {
           "name": "Will to Survive",
@@ -200,11 +181,46 @@
       ]
     },
     {
+      "slug": "dwarf",
+      "name": "Dwarf",
+      "faction": "alliance",
+      "icon": "race_dwarf_male",
+      "description": "The ancient Dwarves are known for their engineering prowess, their resistance, and their love of treasure.",
+      "allowedClasses": ["warrior", "hunter", "rogue", "priest", "paladin", "shaman"],
+      "abilities": [
+        {
+          "name": "Find Treasure",
+          "icon": "racial_dwarf_findtreasure",
+          "passive": false,
+          "description": "Allows the dwarf to sense nearby treasure, making it appear on the minimap."
+        },
+        {
+          "name": "Stoneform",
+          "icon": "spell_shadow_unholystrength",
+          "passive": false,
+          "description": "Removes all Poison and Disease effects and reduces Physical damage taken for 8 sec."
+        },
+        {
+          "name": "Mace Specialization",
+          "icon": "inv_hammer_05",
+          "passive": true,
+          "description": "Maces increase spell and ability critical chance by 1%."
+        },
+        {
+          "name": "Big Game Hunter",
+          "icon": "ability_hunter_snipershot",
+          "passive": true,
+          "description": "Damage to Beasts increased by 5%."
+        }
+      ]
+    },
+    {
       "slug": "night-elf",
       "name": "Night Elf",
       "faction": "alliance",
       "icon": "race_nightelf_male",
       "description": "The mysterious and ageless Night Elves possess an innate connection to nature and a mastery of the shadows.",
+      "allowedClasses": ["warrior", "hunter", "rogue", "priest", "druid"],
       "abilities": [
         {
           "name": "Elune's Light",
@@ -238,6 +254,7 @@
       "faction": "alliance",
       "icon": "race_gnome_male",
       "description": "Gnomes are brilliant and eccentric inventors, known for their quick wits and expansive minds.",
+      "allowedClasses": ["warrior", "mage", "rogue", "priest", "warlock"],
       "abilities": [
         {
           "name": "Eureka!",
@@ -264,6 +281,15 @@
           "description": "Escape the effects of any immobilization or movement speed reduction effect."
         }
       ]
+    },
+    {
+      "slug": "skyborne-alliance",
+      "name": "Skyborne",
+      "faction": "alliance",
+      "icon": "inv_misc_head_dragon_01",
+      "description": "Skyborne of the Alliance — Forever race. Racial abilities TBD.",
+      "allowedClasses": ["warrior", "hunter", "mage", "rogue", "druid"],
+      "abilities": []
     }
   ]
 }

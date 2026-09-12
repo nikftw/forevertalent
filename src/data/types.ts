@@ -71,6 +71,8 @@ export type RaceInfo = {
   faction: Faction;
   icon: string;
   description: string;
+  /** Class slugs this race may play (Forever race/class matrix). */
+  allowedClasses: string[];
   abilities: ExtraAbility[];
 };
 

@@ -2,7 +2,13 @@
 
 import { useRef } from "react";
 import { iconUrl } from "@/lib/assets";
-import { PROFESSIONS, RACES, getProfession, getRace } from "@/lib/extras";
+import {
+  PROFESSIONS,
+  getProfession,
+  getRace,
+  isRaceAllowedForClass,
+  racesForClass,
+} from "@/lib/extras";
 import type { ExtrasSelection } from "@/data/types";
 import {
   ProfessionAbilityPanel,
@@ -10,19 +16,26 @@ import {
 } from "@/components/ExtraAbilityPanels";
 
 type ExtrasSelectProps = {
+  classSlug: string;
   selection: ExtrasSelection;
   onChange: (next: ExtrasSelection) => void;
 };
 
 type ProfessionSlot = "p1" | "p2";
 
-export function ExtrasSelect({ selection, onChange }: ExtrasSelectProps) {
+export function ExtrasSelect({
+  classSlug,
+  selection,
+  onChange,
+}: ExtrasSelectProps) {
   const race = getRace(selection.race);
   const p1 = getProfession(selection.p1);
   const p2 = getProfession(selection.p2);
   const lastSlotRef = useRef<ProfessionSlot>("p1");
+  const availableRaces = racesForClass(classSlug);
 
   function setRace(slug: string | null) {
+    if (slug && !isRaceAllowedForClass(slug, classSlug)) return;
     onChange({ ...selection, race: slug });
   }
 
@@ -66,15 +79,19 @@ export function ExtrasSelect({ selection, onChange }: ExtrasSelectProps) {
         <div className="extras-group">
           <span className="extras-label">Race</span>
           <div className="extras-icons" role="listbox" aria-label="Race">
-            {RACES.map((entry) => {
+            {availableRaces.map((entry) => {
               const active = selection.race === entry.slug;
+              const label =
+                entry.slug.startsWith("skyborne-")
+                  ? `${entry.name} (${entry.faction === "alliance" ? "Alliance" : "Horde"})`
+                  : entry.name;
               return (
                 <button
                   key={entry.slug}
                   type="button"
                   role="option"
                   aria-selected={active}
-                  title={entry.name}
+                  title={label}
                   className={
                     active ? "extra-icon is-active" : "extra-icon"
                   }
@@ -83,7 +100,7 @@ export function ExtrasSelect({ selection, onChange }: ExtrasSelectProps) {
                 >
                   <img
                     src={iconUrl(entry.icon, "medium")}
-                    alt={entry.name}
+                    alt={label}
                     width={32}
                     height={32}
                   />
