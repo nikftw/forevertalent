@@ -46,28 +46,6 @@
       ]
     },
     {
-      "slug": "cooking",
-      "name": "Cooking",
-      "icon": "inv_misc_food_15",
-      "bonuses": [
-        {
-          "name": "Black Coffee",
-          "icon": "inv_drink_15",
-          "description": "Brew Black Coffee for a potent temporary boost."
-        },
-        {
-          "name": "Juicy Bear Burgers",
-          "icon": "inv_misc_food_65",
-          "description": "Cook Juicy Bear Burgers and other Forever specialty foods."
-        },
-        {
-          "name": "And More",
-          "icon": "inv_misc_food_73cinnamonroll",
-          "description": "Additional cooking recipes and buff foods for Forever."
-        }
-      ]
-    },
-    {
       "slug": "enchanting",
       "name": "Enchanting",
       "icon": "trade_engraving",
@@ -108,50 +86,6 @@
           "name": "Goblin or Gnome?",
           "icon": "inv_misc_head_gnome_01",
           "description": "Specialize into Goblin or Gnomish Engineering for unique recipes."
-        }
-      ]
-    },
-    {
-      "slug": "fishing",
-      "name": "Fishing",
-      "icon": "trade_fishing",
-      "bonuses": [
-        {
-          "name": "Fishing with Flair",
-          "icon": "inv_misc_fish_02",
-          "description": "Improved fishing catches and specialty fish for Forever."
-        },
-        {
-          "name": "Casting Fire",
-          "icon": "spell_fire_fireball",
-          "description": "New fishing content and fire-themed catches."
-        },
-        {
-          "name": "Bobbing with Friends",
-          "icon": "inv_misc_fish_14",
-          "description": "Social and cooperative fishing rewards."
-        }
-      ]
-    },
-    {
-      "slug": "first-aid",
-      "name": "First Aid",
-      "icon": "spell_holy_sealofsacrifice",
-      "bonuses": [
-        {
-          "name": "Classic First Aid",
-          "icon": "inv_misc_bandage_15",
-          "description": "Core bandage and anti-venom recipes return."
-        },
-        {
-          "name": "Upgraded Bandages",
-          "icon": "inv_misc_bandage_12",
-          "description": "Stronger Forever bandages for higher healing."
-        },
-        {
-          "name": "Engaging Content",
-          "icon": "inv_misc_note_02",
-          "description": "Additional first aid recipes and progression."
         }
       ]
     },

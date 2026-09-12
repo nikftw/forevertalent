@@ -1,12 +1,8 @@
 "use client";
 
+import { useRef } from "react";
 import { iconUrl } from "@/lib/assets";
-import {
-  PROFESSIONS,
-  RACES,
-  getProfession,
-  getRace,
-} from "@/lib/extras";
+import { PROFESSIONS, RACES, getProfession, getRace } from "@/lib/extras";
 import type { ExtrasSelection } from "@/data/types";
 import {
   ProfessionAbilityPanel,
@@ -18,21 +14,51 @@ type ExtrasSelectProps = {
   onChange: (next: ExtrasSelection) => void;
 };
 
+type ProfessionSlot = "p1" | "p2";
+
 export function ExtrasSelect({ selection, onChange }: ExtrasSelectProps) {
   const race = getRace(selection.race);
   const p1 = getProfession(selection.p1);
   const p2 = getProfession(selection.p2);
+  const lastSlotRef = useRef<ProfessionSlot>("p1");
 
   function setRace(slug: string | null) {
     onChange({ ...selection, race: slug });
   }
 
-  function setProfession(slot: "p1" | "p2", slug: string | null) {
-    const next = { ...selection, [slot]: slug };
-    if (slot === "p1" && slug && slug === next.p2) next.p2 = null;
-    if (slot === "p2" && slug && slug === next.p1) return;
-    onChange(next);
+  function toggleProfession(slug: string) {
+    const { p1: slot1, p2: slot2 } = selection;
+
+    if (slot1 === slug) {
+      onChange({ ...selection, p1: null });
+      return;
+    }
+    if (slot2 === slug) {
+      onChange({ ...selection, p2: null });
+      return;
+    }
+    if (!slot1) {
+      lastSlotRef.current = "p1";
+      onChange({ ...selection, p1: slug });
+      return;
+    }
+    if (!slot2) {
+      lastSlotRef.current = "p2";
+      onChange({ ...selection, p2: slug });
+      return;
+    }
+
+    // Both filled: last click replaces the other slot.
+    if (lastSlotRef.current === "p1") {
+      lastSlotRef.current = "p2";
+      onChange({ ...selection, p2: slug });
+      return;
+    }
+    lastSlotRef.current = "p1";
+    onChange({ ...selection, p1: slug });
   }
+
+  const hasPanels = Boolean(race || p1 || p2);
 
   return (
     <section className="extras" aria-label="Race and professions">
@@ -67,67 +93,26 @@ export function ExtrasSelect({ selection, onChange }: ExtrasSelectProps) {
           </div>
         </div>
 
-        <div className="extras-group">
-          <span className="extras-label">Profession 1</span>
-          <div className="extras-icons" role="listbox" aria-label="Profession 1">
+        <div className="extras-group extras-group-professions">
+          <span className="extras-label">Professions</span>
+          <div
+            className="extras-icons"
+            role="listbox"
+            aria-label="Professions"
+            aria-multiselectable="true"
+          >
             {PROFESSIONS.map((entry) => {
-              const active = selection.p1 === entry.slug;
-              const taken = selection.p2 === entry.slug;
+              const active =
+                selection.p1 === entry.slug || selection.p2 === entry.slug;
               return (
                 <button
                   key={entry.slug}
                   type="button"
                   role="option"
                   aria-selected={active}
-                  disabled={taken}
-                  title={
-                    taken ? `${entry.name} (already Profession 2)` : entry.name
-                  }
-                  className={
-                    active
-                      ? "extra-icon is-active"
-                      : taken
-                        ? "extra-icon is-disabled"
-                        : "extra-icon"
-                  }
-                  onClick={() => setProfession("p1", active ? null : entry.slug)}
-                >
-                  <img
-                    src={iconUrl(entry.icon, "medium")}
-                    alt={entry.name}
-                    width={32}
-                    height={32}
-                  />
-                </button>
-              );
-            })}
-          </div>
-        </div>
-
-        <div className="extras-group">
-          <span className="extras-label">Profession 2</span>
-          <div className="extras-icons" role="listbox" aria-label="Profession 2">
-            {PROFESSIONS.map((entry) => {
-              const active = selection.p2 === entry.slug;
-              const taken = selection.p1 === entry.slug;
-              return (
-                <button
-                  key={entry.slug}
-                  type="button"
-                  role="option"
-                  aria-selected={active}
-                  disabled={taken}
-                  title={
-                    taken ? `${entry.name} (already Profession 1)` : entry.name
-                  }
-                  className={
-                    active
-                      ? "extra-icon is-active"
-                      : taken
-                        ? "extra-icon is-disabled"
-                        : "extra-icon"
-                  }
-                  onClick={() => setProfession("p2", active ? null : entry.slug)}
+                  title={entry.name}
+                  className={active ? "extra-icon is-active" : "extra-icon"}
+                  onClick={() => toggleProfession(entry.slug)}
                 >
                   <img
                     src={iconUrl(entry.icon, "medium")}
@@ -142,7 +127,7 @@ export function ExtrasSelect({ selection, onChange }: ExtrasSelectProps) {
         </div>
       </div>
 
-      {race || p1 || p2 ? (
+      {hasPanels ? (
         <div className="extras-panels">
           {race ? <RaceAbilityPanel race={race} /> : null}
           {p1 ? (

@@ -20,18 +20,26 @@
   --locked: #ffffff80;
 }
 
-html,
-body {
+html {
   min-height: 100%;
+  /* Fallback matches gradient end so overflow never flashes a seam color */
+  background-color: #040f1a;
 }
 
 body {
   margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
   color: #fff;
-  background:
+  /* Paint on body with no-repeat so the stack cannot tile mid-page.
+     Size 100% 100% stretches with the content-tall body (not the viewport). */
+  background-color: #040f1a;
+  background-image:
     radial-gradient(900px 520px at 72% -8%, #114f72 0%, transparent 58%),
     radial-gradient(720px 420px at 18% 0%, #0f6064 0%, transparent 52%),
     linear-gradient(180deg, #011c2b 0%, #170e09 58%, #040f1a 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   font-family: var(--font-sans), "Open Sans", Arial, Helvetica, sans-serif;
 }
 
@@ -161,27 +169,29 @@ body {
 }
 
 .extras {
-  width: min(760px, 100%);
+  width: min(920px, 100%);
   margin: 0 0 1.25rem;
 }
 
 .extras-controls {
   display: flex;
-  flex-direction: column;
-  gap: 0.65rem;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.85rem 1.35rem;
 }
 
 .extras-group {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  gap: 0.45rem 0.65rem;
+  gap: 0.35rem;
 }
 
 .extras-label {
-  flex: 0 0 6.5rem;
-  font-size: 12px;
-  letter-spacing: 0.04em;
+  flex: none;
+  font-size: 11px;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
 }
@@ -534,15 +544,16 @@ body {
 }
 
 .extras {
-  width: min(760px, 100%);
+  width: min(920px, 100%);
   margin: 0 0 1.15rem;
 }
 
 .extras-controls {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-end;
   justify-content: center;
-  gap: 0.85rem 1.25rem;
+  gap: 0.85rem 1.35rem;
 }
 
 .extras-group {
@@ -553,6 +564,7 @@ body {
 }
 
 .extras-label {
+  flex: none;
   font-size: 11px;
   letter-spacing: 0.08em;
   text-transform: uppercase;

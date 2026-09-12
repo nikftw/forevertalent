@@ -56,6 +56,7 @@ export function RaceAbilityPanel({ race }: RaceAbilityPanelProps) {
 
 type ProfessionAbilityPanelProps = {
   profession: ProfessionInfo;
+  /** Shown as "Profession 1: Alchemy". */
   slotLabel: string;
 };
 
@@ -72,7 +73,7 @@ export function ProfessionAbilityPanel({
           width={20}
           height={20}
         />
-        {slotLabel}: {profession.name}
+        {`${slotLabel}: ${profession.name}`}
       </p>
       <div className="extra-ability-row">
         {profession.bonuses.map((bonus) => (

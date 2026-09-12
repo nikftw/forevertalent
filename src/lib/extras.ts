@@ -7,7 +7,8 @@ import type {
 } from "@/data/types";
 
 export const RACES: RaceInfo[] = racialsData.races as RaceInfo[];
-export const PROFESSIONS: ProfessionInfo[] = professionsData.professions as ProfessionInfo[];
+export const PROFESSIONS: ProfessionInfo[] =
+  professionsData.professions as ProfessionInfo[];
 
 export function getRace(slug: string | null | undefined): RaceInfo | undefined {
   if (!slug) return undefined;
@@ -34,12 +35,14 @@ export function parseExtras(search: string): ExtrasSelection {
     search.startsWith("?") ? search.slice(1) : search,
   );
   const raceRaw = params.get("race");
-  const p1Raw = params.get("p1");
-  const p2Raw = params.get("p2");
   const race = raceRaw && isRaceSlug(raceRaw) ? raceRaw : null;
-  let p1 = p1Raw && isProfessionSlug(p1Raw) ? p1Raw : null;
+
+  const p1Raw = params.get("p1");
+  const p1 = p1Raw && isProfessionSlug(p1Raw) ? p1Raw : null;
+  const p2Raw = params.get("p2");
   let p2 = p2Raw && isProfessionSlug(p2Raw) ? p2Raw : null;
   if (p1 && p2 && p1 === p2) p2 = null;
+
   return { race, p1, p2 };
 }
 

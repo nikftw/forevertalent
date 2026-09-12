@@ -24,7 +24,11 @@ type TalentCalculatorProps = {
   initialBuild: string;
 };
 
-const EMPTY_EXTRAS: ExtrasSelection = { race: null, p1: null, p2: null };
+const EMPTY_EXTRAS: ExtrasSelection = {
+  race: null,
+  p1: null,
+  p2: null,
+};
 
 export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
   const [ranks, setRanks] = useState<RankState>(() =>
