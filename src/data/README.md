@@ -12,4 +12,15 @@ Edit the matching object under `classes[].trees[].talents[]`:
 - `requires`: `[{ "id": <talentId>, "qty": <ranks needed> }]`
 - `ranks[]`: one entry per rank, with `description` (the tooltip)
 
-To add a talent, give it a unique `id` and place it on the 0–6 row / 0–3 column grid. To remove one, delete the object. The calculator reads this file only — no Wowhead calls at runtime.
+To add a talent, give it a unique `id` (use 90001+ for Forever-only nodes) and place it on the 0–6 row / 0–3 column grid. To remove one, delete the object. The calculator reads this file only — no Wowhead calls at runtime.
+
+## Review dots
+
+`review-status.json` is keyed by talent `id` and sets the corner indicator:
+
+- `new` (red) — talent did not exist in Classic; we added it to the app
+- `updated` (orange) — Classic talent whose ranks, tooltip, or layout changed
+- `unchanged` (green) — Classic talent found in a screenshot with the same text
+- `classic` (grey) — Classic placeholder, not yet matched to a screenshot
+
+Drop in-game screenshots in `public/{class}/`: one overview of the three trees, then separate icon and tooltip shots. Do not invent row/col for new talents until the overview shows the slot.

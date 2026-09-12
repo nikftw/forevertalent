@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { iconUrl } from "@/lib/assets";
+import { reviewLabel, talentReview } from "@/lib/review";
 import {
   canLearn,
   canUnlearn,
@@ -39,6 +40,7 @@ export function TalentNode({
     current === 0 ? talent.ranks[0] : talent.ranks[current - 1];
   const nextRank =
     current > 0 && current < talent.maxRank ? talent.ranks[current] : undefined;
+  const review = talentReview(talent);
 
   return (
     <div
@@ -50,7 +52,7 @@ export function TalentNode({
       <button
         type="button"
         className={`talent-node is-${availability}`}
-        aria-label={`${talent.name} ${current}/${talent.maxRank}`}
+        aria-label={`${talent.name} ${current}/${talent.maxRank}, ${reviewLabel(review)}`}
         onClick={(event) => {
           if (event.shiftKey) onMax();
           else onLearn();
@@ -68,6 +70,7 @@ export function TalentNode({
           height={40}
           draggable={false}
         />
+        <span className={`talent-review is-${review}`} />
         <span className="talent-rank">
           {current}/{talent.maxRank}
         </span>

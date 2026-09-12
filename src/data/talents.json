@@ -8097,7 +8097,7 @@
                 {
                   "spellId": 12592,
                   "name": "Arcane Subtlety",
-                  "description": "Reduces your target's resistance to all your spells by 10 and reduces the threat caused by your Arcane spells by 40%."
+                  "description": "Reduces your target's resistance to all your spells by 15 and reduces the threat caused by your Arcane spells by 30%."
                 }
               ]
             },
@@ -8199,34 +8199,19 @@
               "row": 1,
               "col": 1,
               "icon": "spell_nature_astralrecalgroup",
-              "maxRank": 5,
+              "maxRank": 2,
               "requires": [],
               "name": "Magic Absorption",
               "ranks": [
                 {
                   "spellId": 29441,
                   "name": "Magic Absorption",
-                  "description": "Increases all resistances by 2 and causes all spells you fully resist to restore 1% of your total mana.  1 sec. cooldown."
+                  "description": "Increases all your resistances by 5 and causes all spells you fully resist to restore 1% of your total mana. Cannot trigger more often than 1 time per sec."
                 },
                 {
                   "spellId": 29444,
                   "name": "Magic Absorption",
-                  "description": "Increases all resistances by 4 and causes all spells you fully resist to restore 2% of your total mana.  1 sec. cooldown."
-                },
-                {
-                  "spellId": 29445,
-                  "name": "Magic Absorption",
-                  "description": "Increases all resistances by 6 and causes all spells you fully resist to restore 3% of your total mana.  1 sec. cooldown."
-                },
-                {
-                  "spellId": 29446,
-                  "name": "Magic Absorption",
-                  "description": "Increases all resistances by 8 and causes all spells you fully resist to restore 4% of your total mana.  1 sec. cooldown."
-                },
-                {
-                  "spellId": 29447,
-                  "name": "Magic Absorption",
-                  "description": "Increases all resistances by 10 and causes all spells you fully resist to restore 5% of your total mana.  1 sec. cooldown."
+                  "description": "Increases all your resistances by 10 and causes all spells you fully resist to restore 2% of your total mana. Cannot trigger more often than 1 time per sec."
                 }
               ]
             },
@@ -8430,27 +8415,27 @@
                 {
                   "spellId": 11232,
                   "name": "Arcane Mind",
-                  "description": "Increases your maximum Mana by 2%."
+                  "description": "Increases your Intellect by 2% and increases the critical strike damage bonus of your Arcane spells by 20%."
                 },
                 {
                   "spellId": 12500,
                   "name": "Arcane Mind",
-                  "description": "Increases your maximum Mana by 4%."
+                  "description": "Increases your Intellect by 4% and increases the critical strike damage bonus of your Arcane spells by 40%."
                 },
                 {
                   "spellId": 12501,
                   "name": "Arcane Mind",
-                  "description": "Increases your maximum Mana by 6%."
+                  "description": "Increases your Intellect by 6% and increases the critical strike damage bonus of your Arcane spells by 60%."
                 },
                 {
                   "spellId": 12502,
                   "name": "Arcane Mind",
-                  "description": "Increases your maximum Mana by 8%."
+                  "description": "Increases your Intellect by 8% and increases the critical strike damage bonus of your Arcane spells by 80%."
                 },
                 {
                   "spellId": 12503,
                   "name": "Arcane Mind",
-                  "description": "Increases your maximum Mana by 10%."
+                  "description": "Increases your Intellect by 10% and increases the critical strike damage bonus of your Arcane spells by 100%."
                 }
               ]
             },
@@ -9379,7 +9364,7 @@
                 {
                   "spellId": 11426,
                   "name": "Ice Barrier",
-                  "description": "Instantly shields you, absorbing <!--ppl11426:40:46:438:280:1-->455 damage.  Lasts 1 min.  While the shield holds, spells will not be interrupted."
+                  "description": "Instantly shields you, absorbing <!--ppl11426:40:46:438:280:1-->455 damage.  Lasts 1 min.  While the shield holds, your spellcasts will not be interrupted or delayed from taking damage."
                 }
               ]
             }
@@ -11377,12 +11362,12 @@
                 {
                   "spellId": 16940,
                   "name": "Brutal Impact",
-                  "description": "Increases the stun duration of your Bash and Pounce abilities by 0.5 sec."
+                  "description": "Increases the stun duration of your Bash and Pounce abilities by 0.5 sec and reduces the cooldown of Bash by 15 sec."
                 },
                 {
                   "spellId": 16941,
                   "name": "Brutal Impact",
-                  "description": "Increases the stun duration of your Bash and Pounce abilities by 1 sec."
+                  "description": "Increases the stun duration of your Bash and Pounce abilities by 1 sec and reduces the cooldown of Bash by 30 sec."
                 }
               ]
             },
@@ -11686,38 +11671,18 @@
           "name": "Restoration",
           "talents": [
             {
-              "id": 821,
+              "id": 844,
               "row": 0,
               "col": 1,
-              "icon": "spell_nature_regeneration",
-              "maxRank": 5,
+              "icon": "inv_relics_idolofrejuvenation",
+              "maxRank": 1,
               "requires": [],
-              "name": "Improved Mark of the Wild",
+              "name": "Swiftmend",
               "ranks": [
                 {
-                  "spellId": 17050,
-                  "name": "Improved Mark of the Wild",
-                  "description": "Increases the effects of your Mark of the Wild and Gift of the Wild spells by 7%."
-                },
-                {
-                  "spellId": 17051,
-                  "name": "Improved Mark of the Wild",
-                  "description": "Increases the effects of your Mark of the Wild and Gift of the Wild spells by 14%."
-                },
-                {
-                  "spellId": 17053,
-                  "name": "Improved Mark of the Wild",
-                  "description": "Increases the effects of your Mark of the Wild and Gift of the Wild spells by 21%."
-                },
-                {
-                  "spellId": 17054,
-                  "name": "Improved Mark of the Wild",
-                  "description": "Increases the effects of your Mark of the Wild and Gift of the Wild spells by 28%."
-                },
-                {
-                  "spellId": 17055,
-                  "name": "Improved Mark of the Wild",
-                  "description": "Increases the effects of your Mark of the Wild and Gift of the Wild spells by 35%."
+                  "spellId": 18562,
+                  "name": "Swiftmend",
+                  "description": "Instantly heals a target with an active Rejuvenation or Regrowth effect for an amount equal to the full duration of the periodic effect of one of those spells."
                 }
               ]
             },
@@ -11733,27 +11698,27 @@
                 {
                   "spellId": 17056,
                   "name": "Furor",
-                  "description": "Gives you 20% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form."
+                  "description": "Gives you a 20% chance to gain 10 Rage when you shapeshift into Bear Form or Dire Bear Form. When you shift into Cat Form, you will regain 20% of the Energy you had when you were last in Cat Form, plus 2 Energy for each second you spent not in Bear Form, Cat Form, or Dire Bear Form, up to a maximum of 20 Energy."
                 },
                 {
                   "spellId": 17058,
                   "name": "Furor",
-                  "description": "Gives you 40% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form."
+                  "description": "Gives you a 40% chance to gain 10 Rage when you shapeshift into Bear Form or Dire Bear Form. When you shift into Cat Form, you will regain 20% of the Energy you had when you were last in Cat Form, plus 2 Energy for each second you spent not in Bear Form, Cat Form, or Dire Bear Form, up to a maximum of 20 Energy."
                 },
                 {
                   "spellId": 17059,
                   "name": "Furor",
-                  "description": "Gives you 60% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form."
+                  "description": "Gives you a 60% chance to gain 10 Rage when you shapeshift into Bear Form or Dire Bear Form. When you shift into Cat Form, you will regain 20% of the Energy you had when you were last in Cat Form, plus 2 Energy for each second you spent not in Bear Form, Cat Form, or Dire Bear Form, up to a maximum of 20 Energy."
                 },
                 {
                   "spellId": 17060,
                   "name": "Furor",
-                  "description": "Gives you 80% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form."
+                  "description": "Gives you a 80% chance to gain 10 Rage when you shapeshift into Bear Form or Dire Bear Form. When you shift into Cat Form, you will regain 20% of the Energy you had when you were last in Cat Form, plus 2 Energy for each second you spent not in Bear Form, Cat Form, or Dire Bear Form, up to a maximum of 20 Energy."
                 },
                 {
                   "spellId": 17061,
                   "name": "Furor",
-                  "description": "Gives you 100% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form."
+                  "description": "Gives you a 100% chance to gain 10 Rage when you shapeshift into Bear Form or Dire Bear Form. When you shift into Cat Form, you will regain 20% of the Energy you had when you were last in Cat Form, plus 2 Energy for each second you spent not in Bear Form, Cat Form, or Dire Bear Form, up to a maximum of 20 Energy."
                 }
               ]
             },
@@ -12110,10 +12075,10 @@
               ]
             },
             {
-              "id": 844,
+              "id": 90001,
               "row": 6,
               "col": 1,
-              "icon": "inv_relics_idolofrejuvenation",
+              "icon": "ability_druid_wildgrowth",
               "maxRank": 1,
               "requires": [
                 {
@@ -12121,12 +12086,12 @@
                   "qty": 5
                 }
               ],
-              "name": "Swiftmend",
+              "name": "Wild Growth",
               "ranks": [
                 {
-                  "spellId": 18562,
-                  "name": "Swiftmend",
-                  "description": "Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth."
+                  "spellId": 48438,
+                  "name": "Wild Growth",
+                  "description": "Heals the target and their party for 285 over 7 sec. Party members must be within 43 yards of target. The amount healed is applied quickly at first, and slows down as Wild Growth reaches its full duration."
                 }
               ]
             }

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Cinzel, Source_Sans_3 } from "next/font/google";
+import { Cinzel, Open_Sans } from "next/font/google";
 import "./globals.css";
 
-const sans = Source_Sans_3({
+const sans = Open_Sans({
   variable: "--font-sans",
   subsets: ["latin"],
 });
@@ -10,7 +10,7 @@ const sans = Source_Sans_3({
 const display = Cinzel({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["600", "700"],
+  weight: ["500", "600", "700"],
 });
 
 export const metadata: Metadata = {

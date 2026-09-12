@@ -1,0 +1,50 @@
+{
+  "71": {
+    "review": "updated",
+    "screenshots": ["mage/1.png"]
+  },
+  "74": {
+    "review": "updated",
+    "screenshots": ["mage/2.png"]
+  },
+  "75": {
+    "review": "unchanged",
+    "screenshots": ["mage/3.png"]
+  },
+  "77": {
+    "review": "updated",
+    "screenshots": ["mage/6.png"]
+  },
+  "78": {
+    "review": "unchanged",
+    "screenshots": ["mage/4.png"]
+  },
+  "1650": {
+    "review": "updated",
+    "screenshots": ["mage/5.png"]
+  },
+  "1403": {
+    "review": "unchanged",
+    "screenshots": ["paladin/2.png"]
+  },
+  "1631": {
+    "review": "unchanged",
+    "screenshots": ["paladin/4.png"]
+  },
+  "797": {
+    "review": "updated",
+    "screenshots": ["druid/3.png"]
+  },
+  "822": {
+    "review": "updated",
+    "screenshots": ["druid/image.png"]
+  },
+  "844": {
+    "review": "updated",
+    "screenshots": ["druid/1.png"]
+  },
+  "90001": {
+    "review": "new",
+    "screenshots": ["druid/2.png"]
+  }
+}

@@ -1,8 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { ClassSelect } from "@/components/ClassSelect";
+import { ReviewLegend } from "@/components/ReviewLegend";
 import { TalentTreeCard } from "@/components/TalentTree";
+import { foreverLogoUrl } from "@/lib/assets";
 import { withBasePath } from "@/lib/basePath";
 import { CLASSES, MAX_POINTS } from "@/lib/classes";
 import {
@@ -60,10 +63,20 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
   return (
     <div className="calculator">
       <header className="masthead">
-        <p className="brand">World of Warcraft Forever</p>
-        <h1>Talent Calculator</h1>
+        <Link className="brand-logo" href={`/${cls.slug}`}>
+          <img
+            src={foreverLogoUrl()}
+            alt="World of Warcraft Forever"
+            width={882}
+            height={718}
+          />
+        </Link>
+        <div className="masthead-copy">
+          <h1>Talent Calculator</h1>
+          <ClassSelect classes={CLASSES} activeSlug={cls.slug} />
+        </div>
       </header>
-      <ClassSelect classes={CLASSES} activeSlug={cls.slug} />
+      <ReviewLegend />
       <div className="trees">
         {cls.trees.map((tree) => (
           <TalentTreeCard

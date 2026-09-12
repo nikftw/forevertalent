@@ -1,15 +1,23 @@
 @import "tailwindcss";
 
+/* Tokens from worldofwarcraft.blizzard.com/en-us/forever */
 :root {
-  --bg: #1d1d1d;
-  --bg-deep: #141414;
-  --panel: #2c2c2c;
+  --bg: #011c2b;
+  --bg-deep: #170e09;
+  --panel: #07324a;
   --line: #ebdec2;
-  --gold: #ffd100;
-  --parchment: #ebdec2;
-  --green: #1eff00;
-  --muted: #9d9d9d;
-  --locked: #787878;
+  --gold: #ffd254;
+  --gold-bright: #fff7c6;
+  --parchment: #f3eee2;
+  --parchment-deep: #e2c2ab;
+  --heading-gradient: linear-gradient(180deg, #f3eee2 0%, #e2c2ab 100%);
+  --accent: #0f6064;
+  --accent-hover: #116569;
+  --primary: #114f72;
+  --teal: #0093b2;
+  --green: #00ff00;
+  --muted: #ffffffb3;
+  --locked: #ffffff80;
 }
 
 html,
@@ -21,9 +29,10 @@ body {
   margin: 0;
   color: #fff;
   background:
-    radial-gradient(1200px 600px at 50% -10%, #3a2a12 0%, transparent 55%),
-    linear-gradient(180deg, var(--bg-deep) 0%, var(--bg) 40%, #111 100%);
-  font-family: var(--font-sans), "Segoe UI", sans-serif;
+    radial-gradient(900px 520px at 72% -8%, #114f72 0%, transparent 58%),
+    radial-gradient(720px 420px at 18% 0%, #0f6064 0%, transparent 52%),
+    linear-gradient(180deg, #011c2b 0%, #170e09 58%, #040f1a 100%);
+  font-family: var(--font-sans), "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .calculator {
@@ -34,33 +43,121 @@ body {
 }
 
 .masthead {
-  text-align: center;
-  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  width: min(760px, 100%);
 }
 
-.brand {
-  margin: 0;
-  color: var(--gold);
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-  font-size: 0.72rem;
+.brand-logo {
+  flex-shrink: 0;
+  display: block;
+}
+
+.brand-logo img {
+  display: block;
+  width: 88px;
+  height: auto;
+  filter: drop-shadow(0 6px 14px #00000099);
+}
+
+.masthead-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.55rem;
+  min-width: 0;
 }
 
 .masthead h1 {
-  margin: 0.35rem 0 0;
+  margin: 0;
   font-family: var(--font-display), serif;
-  font-size: 1.7rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: var(--line);
+  font-size: 1.55rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: var(--parchment);
+  background: var(--heading-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .class-select {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 4px;
-  margin-bottom: 1.25rem;
+  margin: 0;
+}
+
+@media (max-width: 520px) {
+  .masthead {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .masthead-copy {
+    align-items: center;
+  }
+
+  .class-select {
+    justify-content: center;
+  }
+
+  .brand-logo img {
+    width: 72px;
+  }
+}
+
+.review-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.85rem 1.15rem;
+  margin: 0 0 1.15rem;
+  padding: 0;
+  list-style: none;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.review-legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.review-dot,
+.talent-review {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 1px solid #111;
+  box-shadow: 0 0 0 1px #000;
+  flex-shrink: 0;
+}
+
+.review-dot.is-new,
+.talent-review.is-new {
+  background: #e31c3d;
+}
+
+.review-dot.is-updated,
+.talent-review.is-updated {
+  background: #ff7a00;
+}
+
+.review-dot.is-unchanged,
+.talent-review.is-unchanged {
+  background: #1eff00;
+}
+
+.review-dot.is-classic,
+.talent-review.is-classic {
+  background: #8a8a8a;
 }
 
 .class-icon {
@@ -69,8 +166,9 @@ body {
   height: 44px;
   align-items: center;
   justify-content: center;
-  border: 1px solid #444;
+  border: 1px solid #ffffff26;
   border-radius: 5px;
+  background: #ffffff0d;
   opacity: 0.55;
   transition: opacity 120ms ease, border-color 120ms ease, transform 120ms ease;
 }
@@ -97,8 +195,8 @@ body {
 
 .tree-card {
   width: 240px;
-  background: #444;
-  border: 2px solid #444;
+  background: var(--panel);
+  border: 2px solid var(--primary);
   border-radius: 6px;
 }
 
@@ -109,7 +207,10 @@ body {
   position: relative;
   min-height: 38px;
   padding: 6px 22px;
+  font-family: var(--font-display), serif;
   font-size: 15px;
+  letter-spacing: 0.5px;
+  color: var(--parchment);
 }
 
 .tree-spec {
@@ -193,6 +294,14 @@ body {
 
 .talent-node.is-maxed img {
   box-shadow: 0 0 0 2px var(--green);
+}
+
+.talent-review {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  z-index: 3;
+  pointer-events: none;
 }
 
 .talent-rank {
@@ -307,17 +416,21 @@ body {
 
 .calc-footer p {
   margin: 0.2rem 0;
-  color: #fff;
+  color: var(--parchment);
 }
 
 .share {
   margin-left: 0.5rem;
   border: 0;
   background: transparent;
-  color: var(--gold);
+  color: var(--gold-bright);
   cursor: pointer;
   text-decoration: underline;
   font: inherit;
+}
+
+.share:hover {
+  color: var(--parchment);
 }
 
 @media (max-width: 500px) {

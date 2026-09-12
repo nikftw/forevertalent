@@ -1,3 +1,5 @@
+export type TalentReview = "classic" | "unchanged" | "updated" | "new";
+
 export type RankTooltip = {
   spellId: number;
   name: string;
@@ -18,6 +20,7 @@ export type Talent = {
   requires: TalentRequirement[];
   name: string;
   ranks: RankTooltip[];
+  review?: TalentReview;
 };
 
 export type TalentTree = {

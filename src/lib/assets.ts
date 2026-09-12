@@ -14,3 +14,7 @@ export function treeBackgroundUrl(classSlug: string, treeName: string): string {
 export function classIconUrl(icon: string): string {
   return iconUrl(icon, "medium");
 }
+
+export function foreverLogoUrl(): string {
+  return withBasePath("/brand/forever-logo.png");
+}
