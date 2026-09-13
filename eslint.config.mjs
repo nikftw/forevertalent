@@ -12,6 +12,11 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Local scratch / one-off Node helpers (not app code)
+    ".tmp/**",
+    "tmp/**",
+    "scripts/**",
+    "src/data/scrapes/**",
   ]),
   {
     rules: {

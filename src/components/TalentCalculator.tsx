@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { startTransition, useEffect, useState } from "react";
 import { BuildBar } from "@/components/BuildBar";
 import { ClassSelect } from "@/components/ClassSelect";
 import { ExtrasControls, ExtrasPanels } from "@/components/ExtrasSelect";
@@ -47,18 +47,21 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
   const build = encodeBuild(cls, ranks);
   const extrasQuery = serializeExtras(extras);
 
+  // Hydrate race/prof extras from the query string after mount (SSR-safe).
   useEffect(() => {
-    setExtras(parseExtrasForClass(window.location.search, cls.slug));
-    setUrlReady(true);
-  }, [cls.slug]);
+    const nextExtras = parseExtrasForClass(window.location.search, cls.slug);
+    const hash = window.location.hash.replace(/^#/, "");
+    startTransition(() => {
+      setExtras(nextExtras);
+      if (hash && !initialBuild) {
+        setRanks(decodeBuild(cls, hash));
+      }
+      setUrlReady(true);
+    });
+  }, [cls, cls.slug, initialBuild]);
 
   useEffect(() => {
     if (!urlReady) return;
-    const hash = window.location.hash.replace(/^#/, "");
-    if (hash && !build) {
-      setRanks(decodeBuild(cls, hash));
-      return;
-    }
     const nextPath = build
       ? withBasePath(`/${cls.slug}/${build}`)
       : withBasePath(`/${cls.slug}/`);
@@ -67,7 +70,7 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
     if (current !== nextUrl) {
       window.history.replaceState(null, "", nextUrl);
     }
-  }, [build, cls, extrasQuery, urlReady]);
+  }, [build, cls.slug, extrasQuery, urlReady]);
 
   function update(next: RankState) {
     setRanks(next);

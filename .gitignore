@@ -46,3 +46,30 @@ next-env.d.ts
 /public/globe.svg
 /public/file.svg
 /public/window.svg
+
+# local scratch / OCR / agent work products (not reference screenshots)
+.tmp/
+tmp/
+.tmp_*
+/Claude outputs/
+
+# one-off public dumps (keep class*new/ reference folders tracked)
+/public/image.png
+/public/classrace.png
+/public/new-racial-talents-*.png
+
+# unmapped historical crops still sitting in class folders
+/public/*/brave_*.png
+/public/*/overview part.png
+/public/*/overviewpart*.png
+/public/*/overview-clean.png
+/public/*/overview-rend.png
+/public/*/overview-focus.png
+/public/*/fix*.png
+/public/*/O2NJQmcycc.jpg
+
+# scrape helpers and generated slot crops
+/src/data/scrapes/_*/
+/src/data/scrapes/_*.py
+/src/data/scrapes/_*.txt
+/src/data/scrapes/_*.png
