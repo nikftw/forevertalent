@@ -97,7 +97,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 6px;
+  gap: 4px;
   margin: 0;
   width: auto;
 }
@@ -220,21 +220,21 @@ body {
 
 .class-icon {
   display: flex;
-  width: 44px;
-  height: 44px;
+  width: 36px;
+  height: 36px;
   align-items: center;
   justify-content: center;
   border: 1px solid #ffffff26;
-  border-radius: 5px;
+  border-radius: 4px;
   background: #ffffff0d;
   opacity: 0.55;
   transition: opacity 120ms ease, border-color 120ms ease, transform 120ms ease;
 }
 
 .class-icon img {
-  width: 36px;
-  height: 36px;
-  border-radius: 3px;
+  width: 28px;
+  height: 28px;
+  border-radius: 2px;
 }
 
 .class-icon:hover {
@@ -701,18 +701,18 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
   justify-self: start;
-  gap: 4px;
+  gap: 3px;
 }
 
 .extra-icon {
   display: flex;
-  width: 40px;
-  height: 40px;
+  width: 34px;
+  height: 34px;
   align-items: center;
   justify-content: center;
   padding: 0;
   border: 1px solid #ffffff26;
-  border-radius: 5px;
+  border-radius: 4px;
   background: #ffffff0d;
   opacity: 0.55;
   cursor: pointer;
@@ -720,9 +720,9 @@ body {
 }
 
 .extra-icon img {
-  width: 32px;
-  height: 32px;
-  border-radius: 3px;
+  width: 26px;
+  height: 26px;
+  border-radius: 2px;
 }
 
 .extra-icon:hover,
@@ -854,17 +854,27 @@ body {
   }
 
   .class-select {
-    gap: 4px;
+    gap: 3px;
   }
 
   .class-icon {
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
   }
 
   .class-icon img {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .extra-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .extra-icon img {
+    width: 22px;
+    height: 22px;
   }
 }
 
