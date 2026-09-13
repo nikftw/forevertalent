@@ -31,3 +31,16 @@ export function getClass(slug: string): PlayerClass | undefined {
 export function isClassSlug(slug: string): boolean {
   return CLASSES.some((cls) => cls.slug === slug);
 }
+
+/** Per-class point cap (Legacy Points, etc.), falling back to the dataset default. */
+export function maxPointsFor(cls: PlayerClass): number {
+  return cls.maxPoints ?? MAX_POINTS;
+}
+
+export function pointsPerTierFor(cls: PlayerClass): number {
+  return cls.pointsPerTier ?? 5;
+}
+
+export function pointsLabelFor(cls: PlayerClass): string {
+  return cls.pointsLabel ?? "Points left";
+}

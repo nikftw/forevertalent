@@ -5,7 +5,7 @@ import type {
   TalentAction,
   TalentTree,
 } from "@/data/types";
-import { MAX_POINTS } from "@/lib/classes";
+import { maxPointsFor, pointsPerTierFor } from "@/lib/classes";
 
 export function orderedTalents(tree: TalentTree): Talent[] {
   return [...tree.talents].sort((a, b) => a.row - b.row || a.col - b.col);
@@ -53,24 +53,27 @@ export function requirementsMet(
 }
 
 export function isTalentUnlocked(
+  cls: PlayerClass,
   tree: TalentTree,
   talent: Talent,
   ranks: RankState,
 ): boolean {
-  return (
-    pointsInLowerTiers(tree, ranks, talent.row) >= talent.row * 5 &&
-    requirementsMet(talent, ranks)
-  );
+  const perTier = pointsPerTierFor(cls);
+  const tierGate =
+    perTier <= 0
+      ? true
+      : pointsInLowerTiers(tree, ranks, talent.row) >= talent.row * perTier;
+  return tierGate && requirementsMet(talent, ranks);
 }
 
 export function isStateLegal(cls: PlayerClass, ranks: RankState): boolean {
-  if (classPoints(cls, ranks) > MAX_POINTS) return false;
+  if (classPoints(cls, ranks) > maxPointsFor(cls)) return false;
   for (const tree of cls.trees) {
     for (const talent of tree.talents) {
       const current = rankOf(ranks, talent.id);
       if (current === 0) continue;
       if (current > talent.maxRank) return false;
-      if (!isTalentUnlocked(tree, talent, ranks)) return false;
+      if (!isTalentUnlocked(cls, tree, talent, ranks)) return false;
     }
   }
   return true;
@@ -84,9 +87,9 @@ export function canLearn(
   const found = findTalent(cls, talentId);
   if (!found) return false;
   const { tree, talent } = found;
-  if (classPoints(cls, ranks) >= MAX_POINTS) return false;
+  if (classPoints(cls, ranks) >= maxPointsFor(cls)) return false;
   if (rankOf(ranks, talent.id) >= talent.maxRank) return false;
-  return isTalentUnlocked(tree, talent, ranks);
+  return isTalentUnlocked(cls, tree, talent, ranks);
 }
 
 export function canUnlearn(
@@ -189,7 +192,7 @@ export function sanitizeRanks(cls: PlayerClass, ranks: RankState): RankState {
     changed = false;
     for (const tree of cls.trees) {
       for (const talent of [...tree.talents].sort((a, b) => b.row - a.row)) {
-        while (rankOf(next, talent.id) > 0 && !isTalentUnlocked(tree, talent, next)) {
+        while (rankOf(next, talent.id) > 0 && !isTalentUnlocked(cls, tree, talent, next)) {
           const remaining = rankOf(next, talent.id) - 1;
           if (remaining <= 0) delete next[talent.id];
           else next[talent.id] = remaining;
@@ -197,7 +200,7 @@ export function sanitizeRanks(cls: PlayerClass, ranks: RankState): RankState {
         }
       }
     }
-    while (classPoints(cls, next) > MAX_POINTS) {
+    while (classPoints(cls, next) > maxPointsFor(cls)) {
       const spent = Object.entries(next).find(([, value]) => value > 0);
       if (!spent) break;
       const talentId = Number(spent[0]);
@@ -235,7 +238,10 @@ export function talentAvailability(
   if (current > 0) return "active";
   const found = findTalent(cls, talent.id);
   if (!found) return "locked";
-  if (isTalentUnlocked(found.tree, talent, ranks) && classPoints(cls, ranks) < MAX_POINTS) {
+  if (
+    isTalentUnlocked(cls, found.tree, talent, ranks) &&
+    classPoints(cls, ranks) < maxPointsFor(cls)
+  ) {
     return "available";
   }
   return "locked";

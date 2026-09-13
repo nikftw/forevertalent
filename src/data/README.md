@@ -26,3 +26,8 @@ rank-1 tooltips from the classic foundation:
 - `unchanged` (green) — unused; kept for type compatibility only
 
 Drop in-game screenshots in `public/{class}/`: one overview of the three trees, then separate icon and tooltip shots. Do not invent row/col for new talents until the overview shows the slot.
+
+## Legacy class
+
+`legacy` is a separate class entry for the Forever Legacy Point trees (Adventure, Resourcefulness, Professions). Talent names/tooltips follow the in-game tree screenshot; icons are taken from [wowforevertalents.com/legacy](https://wowforevertalents.com/legacy/). It uses `maxPoints`, `pointsPerTier: 0` (arrow gates only), and `pointsLabel: "LP left"`.
+

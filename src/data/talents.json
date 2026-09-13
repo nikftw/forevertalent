@@ -12488,6 +12488,699 @@
         }
       ],
       "color": "#FF7D0A"
+    },
+    {
+      "id": 12,
+      "name": "Legacy",
+      "slug": "legacy",
+      "color": "#c2a265",
+      "icon": "inv_misc_book_11",
+      "maxPoints": 67,
+      "pointsPerTier": 0,
+      "pointsLabel": "LP left",
+      "trees": [
+        {
+          "id": 1201,
+          "name": "Adventure",
+          "icon": "inv_misc_map02",
+          "talents": [
+            {
+              "id": 92001,
+              "row": 0,
+              "col": 1,
+              "icon": "ability_townwatch",
+              "maxRank": 2,
+              "requires": [],
+              "name": "High Alert",
+              "ranks": [
+                {
+                  "spellId": 992001,
+                  "name": "High Alert",
+                  "description": "Increases your ability to detect nearby targets with Stealth as if your level were increased by 1. Ineffective in Battlegrounds."
+                },
+                {
+                  "spellId": 992002,
+                  "name": "High Alert",
+                  "description": "Increases your ability to detect nearby targets with Stealth as if your level were increased by 2. Ineffective in Battlegrounds."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92002,
+              "row": 1,
+              "col": 0,
+              "icon": "spell_nature_sleep",
+              "maxRank": 5,
+              "requires": [
+                {
+                  "id": 92003,
+                  "qty": 1
+                }
+              ],
+              "name": "Well Rested",
+              "ranks": [
+                {
+                  "spellId": 992002,
+                  "name": "Well Rested",
+                  "description": "Your rested experience accumulates 4% faster and your rested experience cap is increased by 4%."
+                },
+                {
+                  "spellId": 992003,
+                  "name": "Well Rested",
+                  "description": "Your rested experience accumulates 8% faster and your rested experience cap is increased by 8%."
+                },
+                {
+                  "spellId": 992004,
+                  "name": "Well Rested",
+                  "description": "Your rested experience accumulates 12% faster and your rested experience cap is increased by 12%."
+                },
+                {
+                  "spellId": 992005,
+                  "name": "Well Rested",
+                  "description": "Your rested experience accumulates 16% faster and your rested experience cap is increased by 16%."
+                },
+                {
+                  "spellId": 992006,
+                  "name": "Well Rested",
+                  "description": "Your rested experience accumulates 20% faster and your rested experience cap is increased by 20%."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92003,
+              "row": 1,
+              "col": 1,
+              "icon": "inv_misc_book_11",
+              "maxRank": 5,
+              "requires": [
+                {
+                  "id": 92001,
+                  "qty": 1
+                }
+              ],
+              "name": "Talented",
+              "ranks": [
+                {
+                  "spellId": 992003,
+                  "name": "Talented",
+                  "description": "You gain talent points every level starting at level 9 instead of starting at level 10, but you still may not have more than 51 total talent points."
+                },
+                {
+                  "spellId": 992004,
+                  "name": "Talented",
+                  "description": "You gain talent points every level starting at level 8 instead of starting at level 10, but you still may not have more than 51 total talent points."
+                },
+                {
+                  "spellId": 992005,
+                  "name": "Talented",
+                  "description": "You gain talent points every level starting at level 7 instead of starting at level 10, but you still may not have more than 51 total talent points."
+                },
+                {
+                  "spellId": 992006,
+                  "name": "Talented",
+                  "description": "You gain talent points every level starting at level 6 instead of starting at level 10, but you still may not have more than 51 total talent points."
+                },
+                {
+                  "spellId": 992007,
+                  "name": "Talented",
+                  "description": "You gain talent points every level starting at level 5 instead of starting at level 10, but you still may not have more than 51 total talent points."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92004,
+              "row": 2,
+              "col": 0,
+              "icon": "spell_holy_layonhands",
+              "maxRank": 5,
+              "requires": [
+                {
+                  "id": 92002,
+                  "qty": 1
+                }
+              ],
+              "name": "Thrill of Adventure",
+              "ranks": [
+                {
+                  "spellId": 992004,
+                  "name": "Thrill of Adventure",
+                  "description": "You gain 1% of your maximum Health and Mana over 10 sec each time you deliver the killing blow to a non-trivial enemy. Ineffective in dungeons, raids, and battlegrounds."
+                },
+                {
+                  "spellId": 992005,
+                  "name": "Thrill of Adventure",
+                  "description": "You gain 2% of your maximum Health and Mana over 10 sec each time you deliver the killing blow to a non-trivial enemy. Ineffective in dungeons, raids, and battlegrounds."
+                },
+                {
+                  "spellId": 992006,
+                  "name": "Thrill of Adventure",
+                  "description": "You gain 3% of your maximum Health and Mana over 10 sec each time you deliver the killing blow to a non-trivial enemy. Ineffective in dungeons, raids, and battlegrounds."
+                },
+                {
+                  "spellId": 992007,
+                  "name": "Thrill of Adventure",
+                  "description": "You gain 4% of your maximum Health and Mana over 10 sec each time you deliver the killing blow to a non-trivial enemy. Ineffective in dungeons, raids, and battlegrounds."
+                },
+                {
+                  "spellId": 992008,
+                  "name": "Thrill of Adventure",
+                  "description": "You gain 5% of your maximum Health and Mana over 10 sec each time you deliver the killing blow to a non-trivial enemy. Ineffective in dungeons, raids, and battlegrounds."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92005,
+              "row": 2,
+              "col": 1,
+              "icon": "inv_misc_map02",
+              "maxRank": 3,
+              "requires": [
+                {
+                  "id": 92003,
+                  "qty": 1
+                }
+              ],
+              "name": "Field Guide",
+              "ranks": [
+                {
+                  "spellId": 992005,
+                  "name": "Field Guide",
+                  "description": "Reduces your cooldown on adding Camp features by 8%."
+                },
+                {
+                  "spellId": 992006,
+                  "name": "Field Guide",
+                  "description": "Reduces your cooldown on adding Camp features by 16%."
+                },
+                {
+                  "spellId": 992007,
+                  "name": "Field Guide",
+                  "description": "Reduces your cooldown on adding Camp features by 24%."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92006,
+              "row": 2,
+              "col": 2,
+              "icon": "ability_mount_gryphon_01",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 92005,
+                  "qty": 1
+                }
+              ],
+              "name": "Frequent Flier",
+              "ranks": [
+                {
+                  "spellId": 992006,
+                  "name": "Frequent Flier",
+                  "description": "You receive a 50% discount on all flight paths, and your flight path mount flies 20% faster."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92007,
+              "row": 3,
+              "col": 1,
+              "icon": "inv_misc_bandage_12",
+              "maxRank": 2,
+              "requires": [
+                {
+                  "id": 92005,
+                  "qty": 1
+                }
+              ],
+              "name": "Field Medicine",
+              "ranks": [
+                {
+                  "spellId": 992007,
+                  "name": "Field Medicine",
+                  "description": "Reduces the duration of the Recently Bandaged effect by 5 sec when you use a Bandage. Ineffective in dungeons, raids, and battlegrounds."
+                },
+                {
+                  "spellId": 992008,
+                  "name": "Field Medicine",
+                  "description": "Reduces the duration of the Recently Bandaged effect by 10 sec when you use a Bandage. Ineffective in dungeons, raids, and battlegrounds."
+                }
+              ],
+              "review": "new"
+            }
+          ]
+        },
+        {
+          "id": 1202,
+          "name": "Resourcefulness",
+          "icon": "inv_misc_bag_08",
+          "talents": [
+            {
+              "id": 92011,
+              "row": 0,
+              "col": 1,
+              "icon": "inv_misc_tournaments_banner_orc",
+              "maxRank": 5,
+              "requires": [],
+              "name": "For Great Honor",
+              "ranks": [
+                {
+                  "spellId": 992011,
+                  "name": "For Great Honor",
+                  "description": "Increases Honor Points gained by 2%."
+                },
+                {
+                  "spellId": 992012,
+                  "name": "For Great Honor",
+                  "description": "Increases Honor Points gained by 4%."
+                },
+                {
+                  "spellId": 992013,
+                  "name": "For Great Honor",
+                  "description": "Increases Honor Points gained by 6%."
+                },
+                {
+                  "spellId": 992014,
+                  "name": "For Great Honor",
+                  "description": "Increases Honor Points gained by 8%."
+                },
+                {
+                  "spellId": 992015,
+                  "name": "For Great Honor",
+                  "description": "Increases Honor Points gained by 10%."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92012,
+              "row": 1,
+              "col": 0,
+              "icon": "inv_misc_food_64",
+              "maxRank": 3,
+              "requires": [
+                {
+                  "id": 92013,
+                  "qty": 1
+                }
+              ],
+              "name": "Gourmand",
+              "ranks": [
+                {
+                  "spellId": 992012,
+                  "name": "Gourmand",
+                  "description": "Increases the duration of beneficial effects from eating food by 33%."
+                },
+                {
+                  "spellId": 992013,
+                  "name": "Gourmand",
+                  "description": "Increases the duration of beneficial effects from eating food by 66%."
+                },
+                {
+                  "spellId": 992014,
+                  "name": "Gourmand",
+                  "description": "Increases the duration of beneficial effects from eating food by 99%."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92013,
+              "row": 1,
+              "col": 1,
+              "icon": "spell_holy_greaterblessingofkings",
+              "maxRank": 2,
+              "requires": [
+                {
+                  "id": 92011,
+                  "qty": 1
+                }
+              ],
+              "name": "Permanence",
+              "ranks": [
+                {
+                  "spellId": 992013,
+                  "name": "Permanence",
+                  "description": "Your class abilities which grant long-duration stat or attribute benefits to all party or raid members last 50% longer, and the benefits you gain from resting at a camp last 50% longer."
+                },
+                {
+                  "spellId": 992014,
+                  "name": "Permanence",
+                  "description": "Your class abilities which grant long-duration stat or attribute benefits to all party or raid members last 100% longer, and the benefits you gain from resting at a camp last 100% longer."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92014,
+              "row": 2,
+              "col": 0,
+              "icon": "spell_shadow_twilight",
+              "maxRank": 2,
+              "requires": [
+                {
+                  "id": 92012,
+                  "qty": 1
+                }
+              ],
+              "name": "The Quick and the Dead",
+              "ranks": [
+                {
+                  "spellId": 992014,
+                  "name": "The Quick and the Dead",
+                  "description": "Increases movement speed while dead by 5% and your helpful spells and abilities cost no resources for 1 min after being resurrected or until you enter combat."
+                },
+                {
+                  "spellId": 992015,
+                  "name": "The Quick and the Dead",
+                  "description": "Increases movement speed while dead by 10% and your helpful spells and abilities cost no resources for 2 min after being resurrected or until you enter combat."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92015,
+              "row": 2,
+              "col": 2,
+              "icon": "inv_misc_dust_02",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 92014,
+                  "qty": 1
+                }
+              ],
+              "name": "Reagent Economy",
+              "ranks": [
+                {
+                  "spellId": 992015,
+                  "name": "Reagent Economy",
+                  "description": "Your class abilities no longer require reagents purchasable from vendors, and your Tier 1 camping features cost no reagents to craft."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92016,
+              "row": 3,
+              "col": 0,
+              "icon": "inv_misc_armorkit_17",
+              "maxRank": 5,
+              "requires": [
+                {
+                  "id": 92014,
+                  "qty": 1
+                }
+              ],
+              "name": "Reinforce",
+              "ranks": [
+                {
+                  "spellId": 992016,
+                  "name": "Reinforce",
+                  "description": "You take 8% less durability loss when you die."
+                },
+                {
+                  "spellId": 992017,
+                  "name": "Reinforce",
+                  "description": "You take 16% less durability loss when you die."
+                },
+                {
+                  "spellId": 992018,
+                  "name": "Reinforce",
+                  "description": "You take 24% less durability loss when you die."
+                },
+                {
+                  "spellId": 992019,
+                  "name": "Reinforce",
+                  "description": "You take 32% less durability loss when you die."
+                },
+                {
+                  "spellId": 992020,
+                  "name": "Reinforce",
+                  "description": "You take 40% less durability loss when you die."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92017,
+              "row": 3,
+              "col": 1,
+              "icon": "inv_misc_note_02",
+              "maxRank": 5,
+              "requires": [
+                {
+                  "id": 92013,
+                  "qty": 1
+                }
+              ],
+              "name": "Diplomat",
+              "ranks": [
+                {
+                  "spellId": 992017,
+                  "name": "Diplomat",
+                  "description": "Increases your reputation gains by 2%."
+                },
+                {
+                  "spellId": 992018,
+                  "name": "Diplomat",
+                  "description": "Increases your reputation gains by 4%."
+                },
+                {
+                  "spellId": 992019,
+                  "name": "Diplomat",
+                  "description": "Increases your reputation gains by 6%."
+                },
+                {
+                  "spellId": 992020,
+                  "name": "Diplomat",
+                  "description": "Increases your reputation gains by 8%."
+                },
+                {
+                  "spellId": 992021,
+                  "name": "Diplomat",
+                  "description": "Increases your reputation gains by 10%."
+                }
+              ],
+              "review": "new"
+            }
+          ]
+        },
+        {
+          "id": 1203,
+          "name": "Professions",
+          "icon": "inv_misc_gear_02",
+          "talents": [
+            {
+              "id": 92021,
+              "row": 0,
+              "col": 1,
+              "icon": "inv_misc_gear_02",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Working Overtime",
+              "ranks": [
+                {
+                  "spellId": 992021,
+                  "name": "Working Overtime",
+                  "description": "Increases your chance to gain a skill increase from using any primary, secondary, or class-based tradeskill by 4%."
+                },
+                {
+                  "spellId": 992022,
+                  "name": "Working Overtime",
+                  "description": "Increases your chance to gain a skill increase from using any primary, secondary, or class-based tradeskill by 8%."
+                },
+                {
+                  "spellId": 992023,
+                  "name": "Working Overtime",
+                  "description": "Increases your chance to gain a skill increase from using any primary, secondary, or class-based tradeskill by 12%."
+                },
+                {
+                  "spellId": 992024,
+                  "name": "Working Overtime",
+                  "description": "Increases your chance to gain a skill increase from using any primary, secondary, or class-based tradeskill by 16%."
+                },
+                {
+                  "spellId": 992025,
+                  "name": "Working Overtime",
+                  "description": "Increases your chance to gain a skill increase from using any primary, secondary, or class-based tradeskill by 20%."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92022,
+              "row": 1,
+              "col": 0,
+              "icon": "inv_misc_herb_08",
+              "maxRank": 5,
+              "requires": [
+                {
+                  "id": 92021,
+                  "qty": 1
+                }
+              ],
+              "name": "Bountiful Harvest",
+              "ranks": [
+                {
+                  "spellId": 992022,
+                  "name": "Bountiful Harvest",
+                  "description": "You discover 20% more Scarce materials from Mining, Herbalism, and Skinning."
+                },
+                {
+                  "spellId": 992023,
+                  "name": "Bountiful Harvest",
+                  "description": "You discover 40% more Scarce materials from Mining, Herbalism, and Skinning."
+                },
+                {
+                  "spellId": 992024,
+                  "name": "Bountiful Harvest",
+                  "description": "You discover 60% more Scarce materials from Mining, Herbalism, and Skinning."
+                },
+                {
+                  "spellId": 992025,
+                  "name": "Bountiful Harvest",
+                  "description": "You discover 80% more Scarce materials from Mining, Herbalism, and Skinning."
+                },
+                {
+                  "spellId": 992026,
+                  "name": "Bountiful Harvest",
+                  "description": "You discover 100% more Scarce materials from Mining, Herbalism, and Skinning."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92023,
+              "row": 1,
+              "col": 1,
+              "icon": "inv_misc_food_15",
+              "maxRank": 5,
+              "requires": [
+                {
+                  "id": 92021,
+                  "qty": 1
+                }
+              ],
+              "name": "Master Chef",
+              "ranks": [
+                {
+                  "spellId": 992023,
+                  "name": "Master Chef",
+                  "description": "Your cooking recipes have a 10% chance to create an extra result."
+                },
+                {
+                  "spellId": 992024,
+                  "name": "Master Chef",
+                  "description": "Your cooking recipes have a 20% chance to create an extra result."
+                },
+                {
+                  "spellId": 992025,
+                  "name": "Master Chef",
+                  "description": "Your cooking recipes have a 30% chance to create an extra result."
+                },
+                {
+                  "spellId": 992026,
+                  "name": "Master Chef",
+                  "description": "Your cooking recipes have a 40% chance to create an extra result."
+                },
+                {
+                  "spellId": 992027,
+                  "name": "Master Chef",
+                  "description": "Your cooking recipes have a 50% chance to create an extra result."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92024,
+              "row": 1,
+              "col": 2,
+              "icon": "inv_misc_coin_02",
+              "maxRank": 3,
+              "requires": [
+                {
+                  "id": 92021,
+                  "qty": 1
+                }
+              ],
+              "name": "Performance Bonus",
+              "ranks": [
+                {
+                  "spellId": 992024,
+                  "name": "Performance Bonus",
+                  "description": "You have a 5% chance to receive 100% increased Merchant's Favor when you turn in a crate to the Azeroth Commerce Authority or Durotar Supply and Logistics."
+                },
+                {
+                  "spellId": 992025,
+                  "name": "Performance Bonus",
+                  "description": "You have a 10% chance to receive 100% increased Merchant's Favor when you turn in a crate to the Azeroth Commerce Authority or Durotar Supply and Logistics."
+                },
+                {
+                  "spellId": 992026,
+                  "name": "Performance Bonus",
+                  "description": "You have a 15% chance to receive 100% increased Merchant's Favor when you turn in a crate to the Azeroth Commerce Authority or Durotar Supply and Logistics."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92025,
+              "row": 2,
+              "col": 1,
+              "icon": "trade_fishing",
+              "maxRank": 2,
+              "requires": [
+                {
+                  "id": 92023,
+                  "qty": 1
+                }
+              ],
+              "name": "Luremaster",
+              "ranks": [
+                {
+                  "spellId": 992025,
+                  "name": "Luremaster",
+                  "description": "While fishing with a Lure active, you have a 25% chance to catch an extra fish."
+                },
+                {
+                  "spellId": 992026,
+                  "name": "Luremaster",
+                  "description": "While fishing with a Lure active, you have a 50% chance to catch an extra fish."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 92026,
+              "row": 3,
+              "col": 1,
+              "icon": "inv_misc_book_09",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 92025,
+                  "qty": 1
+                }
+              ],
+              "name": "Dedicated Study",
+              "ranks": [
+                {
+                  "spellId": 992026,
+                  "name": "Dedicated Study",
+                  "description": "Increases your skill by 1 in your lowest tradeskill among your Primary and Secondary tradeskills. If you have already reached 300 skill in your two current Primary Tradeskills and all three Secondary Tradeskills, you will gain 2 to 4 of a random Elemental Essence."
+                }
+              ],
+              "review": "new"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

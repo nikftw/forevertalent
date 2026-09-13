@@ -1,5 +1,6 @@
 "use client";
 
+import { pointsLabelFor } from "@/lib/classes";
 import type { PlayerClass } from "@/data/types";
 
 type BuildBarProps = {
@@ -42,7 +43,7 @@ export function BuildBar({
       </span>
 
       <span className={remaining === 0 ? "build-points is-done" : "build-points"}>
-        <span className="build-points-label">Points left</span>
+        <span className="build-points-label">{pointsLabelFor(cls)}</span>
         <span className="build-points-value">{remaining}</span>
       </span>
 

@@ -37,6 +37,15 @@ export type PlayerClass = {
   color: string;
   icon: string;
   trees: TalentTree[];
+  /** Overrides dataset maxPoints when set (e.g. Legacy Points). */
+  maxPoints?: number;
+  /**
+   * Points needed per prior row to unlock a tier. Classic trees use 5.
+   * Legacy uses 0 — only `requires` arrows gate nodes.
+   */
+  pointsPerTier?: number;
+  /** Build-bar label for remaining points. Defaults to "Points left". */
+  pointsLabel?: string;
 };
 
 export type TalentDataset = {

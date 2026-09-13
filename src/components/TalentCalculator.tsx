@@ -8,7 +8,7 @@ import { ReviewLegend } from "@/components/ReviewLegend";
 import { SiteFooter } from "@/components/SiteFooter";
 import { TalentTreeCard } from "@/components/TalentTree";
 import { withBasePath } from "@/lib/basePath";
-import { CLASSES, MAX_POINTS } from "@/lib/classes";
+import { CLASSES, maxPointsFor } from "@/lib/classes";
 import {
   parseExtrasForClass,
   sanitizeExtrasForClass,
@@ -42,7 +42,7 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
   const [urlReady, setUrlReady] = useState(false);
   const [copied, setCopied] = useState(false);
   const spent = classPoints(cls, ranks);
-  const remaining = MAX_POINTS - spent;
+  const remaining = maxPointsFor(cls) - spent;
   const split = cls.trees.map((tree) => treePoints(tree, ranks));
   const build = encodeBuild(cls, ranks);
   const extrasQuery = serializeExtras(extras);
