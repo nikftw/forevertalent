@@ -30,7 +30,7 @@
           "guessName": "Improved Rend",
           "iconHint": "single curved white slash",
           "rankBadge": "0/3",
-          "notes": "Arrow down to Impale; warrior/3.png"
+          "notes": "Arrow down to Deep Wounds (not Impale); warrior/3.png"
         },
         {
           "row": 0,
@@ -98,11 +98,11 @@
         {
           "row": 2,
           "col": 2,
-          "occupied": false,
-          "guessName": null,
-          "iconHint": null,
-          "rankBadge": null,
-          "notes": "Former Impale / Deep Wounds slot vacated; Impale moved to r3c2"
+          "occupied": true,
+          "guessName": "Deep Wounds",
+          "iconHint": "ability_backstab / bleed backstab",
+          "rankBadge": "0/3",
+          "notes": "Browser correction: restored Classic Deep Wounds right of Anger Management; requires Improved Rend; Impale requires this"
         },
         {
           "row": 2,
@@ -138,7 +138,7 @@
           "guessName": "Impale",
           "iconHint": "strike / pierce silhouette",
           "rankBadge": "0/2",
-          "notes": "Arrow from Improved Rend; moved from r2c2; warrior/11.png"
+          "notes": "Arrow from Deep Wounds; moved from Classic r2c2; warrior/11.png"
         },
         {
           "row": 3,
@@ -258,7 +258,7 @@
           "notes": ""
         }
       ],
-      "notes": "Layout from overview.png; tooltips warrior/1–18.png (4=6, 5=7 duplicates). Deep Wounds / weapon-spec row absent — Weaponmaster + Bloodthrill + Spearing Strike appear instead. Imp Thunder Clap moved to Protection."
+      "notes": "Layout from overview.png; tooltips warrior/1–18.png (4=6, 5=7 duplicates). Browser correction restored Deep Wounds at r2c2 (requires Improved Rend; Impale requires Deep Wounds). Weapon-spec row still replaced by Weaponmaster + Bloodthrill + Spearing Strike. Imp Thunder Clap moved to Protection."
     },
     {
       "name": "Fury",
@@ -836,7 +836,7 @@
       ],
       "iconHint": "single curved white slash",
       "status": "updated",
-      "diffNotes": "Classic rank 1 was +15% Rend damage; Forever rank 1 is +12%. Arrow now targets Impale (Deep Wounds absent)."
+      "diffNotes": "Classic rank 1 was +15% Rend damage; Forever rank 1 is +12%. Browser correction: arrow targets Deep Wounds again (not Impale)."
     },
     {
       "screenshots": [
@@ -921,6 +921,24 @@
       "diffNotes": "Classic: 1 Rage every 3 sec while in combat only. Forever adds 30% reduced Rage loss out of combat."
     },
     {
+      "screenshots": [],
+      "name": "Deep Wounds",
+      "classicId": 121,
+      "tree": "Arms",
+      "row": 2,
+      "col": 2,
+      "maxRank": 3,
+      "ranks": [
+        {
+          "rank": 1,
+          "description": "Your critical strikes cause the opponent to bleed, dealing 20% of your melee weapon's average damage over 12 sec."
+        }
+      ],
+      "iconHint": "ability_backstab / bleed",
+      "status": "classic",
+      "diffNotes": "Browser correction: restored Classic Deep Wounds at r2c2 (right of Anger Management). Requires Improved Rend; Impale requires this. No Forever tooltip screenshot yet — Classic ranks used."
+    },
+    {
       "screenshots": [
         "warrior/11.png"
       ],
@@ -938,7 +956,7 @@
       ],
       "iconHint": "strike / pierce silhouette",
       "status": "updated",
-      "diffNotes": "Classic required Deep Wounds at r3c2. Browser correction moved Impale to r3c2 (swap with Bloodthrill); still requires Improved Rend (Deep Wounds absent)."
+      "diffNotes": "Browser correction moved Impale to r3c2 (swap with Bloodthrill). Requires Deep Wounds again after Deep Wounds restored at r2c2."
     },
     {
       "screenshots": [
@@ -1849,7 +1867,7 @@
     "overview.png is the 3-tree layout (Arms / Fury / Protection). image.png is Protection-only tooltip collage.",
     "Numbered 1–18 Arms (duplicates: 4=6 Improved Tactical Mastery, 5=7 Improved Charge). 19–36 Fury. 37=overview duplicate.",
     "Rows/cols are 0-indexed on a 4×7 grid per tree.",
-    "Arms occupied: 16. Missing vs Classic Arms: Deep Wounds, Imp Thunder Clap (→Prot), Axe/Mace/Sword/Polearm Specialization. New: Spearing Strike, Bloodthrill (r4c2 right of Sweeping Strikes), Weaponmaster. Moved in: Improved Slam (from Fury). Improved Overpower shifted to r1c3. Impale at r3c2 (requires Improved Rend). Improved Tactical Mastery has no Deflection prerequisite.",
+    "Arms occupied: 17. Missing vs Classic Arms: Imp Thunder Clap (→Prot), Axe/Mace/Sword/Polearm Specialization. Deep Wounds restored at r2c2 (browser correction; requires Improved Rend). New: Spearing Strike, Bloodthrill (r4c2 right of Sweeping Strikes), Weaponmaster. Moved in: Improved Slam (from Fury). Improved Overpower shifted to r1c3. Impale at r3c2 (requires Deep Wounds). Improved Tactical Mastery has no Deflection prerequisite.",
     "Fury occupied: 18. Missing vs Classic Fury: Improved Demoralizing Shout, Improved Battle Shout, Improved Slam (→Arms). New: Boundless Rage, Raging Blows (r3c1), Precision (r4c0, ability_marksmanship). Moved in: Iron Will (from Prot). Death Wish at r4c1 (swapped with Raging Blows); Bloodthirst still requires Raging Blows.",
     "Protection occupied: 19. Missing vs Classic Prot: Iron Will (→Fury), Improved Shield Block, Improved Taunt, One-Handed Weapon Specialization. New: Master of Defense, Vanguard, Vitality, Focused Rage, Bastion. Moved in: Improved Thunder Clap.",
     "Arms/Fury icon→name placements for mid/lower rows use overview occupancy + screenshot neighbor context; a few Forever icons differ from Classic art.",

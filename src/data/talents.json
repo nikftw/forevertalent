@@ -202,17 +202,43 @@
               ]
             },
             {
-              "id": 662,
-              "row": 3,
+              "id": 121,
+              "row": 2,
               "col": 2,
-              "icon": "ability_searingarrow",
-              "maxRank": 2,
+              "icon": "ability_backstab",
+              "maxRank": 3,
               "requires": [
                 {
                   "id": 127,
                   "qty": 3
                 }
               ],
+              "name": "Deep Wounds",
+              "ranks": [
+                {
+                  "spellId": 12834,
+                  "name": "Deep Wounds",
+                  "description": "Your critical strikes cause the opponent to bleed, dealing 20% of your melee weapon's average damage over 12 sec."
+                },
+                {
+                  "spellId": 12849,
+                  "name": "Deep Wounds",
+                  "description": "Your critical strikes cause the opponent to bleed, dealing 40% of your melee weapon's average damage over 12 sec."
+                },
+                {
+                  "spellId": 12867,
+                  "name": "Deep Wounds",
+                  "description": "Your critical strikes cause the opponent to bleed, dealing 60% of your melee weapon's average damage over 12 sec."
+                }
+              ]
+            },
+            {
+              "id": 662,
+              "row": 3,
+              "col": 2,
+              "icon": "ability_searingarrow",
+              "maxRank": 2,
+              "requires": [],
               "name": "Impale",
               "ranks": [
                 {
@@ -231,7 +257,7 @@
               "id": 90011,
               "row": 3,
               "col": 0,
-              "icon": "inv_misc_questionmark",
+              "icon": "inv_spear_01",
               "maxRank": 1,
               "requires": [],
               "name": "Spearing Strike",
@@ -273,7 +299,7 @@
               "id": 90012,
               "row": 4,
               "col": 2,
-              "icon": "inv_misc_questionmark",
+              "icon": "ability_warrior_bloodfrenzy",
               "maxRank": 5,
               "requires": [],
               "name": "Bloodthrill",
@@ -305,7 +331,7 @@
               "id": 90013,
               "row": 4,
               "col": 0,
-              "icon": "inv_misc_questionmark",
+              "icon": "ability_warrior_weaponmastery",
               "maxRank": 5,
               "requires": [],
               "name": "Weaponmaster",
@@ -608,7 +634,7 @@
               "id": 90014,
               "row": 2,
               "col": 3,
-              "icon": "inv_misc_questionmark",
+              "icon": "ability_warrior_intensifyrage",
               "maxRank": 3,
               "requires": [],
               "name": "Boundless Rage",
@@ -626,7 +652,12 @@
               "col": 0,
               "icon": "ability_dualwield",
               "maxRank": 5,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 166,
+                  "qty": 3
+                }
+              ],
               "name": "Dual Wield Specialization",
               "ranks": [
                 {
@@ -733,7 +764,7 @@
               "id": 90015,
               "row": 3,
               "col": 1,
-              "icon": "inv_misc_questionmark",
+              "icon": "ability_whirlwind",
               "maxRank": 1,
               "requires": [],
               "name": "Raging Blows",
@@ -852,7 +883,7 @@
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 90015,
+                  "id": 165,
                   "qty": 1
                 }
               ],
@@ -1052,7 +1083,7 @@
               "id": 90007,
               "row": 2,
               "col": 1,
-              "icon": "inv_misc_questionmark",
+              "icon": "ability_defend",
               "maxRank": 2,
               "requires": [
                 {
@@ -1080,12 +1111,7 @@
               "col": 2,
               "icon": "ability_warrior_revenge",
               "maxRank": 3,
-              "requires": [
-                {
-                  "id": 140,
-                  "qty": 5
-                }
-              ],
+              "requires": [],
               "name": "Improved Revenge",
               "ranks": [
                 {
@@ -1163,7 +1189,12 @@
               "col": 1,
               "icon": "ability_warrior_disarm",
               "maxRank": 3,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 90007,
+                  "qty": 2
+                }
+              ],
               "name": "Improved Disarm",
               "ranks": [
                 {
@@ -1187,7 +1218,7 @@
               "id": 90008,
               "row": 3,
               "col": 2,
-              "icon": "inv_misc_questionmark",
+              "icon": "ability_warrior_victoryrush",
               "maxRank": 1,
               "requires": [],
               "name": "Vanguard",
@@ -1226,7 +1257,12 @@
               "col": 1,
               "icon": "ability_thunderbolt",
               "maxRank": 1,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 151,
+                  "qty": 3
+                }
+              ],
               "name": "Concussion Blow",
               "ranks": [
                 {
@@ -1261,7 +1297,7 @@
               "id": 90005,
               "row": 4,
               "col": 3,
-              "icon": "inv_misc_questionmark",
+              "icon": "inv_helmet_21",
               "maxRank": 5,
               "requires": [],
               "name": "Vitality",
@@ -1277,7 +1313,7 @@
               "id": 90006,
               "row": 5,
               "col": 0,
-              "icon": "inv_misc_questionmark",
+              "icon": "ability_warrior_focusedrage",
               "maxRank": 3,
               "requires": [],
               "name": "Focused Rage",
@@ -1293,7 +1329,7 @@
               "id": 90009,
               "row": 5,
               "col": 2,
-              "icon": "inv_misc_questionmark",
+              "icon": "inv_shield_04",
               "maxRank": 5,
               "requires": [],
               "name": "Bastion",
@@ -1456,9 +1492,72 @@
               ]
             },
             {
-              "id": 1628,
+              "id": 1444,
               "row": 1,
               "col": 0,
+              "icon": "spell_holy_holybolt",
+              "maxRank": 3,
+              "requires": [],
+              "name": "Healing Light",
+              "ranks": [
+                {
+                  "spellId": 20237,
+                  "name": "Healing Light",
+                  "description": "Increases the amount healed by your Holy Light and Flash of Light spells by 4%."
+                },
+                {
+                  "spellId": 20238,
+                  "name": "Healing Light",
+                  "description": "Increases the amount healed by your Holy Light and Flash of Light spells by 8%."
+                },
+                {
+                  "spellId": 20239,
+                  "name": "Healing Light",
+                  "description": "Increases the amount healed by your Holy Light and Flash of Light spells by 12%."
+                }
+              ]
+            },
+            {
+              "id": 1432,
+              "row": 1,
+              "col": 1,
+              "icon": "spell_arcane_blink",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Spiritual Focus",
+              "ranks": [
+                {
+                  "spellId": 20205,
+                  "name": "Spiritual Focus",
+                  "description": "Gives your Flash of Light and Holy Light spells a 14% chance to not lose casting time when you take damage."
+                },
+                {
+                  "spellId": 20206,
+                  "name": "Spiritual Focus",
+                  "description": "Gives your Flash of Light and Holy Light spells a 28% chance to not lose casting time when you take damage."
+                }
+              ]
+            },
+            {
+              "id": 90310,
+              "row": 1,
+              "col": 2,
+              "icon": "spell_holy_healingaura",
+              "maxRank": 3,
+              "requires": [],
+              "name": "Improved Seals",
+              "ranks": [
+                {
+                  "spellId": 1803110,
+                  "name": "Improved Seals",
+                  "description": "Increases the damage done by your Seals and Judgements by 5%."
+                }
+              ]
+            },
+            {
+              "id": 1628,
+              "row": 1,
+              "col": 3,
               "icon": "spell_holy_unyieldingfaith",
               "maxRank": 2,
               "requires": [],
@@ -1477,81 +1576,183 @@
               ]
             },
             {
-              "id": 1432,
-              "row": 1,
-              "col": 1,
-              "icon": "spell_arcane_blink",
-              "maxRank": 5,
+              "id": 90311,
+              "row": 2,
+              "col": 0,
+              "icon": "spell_holy_silence",
+              "maxRank": 1,
               "requires": [],
-              "name": "Spiritual Focus",
+              "name": "Voice of Truth",
               "ranks": [
                 {
-                  "spellId": 20205,
-                  "name": "Spiritual Focus",
-                  "description": "Gives your Flash of Light and Holy Light spells a 14% chance to not lose casting time when you take damage."
-                },
-                {
-                  "spellId": 20206,
-                  "name": "Spiritual Focus",
-                  "description": "Gives your Flash of Light and Holy Light spells a 28% chance to not lose casting time when you take damage."
-                },
-                {
-                  "spellId": 20207,
-                  "name": "Spiritual Focus",
-                  "description": "Gives your Flash of Light and Holy Light spells a 42% chance to not lose casting time when you take damage."
-                },
-                {
-                  "spellId": 20209,
-                  "name": "Spiritual Focus",
-                  "description": "Gives your Flash of Light and Holy Light spells a 56% chance to not lose casting time when you take damage."
-                },
-                {
-                  "spellId": 20208,
-                  "name": "Spiritual Focus",
-                  "description": "Gives your Flash of Light and Holy Light spells a 70% chance to not lose casting time when you take damage."
+                  "spellId": 1803120,
+                  "name": "Voice of Truth",
+                  "description": "Grants you immunity to Silence and Interrupt effects. Lasts 6 sec."
                 }
               ]
             },
             {
-              "id": 1463,
-              "row": 1,
-              "col": 2,
-              "icon": "ability_thunderbolt",
-              "maxRank": 5,
+              "id": 90312,
+              "row": 2,
+              "col": 1,
+              "icon": "spell_holy_mindvision",
+              "maxRank": 3,
               "requires": [],
-              "name": "Improved Seal of Righteousness",
+              "name": "Reverence",
               "ranks": [
                 {
-                  "spellId": 20224,
-                  "name": "Improved Seal of Righteousness",
-                  "description": "Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 3%."
+                  "spellId": 1803130,
+                  "name": "Reverence",
+                  "description": "Allows 30% of your Mana regeneration to continue while casting."
+                }
+              ]
+            },
+            {
+              "id": 90313,
+              "row": 2,
+              "col": 2,
+              "icon": "spell_holy_purifyingpower",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Purifying Power",
+              "ranks": [
+                {
+                  "spellId": 1803140,
+                  "name": "Purifying Power",
+                  "description": "Reduces the mana cost of your Cleanse and Purify spells by 20% and reduces the cooldown of your Exorcism and Holy Wrath spells by 33%."
+                }
+              ]
+            },
+            {
+              "id": 90314,
+              "row": 3,
+              "col": 0,
+              "icon": "ability_paladin_infusionoflight",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Infusion of Light",
+              "ranks": [
+                {
+                  "spellId": 1803150,
+                  "name": "Infusion of Light",
+                  "description": "Your Holy Shock and Flash of Light critical hits reduce the cast time of your next Holy Light cast within 15 sec by 1.0 sec."
+                }
+              ]
+            },
+            {
+              "id": 1461,
+              "row": 3,
+              "col": 1,
+              "icon": "spell_holy_greaterheal",
+              "maxRank": 5,
+              "requires": [
+                {
+                  "id": 90312,
+                  "qty": 3
+                }
+              ],
+              "name": "Illumination",
+              "ranks": [
+                {
+                  "spellId": 20210,
+                  "name": "Illumination",
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 20% chance to gain Mana equal to the base cost of the spell."
                 },
                 {
-                  "spellId": 20225,
-                  "name": "Improved Seal of Righteousness",
-                  "description": "Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 6%."
+                  "spellId": 20212,
+                  "name": "Illumination",
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 40% chance to gain Mana equal to the base cost of the spell."
                 },
                 {
-                  "spellId": 20330,
-                  "name": "Improved Seal of Righteousness",
-                  "description": "Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 9%."
+                  "spellId": 20213,
+                  "name": "Illumination",
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 60% chance to gain Mana equal to the base cost of the spell."
                 },
                 {
-                  "spellId": 20331,
-                  "name": "Improved Seal of Righteousness",
-                  "description": "Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 12%."
+                  "spellId": 20214,
+                  "name": "Illumination",
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 80% chance to gain Mana equal to the base cost of the spell."
                 },
                 {
-                  "spellId": 20332,
-                  "name": "Improved Seal of Righteousness",
-                  "description": "Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 15%."
+                  "spellId": 20215,
+                  "name": "Illumination",
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 100% chance to gain Mana equal to the base cost of the spell."
+                }
+              ]
+            },
+            {
+              "id": 1433,
+              "row": 3,
+              "col": 2,
+              "icon": "spell_holy_heal",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Divine Favor",
+              "ranks": [
+                {
+                  "spellId": 20216,
+                  "name": "Divine Favor",
+                  "description": "When activated, gives your next Flash of Light, Holy Light, or Holy Shock spell a 100% critical effect chance."
+                }
+              ]
+            },
+            {
+              "id": 90315,
+              "row": 4,
+              "col": 0,
+              "icon": "spell_holy_holybolt",
+              "maxRank": 3,
+              "requires": [
+                {
+                  "id": 1502,
+                  "qty": 1
+                }
+              ],
+              "name": "Divine Precision",
+              "ranks": [
+                {
+                  "spellId": 1803160,
+                  "name": "Divine Precision",
+                  "description": "Increases your chance to hit with Holy spells by 6%."
+                }
+              ]
+            },
+            {
+              "id": 1502,
+              "row": 4,
+              "col": 1,
+              "icon": "spell_holy_searinglight",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Holy Shock",
+              "ranks": [
+                {
+                  "spellId": 20473,
+                  "name": "Holy Shock",
+                  "description": "Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or 204 to 220 healing to an ally."
+                }
+              ]
+            },
+            {
+              "id": 90316,
+              "row": 4,
+              "col": 2,
+              "icon": "spell_holy_innerfire",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Consecrated Ground",
+              "ranks": [
+                {
+                  "spellId": 1803170,
+                  "name": "Consecrated Ground",
+                  "description": "Gives your Holy spells 5% increased damage against the first 4 enemies that enter your Consecration."
                 }
               ]
             },
             {
               "id": 1627,
               "row": 5,
-              "col": 1,
+              "col": 2,
               "icon": "spell_holy_power",
               "maxRank": 5,
               "requires": [],
@@ -1585,190 +1786,23 @@
               ]
             },
             {
-              "id": 1444,
-              "row": 2,
-              "col": 0,
-              "icon": "spell_holy_holybolt",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Healing Light",
-              "ranks": [
-                {
-                  "spellId": 20237,
-                  "name": "Healing Light",
-                  "description": "Increases the amount healed by your Holy Light and Flash of Light spells by 4%."
-                },
-                {
-                  "spellId": 20238,
-                  "name": "Healing Light",
-                  "description": "Increases the amount healed by your Holy Light and Flash of Light spells by 8%."
-                },
-                {
-                  "spellId": 20239,
-                  "name": "Healing Light",
-                  "description": "Increases the amount healed by your Holy Light and Flash of Light spells by 12%."
-                }
-              ]
-            },
-            {
-              "id": 1435,
-              "row": 2,
-              "col": 1,
-              "icon": "spell_holy_innerfire",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Consecration",
-              "ranks": [
-                {
-                  "spellId": 26573,
-                  "name": "Consecration",
-                  "description": "Consecrates the land beneath Paladin, doing 64 Holy damage over 8 sec to enemies who enter the area."
-                }
-              ]
-            },
-            {
-              "id": 1443,
-              "row": 2,
-              "col": 2,
-              "icon": "spell_holy_layonhands",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Improved Lay on Hands",
-              "ranks": [
-                {
-                  "spellId": 20234,
-                  "name": "Improved Lay on Hands",
-                  "description": "Gives the target of your Lay on Hands spell a 15% bonus to their armor value from items for 2 min.  In addition, the cooldown for your Lay on Hands spell is reduced by 10 min."
-                },
-                {
-                  "spellId": 20235,
-                  "name": "Improved Lay on Hands",
-                  "description": "Gives the target of your Lay on Hands spell a 30% bonus to their armor value from items for 2 min.  In addition, the cooldown for your Lay on Hands spell is reduced by 20 min."
-                }
-              ]
-            },
-            {
-              "id": 1461,
-              "row": 3,
-              "col": 1,
-              "icon": "spell_holy_greaterheal",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Illumination",
-              "ranks": [
-                {
-                  "spellId": 20210,
-                  "name": "Illumination",
-                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 20% chance to gain Mana equal to the base cost of the spell."
-                },
-                {
-                  "spellId": 20212,
-                  "name": "Illumination",
-                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 40% chance to gain Mana equal to the base cost of the spell."
-                },
-                {
-                  "spellId": 20213,
-                  "name": "Illumination",
-                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 60% chance to gain Mana equal to the base cost of the spell."
-                },
-                {
-                  "spellId": 20214,
-                  "name": "Illumination",
-                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 80% chance to gain Mana equal to the base cost of the spell."
-                },
-                {
-                  "spellId": 20215,
-                  "name": "Illumination",
-                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 100% chance to gain Mana equal to the base cost of the spell."
-                }
-              ]
-            },
-            {
-              "id": 1446,
-              "row": 3,
-              "col": 2,
-              "icon": "spell_holy_sealofwisdom",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Improved Blessing of Wisdom",
-              "ranks": [
-                {
-                  "spellId": 20244,
-                  "name": "Improved Blessing of Wisdom",
-                  "description": "Increases the effect of your Blessing of Wisdom spell by 10%."
-                },
-                {
-                  "spellId": 20245,
-                  "name": "Improved Blessing of Wisdom",
-                  "description": "Increases the effect of your Blessing of Wisdom spell by 20%."
-                }
-              ]
-            },
-            {
-              "id": 1433,
-              "row": 4,
-              "col": 1,
-              "icon": "spell_holy_heal",
-              "maxRank": 1,
-              "requires": [
-                {
-                  "id": 1461,
-                  "qty": 5
-                }
-              ],
-              "name": "Divine Favor",
-              "ranks": [
-                {
-                  "spellId": 20216,
-                  "name": "Divine Favor",
-                  "description": "When activated, gives your next Flash of Light, Holy Light, or Holy Shock spell a 100% critical effect chance."
-                }
-              ]
-            },
-            {
-              "id": 1465,
-              "row": 4,
-              "col": 2,
-              "icon": "spell_holy_healingaura",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Lasting Judgement",
-              "ranks": [
-                {
-                  "spellId": 20359,
-                  "name": "Lasting Judgement",
-                  "description": "Increases the duration of your Judgement of Light and Judgement of Wisdom by 10 sec."
-                },
-                {
-                  "spellId": 20360,
-                  "name": "Lasting Judgement",
-                  "description": "Increases the duration of your Judgement of Light and Judgement of Wisdom by 20 sec."
-                },
-                {
-                  "spellId": 20361,
-                  "name": "Lasting Judgement",
-                  "description": "Increases the duration of your Judgement of Light and Judgement of Wisdom by 30 sec."
-                }
-              ]
-            },
-            {
-              "id": 1502,
+              "id": 90317,
               "row": 6,
               "col": 1,
-              "icon": "spell_holy_searinglight",
+              "icon": "spell_holy_holyguidance",
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 1433,
+                  "id": 1502,
                   "qty": 1
                 }
               ],
-              "name": "Holy Shock",
+              "name": "Light's Vigil",
               "ranks": [
                 {
-                  "spellId": 20473,
-                  "name": "Holy Shock",
-                  "description": "Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or 204 to 220 healing to an ally."
+                  "spellId": 1803180,
+                  "name": "Light's Vigil",
+                  "description": "Applies Light's Vigil to the target for 30 sec. Your next Holy Shock cast on them triggers no cooldown and causes friendly targets to heal their party for 315 to 333, or enemy targets to suffer 175 to 189 Holy damage and refund 75% of Light's Vigil's Mana cost. You may only have 1 Light's Vigil active per Paladin, per party."
                 }
               ]
             }
@@ -1780,38 +1814,38 @@
           "name": "Protection",
           "talents": [
             {
-              "id": 1422,
+              "id": 1423,
               "row": 0,
               "col": 1,
-              "icon": "spell_holy_devotionaura",
+              "icon": "spell_holy_devotion",
               "maxRank": 5,
               "requires": [],
-              "name": "Improved Devotion Aura",
+              "name": "Toughness",
               "ranks": [
                 {
-                  "spellId": 20138,
-                  "name": "Improved Devotion Aura",
-                  "description": "Increases the armor bonus of your Devotion Aura by 5%."
+                  "spellId": 20143,
+                  "name": "Toughness",
+                  "description": "Increases your armor value from items by 2%."
                 },
                 {
-                  "spellId": 20139,
-                  "name": "Improved Devotion Aura",
-                  "description": "Increases the armor bonus of your Devotion Aura by 10%."
+                  "spellId": 20144,
+                  "name": "Toughness",
+                  "description": "Increases your armor value from items by 4%."
                 },
                 {
-                  "spellId": 20140,
-                  "name": "Improved Devotion Aura",
-                  "description": "Increases the armor bonus of your Devotion Aura by 15%."
+                  "spellId": 20145,
+                  "name": "Toughness",
+                  "description": "Increases your armor value from items by 6%."
                 },
                 {
-                  "spellId": 20141,
-                  "name": "Improved Devotion Aura",
-                  "description": "Increases the armor bonus of your Devotion Aura by 20%."
+                  "spellId": 20146,
+                  "name": "Toughness",
+                  "description": "Increases your armor value from items by 8%."
                 },
                 {
-                  "spellId": 20142,
-                  "name": "Improved Devotion Aura",
-                  "description": "Increases the armor bonus of your Devotion Aura by 25%."
+                  "spellId": 20147,
+                  "name": "Toughness",
+                  "description": "Increases your armor value from items by 10%."
                 }
               ]
             },
@@ -1852,18 +1886,28 @@
               ]
             },
             {
-              "id": 90307,
+              "id": 1630,
               "row": 1,
               "col": 0,
-              "icon": "spell_holy_sealoffury",
-              "maxRank": 1,
+              "icon": "ability_rogue_ambush",
+              "maxRank": 3,
               "requires": [],
-              "name": "Improved Seal of Fury",
+              "name": "Precision",
               "ranks": [
                 {
-                  "spellId": 900770,
-                  "name": "Improved Seal of Fury",
-                  "description": "When Seal of Fury's shield is fully absorbed, restore 38 Mana, increased by 15% per level the attacker is above you, up to 45%."
+                  "spellId": 20189,
+                  "name": "Precision",
+                  "description": "Increases your chance to hit with melee weapons by 1%."
+                },
+                {
+                  "spellId": 20192,
+                  "name": "Precision",
+                  "description": "Increases your chance to hit with melee weapons by 2%."
+                },
+                {
+                  "spellId": 20193,
+                  "name": "Precision",
+                  "description": "Increases your chance to hit with melee weapons by 3%."
                 }
               ]
             },
@@ -1925,18 +1969,18 @@
               ]
             },
             {
-              "id": 1442,
+              "id": 90307,
               "row": 2,
               "col": 0,
-              "icon": "spell_magic_magearmor",
+              "icon": "spell_holy_sealoffury",
               "maxRank": 1,
               "requires": [],
-              "name": "Blessing of Kings",
+              "name": "Improved Seal of Fury",
               "ranks": [
                 {
-                  "spellId": 20217,
-                  "name": "Blessing of Kings",
-                  "description": "Places a Blessing on the friendly target, increasing total stats by 10% for 5 min.  Players may only have one Blessing on them per Paladin at any one time."
+                  "spellId": 900770,
+                  "name": "Improved Seal of Fury",
+                  "description": "When Seal of Fury's shield is fully absorbed, restore 38 Mana, increased by 15% per level the attacker is above you, up to 45%."
                 }
               ]
             },
@@ -1998,71 +2042,77 @@
               ]
             },
             {
-              "id": 1630,
+              "id": 90305,
               "row": 2,
               "col": 3,
-              "icon": "ability_rogue_ambush",
-              "maxRank": 3,
+              "icon": "spell_holy_divinepurpose",
+              "maxRank": 2,
               "requires": [],
-              "name": "Precision",
+              "name": "Sacred Duty",
               "ranks": [
                 {
-                  "spellId": 20189,
-                  "name": "Precision",
-                  "description": "Increases your chance to hit with melee weapons by 1%."
+                  "spellId": 900750,
+                  "name": "Sacred Duty",
+                  "description": "Increases your total Stamina by 2% and reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 30 sec."
                 },
                 {
-                  "spellId": 20192,
-                  "name": "Precision",
-                  "description": "Increases your chance to hit with melee weapons by 2%."
-                },
-                {
-                  "spellId": 20193,
-                  "name": "Precision",
-                  "description": "Increases your chance to hit with melee weapons by 3%."
+                  "spellId": 900751,
+                  "name": "Sacred Duty",
+                  "description": "Increases your total Stamina by 4% and reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 60 sec."
                 }
               ]
             },
             {
-              "id": 1423,
+              "id": 90318,
               "row": 3,
               "col": 0,
-              "icon": "spell_holy_devotion",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Toughness",
+              "icon": "spell_holy_righteousfury",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 90307,
+                  "qty": 1
+                }
+              ],
+              "name": "Swift Judgement",
               "ranks": [
                 {
-                  "spellId": 20143,
-                  "name": "Toughness",
-                  "description": "Increases your armor value from items by 2%."
+                  "spellId": 1803190,
+                  "name": "Swift Judgement",
+                  "description": "Finishes the remaining cooldown on your Judgement ability and reduces the Mana cost of your next Judgement by 100%."
+                }
+              ]
+            },
+            {
+              "id": 1429,
+              "row": 3,
+              "col": 1,
+              "icon": "inv_sword_20",
+              "maxRank": 3,
+              "requires": [],
+              "name": "One-Handed Weapon Specialization",
+              "ranks": [
+                {
+                  "spellId": 20196,
+                  "name": "One-Handed Weapon Specialization",
+                  "description": "Increases the damage you deal with one-handed melee weapons by 2%."
                 },
                 {
-                  "spellId": 20144,
-                  "name": "Toughness",
-                  "description": "Increases your armor value from items by 4%."
+                  "spellId": 20197,
+                  "name": "One-Handed Weapon Specialization",
+                  "description": "Increases the damage you deal with one-handed melee weapons by 4%."
                 },
                 {
-                  "spellId": 20145,
-                  "name": "Toughness",
-                  "description": "Increases your armor value from items by 6%."
-                },
-                {
-                  "spellId": 20146,
-                  "name": "Toughness",
-                  "description": "Increases your armor value from items by 8%."
-                },
-                {
-                  "spellId": 20147,
-                  "name": "Toughness",
-                  "description": "Increases your armor value from items by 10%."
+                  "spellId": 20198,
+                  "name": "One-Handed Weapon Specialization",
+                  "description": "Increases the damage you deal with one-handed melee weapons by 6%."
                 }
               ]
             },
             {
               "id": 1521,
               "row": 3,
-              "col": 1,
+              "col": 2,
               "icon": "spell_holy_sealofmight",
               "maxRank": 3,
               "requires": [],
@@ -2086,52 +2136,63 @@
               ]
             },
             {
-              "id": 90305,
-              "row": 3,
-              "col": 2,
-              "icon": "spell_holy_divinepurpose",
-              "maxRank": 2,
+              "id": 90308,
+              "row": 4,
+              "col": 1,
+              "icon": "spell_holy_ardentdefender",
+              "maxRank": 1,
               "requires": [],
-              "name": "Sacred Duty",
+              "name": "Templar's Bulwark",
               "ranks": [
                 {
-                  "spellId": 900750,
-                  "name": "Sacred Duty",
-                  "description": "Increases your total Stamina by 2% and reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 30 sec."
-                },
-                {
-                  "spellId": 900751,
-                  "name": "Sacred Duty",
-                  "description": "Increases your total Stamina by 4% and reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 60 sec."
+                  "spellId": 900780,
+                  "name": "Templar's Bulwark",
+                  "description": "When activated, this ability grants you an absorb shield equal to 100% of your maximum health for 8 sec. Applies Forbearance for 1 min. Cannot be cast while Forbearance is active."
                 }
               ]
             },
             {
-              "id": 1431,
+              "id": 90319,
               "row": 4,
-              "col": 1,
-              "icon": "spell_nature_lightningshield",
-              "maxRank": 1,
+              "col": 2,
+              "icon": "spell_holy_blessingofstrength",
+              "maxRank": 5,
               "requires": [],
-              "name": "Blessing of Sanctuary",
+              "name": "Reckoning",
               "ranks": [
                 {
-                  "spellId": 20911,
-                  "name": "Blessing of Sanctuary",
-                  "description": "Places a Blessing on the friendly target, reducing damage dealt from all sources by up to 10 for 5 min.  In addition, when the target blocks a melee attack the attacker will take 14 Holy damage.  Players may only have one Blessing on them per Paladin at any one time."
+                  "spellId": 1803200,
+                  "name": "Reckoning",
+                  "description": "Gives you a 8% chance to gain an extra attack after Blocking a melee attack and a 20% chance to gain an extra attack after being the victim of a non-periodic critical strike."
+                }
+              ]
+            },
+            {
+              "id": 90320,
+              "row": 5,
+              "col": 2,
+              "icon": "ability_paladin_shieldofvengeance",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Iron Creed",
+              "ranks": [
+                {
+                  "spellId": 1803210,
+                  "name": "Iron Creed",
+                  "description": "Increases the threat generated by your Holy Strike ability 5%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 2% for 6 sec."
                 }
               ]
             },
             {
               "id": 1430,
-              "row": 4,
-              "col": 2,
+              "row": 6,
+              "col": 1,
               "icon": "classic_spell_holy_blessingofprotection",
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 90305,
-                  "qty": 2
+                  "id": 90308,
+                  "qty": 1
                 }
               ],
               "name": "Holy Shield",
@@ -2140,63 +2201,6 @@
                   "spellId": 20925,
                   "name": "Holy Shield",
                   "description": "Increases chance to block by 20% for 10 sec, and deals 110 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 20% additional threat. Each block expends a charge. 4 charges."
-                }
-              ]
-            },
-            {
-              "id": 1429,
-              "row": 5,
-              "col": 2,
-              "icon": "inv_sword_20",
-              "maxRank": 5,
-              "requires": [],
-              "name": "One-Handed Weapon Specialization",
-              "ranks": [
-                {
-                  "spellId": 20196,
-                  "name": "One-Handed Weapon Specialization",
-                  "description": "Increases the damage you deal with one-handed melee weapons by 2%."
-                },
-                {
-                  "spellId": 20197,
-                  "name": "One-Handed Weapon Specialization",
-                  "description": "Increases the damage you deal with one-handed melee weapons by 4%."
-                },
-                {
-                  "spellId": 20198,
-                  "name": "One-Handed Weapon Specialization",
-                  "description": "Increases the damage you deal with one-handed melee weapons by 6%."
-                },
-                {
-                  "spellId": 20199,
-                  "name": "One-Handed Weapon Specialization",
-                  "description": "Increases the damage you deal with one-handed melee weapons by 8%."
-                },
-                {
-                  "spellId": 20200,
-                  "name": "One-Handed Weapon Specialization",
-                  "description": "Increases the damage you deal with one-handed melee weapons by 10%."
-                }
-              ]
-            },
-            {
-              "id": 90308,
-              "row": 6,
-              "col": 1,
-              "icon": "spell_holy_ardentdefender",
-              "maxRank": 1,
-              "requires": [
-                {
-                  "id": 1431,
-                  "qty": 1
-                }
-              ],
-              "name": "Templar's Bulwark",
-              "ranks": [
-                {
-                  "spellId": 900780,
-                  "name": "Templar's Bulwark",
-                  "description": "When activated, this ability grants you an absorb shield equal to 100% of your maximum health for 8 sec. Applies Forbearance for 1 min. Cannot be cast while Forbearance is active."
                 }
               ]
             }
@@ -2244,91 +2248,8 @@
               ]
             },
             {
-              "id": 1411,
-              "row": 0,
-              "col": 2,
-              "icon": "spell_holy_retributionaura",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Conviction",
-              "ranks": [
-                {
-                  "spellId": 20117,
-                  "name": "Conviction",
-                  "description": "Increases your chance to get a critical strike with melee attacks by 1%."
-                },
-                {
-                  "spellId": 20118,
-                  "name": "Conviction",
-                  "description": "Increases your chance to get a critical strike with melee weapons by 2%."
-                },
-                {
-                  "spellId": 20119,
-                  "name": "Conviction",
-                  "description": "Increases your chance to get a critical strike with melee weapons by 3%."
-                },
-                {
-                  "spellId": 20120,
-                  "name": "Conviction",
-                  "description": "Increases your chance to get a critical strike with melee weapons by 4%."
-                },
-                {
-                  "spellId": 20121,
-                  "name": "Conviction",
-                  "description": "Increases your chance to get a critical strike with melee weapons by 5%."
-                }
-              ]
-            },
-            {
-              "id": 1631,
-              "row": 1,
-              "col": 0,
-              "icon": "spell_holy_righteousfury",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Improved Judgement",
-              "ranks": [
-                {
-                  "spellId": 25956,
-                  "name": "Improved Judgement",
-                  "description": "Decreases the cooldown of your Judgement ability by 1 sec."
-                },
-                {
-                  "spellId": 25957,
-                  "name": "Improved Judgement",
-                  "description": "Decreases the cooldown of your Judgement spell by 2 sec."
-                }
-              ]
-            },
-            {
-              "id": 1464,
-              "row": 1,
-              "col": 1,
-              "icon": "spell_holy_holysmite",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Improved Seal of the Crusader",
-              "ranks": [
-                {
-                  "spellId": 20335,
-                  "name": "Improved Seal of the Crusader",
-                  "description": "Increases the melee attack power bonus of your Seal of the Crusader and the Holy damage increase of your Judgement of the Crusader by 5%."
-                },
-                {
-                  "spellId": 20336,
-                  "name": "Improved Seal of the Crusader",
-                  "description": "Increases the melee attack power bonus of your Seal of the Crusader and the Holy damage increase of your Judgement of the Crusader by 10%."
-                },
-                {
-                  "spellId": 20337,
-                  "name": "Improved Seal of the Crusader",
-                  "description": "Increases the melee attack power bonus of your Seal of the Crusader and the Holy damage increase of your Judgement of the Crusader by 15%."
-                }
-              ]
-            },
-            {
               "id": 1407,
-              "row": 1,
+              "row": 0,
               "col": 2,
               "icon": "spell_frost_windwalkon",
               "maxRank": 5,
@@ -2359,6 +2280,79 @@
                   "spellId": 20105,
                   "name": "Benediction",
                   "description": "Reduces the Mana cost of your Judgement and Seal spells by 15%."
+                }
+              ]
+            },
+            {
+              "id": 1631,
+              "row": 1,
+              "col": 0,
+              "icon": "spell_holy_righteousfury",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Improved Judgement",
+              "ranks": [
+                {
+                  "spellId": 25956,
+                  "name": "Improved Judgement",
+                  "description": "Decreases the cooldown of your Judgement ability by 1 sec."
+                },
+                {
+                  "spellId": 25957,
+                  "name": "Improved Judgement",
+                  "description": "Decreases the cooldown of your Judgement spell by 2 sec."
+                }
+              ]
+            },
+            {
+              "id": 90321,
+              "row": 1,
+              "col": 1,
+              "icon": "spell_holy_divineillumination",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Holy Conduit",
+              "ranks": [
+                {
+                  "spellId": 1803220,
+                  "name": "Holy Conduit",
+                  "description": "Reduces the mana cost of your Consecration, Holy Wrath, Exorcism, and Hammer of Wrath spells by 20%."
+                }
+              ]
+            },
+            {
+              "id": 1411,
+              "row": 1,
+              "col": 2,
+              "icon": "spell_holy_retributionaura",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Conviction",
+              "ranks": [
+                {
+                  "spellId": 20117,
+                  "name": "Conviction",
+                  "description": "Increases your chance to get a critical strike with melee attacks by 1%."
+                },
+                {
+                  "spellId": 20118,
+                  "name": "Conviction",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 2%."
+                },
+                {
+                  "spellId": 20119,
+                  "name": "Conviction",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 3%."
+                },
+                {
+                  "spellId": 20120,
+                  "name": "Conviction",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 4%."
+                },
+                {
+                  "spellId": 20121,
+                  "name": "Conviction",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 5%."
                 }
               ]
             },
@@ -2473,23 +2467,18 @@
               ]
             },
             {
-              "id": 1441,
+              "id": 90309,
               "row": 3,
               "col": 2,
-              "icon": "spell_holy_prayerofhealing",
+              "icon": "ability_paladin_judgementofthejust",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 1481,
-                  "qty": 1
-                }
-              ],
-              "name": "Repentance",
+              "requires": [],
+              "name": "Sacred Arbiter",
               "ranks": [
                 {
-                  "spellId": 20066,
-                  "name": "Repentance",
-                  "description": "Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec. Any damage caused will awaken the target. Only works against Humanoids."
+                  "spellId": 900790,
+                  "name": "Sacred Arbiter",
+                  "description": "Increases the damage of your Holy Strike ability by 10% and causes it to refresh all Judgement effects on the target."
                 }
               ]
             },
@@ -2572,28 +2561,18 @@
               ]
             },
             {
-              "id": 90304,
+              "id": 1441,
               "row": 4,
               "col": 2,
-              "icon": "spell_holy_weaponmastery",
-              "maxRank": 2,
-              "requires": [
-                {
-                  "id": 1441,
-                  "qty": 1
-                }
-              ],
-              "name": "Instrument of Law",
+              "icon": "spell_holy_prayerofhealing",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Repentance",
               "ranks": [
                 {
-                  "spellId": 900740,
-                  "name": "Instrument of Law",
-                  "description": "Reduces the cast time of your Hammer of Wrath by 0.5 sec, and reduces all threat you generate by 10% while Righteous Fury is not active."
-                },
-                {
-                  "spellId": 900741,
-                  "name": "Instrument of Law",
-                  "description": "Reduces the cast time of your Hammer of Wrath by 1 sec, and reduces all threat you generate by 20% while Righteous Fury is not active."
+                  "spellId": 20066,
+                  "name": "Repentance",
+                  "description": "Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec. Any damage caused will awaken the target. Only works against Humanoids."
                 }
               ]
             },
@@ -2603,12 +2582,7 @@
               "col": 1,
               "icon": "spell_holy_holyguidance",
               "maxRank": 3,
-              "requires": [
-                {
-                  "id": 1402,
-                  "qty": 3
-                }
-              ],
+              "requires": [],
               "name": "Champion of the Light",
               "ranks": [
                 {
@@ -2629,18 +2603,23 @@
               ]
             },
             {
-              "id": 90309,
+              "id": 90304,
               "row": 5,
               "col": 2,
-              "icon": "ability_warrior_innerrage",
-              "maxRank": 1,
+              "icon": "spell_holy_weaponmastery",
+              "maxRank": 2,
               "requires": [],
-              "name": "Sacred Arbiter",
+              "name": "Instrument of Law",
               "ranks": [
                 {
-                  "spellId": 900790,
-                  "name": "Sacred Arbiter",
-                  "description": "Increases the damage of your Holy Strike ability by 10% and causes it to refresh all Judgement effects on the target."
+                  "spellId": 900740,
+                  "name": "Instrument of Law",
+                  "description": "Reduces the cast time of your Hammer of Wrath by 0.5 sec, and reduces all threat you generate by 10% while Righteous Fury is not active."
+                },
+                {
+                  "spellId": 900741,
+                  "name": "Instrument of Law",
+                  "description": "Reduces the cast time of your Hammer of Wrath by 1 sec, and reduces all threat you generate by 20% while Righteous Fury is not active."
                 }
               ]
             },
@@ -2648,14 +2627,9 @@
               "id": 90300,
               "row": 6,
               "col": 1,
-              "icon": "inv_hammer_04",
+              "icon": "spell_holy_divineintervention",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 90302,
-                  "qty": 3
-                }
-              ],
+              "requires": [],
               "name": "Twist of Light",
               "ranks": [
                 {
@@ -3267,7 +3241,7 @@
               "requires": [
                 {
                   "id": 90100,
-                  "qty": 1
+                  "qty": 5
                 }
               ],
               "name": "Improved Arcane Shot",
@@ -3401,7 +3375,7 @@
               "maxRank": 5,
               "requires": [
                 {
-                  "id": 1344,
+                  "id": 1346,
                   "qty": 5
                 }
               ],
@@ -3521,7 +3495,7 @@
               "requires": [
                 {
                   "id": 90102,
-                  "qty": 1
+                  "qty": 2
                 }
               ],
               "name": "Rapid Recuperation",
@@ -4072,6 +4046,33 @@
           "name": "Assassination",
           "talents": [
             {
+              "id": 203,
+              "row": 0,
+              "col": 0,
+              "icon": "ability_gouge",
+              "maxRank": 3,
+              "requires": [],
+              "name": "Improved Gouge",
+              "ranks": [
+                {
+                  "spellId": 2030,
+                  "name": "Improved Gouge",
+                  "description": "Increases the duration of your Gouge ability by 0.5 sec."
+                },
+                {
+                  "spellId": 2031,
+                  "name": "Improved Gouge",
+                  "description": "Increases the duration of your Gouge ability by 0.5 sec."
+                },
+                {
+                  "spellId": 2032,
+                  "name": "Improved Gouge",
+                  "description": "Increases the duration of your Gouge ability by 0.5 sec."
+                }
+              ],
+              "review": "new"
+            },
+            {
               "id": 272,
               "row": 0,
               "col": 1,
@@ -4176,6 +4177,33 @@
               ]
             },
             {
+              "id": 277,
+              "row": 1,
+              "col": 3,
+              "icon": "ability_rogue_slicedice",
+              "maxRank": 3,
+              "requires": [],
+              "name": "Improved Slice and Dice",
+              "ranks": [
+                {
+                  "spellId": 2770,
+                  "name": "Improved Slice and Dice",
+                  "description": "Increases the duration of your Slice and Dice ability by 15%."
+                },
+                {
+                  "spellId": 2771,
+                  "name": "Improved Slice and Dice",
+                  "description": "Increases the duration of your Slice and Dice ability by 30%."
+                },
+                {
+                  "spellId": 2772,
+                  "name": "Improved Slice and Dice",
+                  "description": "Increases the duration of your Slice and Dice ability by 45%."
+                }
+              ],
+              "review": "new"
+            },
+            {
               "id": 281,
               "row": 2,
               "col": 0,
@@ -4256,7 +4284,7 @@
             {
               "id": 682,
               "row": 3,
-              "col": 1,
+              "col": 0,
               "icon": "ability_rogue_feigndeath",
               "maxRank": 5,
               "requires": [],
@@ -4286,6 +4314,22 @@
                   "spellId": 16720,
                   "name": "Vile Poisons",
                   "description": "Increases the damage dealt by your poisons by 20% and gives your poisons an additional 40% chance to resist dispel effects."
+                }
+              ]
+            },
+            {
+              "id": 280,
+              "row": 3,
+              "col": 1,
+              "icon": "spell_ice_lament",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Cold Blood",
+              "ranks": [
+                {
+                  "spellId": 14177,
+                  "name": "Cold Blood",
+                  "description": "When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate by 100%."
                 }
               ]
             },
@@ -4326,27 +4370,54 @@
               ]
             },
             {
-              "id": 280,
+              "id": 382,
               "row": 4,
-              "col": 1,
-              "icon": "spell_ice_lament",
-              "maxRank": 1,
+              "col": 0,
+              "icon": "spell_nature_earthbindtotem",
+              "maxRank": 2,
               "requires": [],
-              "name": "Cold Blood",
+              "name": "Vigor",
               "ranks": [
                 {
-                  "spellId": 14177,
-                  "name": "Cold Blood",
-                  "description": "When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate by 100%."
+                  "spellId": 14983,
+                  "name": "Vigor",
+                  "description": "Increases your maximum Energy by 5."
+                },
+                {
+                  "spellId": 14984,
+                  "name": "Vigor",
+                  "description": "Increases your maximum Energy by 10."
                 }
               ]
+            },
+            {
+              "id": 90113,
+              "row": 6,
+              "col": 1,
+              "icon": "ability_rogue_shadowstrikes",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 90114,
+                  "qty": 1
+                }
+              ],
+              "name": "Mutilate",
+              "ranks": [
+                {
+                  "spellId": 901130,
+                  "name": "Mutilate",
+                  "description": "Instantly attacks with both weapons for 75% weapon damage plus an additional 13 with each weapon. Damage increased by 20% against Poisoned targets. Awards 2 Combo Points."
+                }
+              ],
+              "review": "new"
             },
             {
               "id": 279,
               "row": 4,
               "col": 2,
               "icon": "ability_rogue_kidneyshot",
-              "maxRank": 3,
+              "maxRank": 2,
               "requires": [],
               "name": "Improved Kidney Shot",
               "ranks": [
@@ -4359,34 +4430,62 @@
                   "spellId": 14175,
                   "name": "Improved Kidney Shot",
                   "description": "While affected by your Kidney Shot ability, the target receives an additional 6% damage from all sources."
-                },
-                {
-                  "spellId": 14176,
-                  "name": "Improved Kidney Shot",
-                  "description": "While affected by your Kidney Shot ability, the target receives an additional 9% damage from all sources."
                 }
               ]
             },
             {
-              "id": 382,
-              "row": 6,
-              "col": 1,
-              "icon": "spell_nature_earthbindtotem",
-              "maxRank": 1,
-              "requires": [
-                {
-                  "id": 280,
-                  "qty": 1
-                }
-              ],
-              "name": "Vigor",
+              "id": 283,
+              "row": 5,
+              "col": 2,
+              "icon": "spell_shadow_chilltouch",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Seal Fate",
               "ranks": [
                 {
-                  "spellId": 14983,
-                  "name": "Vigor",
-                  "description": "Increases your maximum Energy by 10."
+                  "spellId": 2830,
+                  "name": "Seal Fate",
+                  "description": "Your critical strikes from abilities that add combo points  have a 20% chance to add an additional combo point."
+                },
+                {
+                  "spellId": 2831,
+                  "name": "Seal Fate",
+                  "description": "Your critical strikes from abilities that add combo points  have a 40% chance to add an additional combo point."
+                },
+                {
+                  "spellId": 2832,
+                  "name": "Seal Fate",
+                  "description": "Your critical strikes from abilities that add combo points  have a 60% chance to add an additional combo point."
+                },
+                {
+                  "spellId": 2833,
+                  "name": "Seal Fate",
+                  "description": "Your critical strikes from abilities that add combo points  have a 80% chance to add an additional combo point."
+                },
+                {
+                  "spellId": 2834,
+                  "name": "Seal Fate",
+                  "description": "Your critical strikes from abilities that add combo points  have a 100% chance to add an additional combo point."
                 }
-              ]
+              ],
+              "review": "new"
+            },
+            {
+              "id": 90114,
+              "row": 4,
+              "col": 1,
+              "icon": "ability_rogue_deadlybrew",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Venom",
+              "ranks": [
+                {
+                  "spellId": 901140,
+                  "name": "Venom",
+                  "description": "Finishing move that increases the damage of your Poisons by 30% and your chance to apply Poisons by 10%. Lasts longer per combo point:\n   1 point: 9 seconds\n   2 points: 12 seconds\n   3 points: 15 seconds\n   4 points: 18 seconds\n   5 points: 21 seconds"
+                }
+              ],
+              "review": "new"
             }
           ],
           "icon": "ability_rogue_eviscerate"
@@ -4399,7 +4498,7 @@
               "id": 276,
               "row": 0,
               "col": 0,
-              "icon": "ability_gouge",
+              "icon": "ability_rogue_eviscerate",
               "maxRank": 3,
               "requires": [],
               "name": "Improved Eviscerate",
@@ -4479,28 +4578,28 @@
               ]
             },
             {
-              "id": 181,
+              "id": 90110,
               "row": 1,
               "col": 0,
-              "icon": "ability_marksmanship",
+              "icon": "ability_backstab",
               "maxRank": 3,
               "requires": [],
-              "name": "Precision",
+              "name": "Puncturing Wounds",
               "ranks": [
                 {
-                  "spellId": 13705,
-                  "name": "Precision",
-                  "description": "Increases your chance to hit with all attacks and Poisons by 1%."
+                  "spellId": 901100,
+                  "name": "Puncturing Wounds",
+                  "description": "Increases the critical strike chance of your Backstab by 10% and your Mutilate by 5%, and gives Backstab a 15% chance to add an additional Combo Point."
                 },
                 {
-                  "spellId": 13832,
-                  "name": "Precision",
-                  "description": "Increases your chance to hit with all attacks and Poisons by 2%."
+                  "spellId": 901101,
+                  "name": "Puncturing Wounds",
+                  "description": "Increases the critical strike chance of your Backstab by 20% and your Mutilate by 10%, and gives Backstab a 30% chance to add an additional Combo Point."
                 },
                 {
-                  "spellId": 13843,
-                  "name": "Precision",
-                  "description": "Increases your chance to hit with all attacks and Poisons by 3%."
+                  "spellId": 901102,
+                  "name": "Puncturing Wounds",
+                  "description": "Increases the critical strike chance of your Backstab by 30% and your Mutilate by 15%, and gives Backstab a 45% chance to add an additional Combo Point."
                 }
               ]
             },
@@ -4531,28 +4630,28 @@
               ]
             },
             {
-              "id": 90110,
+              "id": 181,
               "row": 1,
               "col": 2,
-              "icon": "ability_backstab",
+              "icon": "ability_marksmanship",
               "maxRank": 3,
               "requires": [],
-              "name": "Puncturing Wounds",
+              "name": "Precision",
               "ranks": [
                 {
-                  "spellId": 901100,
-                  "name": "Puncturing Wounds",
-                  "description": "Increases the critical strike chance of your Backstab by 10% and your Mutilate by 5%, and gives Backstab a 15% chance to add an additional Combo Point."
+                  "spellId": 13705,
+                  "name": "Precision",
+                  "description": "Increases your chance to hit with all attacks and Poisons by 1%."
                 },
                 {
-                  "spellId": 901101,
-                  "name": "Puncturing Wounds",
-                  "description": "Increases the critical strike chance of your Backstab by 20% and your Mutilate by 10%, and gives Backstab a 30% chance to add an additional Combo Point."
+                  "spellId": 13832,
+                  "name": "Precision",
+                  "description": "Increases your chance to hit with all attacks and Poisons by 2%."
                 },
                 {
-                  "spellId": 901102,
-                  "name": "Puncturing Wounds",
-                  "description": "Increases the critical strike chance of your Backstab by 30% and your Mutilate by 15%, and gives Backstab a 45% chance to add an additional Combo Point."
+                  "spellId": 13843,
+                  "name": "Precision",
+                  "description": "Increases your chance to hit with all attacks and Poisons by 3%."
                 }
               ]
             },
@@ -4578,7 +4677,7 @@
               ]
             },
             {
-              "id": 90111,
+              "id": 175,
               "row": 2,
               "col": 1,
               "icon": "ability_warrior_challange",
@@ -4589,55 +4688,15 @@
                   "qty": 3
                 }
               ],
-              "name": "Restless Blades",
+              "name": "Riposte",
               "ranks": [
                 {
-                  "spellId": 901110,
-                  "name": "Restless Blades",
-                  "description": "Your damaging finishing moves reduce the remaining cooldown of your Adrenaline Rush, Blade Flurry, Evasion, Sprint, and Vanish abilities by 2 sec per combo point."
-                }
-              ]
-            },
-            {
-              "id": 221,
-              "row": 2,
-              "col": 2,
-              "icon": "ability_dualwield",
-              "maxRank": 5,
-              "requires": [
-                {
-                  "id": 90110,
-                  "qty": 3
+                  "spellId": 1750,
+                  "name": "Riposte",
+                  "description": "A strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 sec."
                 }
               ],
-              "name": "Dual Wield Specialization",
-              "ranks": [
-                {
-                  "spellId": 13715,
-                  "name": "Dual Wield Specialization",
-                  "description": "Increases the damage done by your off-hand weapon by 5%."
-                },
-                {
-                  "spellId": 13848,
-                  "name": "Dual Wield Specialization",
-                  "description": "Increases the damage done by your off-hand weapon by 10%."
-                },
-                {
-                  "spellId": 13849,
-                  "name": "Dual Wield Specialization",
-                  "description": "Increases the damage done by your off-hand weapon by 15%."
-                },
-                {
-                  "spellId": 13851,
-                  "name": "Dual Wield Specialization",
-                  "description": "Increases the damage done by your off-hand weapon by 20%."
-                },
-                {
-                  "spellId": 13852,
-                  "name": "Dual Wield Specialization",
-                  "description": "Increases the damage done by your off-hand weapon by 25%."
-                }
-              ]
+              "review": "new"
             },
             {
               "id": 222,
@@ -4682,53 +4741,88 @@
               ]
             },
             {
-              "id": 182,
+              "id": 90111,
               "row": 3,
               "col": 1,
-              "icon": "inv_weapon_shortblade_05",
-              "maxRank": 5,
+              "icon": "ability_rogue_restlessblades",
+              "maxRank": 1,
               "requires": [],
-              "name": "Dagger Specialization",
+              "name": "Restless Blades",
               "ranks": [
                 {
-                  "spellId": 13706,
-                  "name": "Dagger Specialization",
-                  "description": "Increases your chance to get a critical strike with Daggers by 1%."
+                  "spellId": 901110,
+                  "name": "Restless Blades",
+                  "description": "Your damaging finishing moves reduce the remaining cooldown of your Adrenaline Rush, Blade Flurry, Evasion, Sprint, and Vanish abilities by 2 sec per combo point."
+                }
+              ]
+            },
+            {
+              "id": 221,
+              "row": 3,
+              "col": 2,
+              "icon": "ability_dualwield",
+              "maxRank": 5,
+              "requires": [
+                {
+                  "id": 181,
+                  "qty": 3
+                }
+              ],
+              "name": "Dual Wield Specialization",
+              "ranks": [
+                {
+                  "spellId": 13715,
+                  "name": "Dual Wield Specialization",
+                  "description": "Increases the damage done by your off-hand weapon by 5%."
                 },
                 {
-                  "spellId": 13804,
-                  "name": "Dagger Specialization",
-                  "description": "Increases your chance to get a critical strike with Daggers by 2%."
+                  "spellId": 13848,
+                  "name": "Dual Wield Specialization",
+                  "description": "Increases the damage done by your off-hand weapon by 10%."
                 },
                 {
-                  "spellId": 13805,
-                  "name": "Dagger Specialization",
-                  "description": "Increases your chance to get a critical strike with Daggers by 3%."
+                  "spellId": 13849,
+                  "name": "Dual Wield Specialization",
+                  "description": "Increases the damage done by your off-hand weapon by 15%."
                 },
                 {
-                  "spellId": 13806,
-                  "name": "Dagger Specialization",
-                  "description": "Increases your chance to get a critical strike with Daggers by 4%."
+                  "spellId": 13851,
+                  "name": "Dual Wield Specialization",
+                  "description": "Increases the damage done by your off-hand weapon by 20%."
                 },
                 {
-                  "spellId": 13807,
-                  "name": "Dagger Specialization",
-                  "description": "Increases your chance to get a critical strike with Daggers by 5%."
+                  "spellId": 13852,
+                  "name": "Dual Wield Specialization",
+                  "description": "Increases the damage done by your off-hand weapon by 25%."
+                }
+              ]
+            },
+            {
+              "id": 223,
+              "row": 4,
+              "col": 1,
+              "icon": "ability_warrior_punishingblow",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Blade Flurry",
+              "ranks": [
+                {
+                  "spellId": 13877,
+                  "name": "Blade Flurry",
+                  "description": "Increases your melee attack speed by 20% and your melee attacks strike an additional nearby opponent. Lasts 15 sec.",
+                  "cost": "25 Energy",
+                  "castTime": "Instant",
+                  "cooldown": "2 min"
                 }
               ]
             },
             {
               "id": 90112,
-              "row": 3,
+              "row": 4,
               "col": 2,
               "icon": "inv_sword_27",
               "maxRank": 5,
-              "requires": [
-                {
-                  "id": 221,
-                  "qty": 5
-                }
-              ],
+              "requires": [],
               "name": "Hack and Slash",
               "ranks": [
                 {
@@ -4755,61 +4849,6 @@
                   "spellId": 901124,
                   "name": "Hack and Slash",
                   "description": "Gives your melee weapon attacks a benefit depending on the weapon. Axe/Sword: Your successful melee attacks have a 5% chance to trigger an extra attack on the target. Dagger/Fist: Increases your critical strike chance by 5%. Mace: Your attacks ignore 15% of your target's armor."
-                }
-              ]
-            },
-            {
-              "id": 223,
-              "row": 4,
-              "col": 1,
-              "icon": "ability_warrior_punishingblow",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Blade Flurry",
-              "ranks": [
-                {
-                  "spellId": 13877,
-                  "name": "Blade Flurry",
-                  "description": "Increases your melee attack speed by 20% and your melee attacks strike an additional nearby opponent. Lasts 15 sec.",
-                  "cost": "25 Energy",
-                  "castTime": "Instant",
-                  "cooldown": "2 min"
-                }
-              ]
-            },
-            {
-              "id": 242,
-              "row": 4,
-              "col": 2,
-              "icon": "inv_sword_27",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Sword Specialization",
-              "ranks": [
-                {
-                  "spellId": 13960,
-                  "name": "Sword Specialization",
-                  "description": "Gives you a 1% chance to get an extra attack on the same target after dealing damage with your Sword."
-                },
-                {
-                  "spellId": 13961,
-                  "name": "Sword Specialization",
-                  "description": "Gives you a 2% chance to get an extra attack on the same target after dealing damage with your Sword."
-                },
-                {
-                  "spellId": 13962,
-                  "name": "Sword Specialization",
-                  "description": "Gives you a 3% chance to get an extra attack on the same target after dealing damage with your Sword."
-                },
-                {
-                  "spellId": 13963,
-                  "name": "Sword Specialization",
-                  "description": "Gives you a 4% chance to get an extra attack on the same target after dealing damage with your Sword."
-                },
-                {
-                  "spellId": 13964,
-                  "name": "Sword Specialization",
-                  "description": "Gives you a 5% chance to get an extra attack on the same target after dealing damage with your Sword."
                 }
               ]
             },
@@ -4889,81 +4928,9 @@
           "name": "Subtlety",
           "talents": [
             {
-              "id": 241,
-              "row": 0,
-              "col": 0,
-              "icon": "spell_shadow_charm",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Master of Deception",
-              "ranks": [
-                {
-                  "spellId": 13958,
-                  "name": "Master of Deception",
-                  "description": "Reduces the chance enemies have to detect you while in Stealth mode."
-                },
-                {
-                  "spellId": 13970,
-                  "name": "Master of Deception",
-                  "description": "Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 1)."
-                },
-                {
-                  "spellId": 13971,
-                  "name": "Master of Deception",
-                  "description": "Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 2)."
-                },
-                {
-                  "spellId": 13972,
-                  "name": "Master of Deception",
-                  "description": "Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 3)."
-                },
-                {
-                  "spellId": 13973,
-                  "name": "Master of Deception",
-                  "description": "Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 4)."
-                }
-              ]
-            },
-            {
-              "id": 261,
-              "row": 0,
-              "col": 1,
-              "icon": "ability_warrior_warcry",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Opportunity",
-              "ranks": [
-                {
-                  "spellId": 14057,
-                  "name": "Opportunity",
-                  "description": "Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 4%."
-                },
-                {
-                  "spellId": 14072,
-                  "name": "Opportunity",
-                  "description": "Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 8%."
-                },
-                {
-                  "spellId": 14073,
-                  "name": "Opportunity",
-                  "description": "Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 12%."
-                },
-                {
-                  "spellId": 14074,
-                  "name": "Opportunity",
-                  "description": "Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 16%."
-                },
-                {
-                  "spellId": 14075,
-                  "name": "Opportunity",
-                  "description": "Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 20%."
-                }
-              ]
-            },
-            {
               "id": 244,
               "row": 0,
-              "col": 2,
+              "col": 0,
               "icon": "ability_stealth",
               "maxRank": 5,
               "requires": [],
@@ -4997,23 +4964,75 @@
               ]
             },
             {
-              "id": 1700,
-              "row": 1,
-              "col": 0,
-              "icon": "ability_rogue_feint",
-              "maxRank": 2,
+              "id": 241,
+              "row": 0,
+              "col": 1,
+              "icon": "spell_shadow_charm",
+              "maxRank": 3,
               "requires": [],
-              "name": "Sleight of Hand",
+              "name": "Master of Deception",
               "ranks": [
                 {
-                  "spellId": 30892,
-                  "name": "Sleight of Hand",
-                  "description": "Reduces the chance you are critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%."
+                  "spellId": 13958,
+                  "name": "Master of Deception",
+                  "description": "Reduces the chance enemies have to detect you while in Stealth mode."
                 },
                 {
-                  "spellId": 30893,
-                  "name": "Sleight of Hand",
-                  "description": "Reduces the chance you are critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
+                  "spellId": 13970,
+                  "name": "Master of Deception",
+                  "description": "Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 1)."
+                },
+                {
+                  "spellId": 13971,
+                  "name": "Master of Deception",
+                  "description": "Reduces the chance enemies have to detect you while in Stealth mode.  More effective than Master of Deception (Rank 2)."
+                }
+              ]
+            },
+            {
+              "id": 261,
+              "row": 0,
+              "col": 2,
+              "icon": "ability_warrior_warcry",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Opportunity",
+              "ranks": [
+                {
+                  "spellId": 14057,
+                  "name": "Opportunity",
+                  "description": "Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 4%."
+                },
+                {
+                  "spellId": 14072,
+                  "name": "Opportunity",
+                  "description": "Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 8%."
+                }
+              ]
+            },
+            {
+              "id": 246,
+              "row": 1,
+              "col": 0,
+              "icon": "spell_nature_mirrorimage",
+              "maxRank": 3,
+              "requires": [],
+              "name": "Setup",
+              "ranks": [
+                {
+                  "spellId": 13983,
+                  "name": "Setup",
+                  "description": "Gives you a 15% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells."
+                },
+                {
+                  "spellId": 14070,
+                  "name": "Setup",
+                  "description": "Gives you a 30% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells."
+                },
+                {
+                  "spellId": 14071,
+                  "name": "Setup",
+                  "description": "Gives you a 45% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells."
                 }
               ]
             },
@@ -5035,6 +5054,54 @@
                   "spellId": 14066,
                   "name": "Elusiveness",
                   "description": "Reduces the cooldown of your Vanish and Blind abilities by 1.5 min."
+                }
+              ]
+            },
+            {
+              "id": 90115,
+              "row": 1,
+              "col": 2,
+              "icon": "ability_sap",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Dirty Tricks",
+              "ranks": [
+                {
+                  "spellId": 901150,
+                  "name": "Dirty Tricks",
+                  "description": "Reduces the Energy cost of your Sap and Blind abilities by 25%."
+                },
+                {
+                  "spellId": 901151,
+                  "name": "Dirty Tricks",
+                  "description": "Reduces the Energy cost of your Sap and Blind abilities by 25%."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 263,
+              "row": 1,
+              "col": 3,
+              "icon": "ability_rogue_ambush",
+              "maxRank": 3,
+              "requires": [],
+              "name": "Improved Ambush",
+              "ranks": [
+                {
+                  "spellId": 14079,
+                  "name": "Improved Ambush",
+                  "description": "Increases the critical strike chance of your Ambush ability by 15%."
+                },
+                {
+                  "spellId": 14080,
+                  "name": "Improved Ambush",
+                  "description": "Increases the critical strike chance of your Ambush ability by 30%."
+                },
+                {
+                  "spellId": 14081,
+                  "name": "Improved Ambush",
+                  "description": "Increases the critical strike chance of your Ambush ability by 45%."
                 }
               ]
             },
@@ -5081,80 +5148,61 @@
               ]
             },
             {
-              "id": 263,
+              "id": 90116,
               "row": 2,
               "col": 2,
-              "icon": "ability_rogue_ambush",
-              "maxRank": 3,
+              "icon": "ability_rogue_distract",
+              "maxRank": 2,
               "requires": [],
-              "name": "Improved Ambush",
+              "name": "Improved Distract",
               "ranks": [
                 {
-                  "spellId": 14079,
-                  "name": "Improved Ambush",
-                  "description": "Increases the critical strike chance of your Ambush ability by 15%."
+                  "spellId": 901160,
+                  "name": "Improved Distract",
+                  "description": "Increases the radius of your Distract ability by 3 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 1 level lower."
                 },
                 {
-                  "spellId": 14080,
-                  "name": "Improved Ambush",
-                  "description": "Increases the critical strike chance of your Ambush ability by 30%."
-                },
-                {
-                  "spellId": 14081,
-                  "name": "Improved Ambush",
-                  "description": "Increases the critical strike chance of your Ambush ability by 45%."
+                  "spellId": 901161,
+                  "name": "Improved Distract",
+                  "description": "Increases the radius of your Distract ability by 3 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 1 level lower."
                 }
-              ]
+              ],
+              "review": "new"
             },
             {
-              "id": 246,
+              "id": 1701,
               "row": 3,
               "col": 0,
-              "icon": "spell_nature_mirrorimage",
-              "maxRank": 3,
+              "icon": "ability_ambush",
+              "maxRank": 2,
               "requires": [],
-              "name": "Setup",
+              "name": "Heightened Senses",
               "ranks": [
                 {
-                  "spellId": 13983,
-                  "name": "Setup",
-                  "description": "Gives you a 15% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells."
+                  "spellId": 30894,
+                  "name": "Heightened Senses",
+                  "description": "Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%."
                 },
                 {
-                  "spellId": 14070,
-                  "name": "Setup",
-                  "description": "Gives you a 30% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells."
-                },
-                {
-                  "spellId": 14071,
-                  "name": "Setup",
-                  "description": "Gives you a 45% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells."
+                  "spellId": 30895,
+                  "name": "Heightened Senses",
+                  "description": "Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 4%.  More effective than Heightened Senses (Rank 1)."
                 }
               ]
             },
             {
-              "id": 262,
+              "id": 381,
               "row": 3,
               "col": 1,
-              "icon": "ability_sap",
-              "maxRank": 3,
+              "icon": "spell_shadow_possession",
+              "maxRank": 1,
               "requires": [],
-              "name": "Improved Sap",
+              "name": "Premeditation",
               "ranks": [
                 {
-                  "spellId": 14076,
-                  "name": "Improved Sap",
-                  "description": "Gives you a 30% chance to return to stealth mode after using your Sap ability."
-                },
-                {
-                  "spellId": 14094,
-                  "name": "Improved Sap",
-                  "description": "Gives you a 60% chance to return to stealth mode after using your Sap ability."
-                },
-                {
-                  "spellId": 14095,
-                  "name": "Improved Sap",
-                  "description": "Gives you a 90% chance to return to stealth mode after using your Sap ability."
+                  "spellId": 14183,
+                  "name": "Premeditation",
+                  "description": "When used, adds 2 combo points to your target.  You must add to or use those combo points within 10 sec or the combo points are lost."
                 }
               ]
             },
@@ -5185,30 +5233,9 @@
               ]
             },
             {
-              "id": 1701,
-              "row": 4,
-              "col": 0,
-              "icon": "ability_ambush",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Heightened Senses",
-              "ranks": [
-                {
-                  "spellId": 30894,
-                  "name": "Heightened Senses",
-                  "description": "Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%."
-                },
-                {
-                  "spellId": 30895,
-                  "name": "Heightened Senses",
-                  "description": "Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 4%.  More effective than Heightened Senses (Rank 1)."
-                }
-              ]
-            },
-            {
               "id": 265,
               "row": 4,
-              "col": 2,
+              "col": 0,
               "icon": "spell_shadow_summonsuccubus",
               "maxRank": 2,
               "requires": [],
@@ -5227,20 +5254,144 @@
               ]
             },
             {
-              "id": 381,
-              "row": 6,
+              "id": 264,
+              "row": 4,
               "col": 1,
-              "icon": "spell_shadow_possession",
+              "icon": "spell_shadow_antishadow",
               "maxRank": 1,
               "requires": [],
-              "name": "Premeditation",
+              "name": "Preparation",
               "ranks": [
                 {
-                  "spellId": 14183,
-                  "name": "Premeditation",
-                  "description": "When used, adds 2 combo points to your target.  You must add to or use those combo points within 10 sec or the combo points are lost."
+                  "spellId": 2640,
+                  "name": "Preparation",
+                  "description": "When activated, this ability immediately finishes the cooldown on your other Rogue abilities."
                 }
-              ]
+              ],
+              "review": "new"
+            },
+            {
+              "id": 176,
+              "row": 4,
+              "col": 2,
+              "icon": "spell_shadow_lifedrain",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 1123,
+                  "qty": 3
+                }
+              ],
+              "name": "Hemorrhage",
+              "ranks": [
+                {
+                  "spellId": 1760,
+                  "name": "Hemorrhage",
+                  "description": "An instant strike that deals 100% weapon damage (145% if a Dagger is equipped) and causes the target to take 15% increased Rupture damage from the Rogue. Lasts 15 sec. Awards 1 Combo Point."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 90117,
+              "row": 5,
+              "col": 0,
+              "icon": "ability_rogue_garrote",
+              "maxRank": 5,
+              "requires": [
+                {
+                  "id": 265,
+                  "qty": 2
+                }
+              ],
+              "name": "Quietus",
+              "ranks": [
+                {
+                  "spellId": 901170,
+                  "name": "Quietus",
+                  "description": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 2% more damage against targets below 35% health."
+                },
+                {
+                  "spellId": 901171,
+                  "name": "Quietus",
+                  "description": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 2% more damage against targets below 35% health."
+                },
+                {
+                  "spellId": 901172,
+                  "name": "Quietus",
+                  "description": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 2% more damage against targets below 35% health."
+                },
+                {
+                  "spellId": 901173,
+                  "name": "Quietus",
+                  "description": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 2% more damage against targets below 35% health."
+                },
+                {
+                  "spellId": 901174,
+                  "name": "Quietus",
+                  "description": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 2% more damage against targets below 35% health."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 90118,
+              "row": 5,
+              "col": 2,
+              "icon": "inv_throwingknife_04",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Cutthroat",
+              "ranks": [
+                {
+                  "spellId": 901180,
+                  "name": "Cutthroat",
+                  "description": "Your Backstab has a 3% chance to cause your next Ambush within 10 sec to not require Stealth."
+                },
+                {
+                  "spellId": 901181,
+                  "name": "Cutthroat",
+                  "description": "Your Backstab has a 3% chance to cause your next Ambush within 10 sec to not require Stealth."
+                },
+                {
+                  "spellId": 901182,
+                  "name": "Cutthroat",
+                  "description": "Your Backstab has a 3% chance to cause your next Ambush within 10 sec to not require Stealth."
+                },
+                {
+                  "spellId": 901183,
+                  "name": "Cutthroat",
+                  "description": "Your Backstab has a 3% chance to cause your next Ambush within 10 sec to not require Stealth."
+                },
+                {
+                  "spellId": 901184,
+                  "name": "Cutthroat",
+                  "description": "Your Backstab has a 3% chance to cause your next Ambush within 10 sec to not require Stealth."
+                }
+              ],
+              "review": "new"
+            },
+            {
+              "id": 90119,
+              "row": 6,
+              "col": 1,
+              "icon": "ability_rogue_rupture",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 264,
+                  "qty": 1
+                }
+              ],
+              "name": "Thousand Cuts",
+              "ranks": [
+                {
+                  "spellId": 901190,
+                  "name": "Thousand Cuts",
+                  "description": "When your Rupture ability deals periodic damage, the Energy cost of your next Hemorrhage or Backstab ability within 10 sec is reduced by 3, stacking up to 5 times."
+                }
+              ],
+              "review": "new"
             }
           ],
           "icon": "ability_stealth"
@@ -5628,12 +5779,7 @@
               "col": 1,
               "icon": "spell_holy_penance",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 1201,
-                  "qty": 5
-                }
-              ],
+              "requires": [],
               "name": "Penance",
               "ranks": [
                 {
@@ -6087,12 +6233,7 @@
               "col": 1,
               "icon": "inv_enchant_essenceeternallarge",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 408,
-                  "qty": 3
-                }
-              ],
+              "requires": [],
               "name": "Spirit of Redemption",
               "ranks": [
                 {
@@ -6144,12 +6285,7 @@
               "col": 2,
               "icon": "spell_nature_moonglow",
               "maxRank": 3,
-              "requires": [
-                {
-                  "id": 402,
-                  "qty": 5
-                }
-              ],
+              "requires": [],
               "name": "Spiritual Healing",
               "ranks": [
                 {
@@ -6546,12 +6682,7 @@
               "col": 0,
               "icon": "spell_shadow_impphaseshift",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 483,
-                  "qty": 2
-                }
-              ],
+              "requires": [],
               "name": "Silence",
               "ranks": [
                 {
@@ -6749,32 +6880,6 @@
               ]
             },
             {
-              "id": 561,
-              "row": 0,
-              "col": 3,
-              "icon": "spell_fire_immolation",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Call of Flame",
-              "ranks": [
-                {
-                  "spellId": 16038,
-                  "name": "Call of Flame",
-                  "description": "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 5%."
-                },
-                {
-                  "spellId": 16160,
-                  "name": "Call of Flame",
-                  "description": "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 10%."
-                },
-                {
-                  "spellId": 16161,
-                  "name": "Call of Flame",
-                  "description": "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 15%."
-                }
-              ]
-            },
-            {
               "id": 1640,
               "row": 1,
               "col": 0,
@@ -6837,70 +6942,38 @@
               ]
             },
             {
-              "id": 574,
+              "id": 561,
               "row": 1,
               "col": 2,
-              "icon": "spell_shadow_manaburn",
-              "maxRank": 1,
+              "icon": "spell_fire_immolation",
+              "maxRank": 3,
               "requires": [],
-              "name": "Elemental Focus",
+              "name": "Call of Flame",
               "ranks": [
                 {
-                  "spellId": 16164,
-                  "name": "Elemental Focus",
-                  "description": "Gives you a 10% chance to enter a Clearcasting state after casting any Fire, Frost, or Nature damage spell. The Clearcasting state reduces the mana cost of your next damage spell by 100%."
-                }
-              ]
-            },
-            {
-              "id": 90070,
-              "row": 1,
-              "col": 3,
-              "icon": "spell_shaman_lavaburst",
-              "maxRank": 1,
-              "requires": [
+                  "spellId": 16038,
+                  "name": "Call of Flame",
+                  "description": "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 5%."
+                },
                 {
-                  "id": 561,
-                  "qty": 3
-                }
-              ],
-              "name": "Lava Burst",
-              "ranks": [
+                  "spellId": 16160,
+                  "name": "Call of Flame",
+                  "description": "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 10%."
+                },
                 {
-                  "spellId": 900700,
-                  "name": "Lava Burst",
-                  "description": "You hurl molten lava at the target, dealing 158 to 187 Fire damage. If your Flame Shock is on the target, Lava Burst deals 20% increased damage."
-                }
-              ]
-            },
-            {
-              "id": 562,
-              "row": 2,
-              "col": 1,
-              "icon": "spell_nature_callstorm",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Call of Thunder",
-              "ranks": [
-                {
-                  "spellId": 16041,
-                  "name": "Call of Thunder",
-                  "description": "Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by 3%."
+                  "spellId": 16161,
+                  "name": "Call of Flame",
+                  "description": "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 15%."
                 }
               ]
             },
             {
               "id": 1645,
-              "row": 2,
-              "col": 2,
+              "row": 1,
+              "col": 3,
               "icon": "classic_spell_fire_elementaldevastation",
               "maxRank": 3,
-              "requires": [
-                {
-                  "id": 574,
-                  "qty": 1
-                }
-              ],
+              "requires": [],
               "name": "Elemental Devastation",
               "ranks": [
                 {
@@ -6921,69 +6994,28 @@
               ]
             },
             {
-              "id": 567,
-              "row": 3,
-              "col": 0,
-              "icon": "spell_fire_sealoffire",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Improved Fire Nova",
-              "ranks": [
-                {
-                  "spellId": 16086,
-                  "name": "Improved Fire Nova",
-                  "description": "Increases the damage done by your Fire Nova spell by 10% and reduces its cooldown by 2 sec."
-                },
-                {
-                  "spellId": 16544,
-                  "name": "Improved Fire Nova",
-                  "description": "Increases the damage done by your Fire Nova spell by 20% and reduces its cooldown by 4 sec."
-                }
-              ]
-            },
-            {
-              "id": 90071,
-              "row": 3,
+              "id": 574,
+              "row": 2,
               "col": 1,
-              "icon": "spell_nature_lightningoverload",
-              "maxRank": 3,
-              "requires": [
-                {
-                  "id": 562,
-                  "qty": 1
-                }
-              ],
-              "name": "Lightning Overload",
+              "icon": "spell_shadow_manaburn",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Elemental Focus",
               "ranks": [
                 {
-                  "spellId": 900710,
-                  "name": "Lightning Overload",
-                  "description": "Gives your Lightning Bolt and Chain Lightning spells a 3% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
-                },
-                {
-                  "spellId": 900711,
-                  "name": "Lightning Overload",
-                  "description": "Gives your Lightning Bolt and Chain Lightning spells a 6% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
-                },
-                {
-                  "spellId": 900712,
-                  "name": "Lightning Overload",
-                  "description": "Gives your Lightning Bolt and Chain Lightning spells a 9% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
+                  "spellId": 16164,
+                  "name": "Elemental Focus",
+                  "description": "Gives you a 10% chance to enter a Clearcasting state after casting any Fire, Frost, or Nature damage spell. The Clearcasting state reduces the mana cost of your next damage spell by 100%."
                 }
               ]
             },
             {
               "id": 565,
-              "row": 3,
+              "row": 2,
               "col": 2,
               "icon": "spell_fire_volcano",
               "maxRank": 5,
-              "requires": [
-                {
-                  "id": 1645,
-                  "qty": 3
-                }
-              ],
+              "requires": [],
               "name": "Elemental Fury",
               "ranks": [
                 {
@@ -7014,64 +7046,33 @@
               ]
             },
             {
-              "id": 1641,
+              "id": 567,
               "row": 3,
-              "col": 3,
-              "icon": "spell_nature_stormreach",
+              "col": 0,
+              "icon": "spell_fire_sealoffire",
               "maxRank": 2,
               "requires": [],
-              "name": "Elemental Reach",
+              "name": "Improved Fire Nova",
               "ranks": [
                 {
-                  "spellId": 28999,
-                  "name": "Elemental Reach",
-                  "description": "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 3 yards, and increases the range of your Flame Shock spell by 8 yards."
+                  "spellId": 16086,
+                  "name": "Improved Fire Nova",
+                  "description": "Increases the damage done by your Fire Nova spell by 10% and reduces its cooldown by 2 sec."
                 },
                 {
-                  "spellId": 29000,
-                  "name": "Elemental Reach",
-                  "description": "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 6 yards, and increases the range of your Flame Shock spell by 16 yards."
-                }
-              ]
-            },
-            {
-              "id": 90072,
-              "row": 4,
-              "col": 1,
-              "icon": "spell_nature_lightning",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Elemental Alacrity",
-              "ranks": [
-                {
-                  "spellId": 900720,
-                  "name": "Elemental Alacrity",
-                  "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.17 sec."
-                },
-                {
-                  "spellId": 900721,
-                  "name": "Elemental Alacrity",
-                  "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.34 sec."
-                },
-                {
-                  "spellId": 900722,
-                  "name": "Elemental Alacrity",
-                  "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.51 sec."
+                  "spellId": 16544,
+                  "name": "Improved Fire Nova",
+                  "description": "Increases the damage done by your Fire Nova spell by 20% and reduces its cooldown by 4 sec."
                 }
               ]
             },
             {
               "id": 1642,
-              "row": 4,
-              "col": 2,
+              "row": 3,
+              "col": 1,
               "icon": "spell_nature_eyeofthestorm",
               "maxRank": 3,
-              "requires": [
-                {
-                  "id": 565,
-                  "qty": 5
-                }
-              ],
+              "requires": [],
               "name": "Eye of the Storm",
               "ranks": [
                 {
@@ -7092,23 +7093,138 @@
               ]
             },
             {
-              "id": 90073,
-              "row": 6,
-              "col": 1,
-              "icon": "spell_nature_strengthofearthtotem02",
+              "id": 562,
+              "row": 3,
+              "col": 2,
+              "icon": "spell_nature_callstorm",
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 90072,
-                  "qty": 3
+                  "id": 565,
+                  "qty": 5
                 }
               ],
+              "name": "Call of Thunder",
+              "ranks": [
+                {
+                  "spellId": 16041,
+                  "name": "Call of Thunder",
+                  "description": "Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by 3%."
+                }
+              ]
+            },
+            {
+              "id": 1641,
+              "row": 4,
+              "col": 0,
+              "icon": "spell_nature_stormreach",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Elemental Reach",
+              "ranks": [
+                {
+                  "spellId": 28999,
+                  "name": "Elemental Reach",
+                  "description": "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 3 yards, and increases the range of your Flame Shock spell by 8 yards."
+                },
+                {
+                  "spellId": 29000,
+                  "name": "Elemental Reach",
+                  "description": "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 6 yards, and increases the range of your Flame Shock spell by 16 yards."
+                }
+              ]
+            },
+            {
+              "id": 90071,
+              "row": 4,
+              "col": 1,
+              "icon": "spell_nature_lightningoverload",
+              "maxRank": 3,
+              "requires": [],
+              "name": "Lightning Overload",
+              "ranks": [
+                {
+                  "spellId": 900710,
+                  "name": "Lightning Overload",
+                  "description": "Gives your Lightning Bolt and Chain Lightning spells a 3% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
+                },
+                {
+                  "spellId": 900711,
+                  "name": "Lightning Overload",
+                  "description": "Gives your Lightning Bolt and Chain Lightning spells a 6% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
+                },
+                {
+                  "spellId": 900712,
+                  "name": "Lightning Overload",
+                  "description": "Gives your Lightning Bolt and Chain Lightning spells a 9% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
+                }
+              ]
+            },
+            {
+              "id": 90073,
+              "row": 4,
+              "col": 3,
+              "icon": "spell_nature_strengthofearthtotem02",
+              "maxRank": 1,
+              "requires": [],
               "name": "Earthbound",
               "ranks": [
                 {
                   "spellId": 900730,
                   "name": "Earthbound",
                   "description": "Your Earthbind Totem immobilizes nearby targets for 5 sec when cast."
+                }
+              ]
+            },
+            {
+              "id": 90072,
+              "row": 5,
+              "col": 2,
+              "icon": "spell_nature_lightning",
+              "maxRank": 3,
+              "requires": [
+                {
+                  "id": 562,
+                  "qty": 1
+                }
+              ],
+              "name": "Elemental Alacrity",
+              "ranks": [
+                {
+                  "spellId": 900720,
+                  "name": "Elemental Alacrity",
+                  "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.17 sec."
+                },
+                {
+                  "spellId": 900721,
+                  "name": "Elemental Alacrity",
+                  "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.34 sec."
+                },
+                {
+                  "spellId": 900722,
+                  "name": "Elemental Alacrity",
+                  "description": "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.51 sec."
+                }
+              ]
+            },
+            {
+              "id": 90070,
+              "row": 6,
+              "col": 1,
+              "icon": "spell_shaman_lavaburst",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 90071,
+                  "qty": 3
+                }
+              ],
+              "name": "Lava Burst",
+              "ranks": [
+                {
+                  "spellId": 900700,
+                  "name": "Lava Burst",
+                  "description": "You hurl molten lava at the target, dealing 158 to 187 Fire damage. If your Flame Shock is on the target, Lava Burst deals 20% increased damage."
                 }
               ]
             }
@@ -7120,8 +7236,101 @@
           "name": "Enhancement",
           "talents": [
             {
-              "id": 609,
+              "id": 572,
               "row": 0,
+              "col": 0,
+              "icon": "spell_nature_stoneclawtotem",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Earth's Grasp",
+              "ranks": [
+                {
+                  "spellId": 16043,
+                  "name": "Earth's Grasp",
+                  "description": "Increases the health of your Stoneclaw Totem by 25% and the radius of your Earthbind Totem by 10%."
+                },
+                {
+                  "spellId": 16130,
+                  "name": "Earth's Grasp",
+                  "description": "Increases the health of your Stoneclaw Totem by 50% and the radius of your Earthbind Totem by 20%."
+                }
+              ]
+            },
+            {
+              "id": 613,
+              "row": 0,
+              "col": 1,
+              "icon": "ability_thunderbolt",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Thundering Strikes",
+              "ranks": [
+                {
+                  "spellId": 16255,
+                  "name": "Thundering Strikes",
+                  "description": "Improves your chance to get a critical strike with all spells and attacks by 1%."
+                },
+                {
+                  "spellId": 16302,
+                  "name": "Thundering Strikes",
+                  "description": "Improves your chance to get a critical strike with all spells and attacks by 2%."
+                },
+                {
+                  "spellId": 16303,
+                  "name": "Thundering Strikes",
+                  "description": "Improves your chance to get a critical strike with all spells and attacks by 3%."
+                },
+                {
+                  "spellId": 16304,
+                  "name": "Thundering Strikes",
+                  "description": "Improves your chance to get a critical strike with all spells and attacks by 4%."
+                },
+                {
+                  "spellId": 16305,
+                  "name": "Thundering Strikes",
+                  "description": "Improves your chance to get a critical strike with all spells and attacks by 5%."
+                }
+              ]
+            },
+            {
+              "id": 614,
+              "row": 0,
+              "col": 2,
+              "icon": "spell_shadow_grimward",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Ancestral Knowledge",
+              "ranks": [
+                {
+                  "spellId": 17485,
+                  "name": "Ancestral Knowledge",
+                  "description": "Increases your Intellect by 2%."
+                },
+                {
+                  "spellId": 17486,
+                  "name": "Ancestral Knowledge",
+                  "description": "Increases your Intellect by 4%."
+                },
+                {
+                  "spellId": 17487,
+                  "name": "Ancestral Knowledge",
+                  "description": "Increases your Intellect by 6%."
+                },
+                {
+                  "spellId": 17488,
+                  "name": "Ancestral Knowledge",
+                  "description": "Increases your Intellect by 8%."
+                },
+                {
+                  "spellId": 17489,
+                  "name": "Ancestral Knowledge",
+                  "description": "Increases your Intellect by 10%."
+                }
+              ]
+            },
+            {
+              "id": 609,
+              "row": 1,
               "col": 0,
               "icon": "spell_nature_stoneskintotem",
               "maxRank": 2,
@@ -7141,80 +7350,12 @@
               ]
             },
             {
-              "id": 90074,
-              "row": 0,
-              "col": 1,
-              "icon": "spell_nature_elementalabsorption",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Shamanistic Focus",
-              "ranks": [
-                {
-                  "spellId": 900740,
-                  "name": "Shamanistic Focus",
-                  "description": "Reduces the mana cost of your Shock and Lightning Shield spells by 45%."
-                }
-              ]
-            },
-            {
-              "id": 601,
-              "row": 0,
-              "col": 2,
-              "icon": "spell_nature_mirrorimage",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Anticipation",
-              "ranks": [
-                {
-                  "spellId": 16254,
-                  "name": "Anticipation",
-                  "description": "Increases your chance to dodge by an additional 2%."
-                },
-                {
-                  "spellId": 16271,
-                  "name": "Anticipation",
-                  "description": "Increases your chance to dodge by an additional 4%."
-                },
-                {
-                  "spellId": 16272,
-                  "name": "Anticipation",
-                  "description": "Increases your chance to dodge by an additional 6%."
-                }
-              ]
-            },
-            {
-              "id": 605,
-              "row": 1,
-              "col": 0,
-              "icon": "spell_nature_spiritwolf",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Improved Ghost Wolf",
-              "ranks": [
-                {
-                  "spellId": 16262,
-                  "name": "Improved Ghost Wolf",
-                  "description": "Reduces the cast time of your Ghost Wolf spell by 1.0 sec, and Ghost Wolf may be used indoors."
-                },
-                {
-                  "spellId": 16287,
-                  "name": "Improved Ghost Wolf",
-                  "description": "Reduces the cast time of your Ghost Wolf spell by 2 sec, and Ghost Wolf may be used indoors."
-                }
-              ]
-            },
-            {
               "id": 90075,
               "row": 1,
               "col": 1,
-              "icon": "spell_nature_bloodlust",
+              "icon": "ability_shaman_mentaldexterity",
               "maxRank": 3,
-              "requires": [
-                {
-                  "id": 90074,
-                  "qty": 1
-                }
-              ],
+              "requires": [],
               "name": "Mental Dexterity",
               "ranks": [
                 {
@@ -7235,9 +7376,30 @@
               ]
             },
             {
-              "id": 607,
+              "id": 605,
               "row": 1,
               "col": 2,
+              "icon": "spell_nature_spiritwolf",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Improved Ghost Wolf",
+              "ranks": [
+                {
+                  "spellId": 16262,
+                  "name": "Improved Ghost Wolf",
+                  "description": "Reduces the cast time of your Ghost Wolf spell by 1.0 sec, and Ghost Wolf may be used indoors."
+                },
+                {
+                  "spellId": 16287,
+                  "name": "Improved Ghost Wolf",
+                  "description": "Reduces the cast time of your Ghost Wolf spell by 2 sec, and Ghost Wolf may be used indoors."
+                }
+              ]
+            },
+            {
+              "id": 607,
+              "row": 1,
+              "col": 3,
               "icon": "spell_nature_lightningshield",
               "maxRank": 3,
               "requires": [],
@@ -7261,9 +7423,77 @@
               ]
             },
             {
-              "id": 615,
-              "row": 1,
+              "id": 611,
+              "row": 2,
+              "col": 0,
+              "icon": "spell_fire_flametounge",
+              "maxRank": 3,
+              "requires": [],
+              "name": "Elemental Weapons",
+              "ranks": [
+                {
+                  "spellId": 16266,
+                  "name": "Elemental Weapons",
+                  "description": "Increases the melee attack power bonus of your Rockbiter Weapon by 7%, your Windfury Weapon effect by 13% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 5%."
+                },
+                {
+                  "spellId": 29079,
+                  "name": "Elemental Weapons",
+                  "description": "Increases the melee attack power bonus of your Rockbiter Weapon by 14%, your Windfury Weapon effect by 27% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 10%."
+                },
+                {
+                  "spellId": 29080,
+                  "name": "Elemental Weapons",
+                  "description": "Increases the melee attack power bonus of your Rockbiter Weapon by 20%, your Windfury Weapon effect by 40% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 15%."
+                }
+              ]
+            },
+            {
+              "id": 90074,
+              "row": 2,
+              "col": 2,
+              "icon": "spell_nature_elementalabsorption",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Shamanistic Focus",
+              "ranks": [
+                {
+                  "spellId": 900740,
+                  "name": "Shamanistic Focus",
+                  "description": "Reduces the mana cost of your Shock and Lightning Shield spells by 45%."
+                }
+              ]
+            },
+            {
+              "id": 601,
+              "row": 2,
               "col": 3,
+              "icon": "spell_nature_mirrorimage",
+              "maxRank": 3,
+              "requires": [],
+              "name": "Anticipation",
+              "ranks": [
+                {
+                  "spellId": 16254,
+                  "name": "Anticipation",
+                  "description": "Increases your chance to dodge by an additional 2%."
+                },
+                {
+                  "spellId": 16271,
+                  "name": "Anticipation",
+                  "description": "Increases your chance to dodge by an additional 4%."
+                },
+                {
+                  "spellId": 16272,
+                  "name": "Anticipation",
+                  "description": "Increases your chance to dodge by an additional 6%."
+                }
+              ]
+            },
+            {
+              "id": 615,
+              "row": 3,
+              "col": 0,
               "icon": "spell_holy_devotion",
               "maxRank": 5,
               "requires": [],
@@ -7293,22 +7523,6 @@
                   "spellId": 16309,
                   "name": "Toughness",
                   "description": "Increases your Stamina by 10%."
-                }
-              ]
-            },
-            {
-              "id": 90076,
-              "row": 3,
-              "col": 0,
-              "icon": "ability_dualwield",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Spirit Weapons",
-              "ranks": [
-                {
-                  "spellId": 900760,
-                  "name": "Spirit Weapons",
-                  "description": "Gives a chance to parry enemy melee attacks, reduces all threat generated by your attacks by 30% while Rockbiter Weapon is not active, and increases all threat generated by 30% while Rockbiter Weapon is active."
                 }
               ]
             },
@@ -7370,9 +7584,46 @@
               ]
             },
             {
-              "id": 90077,
+              "id": 90076,
               "row": 4,
               "col": 0,
+              "icon": "ability_dualwield",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Spirit Weapons",
+              "ranks": [
+                {
+                  "spellId": 900760,
+                  "name": "Spirit Weapons",
+                  "description": "Gives a chance to parry enemy melee attacks, reduces all threat generated by your attacks by 30% while Rockbiter Weapon is not active, and increases all threat generated by 30% while Rockbiter Weapon is active."
+                }
+              ]
+            },
+            {
+              "id": 90079,
+              "row": 4,
+              "col": 1,
+              "icon": "spell_nature_mentalquickness",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Mental Quickness",
+              "ranks": [
+                {
+                  "spellId": 900790,
+                  "name": "Mental Quickness",
+                  "description": "Increases your spell damage and healing by up to 15% of your Intellect."
+                },
+                {
+                  "spellId": 900791,
+                  "name": "Mental Quickness",
+                  "description": "Increases your spell damage and healing by up to 30% of your Intellect."
+                }
+              ]
+            },
+            {
+              "id": 90077,
+              "row": 4,
+              "col": 2,
               "icon": "ability_shaman_stormstrike",
               "maxRank": 2,
               "requires": [
@@ -7397,8 +7648,8 @@
             },
             {
               "id": 90078,
-              "row": 4,
-              "col": 1,
+              "row": 5,
+              "col": 2,
               "icon": "spell_shaman_maelstromweapon",
               "maxRank": 5,
               "requires": [],
@@ -7432,58 +7683,6 @@
               ]
             },
             {
-              "id": 611,
-              "row": 4,
-              "col": 2,
-              "icon": "spell_fire_flametounge",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Elemental Weapons",
-              "ranks": [
-                {
-                  "spellId": 16266,
-                  "name": "Elemental Weapons",
-                  "description": "Increases the melee attack power bonus of your Rockbiter Weapon by 7%, your Windfury Weapon effect by 13% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 5%."
-                },
-                {
-                  "spellId": 29079,
-                  "name": "Elemental Weapons",
-                  "description": "Increases the melee attack power bonus of your Rockbiter Weapon by 14%, your Windfury Weapon effect by 27% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 10%."
-                },
-                {
-                  "spellId": 29080,
-                  "name": "Elemental Weapons",
-                  "description": "Increases the melee attack power bonus of your Rockbiter Weapon by 20%, your Windfury Weapon effect by 40% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 15%."
-                }
-              ]
-            },
-            {
-              "id": 90079,
-              "row": 5,
-              "col": 2,
-              "icon": "spell_nature_astralrecal",
-              "maxRank": 2,
-              "requires": [
-                {
-                  "id": 611,
-                  "qty": 3
-                }
-              ],
-              "name": "Mental Quickness",
-              "ranks": [
-                {
-                  "spellId": 900790,
-                  "name": "Mental Quickness",
-                  "description": "Increases your spell damage and healing by up to 15% of your Intellect."
-                },
-                {
-                  "spellId": 900791,
-                  "name": "Mental Quickness",
-                  "description": "Increases your spell damage and healing by up to 30% of your Intellect."
-                }
-              ]
-            },
-            {
               "id": 90080,
               "row": 6,
               "col": 1,
@@ -7491,8 +7690,8 @@
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 90078,
-                  "qty": 5
+                  "id": 90079,
+                  "qty": 2
                 }
               ],
               "name": "Rage of the Farseer",
@@ -7548,38 +7747,38 @@
               ]
             },
             {
-              "id": 593,
+              "id": 594,
               "row": 0,
               "col": 2,
-              "icon": "spell_frost_manarecharge",
+              "icon": "spell_nature_tranquility",
               "maxRank": 5,
               "requires": [],
-              "name": "Tidal Focus",
+              "name": "Tidal Mastery",
               "ranks": [
                 {
-                  "spellId": 16179,
-                  "name": "Tidal Focus",
-                  "description": "Reduces the Mana cost of your healing spells by 1% and increases your chance to hit with all spells and attacks by 1%."
+                  "spellId": 16194,
+                  "name": "Tidal Mastery",
+                  "description": "Increases the critical effect chance of your healing spells by 1%."
                 },
                 {
-                  "spellId": 16214,
-                  "name": "Tidal Focus",
-                  "description": "Reduces the Mana cost of your healing spells by 2% and increases your chance to hit with all spells and attacks by 2%."
+                  "spellId": 16218,
+                  "name": "Tidal Mastery",
+                  "description": "Increases the critical effect chance of your healing spells by 2%."
                 },
                 {
-                  "spellId": 16215,
-                  "name": "Tidal Focus",
-                  "description": "Reduces the Mana cost of your healing spells by 3% and increases your chance to hit with all spells and attacks by 3%."
+                  "spellId": 16219,
+                  "name": "Tidal Mastery",
+                  "description": "Increases the critical effect chance of your healing spells by 3%."
                 },
                 {
-                  "spellId": 16216,
-                  "name": "Tidal Focus",
-                  "description": "Reduces the Mana cost of your healing spells by 4% and increases your chance to hit with all spells and attacks by 4%."
+                  "spellId": 16220,
+                  "name": "Tidal Mastery",
+                  "description": "Increases the critical effect chance of your healing spells by 4%."
                 },
                 {
-                  "spellId": 16217,
-                  "name": "Tidal Focus",
-                  "description": "Reduces the Mana cost of your healing spells by 5% and increases your chance to hit with all spells and attacks by 5%."
+                  "spellId": 16221,
+                  "name": "Tidal Mastery",
+                  "description": "Increases the critical effect chance of your healing spells by 5%."
                 }
               ]
             },
@@ -7615,12 +7814,7 @@
               "col": 1,
               "icon": "spell_nature_healingtouch",
               "maxRank": 3,
-              "requires": [
-                {
-                  "id": 586,
-                  "qty": 5
-                }
-              ],
+              "requires": [],
               "name": "Natural Grace",
               "ranks": [
                 {
@@ -7641,40 +7835,66 @@
               ]
             },
             {
-              "id": 587,
+              "id": 593,
               "row": 1,
               "col": 2,
-              "icon": "spell_nature_healingwavelesser",
-              "maxRank": 3,
-              "requires": [
-                {
-                  "id": 593,
-                  "qty": 5
-                }
-              ],
-              "name": "Healing Focus",
+              "icon": "spell_frost_manarecharge",
+              "maxRank": 5,
+              "requires": [],
+              "name": "Tidal Focus",
               "ranks": [
                 {
-                  "spellId": 16181,
-                  "name": "Healing Focus",
-                  "description": "Gives you a 23% chance to avoid interruption caused by damage while casting any healing spell."
+                  "spellId": 16179,
+                  "name": "Tidal Focus",
+                  "description": "Reduces the Mana cost of your healing spells by 1% and increases your chance to hit with all spells and attacks by 1%."
                 },
                 {
-                  "spellId": 16230,
-                  "name": "Healing Focus",
-                  "description": "Gives you a 46% chance to avoid interruption caused by damage while casting any healing spell."
+                  "spellId": 16214,
+                  "name": "Tidal Focus",
+                  "description": "Reduces the Mana cost of your healing spells by 2% and increases your chance to hit with all spells and attacks by 2%."
                 },
                 {
-                  "spellId": 16232,
-                  "name": "Healing Focus",
-                  "description": "Gives you a 69% chance to avoid interruption caused by damage while casting any healing spell."
+                  "spellId": 16215,
+                  "name": "Tidal Focus",
+                  "description": "Reduces the Mana cost of your healing spells by 3% and increases your chance to hit with all spells and attacks by 3%."
+                },
+                {
+                  "spellId": 16216,
+                  "name": "Tidal Focus",
+                  "description": "Reduces the Mana cost of your healing spells by 4% and increases your chance to hit with all spells and attacks by 4%."
+                },
+                {
+                  "spellId": 16217,
+                  "name": "Tidal Focus",
+                  "description": "Reduces the Mana cost of your healing spells by 5% and increases your chance to hit with all spells and attacks by 5%."
+                }
+              ]
+            },
+            {
+              "id": 589,
+              "row": 1,
+              "col": 3,
+              "icon": "spell_nature_reincarnation",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Improved Reincarnation",
+              "ranks": [
+                {
+                  "spellId": 16184,
+                  "name": "Improved Reincarnation",
+                  "description": "Reduces the cooldown of your Reincarnation spell by 10 min, increases your maximum health by 2%, and increases the amount of health and Mana you reincarnate with by an additional 10%."
+                },
+                {
+                  "spellId": 16209,
+                  "name": "Improved Reincarnation",
+                  "description": "Reduces the cooldown of your Reincarnation spell by 20 min, increases your maximum health by 4%, and increases the amount of health and Mana you reincarnate with by an additional 20%."
                 }
               ]
             },
             {
               "id": 581,
-              "row": 1,
-              "col": 3,
+              "row": 2,
+              "col": 0,
               "icon": "spell_nature_undyingstrength",
               "maxRank": 3,
               "requires": [],
@@ -7698,8 +7918,50 @@
               ]
             },
             {
-              "id": 595,
+              "id": 587,
               "row": 2,
+              "col": 1,
+              "icon": "spell_nature_healingwavelesser",
+              "maxRank": 3,
+              "requires": [],
+              "name": "Healing Focus",
+              "ranks": [
+                {
+                  "spellId": 16181,
+                  "name": "Healing Focus",
+                  "description": "Gives you a 23% chance to avoid interruption caused by damage while casting any healing spell."
+                },
+                {
+                  "spellId": 16230,
+                  "name": "Healing Focus",
+                  "description": "Gives you a 46% chance to avoid interruption caused by damage while casting any healing spell."
+                },
+                {
+                  "spellId": 16232,
+                  "name": "Healing Focus",
+                  "description": "Gives you a 69% chance to avoid interruption caused by damage while casting any healing spell."
+                }
+              ]
+            },
+            {
+              "id": 90082,
+              "row": 2,
+              "col": 2,
+              "icon": "ability_shaman_watershield",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Water Shield",
+              "ranks": [
+                {
+                  "spellId": 900820,
+                  "name": "Water Shield",
+                  "description": "The caster is surrounded by 3 globes of water. When a spell, melee, or ranged attack hits the caster or when one of the caster's healing spells gets a critical result, 2% of maximum mana is restored to the caster, expending one water globe. Only one globe will activate every few seconds. Lasts 10 min. Only one Elemental Shield can be active on the Shaman at any one time."
+                }
+              ]
+            },
+            {
+              "id": 595,
+              "row": 3,
               "col": 0,
               "icon": "spell_nature_moonglow",
               "maxRank": 5,
@@ -7734,123 +7996,8 @@
               ]
             },
             {
-              "id": 589,
-              "row": 2,
-              "col": 1,
-              "icon": "spell_nature_reincarnation",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Improved Reincarnation",
-              "ranks": [
-                {
-                  "spellId": 16184,
-                  "name": "Improved Reincarnation",
-                  "description": "Reduces the cooldown of your Reincarnation spell by 10 min, increases your maximum health by 2%, and increases the amount of health and Mana you reincarnate with by an additional 10%."
-                },
-                {
-                  "spellId": 16209,
-                  "name": "Improved Reincarnation",
-                  "description": "Reduces the cooldown of your Reincarnation spell by 20 min, increases your maximum health by 4%, and increases the amount of health and Mana you reincarnate with by an additional 20%."
-                }
-              ]
-            },
-            {
-              "id": 594,
-              "row": 2,
-              "col": 2,
-              "icon": "spell_nature_tranquility",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Tidal Mastery",
-              "ranks": [
-                {
-                  "spellId": 16194,
-                  "name": "Tidal Mastery",
-                  "description": "Increases the critical effect chance of your healing spells by 1%."
-                },
-                {
-                  "spellId": 16218,
-                  "name": "Tidal Mastery",
-                  "description": "Increases the critical effect chance of your healing spells by 2%."
-                },
-                {
-                  "spellId": 16219,
-                  "name": "Tidal Mastery",
-                  "description": "Increases the critical effect chance of your healing spells by 3%."
-                },
-                {
-                  "spellId": 16220,
-                  "name": "Tidal Mastery",
-                  "description": "Increases the critical effect chance of your healing spells by 4%."
-                },
-                {
-                  "spellId": 16221,
-                  "name": "Tidal Mastery",
-                  "description": "Increases the critical effect chance of your healing spells by 5%."
-                }
-              ]
-            },
-            {
-              "id": 90082,
-              "row": 3,
-              "col": 0,
-              "icon": "ability_shaman_watershield",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Water Shield",
-              "ranks": [
-                {
-                  "spellId": 900820,
-                  "name": "Water Shield",
-                  "description": "The caster is surrounded by 3 globes of water. When a spell, melee, or ranged attack hits the caster or when one of the caster's healing spells gets a critical result, 2% of maximum mana is restored to the caster, expending one water globe. Only one globe will activate every few seconds. Lasts 10 min. Only one Elemental Shield can be active on the Shaman at any one time."
-                }
-              ]
-            },
-            {
-              "id": 1648,
-              "row": 3,
-              "col": 1,
-              "icon": "classic_spell_nature_healingway",
-              "maxRank": 3,
-              "requires": [],
-              "name": "Healing Way",
-              "ranks": [
-                {
-                  "spellId": 29206,
-                  "name": "Healing Way",
-                  "description": "Increases the amount healed by your Healing Wave spell by 8%."
-                },
-                {
-                  "spellId": 29205,
-                  "name": "Healing Way",
-                  "description": "Increases the amount healed by your Healing Wave spell by 16%."
-                },
-                {
-                  "spellId": 29202,
-                  "name": "Healing Way",
-                  "description": "Increases the amount healed by your Healing Wave spell by 24%."
-                }
-              ]
-            },
-            {
-              "id": 590,
-              "row": 3,
-              "col": 2,
-              "icon": "spell_frost_summonwaterelemental",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Mana Tide Totem",
-              "ranks": [
-                {
-                  "spellId": 16190,
-                  "name": "Mana Tide Totem",
-                  "description": "Summons a Mana Tide Totem with 5 health at the feet of the caster for 12 sec that restores 88 mana every 3 seconds to group members within 30 yards."
-                }
-              ]
-            },
-            {
               "id": 588,
-              "row": 4,
+              "row": 3,
               "col": 1,
               "icon": "spell_nature_manaregentotem",
               "maxRank": 5,
@@ -7881,6 +8028,48 @@
                   "spellId": 16208,
                   "name": "Restorative Totems",
                   "description": "Increases the effect of your Mana Spring Totem by 25% and increases the effect of your Healing Stream Totem by 50%."
+                }
+              ]
+            },
+            {
+              "id": 590,
+              "row": 3,
+              "col": 2,
+              "icon": "spell_frost_summonwaterelemental",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Mana Tide Totem",
+              "ranks": [
+                {
+                  "spellId": 16190,
+                  "name": "Mana Tide Totem",
+                  "description": "Summons a Mana Tide Totem with 5 health at the feet of the caster for 12 sec that restores 88 mana every 3 seconds to group members within 30 yards."
+                }
+              ]
+            },
+            {
+              "id": 1648,
+              "row": 4,
+              "col": 1,
+              "icon": "classic_spell_nature_healingway",
+              "maxRank": 3,
+              "requires": [],
+              "name": "Healing Way",
+              "ranks": [
+                {
+                  "spellId": 29206,
+                  "name": "Healing Way",
+                  "description": "Increases the amount healed by your Healing Wave spell by 8%."
+                },
+                {
+                  "spellId": 29205,
+                  "name": "Healing Way",
+                  "description": "Increases the amount healed by your Healing Wave spell by 16%."
+                },
+                {
+                  "spellId": 29202,
+                  "name": "Healing Way",
+                  "description": "Increases the amount healed by your Healing Wave spell by 24%."
                 }
               ]
             },
@@ -7944,8 +8133,8 @@
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 588,
-                  "qty": 5
+                  "id": 1648,
+                  "qty": 3
                 }
               ],
               "name": "Riptide",
@@ -9461,8 +9650,8 @@
             {
               "id": 90208,
               "row": 1,
-              "col": 0,
-              "icon": "spell_shadow_haunting",
+              "col": 1,
+              "icon": "inv_elemental_primal_shadow",
               "maxRank": 2,
               "requires": [],
               "name": "Soul Harvesting",
@@ -9482,8 +9671,8 @@
             {
               "id": 90209,
               "row": 1,
-              "col": 1,
-              "icon": "spell_shadow_lifedrain02",
+              "col": 2,
+              "icon": "spell_shadow_haunting",
               "maxRank": 3,
               "requires": [],
               "name": "Improved Drains",
@@ -9507,16 +9696,11 @@
             },
             {
               "id": 1001,
-              "row": 1,
-              "col": 2,
+              "row": 2,
+              "col": 1,
               "icon": "spell_shadow_fingerofdeath",
               "maxRank": 3,
-              "requires": [
-                {
-                  "id": 1003,
-                  "qty": 5
-                }
-              ],
+              "requires": [],
               "name": "Fel Concentration",
               "ranks": [
                 {
@@ -9539,7 +9723,7 @@
             {
               "id": 1061,
               "row": 2,
-              "col": 0,
+              "col": 2,
               "icon": "spell_shadow_contagion",
               "maxRank": 1,
               "requires": [],
@@ -9555,7 +9739,7 @@
             {
               "id": 90210,
               "row": 2,
-              "col": 1,
+              "col": 0,
               "icon": "spell_shadow_curseofsargeras",
               "maxRank": 2,
               "requires": [],
@@ -9575,16 +9759,11 @@
             },
             {
               "id": 1002,
-              "row": 2,
-              "col": 2,
+              "row": 3,
+              "col": 1,
               "icon": "spell_shadow_twilight",
               "maxRank": 2,
-              "requires": [
-                {
-                  "id": 1001,
-                  "qty": 3
-                }
-              ],
+              "requires": [],
               "name": "Nightfall",
               "ranks": [
                 {
@@ -9601,8 +9780,8 @@
             },
             {
               "id": 90211,
-              "row": 2,
-              "col": 3,
+              "row": 1,
+              "col": 0,
               "icon": "spell_shadow_curseofachimonde",
               "maxRank": 5,
               "requires": [],
@@ -9639,7 +9818,7 @@
               "id": 90212,
               "row": 3,
               "col": 0,
-              "icon": "spell_shadow_unholyfrenzy",
+              "icon": "spell_shadow_focusedpower",
               "maxRank": 5,
               "requires": [],
               "name": "Malevolence",
@@ -9673,16 +9852,11 @@
             },
             {
               "id": 1041,
-              "row": 3,
-              "col": 2,
+              "row": 4,
+              "col": 1,
               "icon": "spell_shadow_requiem",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 1002,
-                  "qty": 2
-                }
-              ],
+              "requires": [],
               "name": "Siphon Life",
               "ranks": [
                 {
@@ -9694,11 +9868,16 @@
             },
             {
               "id": 1081,
-              "row": 4,
-              "col": 1,
+              "row": 3,
+              "col": 2,
               "icon": "spell_shadow_grimward",
               "maxRank": 1,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 1061,
+                  "qty": 1
+                }
+              ],
               "name": "Curse of Exhaustion",
               "ranks": [
                 {
@@ -9710,9 +9889,9 @@
             },
             {
               "id": 90213,
-              "row": 5,
-              "col": 1,
-              "icon": "spell_shadow_haunting",
+              "row": 4,
+              "col": 2,
+              "icon": "spell_shadow_lifedrain02",
               "maxRank": 3,
               "requires": [],
               "name": "Soul Siphon",
@@ -9774,11 +9953,11 @@
               "id": 90214,
               "row": 6,
               "col": 1,
-              "icon": "spell_shadow_abominationexplosion",
+              "icon": "spell_shadow_haunting",
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 1081,
+                  "id": 1041,
                   "qty": 1
                 }
               ],
@@ -9788,6 +9967,32 @@
                   "spellId": 900760,
                   "name": "Drain Hope",
                   "description": "Drains all hope from the target, dealing 52 Shadow damage every 1 sec and increasing all other Shadow damage over time you deal to that target by 10%. Lasts 6 sec."
+                }
+              ]
+            },
+            {
+              "id": 90222,
+              "row": 2,
+              "col": 3,
+              "icon": "spell_shadow_unstableaffliction_2",
+              "maxRank": 3,
+              "requires": [],
+              "name": "Pandemic",
+              "ranks": [
+                {
+                  "spellId": 900840,
+                  "name": "Pandemic",
+                  "description": "Increases the critical strike damage bonus of your Corruption, Bane of Agony, Bane of Doom, Drain Soul, Drain Life, Siphon Life, and Drain Hope spells by 33%."
+                },
+                {
+                  "spellId": 900841,
+                  "name": "Pandemic",
+                  "description": "Increases the critical strike damage bonus of your Corruption, Bane of Agony, Bane of Doom, Drain Soul, Drain Life, Siphon Life, and Drain Hope spells by 66%."
+                },
+                {
+                  "spellId": 900842,
+                  "name": "Pandemic",
+                  "description": "Increases the critical strike damage bonus of your Corruption, Bane of Agony, Bane of Doom, Drain Soul, Drain Life, Siphon Life, and Drain Hope spells by 100%."
                 }
               ]
             }
@@ -9800,7 +10005,7 @@
           "talents": [
             {
               "id": 90215,
-              "row": 0,
+              "row": 3,
               "col": 0,
               "icon": "spell_fire_fireball02",
               "maxRank": 2,
@@ -9883,8 +10088,8 @@
             },
             {
               "id": 90216,
-              "row": 0,
-              "col": 3,
+              "row": 1,
+              "col": 0,
               "icon": "spell_shadow_ragingscream",
               "maxRank": 2,
               "requires": [],
@@ -9904,8 +10109,8 @@
             },
             {
               "id": 90217,
-              "row": 1,
-              "col": 0,
+              "row": 3,
+              "col": 3,
               "icon": "spell_shadow_metamorphosis",
               "maxRank": 2,
               "requires": [],
@@ -9952,7 +10157,7 @@
             {
               "id": 90218,
               "row": 1,
-              "col": 2,
+              "col": 3,
               "icon": "spell_shadow_antishadow",
               "maxRank": 3,
               "requires": [],
@@ -9978,8 +10183,8 @@
             {
               "id": 90219,
               "row": 1,
-              "col": 3,
-              "icon": "inv_jewelry_talisman_07",
+              "col": 2,
+              "icon": "spell_shadow_demonictactics",
               "maxRank": 3,
               "requires": [],
               "name": "Demonic Brand",
@@ -10029,11 +10234,16 @@
             },
             {
               "id": 1226,
-              "row": 2,
-              "col": 1,
+              "row": 3,
+              "col": 2,
               "icon": "spell_nature_removecurse",
               "maxRank": 1,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 1227,
+                  "qty": 2
+                }
+              ],
               "name": "Fel Domination",
               "ranks": [
                 {
@@ -10046,7 +10256,7 @@
             {
               "id": 1281,
               "row": 2,
-              "col": 2,
+              "col": 1,
               "icon": "spell_shadow_psychicscream",
               "maxRank": 1,
               "requires": [],
@@ -10061,8 +10271,8 @@
             },
             {
               "id": 1262,
-              "row": 3,
-              "col": 0,
+              "row": 0,
+              "col": 3,
               "icon": "spell_shadow_shadowworddominate",
               "maxRank": 5,
               "requires": [],
@@ -10097,7 +10307,7 @@
             },
             {
               "id": 1227,
-              "row": 3,
+              "row": 2,
               "col": 2,
               "icon": "spell_shadow_impphaseshift",
               "maxRank": 2,
@@ -10118,8 +10328,8 @@
             },
             {
               "id": 1224,
-              "row": 3,
-              "col": 3,
+              "row": 0,
+              "col": 0,
               "icon": "spell_shadow_lifedrain",
               "maxRank": 2,
               "requires": [],
@@ -10165,16 +10375,11 @@
             },
             {
               "id": 1244,
-              "row": 4,
-              "col": 1,
+              "row": 5,
+              "col": 2,
               "icon": "spell_shadow_shadowpact",
               "maxRank": 5,
-              "requires": [
-                {
-                  "id": 1226,
-                  "qty": 1
-                }
-              ],
+              "requires": [],
               "name": "Master Demonologist",
               "ranks": [
                 {
@@ -10232,13 +10437,13 @@
             },
             {
               "id": 90201,
-              "row": 5,
-              "col": 2,
+              "row": 6,
+              "col": 1,
               "icon": "spell_shadow_demonicempathy",
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 1281,
+                  "id": 1282,
                   "qty": 1
                 }
               ],
@@ -10253,14 +10458,14 @@
             },
             {
               "id": 1282,
-              "row": 6,
+              "row": 4,
               "col": 1,
               "icon": "spell_shadow_gathershadows",
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 1244,
-                  "qty": 5
+                  "id": 1281,
+                  "qty": 1
                 }
               ],
               "name": "Soul Link",
@@ -10340,7 +10545,7 @@
               "id": 982,
               "row": 0,
               "col": 2,
-              "icon": "spell_fire_fire",
+              "icon": "spell_shadow_deathpact",
               "maxRank": 5,
               "requires": [],
               "name": "Aftermath",
@@ -10411,8 +10616,8 @@
             {
               "id": 943,
               "row": 1,
-              "col": 1,
-              "icon": "spell_shadow_deathpact",
+              "col": 2,
+              "icon": "spell_fire_fire",
               "maxRank": 5,
               "requires": [],
               "name": "Bane",
@@ -10447,7 +10652,7 @@
             {
               "id": 941,
               "row": 1,
-              "col": 2,
+              "col": 1,
               "icon": "spell_fire_windsofwoe",
               "maxRank": 3,
               "requires": [],
@@ -10473,7 +10678,7 @@
             {
               "id": 963,
               "row": 2,
-              "col": 1,
+              "col": 2,
               "icon": "spell_shadow_scourgebuild",
               "maxRank": 1,
               "requires": [],
@@ -10489,7 +10694,7 @@
             {
               "id": 967,
               "row": 2,
-              "col": 2,
+              "col": 1,
               "icon": "spell_shadow_shadowwordpain",
               "maxRank": 5,
               "requires": [],
@@ -10524,8 +10729,8 @@
             },
             {
               "id": 90203,
-              "row": 3,
-              "col": 0,
+              "row": 5,
+              "col": 2,
               "icon": "spell_fire_playingwithfire",
               "maxRank": 3,
               "requires": [],
@@ -10551,7 +10756,7 @@
             {
               "id": 985,
               "row": 3,
-              "col": 1,
+              "col": 0,
               "icon": "spell_fire_lavaspawn",
               "maxRank": 3,
               "requires": [],
@@ -10576,11 +10781,16 @@
             },
             {
               "id": 986,
-              "row": 3,
-              "col": 2,
+              "row": 4,
+              "col": 0,
               "icon": "spell_fire_volcano",
               "maxRank": 2,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 985,
+                  "qty": 3
+                }
+              ],
               "name": "Pyroclasm",
               "ranks": [
                 {
@@ -10597,11 +10807,16 @@
             },
             {
               "id": 90204,
-              "row": 4,
-              "col": 0,
+              "row": 6,
+              "col": 1,
               "icon": "spell_fire_burnout",
               "maxRank": 1,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 90207,
+                  "qty": 1
+                }
+              ],
               "name": "Incinerate",
               "ranks": [
                 {
@@ -10613,8 +10828,8 @@
             },
             {
               "id": 968,
-              "row": 4,
-              "col": 1,
+              "row": 3,
+              "col": 2,
               "icon": "spell_fire_fireball",
               "maxRank": 1,
               "requires": [],
@@ -10631,9 +10846,14 @@
               "id": 90205,
               "row": 4,
               "col": 2,
-              "icon": "ability_warlock_fireandbrimstone",
+              "icon": "spell_fire_meteorstorm",
               "maxRank": 3,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 968,
+                  "qty": 1
+                }
+              ],
               "name": "Fire and Brimstone",
               "ranks": [
                 {
@@ -10655,9 +10875,9 @@
             },
             {
               "id": 90206,
-              "row": 5,
-              "col": 2,
-              "icon": "spell_shadow_shadowandflame",
+              "row": 3,
+              "col": 1,
+              "icon": "spell_fire_soulburn",
               "maxRank": 5,
               "requires": [],
               "name": "Shadow and Flame",
@@ -10691,16 +10911,11 @@
             },
             {
               "id": 90207,
-              "row": 6,
+              "row": 4,
               "col": 1,
-              "icon": "ability_warlock_jinx",
+              "icon": "ability_warlock_baneofhavoc",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 968,
-                  "qty": 1
-                }
-              ],
+              "requires": [],
               "name": "Bane of Havoc",
               "ranks": [
                 {
@@ -10800,7 +11015,7 @@
             {
               "id": 763,
               "row": 1,
-              "col": 0,
+              "col": 1,
               "icon": "spell_nature_starfall",
               "maxRank": 2,
               "requires": [],
@@ -10821,15 +11036,10 @@
             {
               "id": 90051,
               "row": 1,
-              "col": 1,
+              "col": 2,
               "icon": "ability_druid_eclipse",
               "maxRank": 2,
-              "requires": [
-                {
-                  "id": 762,
-                  "qty": 1
-                }
-              ],
+              "requires": [],
               "name": "Nature's Majesty",
               "ranks": [
                 {
@@ -10847,7 +11057,7 @@
             {
               "id": 764,
               "row": 1,
-              "col": 2,
+              "col": 3,
               "icon": "spell_nature_naturetouchgrow",
               "maxRank": 2,
               "requires": [],
@@ -10867,11 +11077,16 @@
             },
             {
               "id": 90052,
-              "row": 1,
-              "col": 3,
+              "row": 2,
+              "col": 2,
               "icon": "spell_nature_natureguardian",
               "maxRank": 1,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 90051,
+                  "qty": 2
+                }
+              ],
               "name": "Nature's Splendor",
               "ranks": [
                 {
@@ -10883,7 +11098,7 @@
             },
             {
               "id": 827,
-              "row": 2,
+              "row": 3,
               "col": 0,
               "icon": "spell_nature_insectswarm",
               "maxRank": 1,
@@ -10902,16 +11117,11 @@
             },
             {
               "id": 789,
-              "row": 2,
-              "col": 2,
+              "row": 4,
+              "col": 1,
               "icon": "spell_nature_naturesblessing",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 764,
-                  "qty": 2
-                }
-              ],
+              "requires": [],
               "name": "Nature's Grace",
               "ranks": [
                 {
@@ -10923,8 +11133,8 @@
             },
             {
               "id": 783,
-              "row": 2,
-              "col": 3,
+              "row": 1,
+              "col": 0,
               "icon": "spell_nature_sentinal",
               "maxRank": 3,
               "requires": [],
@@ -10949,7 +11159,7 @@
             },
             {
               "id": 90055,
-              "row": 3,
+              "row": 4,
               "col": 0,
               "icon": "spell_nature_stranglevines",
               "maxRank": 2,
@@ -10970,16 +11180,11 @@
             },
             {
               "id": 90053,
-              "row": 3,
-              "col": 1,
+              "row": 2,
+              "col": 3,
               "icon": "ability_druid_balanceofpower",
               "maxRank": 5,
-              "requires": [
-                {
-                  "id": 90051,
-                  "qty": 2
-                }
-              ],
+              "requires": [],
               "name": "Balance of Nature",
               "ranks": [
                 {
@@ -11048,10 +11253,15 @@
             {
               "id": 792,
               "row": 3,
-              "col": 3,
+              "col": 1,
               "icon": "spell_nature_purge",
               "maxRank": 5,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 763,
+                  "qty": 2
+                }
+              ],
               "name": "Vengeance",
               "ranks": [
                 {
@@ -11083,16 +11293,11 @@
             },
             {
               "id": 793,
-              "row": 4,
+              "row": 6,
               "col": 1,
               "icon": "spell_nature_forceofnature",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 90053,
-                  "qty": 5
-                }
-              ],
+              "requires": [],
               "name": "Moonkin Form",
               "ranks": [
                 {
@@ -11136,12 +11341,7 @@
               "col": 1,
               "icon": "spell_nature_moonglow",
               "maxRank": 5,
-              "requires": [
-                {
-                  "id": 793,
-                  "qty": 1
-                }
-              ],
+              "requires": [],
               "name": "Moonfury",
               "ranks": [
                 {
@@ -11174,7 +11374,7 @@
             {
               "id": 90063,
               "row": 6,
-              "col": 1,
+              "col": 0,
               "icon": "ability_druid_forceofnature",
               "maxRank": 1,
               "requires": [
@@ -11239,8 +11439,8 @@
             },
             {
               "id": 798,
-              "row": 0,
-              "col": 2,
+              "row": 2,
+              "col": 3,
               "icon": "inv_misc_monsterclaw_04",
               "maxRank": 2,
               "requires": [],
@@ -11261,7 +11461,7 @@
             {
               "id": 799,
               "row": 1,
-              "col": 0,
+              "col": 1,
               "icon": "ability_ambush",
               "maxRank": 3,
               "requires": [],
@@ -11287,7 +11487,7 @@
             {
               "id": 797,
               "row": 1,
-              "col": 1,
+              "col": 2,
               "icon": "ability_druid_bash",
               "maxRank": 2,
               "requires": [],
@@ -11308,7 +11508,7 @@
             {
               "id": 794,
               "row": 1,
-              "col": 2,
+              "col": 3,
               "icon": "inv_misc_pelt_bear_03",
               "maxRank": 3,
               "requires": [],
@@ -11333,8 +11533,8 @@
             },
             {
               "id": 805,
-              "row": 1,
-              "col": 3,
+              "row": 2,
+              "col": 1,
               "icon": "ability_druid_ravage",
               "maxRank": 2,
               "requires": [],
@@ -11354,7 +11554,7 @@
             },
             {
               "id": 802,
-              "row": 2,
+              "row": 3,
               "col": 0,
               "icon": "spell_shadow_vampiricaura",
               "maxRank": 3,
@@ -11380,8 +11580,8 @@
             },
             {
               "id": 803,
-              "row": 2,
-              "col": 1,
+              "row": 3,
+              "col": 2,
               "icon": "ability_hunter_pet_cat",
               "maxRank": 3,
               "requires": [],
@@ -11423,7 +11623,7 @@
             {
               "id": 800,
               "row": 2,
-              "col": 3,
+              "col": 0,
               "icon": "ability_ghoulfrenzy",
               "maxRank": 2,
               "requires": [],
@@ -11443,7 +11643,7 @@
             },
             {
               "id": 90060,
-              "row": 3,
+              "row": 5,
               "col": 0,
               "icon": "ability_hunter_pet_cat",
               "maxRank": 5,
@@ -11479,16 +11679,11 @@
             },
             {
               "id": 808,
-              "row": 3,
-              "col": 1,
+              "row": 0,
+              "col": 2,
               "icon": "spell_holy_blessingofagility",
               "maxRank": 5,
-              "requires": [
-                {
-                  "id": 803,
-                  "qty": 3
-                }
-              ],
+              "requires": [],
               "name": "Heart of the Wild",
               "ranks": [
                 {
@@ -11521,13 +11716,13 @@
             {
               "id": 90058,
               "row": 3,
-              "col": 2,
+              "col": 1,
               "icon": "ability_druid_mangle2",
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 804,
-                  "qty": 1
+                  "id": 805,
+                  "qty": 2
                 }
               ],
               "name": "Mangle",
@@ -11572,7 +11767,7 @@
             {
               "id": 1162,
               "row": 4,
-              "col": 1,
+              "col": 2,
               "icon": "spell_nature_faeriefire",
               "maxRank": 1,
               "requires": [],
@@ -11588,7 +11783,7 @@
             {
               "id": 809,
               "row": 4,
-              "col": 2,
+              "col": 1,
               "icon": "spell_nature_unyeildingstamina",
               "maxRank": 1,
               "requires": [],
@@ -11605,7 +11800,7 @@
               "id": 90056,
               "row": 4,
               "col": 3,
-              "icon": "inv_misc_questionmark",
+              "icon": "ability_druid_kingofthejungle",
               "maxRank": 3,
               "requires": [],
               "name": "King of the Jungle",
@@ -11631,12 +11826,12 @@
               "id": 90059,
               "row": 5,
               "col": 2,
-              "icon": "inv_misc_questionmark",
+              "icon": "ability_druid_swipe",
               "maxRank": 5,
               "requires": [
                 {
-                  "id": 809,
-                  "qty": 1
+                  "id": 803,
+                  "qty": 3
                 }
               ],
               "name": "Rend and Tear",
@@ -11701,7 +11896,7 @@
             {
               "id": 90064,
               "row": 0,
-              "col": 1,
+              "col": 0,
               "icon": "spell_nature_regeneration",
               "maxRank": 5,
               "requires": [],
@@ -11772,8 +11967,8 @@
             },
             {
               "id": 823,
-              "row": 1,
-              "col": 0,
+              "row": 0,
+              "col": 1,
               "icon": "spell_nature_healingwavegreater",
               "maxRank": 5,
               "requires": [],
@@ -11809,35 +12004,35 @@
             {
               "id": 824,
               "row": 1,
-              "col": 1,
+              "col": 0,
               "icon": "spell_nature_healingtouch",
               "maxRank": 5,
               "requires": [],
-              "name": "Improved Healing Touch",
+              "name": "Naturalist",
               "ranks": [
                 {
                   "spellId": 17069,
-                  "name": "Improved Healing Touch",
+                  "name": "Naturalist",
                   "description": "Reduces the cast time of your Healing Touch spell by 0.1 sec."
                 },
                 {
                   "spellId": 17070,
-                  "name": "Improved Healing Touch",
+                  "name": "Naturalist",
                   "description": "Reduces the cast time of your Healing Touch spell by 0.2 sec."
                 },
                 {
                   "spellId": 17071,
-                  "name": "Improved Healing Touch",
+                  "name": "Naturalist",
                   "description": "Reduces the cast time of your Healing Touch spell by 0.3 sec."
                 },
                 {
                   "spellId": 17072,
-                  "name": "Improved Healing Touch",
+                  "name": "Naturalist",
                   "description": "Reduces the cast time of your Healing Touch spell by 0.4 sec."
                 },
                 {
                   "spellId": 17073,
-                  "name": "Improved Healing Touch",
+                  "name": "Naturalist",
                   "description": "Reduces the cast time of your Healing Touch spell by 0.5 sec."
                 }
               ]
@@ -11896,10 +12091,10 @@
             },
             {
               "id": 841,
-              "row": 2,
-              "col": 2,
+              "row": 1,
+              "col": 1,
               "icon": "ability_eyeoftheowl",
-              "maxRank": 5,
+              "maxRank": 3,
               "requires": [],
               "name": "Subtlety",
               "ranks": [
@@ -11917,23 +12112,13 @@
                   "spellId": 17120,
                   "name": "Subtlety",
                   "description": "Reduces the threat generated by your Healing spells by 12%."
-                },
-                {
-                  "spellId": 17121,
-                  "name": "Subtlety",
-                  "description": "Reduces the threat generated by your Healing spells by 16%."
-                },
-                {
-                  "spellId": 17122,
-                  "name": "Subtlety",
-                  "description": "Reduces the threat generated by your Healing spells by 20%."
                 }
               ]
             },
             {
               "id": 826,
-              "row": 2,
-              "col": 3,
+              "row": 4,
+              "col": 2,
               "icon": "ability_druid_enrage",
               "maxRank": 2,
               "requires": [],
@@ -12041,7 +12226,7 @@
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 823,
+                  "id": 824,
                   "qty": 5
                 }
               ],
@@ -12058,16 +12243,11 @@
             },
             {
               "id": 828,
-              "row": 4,
-              "col": 1,
+              "row": 2,
+              "col": 2,
               "icon": "spell_nature_protectionformnature",
               "maxRank": 5,
-              "requires": [
-                {
-                  "id": 843,
-                  "qty": 5
-                }
-              ],
+              "requires": [],
               "name": "Gift of Nature",
               "ranks": [
                 {
@@ -12100,7 +12280,7 @@
             {
               "id": 842,
               "row": 4,
-              "col": 2,
+              "col": 3,
               "icon": "spell_nature_tranquility",
               "maxRank": 2,
               "requires": [],

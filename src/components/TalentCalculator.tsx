@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { BuildBar } from "@/components/BuildBar";
 import { ClassSelect } from "@/components/ClassSelect";
 import { ExtrasSelect } from "@/components/ExtrasSelect";
 import { ReviewLegend } from "@/components/ReviewLegend";
@@ -43,7 +44,7 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
   const [copied, setCopied] = useState(false);
   const spent = classPoints(cls, ranks);
   const remaining = MAX_POINTS - spent;
-  const split = cls.trees.map((tree) => treePoints(tree, ranks)).join("/");
+  const split = cls.trees.map((tree) => treePoints(tree, ranks));
   const build = encodeBuild(cls, ranks);
   const extrasQuery = serializeExtras(extras);
 
@@ -99,46 +100,22 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
             height={718}
           />
         </Link>
-        <div className="masthead-copy">
-          <h1>Talent Calculator</h1>
-          <ClassSelect
-            classes={CLASSES}
-            activeSlug={cls.slug}
-            extras={extras}
-          />
-        </div>
+        <h1>Talent Calculator</h1>
       </header>
+      <ClassSelect classes={CLASSES} activeSlug={cls.slug} extras={extras} />
       <ExtrasSelect
         classSlug={cls.slug}
         selection={extras}
         onChange={updateExtras}
-        buildSummary={
-          <div className="calc-summary">
-            <p>
-              <span style={{ color: cls.color }}>{cls.name}</span> ({split})
-              {spent > 0 ? (
-                <button
-                  type="button"
-                  className="text-reset"
-                  onClick={() =>
-                    update(
-                      applyAction(cls, ranks, { type: "reset-all" }),
-                    )
-                  }
-                >
-                  ×
-                </button>
-              ) : null}
-            </p>
-            <p>Points left: {remaining}</p>
-            <p>
-              Share talent build
-              <button type="button" className="share" onClick={copyBuild}>
-                {copied ? "copied" : "copy"}
-              </button>
-            </p>
-          </div>
-        }
+      />
+      <BuildBar
+        cls={cls}
+        split={split}
+        spent={spent}
+        remaining={remaining}
+        copied={copied}
+        onReset={() => update(applyAction(cls, ranks, { type: "reset-all" }))}
+        onCopy={copyBuild}
       />
       <div className="trees">
         {cls.trees.map((tree) => (

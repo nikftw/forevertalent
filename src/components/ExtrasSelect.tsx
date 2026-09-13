@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, type ReactNode } from "react";
+import { useRef } from "react";
 import { iconUrl } from "@/lib/assets";
 import {
   PROFESSIONS,
@@ -19,7 +19,6 @@ type ExtrasSelectProps = {
   classSlug: string;
   selection: ExtrasSelection;
   onChange: (next: ExtrasSelection) => void;
-  buildSummary?: ReactNode;
 };
 
 type ProfessionSlot = "p1" | "p2";
@@ -28,7 +27,6 @@ export function ExtrasSelect({
   classSlug,
   selection,
   onChange,
-  buildSummary,
 }: ExtrasSelectProps) {
   const race = getRace(selection.race);
   const p1 = getProfession(selection.p1);
@@ -74,7 +72,6 @@ export function ExtrasSelect({
   }
 
   const hasPanels = Boolean(race || p1 || p2);
-  const showPanelsRow = hasPanels || Boolean(buildSummary);
 
   return (
     <section className="extras" aria-label="Race and professions">
@@ -147,7 +144,7 @@ export function ExtrasSelect({
         </div>
       </div>
 
-      {showPanelsRow ? (
+      {hasPanels ? (
         <div className="extras-panels">
           {race ? <RaceAbilityPanel race={race} /> : null}
           {p1 ? (
@@ -155,9 +152,6 @@ export function ExtrasSelect({
           ) : null}
           {p2 ? (
             <ProfessionAbilityPanel profession={p2} slotLabel="Profession 2" />
-          ) : null}
-          {buildSummary ? (
-            <div className="extras-build-summary">{buildSummary}</div>
           ) : null}
         </div>
       ) : null}

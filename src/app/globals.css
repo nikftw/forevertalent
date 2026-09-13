@@ -18,6 +18,12 @@
   --green: #00ff00;
   --muted: #ffffffb3;
   --locked: #ffffff80;
+  /* measured off the live Forever page */
+  --teal-band: linear-gradient(180deg, #063149 0%, #017caa 100%);
+  --hairline: #ebdec229;
+  --frame-shadow: 0 10px 24px #0000004d;
+  /* One column for the whole page: 3 tree cards (244px) + 2 gaps (8px). */
+  --shell: 748px;
 }
 
 html {
@@ -47,16 +53,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1.25rem 1rem 3rem;
+  gap: 1rem;
+  padding: 1.5rem 1rem 3rem;
 }
 
 .masthead {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 0.75rem;
-  width: min(760px, 100%);
+  gap: 0.9rem;
+  margin: 0;
+  width: min(var(--shell), 100%);
 }
 
 .brand-logo {
@@ -82,7 +88,7 @@ body {
 .masthead h1 {
   margin: 0;
   font-family: var(--font-display), serif;
-  font-size: 1.55rem;
+  font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: 1px;
   color: var(--parchment);
@@ -96,40 +102,22 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 4px;
+  gap: 6px;
   margin: 0;
-}
-
-@media (max-width: 520px) {
-  .masthead {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .masthead-copy {
-    align-items: center;
-  }
-
-  .class-select {
-    justify-content: center;
-  }
-
-  .brand-logo img {
-    width: 72px;
-  }
+  width: min(var(--shell), 100%);
 }
 
 .review-legend {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.85rem 1.15rem;
-  margin: 1rem 0 0;
+  justify-content: flex-start;
+  gap: 0.5rem 1.1rem;
+  width: min(var(--shell), 100%);
+  margin: 0;
   padding: 0;
   list-style: none;
-  font-size: 12px;
-  color: var(--muted);
+  font-size: 11px;
+  color: var(--locked);
 }
 
 .review-legend li {
@@ -168,135 +156,6 @@ body {
   background: #8a8a8a;
 }
 
-.extras {
-  width: min(1100px, 100%);
-  margin: 0 0 1.25rem;
-}
-
-.extras-controls {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: center;
-  gap: 0.85rem 1.35rem;
-}
-
-.extras-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.35rem;
-}
-
-.extras-label {
-  flex: none;
-  font-size: 11px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
-.extras-icons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-}
-
-.extra-icon {
-  display: flex;
-  width: 38px;
-  height: 38px;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  border: 1px solid #ffffff26;
-  border-radius: 5px;
-  background: #ffffff0d;
-  opacity: 0.55;
-  cursor: pointer;
-  transition: opacity 120ms ease, border-color 120ms ease, transform 120ms ease;
-}
-
-.extra-icon img {
-  width: 32px;
-  height: 32px;
-  border-radius: 3px;
-}
-
-.extra-icon:hover,
-.extra-icon.is-active {
-  opacity: 1;
-  transform: translateY(-1px);
-}
-
-.extra-icon.is-active {
-  border-color: var(--gold);
-}
-
-.extra-icon[data-faction="horde"].is-active {
-  border-color: #c41e3a;
-}
-
-.extra-icon[data-faction="alliance"].is-active {
-  border-color: #3fc7eb;
-}
-
-.extra-icon.is-disabled,
-.extra-icon:disabled {
-  opacity: 0.22;
-  cursor: not-allowed;
-  transform: none;
-}
-
-.extras-panels {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.75rem;
-  margin-top: 0.85rem;
-}
-
-.extra-panel {
-  min-width: 11rem;
-  padding: 0.45rem 0.55rem 0.55rem;
-  background: #00000055;
-  border: 1px solid #ffffff1a;
-  border-radius: 4px;
-}
-
-.extra-panel-title {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  margin: 0 0 0.4rem;
-  font-size: 12px;
-  color: var(--parchment);
-}
-
-.extra-panel-title img {
-  border-radius: 2px;
-}
-
-.extra-ability-row {
-  display: flex;
-  gap: 4px;
-}
-
-.extra-ability {
-  display: flex;
-  width: 40px;
-  height: 40px;
-  align-items: center;
-  justify-content: center;
-}
-
-.extra-ability img {
-  width: 36px;
-  height: 36px;
-  border-radius: 4px;
-  box-shadow: 0 0 0 1px #000, 0 0 0 2px var(--gold);
-}
-
 .class-icon {
   display: flex;
   width: 44px;
@@ -316,11 +175,118 @@ body {
   border-radius: 3px;
 }
 
-.class-icon:hover,
-.class-icon.is-active {
+.class-icon:hover {
   opacity: 1;
   border-color: var(--class-color, var(--gold));
   transform: translateY(-1px);
+}
+
+.class-icon.is-active {
+  opacity: 1;
+  border-color: var(--class-color, var(--gold));
+  background: #ffffff1a;
+  box-shadow:
+    0 0 0 1px var(--class-color, var(--gold)),
+    0 0 14px -3px var(--class-color, var(--gold));
+}
+
+/* Build readout. Fixed width and a fixed place in the column, so it does not
+   move when a race or profession panel opens above it. */
+.build-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55rem 0.75rem;
+  width: min(var(--shell), 100%);
+  padding: 0.55rem 0.8rem;
+  background: var(--panel);
+  border: 2px solid var(--primary);
+  border-radius: 6px;
+  box-shadow: var(--frame-shadow);
+}
+
+.build-class {
+  font-family: var(--font-display), serif;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+}
+
+.build-split {
+  display: flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  color: var(--locked);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.95rem;
+}
+
+.build-split i {
+  margin-right: 0.3rem;
+  font-style: normal;
+  opacity: 0.5;
+}
+
+.build-split b {
+  font-weight: 400;
+}
+
+.build-split b.is-spent {
+  color: var(--parchment);
+}
+
+.build-reset {
+  border: 0;
+  background: transparent;
+  color: #c0392b;
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.build-points {
+  display: flex;
+  /* Not baseline: baseline-aligning an 11px label to a 24px numeral drops the
+     label ~4px below the cap-centre every other icon/label pair sits on. */
+  align-items: center;
+  gap: 0.45rem;
+  margin-left: auto;
+}
+
+.build-points-label {
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.build-points-value {
+  font-family: var(--font-display), serif;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+}
+
+.build-points.is-done .build-points-value {
+  color: var(--green);
+}
+
+.build-share {
+  padding: 0.32rem 0.7rem;
+  border: 1px solid #ffffff26;
+  border-radius: 4px;
+  background: #ffffff0d;
+  color: var(--parchment);
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  transition: border-color 120ms ease, background 120ms ease;
+}
+
+.build-share:hover {
+  border-color: var(--gold);
+  background: #ffffff1a;
 }
 
 .trees {
@@ -328,13 +294,19 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
+  width: min(var(--shell), 100%);
 }
 
 .tree-card {
-  width: 240px;
+  /* 4 x 60px cells (the cell size TalentTree.tsx uses for arrow maths)
+     + 2px border each side. At a flat 240px the grid overflowed the
+     content box and painted over the right and bottom borders. */
+  width: 244px;
   background: var(--panel);
   border: 2px solid var(--primary);
   border-radius: 6px;
+  overflow: hidden;
+  box-shadow: var(--frame-shadow);
 }
 
 .tree-header {
@@ -344,6 +316,8 @@ body {
   position: relative;
   min-height: 38px;
   padding: 6px 22px;
+  background: linear-gradient(180deg, #063149 0%, var(--panel) 100%);
+  border-bottom: 1px solid var(--hairline);
   font-family: var(--font-display), serif;
   font-size: 15px;
   letter-spacing: 0.5px;
@@ -362,28 +336,24 @@ body {
   border-radius: 2px;
 }
 
+/* The multiply sign's ink sits above its em-box centre, so box-centring it
+   leaves it visibly high. 0.07em is that offset, measured off the rendered
+   glyph; in em so it holds if the size changes. */
 .tree-reset,
-.text-reset {
+.tree-reset {
   position: absolute;
   right: 8px;
   top: 50%;
-  transform: translateY(-50%);
-  border: 0;
-  background: transparent;
-  color: #c0392b;
-  font-size: 1.1rem;
-  cursor: pointer;
-  line-height: 1;
+  transform: translateY(calc(-50% + 0.07em));
 }
 
-.text-reset {
-  position: static;
-  transform: none;
-  margin-left: 0.4rem;
+.build-reset {
+  transform: translateY(0.07em);
 }
 
 .tree-grid {
   position: relative;
+  isolation: isolate;
   display: grid;
   grid-template-columns: repeat(4, 60px);
   grid-template-rows: repeat(7, 60px);
@@ -391,7 +361,20 @@ body {
   height: 420px;
   background-size: cover;
   background-position: center;
-  border-radius: 0 0 4px 4px;
+  /* .tree-card clips the corners now */
+  border-radius: 0;
+}
+
+/* Holds the tree art back so arrows and icons stay readable on top of it.
+   Sits under both (z-index 0; arrows are 1, talent slots are 2). */
+.tree-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, #011c2b40 0%, #040f1a73 100%);
+  box-shadow: inset 0 0 44px 12px #00000040;
 }
 
 .talent-slot {
@@ -417,7 +400,7 @@ body {
   height: 40px;
   border-radius: 4px;
   display: block;
-  box-shadow: 0 0 0 1px #000;
+  box-shadow: 0 0 0 1px #000, 0 1px 3px #000000a6;
 }
 
 .talent-node.is-locked img {
@@ -516,51 +499,83 @@ body {
 }
 
 .talent-arrow {
+  --arrow-line: #ebdec2b3;
   position: absolute;
   z-index: 1;
   pointer-events: none;
-  background: linear-gradient(#4a4a4a, #4a4a4a) center / 3px 100% no-repeat;
-  opacity: 0.85;
+  /* 3px line on a 5px black backing, so the link survives both the pale
+     Restoration water and the dark Feral art without a brighter line. */
+  background:
+    linear-gradient(var(--arrow-line), var(--arrow-line)) center / 3px 100% no-repeat,
+    linear-gradient(#000000a6, #000000a6) center / 5px 100% no-repeat;
 }
 
 .talent-arrow.is-on {
-  background: linear-gradient(var(--gold), var(--gold)) center / 3px 100% no-repeat;
+  --arrow-line: var(--gold);
 }
 
-.talent-arrow[data-dir="down"]::after {
+/* Cross-column links: the stripe has to run across, not down. */
+.talent-arrow[data-dir="right"],
+.talent-arrow[data-dir="left"] {
+  background:
+    linear-gradient(var(--arrow-line), var(--arrow-line)) center / 100% 3px no-repeat,
+    linear-gradient(#000000a6, #000000a6) center / 100% 5px no-repeat;
+}
+
+.talent-arrow::after {
   content: "";
   position: absolute;
-  left: 50%;
-  bottom: -2px;
   width: 0;
   height: 0;
   border: 5px solid transparent;
-  border-top-color: #4a4a4a;
+  filter: drop-shadow(0 0 1.5px #000);
+}
+
+.talent-arrow[data-dir="down"]::after {
+  left: 50%;
+  bottom: -2px;
+  border-top-color: var(--arrow-line);
   transform: translateX(-50%);
 }
 
-.talent-arrow.is-on[data-dir="down"]::after {
-  border-top-color: var(--gold);
+.talent-arrow[data-dir="right"]::after {
+  right: -2px;
+  top: 50%;
+  border-left-color: var(--arrow-line);
+  transform: translateY(-50%);
+}
+
+.talent-arrow[data-dir="left"]::after {
+  left: -2px;
+  top: 50%;
+  border-right-color: var(--arrow-line);
+  transform: translateY(-50%);
 }
 
 .extras {
-  width: min(1100px, 100%);
-  margin: 0 0 1.15rem;
+  width: min(var(--shell), 100%);
+  margin: 0;
 }
 
 .extras-controls {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: center;
-  gap: 0.85rem 1.35rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.75rem 1.5rem;
 }
 
 .extras-group {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.35rem;
+}
+
+/* Keeps Race and Professions reading as two groups, not one long strip. */
+.extras-group-professions {
+  padding-left: 1.5rem;
+  border-left: 1px solid var(--hairline);
 }
 
 .extras-label {
@@ -574,7 +589,7 @@ body {
 .extras-icons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 4px;
 }
 
@@ -621,20 +636,21 @@ body {
   transform: none;
 }
 
+/* Fixed three-slot grid (race, profession 1, profession 2). The wrapping flex
+   row re-centred itself on every selection; this keeps the slots put. */
 .extras-panels {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.75rem;
-  margin-top: 0.85rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 0.75rem;
 }
 
 .extra-panel {
-  min-width: 160px;
-  padding: 0.55rem 0.7rem;
-  border: 1px solid #ffffff26;
+  min-width: 0;
+  padding: 0.5rem 0.6rem;
+  border: 2px solid var(--primary);
   border-radius: 6px;
-  background: #ffffff0d;
+  background: var(--panel);
 }
 
 .extra-panel-title {
@@ -671,49 +687,49 @@ body {
   box-shadow: 0 0 0 1px #000;
 }
 
-.calc-footer {
-  width: 240px;
-  margin: 1rem auto 0;
-  font-size: 0.9rem;
+/* --- responsive overrides: must stay after the base rules --- */
+
+@media (max-width: 780px) {
+  .extras-panels {
+    grid-template-columns: 1fr;
+  }
+
+  .extras-group-professions {
+    padding-left: 0;
+    border-left: 0;
+  }
 }
 
-.calc-footer p {
-  margin: 0.2rem 0;
-  color: var(--parchment);
-}
+@media (max-width: 520px) {
+  .masthead {
+    gap: 0.7rem;
+  }
 
-.extras-build-summary {
-  display: flex;
-  align-items: center;
-  align-self: stretch;
-  min-width: 11rem;
-  padding: 0.35rem 0.15rem;
-}
+  .brand-logo img {
+    width: 64px;
+  }
 
-.calc-summary {
-  font-size: 0.9rem;
-  line-height: 1.35;
-  text-align: left;
-}
+  .masthead h1 {
+    font-size: 1.25rem;
+  }
 
-.calc-summary p {
-  margin: 0.15rem 0;
-  color: var(--parchment);
-  white-space: nowrap;
-}
+  .build-points {
+    margin-left: 0;
+  }
 
-.share {
-  margin-left: 0.5rem;
-  border: 0;
-  background: transparent;
-  color: var(--gold-bright);
-  cursor: pointer;
-  text-decoration: underline;
-  font: inherit;
-}
+  .class-select {
+    gap: 4px;
+  }
 
-.share:hover {
-  color: var(--parchment);
+  .class-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .class-icon img {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 @media (max-width: 500px) {
