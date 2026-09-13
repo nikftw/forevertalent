@@ -1593,17 +1593,17 @@
                 {
                   "spellId": 20237,
                   "name": "Healing Light",
-                  "description": "Increases the amount healed by your Holy Light and Flash of Light spells by 4%."
+                  "description": "Increases the amount healed by your Holy Light, Flash of Light, and Holy Shock spells by 4%."
                 },
                 {
                   "spellId": 20238,
                   "name": "Healing Light",
-                  "description": "Increases the amount healed by your Holy Light and Flash of Light spells by 8%."
+                  "description": "Increases the amount healed by your Holy Light, Flash of Light, and Holy Shock spells by 8%."
                 },
                 {
                   "spellId": 20239,
                   "name": "Healing Light",
-                  "description": "Increases the amount healed by your Holy Light and Flash of Light spells by 12%."
+                  "description": "Increases the amount healed by your Holy Light, Flash of Light, and Holy Shock spells by 12%."
                 }
               ]
             },
@@ -1619,12 +1619,12 @@
                 {
                   "spellId": 20205,
                   "name": "Spiritual Focus",
-                  "description": "Gives your Flash of Light and Holy Light spells a 14% chance to not lose casting time when you take damage."
+                  "description": "Gives your Flash of Light, Holy Light, and Light's Vigil spells a 35% chance to not lose casting time when you take damage."
                 },
                 {
                   "spellId": 20206,
                   "name": "Spiritual Focus",
-                  "description": "Gives your Flash of Light and Holy Light spells a 28% chance to not lose casting time when you take damage."
+                  "description": "Gives your Flash of Light, Holy Light, and Light's Vigil spells a 70% chance to not lose casting time when you take damage."
                 }
               ]
             },
@@ -1666,12 +1666,12 @@
                 {
                   "spellId": 9453,
                   "name": "Unyielding Faith",
-                  "description": "Increases your chance to resist Fear and Disorient effects by an additional 5%."
+                  "description": "Reduces the duration of Fear and Disorient effects on you by 15%."
                 },
                 {
                   "spellId": 25836,
                   "name": "Unyielding Faith",
-                  "description": "Increases your chance to resist Fear and Disorient effects by an additional 10%."
+                  "description": "Reduces the duration of Fear and Disorient effects on you by 30%."
                 }
               ]
             },
@@ -1776,27 +1776,27 @@
                 {
                   "spellId": 20210,
                   "name": "Illumination",
-                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 20% chance to gain Mana equal to the base cost of the spell."
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, Light's Vigil, or Holy Shock heal spell you have a 20% chance to gain Mana equal to 50% of the base cost of the spell."
                 },
                 {
                   "spellId": 20212,
                   "name": "Illumination",
-                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 40% chance to gain Mana equal to the base cost of the spell."
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, Light's Vigil, or Holy Shock heal spell you have a 40% chance to gain Mana equal to 50% of the base cost of the spell."
                 },
                 {
                   "spellId": 20213,
                   "name": "Illumination",
-                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 60% chance to gain Mana equal to the base cost of the spell."
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, Light's Vigil, or Holy Shock heal spell you have a 60% chance to gain Mana equal to 50% of the base cost of the spell."
                 },
                 {
                   "spellId": 20214,
                   "name": "Illumination",
-                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 80% chance to gain Mana equal to the base cost of the spell."
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, Light's Vigil, or Holy Shock heal spell you have a 80% chance to gain Mana equal to 50% of the base cost of the spell."
                 },
                 {
                   "spellId": 20215,
                   "name": "Illumination",
-                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 100% chance to gain Mana equal to the base cost of the spell."
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, Light's Vigil, or Holy Shock heal spell you have a 100% chance to gain Mana equal to 50% of the base cost of the spell."
                 }
               ]
             },
@@ -1859,7 +1859,7 @@
                 {
                   "spellId": 20473,
                   "name": "Holy Shock",
-                  "description": "Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or 204 to 220 healing to an ally."
+                  "description": "Blasts the target with Holy energy, causing 129 to 139 Holy damage to an enemy, or 110 to 118 healing to an ally."
                 }
               ]
             },
@@ -1896,27 +1896,27 @@
                 {
                   "spellId": 5923,
                   "name": "Holy Power",
-                  "description": "Increases the critical effect chance of your Holy spells by 1%."
+                  "description": "Increases the critical strike chance of your Holy Shock spell by 3%, and all other spells by 1%."
                 },
                 {
                   "spellId": 5924,
                   "name": "Holy Power",
-                  "description": "Increases the critical effect chance of your Holy spells by 2%."
+                  "description": "Increases the critical strike chance of your Holy Shock spell by 6%, and all other spells by 2%."
                 },
                 {
                   "spellId": 5925,
                   "name": "Holy Power",
-                  "description": "Increases the critical effect chance of your Holy spells by 3%."
+                  "description": "Increases the critical strike chance of your Holy Shock spell by 9%, and all other spells by 3%."
                 },
                 {
                   "spellId": 5926,
                   "name": "Holy Power",
-                  "description": "Increases the critical effect chance of your Holy spells by 4%."
+                  "description": "Increases the critical strike chance of your Holy Shock spell by 12%, and all other spells by 4%."
                 },
                 {
                   "spellId": 25829,
                   "name": "Holy Power",
-                  "description": "Increases the critical effect chance of your Holy spells by 5%."
+                  "description": "Increases the critical strike chance of your Holy Shock spell by 15%, and all other spells by 5%."
                 }
               ]
             },
@@ -2032,17 +2032,17 @@
                 {
                   "spellId": 20189,
                   "name": "Precision",
-                  "description": "Increases your chance to hit with melee weapons by 1%."
+                  "description": "Increases your chance to hit with all spells and attacks by 1%."
                 },
                 {
                   "spellId": 20192,
                   "name": "Precision",
-                  "description": "Increases your chance to hit with melee weapons by 2%."
+                  "description": "Increases your chance to hit with all spells and attacks by 2%."
                 },
                 {
                   "spellId": 20193,
                   "name": "Precision",
-                  "description": "Increases your chance to hit with melee weapons by 3%."
+                  "description": "Increases your chance to hit with all spells and attacks by 3%."
                 }
               ]
             },
@@ -2058,12 +2058,12 @@
                 {
                   "spellId": 20174,
                   "name": "Guardian's Favor",
-                  "description": "Reduces the cooldown of your Blessing of Protection by 60 sec and increases the duration of your Blessing of Freedom by 3 sec."
+                  "description": "Reduces the cooldown of your Blessing of Protection by 1 min and increases the duration of your Blessing of Freedom by 3 sec."
                 },
                 {
                   "spellId": 20175,
                   "name": "Guardian's Favor",
-                  "description": "Reduces the cooldown of your Blessing of Protection by 120 sec and increases the duration of your Blessing of Freedom by 6 sec."
+                  "description": "Reduces the cooldown of your Blessing of Protection by 2 min and increases the duration of your Blessing of Freedom by 6 sec."
                 }
               ]
             },
@@ -2131,17 +2131,17 @@
                 {
                   "spellId": 20468,
                   "name": "Improved Righteous Fury",
-                  "description": "Increases the amount of threat generated by your Righteous Fury spell by 16%."
+                  "description": "While Righteous Fury is active, all damage taken is reduced by 2%."
                 },
                 {
                   "spellId": 20469,
                   "name": "Improved Righteous Fury",
-                  "description": "Increases the amount of threat generated by your Righteous Fury spell by 33%."
+                  "description": "While Righteous Fury is active, all damage taken is reduced by 4%."
                 },
                 {
                   "spellId": 20470,
                   "name": "Improved Righteous Fury",
-                  "description": "Increases the amount of threat generated by your Righteous Fury spell by 50%."
+                  "description": "While Righteous Fury is active, all damage taken is reduced by 6%."
                 }
               ]
             },
@@ -2162,17 +2162,17 @@
                 {
                   "spellId": 20148,
                   "name": "Shield Specialization",
-                  "description": "Increases the amount of damage absorbed by your shield by 10%."
+                  "description": "Increases the amount of damage absorbed by your shield by 10%, and gives your blocks a 33% chance to restore 6% of your maximum Mana. May only occur once every 3 sec."
                 },
                 {
                   "spellId": 20149,
                   "name": "Shield Specialization",
-                  "description": "Increases the amount of damage absorbed by your shield by 20%."
+                  "description": "Increases the amount of damage absorbed by your shield by 20%, and gives your blocks a 66% chance to restore 6% of your maximum Mana. May only occur once every 3 sec."
                 },
                 {
                   "spellId": 20150,
                   "name": "Shield Specialization",
-                  "description": "Increases the amount of damage absorbed by your shield by 30%."
+                  "description": "Increases the amount of damage absorbed by your shield by 30%, and gives your blocks a 100% chance to restore 6% of your maximum Mana. May only occur once every 3 sec."
                 }
               ]
             },
@@ -2230,17 +2230,17 @@
                 {
                   "spellId": 20196,
                   "name": "One-Handed Weapon Specialization",
-                  "description": "Increases the damage you deal with one-handed melee weapons by 2%."
+                  "description": "Increases the damage you deal with one-handed melee weapons by 3%."
                 },
                 {
                   "spellId": 20197,
                   "name": "One-Handed Weapon Specialization",
-                  "description": "Increases the damage you deal with one-handed melee weapons by 4%."
+                  "description": "Increases the damage you deal with one-handed melee weapons by 6%."
                 },
                 {
                   "spellId": 20198,
                   "name": "One-Handed Weapon Specialization",
-                  "description": "Increases the damage you deal with one-handed melee weapons by 6%."
+                  "description": "Increases the damage you deal with one-handed melee weapons by 9%."
                 }
               ]
             },
