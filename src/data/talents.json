@@ -108,12 +108,7 @@
               "col": 1,
               "icon": "spell_nature_enchantarmor",
               "maxRank": 5,
-              "requires": [
-                {
-                  "id": 130,
-                  "qty": 5
-                }
-              ],
+              "requires": [],
               "name": "Improved Tactical Mastery",
               "ranks": [
                 {
@@ -208,7 +203,7 @@
             },
             {
               "id": 662,
-              "row": 2,
+              "row": 3,
               "col": 2,
               "icon": "ability_searingarrow",
               "maxRank": 2,
@@ -276,7 +271,7 @@
             },
             {
               "id": 90012,
-              "row": 3,
+              "row": 4,
               "col": 2,
               "icon": "inv_misc_questionmark",
               "maxRank": 5,
@@ -663,7 +658,7 @@
             },
             {
               "id": 165,
-              "row": 3,
+              "row": 4,
               "col": 1,
               "icon": "spell_shadow_deathpact",
               "maxRank": 1,
@@ -736,7 +731,7 @@
             },
             {
               "id": 90015,
-              "row": 4,
+              "row": 3,
               "col": 1,
               "icon": "inv_misc_questionmark",
               "maxRank": 1,
@@ -754,7 +749,7 @@
               "id": 90016,
               "row": 4,
               "col": 0,
-              "icon": "inv_misc_questionmark",
+              "icon": "ability_marksmanship",
               "maxRank": 3,
               "requires": [],
               "name": "Precision",
