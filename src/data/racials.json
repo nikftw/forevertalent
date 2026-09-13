@@ -7,7 +7,15 @@
       "faction": "horde",
       "icon": "race_orc_male",
       "description": "Focused, ferocious, and sometimes monstrous, the Horde values strength and honor, but struggles to keep aggression in check.",
-      "allowedClasses": ["warrior", "hunter", "mage", "rogue", "warlock", "shaman"],
+      "allowedClasses": [
+        "warrior",
+        "hunter",
+        "mage",
+        "rogue",
+        "warlock",
+        "shaman",
+        "legacy"
+      ],
       "abilities": [
         {
           "name": "Blood Fury",
@@ -41,7 +49,15 @@
       "faction": "horde",
       "icon": "race_scourge_male",
       "description": "The plague of undeath was unleashed upon the land, and those who survived are the Forsaken.",
-      "allowedClasses": ["warrior", "mage", "rogue", "priest", "warlock", "paladin"],
+      "allowedClasses": [
+        "warrior",
+        "mage",
+        "rogue",
+        "priest",
+        "warlock",
+        "paladin",
+        "legacy"
+      ],
       "abilities": [
         {
           "name": "Will of the Forsaken",
@@ -75,7 +91,13 @@
       "faction": "horde",
       "icon": "race_tauren_male",
       "description": "The peaceful Tauren have long roamed the central plains, but now their way of life is under threat.",
-      "allowedClasses": ["warrior", "hunter", "druid", "shaman"],
+      "allowedClasses": [
+        "warrior",
+        "hunter",
+        "druid",
+        "shaman",
+        "legacy"
+      ],
       "abilities": [
         {
           "name": "War Stomp",
@@ -109,7 +131,16 @@
       "faction": "horde",
       "icon": "race_troll_male",
       "description": "The savage and mysterious Trolls are known for their regeneration and their affinity for the elements.",
-      "allowedClasses": ["warrior", "hunter", "mage", "rogue", "priest", "warlock", "shaman"],
+      "allowedClasses": [
+        "warrior",
+        "hunter",
+        "mage",
+        "rogue",
+        "priest",
+        "warlock",
+        "shaman",
+        "legacy"
+      ],
       "abilities": [
         {
           "name": "Berserking",
@@ -142,8 +173,15 @@
       "name": "Skyborne",
       "faction": "horde",
       "icon": "inv_misc_head_dragon_01",
-      "description": "Windshaper Skyborne of the Horde — Forever race.",
-      "allowedClasses": ["warrior", "hunter", "rogue", "druid", "shaman"],
+      "description": "Windshaper Skyborne of the Horde \u2014 Forever race.",
+      "allowedClasses": [
+        "warrior",
+        "hunter",
+        "rogue",
+        "druid",
+        "shaman",
+        "legacy"
+      ],
       "abilities": [
         {
           "name": "Walk on Air",
@@ -177,7 +215,16 @@
       "faction": "alliance",
       "icon": "race_human_male",
       "description": "Humans are versatile and ambitious, bringing their technical, arcane, and spiritual wisdom toward the goal of a peaceful world.",
-      "allowedClasses": ["warrior", "hunter", "mage", "rogue", "priest", "warlock", "paladin"],
+      "allowedClasses": [
+        "warrior",
+        "hunter",
+        "mage",
+        "rogue",
+        "priest",
+        "warlock",
+        "paladin",
+        "legacy"
+      ],
       "abilities": [
         {
           "name": "Will to Survive",
@@ -211,7 +258,15 @@
       "faction": "alliance",
       "icon": "race_dwarf_male",
       "description": "The ancient Dwarves are known for their engineering prowess, their resistance, and their love of treasure.",
-      "allowedClasses": ["warrior", "hunter", "rogue", "priest", "paladin", "shaman"],
+      "allowedClasses": [
+        "warrior",
+        "hunter",
+        "rogue",
+        "priest",
+        "paladin",
+        "shaman",
+        "legacy"
+      ],
       "abilities": [
         {
           "name": "Stoneform",
@@ -245,7 +300,14 @@
       "faction": "alliance",
       "icon": "race_nightelf_male",
       "description": "The mysterious and ageless Night Elves possess an innate connection to nature and a mastery of the shadows.",
-      "allowedClasses": ["warrior", "hunter", "rogue", "priest", "druid"],
+      "allowedClasses": [
+        "warrior",
+        "hunter",
+        "rogue",
+        "priest",
+        "druid",
+        "legacy"
+      ],
       "abilities": [
         {
           "name": "Elune's Light",
@@ -279,7 +341,14 @@
       "faction": "alliance",
       "icon": "race_gnome_male",
       "description": "Gnomes are brilliant and eccentric inventors, known for their quick wits and expansive minds.",
-      "allowedClasses": ["warrior", "mage", "rogue", "priest", "warlock"],
+      "allowedClasses": [
+        "warrior",
+        "mage",
+        "rogue",
+        "priest",
+        "warlock",
+        "legacy"
+      ],
       "abilities": [
         {
           "name": "Escape Artist",
@@ -312,8 +381,15 @@
       "name": "Skyborne",
       "faction": "alliance",
       "icon": "inv_misc_head_dragon_01",
-      "description": "High Order Skyborne of the Alliance — Forever race.",
-      "allowedClasses": ["warrior", "hunter", "mage", "rogue", "druid"],
+      "description": "High Order Skyborne of the Alliance \u2014 Forever race.",
+      "allowedClasses": [
+        "warrior",
+        "hunter",
+        "mage",
+        "rogue",
+        "druid",
+        "legacy"
+      ],
       "abilities": [
         {
           "name": "Walk on Air",

@@ -34,7 +34,7 @@ export function ClassSelect({
             className={active ? "class-icon is-active" : "class-icon"}
             style={{ ["--class-color" as string]: cls.color }}
           >
-            <img src={classIconUrl(cls.icon)} alt={cls.name} width={36} height={36} />
+            <img src={classIconUrl(cls.icon)} alt={cls.name} width={28} height={28} />
           </Link>
         );
       })}

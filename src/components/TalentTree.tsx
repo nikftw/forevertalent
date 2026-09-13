@@ -30,7 +30,7 @@ export function TalentTreeCard({
   const byId = new Map(tree.talents.map((talent) => [talent.id, talent]));
 
   return (
-    <section className="tree-card">
+    <section className="tree-card" data-class={cls.slug}>
       <header className="tree-header">
         <span className="tree-spec">
           <img src={iconUrl(tree.icon, "medium")} alt="" width={18} height={18} />

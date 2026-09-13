@@ -102,8 +102,8 @@ export function ExtrasControls({
                 <img
                   src={iconUrl(entry.icon, "medium")}
                   alt={label}
-                  width={32}
-                  height={32}
+                  width={26}
+                  height={26}
                 />
               </button>
             );
@@ -137,8 +137,8 @@ export function ExtrasControls({
                 <img
                   src={iconUrl(entry.icon, "medium")}
                   alt={entry.name}
-                  width={32}
-                  height={32}
+                  width={26}
+                  height={26}
                 />
               </button>
             );
