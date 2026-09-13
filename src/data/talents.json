@@ -218,17 +218,17 @@
                 {
                   "spellId": 12834,
                   "name": "Deep Wounds",
-                  "description": "Your critical strikes cause the opponent to bleed, dealing 20% of your melee weapon's average damage over 12 sec."
+                  "description": "Your critical strikes cause your opponent to Bleed, dealing 20% of your melee weapon's average damage over 12 sec."
                 },
                 {
                   "spellId": 12849,
                   "name": "Deep Wounds",
-                  "description": "Your critical strikes cause the opponent to bleed, dealing 40% of your melee weapon's average damage over 12 sec."
+                  "description": "Your critical strikes cause your opponent to Bleed, dealing 40% of your melee weapon's average damage over 12 sec."
                 },
                 {
                   "spellId": 12867,
                   "name": "Deep Wounds",
-                  "description": "Your critical strikes cause the opponent to bleed, dealing 60% of your melee weapon's average damage over 12 sec."
+                  "description": "Your critical strikes cause your opponent to Bleed, dealing 60% of your melee weapon's average damage over 12 sec."
                 }
               ]
             },
@@ -308,6 +308,26 @@
                   "spellId": 900120,
                   "name": "Bloodthrill",
                   "description": "Your melee attacks against targets afflicted by your Rend have a 2% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec."
+                },
+                {
+                  "spellId": 900121,
+                  "name": "Bloodthrill",
+                  "description": "Your melee attacks against targets afflicted by your Rend have a 4% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec."
+                },
+                {
+                  "spellId": 900122,
+                  "name": "Bloodthrill",
+                  "description": "Your melee attacks against targets afflicted by your Rend have a 6% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec."
+                },
+                {
+                  "spellId": 900123,
+                  "name": "Bloodthrill",
+                  "description": "Your melee attacks against targets afflicted by your Rend have a 8% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec."
+                },
+                {
+                  "spellId": 900124,
+                  "name": "Bloodthrill",
+                  "description": "Your melee attacks against targets afflicted by your Rend have a 10% chance to activate your Overpower ability for 1 attack on your current target. Lasts 6 sec."
                 }
               ]
             },
@@ -339,7 +359,27 @@
                 {
                   "spellId": 900130,
                   "name": "Weaponmaster",
-                  "description": "Gives your melee weapon attacks a benefit depending on the weapon. Axe/Polearm: Increases your critical strike chance by 1%. Mace/Staff: Your attacks ignore 3% of your target's armor. Sword: Your successful melee attacks have a 1% chance to trigger an extra attack on the target."
+                  "description": "Gives your melee weapon attacks a benefit depending on the weapon.\nAxe/Polearm: Increases your critical strike chance by 1%.\nMace/Staff: Your attacks ignore 3% of your target's armor.\nSword: Your successful melee attacks have a 1% chance to trigger an extra attack on the target."
+                },
+                {
+                  "spellId": 900131,
+                  "name": "Weaponmaster",
+                  "description": "Gives your melee weapon attacks a benefit depending on the weapon.\nAxe/Polearm: Increases your critical strike chance by 2%.\nMace/Staff: Your attacks ignore 6% of your target's armor.\nSword: Your successful melee attacks have a 2% chance to trigger an extra attack on the target."
+                },
+                {
+                  "spellId": 900132,
+                  "name": "Weaponmaster",
+                  "description": "Gives your melee weapon attacks a benefit depending on the weapon.\nAxe/Polearm: Increases your critical strike chance by 3%.\nMace/Staff: Your attacks ignore 9% of your target's armor.\nSword: Your successful melee attacks have a 3% chance to trigger an extra attack on the target."
+                },
+                {
+                  "spellId": 900133,
+                  "name": "Weaponmaster",
+                  "description": "Gives your melee weapon attacks a benefit depending on the weapon.\nAxe/Polearm: Increases your critical strike chance by 4%.\nMace/Staff: Your attacks ignore 12% of your target's armor.\nSword: Your successful melee attacks have a 4% chance to trigger an extra attack on the target."
+                },
+                {
+                  "spellId": 900134,
+                  "name": "Weaponmaster",
+                  "description": "Gives your melee weapon attacks a benefit depending on the weapon.\nAxe/Polearm: Increases your critical strike chance by 5%.\nMace/Staff: Your attacks ignore 15% of your target's armor.\nSword: Your successful melee attacks have a 5% chance to trigger an extra attack on the target."
                 }
               ]
             },
@@ -643,6 +683,16 @@
                   "spellId": 900140,
                   "name": "Boundless Rage",
                   "description": "Increases your maximum Rage by 10."
+                },
+                {
+                  "spellId": 900141,
+                  "name": "Boundless Rage",
+                  "description": "Increases your maximum Rage by 20."
+                },
+                {
+                  "spellId": 900142,
+                  "name": "Boundless Rage",
+                  "description": "Increases your maximum Rage by 30."
                 }
               ]
             },
@@ -789,6 +839,16 @@
                   "spellId": 900160,
                   "name": "Precision",
                   "description": "Increases your chance to hit with all abilities and attacks by 1%."
+                },
+                {
+                  "spellId": 900161,
+                  "name": "Precision",
+                  "description": "Increases your chance to hit with all abilities and attacks by 2%."
+                },
+                {
+                  "spellId": 900162,
+                  "name": "Precision",
+                  "description": "Increases your chance to hit with all abilities and attacks by 3%."
                 }
               ]
             },
@@ -1306,6 +1366,26 @@
                   "spellId": 900050,
                   "name": "Vitality",
                   "description": "Increases your Stamina and Strength by 2%."
+                },
+                {
+                  "spellId": 900051,
+                  "name": "Vitality",
+                  "description": "Increases your Stamina and Strength by 4%."
+                },
+                {
+                  "spellId": 900052,
+                  "name": "Vitality",
+                  "description": "Increases your Stamina and Strength by 6%."
+                },
+                {
+                  "spellId": 900053,
+                  "name": "Vitality",
+                  "description": "Increases your Stamina and Strength by 8%."
+                },
+                {
+                  "spellId": 900054,
+                  "name": "Vitality",
+                  "description": "Increases your Stamina and Strength by 10%."
                 }
               ]
             },
@@ -1322,6 +1402,16 @@
                   "spellId": 900060,
                   "name": "Focused Rage",
                   "description": "Reduces the Rage cost of your offensive abilities by 1."
+                },
+                {
+                  "spellId": 900061,
+                  "name": "Focused Rage",
+                  "description": "Reduces the Rage cost of your offensive abilities by 2."
+                },
+                {
+                  "spellId": 900062,
+                  "name": "Focused Rage",
+                  "description": "Reduces the Rage cost of your offensive abilities by 3."
                 }
               ]
             },
@@ -1551,6 +1641,16 @@
                   "spellId": 1803110,
                   "name": "Improved Seals",
                   "description": "Increases the damage done by your Seals and Judgements by 5%."
+                },
+                {
+                  "spellId": 1803111,
+                  "name": "Improved Seals",
+                  "description": "Increases the damage done by your Seals and Judgements by 10%."
+                },
+                {
+                  "spellId": 1803112,
+                  "name": "Improved Seals",
+                  "description": "Increases the damage done by your Seals and Judgements by 15%."
                 }
               ]
             },
@@ -1603,6 +1703,16 @@
                 {
                   "spellId": 1803130,
                   "name": "Reverence",
+                  "description": "Allows 10% of your Mana regeneration to continue while casting."
+                },
+                {
+                  "spellId": 1803131,
+                  "name": "Reverence",
+                  "description": "Allows 20% of your Mana regeneration to continue while casting."
+                },
+                {
+                  "spellId": 1803132,
+                  "name": "Reverence",
                   "description": "Allows 30% of your Mana regeneration to continue while casting."
                 }
               ]
@@ -1619,7 +1729,12 @@
                 {
                   "spellId": 1803140,
                   "name": "Purifying Power",
-                  "description": "Reduces the mana cost of your Cleanse and Purify spells by 20% and reduces the cooldown of your Exorcism and Holy Wrath spells by 33%."
+                  "description": "Reduces the mana cost of your Cleanse and Purify spells by 10% and reduces the cooldown of your Exorcism and Holy Wrath spells by 17%."
+                },
+                {
+                  "spellId": 1803141,
+                  "name": "Purifying Power",
+                  "description": "Reduces the mana cost of your Cleanse and Purify spells by 20% and reduces the cooldown of your Exorcism and Holy Wrath spells by 34%."
                 }
               ]
             },
@@ -1634,6 +1749,11 @@
               "ranks": [
                 {
                   "spellId": 1803150,
+                  "name": "Infusion of Light",
+                  "description": "Your Holy Shock and Flash of Light critical hits reduce the cast time of your next Holy Light cast within 15 sec by 0.5 sec."
+                },
+                {
+                  "spellId": 1803151,
                   "name": "Infusion of Light",
                   "description": "Your Holy Shock and Flash of Light critical hits reduce the cast time of your next Holy Light cast within 15 sec by 1.0 sec."
                 }
@@ -1714,6 +1834,16 @@
                   "spellId": 1803160,
                   "name": "Divine Precision",
                   "description": "Increases your chance to hit with Holy spells by 6%."
+                },
+                {
+                  "spellId": 1803161,
+                  "name": "Divine Precision",
+                  "description": "Increases your chance to hit with Holy spells by 12%."
+                },
+                {
+                  "spellId": 1803162,
+                  "name": "Divine Precision",
+                  "description": "Increases your chance to hit with Holy spells by 18%."
                 }
               ]
             },
@@ -1746,6 +1876,11 @@
                   "spellId": 1803170,
                   "name": "Consecrated Ground",
                   "description": "Gives your Holy spells 5% increased damage against the first 4 enemies that enter your Consecration."
+                },
+                {
+                  "spellId": 1803171,
+                  "name": "Consecrated Ground",
+                  "description": "Gives your Holy spells 10% increased damage against the first 4 enemies that enter your Consecration."
                 }
               ]
             },
@@ -2164,6 +2299,26 @@
                   "spellId": 1803200,
                   "name": "Reckoning",
                   "description": "Gives you a 8% chance to gain an extra attack after Blocking a melee attack and a 20% chance to gain an extra attack after being the victim of a non-periodic critical strike."
+                },
+                {
+                  "spellId": 1803201,
+                  "name": "Reckoning",
+                  "description": "Gives you a 16% chance to gain an extra attack after Blocking a melee attack and a 40% chance to gain an extra attack after being the victim of a non-periodic critical strike."
+                },
+                {
+                  "spellId": 1803202,
+                  "name": "Reckoning",
+                  "description": "Gives you a 24% chance to gain an extra attack after Blocking a melee attack and a 60% chance to gain an extra attack after being the victim of a non-periodic critical strike."
+                },
+                {
+                  "spellId": 1803203,
+                  "name": "Reckoning",
+                  "description": "Gives you a 32% chance to gain an extra attack after Blocking a melee attack and a 80% chance to gain an extra attack after being the victim of a non-periodic critical strike."
+                },
+                {
+                  "spellId": 1803204,
+                  "name": "Reckoning",
+                  "description": "Gives you a 40% chance to gain an extra attack after Blocking a melee attack and a 100% chance to gain an extra attack after being the victim of a non-periodic critical strike."
                 }
               ]
             },
@@ -2180,6 +2335,26 @@
                   "spellId": 1803210,
                   "name": "Iron Creed",
                   "description": "Increases the threat generated by your Holy Strike ability 5%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 2% for 6 sec."
+                },
+                {
+                  "spellId": 1803211,
+                  "name": "Iron Creed",
+                  "description": "Increases the threat generated by your Holy Strike ability 10%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 4% for 6 sec."
+                },
+                {
+                  "spellId": 1803212,
+                  "name": "Iron Creed",
+                  "description": "Increases the threat generated by your Holy Strike ability 15%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 6% for 6 sec."
+                },
+                {
+                  "spellId": 1803213,
+                  "name": "Iron Creed",
+                  "description": "Increases the threat generated by your Holy Strike ability 20%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 8% for 6 sec."
+                },
+                {
+                  "spellId": 1803214,
+                  "name": "Iron Creed",
+                  "description": "Increases the threat generated by your Holy Strike ability 25%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 10% for 6 sec."
                 }
               ]
             },
@@ -2317,6 +2492,11 @@
                   "spellId": 1803220,
                   "name": "Holy Conduit",
                   "description": "Reduces the mana cost of your Consecration, Holy Wrath, Exorcism, and Hammer of Wrath spells by 20%."
+                },
+                {
+                  "spellId": 1803221,
+                  "name": "Holy Conduit",
+                  "description": "Reduces the mana cost of your Consecration, Holy Wrath, Exorcism, and Hammer of Wrath spells by 40%."
                 }
               ]
             },
@@ -5387,7 +5567,7 @@
               "id": 90020,
               "row": 0,
               "col": 0,
-              "icon": "spell_holy_holynova",
+              "icon": "spell_holy_searinglight",
               "maxRank": 5,
               "requires": [],
               "name": "Power in Light",
@@ -5506,7 +5686,7 @@
               "id": 90022,
               "row": 1,
               "col": 1,
-              "icon": "spell_holy_holybolt",
+              "icon": "spell_holy_divineillumination",
               "maxRank": 3,
               "requires": [],
               "name": "Holy Precision",
@@ -5709,7 +5889,7 @@
               "id": 90023,
               "row": 3,
               "col": 2,
-              "icon": "spell_holy_powerwordshield",
+              "icon": "spell_holy_pureofheart",
               "maxRank": 1,
               "requires": [
                 {
@@ -5808,14 +5988,9 @@
               "id": 90026,
               "row": 5,
               "col": 2,
-              "icon": "spell_holy_powerwordshield",
+              "icon": "spell_holy_devineaegis",
               "maxRank": 3,
-              "requires": [
-                {
-                  "id": 90025,
-                  "qty": 5
-                }
-              ],
+              "requires": [],
               "name": "Divine Aegis",
               "ranks": [
                 {
@@ -6168,7 +6343,7 @@
               "id": 90028,
               "row": 3,
               "col": 3,
-              "icon": "spell_holy_flashheal",
+              "icon": "spell_holy_blindingheal",
               "maxRank": 1,
               "requires": [],
               "name": "Binding Heal",
@@ -6184,7 +6359,7 @@
               "id": 90029,
               "row": 4,
               "col": 0,
-              "icon": "spell_holy_pureofheart",
+              "icon": "inv_scroll_07",
               "maxRank": 2,
               "requires": [],
               "name": "Litany of Light",
@@ -6691,7 +6866,7 @@
               "id": 90033,
               "row": 5,
               "col": 0,
-              "icon": "spell_shadow_requiem",
+              "icon": "spell_shadow_demonicfortitude",
               "maxRank": 2,
               "requires": [],
               "name": "Early Demise",
@@ -11205,12 +11380,12 @@
                 {
                   "spellId": 16850,
                   "name": "Improved Starfire",
-                  "description": "Improved Starfire rank 1."
+                  "description": "Reduces the cast time of Starfire by 0.1 sec and Starfire has a 3% chance to stun its target for 3 sec."
                 },
                 {
                   "spellId": 16923,
                   "name": "Improved Starfire",
-                  "description": "Improved Starfire rank 2."
+                  "description": "Reduces the cast time of Starfire by 0.2 sec and Starfire has a 6% chance to stun its target for 3 sec."
                 },
                 {
                   "spellId": 16924,
@@ -11225,7 +11400,7 @@
                 {
                   "spellId": 16926,
                   "name": "Improved Starfire",
-                  "description": "Improved Starfire rank 5."
+                  "description": "Reduces the cast time of Starfire by 0.5 sec and Starfire has a 15% chance to stun its target for 3 sec."
                 }
               ]
             },
@@ -11300,12 +11475,12 @@
                 {
                   "spellId": 0,
                   "name": "Eclipse",
-                  "description": "Eclipse rank 1."
+                  "description": "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.17 sec. Stores up to 4 charges. Lasts 15 sec."
                 },
                 {
                   "spellId": 0,
                   "name": "Eclipse",
-                  "description": "Eclipse rank 2."
+                  "description": "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.34 sec. Stores up to 4 charges. Lasts 15 sec."
                 },
                 {
                   "spellId": 0,

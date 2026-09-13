@@ -35,14 +35,19 @@ export function TalentTreeCard({
         <span className="tree-spec">
           <img src={iconUrl(tree.icon, "medium")} alt="" width={18} height={18} />
           <span>
-            {tree.name} ({spent})
+            {tree.name} (<span className="tree-spent">{spent}</span>)
           </span>
         </span>
-        {spent > 0 ? (
-          <button type="button" className="tree-reset" onClick={onReset}>
-            ×
-          </button>
-        ) : null}
+        <button
+          type="button"
+          className="tree-reset"
+          onClick={onReset}
+          disabled={spent === 0}
+          aria-label={`Reset ${tree.name}`}
+          title={`Reset ${tree.name}`}
+        >
+          ×
+        </button>
       </header>
       <div
         className="tree-grid"

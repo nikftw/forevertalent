@@ -41,26 +41,25 @@ export function BuildBar({
         ))}
       </span>
 
-      {spent > 0 ? (
-        <button
-          type="button"
-          className="build-reset"
-          onClick={onReset}
-          title="Reset all points"
-          aria-label="Reset all points"
-        >
-          &times;
-        </button>
-      ) : null}
-
       <span className={remaining === 0 ? "build-points is-done" : "build-points"}>
         <span className="build-points-label">Points left</span>
         <span className="build-points-value">{remaining}</span>
       </span>
 
-      <button type="button" className="build-share" onClick={onCopy}>
-        {copied ? "Link copied" : "Copy build link"}
-      </button>
+      <div className="build-actions">
+        <button
+          type="button"
+          className="build-reset"
+          onClick={onReset}
+          disabled={spent === 0}
+          title="Reset all points"
+        >
+          Reset
+        </button>
+        <button type="button" className="build-share" onClick={onCopy}>
+          {copied ? "Link copied" : "Copy build link"}
+        </button>
+      </div>
     </div>
   );
 }

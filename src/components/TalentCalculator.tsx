@@ -5,6 +5,7 @@ import { BuildBar } from "@/components/BuildBar";
 import { ClassSelect } from "@/components/ClassSelect";
 import { ExtrasControls, ExtrasPanels } from "@/components/ExtrasSelect";
 import { ReviewLegend } from "@/components/ReviewLegend";
+import { SiteFooter } from "@/components/SiteFooter";
 import { TalentTreeCard } from "@/components/TalentTree";
 import { withBasePath } from "@/lib/basePath";
 import { CLASSES, MAX_POINTS } from "@/lib/classes";
@@ -146,6 +147,7 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
         ))}
       </div>
       <ReviewLegend />
+      <SiteFooter />
     </div>
   );
 }
