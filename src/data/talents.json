@@ -12521,12 +12521,12 @@
                 {
                   "spellId": 992001,
                   "name": "High Alert",
-                  "description": "Increases your ability to detect nearby targets with Stealth as if your level were increased by 1. Ineffective in Battlegrounds."
+                  "description": "Increases your ability to detect nearby targets with Stealth as if your level were increased by 1. Ineffective in battlegrounds."
                 },
                 {
                   "spellId": 992002,
                   "name": "High Alert",
-                  "description": "Increases your ability to detect nearby targets with Stealth as if your level were increased by 2. Ineffective in Battlegrounds."
+                  "description": "Increases your ability to detect nearby targets with Stealth as if your level were increased by 2. Ineffective in battlegrounds."
                 }
               ],
               "review": "new"
@@ -12907,27 +12907,27 @@
                 {
                   "spellId": 992016,
                   "name": "Reinforce",
-                  "description": "You take 8% less durability loss when you die."
+                  "description": "You take 6% less durability loss when you die."
                 },
                 {
                   "spellId": 992017,
                   "name": "Reinforce",
-                  "description": "You take 16% less durability loss when you die."
+                  "description": "You take 12% less durability loss when you die."
                 },
                 {
                   "spellId": 992018,
                   "name": "Reinforce",
-                  "description": "You take 24% less durability loss when you die."
+                  "description": "You take 18% less durability loss when you die."
                 },
                 {
                   "spellId": 992019,
                   "name": "Reinforce",
-                  "description": "You take 32% less durability loss when you die."
+                  "description": "You take 24% less durability loss when you die."
                 },
                 {
                   "spellId": 992020,
                   "name": "Reinforce",
-                  "description": "You take 40% less durability loss when you die."
+                  "description": "You take 30% less durability loss when you die."
                 }
               ],
               "review": "new"
@@ -13107,7 +13107,7 @@
               "row": 1,
               "col": 2,
               "icon": "inv_misc_coin_02",
-              "maxRank": 3,
+              "maxRank": 5,
               "requires": [
                 {
                   "id": 92021,
@@ -13119,17 +13119,27 @@
                 {
                   "spellId": 992024,
                   "name": "Performance Bonus",
-                  "description": "You have a 5% chance to receive 100% increased Merchant's Favor when you turn in a crate to the Azeroth Commerce Authority or Durotar Supply and Logistics."
+                  "description": "You have a 5% chance to receive 100% increased Merchant Favor when you turn in a crate to the Azeroth Commerce Authority or Durotar Supply and Logistics."
                 },
                 {
                   "spellId": 992025,
                   "name": "Performance Bonus",
-                  "description": "You have a 10% chance to receive 100% increased Merchant's Favor when you turn in a crate to the Azeroth Commerce Authority or Durotar Supply and Logistics."
+                  "description": "You have a 10% chance to receive 100% increased Merchant Favor when you turn in a crate to the Azeroth Commerce Authority or Durotar Supply and Logistics."
                 },
                 {
                   "spellId": 992026,
                   "name": "Performance Bonus",
-                  "description": "You have a 15% chance to receive 100% increased Merchant's Favor when you turn in a crate to the Azeroth Commerce Authority or Durotar Supply and Logistics."
+                  "description": "You have a 15% chance to receive 100% increased Merchant Favor when you turn in a crate to the Azeroth Commerce Authority or Durotar Supply and Logistics."
+                },
+                {
+                  "spellId": 992027,
+                  "name": "Performance Bonus",
+                  "description": "You have a 20% chance to receive 100% increased Merchant Favor when you turn in a crate to the Azeroth Commerce Authority or Durotar Supply and Logistics."
+                },
+                {
+                  "spellId": 992028,
+                  "name": "Performance Bonus",
+                  "description": "You have a 25% chance to receive 100% increased Merchant Favor when you turn in a crate to the Azeroth Commerce Authority or Durotar Supply and Logistics."
                 }
               ],
               "review": "new"
@@ -13139,7 +13149,7 @@
               "row": 2,
               "col": 1,
               "icon": "trade_fishing",
-              "maxRank": 2,
+              "maxRank": 5,
               "requires": [
                 {
                   "id": 92023,
@@ -13151,12 +13161,27 @@
                 {
                   "spellId": 992025,
                   "name": "Luremaster",
-                  "description": "While fishing with a Lure active, you have a 25% chance to catch an extra fish."
+                  "description": "While fishing with a lure active, you have a 25% chance to catch an extra fish."
                 },
                 {
                   "spellId": 992026,
                   "name": "Luremaster",
-                  "description": "While fishing with a Lure active, you have a 50% chance to catch an extra fish."
+                  "description": "While fishing with a lure active, you have a 50% chance to catch an extra fish."
+                },
+                {
+                  "spellId": 992027,
+                  "name": "Luremaster",
+                  "description": "While fishing with a lure active, you have a 75% chance to catch an extra fish."
+                },
+                {
+                  "spellId": 992028,
+                  "name": "Luremaster",
+                  "description": "While fishing with a lure active, you have a 100% chance to catch an extra fish."
+                },
+                {
+                  "spellId": 992029,
+                  "name": "Luremaster",
+                  "description": "While fishing with a lure active, you have a 125% chance to catch an extra fish."
                 }
               ],
               "review": "new"
@@ -13166,7 +13191,7 @@
               "row": 3,
               "col": 1,
               "icon": "inv_misc_book_09",
-              "maxRank": 1,
+              "maxRank": 5,
               "requires": [
                 {
                   "id": 92025,
@@ -13178,7 +13203,37 @@
                 {
                   "spellId": 992026,
                   "name": "Dedicated Study",
-                  "description": "Increases your skill by 1 in your lowest tradeskill among your Primary and Secondary tradeskills. If you have already reached 300 skill in your two current Primary Tradeskills and all three Secondary Tradeskills, you will gain 2 to 4 of a random Elemental Essence."
+                  "description": "Increases your skill by 1 in your lowest tradeskill among your Primary and Secondary tradeskills. If you have already reached 300 skill in your two current Primary tradeskills and all three Secondary Tradeskills, you will gain 2 to 4 of a random Elemental Essence.",
+                  "castTime": "25 sec",
+                  "cooldown": "23 hour"
+                },
+                {
+                  "spellId": 992027,
+                  "name": "Dedicated Study",
+                  "description": "Increases your skill by 2 in your lowest tradeskill among your Primary and Secondary tradeskills. If you have already reached 300 skill in your two current Primary tradeskills and all three Secondary Tradeskills, you will gain 2 to 4 of a random Elemental Essence.",
+                  "castTime": "25 sec",
+                  "cooldown": "23 hour"
+                },
+                {
+                  "spellId": 992028,
+                  "name": "Dedicated Study",
+                  "description": "Increases your skill by 3 in your lowest tradeskill among your Primary and Secondary tradeskills. If you have already reached 300 skill in your two current Primary tradeskills and all three Secondary Tradeskills, you will gain 2 to 4 of a random Elemental Essence.",
+                  "castTime": "25 sec",
+                  "cooldown": "23 hour"
+                },
+                {
+                  "spellId": 992029,
+                  "name": "Dedicated Study",
+                  "description": "Increases your skill by 4 in your lowest tradeskill among your Primary and Secondary tradeskills. If you have already reached 300 skill in your two current Primary tradeskills and all three Secondary Tradeskills, you will gain 2 to 4 of a random Elemental Essence.",
+                  "castTime": "25 sec",
+                  "cooldown": "23 hour"
+                },
+                {
+                  "spellId": 992030,
+                  "name": "Dedicated Study",
+                  "description": "Increases your skill by 5 in your lowest tradeskill among your Primary and Secondary tradeskills. If you have already reached 300 skill in your two current Primary tradeskills and all three Secondary Tradeskills, you will gain 2 to 4 of a random Elemental Essence.",
+                  "castTime": "25 sec",
+                  "cooldown": "23 hour"
                 }
               ],
               "review": "new"

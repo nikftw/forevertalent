@@ -4,6 +4,10 @@ export type RankTooltip = {
   spellId: number;
   name: string;
   description: string;
+  mana?: number | string;
+  range?: string;
+  castTime?: string;
+  cooldown?: string;
 };
 
 export type TalentRequirement = {

@@ -86,6 +86,15 @@ export function TalentNode({
                 Rank {current}/{talent.maxRank}
               </span>
             </div>
+            {currentRank.castTime || currentRank.cooldown || currentRank.range ? (
+              <div className="tooltip-meta">
+                {currentRank.castTime ? <span>{currentRank.castTime} cast</span> : null}
+                {currentRank.cooldown ? (
+                  <span>{currentRank.cooldown} cooldown</span>
+                ) : null}
+                {currentRank.range ? <span>{currentRank.range}</span> : null}
+              </div>
+            ) : null}
             <p>{formatTooltip(currentRank.description)}</p>
             {nextRank ? (
               <>

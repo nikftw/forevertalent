@@ -612,6 +612,16 @@ body {
   white-space: nowrap;
 }
 
+.tooltip-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
+  margin-bottom: 0.4rem;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+}
+
 .talent-tooltip p {
   margin: 0;
   color: var(--gold);
