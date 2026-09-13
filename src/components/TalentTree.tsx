@@ -92,10 +92,20 @@ function TalentArrow({
   if (rowSpan < 0) return null;
 
   const cell = 60;
-  const top = required.row * cell + 48;
+  const iconMid = 30;
+  const crossThickness = 12;
   const left = required.col * cell + 28;
-  const height = rowSpan * cell - 8;
   const width = Math.abs(colSpan) * cell;
+  const isCross = colSpan !== 0;
+
+  // Cross-column links sit on the dependent talent's vertical mid so the
+  // stripe meets the icon side-on, not hanging off the bottom of the cell.
+  const top = isCross
+    ? talent.row * cell + iconMid - crossThickness / 2
+    : required.row * cell + 48;
+  const height = isCross
+    ? crossThickness
+    : Math.max(rowSpan * cell - 8, 12);
 
   return (
     <div
@@ -103,7 +113,7 @@ function TalentArrow({
       style={{
         top,
         left: colSpan >= 0 ? left : left - width,
-        height: Math.max(height, 12),
+        height,
         width: width || 4,
       }}
       data-dir={colSpan === 0 ? "down" : colSpan > 0 ? "right" : "left"}

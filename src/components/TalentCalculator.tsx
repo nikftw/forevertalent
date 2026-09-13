@@ -1,13 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { BuildBar } from "@/components/BuildBar";
 import { ClassSelect } from "@/components/ClassSelect";
-import { ExtrasSelect } from "@/components/ExtrasSelect";
+import { ExtrasControls, ExtrasPanels } from "@/components/ExtrasSelect";
 import { ReviewLegend } from "@/components/ReviewLegend";
 import { TalentTreeCard } from "@/components/TalentTree";
-import { foreverLogoUrl } from "@/lib/assets";
 import { withBasePath } from "@/lib/basePath";
 import { CLASSES, MAX_POINTS } from "@/lib/classes";
 import {
@@ -92,31 +90,34 @@ export function TalentCalculator({ cls, initialBuild }: TalentCalculatorProps) {
   return (
     <div className="calculator">
       <header className="masthead">
-        <Link className="brand-logo" href={`/${cls.slug}${extrasQuery}`}>
-          <img
-            src={foreverLogoUrl()}
-            alt="World of Warcraft Forever"
-            width={882}
-            height={718}
+        <div className="masthead-selectors">
+          <div className="extras-group extras-group-class">
+            <span className="extras-label" id="extras-class-label">
+              Class
+            </span>
+            <ClassSelect
+              classes={CLASSES}
+              activeSlug={cls.slug}
+              extras={extras}
+            />
+          </div>
+          <ExtrasControls
+            classSlug={cls.slug}
+            selection={extras}
+            onChange={updateExtras}
           />
-        </Link>
-        <h1>Talent Calculator</h1>
+        </div>
+        <BuildBar
+          cls={cls}
+          split={split}
+          spent={spent}
+          remaining={remaining}
+          copied={copied}
+          onReset={() => update(applyAction(cls, ranks, { type: "reset-all" }))}
+          onCopy={copyBuild}
+        />
       </header>
-      <ClassSelect classes={CLASSES} activeSlug={cls.slug} extras={extras} />
-      <ExtrasSelect
-        classSlug={cls.slug}
-        selection={extras}
-        onChange={updateExtras}
-      />
-      <BuildBar
-        cls={cls}
-        split={split}
-        spent={spent}
-        remaining={remaining}
-        copied={copied}
-        onReset={() => update(applyAction(cls, ranks, { type: "reset-all" }))}
-        onCopy={copyBuild}
-      />
+      <ExtrasPanels selection={extras} />
       <div className="trees">
         {cls.trees.map((tree) => (
           <TalentTreeCard

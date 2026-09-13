@@ -1402,7 +1402,7 @@
               "id": 90306,
               "row": 0,
               "col": 0,
-              "icon": "spell_holy_sealofrighteousness",
+              "icon": "spell_holy_righteousfury",
               "maxRank": 2,
               "requires": [],
               "name": "Improved Holy Strike",
@@ -1542,7 +1542,7 @@
               "id": 90310,
               "row": 1,
               "col": 2,
-              "icon": "spell_holy_healingaura",
+              "icon": "ability_thunderbolt",
               "maxRank": 3,
               "requires": [],
               "name": "Improved Seals",
@@ -1579,7 +1579,7 @@
               "id": 90311,
               "row": 2,
               "col": 0,
-              "icon": "spell_holy_silence",
+              "icon": "inv_misc_horn_03",
               "maxRank": 1,
               "requires": [],
               "name": "Voice of Truth",
@@ -1595,7 +1595,7 @@
               "id": 90312,
               "row": 2,
               "col": 1,
-              "icon": "spell_holy_mindvision",
+              "icon": "spell_holy_divineillumination",
               "maxRank": 3,
               "requires": [],
               "name": "Reverence",
@@ -1700,7 +1700,7 @@
               "id": 90315,
               "row": 4,
               "col": 0,
-              "icon": "spell_holy_holybolt",
+              "icon": "spell_holy_mindsooth",
               "maxRank": 3,
               "requires": [
                 {
@@ -1789,7 +1789,7 @@
               "id": 90317,
               "row": 6,
               "col": 1,
-              "icon": "spell_holy_holyguidance",
+              "icon": "ability_paladin_enlightenedjudgements",
               "maxRank": 1,
               "requires": [
                 {
@@ -1972,7 +1972,7 @@
               "id": 90307,
               "row": 2,
               "col": 0,
-              "icon": "spell_holy_sealoffury",
+              "icon": "spell_holy_retributionaura",
               "maxRank": 1,
               "requires": [],
               "name": "Improved Seal of Fury",
@@ -2045,7 +2045,7 @@
               "id": 90305,
               "row": 2,
               "col": 3,
-              "icon": "spell_holy_divinepurpose",
+              "icon": "spell_holy_divineintervention",
               "maxRank": 2,
               "requires": [],
               "name": "Sacred Duty",
@@ -2139,7 +2139,7 @@
               "id": 90308,
               "row": 4,
               "col": 1,
-              "icon": "spell_holy_ardentdefender",
+              "icon": "ability_paladin_shieldofthetemplar",
               "maxRank": 1,
               "requires": [],
               "name": "Templar's Bulwark",
@@ -2308,7 +2308,7 @@
               "id": 90321,
               "row": 1,
               "col": 1,
-              "icon": "spell_holy_divineillumination",
+              "icon": "spell_paladin_clarityofpurpose",
               "maxRank": 2,
               "requires": [],
               "name": "Holy Conduit",
@@ -2386,7 +2386,7 @@
               "id": 90301,
               "row": 2,
               "col": 1,
-              "icon": "spell_holy_sealofwisdom",
+              "icon": "spell_holy_righteousfury",
               "maxRank": 3,
               "requires": [],
               "name": "Sanctified Judgement",
@@ -2470,7 +2470,7 @@
               "id": 90309,
               "row": 3,
               "col": 2,
-              "icon": "ability_paladin_judgementofthejust",
+              "icon": "inv_sword_2h_blood_c_01",
               "maxRank": 1,
               "requires": [],
               "name": "Sacred Arbiter",
@@ -2580,7 +2580,7 @@
               "id": 90302,
               "row": 5,
               "col": 1,
-              "icon": "spell_holy_holyguidance",
+              "icon": "ability_paladin_judgementofthewise",
               "maxRank": 3,
               "requires": [],
               "name": "Champion of the Light",
@@ -2606,7 +2606,7 @@
               "id": 90304,
               "row": 5,
               "col": 2,
-              "icon": "spell_holy_weaponmastery",
+              "icon": "spell_holy_divinepurpose",
               "maxRank": 2,
               "requires": [],
               "name": "Instrument of Law",
@@ -2627,7 +2627,7 @@
               "id": 90300,
               "row": 6,
               "col": 1,
-              "icon": "spell_holy_divineintervention",
+              "icon": "ability_paladin_sanctifiedwrath",
               "maxRank": 1,
               "requires": [],
               "name": "Twist of Light",
@@ -2731,7 +2731,7 @@
               "id": 90105,
               "row": 1,
               "col": 0,
-              "icon": "ability_hunter_focusedaim",
+              "icon": "inv_weapon_crossbow_04",
               "maxRank": 2,
               "requires": [],
               "name": "Focused Fire",
@@ -2751,7 +2751,7 @@
             {
               "id": 1384,
               "row": 1,
-              "col": 1,
+              "col": 2,
               "icon": "ability_mount_jungletiger",
               "maxRank": 2,
               "requires": [],
@@ -2772,26 +2772,26 @@
             {
               "id": 1395,
               "row": 1,
-              "col": 2,
-              "icon": "inv_misc_pelt_bear_03",
+              "col": 1,
+              "icon": "ability_hunter_aspectofthemonkey",
               "maxRank": 3,
               "requires": [],
-              "name": "Thick Hide",
+              "name": "Improved Aspect of the Monkey",
               "ranks": [
                 {
-                  "spellId": 19609,
-                  "name": "Thick Hide",
-                  "description": "Increases the Armor rating of your pets by 10%."
+                  "spellId": 19549,
+                  "name": "Improved Aspect of the Monkey",
+                  "description": "Increases the Dodge bonus of your Aspect of the Monkey by 2%. Additionally, your pet gains 50% of the effect of your Aspect of the Monkey ability."
                 },
                 {
-                  "spellId": 19610,
-                  "name": "Thick Hide",
-                  "description": "Increases the Armor rating of your pets by 20%."
+                  "spellId": 19550,
+                  "name": "Improved Aspect of the Monkey",
+                  "description": "Increases the Dodge bonus of your Aspect of the Monkey by 4%. Additionally, your pet gains 50% of the effect of your Aspect of the Monkey ability."
                 },
                 {
-                  "spellId": 19612,
-                  "name": "Thick Hide",
-                  "description": "Increases the Armor rating of your pets by 30%."
+                  "spellId": 19551,
+                  "name": "Improved Aspect of the Monkey",
+                  "description": "Increases the Dodge bonus of your Aspect of the Monkey by 6%. Additionally, your pet gains 50% of the effect of your Aspect of the Monkey ability."
                 }
               ]
             },
@@ -2871,7 +2871,7 @@
             {
               "id": 90106,
               "row": 3,
-              "col": 0,
+              "col": 3,
               "icon": "ability_hunter_eagleeye",
               "maxRank": 1,
               "requires": [],
@@ -2921,9 +2921,30 @@
               ]
             },
             {
-              "id": 1388,
+              "id": 90107,
               "row": 3,
-              "col": 3,
+              "col": 0,
+              "icon": "ability_hunter_mendpet",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Improved Mend Pet",
+              "ranks": [
+                {
+                  "spellId": 19572,
+                  "name": "Improved Mend Pet",
+                  "description": "Gives your Mend Pet spell a 15% chance of cleansing 1 Curse, Disease, Magic, or Poison effect from your pet each time it heals and reduces the Mana cost by 10%."
+                },
+                {
+                  "spellId": 19573,
+                  "name": "Improved Mend Pet",
+                  "description": "Gives your Mend Pet spell a 30% chance of cleansing 1 Curse, Disease, Magic, or Poison effect from your pet each time it heals and reduces the Mana cost by 20%."
+                }
+              ]
+            },
+            {
+              "id": 1388,
+              "row": 4,
+              "col": 0,
               "icon": "classic_ability_druid_demoralizingroar",
               "maxRank": 2,
               "requires": [],
@@ -3055,7 +3076,7 @@
             {
               "id": 1341,
               "row": 0,
-              "col": 0,
+              "col": 1,
               "icon": "spell_frost_stun",
               "maxRank": 5,
               "requires": [],
@@ -3090,7 +3111,7 @@
             },
             {
               "id": 1342,
-              "row": 0,
+              "row": 1,
               "col": 1,
               "icon": "spell_frost_wizardmark",
               "maxRank": 5,
@@ -3162,44 +3183,33 @@
             },
             {
               "id": 1344,
-              "row": 1,
-              "col": 0,
-              "icon": "ability_searingarrow",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Lethal Attacks",
+              "row": 6,
+              "col": 1,
+              "icon": "ability_hunter_snipershot",
+              "maxRank": 1,
+              "requires": [
+                {
+                  "id": 1361,
+                  "qty": 1
+                }
+              ],
+              "name": "Sniper Shot",
               "ranks": [
                 {
-                  "spellId": 19426,
-                  "name": "Lethal Attacks",
-                  "description": "Increases your critical strike chance with all attacks by 1%."
-                },
-                {
-                  "spellId": 19427,
-                  "name": "Lethal Attacks",
-                  "description": "Increases your critical strike chance with all attacks by 2%."
-                },
-                {
-                  "spellId": 19429,
-                  "name": "Lethal Attacks",
-                  "description": "Increases your critical strike chance with all attacks by 3%."
-                },
-                {
-                  "spellId": 19430,
-                  "name": "Lethal Attacks",
-                  "description": "Increases your critical strike chance with all attacks by 4%."
-                },
-                {
-                  "spellId": 19431,
-                  "name": "Lethal Attacks",
-                  "description": "Increases your critical strike chance with all attacks by 5%."
+                  "spellId": 901080,
+                  "name": "Sniper Shot",
+                  "description": "A steady snipe that increases ranged damage by 160.",
+                  "mana": 365,
+                  "range": "8-35 yd",
+                  "castTime": "4 sec",
+                  "cooldown": "15 sec"
                 }
               ]
             },
             {
               "id": 1343,
               "row": 1,
-              "col": 1,
+              "col": 2,
               "icon": "ability_hunter_snipershot",
               "maxRank": 5,
               "requires": [],
@@ -3234,16 +3244,11 @@
             },
             {
               "id": 1346,
-              "row": 1,
-              "col": 2,
+              "row": 2,
+              "col": 1,
               "icon": "ability_impalingbolt",
               "maxRank": 5,
-              "requires": [
-                {
-                  "id": 90100,
-                  "qty": 5
-                }
-              ],
+              "requires": [],
               "name": "Improved Arcane Shot",
               "ranks": [
                 {
@@ -3275,8 +3280,8 @@
             },
             {
               "id": 1353,
-              "row": 2,
-              "col": 0,
+              "row": 4,
+              "col": 3,
               "icon": "ability_golemstormbolt",
               "maxRank": 1,
               "requires": [],
@@ -3291,8 +3296,8 @@
             },
             {
               "id": 1352,
-              "row": 2,
-              "col": 1,
+              "row": 0,
+              "col": 0,
               "icon": "ability_townwatch",
               "maxRank": 3,
               "requires": [],
@@ -3317,8 +3322,8 @@
             },
             {
               "id": 90101,
-              "row": 2,
-              "col": 3,
+              "row": 1,
+              "col": 0,
               "icon": "ability_hunter_quickshot",
               "maxRank": 3,
               "requires": [],
@@ -3343,8 +3348,8 @@
             },
             {
               "id": 1347,
-              "row": 3,
-              "col": 1,
+              "row": 4,
+              "col": 2,
               "icon": "ability_upgrademoonglaive",
               "maxRank": 3,
               "requires": [],
@@ -3375,7 +3380,7 @@
               "maxRank": 5,
               "requires": [
                 {
-                  "id": 1346,
+                  "id": 1343,
                   "qty": 5
                 }
               ],
@@ -3410,16 +3415,11 @@
             },
             {
               "id": 90102,
-              "row": 4,
+              "row": 2,
               "col": 0,
               "icon": "ability_hunter_rapidkilling",
               "maxRank": 2,
-              "requires": [
-                {
-                  "id": 1353,
-                  "qty": 1
-                }
-              ],
+              "requires": [],
               "name": "Rapid Killing",
               "ranks": [
                 {
@@ -3436,7 +3436,7 @@
             },
             {
               "id": 1362,
-              "row": 4,
+              "row": 5,
               "col": 2,
               "icon": "inv_weapon_rifle_06",
               "maxRank": 5,
@@ -3472,7 +3472,7 @@
             },
             {
               "id": 90104,
-              "row": 4,
+              "row": 2,
               "col": 3,
               "icon": "spell_hunter_lonewolf",
               "maxRank": 1,
@@ -3488,7 +3488,7 @@
             },
             {
               "id": 90103,
-              "row": 5,
+              "row": 4,
               "col": 0,
               "icon": "ability_hunter_rapidregeneration",
               "maxRank": 2,
@@ -3513,38 +3513,12 @@
               ]
             },
             {
-              "id": 1345,
-              "row": 5,
-              "col": 2,
-              "icon": "inv_spear_07",
-              "maxRank": 1,
-              "requires": [
-                {
-                  "id": 1362,
-                  "qty": 5
-                }
-              ],
-              "name": "Sniper Shot",
-              "ranks": [
-                {
-                  "spellId": 19434,
-                  "name": "Sniper Shot",
-                  "description": "A steady snipe that increases ranged damage by 160."
-                }
-              ]
-            },
-            {
               "id": 1361,
-              "row": 6,
+              "row": 3,
               "col": 1,
               "icon": "ability_trueshot",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 1347,
-                  "qty": 3
-                }
-              ],
+              "requires": [],
               "name": "Trueshot Aura",
               "ranks": [
                 {
@@ -3565,7 +3539,7 @@
               "id": 90092,
               "row": 0,
               "col": 1,
-              "icon": "ability_hunter_survivalinstincts",
+              "icon": "inv_misc_head_dragon_black",
               "maxRank": 5,
               "requires": [],
               "name": "Improved Tracking",
@@ -3693,7 +3667,7 @@
             {
               "id": 1305,
               "row": 1,
-              "col": 2,
+              "col": 3,
               "icon": "ability_rogue_trip",
               "maxRank": 3,
               "requires": [],
@@ -3718,8 +3692,8 @@
             },
             {
               "id": 90094,
-              "row": 1,
-              "col": 3,
+              "row": 3,
+              "col": 0,
               "icon": "ability_hunter_traplauncher",
               "maxRank": 2,
               "requires": [],
@@ -3803,8 +3777,8 @@
             {
               "id": 90093,
               "row": 3,
-              "col": 0,
-              "icon": "ability_hunter_swiftstrike",
+              "col": 1,
+              "icon": "inv_misc_book_11",
               "maxRank": 5,
               "requires": [],
               "name": "Predator's Edge",
@@ -3838,8 +3812,8 @@
             },
             {
               "id": 1622,
-              "row": 3,
-              "col": 1,
+              "row": 1,
+              "col": 2,
               "icon": "spell_shadow_twilight",
               "maxRank": 5,
               "requires": [],
@@ -3896,8 +3870,8 @@
             {
               "id": 90098,
               "row": 4,
-              "col": 0,
-              "icon": "ability_warrior_punishingblow",
+              "col": 3,
+              "icon": "ability_hunter_markedfordeath",
               "maxRank": 1,
               "requires": [],
               "name": "Strider Kick",
@@ -3912,8 +3886,8 @@
             {
               "id": 90095,
               "row": 4,
-              "col": 1,
-              "icon": "inv_misc_book_11",
+              "col": 0,
+              "icon": "ability_warrior_punishingblow",
               "maxRank": 2,
               "requires": [],
               "name": "Resourcefulness",
@@ -3926,15 +3900,15 @@
                 {
                   "spellId": 900951,
                   "name": "Resourcefulness",
-                  "description": "Reduces the mana cost of your Trap abilities and melee abilities by 60%. In addition, your critical strikes have a 60% chance to allow 100% of your Mana regeneration to continue while casting for 60 sec."
+                  "description": "Reduces the mana cost of your Trap abilities and melee abilities by 60%. In addition, your critical strikes have a 60% chance to allow 50% of your Mana regeneration to continue while casting for 30 sec."
                 }
               ]
             },
             {
               "id": 90096,
               "row": 4,
-              "col": 2,
-              "icon": "ability_hunter_snipershot",
+              "col": 1,
+              "icon": "ability_hunter_swiftstrike",
               "maxRank": 2,
               "requires": [],
               "name": "Expose Prey",
@@ -3947,14 +3921,14 @@
                 {
                   "spellId": 900961,
                   "name": "Expose Prey",
-                  "description": "Your attacks against targets with Hunter's Mark have a 10% chance to activate your Mongoose Bite for 10 sec."
+                  "description": "Your attacks against targets with Hunter's Mark have a 10% chance to activate your Mongoose Bite for 5 sec."
                 }
               ]
             },
             {
               "id": 90097,
               "row": 4,
-              "col": 3,
+              "col": 2,
               "icon": "spell_nature_timestop",
               "maxRank": 2,
               "requires": [],
@@ -4012,11 +3986,11 @@
               "id": 90099,
               "row": 6,
               "col": 1,
-              "icon": "ability_druid_lacerate",
+              "icon": "ability_gouge",
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 90095,
+                  "id": 90096,
                   "qty": 2
                 }
               ],
@@ -10980,7 +10954,7 @@
               "id": 90050,
               "row": 0,
               "col": 2,
-              "icon": "spell_arcane_natureguardian",
+              "icon": "spell_arcane_arcane03",
               "maxRank": 5,
               "requires": [],
               "name": "Genesis",
@@ -11037,7 +11011,7 @@
               "id": 90051,
               "row": 1,
               "col": 2,
-              "icon": "ability_druid_eclipse",
+              "icon": "inv_staff_01",
               "maxRank": 2,
               "requires": [],
               "name": "Nature's Majesty",
@@ -11079,7 +11053,7 @@
               "id": 90052,
               "row": 2,
               "col": 2,
-              "icon": "spell_nature_natureguardian",
+              "icon": "spell_nature_natureresistancetotem",
               "maxRank": 1,
               "requires": [
                 {
@@ -11159,22 +11133,27 @@
             },
             {
               "id": 90055,
-              "row": 4,
+              "row": 2,
               "col": 0,
               "icon": "spell_nature_stranglevines",
-              "maxRank": 2,
+              "maxRank": 3,
               "requires": [],
-              "name": "Overgrowth",
+              "name": "Improved Entangling Roots",
               "ranks": [
                 {
-                  "spellId": 0,
-                  "name": "Overgrowth",
-                  "description": "Increases the maximum number of targets you may have affected by Entangling Roots by 1."
+                  "spellId": 900552,
+                  "name": "Improved Entangling Roots",
+                  "description": "Increases the damage done by your Entangling Roots spell by 25%, and its victims can take up to 25% more damage without interrupting the effect."
                 },
                 {
-                  "spellId": 0,
-                  "name": "Overgrowth",
-                  "description": "Increases the maximum number of targets you may have affected by Entangling Roots by 2."
+                  "spellId": 900553,
+                  "name": "Improved Entangling Roots",
+                  "description": "Increases the damage done by your Entangling Roots spell by 50%, and its victims can take up to 50% more damage without interrupting the effect."
+                },
+                {
+                  "spellId": 900554,
+                  "name": "Improved Entangling Roots",
+                  "description": "Increases the damage done by your Entangling Roots spell by 75%, and its victims can take up to 75% more damage without interrupting the effect."
                 }
               ]
             },
@@ -11372,25 +11351,23 @@
               ]
             },
             {
-              "id": 90063,
-              "row": 6,
+              "id": 90066,
+              "row": 4,
               "col": 0,
-              "icon": "ability_druid_forceofnature",
-              "maxRank": 1,
-              "requires": [
-                {
-                  "id": 790,
-                  "qty": 5
-                }
-              ],
-              "name": "Force of Nature",
+              "icon": "inv_misc_herb_15",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Overgrowth",
               "ranks": [
                 {
-                  "spellId": 0,
-                  "name": "Force of Nature",
-                  "description": "Summons 3 treants to attack enemy targets for 30 sec.",
-                  "castTime": "Instant",
-                  "cooldown": "3 min"
+                  "spellId": 900660,
+                  "name": "Overgrowth",
+                  "description": "Increases the maximum number of targets you may have affected by Entangling Roots by 1."
+                },
+                {
+                  "spellId": 900661,
+                  "name": "Overgrowth",
+                  "description": "Increases the maximum number of targets you may have affected by Entangling Roots by 2."
                 }
               ]
             }
@@ -11621,27 +11598,6 @@
               ]
             },
             {
-              "id": 800,
-              "row": 2,
-              "col": 0,
-              "icon": "ability_ghoulfrenzy",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Blood Frenzy",
-              "ranks": [
-                {
-                  "spellId": 16952,
-                  "name": "Blood Frenzy",
-                  "description": "Your critical strikes from Cat Form abilities that add combo points have a 50% chance to add an additional combo point."
-                },
-                {
-                  "spellId": 16954,
-                  "name": "Blood Frenzy",
-                  "description": "Your critical strikes from Cat Form abilities that add combo points have a 100% chance to add an additional combo point."
-                }
-              ]
-            },
-            {
               "id": 90060,
               "row": 5,
               "col": 0,
@@ -11765,22 +11721,6 @@
               ]
             },
             {
-              "id": 1162,
-              "row": 4,
-              "col": 2,
-              "icon": "spell_nature_faeriefire",
-              "maxRank": 1,
-              "requires": [],
-              "name": "Faerie Fire (Feral)",
-              "ranks": [
-                {
-                  "spellId": 16857,
-                  "name": "Faerie Fire (Feral)",
-                  "description": "Decrease the armor of the target by 175 for 40 sec. While affected, the target cannot stealth or turn invisible."
-                }
-              ]
-            },
-            {
               "id": 809,
               "row": 4,
               "col": 1,
@@ -11885,6 +11825,48 @@
                   "cooldown": "3 min"
                 }
               ]
+            },
+            {
+              "id": 90065,
+              "row": 1,
+              "col": 0,
+              "icon": "talentspec_druid_feral_cat",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Feral Swiftness",
+              "ranks": [
+                {
+                  "spellId": 900650,
+                  "name": "Feral Swiftness",
+                  "description": "Increases your movement speed while in Cat Form by 15%, and increases your chance to Dodge by 2%."
+                },
+                {
+                  "spellId": 900651,
+                  "name": "Feral Swiftness",
+                  "description": "Increases your movement speed while in Cat Form by 30%, and increases your chance to Dodge by 4%."
+                }
+              ]
+            },
+            {
+              "id": 90067,
+              "row": 4,
+              "col": 0,
+              "icon": "ability_druid_predatoryinstincts",
+              "maxRank": 2,
+              "requires": [],
+              "name": "Predatory Instincts",
+              "ranks": [
+                {
+                  "spellId": 900670,
+                  "name": "Predatory Instincts",
+                  "description": "Increases the critical strike damage bonus of your melee abilities by 10%."
+                },
+                {
+                  "spellId": 900671,
+                  "name": "Predatory Instincts",
+                  "description": "Increases the critical strike damage bonus of your melee abilities by 20%."
+                }
+              ]
             }
           ],
           "icon": "ability_racial_bearform"
@@ -11893,42 +11875,6 @@
           "id": 282,
           "name": "Restoration",
           "talents": [
-            {
-              "id": 90064,
-              "row": 0,
-              "col": 0,
-              "icon": "spell_nature_regeneration",
-              "maxRank": 5,
-              "requires": [],
-              "name": "Improved Mark of the Wild",
-              "ranks": [
-                {
-                  "spellId": 0,
-                  "name": "Improved Mark of the Wild",
-                  "description": "Increases the effects of your Mark of the Wild and Gift of the Wild spells by 7%."
-                },
-                {
-                  "spellId": 0,
-                  "name": "Improved Mark of the Wild",
-                  "description": "Increases the effects of your Mark of the Wild and Gift of the Wild spells by 14%."
-                },
-                {
-                  "spellId": 0,
-                  "name": "Improved Mark of the Wild",
-                  "description": "Increases the effects of your Mark of the Wild and Gift of the Wild spells by 21%."
-                },
-                {
-                  "spellId": 0,
-                  "name": "Improved Mark of the Wild",
-                  "description": "Increases the effects of your Mark of the Wild and Gift of the Wild spells by 28%."
-                },
-                {
-                  "spellId": 0,
-                  "name": "Improved Mark of the Wild",
-                  "description": "Increases the effects of your Mark of the Wild and Gift of the Wild spells by 35%."
-                }
-              ]
-            },
             {
               "id": 822,
               "row": 0,
@@ -12117,22 +12063,42 @@
             },
             {
               "id": 826,
-              "row": 4,
+              "row": 5,
               "col": 2,
-              "icon": "ability_druid_enrage",
-              "maxRank": 2,
-              "requires": [],
-              "name": "Improved Enrage",
+              "icon": "spell_nature_resistnature",
+              "maxRank": 5,
+              "requires": [
+                {
+                  "id": 830,
+                  "qty": 3
+                }
+              ],
+              "name": "Improved Regrowth",
               "ranks": [
                 {
-                  "spellId": 17079,
-                  "name": "Improved Enrage",
-                  "description": "The Enrage ability now instantly generates 5 Rage."
+                  "spellId": 17074,
+                  "name": "Improved Regrowth",
+                  "description": "Increases the critical effect chance of your Regrowth spell by 10%."
                 },
                 {
-                  "spellId": 17082,
-                  "name": "Improved Enrage",
-                  "description": "The Enrage ability now instantly generates 10 Rage."
+                  "spellId": 17075,
+                  "name": "Improved Regrowth",
+                  "description": "Increases the critical effect chance of your Regrowth spell by 20%."
+                },
+                {
+                  "spellId": 17076,
+                  "name": "Improved Regrowth",
+                  "description": "Increases the critical effect chance of your Regrowth spell by 30%."
+                },
+                {
+                  "spellId": 17077,
+                  "name": "Improved Regrowth",
+                  "description": "Increases the critical effect chance of your Regrowth spell by 40%."
+                },
+                {
+                  "spellId": 17078,
+                  "name": "Improved Regrowth",
+                  "description": "Increases the critical effect chance of your Regrowth spell by 50%."
                 }
               ]
             },
@@ -12300,16 +12266,11 @@
             },
             {
               "id": 90062,
-              "row": 5,
+              "row": 4,
               "col": 1,
-              "icon": "ability_druid_treeoflife",
+              "icon": "spell_nature_giftofthewaterspirit",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 828,
-                  "qty": 5
-                }
-              ],
+              "requires": [],
               "name": "Tree of Life",
               "ranks": [
                 {
@@ -12323,7 +12284,7 @@
               "id": 90061,
               "row": 6,
               "col": 1,
-              "icon": "ability_druid_wildgrowth",
+              "icon": "ability_druid_flourish",
               "maxRank": 1,
               "requires": [
                 {
@@ -12341,6 +12302,22 @@
                   "range": "40 yd",
                   "castTime": "Instant",
                   "cooldown": "6 sec"
+                }
+              ]
+            },
+            {
+              "id": 90068,
+              "row": 2,
+              "col": 3,
+              "icon": "ability_druid_manatree",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Gift of the Earthmother",
+              "ranks": [
+                {
+                  "spellId": 900680,
+                  "name": "Gift of the Earthmother",
+                  "description": "Reduces the global cooldown by 0.5 seconds on your Rejuvenation, Swiftmend, and Wild Growth spells."
                 }
               ]
             }

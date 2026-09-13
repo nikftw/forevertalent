@@ -14,8 +14,8 @@ type BuildBarProps = {
 };
 
 /**
- * The build readout. Sits between the extras and the trees at a fixed width so
- * it never moves when a race or profession panel opens.
+ * Build readout. Lives in the masthead top-right and stretches to match the
+ * Class / Race / Profs selector rows.
  */
 export function BuildBar({
   cls,

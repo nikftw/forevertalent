@@ -15,7 +15,7 @@ import {
   RaceAbilityPanel,
 } from "@/components/ExtraAbilityPanels";
 
-type ExtrasSelectProps = {
+type ExtrasControlsProps = {
   classSlug: string;
   selection: ExtrasSelection;
   onChange: (next: ExtrasSelection) => void;
@@ -23,14 +23,15 @@ type ExtrasSelectProps = {
 
 type ProfessionSlot = "p1" | "p2";
 
-export function ExtrasSelect({
+/**
+ * Race and profession pickers. Rendered inside the masthead selectors row
+ * alongside Class (via display:contents on the wrapper).
+ */
+export function ExtrasControls({
   classSlug,
   selection,
   onChange,
-}: ExtrasSelectProps) {
-  const race = getRace(selection.race);
-  const p1 = getProfession(selection.p1);
-  const p2 = getProfession(selection.p2);
+}: ExtrasControlsProps) {
   const lastSlotRef = useRef<ProfessionSlot>("p1");
   const availableRaces = racesForClass(classSlug);
 
@@ -71,89 +72,98 @@ export function ExtrasSelect({
     onChange({ ...selection, p1: slug });
   }
 
-  const hasPanels = Boolean(race || p1 || p2);
-
   return (
-    <section className="extras" aria-label="Race and professions">
-      <div className="extras-controls">
-        <div className="extras-group">
-          <span className="extras-label">Race</span>
-          <div className="extras-icons" role="listbox" aria-label="Race">
-            {availableRaces.map((entry) => {
-              const active = selection.race === entry.slug;
-              const label =
-                entry.slug.startsWith("skyborne-")
-                  ? `${entry.name} (${entry.faction === "alliance" ? "Alliance" : "Horde"})`
-                  : entry.name;
-              return (
-                <button
-                  key={entry.slug}
-                  type="button"
-                  role="option"
-                  aria-selected={active}
-                  title={label}
-                  className={
-                    active ? "extra-icon is-active" : "extra-icon"
-                  }
-                  data-faction={entry.faction}
-                  onClick={() => setRace(active ? null : entry.slug)}
-                >
-                  <img
-                    src={iconUrl(entry.icon, "medium")}
-                    alt={label}
-                    width={32}
-                    height={32}
-                  />
-                </button>
-              );
-            })}
-          </div>
-        </div>
-
-        <div className="extras-group extras-group-professions">
-          <span className="extras-label">Professions</span>
-          <div
-            className="extras-icons"
-            role="listbox"
-            aria-label="Professions"
-            aria-multiselectable="true"
-          >
-            {PROFESSIONS.map((entry) => {
-              const active =
-                selection.p1 === entry.slug || selection.p2 === entry.slug;
-              return (
-                <button
-                  key={entry.slug}
-                  type="button"
-                  role="option"
-                  aria-selected={active}
-                  title={entry.name}
-                  className={active ? "extra-icon is-active" : "extra-icon"}
-                  onClick={() => toggleProfession(entry.slug)}
-                >
-                  <img
-                    src={iconUrl(entry.icon, "medium")}
-                    alt={entry.name}
-                    width={32}
-                    height={32}
-                  />
-                </button>
-              );
-            })}
-          </div>
+    <div className="extras-controls">
+      <div className="extras-group extras-group-race">
+        <span className="extras-label" id="extras-race-label">
+          Race
+        </span>
+        <div
+          className="extras-icons"
+          role="listbox"
+          aria-labelledby="extras-race-label"
+        >
+          {availableRaces.map((entry) => {
+            const active = selection.race === entry.slug;
+            const label = entry.slug.startsWith("skyborne-")
+              ? `${entry.name} (${entry.faction === "alliance" ? "Alliance" : "Horde"})`
+              : entry.name;
+            return (
+              <button
+                key={entry.slug}
+                type="button"
+                role="option"
+                aria-selected={active}
+                title={label}
+                className={active ? "extra-icon is-active" : "extra-icon"}
+                data-faction={entry.faction}
+                onClick={() => setRace(active ? null : entry.slug)}
+              >
+                <img
+                  src={iconUrl(entry.icon, "medium")}
+                  alt={label}
+                  width={32}
+                  height={32}
+                />
+              </button>
+            );
+          })}
         </div>
       </div>
 
-      {hasPanels ? (
-        <div className="extras-panels">
-          {race ? <RaceAbilityPanel race={race} /> : null}
-          {p1 ? (
-            <ProfessionAbilityPanel profession={p1} slotLabel="Profession 1" />
-          ) : null}
-          {p2 ? (
-            <ProfessionAbilityPanel profession={p2} slotLabel="Profession 2" />
-          ) : null}
+      <div className="extras-group extras-group-professions">
+        <span className="extras-label" id="extras-prof-label">
+          Profs
+        </span>
+        <div
+          className="extras-icons"
+          role="listbox"
+          aria-labelledby="extras-prof-label"
+          aria-multiselectable="true"
+        >
+          {PROFESSIONS.map((entry) => {
+            const active =
+              selection.p1 === entry.slug || selection.p2 === entry.slug;
+            return (
+              <button
+                key={entry.slug}
+                type="button"
+                role="option"
+                aria-selected={active}
+                title={entry.name}
+                className={active ? "extra-icon is-active" : "extra-icon"}
+                onClick={() => toggleProfession(entry.slug)}
+              >
+                <img
+                  src={iconUrl(entry.icon, "medium")}
+                  alt={entry.name}
+                  width={32}
+                  height={32}
+                />
+              </button>
+            );
+          })}
         </div>
+      </div>
+    </div>
+  );
+}
+
+/** Racial and profession ability panels. Sits below the masthead. */
+export function ExtrasPanels({ selection }: { selection: ExtrasSelection }) {
+  const race = getRace(selection.race);
+  const p1 = getProfession(selection.p1);
+  const p2 = getProfession(selection.p2);
+  if (!race && !p1 && !p2) return null;
+
+  return (
+    <section className="extras-panels" aria-label="Racial and profession bonuses">
+      {race ? <RaceAbilityPanel race={race} /> : null}
+      {p1 ? (
+        <ProfessionAbilityPanel profession={p1} slotLabel="Profession 1" />
+      ) : null}
+      {p2 ? (
+        <ProfessionAbilityPanel profession={p2} slotLabel="Profession 2" />
       ) : null}
     </section>
   );

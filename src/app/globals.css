@@ -57,45 +57,40 @@ body {
   padding: 1.5rem 1rem 3rem;
 }
 
+/* Selectors left, build bar right spanning Class / Race / Profs rows. */
 .masthead {
-  display: flex;
-  align-items: center;
-  gap: 0.9rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.75rem 1rem;
+  align-items: stretch;
   margin: 0;
   width: min(var(--shell), 100%);
 }
 
-.brand-logo {
-  flex-shrink: 0;
-  display: block;
-}
-
-.brand-logo img {
-  display: block;
-  width: 88px;
-  height: auto;
-  filter: drop-shadow(0 6px 14px #00000099);
-}
-
-.masthead-copy {
+.masthead-selectors {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: flex-start;
-  gap: 0.55rem;
+  gap: 0.75rem 1.25rem;
   min-width: 0;
 }
 
-.masthead h1 {
-  margin: 0;
-  font-family: var(--font-display), serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-  letter-spacing: 1px;
-  color: var(--parchment);
-  background: var(--heading-gradient);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.masthead-selectors .extras-controls {
+  display: contents;
+}
+
+.extras-group-race {
+  flex: 1 1 100%;
+  order: 2;
+}
+
+.extras-group-class {
+  order: 1;
+}
+
+.extras-group-professions {
+  flex: 1 1 100%;
+  order: 3;
 }
 
 .class-select {
@@ -104,7 +99,11 @@ body {
   justify-content: flex-start;
   gap: 6px;
   margin: 0;
-  width: min(var(--shell), 100%);
+  width: auto;
+}
+
+.extras-group-class .class-select {
+  width: auto;
 }
 
 .review-legend {
@@ -190,19 +189,28 @@ body {
     0 0 14px -3px var(--class-color, var(--gold));
 }
 
-/* Build readout. Fixed width and a fixed place in the column, so it does not
-   move when a race or profession panel opens above it. */
+/* Build readout. Masthead top-right; stretches across the three selector rows. */
 .build-bar {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.55rem 0.75rem;
-  width: min(var(--shell), 100%);
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.35rem;
+  min-width: 11.5rem;
   padding: 0.55rem 0.8rem;
   background: var(--panel);
   border: 2px solid var(--primary);
   border-radius: 6px;
   box-shadow: var(--frame-shadow);
+}
+
+.build-bar .build-split {
+  margin-top: -0.1rem;
+}
+
+.build-bar .build-points {
+  margin-left: 0;
+  margin-top: auto;
 }
 
 .build-class {
@@ -257,6 +265,7 @@ body {
   line-height: 1;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  white-space: nowrap;
   color: var(--muted);
 }
 
@@ -552,37 +561,32 @@ body {
   transform: translateY(-50%);
 }
 
-.extras {
-  width: min(var(--shell), 100%);
-  margin: 0;
-}
-
 .extras-controls {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: flex-start;
-  gap: 0.75rem 1.5rem;
+  gap: 0.75rem 1.25rem;
+  min-width: 0;
 }
 
+/* [label][icons] — shared label gutter so Class / Race / Profs line up. */
 .extras-group {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.35rem;
-}
-
-/* Keeps Race and Professions reading as two groups, not one long strip. */
-.extras-group-professions {
-  padding-left: 1.5rem;
-  border-left: 1px solid var(--hairline);
+  display: grid;
+  grid-template-columns: 3.25rem minmax(0, 1fr);
+  align-items: center;
+  justify-content: start;
+  justify-items: start;
+  column-gap: 6px;
+  width: 100%;
 }
 
 .extras-label {
   flex: none;
   font-size: 11px;
+  line-height: 1;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  white-space: nowrap;
   color: var(--muted);
 }
 
@@ -590,6 +594,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  justify-self: start;
   gap: 4px;
 }
 
@@ -642,7 +647,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
-  margin-top: 0.75rem;
+  width: min(var(--shell), 100%);
+  margin: 0;
 }
 
 .extra-panel {
@@ -694,23 +700,39 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .extras-group-professions {
-    padding-left: 0;
-    border-left: 0;
+  .masthead {
+    grid-template-columns: 1fr;
+  }
+
+  .build-bar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .build-bar .build-points {
+    margin-left: auto;
+    margin-top: 0;
+  }
+
+  .masthead-selectors {
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+
+  .extras-group {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 0.25rem;
+    justify-items: start;
   }
 }
 
 @media (max-width: 520px) {
   .masthead {
     gap: 0.7rem;
-  }
-
-  .brand-logo img {
-    width: 64px;
-  }
-
-  .masthead h1 {
-    font-size: 1.25rem;
   }
 
   .build-points {
