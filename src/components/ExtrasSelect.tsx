@@ -24,8 +24,8 @@ type ExtrasControlsProps = {
 type ProfessionSlot = "p1" | "p2";
 
 /**
- * Race and profession pickers. Rendered inside the masthead selectors row
- * alongside Class (via display:contents on the wrapper).
+ * Race and profession pickers. Stacked under Class in the masthead
+ * selectors column.
  */
 export function ExtrasControls({
   classSlug,
