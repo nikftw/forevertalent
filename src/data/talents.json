@@ -4223,8 +4223,7 @@
                   "name": "Improved Gouge",
                   "description": "Increases the duration of your Gouge ability by 0.5 sec."
                 }
-              ],
-              "review": "new"
+              ]
             },
             {
               "id": 272,
@@ -4354,8 +4353,7 @@
                   "name": "Improved Slice and Dice",
                   "description": "Increases the duration of your Slice and Dice ability by 45%."
                 }
-              ],
-              "review": "new"
+              ]
             },
             {
               "id": 281,
@@ -4563,8 +4561,7 @@
                   "name": "Mutilate",
                   "description": "Instantly attacks with both weapons for 75% weapon damage plus an additional 13 with each weapon. Damage increased by 20% against Poisoned targets. Awards 2 Combo Points."
                 }
-              ],
-              "review": "new"
+              ]
             },
             {
               "id": 279,
@@ -4621,8 +4618,7 @@
                   "name": "Seal Fate",
                   "description": "Your critical strikes from abilities that add combo points  have a 100% chance to add an additional combo point."
                 }
-              ],
-              "review": "new"
+              ]
             },
             {
               "id": 90114,
@@ -4638,8 +4634,7 @@
                   "name": "Venom",
                   "description": "Finishing move that increases the damage of your Poisons by 30% and your chance to apply Poisons by 10%. Lasts longer per combo point:\n   1 point: 9 seconds\n   2 points: 12 seconds\n   3 points: 15 seconds\n   4 points: 18 seconds\n   5 points: 21 seconds"
                 }
-              ],
-              "review": "new"
+              ]
             }
           ],
           "icon": "ability_rogue_eviscerate"
@@ -4849,8 +4844,7 @@
                   "name": "Riposte",
                   "description": "A strike that becomes active after parrying an opponent's attack.  This attack deals 150% weapon damage and disarms the target for 6 sec."
                 }
-              ],
-              "review": "new"
+              ]
             },
             {
               "id": 222,
@@ -5230,8 +5224,7 @@
                   "name": "Dirty Tricks",
                   "description": "Reduces the Energy cost of your Sap and Blind abilities by 25%."
                 }
-              ],
-              "review": "new"
+              ]
             },
             {
               "id": 263,
@@ -5320,8 +5313,7 @@
                   "name": "Improved Distract",
                   "description": "Increases the radius of your Distract ability by 3 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 1 level lower."
                 }
-              ],
-              "review": "new"
+              ]
             },
             {
               "id": 1701,
@@ -5421,8 +5413,7 @@
                   "name": "Preparation",
                   "description": "When activated, this ability immediately finishes the cooldown on your other Rogue abilities."
                 }
-              ],
-              "review": "new"
+              ]
             },
             {
               "id": 176,
@@ -5443,8 +5434,7 @@
                   "name": "Hemorrhage",
                   "description": "An instant strike that deals 100% weapon damage (145% if a Dagger is equipped) and causes the target to take 15% increased Rupture damage from the Rogue. Lasts 15 sec. Awards 1 Combo Point."
                 }
-              ],
-              "review": "new"
+              ]
             },
             {
               "id": 90117,
@@ -5485,8 +5475,7 @@
                   "name": "Quietus",
                   "description": "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 2% more damage against targets below 35% health."
                 }
-              ],
-              "review": "new"
+              ]
             },
             {
               "id": 90118,
@@ -5522,8 +5511,7 @@
                   "name": "Cutthroat",
                   "description": "Your Backstab has a 3% chance to cause your next Ambush within 10 sec to not require Stealth."
                 }
-              ],
-              "review": "new"
+              ]
             },
             {
               "id": 90119,
@@ -5544,8 +5532,7 @@
                   "name": "Thousand Cuts",
                   "description": "When your Rupture ability deals periodic damage, the Energy cost of your next Hemorrhage or Backstab ability within 10 sec is reduced by 3, stacking up to 5 times."
                 }
-              ],
-              "review": "new"
+              ]
             }
           ],
           "icon": "ability_stealth"

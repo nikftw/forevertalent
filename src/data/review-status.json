@@ -6,7 +6,7 @@
     ]
   },
   "24": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "mage/26.png"
     ]
@@ -18,16 +18,10 @@
     ]
   },
   "26": {
-    "review": "updated",
-    "screenshots": []
+    "review": "classic"
   },
   "27": {
-    "review": "updated",
-    "screenshots": []
-  },
-  "28": {
-    "review": "updated",
-    "screenshots": []
+    "review": "classic"
   },
   "29": {
     "review": "updated",
@@ -36,12 +30,10 @@
     ]
   },
   "30": {
-    "review": "updated",
-    "screenshots": []
+    "review": "classic"
   },
   "31": {
-    "review": "updated",
-    "screenshots": []
+    "review": "classic"
   },
   "32": {
     "review": "updated",
@@ -50,43 +42,46 @@
     ]
   },
   "33": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "mage/29.png"
     ]
   },
+  "34": {
+    "review": "classic"
+  },
   "35": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "mage/31.png"
     ]
   },
   "36": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "mage/32.png"
     ]
   },
   "37": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "mage/34.png"
     ]
   },
   "38": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "mage/39.png"
     ]
   },
   "61": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "mage/43.png"
     ]
   },
   "62": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "mage/38.png"
     ]
@@ -110,14 +105,13 @@
     ]
   },
   "66": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "mage/42.png"
     ]
   },
   "67": {
-    "review": "updated",
-    "screenshots": []
+    "review": "classic"
   },
   "68": {
     "review": "updated",
@@ -132,7 +126,7 @@
     ]
   },
   "70": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "mage/33.png"
     ]
@@ -145,13 +139,13 @@
     ]
   },
   "72": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "mage/45.png"
     ]
   },
   "73": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "mage/36.png"
     ]
@@ -167,10 +161,19 @@
     ]
   },
   "75": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "mage/3.png",
       "mage/9.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
+    ]
+  },
+  "76": {
+    "review": "classic",
+    "screenshots": [
       "mage/overview.png",
       "mage/overview-focus.png",
       "mage/fix1.png",
@@ -188,7 +191,7 @@
     ]
   },
   "78": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "mage/4.png",
       "mage/overview.png",
@@ -209,7 +212,7 @@
     ]
   },
   "81": {
-    "review": "updated",
+    "review": "new",
     "screenshots": [
       "mage/13.png",
       "mage/overview.png",
@@ -218,12 +221,8 @@
       "mage/brave_WLA8Rd7rKX.png"
     ]
   },
-  "82": {
-    "review": "updated",
-    "screenshots": []
-  },
   "83": {
-    "review": "updated",
+    "review": "new",
     "screenshots": [
       "mage/14.png",
       "mage/overview.png",
@@ -243,7 +242,7 @@
     ]
   },
   "86": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "mage/19.png",
       "mage/overview.png",
@@ -253,7 +252,7 @@
     ]
   },
   "87": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "mage/overview.png",
       "mage/overview-focus.png",
@@ -278,26 +277,12 @@
       "warrior/overview.png"
     ]
   },
-  "123": {
-    "review": "classic",
-    "screenshots": [
-      "warrior/overview-rend.png",
-      "warrior/overview.png"
-    ]
-  },
   "124": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
       "warrior/1.png"
-    ]
-  },
-  "125": {
-    "review": "classic",
-    "screenshots": [
-      "warrior/overview-rend.png",
-      "warrior/overview.png"
     ]
   },
   "126": {
@@ -326,7 +311,7 @@
     ]
   },
   "129": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -334,7 +319,7 @@
     ]
   },
   "130": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -342,37 +327,23 @@
     ]
   },
   "131": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
       "warrior/9.png"
     ]
   },
-  "132": {
-    "review": "classic",
-    "screenshots": [
-      "warrior/overview-rend.png",
-      "warrior/overview.png"
-    ]
-  },
   "133": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
       "warrior/13.png"
     ]
   },
-  "134": {
-    "review": "classic",
-    "screenshots": [
-      "warrior/overview-rend.png",
-      "warrior/overview.png"
-    ]
-  },
   "135": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -380,7 +351,7 @@
     ]
   },
   "136": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -404,7 +375,7 @@
     ]
   },
   "140": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -436,7 +407,7 @@
     ]
   },
   "146": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -460,7 +431,7 @@
     ]
   },
   "149": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -484,7 +455,7 @@
     ]
   },
   "152": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -492,18 +463,11 @@
     ]
   },
   "153": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
       "warrior/image.png"
-    ]
-  },
-  "154": {
-    "review": "classic",
-    "screenshots": [
-      "warrior/overview-rend.png",
-      "warrior/overview.png"
     ]
   },
   "155": {
@@ -515,7 +479,7 @@
     ]
   },
   "156": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -523,7 +487,7 @@
     ]
   },
   "157": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -547,18 +511,11 @@
     ]
   },
   "160": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
       "warrior/25.png"
-    ]
-  },
-  "161": {
-    "review": "classic",
-    "screenshots": [
-      "warrior/overview-rend.png",
-      "warrior/overview.png"
     ]
   },
   "165": {
@@ -593,11 +550,20 @@
       "warrior/16.png"
     ]
   },
+  "175": {
+    "review": "classic"
+  },
+  "176": {
+    "review": "updated"
+  },
   "181": {
     "review": "updated",
     "screenshots": [
       "rogue/3.png"
     ]
+  },
+  "186": {
+    "review": "classic"
   },
   "187": {
     "review": "updated",
@@ -606,16 +572,25 @@
     ]
   },
   "201": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "rogue/1.png"
     ]
+  },
+  "203": {
+    "review": "classic"
   },
   "204": {
     "review": "updated",
     "screenshots": [
       "rogue/7.png"
     ]
+  },
+  "205": {
+    "review": "classic"
+  },
+  "206": {
+    "review": "classic"
   },
   "221": {
     "review": "updated",
@@ -624,7 +599,7 @@
     ]
   },
   "222": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "rogue/6.png"
     ]
@@ -635,14 +610,80 @@
       "rogue/13.png"
     ]
   },
+  "241": {
+    "review": "classic"
+  },
+  "244": {
+    "review": "classic"
+  },
+  "245": {
+    "review": "classic"
+  },
+  "246": {
+    "review": "classic"
+  },
+  "247": {
+    "review": "classic"
+  },
+  "261": {
+    "review": "classic"
+  },
+  "263": {
+    "review": "classic"
+  },
+  "264": {
+    "review": "classic"
+  },
+  "265": {
+    "review": "classic"
+  },
+  "268": {
+    "review": "classic"
+  },
+  "269": {
+    "review": "classic"
+  },
+  "270": {
+    "review": "classic"
+  },
+  "272": {
+    "review": "classic"
+  },
+  "273": {
+    "review": "classic"
+  },
+  "274": {
+    "review": "classic"
+  },
   "276": {
     "review": "updated",
     "screenshots": [
       "rogue/2.png"
     ]
   },
+  "277": {
+    "review": "classic"
+  },
+  "278": {
+    "review": "classic"
+  },
+  "279": {
+    "review": "classic"
+  },
+  "280": {
+    "review": "classic"
+  },
+  "281": {
+    "review": "classic"
+  },
+  "283": {
+    "review": "classic"
+  },
+  "303": {
+    "review": "classic"
+  },
   "321": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "priest/Disc.forever.jpg",
       "priest/overview.png",
@@ -698,7 +739,7 @@
     ]
   },
   "348": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "priest/Disc.forever.jpg",
       "priest/overview.png",
@@ -729,8 +770,14 @@
       "priest/Priest_talents.png"
     ]
   },
+  "381": {
+    "review": "classic"
+  },
+  "382": {
+    "review": "updated"
+  },
   "401": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -738,7 +785,7 @@
     ]
   },
   "402": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -762,7 +809,7 @@
     ]
   },
   "406": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -778,7 +825,7 @@
     ]
   },
   "411": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -813,7 +860,7 @@
     ]
   },
   "462": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -829,7 +876,7 @@
     ]
   },
   "464": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -853,7 +900,7 @@
     ]
   },
   "481": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -861,7 +908,7 @@
     ]
   },
   "482": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -869,7 +916,7 @@
     ]
   },
   "483": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -885,7 +932,7 @@
     ]
   },
   "501": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -909,7 +956,7 @@
     ]
   },
   "542": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -934,7 +981,7 @@
     ]
   },
   "563": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "shaman/overview.png",
       "shaman/1.png"
@@ -956,15 +1003,18 @@
     ]
   },
   "567": {
-    "review": "updated",
+    "review": "new",
     "screenshots": [
       "shaman/overview.png",
       "shaman/24.png",
       "shaman/39.png"
     ]
   },
+  "572": {
+    "review": "classic"
+  },
   "574": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "shaman/overview.png",
       "shaman/21.png",
@@ -972,7 +1022,7 @@
     ]
   },
   "575": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "shaman/overview.png",
       "shaman/18.png",
@@ -980,21 +1030,21 @@
     ]
   },
   "581": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "shaman/overview.png",
       "shaman/63.png"
     ]
   },
   "586": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "shaman/overview.png",
       "shaman/57.png"
     ]
   },
   "587": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "shaman/overview.png",
       "shaman/64.png"
@@ -1015,21 +1065,21 @@
     ]
   },
   "590": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "shaman/overview.png",
       "shaman/66.png"
     ]
   },
   "591": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "shaman/overview.png",
       "shaman/70.png"
     ]
   },
   "592": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "shaman/overview.png",
       "shaman/71.png"
@@ -1080,14 +1130,14 @@
     ]
   },
   "607": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "shaman/overview.png",
       "shaman/47.png"
     ]
   },
   "609": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "shaman/overview.png",
       "shaman/12.png",
@@ -1096,11 +1146,17 @@
     ]
   },
   "611": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "shaman/overview.png",
       "shaman/50.png"
     ]
+  },
+  "613": {
+    "review": "updated"
+  },
+  "614": {
+    "review": "updated"
   },
   "615": {
     "review": "updated",
@@ -1111,7 +1167,7 @@
     ]
   },
   "641": {
-    "review": "updated",
+    "review": "new",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -1135,8 +1191,11 @@
       "warrior/11.png"
     ]
   },
+  "682": {
+    "review": "classic"
+  },
   "741": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "mage/44.png"
     ]
@@ -1149,7 +1208,7 @@
     ]
   },
   "763": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "druid/17.png",
       "druid/31.png"
@@ -1163,7 +1222,7 @@
     ]
   },
   "781": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "druid/overview-clean.png",
       "druid/27.png"
@@ -1176,7 +1235,7 @@
     ]
   },
   "784": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "druid/21.png"
     ]
@@ -1215,7 +1274,7 @@
     ]
   },
   "796": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "druid/overview-clean.png",
       "druid/overview.png"
@@ -1238,14 +1297,7 @@
     ]
   },
   "799": {
-    "review": "updated",
-    "screenshots": [
-      "druid/overview-clean.png",
-      "druid/overview.png"
-    ]
-  },
-  "800": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "druid/overview-clean.png",
       "druid/overview.png"
@@ -1258,13 +1310,13 @@
     ]
   },
   "802": {
-    "review": "updated",
+    "review": "new",
     "screenshots": [
       "druid/7.png"
     ]
   },
   "803": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "druid/overview.png"
     ]
@@ -1284,7 +1336,7 @@
     ]
   },
   "808": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "druid/14.png"
     ]
@@ -1303,67 +1355,67 @@
     ]
   },
   "823": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "druid/overview.png"
     ]
   },
   "824": {
-    "review": "unchanged",
+    "review": "new",
     "screenshots": [
       "druid/overview.png"
     ]
   },
   "826": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "druid/overview.png"
     ]
   },
   "827": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "druid/32.png"
     ]
   },
   "828": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "druid/overview.png"
     ]
   },
   "829": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "druid/overview.png"
     ]
   },
   "830": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "druid/overview.png"
     ]
   },
   "831": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "druid/28.png"
     ]
   },
   "841": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "druid/overview.png"
     ]
   },
   "842": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "druid/overview.png"
     ]
   },
   "843": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "druid/overview.png"
     ]
@@ -1467,7 +1519,7 @@
     ]
   },
   "1002": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "warlock/overview.png",
       "warlock/47.png"
@@ -1488,14 +1540,14 @@
     ]
   },
   "1007": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "warlock/overview.png",
       "warlock/39.png"
     ]
   },
   "1041": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "warlock/overview.png",
       "warlock/50.png"
@@ -1509,14 +1561,14 @@
     ]
   },
   "1061": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "warlock/overview.png",
       "warlock/43.png"
     ]
   },
   "1081": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "warlock/overview.png",
       "warlock/48.png"
@@ -1528,9 +1580,11 @@
       "rogue/12.png"
     ]
   },
+  "1123": {
+    "review": "classic"
+  },
   "1141": {
-    "review": "updated",
-    "screenshots": []
+    "review": "new"
   },
   "1142": {
     "review": "updated",
@@ -1542,14 +1596,8 @@
       "mage/brave_WLA8Rd7rKX.png"
     ]
   },
-  "1162": {
-    "review": "unchanged",
-    "screenshots": [
-      "druid/overview.png"
-    ]
-  },
   "1181": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -1586,21 +1634,21 @@
     ]
   },
   "1225": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "warlock/overview.png",
       "warlock/31.png"
     ]
   },
   "1226": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "warlock/overview.png",
       "warlock/27.png"
     ]
   },
   "1227": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "warlock/overview.png",
       "warlock/26.png"
@@ -1628,14 +1676,14 @@
     ]
   },
   "1282": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "warlock/overview.png",
       "warlock/21.png"
     ]
   },
   "1303": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1643,7 +1691,7 @@
     ]
   },
   "1304": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1651,7 +1699,7 @@
     ]
   },
   "1305": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1659,7 +1707,7 @@
     ]
   },
   "1306": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1667,7 +1715,7 @@
     ]
   },
   "1308": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1675,7 +1723,7 @@
     ]
   },
   "1310": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1683,7 +1731,7 @@
     ]
   },
   "1311": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1691,7 +1739,7 @@
     ]
   },
   "1312": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1699,7 +1747,7 @@
     ]
   },
   "1341": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1721,20 +1769,11 @@
     ]
   },
   "1344": {
-    "review": "updated",
+    "review": "new",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
       "hunter/22.png"
-    ]
-  },
-  "1345": {
-    "review": "updated",
-    "screenshots": [
-      "hunter/ovvveriview.png",
-      "hunter/overview-clean.png",
-      "hunter/19.png",
-      "hunter/35.png"
     ]
   },
   "1346": {
@@ -1762,7 +1801,7 @@
     ]
   },
   "1352": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1770,7 +1809,7 @@
     ]
   },
   "1353": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1786,7 +1825,7 @@
     ]
   },
   "1362": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1794,7 +1833,7 @@
     ]
   },
   "1382": {
-    "review": "updated",
+    "review": "new",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1802,7 +1841,7 @@
     ]
   },
   "1384": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1810,7 +1849,7 @@
     ]
   },
   "1386": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1826,7 +1865,7 @@
     ]
   },
   "1388": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1850,7 +1889,7 @@
     ]
   },
   "1391": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1864,7 +1903,7 @@
     ]
   },
   "1395": {
-    "review": "classic",
+    "review": "updated",
     "screenshots": [
       "hunter/overview-clean.png"
     ]
@@ -1878,7 +1917,7 @@
     ]
   },
   "1397": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1886,20 +1925,20 @@
     ]
   },
   "1402": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "paladin/11.png",
       "paladin/33.png"
     ]
   },
   "1403": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "paladin/2.png"
     ]
   },
   "1407": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "paladin/23.png"
     ]
@@ -1912,23 +1951,16 @@
     ]
   },
   "1411": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "paladin/5.png",
       "paladin/25.png"
     ]
   },
   "1421": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "paladin/16.png"
-    ]
-  },
-  "1422": {
-    "review": "classic",
-    "screenshots": [
-      "paladin/overview.png",
-      "paladin/overview3.png"
     ]
   },
   "1423": {
@@ -1960,16 +1992,9 @@
     ]
   },
   "1430": {
-    "review": "unchanged",
-    "screenshots": [
-      "paladin/22.png"
-    ]
-  },
-  "1431": {
     "review": "classic",
     "screenshots": [
-      "paladin/overview.png",
-      "paladin/overview3.png"
+      "paladin/22.png"
     ]
   },
   "1432": {
@@ -1986,41 +2011,13 @@
       "paladin/overview3.png"
     ]
   },
-  "1435": {
-    "review": "classic",
-    "screenshots": [
-      "paladin/overview.png",
-      "paladin/overview3.png"
-    ]
-  },
   "1441": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "paladin/34.png"
     ]
   },
-  "1442": {
-    "review": "classic",
-    "screenshots": [
-      "paladin/overview.png",
-      "paladin/overview3.png"
-    ]
-  },
-  "1443": {
-    "review": "classic",
-    "screenshots": [
-      "paladin/overview.png",
-      "paladin/overview3.png"
-    ]
-  },
   "1444": {
-    "review": "classic",
-    "screenshots": [
-      "paladin/overview.png",
-      "paladin/overview3.png"
-    ]
-  },
-  "1446": {
     "review": "classic",
     "screenshots": [
       "paladin/overview.png",
@@ -2048,29 +2045,8 @@
       "paladin/overview3.png"
     ]
   },
-  "1463": {
-    "review": "classic",
-    "screenshots": [
-      "paladin/overview.png",
-      "paladin/overview3.png"
-    ]
-  },
-  "1464": {
-    "review": "classic",
-    "screenshots": [
-      "paladin/overview.png",
-      "paladin/overview3.png"
-    ]
-  },
-  "1465": {
-    "review": "classic",
-    "screenshots": [
-      "paladin/overview.png",
-      "paladin/overview3.png"
-    ]
-  },
   "1481": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "paladin/6.png"
     ]
@@ -2113,7 +2089,7 @@
     ]
   },
   "1543": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -2121,7 +2097,7 @@
     ]
   },
   "1561": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -2145,7 +2121,7 @@
     ]
   },
   "1621": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -2153,7 +2129,7 @@
     ]
   },
   "1622": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -2161,7 +2137,7 @@
     ]
   },
   "1625": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -2169,7 +2145,7 @@
     ]
   },
   "1627": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "paladin/overview.png",
       "paladin/overview3.png"
@@ -2183,7 +2159,7 @@
     ]
   },
   "1629": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "paladin/17.png"
     ]
@@ -2196,7 +2172,7 @@
     ]
   },
   "1631": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "paladin/4.png"
     ]
@@ -2209,21 +2185,21 @@
     ]
   },
   "1633": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "paladin/8.png",
       "paladin/26.png"
     ]
   },
   "1634": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "paladin/13.png",
       "paladin/28.png"
     ]
   },
   "1635": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -2239,7 +2215,7 @@
     ]
   },
   "1639": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
       "mage/28.png"
     ]
@@ -2254,7 +2230,7 @@
     ]
   },
   "1641": {
-    "review": "updated",
+    "review": "new",
     "screenshots": [
       "shaman/overview.png",
       "shaman/25.png",
@@ -2269,14 +2245,14 @@
     ]
   },
   "1645": {
-    "review": "unchanged",
+    "review": "classic",
     "screenshots": [
       "shaman/overview.png",
       "shaman/16.png"
     ]
   },
   "1646": {
-    "review": "updated",
+    "review": "new",
     "screenshots": [
       "shaman/overview.png",
       "shaman/60.png"
@@ -2305,6 +2281,9 @@
       "mage/brave_WLA8Rd7rKX.png"
     ]
   },
+  "1701": {
+    "review": "classic"
+  },
   "1703": {
     "review": "updated",
     "screenshots": [
@@ -2312,7 +2291,7 @@
     ]
   },
   "90004": {
-    "review": "updated",
+    "review": "new",
     "screenshots": [
       "mage/41.png"
     ]
@@ -2579,7 +2558,7 @@
     ]
   },
   "90051": {
-    "review": "updated",
+    "review": "new",
     "screenshots": [
       "druid/overview-clean.png",
       "druid/18.png"
@@ -2604,7 +2583,7 @@
     ]
   },
   "90055": {
-    "review": "new",
+    "review": "updated",
     "screenshots": [
       "druid/24.png",
       "druid/39.png"
@@ -2652,18 +2631,59 @@
       "druid/overview.png"
     ]
   },
-  "90063": {
-    "review": "new",
-    "screenshots": [
-      "druid/overview.png"
-    ]
+  "90065": {
+    "review": "new"
   },
-  "90064": {
-    "review": "new",
-    "screenshots": [
-      "druid/overview-clean.png",
-      "druid/overview.png"
-    ]
+  "90066": {
+    "review": "new"
+  },
+  "90067": {
+    "review": "new"
+  },
+  "90068": {
+    "review": "new"
+  },
+  "90070": {
+    "review": "new"
+  },
+  "90071": {
+    "review": "new"
+  },
+  "90072": {
+    "review": "new"
+  },
+  "90073": {
+    "review": "new"
+  },
+  "90074": {
+    "review": "new"
+  },
+  "90075": {
+    "review": "new"
+  },
+  "90076": {
+    "review": "new"
+  },
+  "90077": {
+    "review": "new"
+  },
+  "90078": {
+    "review": "new"
+  },
+  "90079": {
+    "review": "new"
+  },
+  "90080": {
+    "review": "new"
+  },
+  "90081": {
+    "review": "new"
+  },
+  "90082": {
+    "review": "new"
+  },
+  "90083": {
+    "review": "new"
   },
   "90092": {
     "review": "new",
@@ -2729,6 +2749,30 @@
       "hunter/18.png"
     ]
   },
+  "90100": {
+    "review": "new"
+  },
+  "90101": {
+    "review": "new"
+  },
+  "90102": {
+    "review": "new"
+  },
+  "90103": {
+    "review": "new"
+  },
+  "90104": {
+    "review": "new"
+  },
+  "90105": {
+    "review": "new"
+  },
+  "90106": {
+    "review": "new"
+  },
+  "90107": {
+    "review": "updated"
+  },
   "90110": {
     "review": "new",
     "screenshots": [
@@ -2746,6 +2790,27 @@
     "screenshots": [
       "rogue/10.png"
     ]
+  },
+  "90113": {
+    "review": "new"
+  },
+  "90114": {
+    "review": "new"
+  },
+  "90115": {
+    "review": "new"
+  },
+  "90116": {
+    "review": "new"
+  },
+  "90117": {
+    "review": "new"
+  },
+  "90118": {
+    "review": "new"
+  },
+  "90119": {
+    "review": "new"
   },
   "90200": {
     "review": "new",
@@ -2908,6 +2973,9 @@
       "warlock/22.png"
     ]
   },
+  "90222": {
+    "review": "new"
+  },
   "90300": {
     "review": "new",
     "screenshots": [
@@ -2973,13 +3041,40 @@
       "paladin/30.png"
     ]
   },
-  "76": {
-    "review": "updated",
-    "screenshots": [
-      "mage/overview.png",
-      "mage/overview-focus.png",
-      "mage/fix1.png",
-      "mage/brave_WLA8Rd7rKX.png"
-    ]
+  "90310": {
+    "review": "new"
+  },
+  "90311": {
+    "review": "new"
+  },
+  "90312": {
+    "review": "new"
+  },
+  "90313": {
+    "review": "new"
+  },
+  "90314": {
+    "review": "new"
+  },
+  "90315": {
+    "review": "new"
+  },
+  "90316": {
+    "review": "new"
+  },
+  "90317": {
+    "review": "new"
+  },
+  "90318": {
+    "review": "new"
+  },
+  "90319": {
+    "review": "updated"
+  },
+  "90320": {
+    "review": "new"
+  },
+  "90321": {
+    "review": "new"
   }
 }

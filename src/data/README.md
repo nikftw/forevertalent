@@ -16,11 +16,13 @@ To add a talent, give it a unique `id` (use 90001+ for Forever-only nodes) and p
 
 ## Review dots
 
-`review-status.json` is keyed by talent `id` and sets the corner indicator:
+`review-status.json` is keyed by talent `id` and sets the corner indicator.
+Statuses are judged against Classic 1.12 talent **spell names** (same class) and
+rank-1 tooltips from the classic foundation:
 
-- `new` (red) — talent did not exist in Classic; we added it to the app
-- `updated` (orange) — Classic talent whose ranks, tooltip, or layout changed
-- `unchanged` (green) — Classic talent found in a screenshot with the same text
-- `classic` (grey) — Classic placeholder, not yet matched to a screenshot
+- `new` (red) — not a Classic talent name for that class (brand-new or renamed)
+- `updated` (orange) — Classic spell name, tooltip differs
+- `classic` (grey) — Classic spell name and same (or near-identical) tooltip
+- `unchanged` (green) — unused; kept for type compatibility only
 
 Drop in-game screenshots in `public/{class}/`: one overview of the three trees, then separate icon and tooltip shots. Do not invent row/col for new talents until the overview shows the slot.

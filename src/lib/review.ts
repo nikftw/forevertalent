@@ -7,9 +7,9 @@ export function talentReview(talent: Talent): TalentReview {
 export function reviewLabel(review: TalentReview): string {
   switch (review) {
     case "classic":
-      return "Classic";
+      return "Same";
     case "unchanged":
-      return "Unchanged";
+      return "Same";
     case "updated":
       return "Updated";
     case "new":
@@ -21,9 +21,5 @@ export function reviewLabel(review: TalentReview): string {
   }
 }
 
-export const REVIEW_LEGEND: TalentReview[] = [
-  "new",
-  "updated",
-  "unchanged",
-  "classic",
-];
+/** Corner dots: red new / orange updated / grey same. Green unused after Classic name pass. */
+export const REVIEW_LEGEND: TalentReview[] = ["new", "updated", "classic"];
