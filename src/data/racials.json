@@ -31,7 +31,7 @@
           "name": "Hardiness",
           "icon": "inv_helmet_23",
           "passive": true,
-          "description": "Stun durations decreased by 20%."
+          "description": "Stun duration decreased by 20%."
         }
       ]
     },
@@ -65,7 +65,7 @@
           "name": "Touch of the Grave",
           "icon": "spell_shadow_lifedrain",
           "passive": true,
-          "description": "Your attacks and harmful spells have a chance to drain life from the target, healing you."
+          "description": "Your attacks sometimes drain health from the target, healing you."
         }
       ]
     },
@@ -81,7 +81,7 @@
           "name": "War Stomp",
           "icon": "ability_warstomp",
           "passive": false,
-          "description": "Stuns up to 5 enemies within 8 yards for 2 sec."
+          "description": "Stuns nearby enemies for 2 sec."
         },
         {
           "name": "Cultivation",
@@ -90,10 +90,10 @@
           "description": "Grow bonus herbs that don't require Herbalism to gather."
         },
         {
-          "name": "Plainstrunning",
-          "icon": "ability_warstomp",
+          "name": "Plainsrunning",
+          "icon": "ability_mount_whitetiger",
           "passive": true,
-          "description": "Gain increased movement speed the longer you remain moving."
+          "description": "Gain increased movement speed the longer you stay moving."
         },
         {
           "name": "Endurance",
@@ -112,28 +112,28 @@
       "allowedClasses": ["warrior", "hunter", "mage", "rogue", "priest", "warlock", "shaman"],
       "abilities": [
         {
-          "name": "Walk on Air",
-          "icon": "ability_racial_shadowmeld",
+          "name": "Berserking",
+          "icon": "racial_troll_berserk",
           "passive": false,
-          "description": "Glide downward through the air for 10 sec."
+          "description": "Increases casting and attack speed by 10% for 10 sec."
         },
         {
-          "name": "Skysight",
-          "icon": "spell_nature_eyeofthestorm",
+          "name": "Rapid Regeneration",
+          "icon": "spell_nature_rejuvenation",
           "passive": false,
-          "description": "Receive an Elemental Blessing increasing run speed by 10%."
+          "description": "Regenerate 50% of maximum Health over time."
         },
         {
-          "name": "Wind Blessed",
-          "icon": "ability_hunter_swiftstrike",
+          "name": "Beast Slaying",
+          "icon": "ability_hunter_pet_bear",
           "passive": true,
-          "description": "1% increased melee, ranged, and spellcasting Haste."
+          "description": "Damage to Beasts increased by 5%."
         },
         {
-          "name": "Elemental Insight",
-          "icon": "spell_fire_elementaldevastation",
+          "name": "Regeneration",
+          "icon": "spell_nature_regenerate",
           "passive": true,
-          "description": "Damage to Elementals increased by 5%."
+          "description": "10% of Health regeneration continues during combat."
         }
       ]
     },
@@ -147,25 +147,25 @@
       "abilities": [
         {
           "name": "Walk on Air",
-          "icon": "inv_misc_questionmark",
+          "icon": "spell_magic_featherfall",
           "passive": false,
-          "description": "Glide downward through the air for 10 seconds."
+          "description": "Glide downward through the air for 10 sec."
         },
         {
           "name": "Skysight",
-          "icon": "inv_misc_questionmark",
+          "icon": "spell_nature_eyeofthestorm",
           "passive": false,
           "description": "Receive an Elemental Blessing increasing run speed by 10%."
         },
         {
           "name": "Wind Blessed",
-          "icon": "inv_misc_questionmark",
+          "icon": "ability_hunter_swiftstrike",
           "passive": true,
-          "description": "1% increased melee, ranged, and spellcasting Haste."
+          "description": "1% increased melee, ranged, and spell casting Haste."
         },
         {
           "name": "Elemental Insight",
-          "icon": "inv_misc_questionmark",
+          "icon": "spell_fire_elementaldevastation",
           "passive": true,
           "description": "Damage to Elementals increased by 5%."
         }
@@ -183,13 +183,13 @@
           "name": "Will to Survive",
           "icon": "spell_shadow_charm",
           "passive": false,
-          "description": "Removes all Stun effects."
+          "description": "Removes Stun effects."
         },
         {
           "name": "Perception",
           "icon": "spell_nature_sleep",
           "passive": false,
-          "description": "Dramatically increases stealth detection for 20 sec."
+          "description": "Detect stealthed enemies for 20 sec."
         },
         {
           "name": "Sword Specialization",
@@ -214,16 +214,16 @@
       "allowedClasses": ["warrior", "hunter", "rogue", "priest", "paladin", "shaman"],
       "abilities": [
         {
+          "name": "Stoneform",
+          "icon": "spell_shadow_unholystrength",
+          "passive": false,
+          "description": "Immunity to Bleeds, Poisons, and Diseases and reduce Physical damage taken for 8 sec."
+        },
+        {
           "name": "Find Treasure",
           "icon": "racial_dwarf_findtreasure",
           "passive": false,
           "description": "Allows the dwarf to sense nearby treasure, making it appear on the minimap."
-        },
-        {
-          "name": "Stoneform",
-          "icon": "spell_shadow_unholystrength",
-          "passive": false,
-          "description": "Removes all Poison and Disease effects and reduces Physical damage taken for 8 sec."
         },
         {
           "name": "Mace Specialization",
@@ -251,13 +251,13 @@
           "name": "Elune's Light",
           "icon": "spell_arcane_starfire",
           "passive": false,
-          "description": "Increases critical chance by 10% for 15 sec."
+          "description": "Increase critical chance by 10% for 15 sec."
         },
         {
           "name": "Shadowmeld",
           "icon": "ability_ambush",
           "passive": false,
-          "description": "Activate to slip into the shadows, reducing the chance for enemies to detect your presence. Lasts until cancelled or upon moving. Any threat is restored versus enemies still in combat upon cancellation of this effect."
+          "description": "Gain stealth while immobile."
         },
         {
           "name": "Quickness",
@@ -282,28 +282,28 @@
       "allowedClasses": ["warrior", "mage", "rogue", "priest", "warlock"],
       "abilities": [
         {
+          "name": "Escape Artist",
+          "icon": "ability_rogue_trip",
+          "passive": false,
+          "description": "Brief immunity to roots and snares."
+        },
+        {
           "name": "Eureka!",
           "icon": "inv_misc_enggizmos_30",
           "passive": false,
-          "description": "Your next 5 spells or heals cost less and deal or heal 10% more."
+          "description": "Reduced cost and 10% increased damage or healing on your next 3 spells or abilities."
         },
         {
           "name": "Expansive Mind",
           "icon": "inv_enchant_essenceeternallarge",
           "passive": true,
-          "description": "Maximum Mana increased by 5%."
+          "description": "Maximum Mana, Rage, or Energy increased by 5%."
         },
         {
           "name": "Engineering Specialization",
           "icon": "inv_misc_gear_01",
           "passive": true,
-          "description": "Engineering skill increased."
-        },
-        {
-          "name": "Escape Artist",
-          "icon": "ability_rogue_trip",
-          "passive": false,
-          "description": "Escape the effects of any immobilization or movement speed reduction effect."
+          "description": "More reliable Engineering devices."
         }
       ]
     },
@@ -317,25 +317,25 @@
       "abilities": [
         {
           "name": "Walk on Air",
-          "icon": "inv_misc_questionmark",
+          "icon": "spell_magic_featherfall",
           "passive": false,
-          "description": "Glide downward through the air for 10 seconds."
+          "description": "Glide downward through the air for 10 sec."
         },
         {
           "name": "Read Ley Line",
-          "icon": "inv_misc_questionmark",
+          "icon": "spell_arcane_portaldarnassus",
           "passive": false,
           "description": "Activate a ley line to gain 100% increased Health and Mana regeneration."
         },
         {
           "name": "Wind Blessed",
-          "icon": "inv_misc_questionmark",
+          "icon": "ability_hunter_swiftstrike",
           "passive": true,
-          "description": "1% increased melee, ranged, and spellcasting Haste."
+          "description": "1% increased melee, ranged, and spell casting Haste."
         },
         {
           "name": "Elemental Insight",
-          "icon": "inv_misc_questionmark",
+          "icon": "spell_fire_elementaldevastation",
           "passive": true,
           "description": "Damage to Elementals increased by 5%."
         }
