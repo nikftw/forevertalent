@@ -1,6 +1,7 @@
 {
   "23": {
     "review": "updated",
+    "classicDescription": "Gives your Fire spells a 35% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 15%.",
     "screenshots": [
       "mage/24.png"
     ]
@@ -13,6 +14,7 @@
   },
   "25": {
     "review": "updated",
+    "classicDescription": "Your Scorch spells have a 33% chance to cause your target to be vulnerable to Fire damage.  This vulnerability increases the Fire damage dealt to your target by 3% and lasts 30 sec.  Stacks up to 5 times.",
     "screenshots": [
       "mage/25.png"
     ]
@@ -25,18 +27,21 @@
   },
   "29": {
     "review": "updated",
+    "classicDescription": "Hurls an immense fiery boulder that causes 148 to 195 Fire damage and an additional 56 Fire damage over 12 sec.",
     "screenshots": [
       "mage/23.png"
     ]
   },
   "30": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Gives your Fire spells a 2% chance to stun the target for 2 sec."
   },
   "31": {
     "review": "classic"
   },
   "32": {
     "review": "updated",
+    "classicDescription": "A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for 160 to 192 Fire damage, and dazing them for 6 sec.",
     "screenshots": [
       "mage/30.png"
     ]
@@ -57,7 +62,8 @@
     ]
   },
   "36": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "When activated, this spell causes each of your Fire damage spell hits to increase your critical strike chance with Fire damage spells by 10%.  This effect lasts until you have caused 3 critical strikes with Fire spells.",
     "screenshots": [
       "mage/32.png"
     ]
@@ -88,18 +94,21 @@
   },
   "63": {
     "review": "updated",
+    "classicDescription": "Adds a chill effect to your Blizzard spell.  This effect lowers the target's movement speed by 30%.  Lasts 1.50 sec.",
     "screenshots": [
       "mage/40.png"
     ]
   },
   "64": {
     "review": "updated",
+    "classicDescription": "Increases the damage dealt by your Cone of Cold spell by 15%.",
     "screenshots": [
       "mage/47.png"
     ]
   },
   "65": {
     "review": "updated",
+    "classicDescription": "Increases the duration of your Chill effects by 1 sec and reduces the target's speed by an additional 4%.",
     "screenshots": [
       "mage/37.png"
     ]
@@ -115,24 +124,28 @@
   },
   "68": {
     "review": "updated",
+    "classicDescription": "Gives your Frost damage spells a 20% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 15 sec.  Stacks up to 5 times.",
     "screenshots": [
       "mage/48.png"
     ]
   },
   "69": {
     "review": "updated",
+    "classicDescription": "When activated, this spell finishes the cooldown on all of your Frost spells.",
     "screenshots": [
       "mage/46.png"
     ]
   },
   "70": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases the armor and resistances given by your Frost Armor and Ice Armor spells by 15%.  In addition, gives your Frost Ward a 10% chance to reflect Frost spells and effects while active.",
     "screenshots": [
       "mage/33.png"
     ]
   },
   "71": {
     "review": "updated",
+    "classicDescription": "Instantly shields you, absorbing 455 damage.  Lasts 1 min.  While the shield holds, spells will not be interrupted.",
     "screenshots": [
       "mage/1.png",
       "mage/50.png"
@@ -152,6 +165,7 @@
   },
   "74": {
     "review": "updated",
+    "classicDescription": "Reduces your target's resistance to all your spells by 5 and reduces the threat caused by your Arcane spells by 20%.",
     "screenshots": [
       "mage/2.png",
       "mage/overview.png",
@@ -172,7 +186,8 @@
     ]
   },
   "76": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Reduces the chance that the opponent can resist your Arcane spells by 2%.",
     "screenshots": [
       "mage/overview.png",
       "mage/overview-focus.png",
@@ -182,6 +197,7 @@
   },
   "77": {
     "review": "updated",
+    "classicDescription": "Increases your maximum Mana by 2%.",
     "screenshots": [
       "mage/6.png",
       "mage/overview.png",
@@ -201,7 +217,7 @@
     ]
   },
   "80": {
-    "review": "updated",
+    "review": "new",
     "screenshots": [
       "mage/fix1.png",
       "mage/brave_dhN9RyhkVa.png",
@@ -233,6 +249,7 @@
   },
   "85": {
     "review": "updated",
+    "classicDescription": "Increases your armor by an amount equal to 50% of your Intellect.",
     "screenshots": [
       "mage/8.png",
       "mage/overview.png",
@@ -252,7 +269,8 @@
     ]
   },
   "87": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "When activated, your spells deal 30% more damage while costing 30% more mana to cast.  This effect lasts 15 sec.",
     "screenshots": [
       "mage/overview.png",
       "mage/overview-focus.png",
@@ -262,6 +280,7 @@
   },
   "88": {
     "review": "updated",
+    "classicDescription": "Gives your Counterspell a 50% chance to silence the target for 4 sec.",
     "screenshots": [
       "mage/15.png",
       "mage/overview.png",
@@ -271,7 +290,8 @@
     ]
   },
   "121": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Your critical strikes cause the opponent to bleed, dealing 20% of your melee weapon's average damage over 12 sec.",
     "screenshots": [
       "warrior/overview-rend.png",
       "warrior/overview.png"
@@ -279,6 +299,7 @@
   },
   "124": {
     "review": "updated",
+    "classicDescription": "Reduces the cost of your Heroic Strike ability by 1 rage point.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -287,6 +308,7 @@
   },
   "126": {
     "review": "updated",
+    "classicDescription": "Increases the amount of rage generated by your Charge ability by 3.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -296,6 +318,7 @@
   },
   "127": {
     "review": "updated",
+    "classicDescription": "Increases the bleed damage done by your Rend ability by 15%.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -304,6 +327,7 @@
   },
   "128": {
     "review": "updated",
+    "classicDescription": "Reduces the cost of your Thunder Clap ability by 1 rage point.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -360,6 +384,7 @@
   },
   "137": {
     "review": "updated",
+    "classicDescription": "Increases the time required for your rage to decay while out of combat by 30%.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -368,6 +393,7 @@
   },
   "138": {
     "review": "updated",
+    "classicDescription": "Increases your Defense skill by 2.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -384,6 +410,7 @@
   },
   "141": {
     "review": "updated",
+    "classicDescription": "Increases your chance to resist Stun and Charm effects by an additional 3%.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -392,6 +419,7 @@
   },
   "142": {
     "review": "updated",
+    "classicDescription": "Increases the instant Rage generated by your Bloodrage ability by 2.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -400,6 +428,7 @@
   },
   "144": {
     "review": "updated",
+    "classicDescription": "Increases the threat generated by your attacks by 3% while in Defensive Stance.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -408,6 +437,7 @@
   },
   "146": {
     "review": "updated",
+    "classicDescription": "Reduces the cost of your Sunder Armor ability by 1 rage point.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -416,6 +446,7 @@
   },
   "147": {
     "review": "updated",
+    "classicDescription": "Gives your Revenge ability a 15% chance to stun the target for 3 sec.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -424,6 +455,7 @@
   },
   "148": {
     "review": "updated",
+    "classicDescription": "Slam the target with your shield, causing 225 to 235 damage, modified by your shield block value, and has a 50% chance of dispelling 1 magic effect on the target.  Also causes a high amount of threat.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -440,6 +472,7 @@
   },
   "150": {
     "review": "updated",
+    "classicDescription": "Increases the effect duration of your Shield Wall ability by 3 secs.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -448,6 +481,7 @@
   },
   "151": {
     "review": "updated",
+    "classicDescription": "Increases the duration of your Disarm ability by 1 secs.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -456,6 +490,7 @@
   },
   "152": {
     "review": "updated",
+    "classicDescription": "Stuns the opponent for 5 sec.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -464,6 +499,7 @@
   },
   "153": {
     "review": "updated",
+    "classicDescription": "When activated, this ability temporarily grants you 30% of your maximum hit points for 20 seconds.  After the effect expires, the hit points are lost.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -472,6 +508,7 @@
   },
   "155": {
     "review": "updated",
+    "classicDescription": "Gives you a 5% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -479,7 +516,8 @@
     ]
   },
   "156": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases your attack speed by 10% for your next 3 swings after dealing a melee critical strike.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -487,7 +525,8 @@
     ]
   },
   "157": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases your chance to get a critical strike with melee weapons by 1%.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -496,6 +535,7 @@
   },
   "158": {
     "review": "updated",
+    "classicDescription": "Increases the area of effect and duration of your Battle Shout and Demoralizing Shout by 10%.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -504,6 +544,7 @@
   },
   "159": {
     "review": "updated",
+    "classicDescription": "Gives you a 8% chance to generate an additional Rage point when you deal melee damage with a weapon.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -512,6 +553,7 @@
   },
   "160": {
     "review": "updated",
+    "classicDescription": "Causes all enemies near the warrior to be dazed, reducing movement speed by 50% for 6 sec.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -520,6 +562,7 @@
   },
   "165": {
     "review": "updated",
+    "classicDescription": "When activated, increases your physical damage by 20% and makes you immune to Fear effects, but lowers your armor and all resistances by 20%.  Lasts 30 sec.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -528,6 +571,7 @@
   },
   "166": {
     "review": "updated",
+    "classicDescription": "Increases the bonus damage done by your Cleave ability by 40%.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -536,6 +580,7 @@
   },
   "167": {
     "review": "updated",
+    "classicDescription": "Instantly attack the target causing damage equal to 45% of your attack power.  In addition, the next 5 successful melee attacks will restore 10 health.  This effect lasts 8 sec.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -544,6 +589,7 @@
   },
   "168": {
     "review": "updated",
+    "classicDescription": "Decreases the casting time of your Slam ability by 0.1 sec.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -554,10 +600,12 @@
     "review": "classic"
   },
   "176": {
-    "review": "updated"
+    "review": "updated",
+    "classicDescription": "An instant strike that damages the opponent and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to 3.  Lasts 30 charges or 15 sec.  Awards 1 combo point."
   },
   "181": {
     "review": "updated",
+    "classicDescription": "Increases your chance to hit with melee weapons by 1%.",
     "screenshots": [
       "rogue/3.png"
     ]
@@ -567,6 +615,7 @@
   },
   "187": {
     "review": "updated",
+    "classicDescription": "Increases your Parry chance by 1%.",
     "screenshots": [
       "rogue/4.png"
     ]
@@ -578,10 +627,12 @@
     ]
   },
   "203": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Increases the effect duration of your Gouge ability by 0.5 sec."
   },
   "204": {
     "review": "updated",
+    "classicDescription": "Reduces the cooldown of your Sprint and Evasion abilities by 45 sec.",
     "screenshots": [
       "rogue/7.png"
     ]
@@ -594,6 +645,7 @@
   },
   "221": {
     "review": "updated",
+    "classicDescription": "Increases the damage done by your offhand weapon by 10%.",
     "screenshots": [
       "rogue/8.png"
     ]
@@ -606,27 +658,33 @@
   },
   "223": {
     "review": "updated",
+    "classicDescription": "Increases your attack speed by 20%.  In addition, attacks strike an additional nearby opponent.  Lasts 15 sec.",
     "screenshots": [
       "rogue/13.png"
     ]
   },
   "241": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Reduces the chance enemies have to detect you while in Stealth mode."
   },
   "244": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Increases your speed while stealthed by 3% and reduces the cooldown of your Stealth ability by 1 sec."
   },
   "245": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Gives you a 25% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
   },
   "246": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Gives you a 15% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells."
   },
   "247": {
     "review": "classic"
   },
   "261": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 4%."
   },
   "263": {
     "review": "classic"
@@ -635,28 +693,35 @@
     "review": "classic"
   },
   "265": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10."
   },
   "268": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Increases the chance to apply poisons to your target by 2%."
   },
   "269": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by 6%."
   },
   "270": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Increases your critical strike chance by 1%."
   },
   "272": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts 20 sec."
   },
   "273": {
     "review": "classic"
   },
   "274": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Increases all damage caused against Humanoid, Giant, Beast and Dragonkin targets by 1%."
   },
   "276": {
     "review": "updated",
+    "classicDescription": "Increases the damage done by your Eviscerate ability by 5%.",
     "screenshots": [
       "rogue/2.png"
     ]
@@ -665,13 +730,16 @@
     "review": "classic"
   },
   "278": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Increases the armor reduced by your Expose Armor ability by 25%."
   },
   "279": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "While affected by your Kidney Shot ability, the target receives an additional 3% damage from all sources."
   },
   "280": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate by 100%."
   },
   "281": {
     "review": "classic"
@@ -680,10 +748,12 @@
     "review": "classic"
   },
   "303": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec.  Awards 1 combo point."
   },
   "321": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Gives you a 50% chance to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike.  The Focused Casting effect prevents you from losing casting time when taking damage and increases resistance to Interrupt effects by 10%.",
     "screenshots": [
       "priest/Disc.forever.jpg",
       "priest/overview.png",
@@ -692,6 +762,7 @@
   },
   "322": {
     "review": "updated",
+    "classicDescription": "Infuses the target with power, increasing their spell damage and healing by 20%.  Lasts 15 sec.",
     "screenshots": [
       "priest/Disc.forever.jpg",
       "priest/overview.png",
@@ -700,6 +771,7 @@
   },
   "341": {
     "review": "updated",
+    "classicDescription": "Reduces the mana cost of your instant cast spells by 2%.",
     "screenshots": [
       "priest/Disc.forever.jpg",
       "priest/overview.png",
@@ -708,6 +780,7 @@
   },
   "343": {
     "review": "updated",
+    "classicDescription": "Increases the damage absorbed by your Power Word: Shield by 5%.",
     "screenshots": [
       "priest/Disc.forever.jpg",
       "priest/overview.png",
@@ -716,6 +789,7 @@
   },
   "345": {
     "review": "updated",
+    "classicDescription": "Increases your damage with Wands by 5%.",
     "screenshots": [
       "priest/Disc.forever.jpg",
       "priest/overview.png",
@@ -724,6 +798,7 @@
   },
   "346": {
     "review": "updated",
+    "classicDescription": "Increases the Armor bonus of your Inner Fire spell by 10%.",
     "screenshots": [
       "priest/Disc.forever.jpg",
       "priest/overview.png",
@@ -732,6 +807,7 @@
   },
   "347": {
     "review": "updated",
+    "classicDescription": "Allows 5% of your Mana regeneration to continue while casting.",
     "screenshots": [
       "priest/Disc.forever.jpg",
       "priest/overview.png",
@@ -748,6 +824,7 @@
   },
   "350": {
     "review": "updated",
+    "classicDescription": "Reduces the casting time of your Mana Burn spell by 0.25 secs.",
     "screenshots": [
       "priest/Disc.forever.jpg",
       "priest/overview.png",
@@ -756,6 +833,7 @@
   },
   "352": {
     "review": "updated",
+    "classicDescription": "Reduces the threat generated by your spells by 4%.",
     "screenshots": [
       "priest/Disc.forever.jpg",
       "priest/overview.png",
@@ -764,6 +842,7 @@
   },
   "361": {
     "review": "updated",
+    "classicDescription": "Increases your target's armor by 8% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -771,10 +850,12 @@
     ]
   },
   "381": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "When used, adds 2 combo points to your target.  You must add to or use those combo points within 10 sec or the combo points are lost."
   },
   "382": {
-    "review": "updated"
+    "review": "updated",
+    "classicDescription": "Increases your maximum Energy by 10."
   },
   "401": {
     "review": "classic",
@@ -785,7 +866,8 @@
     ]
   },
   "402": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases spell damage and healing by up to 5% of your total Spirit.",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -794,6 +876,7 @@
   },
   "403": {
     "review": "updated",
+    "classicDescription": "Increases the damage of your Smite and Holy Fire spells by 5%.",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -802,6 +885,7 @@
   },
   "404": {
     "review": "updated",
+    "classicDescription": "Increases the amount healed by your healing spells by 2%.",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -818,6 +902,7 @@
   },
   "408": {
     "review": "updated",
+    "classicDescription": "Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 5%.",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -834,6 +919,7 @@
   },
   "421": {
     "review": "updated",
+    "classicDescription": "Increases your spell damage and critical strike chance by 1%.",
     "screenshots": [
       "mage/7.png",
       "mage/21.png",
@@ -845,6 +931,7 @@
   },
   "442": {
     "review": "updated",
+    "classicDescription": "Causes an explosion of holy light around the caster, causing 29 to 34 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 54 to 63.  These effects cause no threat.",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -853,6 +940,7 @@
   },
   "461": {
     "review": "updated",
+    "classicDescription": "Your Shadow damage spells have a 20% chance to cause your target to be vulnerable to Shadow damage.  This vulnerability increases the Shadow damage dealt to your target by 3% and lasts 15 sec.  Stacks up to 5 times.",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -861,6 +949,7 @@
   },
   "462": {
     "review": "updated",
+    "classicDescription": "Increases your Shadow spell damage by 2%.",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -869,6 +958,7 @@
   },
   "463": {
     "review": "updated",
+    "classicDescription": "Reduces your target's chance to resist your Shadow spells by 2%.",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -885,6 +975,7 @@
   },
   "465": {
     "review": "updated",
+    "classicDescription": "Gives you a 20% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your Mana will regenerate at a 50% rate while casting.  Lasts 15 sec.",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -893,6 +984,7 @@
   },
   "466": {
     "review": "updated",
+    "classicDescription": "Reduces the threat generated by your Shadow spells by 8%.",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -925,6 +1017,7 @@
   },
   "484": {
     "review": "updated",
+    "classicDescription": "Afflicts your target with Shadow energy that causes all party members to be healed for 20% of any Shadow spell damage you deal for 1 min.",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -932,7 +1025,8 @@
     ]
   },
   "501": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Assault the target's mind with Shadow energy, causing 75 Shadow damage over 3 sec and slowing their movement speed by 50%.",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -941,6 +1035,7 @@
   },
   "521": {
     "review": "updated",
+    "classicDescription": "Assume a Shadowform, increasing your Shadow damage by 15% and reducing Physical damage done to you by 15%.  However, you may not cast Holy spells while in this form.",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -949,6 +1044,7 @@
   },
   "541": {
     "review": "updated",
+    "classicDescription": "Silences the target, preventing them from casting spells for 5 sec.",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -965,6 +1061,7 @@
   },
   "561": {
     "review": "updated",
+    "classicDescription": "Increases the damage done by your Fire Totems by 5%.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/3.png",
@@ -974,6 +1071,7 @@
   },
   "562": {
     "review": "updated",
+    "classicDescription": "Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by an additional 1%.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/27.png",
@@ -981,7 +1079,8 @@
     ]
   },
   "563": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases the damage done by your Lightning Bolt, Chain Lightning and Shock spells by 1%.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/1.png"
@@ -989,6 +1088,7 @@
   },
   "564": {
     "review": "updated",
+    "classicDescription": "Reduces the mana cost of your Shock, Lightning Bolt and Chain Lightning spells by 2%.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/2.png"
@@ -996,6 +1096,7 @@
   },
   "565": {
     "review": "updated",
+    "classicDescription": "Increases the critical strike damage bonus of your Searing, Magma, and Fire Nova Totems and your Fire, Frost, and Nature spells by 100%.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/22.png",
@@ -1044,7 +1145,8 @@
     ]
   },
   "587": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Gives you a 14% chance to avoid interruption caused by damage while casting any healing spell.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/64.png"
@@ -1052,6 +1154,7 @@
   },
   "588": {
     "review": "updated",
+    "classicDescription": "Increases the effect of your Mana Spring and Healing Stream Totems by 5%.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/67.png"
@@ -1059,13 +1162,15 @@
   },
   "589": {
     "review": "updated",
+    "classicDescription": "Reduces the cooldown of your Reincarnation spell by 10 min and increases the amount of health and mana you reincarnate with by an additional 10%.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/62.png"
     ]
   },
   "590": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Summons a Mana Tide Totem with 5 health at the feet of the caster for 12 sec that restores 170 mana every 3 seconds to group members within 20 yards.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/66.png"
@@ -1087,6 +1192,7 @@
   },
   "593": {
     "review": "updated",
+    "classicDescription": "Reduces the Mana cost of your healing spells by 1%.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/61.png"
@@ -1094,6 +1200,7 @@
   },
   "594": {
     "review": "updated",
+    "classicDescription": "Increases the critical effect chance of your healing and lightning spells by 1%.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/58.png"
@@ -1101,6 +1208,7 @@
   },
   "595": {
     "review": "updated",
+    "classicDescription": "Reduces the Mana cost of your totems by 5%.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/68.png"
@@ -1108,6 +1216,7 @@
   },
   "601": {
     "review": "updated",
+    "classicDescription": "Increases your chance to dodge by an additional 1%.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/48.png"
@@ -1115,6 +1224,7 @@
   },
   "602": {
     "review": "updated",
+    "classicDescription": "Increases your attack speed by 10% for your next 3 swings after dealing a critical strike.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/52.png"
@@ -1122,6 +1232,7 @@
   },
   "605": {
     "review": "updated",
+    "classicDescription": "Reduces the cast time of your Ghost Wolf spell by 1 sec.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/13.png",
@@ -1153,13 +1264,16 @@
     ]
   },
   "613": {
-    "review": "updated"
+    "review": "updated",
+    "classicDescription": "Improves your chance to get a critical strike with your weapon attacks by 1%."
   },
   "614": {
-    "review": "updated"
+    "review": "updated",
+    "classicDescription": "Increases your maximum Mana by 1%."
   },
   "615": {
     "review": "updated",
+    "classicDescription": "Increases your armor value from items by 2%.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/11.png",
@@ -1177,6 +1291,7 @@
   },
   "661": {
     "review": "updated",
+    "classicDescription": "Regenerates 1% of your total Health over 6 sec after being the victim of a critical strike.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -1185,6 +1300,7 @@
   },
   "662": {
     "review": "updated",
+    "classicDescription": "Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by 10%.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -1202,13 +1318,15 @@
   },
   "762": {
     "review": "updated",
+    "classicDescription": "Reduces the cast time of your Wrath spell by 0.1 sec.",
     "screenshots": [
       "druid/overview-clean.png",
       "druid/16.png"
     ]
   },
   "763": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases the damage and critical strike chance of your Moonfire spell by 2%.",
     "screenshots": [
       "druid/17.png",
       "druid/31.png"
@@ -1216,6 +1334,7 @@
   },
   "764": {
     "review": "updated",
+    "classicDescription": "Increases the range of your Wrath, Entangling Roots, Faerie Fire, Moonfire, Starfire, and Hurricane spells by 10%.",
     "screenshots": [
       "druid/overview-clean.png",
       "druid/19.png"
@@ -1230,18 +1349,21 @@
   },
   "783": {
     "review": "updated",
+    "classicDescription": "Reduces the Mana cost of your Moonfire, Starfire, Wrath, Healing Touch, Regrowth and Rejuvenation spells by 3%.",
     "screenshots": [
       "druid/30.png"
     ]
   },
   "784": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Reduces the cast time of Starfire by 0.1 sec and has a 3% chance to stun the target for 3 sec.",
     "screenshots": [
       "druid/21.png"
     ]
   },
   "789": {
     "review": "updated",
+    "classicDescription": "All spell criticals grace you with a blessing of nature, reducing the casting time of your next spell by 0.5 sec.",
     "screenshots": [
       "druid/overview-clean.png",
       "druid/22.png",
@@ -1250,31 +1372,36 @@
   },
   "790": {
     "review": "updated",
+    "classicDescription": "Increases the damage done by your Starfire, Moonfire and Wrath spells by 2%.",
     "screenshots": [
       "druid/25.png"
     ]
   },
   "792": {
     "review": "updated",
+    "classicDescription": "Increases the critical strike damage bonus of your Starfire, Moonfire, and Wrath spells by 20%.",
     "screenshots": [
       "druid/33.png"
     ]
   },
   "793": {
     "review": "updated",
+    "classicDescription": "Transforms the Druid into Moonkin Form.  While in this form the armor contribution from items is increased by 360% and all party members within 30 yards have their spell critical chance increased by 3%.  The Moonkin can only cast Balance spells while shapeshifted.\n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",
     "screenshots": [
       "druid/26.png"
     ]
   },
   "794": {
     "review": "updated",
+    "classicDescription": "Increases your Armor contribution from items by 2%.",
     "screenshots": [
       "druid/overview-clean.png",
       "druid/12.png"
     ]
   },
   "796": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Reduces the cost of your Maul, Swipe, Claw, and Rake abilities by 1 Rage or Energy.",
     "screenshots": [
       "druid/overview-clean.png",
       "druid/overview.png"
@@ -1282,6 +1409,7 @@
   },
   "797": {
     "review": "updated",
+    "classicDescription": "Increases the stun duration of your Bash and Pounce abilities by 0.5 sec.",
     "screenshots": [
       "druid/overview-clean.png",
       "druid/3.png",
@@ -1290,6 +1418,7 @@
   },
   "798": {
     "review": "updated",
+    "classicDescription": "Increases your critical strike chance while in Bear, Dire Bear or Cat Form by 2%.",
     "screenshots": [
       "druid/overview-clean.png",
       "druid/11.png",
@@ -1297,7 +1426,8 @@
     ]
   },
   "799": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases threat caused in Bear and Dire Bear Form by 3% and reduces the chance enemies have to detect you while Prowling.",
     "screenshots": [
       "druid/overview-clean.png",
       "druid/overview.png"
@@ -1305,6 +1435,7 @@
   },
   "801": {
     "review": "updated",
+    "classicDescription": "Gives you a 50% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form.",
     "screenshots": [
       "druid/10.png"
     ]
@@ -1316,19 +1447,22 @@
     ]
   },
   "803": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases your melee attack power in Cat, Bear and Dire Bear Forms by 50% of your level.",
     "screenshots": [
       "druid/overview.png"
     ]
   },
   "804": {
     "review": "updated",
+    "classicDescription": "Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec.",
     "screenshots": [
       "druid/34.png"
     ]
   },
   "805": {
     "review": "updated",
+    "classicDescription": "Increases the damage caused by your Claw, Rake, Maul and Swipe abilities by 10%.",
     "screenshots": [
       "druid/overview-clean.png",
       "druid/8.png",
@@ -1336,19 +1470,22 @@
     ]
   },
   "808": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases your Intellect by 4%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 4% and while in Cat Form your Strength is increased by 4%.",
     "screenshots": [
       "druid/14.png"
     ]
   },
   "809": {
     "review": "updated",
+    "classicDescription": "While in Cat, Bear or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 45 yards by 3%.",
     "screenshots": [
       "druid/overview.png"
     ]
   },
   "822": {
     "review": "updated",
+    "classicDescription": "Gives you 20% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form.",
     "screenshots": [
       "druid/overview-clean.png",
       "druid/overview.png"
@@ -1356,6 +1493,7 @@
   },
   "823": {
     "review": "updated",
+    "classicDescription": "Gives you a 14% chance to avoid interruption caused by damage while casting the Healing Touch, Regrowth and Tranquility spells.",
     "screenshots": [
       "druid/overview.png"
     ]
@@ -1373,19 +1511,22 @@
     ]
   },
   "827": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "The enemy target is swarmed by insects, decreasing their chance to hit by 2% and causing 66 Nature damage over 12 sec.",
     "screenshots": [
       "druid/32.png"
     ]
   },
   "828": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases the effect of all healing spells by 2%.",
     "screenshots": [
       "druid/overview.png"
     ]
   },
   "829": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Allows 5% of your Mana regeneration to continue while casting.",
     "screenshots": [
       "druid/overview.png"
     ]
@@ -1403,13 +1544,15 @@
     ]
   },
   "841": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Reduces the threat generated by your Healing spells by 4%.",
     "screenshots": [
       "druid/overview.png"
     ]
   },
   "842": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Reduces threat caused by Tranquility by 50%.",
     "screenshots": [
       "druid/overview.png"
     ]
@@ -1422,12 +1565,14 @@
   },
   "844": {
     "review": "updated",
+    "classicDescription": "Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth.",
     "screenshots": [
       "druid/1.png"
     ]
   },
   "881": {
     "review": "updated",
+    "classicDescription": "Increases the range of your Shadow damage spells by 6%.",
     "screenshots": [
       "priest/Shadow-forever.png",
       "priest/overview.png",
@@ -1436,6 +1581,7 @@
   },
   "901": {
     "review": "updated",
+    "classicDescription": "Gives you an extra attack.  In addition, the next 2 sources of Nature damage dealt to the target are increased by 20%.  Lasts 12 sec.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/14.png"
@@ -1443,6 +1589,7 @@
   },
   "941": {
     "review": "updated",
+    "classicDescription": "Reduces the Mana cost of your Destruction spells by 1%.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/5.png"
@@ -1450,6 +1597,7 @@
   },
   "943": {
     "review": "updated",
+    "classicDescription": "Reduces the casting time of your Shadow Bolt and Immolate spells by 0.1 sec and your Soul Fire spell by 0.4 sec.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/1.png"
@@ -1457,6 +1605,7 @@
   },
   "944": {
     "review": "updated",
+    "classicDescription": "Your Shadow Bolt critical strikes increase Shadow damage dealt to the target by 4% until 4 non-periodic damage sources are applied.  Effect lasts a maximum of 12 sec.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/2.png"
@@ -1464,6 +1613,7 @@
   },
   "963": {
     "review": "updated",
+    "classicDescription": "Instantly blasts the target for 91 to 104 Shadow damage.  If the target dies within 5 sec of Shadowburn, and yields experience or honor, the caster gains a Soul Shard.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/7.png"
@@ -1471,6 +1621,7 @@
   },
   "964": {
     "review": "updated",
+    "classicDescription": "Increases the range of your Destruction spells by 10%.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/3.png"
@@ -1478,6 +1629,7 @@
   },
   "967": {
     "review": "updated",
+    "classicDescription": "Increases the critical strike damage bonus of your Destruction spells by 100%.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/8.png"
@@ -1485,6 +1637,7 @@
   },
   "968": {
     "review": "updated",
+    "classicDescription": "Ignites a target that is already afflicted by Immolate, dealing 249 to 316 Fire damage and consuming the Immolate spell.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/11.png"
@@ -1492,6 +1645,7 @@
   },
   "982": {
     "review": "updated",
+    "classicDescription": "Gives your Destruction spells a 2% chance to daze the target for 5 sec.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/6.png"
@@ -1499,6 +1653,7 @@
   },
   "985": {
     "review": "updated",
+    "classicDescription": "Gives you a 35% chance to resist interruption caused by damage while channeling the Rain of Fire, Hellfire or Soul Fire spell.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/10.png"
@@ -1506,6 +1661,7 @@
   },
   "986": {
     "review": "updated",
+    "classicDescription": "Gives your Rain of Fire, Hellfire, and Soul Fire spells a 13% chance to stun the target for 3 sec.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/14.png"
@@ -1513,13 +1669,15 @@
   },
   "1001": {
     "review": "updated",
+    "classicDescription": "Gives you a 14% chance to avoid interruption caused by damage while channeling the Drain Life, Drain Mana, or Drain Soul spell.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/44.png"
     ]
   },
   "1002": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Gives your Corruption and Drain Life spells a 2% chance to cause you to enter a Shadow Trance state after damaging the opponent.  The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/47.png"
@@ -1527,6 +1685,7 @@
   },
   "1003": {
     "review": "updated",
+    "classicDescription": "Reduces the casting time of your Corruption spell by 0.4 sec.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/37.png"
@@ -1534,6 +1693,7 @@
   },
   "1005": {
     "review": "updated",
+    "classicDescription": "Reduces the chance for enemies to resist your Affliction spells by 2%.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/38.png"
@@ -1555,20 +1715,23 @@
   },
   "1042": {
     "review": "updated",
+    "classicDescription": "Increases the damage dealt or life drained by your Shadow spells by 2%.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/51.png"
     ]
   },
   "1061": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases the effect of your next Curse of Weakness or Curse of Agony by 50%, or your next Curse of Exhaustion by 20%.  Lasts 30 sec.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/43.png"
     ]
   },
   "1081": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Reduces the target's movement speed by 10% for 12 sec.  Only one Curse per Warlock can be active on any one target.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/48.png"
@@ -1576,18 +1739,21 @@
   },
   "1122": {
     "review": "updated",
+    "classicDescription": "Increases the damage of your Sinister Strike and Eviscerate abilities by 2%.",
     "screenshots": [
       "rogue/12.png"
     ]
   },
   "1123": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Causes your attacks to ignore 101 of your target's Armor and increases the damage dealt by your Rupture ability by 10%.  The amount of Armor reduced increases with your level."
   },
   "1141": {
     "review": "new"
   },
   "1142": {
     "review": "updated",
+    "classicDescription": "Allows 5% of your Mana regeneration to continue while casting.",
     "screenshots": [
       "mage/16.png",
       "mage/overview.png",
@@ -1606,6 +1772,7 @@
   },
   "1201": {
     "review": "updated",
+    "classicDescription": "Increases your maximum Mana by 2%.",
     "screenshots": [
       "priest/Disc.forever.jpg",
       "priest/overview.png",
@@ -1614,6 +1781,7 @@
   },
   "1222": {
     "review": "updated",
+    "classicDescription": "Increases the effect of your Imp's Firebolt, Fire Shield, and Blood Pact spells by 10%.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/35.png"
@@ -1621,6 +1789,7 @@
   },
   "1223": {
     "review": "updated",
+    "classicDescription": "Increases your total Stamina by 3% but reduces your total Spirit by 1%.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/34.png"
@@ -1628,6 +1797,7 @@
   },
   "1224": {
     "review": "updated",
+    "classicDescription": "Increases the amount of Health transferred by your Health Funnel spell by 10%.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/36.png"
@@ -1641,14 +1811,16 @@
     ]
   },
   "1226": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Your next Imp, Voidwalker, Succubus, or Felhunter Summon spell has its casting time reduced by 5.5 sec and its Mana cost reduced by 50%.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/27.png"
     ]
   },
   "1227": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Reduces the casting time of your Imp, Voidwalker, Succubus, and Felhunter Summoning spells by 2 sec and the Mana cost by 20%.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/26.png"
@@ -1656,6 +1828,7 @@
   },
   "1244": {
     "review": "updated",
+    "classicDescription": "Grants both the Warlock and the summoned demon an effect as long as that demon is active.\n\nImp - Reduces threat caused by 4%.\n\nVoidwalker - Reduces physical damage taken by 2%.\n\nSuccubus - Increases all damage caused by 2%.\n\nFelhunter - Increases all resistances by .2 per level.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/19.png"
@@ -1663,6 +1836,7 @@
   },
   "1262": {
     "review": "updated",
+    "classicDescription": "Increases the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 4%.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/33.png"
@@ -1670,13 +1844,15 @@
   },
   "1281": {
     "review": "updated",
+    "classicDescription": "When activated, sacrifices your summoned demon to grant you an effect that lasts 30 min.  The effect is canceled if any Demon is summoned.\n\nImp: Increases your Fire damage by 15%.\n\nVoidwalker: Restores 3% of total Health every 4 sec.\n\nSuccubus: Increases your Shadow damage by 15%.\n\nFelhunter: Restores 2% of total Mana every 4 sec.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/25.png"
     ]
   },
   "1282": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "When active, 30% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, or Felhunter demon instead.  In addition, both the demon and master will inflict 3% more damage.  Lasts as long as the demon is active.",
     "screenshots": [
       "warlock/overview.png",
       "warlock/21.png"
@@ -1684,6 +1860,7 @@
   },
   "1303": {
     "review": "updated",
+    "classicDescription": "Increases your Agility by 3%.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1692,6 +1869,7 @@
   },
   "1304": {
     "review": "updated",
+    "classicDescription": "Gives your Immolation Trap, Frost Trap, and Explosive Trap a 5% chance to entrap the target, preventing them from moving for 5 sec.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1699,7 +1877,8 @@
     ]
   },
   "1305": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Gives your Wing Clip ability a 4% chance to immobilize the target for 5 sec.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1724,6 +1903,7 @@
   },
   "1310": {
     "review": "updated",
+    "classicDescription": "Increases hit chance by 1% and increases the chance movement impairing effects will be resisted by an additional 5%.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1732,6 +1912,7 @@
   },
   "1311": {
     "review": "updated",
+    "classicDescription": "Increases your Parry chance by 1%.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1740,6 +1921,7 @@
   },
   "1312": {
     "review": "updated",
+    "classicDescription": "A strike that becomes active after parrying an opponent's attack.  This attack deals 40 damage and immobilizes the target for 5 sec.  Counterattack cannot be blocked, dodged, or parried.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1756,6 +1938,7 @@
   },
   "1342": {
     "review": "updated",
+    "classicDescription": "Reduces the Mana cost of your Shots and Stings by 2%.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1763,7 +1946,7 @@
     ]
   },
   "1343": {
-    "review": "classic",
+    "review": "new",
     "screenshots": [
       "hunter/overview-clean.png"
     ]
@@ -1778,6 +1961,7 @@
   },
   "1346": {
     "review": "updated",
+    "classicDescription": "Reduces the cooldown of your Arcane Shot by 0.2 sec.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1786,6 +1970,7 @@
   },
   "1347": {
     "review": "updated",
+    "classicDescription": "Increases the damage done by your Multi-Shot and Volley spells by 5%.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1794,6 +1979,7 @@
   },
   "1349": {
     "review": "updated",
+    "classicDescription": "Increases your ranged weapon critical strike damage bonus by 6%.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1818,6 +2004,7 @@
   },
   "1361": {
     "review": "updated",
+    "classicDescription": "Increases the attack power of party members within 45 yards by 50.  Lasts 30 min.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1858,6 +2045,7 @@
   },
   "1387": {
     "review": "updated",
+    "classicDescription": "Command your pet to intimidate the target on the next successful melee attack, causing a high amount of threat and stunning the target for 3 sec.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1874,6 +2062,7 @@
   },
   "1389": {
     "review": "updated",
+    "classicDescription": "Increases the Health of your pets by 3%.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1882,6 +2071,7 @@
   },
   "1390": {
     "review": "updated",
+    "classicDescription": "Increases the Focus regeneration of your pets by 10%.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1889,7 +2079,8 @@
     ]
   },
   "1391": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases the outdoor movement speed of your pets by 30%.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1897,19 +2088,22 @@
     ]
   },
   "1393": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases the critical strike chance of your pets by 3%.",
     "screenshots": [
       "hunter/overview-clean.png"
     ]
   },
   "1395": {
     "review": "updated",
+    "classicDescription": "Increases the Dodge bonus of your Aspect of the Monkey by 1%.",
     "screenshots": [
       "hunter/overview-clean.png"
     ]
   },
   "1396": {
     "review": "updated",
+    "classicDescription": "Increases the damage done by your pets by 4%.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -1926,6 +2120,7 @@
   },
   "1402": {
     "review": "updated",
+    "classicDescription": "Gives you a 3% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability.",
     "screenshots": [
       "paladin/11.png",
       "paladin/33.png"
@@ -1939,19 +2134,22 @@
   },
   "1407": {
     "review": "updated",
+    "classicDescription": "Reduces the Mana cost of your Judgement and Seal spells by 3%.",
     "screenshots": [
       "paladin/23.png"
     ]
   },
   "1410": {
     "review": "updated",
+    "classicDescription": "Increases the damage you deal with two-handed melee weapons by 2%.",
     "screenshots": [
       "paladin/10.png",
       "paladin/32.png"
     ]
   },
   "1411": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases your chance to get a critical strike with melee weapons by 1%.",
     "screenshots": [
       "paladin/5.png",
       "paladin/25.png"
@@ -1959,6 +2157,7 @@
   },
   "1421": {
     "review": "updated",
+    "classicDescription": "Increases your chance to block attacks with your shield by 6% after being the victim of a critical strike.  Lasts 10 sec or 5 blocks.",
     "screenshots": [
       "paladin/16.png"
     ]
@@ -1971,34 +2170,39 @@
     ]
   },
   "1424": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases the amount of damage absorbed by your shield by 10%.",
     "screenshots": [
       "paladin/overview.png",
       "paladin/overview3.png"
     ]
   },
   "1425": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Reduces the cooldown of your Blessing of Protection by 60 sec and increases the duration of your Blessing of Freedom by 3 sec.",
     "screenshots": [
       "paladin/overview.png",
       "paladin/overview3.png"
     ]
   },
   "1429": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases the damage you deal with one-handed melee weapons by 2%.",
     "screenshots": [
       "paladin/overview.png",
       "paladin/overview3.png"
     ]
   },
   "1430": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases chance to block by 30% for 10 sec, and deals 65 Holy damage for each attack blocked while active.  Damage caused by Holy Shield causes 20% additional threat.  Each block expends a charge.  4 charges.",
     "screenshots": [
       "paladin/22.png"
     ]
   },
   "1432": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Gives your Flash of Light and Holy Light spells a 14% chance to not lose casting time when you take damage.",
     "screenshots": [
       "paladin/overview.png",
       "paladin/overview3.png"
@@ -2018,7 +2222,8 @@
     ]
   },
   "1444": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases the amount healed by your Holy Light and Flash of Light spells by 4%.",
     "screenshots": [
       "paladin/overview.png",
       "paladin/overview3.png"
@@ -2039,27 +2244,30 @@
     ]
   },
   "1461": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 20% chance to gain Mana equal to the base cost of the spell.",
     "screenshots": [
       "paladin/overview.png",
       "paladin/overview3.png"
     ]
   },
   "1481": {
-    "review": "updated",
+    "review": "classic",
     "screenshots": [
       "paladin/6.png"
     ]
   },
   "1501": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases the amount of threat generated by your Righteous Fury spell by 16%.",
     "screenshots": [
       "paladin/overview.png",
       "paladin/overview3.png"
     ]
   },
   "1502": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or 204 to 220 healing to an ally.",
     "screenshots": [
       "paladin/overview.png",
       "paladin/overview3.png"
@@ -2074,6 +2282,7 @@
   },
   "1541": {
     "review": "updated",
+    "classicDescription": "The Berserker Rage ability will generate 5 rage when used.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -2082,6 +2291,7 @@
   },
   "1542": {
     "review": "updated",
+    "classicDescription": "Reduces the Rage cost of your Execute ability by 2.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -2097,7 +2307,8 @@
     ]
   },
   "1561": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Upon death, the priest becomes the Spirit of Redemption for 10 sec.  The Spirit of Redemption cannot move, attack, be attacked or targeted by any spells or effects.  While in this form the priest can cast any healing spell free of cost.  When the effect ends, the priest dies.",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -2106,6 +2317,7 @@
   },
   "1581": {
     "review": "updated",
+    "classicDescription": "Increases the damage done by your offhand weapon by 5%.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -2114,6 +2326,7 @@
   },
   "1601": {
     "review": "updated",
+    "classicDescription": "Increases your chance to block attacks with a shield by 1% and has a 20% chance to generate 1 rage when a block occurs.",
     "screenshots": [
       "warrior/overview.png",
       "warrior/overview-rend.png",
@@ -2122,6 +2335,7 @@
   },
   "1621": {
     "review": "updated",
+    "classicDescription": "Increases the critical strike chance of Raptor Strike and Mongoose Bite by 10%.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -2130,6 +2344,7 @@
   },
   "1622": {
     "review": "updated",
+    "classicDescription": "Increases total health by 2%.",
     "screenshots": [
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
@@ -2145,14 +2360,16 @@
     ]
   },
   "1627": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases the critical effect chance of your Holy spells by 1%.",
     "screenshots": [
       "paladin/overview.png",
       "paladin/overview3.png"
     ]
   },
   "1628": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases your chance to resist Fear and Disorient effects by an additional 5%.",
     "screenshots": [
       "paladin/overview.png",
       "paladin/overview3.png"
@@ -2160,12 +2377,14 @@
   },
   "1629": {
     "review": "updated",
+    "classicDescription": "Increases your Defense skill by 2.",
     "screenshots": [
       "paladin/17.png"
     ]
   },
   "1630": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases your chance to hit with melee weapons by 1%.",
     "screenshots": [
       "paladin/overview.png",
       "paladin/overview3.png"
@@ -2173,12 +2392,14 @@
   },
   "1631": {
     "review": "updated",
+    "classicDescription": "Decreases the cooldown of your Judgement spell by 1 sec.",
     "screenshots": [
       "paladin/4.png"
     ]
   },
   "1632": {
     "review": "updated",
+    "classicDescription": "All spell criticals against you cause 15% of the damage taken to the caster as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.",
     "screenshots": [
       "paladin/9.png",
       "paladin/29.png"
@@ -2186,13 +2407,15 @@
   },
   "1633": {
     "review": "updated",
+    "classicDescription": "Gives the Paladin's damaging melee attacks a chance to reduce the target's Strength and Agility by 5% for 10 sec.",
     "screenshots": [
       "paladin/8.png",
       "paladin/26.png"
     ]
   },
   "1634": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Increases movement and mounted movement speed by 4%.  This does not stack with other movement speed increasing effects.",
     "screenshots": [
       "paladin/13.png",
       "paladin/28.png"
@@ -2208,6 +2431,7 @@
   },
   "1636": {
     "review": "updated",
+    "classicDescription": "After being struck by a melee or ranged critical hit, heal 8% of the damage taken over 6 sec.",
     "screenshots": [
       "priest/Holy-forever.png",
       "priest/overview.png",
@@ -2216,12 +2440,14 @@
   },
   "1639": {
     "review": "updated",
+    "classicDescription": "Your Fire and Frost spell criticals will refund 10% of their base mana cost.",
     "screenshots": [
       "mage/28.png"
     ]
   },
   "1640": {
     "review": "updated",
+    "classicDescription": "Reduces damage taken from Fire, Frost and Nature effects by 4%.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/19.png",
@@ -2239,13 +2465,15 @@
   },
   "1642": {
     "review": "updated",
+    "classicDescription": "Gives you a 33% chance to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike.  The Focused Casting effect prevents you from losing casting time when taking damage.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/23.png"
     ]
   },
   "1645": {
-    "review": "classic",
+    "review": "updated",
+    "classicDescription": "Your offensive spell crits will increase your chance to get a critical strike with melee attacks by 3% for 10 sec.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/16.png"
@@ -2260,6 +2488,7 @@
   },
   "1648": {
     "review": "updated",
+    "classicDescription": "Your Healing Wave spells have a 33% chance to increase the effect of subsequent Healing Wave spells on that target by 6% for 15 sec.  This effect will stack up to 3 times.",
     "screenshots": [
       "shaman/overview.png",
       "shaman/69.png"
@@ -2267,12 +2496,14 @@
   },
   "1649": {
     "review": "updated",
+    "classicDescription": "Reduces the chance that the opponent can resist your Frost and Fire spells by 2%.",
     "screenshots": [
       "mage/35.png"
     ]
   },
   "1650": {
     "review": "updated",
+    "classicDescription": "Increases all resistances by 2 and causes all spells you fully resist to restore 1% of your total mana.  1 sec. cooldown.",
     "screenshots": [
       "mage/5.png",
       "mage/overview.png",
@@ -2282,10 +2513,12 @@
     ]
   },
   "1701": {
-    "review": "classic"
+    "review": "updated",
+    "classicDescription": "Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%."
   },
   "1703": {
     "review": "updated",
+    "classicDescription": "Increases your skill with Sword, Fist and Dagger weapons by 3.",
     "screenshots": [
       "rogue/11.png"
     ]
@@ -2584,6 +2817,7 @@
   },
   "90055": {
     "review": "updated",
+    "classicDescription": "Gives you a 40% chance to avoid interruption caused by damage while casting Entangling Roots.",
     "screenshots": [
       "druid/24.png",
       "druid/39.png"
@@ -2771,7 +3005,8 @@
     "review": "new"
   },
   "90107": {
-    "review": "updated"
+    "review": "updated",
+    "classicDescription": "Gives the Mend Pet spell a 15% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick."
   },
   "90110": {
     "review": "new",
@@ -3069,12 +3304,73 @@
     "review": "new"
   },
   "90319": {
-    "review": "updated"
+    "review": "updated",
+    "classicDescription": "Gives you a 20% chance to gain an extra attack after being the victim of a critical strike."
   },
   "90320": {
     "review": "new"
   },
   "90321": {
+    "review": "new"
+  },
+  "92001": {
+    "review": "new"
+  },
+  "92002": {
+    "review": "new"
+  },
+  "92003": {
+    "review": "new"
+  },
+  "92004": {
+    "review": "new"
+  },
+  "92005": {
+    "review": "new"
+  },
+  "92006": {
+    "review": "new"
+  },
+  "92007": {
+    "review": "new"
+  },
+  "92011": {
+    "review": "new"
+  },
+  "92012": {
+    "review": "new"
+  },
+  "92013": {
+    "review": "new"
+  },
+  "92014": {
+    "review": "new"
+  },
+  "92015": {
+    "review": "new"
+  },
+  "92016": {
+    "review": "new"
+  },
+  "92017": {
+    "review": "new"
+  },
+  "92021": {
+    "review": "new"
+  },
+  "92022": {
+    "review": "new"
+  },
+  "92023": {
+    "review": "new"
+  },
+  "92024": {
+    "review": "new"
+  },
+  "92025": {
+    "review": "new"
+  },
+  "92026": {
     "review": "new"
   }
 }

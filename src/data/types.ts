@@ -25,6 +25,8 @@ export type Talent = {
   name: string;
   ranks: RankTooltip[];
   review?: TalentReview;
+  /** Classic rank-1 tooltip text when `review` is `updated`. */
+  classicDescription?: string;
 };
 
 export type TalentTree = {

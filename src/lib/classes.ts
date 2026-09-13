@@ -7,6 +7,7 @@ const data = talentData as TalentDataset;
 type ReviewEntry = {
   review: TalentReview;
   screenshots?: string[];
+  classicDescription?: string;
 };
 
 const reviews = reviewStatus as Record<string, ReviewEntry>;
@@ -17,10 +18,15 @@ export const CLASSES: PlayerClass[] = data.classes.map((cls) => ({
   ...cls,
   trees: cls.trees.map((tree) => ({
     ...tree,
-    talents: tree.talents.map((talent) => ({
-      ...talent,
-      review: reviews[String(talent.id)]?.review ?? talent.review ?? "classic",
-    })),
+    talents: tree.talents.map((talent) => {
+      const entry = reviews[String(talent.id)];
+      return {
+        ...talent,
+        review: entry?.review ?? talent.review ?? "classic",
+        classicDescription:
+          entry?.classicDescription ?? talent.classicDescription,
+      };
+    }),
   })),
 }));
 

@@ -643,6 +643,37 @@ body {
   font-size: 12px;
 }
 
+.tooltip-diff {
+  margin-top: 0.7rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid #ffffff22;
+}
+
+.tooltip-diff-label {
+  margin-bottom: 0.3rem;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.tooltip-diff-body {
+  color: #c9b98a !important;
+}
+
+.tooltip-diff-remove {
+  color: #9a8f7a;
+  text-decoration: line-through;
+  text-decoration-color: #9a8f7a99;
+}
+
+.tooltip-diff-add {
+  color: #ffd100;
+  font-style: normal;
+  text-decoration: none;
+  background: #ffd1001a;
+}
+
 .talent-arrow {
   --arrow-line: #ebdec2b3;
   position: absolute;

@@ -27,12 +27,14 @@ Do not invent `row`/`col` for new talents until the overview shows the slot. Do 
 
 `review-status.json` is keyed by talent `id` and sets the corner indicator.
 Statuses are judged against Classic 1.12 talent **spell names** (same class) and
-rank-1 tooltips from the classic foundation:
+rank-1 tooltips from the classic foundation (`babab56` / initial `talents.json`):
 
 - `new` (red) — not a Classic talent name for that class (brand-new or renamed)
-- `updated` (orange) — Classic spell name, tooltip differs
+- `updated` (orange) — Classic spell name, tooltip differs; includes `classicDescription` (Classic R1 text) so the calculator tooltip can show a Classic → Forever word diff
 - `classic` (grey) — Classic spell name and same (or near-identical) tooltip
 - `unchanged` (green) — unused; kept for type compatibility only
+
+Rebuild with `node scripts/reclassify-review.mjs` after bulk tooltip edits.
 
 ## Legacy class
 

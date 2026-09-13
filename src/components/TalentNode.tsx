@@ -11,6 +11,7 @@ import {
   rankOf,
   talentAvailability,
 } from "@/lib/talents";
+import { tooltipDiff } from "@/lib/tooltipDiff";
 import type { PlayerClass, RankState, Talent } from "@/data/types";
 
 type TalentNodeProps = {
@@ -49,6 +50,15 @@ export function TalentNode({
   const nextRank =
     current > 0 && current < talent.maxRank ? talent.ranks[current] : undefined;
   const review = talentReview(talent);
+  const foreverR1 = talent.ranks[0]
+    ? formatTooltip(talent.ranks[0].description)
+    : "";
+  const classicR1 = talent.classicDescription
+    ? formatTooltip(talent.classicDescription)
+    : undefined;
+  const showDiff =
+    review === "updated" && classicR1 && foreverR1 && classicR1 !== foreverR1;
+  const diffTokens = showDiff ? tooltipDiff(classicR1, foreverR1) : [];
 
   useLayoutEffect(() => {
     if (!open || !slotRef.current) {
@@ -101,6 +111,35 @@ export function TalentNode({
                 <div className="tooltip-next">Next rank:</div>
                 <p>{formatTooltip(nextRank.description)}</p>
               </>
+            ) : null}
+            {showDiff ? (
+              <div className="tooltip-diff">
+                <div className="tooltip-diff-label">Classic → Forever</div>
+                <p className="tooltip-diff-body">
+                  {diffTokens.map((token, index) => {
+                    switch (token.type) {
+                      case "equal":
+                        return <span key={index}>{token.text}</span>;
+                      case "remove":
+                        return (
+                          <del key={index} className="tooltip-diff-remove">
+                            {token.text}
+                          </del>
+                        );
+                      case "add":
+                        return (
+                          <ins key={index} className="tooltip-diff-add">
+                            {token.text}
+                          </ins>
+                        );
+                      default: {
+                        const exhaustive: never = token;
+                        return exhaustive;
+                      }
+                    }
+                  })}
+                </p>
+              </div>
             ) : null}
             {learnable ? <div className="tooltip-hint">Click to learn</div> : null}
             {unlearnable ? (
