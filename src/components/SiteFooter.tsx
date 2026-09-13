@@ -1,7 +1,8 @@
 const BMC_PAGE_URL = "https://buymeacoffee.com/nikftw";
+const DISCORD_URL = "https://discord.gg/WGXYpu2UXr";
 
 /**
- * Site footer: Blizzard copyright disclaimer + Buy me tokens (same as blizzcon.bingo).
+ * Site footer: Blizzard copyright disclaimer + CTAs (same pattern as blizzcon.bingo).
  */
 export function SiteFooter() {
   return (
@@ -13,17 +14,30 @@ export function SiteFooter() {
         Entertainment, Inc. This project is not affiliated with or endorsed in
         any way.
       </p>
-      <a
-        href={BMC_PAGE_URL}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="site-footer-bmc"
-      >
-        <span aria-hidden="true" className="site-footer-bmc-icon">
-          🎟️
-        </span>
-        Buy me tokens
-      </a>
+      <div className="site-footer-actions">
+        <a
+          href={BMC_PAGE_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="site-footer-cta site-footer-cta-bmc"
+        >
+          <span aria-hidden="true" className="site-footer-cta-icon">
+            🎟️
+          </span>
+          Buy me tokens
+        </a>
+        <a
+          href={DISCORD_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="site-footer-cta site-footer-cta-discord"
+        >
+          <span aria-hidden="true" className="site-footer-cta-icon">
+            💬
+          </span>
+          Join Fake Fresh
+        </a>
+      </div>
     </footer>
   );
 }
