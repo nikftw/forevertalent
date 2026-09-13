@@ -142,9 +142,34 @@
       "name": "Skyborne",
       "faction": "horde",
       "icon": "inv_misc_head_dragon_01",
-      "description": "Skyborne of the Horde — Forever race. Racial abilities TBD.",
+      "description": "Windshaper Skyborne of the Horde — Forever race.",
       "allowedClasses": ["warrior", "hunter", "rogue", "druid", "shaman"],
-      "abilities": []
+      "abilities": [
+        {
+          "name": "Walk on Air",
+          "icon": "inv_misc_questionmark",
+          "passive": false,
+          "description": "Glide downward through the air for 10 seconds."
+        },
+        {
+          "name": "Skysight",
+          "icon": "inv_misc_questionmark",
+          "passive": false,
+          "description": "Receive an Elemental Blessing increasing run speed by 10%."
+        },
+        {
+          "name": "Wind Blessed",
+          "icon": "inv_misc_questionmark",
+          "passive": true,
+          "description": "1% increased melee, ranged, and spellcasting Haste."
+        },
+        {
+          "name": "Elemental Insight",
+          "icon": "inv_misc_questionmark",
+          "passive": true,
+          "description": "Damage to Elementals increased by 5%."
+        }
+      ]
     },
     {
       "slug": "human",
@@ -287,9 +312,34 @@
       "name": "Skyborne",
       "faction": "alliance",
       "icon": "inv_misc_head_dragon_01",
-      "description": "Skyborne of the Alliance — Forever race. Racial abilities TBD.",
+      "description": "High Order Skyborne of the Alliance — Forever race.",
       "allowedClasses": ["warrior", "hunter", "mage", "rogue", "druid"],
-      "abilities": []
+      "abilities": [
+        {
+          "name": "Walk on Air",
+          "icon": "inv_misc_questionmark",
+          "passive": false,
+          "description": "Glide downward through the air for 10 seconds."
+        },
+        {
+          "name": "Read Ley Line",
+          "icon": "inv_misc_questionmark",
+          "passive": false,
+          "description": "Activate a ley line to gain 100% increased Health and Mana regeneration."
+        },
+        {
+          "name": "Wind Blessed",
+          "icon": "inv_misc_questionmark",
+          "passive": true,
+          "description": "1% increased melee, ranged, and spellcasting Haste."
+        },
+        {
+          "name": "Elemental Insight",
+          "icon": "inv_misc_questionmark",
+          "passive": true,
+          "description": "Damage to Elementals increased by 5%."
+        }
+      ]
     }
   ]
 }
