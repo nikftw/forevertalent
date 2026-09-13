@@ -1,7 +1,8 @@
 {
   "class": "druid",
-  "overviewFile": "druid/overview.png",
+  "overviewFile": "druid/overview-clean.png",
   "sourceFiles": [
+    "druid/overview-clean.png",
     "druid/overview.png",
     "druid/1.png",
     "druid/2.png",
@@ -43,7 +44,7 @@
     "druid/38.png",
     "druid/39.png"
   ],
-  "notes": "Layout authority is public/druid/overview.png (identical bytes to image.png). Identities from numbered 1-39.png via OCR + icon match to overview. All overview-occupied slots have row/col set. Soft unknowns: Balance r6c1 name (Force of Nature inferred, no numbered tooltip); some Feral Classic fillers without numbered shots; Nature's Majesty (r1c1) vs Balance of Nature (r3c1) purple-spine ambiguity across spent builds.",
+  "notes": "Layout authority is public/druid/overview-clean.png (not overview.png/image.png). overview part.png / overviewpartt2.png are Hunter dumps (byte-identical to out/hunter) — ignored. Confirmed hovers: Ferocity r0c1 + Feral Instinct r0c2; Sharpened Claws r2c3 (35.png); Brutal Impact r1c2 (3.png); Thick Hide r1c3 (12.png); Nature's Reach r1c1 (19.png); Natural Shapeshifter r0c2 (27.png). Furor/Savage Fury/Blood Frenzy slots after displace are UNCERTAIN.",
   "trees": [
     {
       "name": "Balance",
@@ -64,7 +65,7 @@
           "guessName": "Improved Wrath",
           "iconHint": "Bright teal/green glowing orb",
           "rankBadge": "0/5",
-          "notes": "16.png OCR; overview green-border"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 0,
@@ -73,7 +74,7 @@
           "guessName": "Genesis",
           "iconHint": "Purple magenta energy streak / Moonfire-like",
           "rankBadge": "0/5",
-          "notes": "29.png OCR Genesis 0/5; overview purple matches; NOT Splendor"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 0,
@@ -91,25 +92,25 @@
           "guessName": "Improved Moonfire",
           "iconHint": "Purple Moonfire starburst / hand",
           "rankBadge": "0/2",
-          "notes": "17.png OCR; distinct from Majesty slot"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 1,
           "col": 1,
           "occupied": true,
-          "guessName": "Nature's Majesty",
+          "guessName": "Nature's Reach",
           "iconHint": "Purple Balance-header starburst",
           "rankBadge": "0/2",
-          "notes": "18.png OCR 2/2; arrow from Imp Wrath; gold border when maxed"
+          "notes": "19.png hover"
         },
         {
           "row": 1,
           "col": 2,
           "occupied": true,
-          "guessName": "Nature's Reach",
+          "guessName": "Nature's Majesty",
           "iconHint": "White crescent / wing / feather",
           "rankBadge": "0/2",
-          "notes": "19.png OCR; arrow down to Nature's Grace"
+          "notes": "swap with Reach; arrow from Genesis"
         },
         {
           "row": 1,
@@ -118,7 +119,7 @@
           "guessName": "Nature's Splendor",
           "iconHint": "Purple crystalline shard (may read as branch when grey)",
           "rankBadge": "0/1",
-          "notes": "37.png OCR 0/1; spent builds show 1/1 on r1c3"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 2,
@@ -127,7 +128,7 @@
           "guessName": "Insect Swarm",
           "iconHint": "Humanoid silhouette with insects",
           "rankBadge": "0/1",
-          "notes": "32.png OCR; Balance (moved from Classic Rest)"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 2,
@@ -145,7 +146,7 @@
           "guessName": "Nature's Grace",
           "iconHint": "Green leaf / light hand",
           "rankBadge": "0/1",
-          "notes": "22/38.png OCR; receives arrow from Nature's Reach"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 2,
@@ -154,7 +155,7 @@
           "guessName": "Moonglow",
           "iconHint": "Silver moon / pouch-adjacent glow",
           "rankBadge": "0/3",
-          "notes": "30.png OCR; overview r2c3 occupied"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 3,
@@ -163,7 +164,7 @@
           "guessName": "Overgrowth",
           "iconHint": "Brown roots / entangling",
           "rankBadge": "0/2",
-          "notes": "24/39.png OCR; overview r3c0"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 3,
@@ -172,7 +173,7 @@
           "guessName": "Balance of Nature",
           "iconHint": "Purple starburst",
           "rankBadge": "0/5",
-          "notes": "20.png OCR; long dependency under Majesty chain"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 3,
@@ -181,7 +182,7 @@
           "guessName": "Improved Starfire",
           "iconHint": "Blue/white star beam",
           "rankBadge": "0/5",
-          "notes": "21.png OCR 3/5 spent; overview r3c2"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 3,
@@ -190,7 +191,7 @@
           "guessName": "Vengeance",
           "iconHint": "Claw / pouch-adjacent crit icon",
           "rankBadge": "0/5",
-          "notes": "33.png OCR; overview r3c3 occupied"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 4,
@@ -208,7 +209,7 @@
           "guessName": "Moonkin Form",
           "iconHint": "Moonkin silhouette",
           "rankBadge": "0/1",
-          "notes": "26.png OCR; mid-deep col1 chain"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 4,
@@ -217,7 +218,7 @@
           "guessName": "Eclipse",
           "iconHint": "Dark circle with silver crescent",
           "rankBadge": "0/3",
-          "notes": "23.png OCR 3/3; overview r4c2"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 4,
@@ -244,7 +245,7 @@
           "guessName": "Moonfury",
           "iconHint": "Purple energy burst",
           "rankBadge": "0/5",
-          "notes": "25.png OCR; overview r5c1"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 5,
@@ -280,7 +281,7 @@
           "guessName": "Force of Nature",
           "iconHint": "Treant / nature summon silhouette",
           "rankBadge": "0/1",
-          "notes": "Overview capstone col1; no clear numbered tooltip for name \u2014 icon-inferred"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 6,
@@ -321,16 +322,16 @@
           "guessName": "Ferocity",
           "iconHint": "Brown wolf/bear head",
           "rankBadge": "0/5",
-          "notes": "Overview green-border top; Classic name match"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 0,
           "col": 2,
           "occupied": true,
-          "guessName": "Sharpened Claws",
+          "guessName": "Feral Instinct",
           "iconHint": "Yellow/orange glowing paw",
           "rankBadge": "0/2",
-          "notes": "11/35.png OCR; overview yellow paw (not Savage Fury snarling head)"
+          "notes": "user: paw adjacent to Ferocity"
         },
         {
           "row": 0,
@@ -345,37 +346,37 @@
           "row": 1,
           "col": 0,
           "occupied": true,
-          "guessName": "Feral Instinct",
+          "guessName": "Savage Fury",
           "iconHint": "Bear head / stealth silhouette",
           "rankBadge": "0/3",
-          "notes": "Overview r1c0 occupied"
+          "notes": "displaced from r1c3; vacated by Instinct — UNCERTAIN"
         },
         {
           "row": 1,
           "col": 1,
           "occupied": true,
-          "guessName": "Brutal Impact",
+          "guessName": "Blood Frenzy",
           "iconHint": "Three claw scratch marks",
           "rankBadge": "0/2",
-          "notes": "3/13.png OCR; overview r1c1"
+          "notes": "displaced from r2c3; vacated by Brutal — UNCERTAIN"
         },
         {
           "row": 1,
           "col": 2,
           "occupied": true,
-          "guessName": "Thick Hide",
+          "guessName": "Brutal Impact",
           "iconHint": "Bear paw / leathery hide",
           "rankBadge": "0/3",
-          "notes": "12.png OCR maxRank 3; overview r1c2"
+          "notes": "3.png hover"
         },
         {
           "row": 1,
           "col": 3,
           "occupied": true,
-          "guessName": "Savage Fury",
+          "guessName": "Thick Hide",
           "iconHint": "Snarling brown bear/wolf head",
           "rankBadge": "0/2",
-          "notes": "8/36.png OCR; overview r1c3 occupied"
+          "notes": "12.png hover"
         },
         {
           "row": 2,
@@ -384,7 +385,7 @@
           "guessName": "Shredding Attacks",
           "iconHint": "Yellow diagonal claw marks",
           "rankBadge": "0/3",
-          "notes": "7.png OCR maxRank 3; overview r2c0"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 2,
@@ -393,7 +394,7 @@
           "guessName": "Predatory Strikes",
           "iconHint": "Cat face / predatory",
           "rankBadge": "0/3",
-          "notes": "Overview r2c1; Classic name"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 2,
@@ -402,16 +403,16 @@
           "guessName": "Feral Charge",
           "iconHint": "Charging bear",
           "rankBadge": "0/1",
-          "notes": "34.png OCR; overview r2c2 with arrow down"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 2,
           "col": 3,
           "occupied": true,
-          "guessName": "Blood Frenzy",
+          "guessName": "Sharpened Claws",
           "iconHint": "Bloody paw / frenzy",
           "rankBadge": "0/2",
-          "notes": "Merged into Primal Fury text in Forever \u2014 slot may be unused; overview occupied"
+          "notes": "35.png hover"
         },
         {
           "row": 3,
@@ -420,7 +421,7 @@
           "guessName": "Natural Reaction",
           "iconHint": "Feline eye",
           "rankBadge": "0/5",
-          "notes": "15.png OCR; overview r3c0"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 3,
@@ -429,7 +430,7 @@
           "guessName": "Heart of the Wild",
           "iconHint": "Dual bear / stylized paw",
           "rankBadge": "0/5",
-          "notes": "14.png OCR; overview mid col1 chain"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 3,
@@ -438,7 +439,7 @@
           "guessName": "Mangle",
           "iconHint": "Golden/orange paw print with claws",
           "rankBadge": "0/1",
-          "notes": "6.png OCR; overview r3c2 under Charge arrow"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 3,
@@ -447,7 +448,7 @@
           "guessName": "Primal Fury",
           "iconHint": "Blue-tinted cat paw",
           "rankBadge": "0/2",
-          "notes": "10.png OCR; overview r3c3"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 4,
@@ -465,7 +466,7 @@
           "guessName": "Faerie Fire (Feral)",
           "iconHint": "Faerie fire glow",
           "rankBadge": "0/1",
-          "notes": "Overview r4c1; Classic"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 4,
@@ -474,7 +475,7 @@
           "guessName": "Leader of the Pack",
           "iconHint": "Cat/bear pack silhouette",
           "rankBadge": "0/1",
-          "notes": "Overview r4c2; arrow toward Berserk"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 4,
@@ -483,7 +484,7 @@
           "guessName": "King of the Jungle",
           "iconHint": "Golden lion face",
           "rankBadge": "0/3",
-          "notes": "4.png OCR; overview r4c3"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 5,
@@ -510,7 +511,7 @@
           "guessName": "Rend and Tear",
           "iconHint": "Metallic clawed gauntlet",
           "rankBadge": "0/5",
-          "notes": "9.png OCR; overview r5c2"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 5,
@@ -537,7 +538,7 @@
           "guessName": "Berserk",
           "iconHint": "Roaring beast head",
           "rankBadge": "0/1",
-          "notes": "5.png OCR; Feral capstone"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 6,
@@ -578,16 +579,16 @@
           "guessName": "Improved Mark of the Wild",
           "iconHint": "Green staff/leaf hand",
           "rankBadge": "0/5",
-          "notes": "Overview r0c1 beside Furor; not Swiftmend"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 0,
           "col": 2,
           "occupied": true,
-          "guessName": "Furor",
+          "guessName": "Natural Shapeshifter",
           "iconHint": "Orange/yellow flaming animal swirl",
           "rankBadge": "0/5",
-          "notes": "overview.png tooltip; OCR + text"
+          "notes": "27.png hover on green hand"
         },
         {
           "row": 0,
@@ -605,7 +606,7 @@
           "guessName": "Nature's Focus",
           "iconHint": "Glowing hands / leaf",
           "rankBadge": "0/5",
-          "notes": "Overview r1c0; long arrow toward Nature's Swiftness"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 1,
@@ -614,16 +615,16 @@
           "guessName": "Improved Healing Touch",
           "iconHint": "Healing hands / staff",
           "rankBadge": "0/5",
-          "notes": "Overview r1c1; arrow down Rest spine"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 1,
           "col": 2,
           "occupied": true,
-          "guessName": "Natural Shapeshifter",
+          "guessName": "Furor",
           "iconHint": "Blue gem / shapeshift",
           "rankBadge": "0/3",
-          "notes": "27.png OCR in Restoration; overview r1c2"
+          "notes": "displaced from r0c2 by Shapeshifter — UNCERTAIN slot"
         },
         {
           "row": 1,
@@ -650,7 +651,7 @@
           "guessName": "Reflection",
           "iconHint": "Leaf and shield",
           "rankBadge": "0/3",
-          "notes": "Overview r2c1 on spine"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 2,
@@ -659,7 +660,7 @@
           "guessName": "Subtlety",
           "iconHint": "Leaf with stars",
           "rankBadge": "0/5",
-          "notes": "Overview r2c2"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 2,
@@ -668,7 +669,7 @@
           "guessName": "Improved Enrage",
           "iconHint": "Enrage swirl",
           "rankBadge": "0/2",
-          "notes": "Overview r2c3"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 3,
@@ -686,7 +687,7 @@
           "guessName": "Tranquil Spirit",
           "iconHint": "Blue/white orb",
           "rankBadge": "0/5",
-          "notes": "Overview r3c1; arrow toward Gift/Tree"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 3,
@@ -695,7 +696,7 @@
           "guessName": "Improved Rejuvenation",
           "iconHint": "Leaf glow",
           "rankBadge": "0/3",
-          "notes": "Overview r3c2"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 3,
@@ -704,7 +705,7 @@
           "guessName": "Swiftmend",
           "iconHint": "Hand holding green leaf",
           "rankBadge": "0/1",
-          "notes": "1.png OCR; Forever mid-tree (not Classic capstone / not r0c1)"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 4,
@@ -713,7 +714,7 @@
           "guessName": "Nature's Swiftness",
           "iconHint": "Green hand swirl",
           "rankBadge": "0/1",
-          "notes": "28.png OCR; arrow from Nature's Focus"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 4,
@@ -722,7 +723,7 @@
           "guessName": "Gift of Nature",
           "iconHint": "Green burst",
           "rankBadge": "0/5",
-          "notes": "Overview r4c1 on spine"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 4,
@@ -731,7 +732,7 @@
           "guessName": "Improved Tranquility",
           "iconHint": "Tranquility glow",
           "rankBadge": "0/2",
-          "notes": "Overview r4c2"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 4,
@@ -758,7 +759,7 @@
           "guessName": "Tree of Life",
           "iconHint": "Tree silhouette",
           "rankBadge": "0/1",
-          "notes": "Overview r5c1; arrow to Wild Growth"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 5,
@@ -794,7 +795,7 @@
           "guessName": "Wild Growth",
           "iconHint": "Dark vertical growth / sprouts",
           "rankBadge": "0/1",
-          "notes": "2.png OCR capstone; range 40 yd in tooltip (party 43 in one OCR pass)"
+          "notes": "aligned to overview-clean.png"
         },
         {
           "row": 6,
@@ -923,7 +924,7 @@
       "classicId": null,
       "tree": "Balance",
       "row": 1,
-      "col": 1,
+      "col": 2,
       "maxRank": 2,
       "ranks": [
         {
@@ -937,7 +938,7 @@
       ],
       "iconHint": "Purple Balance-header starburst",
       "status": "new",
-      "diffNotes": "Forever-only. 18.png OCR; arrow from Improved Wrath. Note: some spent shots label this purple slot Balance of Nature (max5) \u2014 overview icon matched to Majesty."
+      "diffNotes": "Forever-only. 18.png OCR; arrow from Improved Wrath. Note: some spent shots label this purple slot Balance of Nature (max5) — overview icon matched to Majesty. | clean: swap with Reach; arrow from Genesis | clean: swap with Reach; arrow from Genesis"
     },
     {
       "screenshots": [
@@ -947,7 +948,7 @@
       "classicId": 764,
       "tree": "Balance",
       "row": 1,
-      "col": 2,
+      "col": 1,
       "maxRank": 2,
       "ranks": [
         {
@@ -961,7 +962,7 @@
       ],
       "iconHint": "White crescent / wing",
       "status": "updated",
-      "diffNotes": "Adds hit chance; Forever Balance-spell wording. White wing matches overview r1c2."
+      "diffNotes": "Adds hit chance; Forever Balance-spell wording. White wing matches overview r1c2. | clean: 19.png hover | clean: 19.png hover"
     },
     {
       "screenshots": [
@@ -1106,7 +1107,7 @@
       ],
       "iconHint": "Purple starburst",
       "status": "new",
-      "diffNotes": "Forever-only. 20.png OCR; placed on Majesty dependency spine (r3c1). Some shots hover the r1c1 purple for this name \u2014 treated as adjacent spine talent."
+      "diffNotes": "Forever-only. 20.png OCR; placed on Majesty dependency spine (r3c1). Some shots hover the r1c1 purple for this name — treated as adjacent spine talent."
     },
     {
       "screenshots": [
@@ -1248,7 +1249,7 @@
       ],
       "iconHint": "Treant / nature summon",
       "status": "new",
-      "diffNotes": "Overview capstone r6c1 occupied; no numbered tooltip \u2014 name/icon inferred. Verify when screenshot lands."
+      "diffNotes": "Overview capstone r6c1 occupied; no numbered tooltip — name/icon inferred. Verify when screenshot lands."
     },
     {
       "screenshots": [],
@@ -1282,7 +1283,7 @@
       ],
       "iconHint": "Brown wolf/bear head",
       "status": "unchanged",
-      "diffNotes": "Overview r0c1; no dedicated numbered shot \u2014 Classic text retained."
+      "diffNotes": "Overview r0c1; no dedicated numbered shot — Classic text retained."
     },
     {
       "screenshots": [
@@ -1292,8 +1293,8 @@
       "name": "Sharpened Claws",
       "classicId": 798,
       "tree": "Feral Combat",
-      "row": 0,
-      "col": 2,
+      "row": 2,
+      "col": 3,
       "maxRank": 2,
       "ranks": [
         {
@@ -1307,15 +1308,15 @@
       ],
       "iconHint": "Yellow/orange glowing paw",
       "status": "updated",
-      "diffNotes": "maxRank 2 at 3%/rank (Classic 3\u00d72%). Overview yellow paw r0c2."
+      "diffNotes": "maxRank 2 at 3%/rank (Classic 3×2%). Overview yellow paw r0c2. | clean: 35.png hover | clean: 35.png hover"
     },
     {
       "screenshots": [],
       "name": "Feral Instinct",
       "classicId": 799,
       "tree": "Feral Combat",
-      "row": 1,
-      "col": 0,
+      "row": 0,
+      "col": 2,
       "maxRank": 3,
       "ranks": [
         {
@@ -1333,7 +1334,7 @@
       ],
       "iconHint": "Bear head / stealth",
       "status": "updated",
-      "diffNotes": "Overview r1c0; maxRank trimmed vs Classic 5 \u2014 verify."
+      "diffNotes": "Overview r1c0; maxRank trimmed vs Classic 5 — verify. | clean: user: paw adjacent to Ferocity | clean: user: paw adjacent to Ferocity"
     },
     {
       "screenshots": [
@@ -1344,7 +1345,7 @@
       "classicId": 797,
       "tree": "Feral Combat",
       "row": 1,
-      "col": 1,
+      "col": 2,
       "maxRank": 2,
       "ranks": [
         {
@@ -1354,7 +1355,7 @@
       ],
       "iconHint": "Three claw scratch marks",
       "status": "unchanged",
-      "diffNotes": "Overview r1c1 claw marks."
+      "diffNotes": "Overview r1c1 claw marks. | clean: 3.png hover | clean: 3.png hover"
     },
     {
       "screenshots": [
@@ -1364,7 +1365,7 @@
       "classicId": 794,
       "tree": "Feral Combat",
       "row": 1,
-      "col": 2,
+      "col": 3,
       "maxRank": 3,
       "ranks": [
         {
@@ -1374,7 +1375,7 @@
       ],
       "iconHint": "Bear paw / hide",
       "status": "updated",
-      "diffNotes": "Reworked armor/defense formula; includes Moonkin; maxRank 3."
+      "diffNotes": "Reworked armor/defense formula; includes Moonkin; maxRank 3. | clean: 12.png hover | clean: 12.png hover"
     },
     {
       "screenshots": [
@@ -1385,7 +1386,7 @@
       "classicId": 805,
       "tree": "Feral Combat",
       "row": 1,
-      "col": 3,
+      "col": 0,
       "maxRank": 2,
       "ranks": [
         {
@@ -1399,7 +1400,7 @@
       ],
       "iconHint": "Snarling brown bear/wolf head",
       "status": "updated",
-      "diffNotes": "Rank1 5% includes Shred. Overview r1c3 snarling head (not r0c2 paw)."
+      "diffNotes": "Rank1 5% includes Shred. Overview r1c3 snarling head (not r0c2 paw). | clean: displaced from r1c3; vacated by Instinct — UNCERTAIN | clean: displaced from r1c3; vacated by Instinct — UNCERTAIN"
     },
     {
       "screenshots": [
@@ -1480,8 +1481,8 @@
       "name": "Blood Frenzy",
       "classicId": 800,
       "tree": "Feral Combat",
-      "row": 2,
-      "col": 3,
+      "row": 1,
+      "col": 1,
       "maxRank": 2,
       "ranks": [
         {
@@ -1495,7 +1496,7 @@
       ],
       "iconHint": "Bloody paw",
       "status": "updated",
-      "diffNotes": "Overview r2c3 occupied; Forever also folds CP proc into Primal Fury \u2014 verify if this node still exists separately."
+      "diffNotes": "Overview r2c3 occupied; Forever also folds CP proc into Primal Fury — verify if this node still exists separately. | clean: displaced from r2c3; vacated by Brutal — UNCERTAIN | clean: displaced from r2c3; vacated by Brutal — UNCERTAIN"
     },
     {
       "screenshots": [
@@ -1751,7 +1752,7 @@
       ],
       "iconHint": "Green staff/leaf",
       "status": "new",
-      "diffNotes": "Overview r0c1 beside Furor (Swiftmend is mid-tree in Forever). Not in Classic foundation file \u2014 Forever placement."
+      "diffNotes": "Overview r0c1 beside Furor (Swiftmend is mid-tree in Forever). Not in Classic foundation file — Forever placement."
     },
     {
       "screenshots": [
@@ -1760,7 +1761,7 @@
       "name": "Furor",
       "classicId": 822,
       "tree": "Restoration",
-      "row": 0,
+      "row": 1,
       "col": 2,
       "maxRank": 5,
       "ranks": [
@@ -1771,7 +1772,7 @@
       ],
       "iconHint": "Orange flaming animal swirl",
       "status": "unchanged",
-      "diffNotes": "Hovered on overview.png."
+      "diffNotes": "Hovered on overview.png. | clean: displaced from r0c2 by Shapeshifter — UNCERTAIN slot | clean: displaced from r0c2 by Shapeshifter — UNCERTAIN slot"
     },
     {
       "screenshots": [],
@@ -1848,7 +1849,7 @@
       "name": "Natural Shapeshifter",
       "classicId": 781,
       "tree": "Restoration",
-      "row": 1,
+      "row": 0,
       "col": 2,
       "maxRank": 3,
       "ranks": [
@@ -1859,7 +1860,7 @@
       ],
       "iconHint": "Blue gem / shapeshift",
       "status": "updated",
-      "diffNotes": "Appears under Restoration in Forever (Classic Balance). Overview r1c2."
+      "diffNotes": "Appears under Restoration in Forever (Classic Balance). Overview r1c2. | clean: 27.png hover on green hand | clean: 27.png hover on green hand"
     },
     {
       "screenshots": [],
@@ -2151,7 +2152,7 @@
   "unmatchedScreenshots": [],
   "layoutNotes": [
     "overview.png = LAYOUT authority (same file as image.png).",
-    "Genesis at Balance r0c2 (29.png); Nature's Splendor at r1c3 (37.png) \u2014 r0c2 conflict resolved by icon+maxRank.",
+    "Genesis at Balance r0c2 (29.png); Nature's Splendor at r1c3 (37.png) — r0c2 conflict resolved by icon+maxRank.",
     "Improved Wrath at r0c1 (not Classic r0c0).",
     "Swiftmend at Rest r3c3 (1.png); Wild Growth capstone r6c1 (2.png).",
     "Natural Shapeshifter under Restoration (27.png).",

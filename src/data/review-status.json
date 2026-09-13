@@ -159,36 +159,63 @@
   "74": {
     "review": "updated",
     "screenshots": [
-      "mage/2.png"
+      "mage/2.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   },
   "75": {
     "review": "unchanged",
     "screenshots": [
       "mage/3.png",
-      "mage/9.png"
+      "mage/9.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   },
   "77": {
     "review": "updated",
     "screenshots": [
-      "mage/6.png"
+      "mage/6.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   },
   "78": {
     "review": "unchanged",
     "screenshots": [
-      "mage/4.png"
+      "mage/4.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   },
   "80": {
     "review": "updated",
-    "screenshots": []
+    "screenshots": [
+      "mage/fix1.png",
+      "mage/brave_dhN9RyhkVa.png",
+      "mage/brave_fWi9iK6evW.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/brave_WLA8Rd7rKX.png"
+    ]
   },
   "81": {
     "review": "updated",
     "screenshots": [
-      "mage/13.png"
+      "mage/13.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   },
   "82": {
@@ -198,29 +225,50 @@
   "83": {
     "review": "updated",
     "screenshots": [
-      "mage/14.png"
+      "mage/14.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   },
   "85": {
     "review": "updated",
     "screenshots": [
-      "mage/8.png"
+      "mage/8.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   },
   "86": {
     "review": "unchanged",
     "screenshots": [
-      "mage/19.png"
+      "mage/19.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   },
   "87": {
     "review": "updated",
-    "screenshots": []
+    "screenshots": [
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
+    ]
   },
   "88": {
     "review": "updated",
     "screenshots": [
-      "mage/15.png"
+      "mage/15.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   },
   "121": {
@@ -545,6 +593,54 @@
       "warrior/16.png"
     ]
   },
+  "181": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/3.png"
+    ]
+  },
+  "187": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/4.png"
+    ]
+  },
+  "201": {
+    "review": "unchanged",
+    "screenshots": [
+      "rogue/1.png"
+    ]
+  },
+  "204": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/7.png"
+    ]
+  },
+  "221": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/8.png"
+    ]
+  },
+  "222": {
+    "review": "unchanged",
+    "screenshots": [
+      "rogue/6.png"
+    ]
+  },
+  "223": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/13.png"
+    ]
+  },
+  "276": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/2.png"
+    ]
+  },
   "321": {
     "review": "updated",
     "screenshots": [
@@ -693,7 +789,11 @@
     "review": "updated",
     "screenshots": [
       "mage/7.png",
-      "mage/21.png"
+      "mage/21.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   },
   "442": {
@@ -1044,6 +1144,7 @@
   "762": {
     "review": "updated",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/16.png"
     ]
   },
@@ -1057,12 +1158,14 @@
   "764": {
     "review": "updated",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/19.png"
     ]
   },
   "781": {
     "review": "updated",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/27.png"
     ]
   },
@@ -1079,8 +1182,9 @@
     ]
   },
   "789": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/22.png",
       "druid/38.png"
     ]
@@ -1106,18 +1210,21 @@
   "794": {
     "review": "updated",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/12.png"
     ]
   },
   "796": {
     "review": "unchanged",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/overview.png"
     ]
   },
   "797": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/3.png",
       "druid/13.png"
     ]
@@ -1125,6 +1232,7 @@
   "798": {
     "review": "updated",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/11.png",
       "druid/35.png"
     ]
@@ -1132,12 +1240,14 @@
   "799": {
     "review": "updated",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/overview.png"
     ]
   },
   "800": {
     "review": "updated",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/overview.png"
     ]
   },
@@ -1168,6 +1278,7 @@
   "805": {
     "review": "updated",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/8.png",
       "druid/36.png"
     ]
@@ -1185,8 +1296,9 @@
     ]
   },
   "822": {
-    "review": "unchanged",
+    "review": "updated",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/overview.png"
     ]
   },
@@ -1410,6 +1522,12 @@
       "warlock/48.png"
     ]
   },
+  "1122": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/12.png"
+    ]
+  },
   "1141": {
     "review": "updated",
     "screenshots": []
@@ -1417,7 +1535,11 @@
   "1142": {
     "review": "updated",
     "screenshots": [
-      "mage/16.png"
+      "mage/16.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   },
   "1162": {
@@ -2176,7 +2298,17 @@
   "1650": {
     "review": "updated",
     "screenshots": [
-      "mage/5.png"
+      "mage/5.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
+    ]
+  },
+  "1703": {
+    "review": "updated",
+    "screenshots": [
+      "rogue/11.png"
     ]
   },
   "90004": {
@@ -2391,33 +2523,37 @@
       "priest/Priest_talents.png"
     ]
   },
-  "90040": {
-    "review": "new",
-    "screenshots": [
-      "mage/fix1.png",
-      "mage/brave_dhN9RyhkVa.png",
-      "mage/brave_fWi9iK6evW.png"
-    ]
-  },
   "90041": {
     "review": "new",
     "screenshots": [
       "mage/12.png",
       "mage/brave_AvxLZRviJu.png",
-      "mage/brave_hcdszJmi87.png"
+      "mage/brave_hcdszJmi87.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   },
   "90042": {
     "review": "new",
     "screenshots": [
       "mage/17.png",
-      "mage/O2NJQmcycc.jpg"
+      "mage/O2NJQmcycc.jpg",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   },
   "90043": {
     "review": "new",
     "screenshots": [
-      "mage/brave_nVqSnzi9VK.png"
+      "mage/brave_nVqSnzi9VK.png",
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   },
   "90044": {
@@ -2438,12 +2574,14 @@
   "90050": {
     "review": "new",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/29.png"
     ]
   },
   "90051": {
-    "review": "new",
+    "review": "updated",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/18.png"
     ]
   },
@@ -2523,6 +2661,7 @@
   "90064": {
     "review": "new",
     "screenshots": [
+      "druid/overview-clean.png",
       "druid/overview.png"
     ]
   },
@@ -2588,6 +2727,24 @@
       "hunter/ovvveriview.png",
       "hunter/overview-clean.png",
       "hunter/18.png"
+    ]
+  },
+  "90110": {
+    "review": "new",
+    "screenshots": [
+      "rogue/5.png"
+    ]
+  },
+  "90111": {
+    "review": "new",
+    "screenshots": [
+      "rogue/9.png"
+    ]
+  },
+  "90112": {
+    "review": "new",
+    "screenshots": [
+      "rogue/10.png"
     ]
   },
   "90200": {
@@ -2816,82 +2973,13 @@
       "paladin/30.png"
     ]
   },
-  "276": {
+  "76": {
     "review": "updated",
     "screenshots": [
-      "rogue/2.png"
-    ]
-  },
-  "181": {
-    "review": "updated",
-    "screenshots": [
-      "rogue/3.png"
-    ]
-  },
-  "187": {
-    "review": "updated",
-    "screenshots": [
-      "rogue/4.png"
-    ]
-  },
-  "90110": {
-    "review": "new",
-    "screenshots": [
-      "rogue/5.png"
-    ]
-  },
-  "204": {
-    "review": "updated",
-    "screenshots": [
-      "rogue/7.png"
-    ]
-  },
-  "90111": {
-    "review": "new",
-    "screenshots": [
-      "rogue/9.png"
-    ]
-  },
-  "221": {
-    "review": "updated",
-    "screenshots": [
-      "rogue/8.png"
-    ]
-  },
-  "222": {
-    "review": "unchanged",
-    "screenshots": [
-      "rogue/6.png"
-    ]
-  },
-  "201": {
-    "review": "unchanged",
-    "screenshots": [
-      "rogue/1.png"
-    ]
-  },
-  "90112": {
-    "review": "new",
-    "screenshots": [
-      "rogue/10.png"
-    ]
-  },
-  "223": {
-    "review": "updated",
-    "screenshots": [
-      "rogue/13.png"
-    ]
-  },
-  "1703": {
-    "review": "updated",
-    "screenshots": [
-      "rogue/11.png"
-    ]
-  },
-  "1122": {
-    "review": "updated",
-    "screenshots": [
-      "rogue/12.png"
+      "mage/overview.png",
+      "mage/overview-focus.png",
+      "mage/fix1.png",
+      "mage/brave_WLA8Rd7rKX.png"
     ]
   }
 }

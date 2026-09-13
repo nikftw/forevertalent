@@ -7980,7 +7980,7 @@
           "talents": [
             {
               "id": 74,
-              "row": 0,
+              "row": 1,
               "col": 0,
               "icon": "spell_holy_dispelmagic",
               "maxRank": 2,
@@ -8036,44 +8036,44 @@
               ]
             },
             {
-              "id": 90040,
+              "id": 80,
               "row": 0,
               "col": 2,
-              "icon": "spell_frost_iceshock",
+              "icon": "spell_nature_starfall",
               "maxRank": 5,
               "requires": [],
-              "name": "Improved Channeling",
+              "name": "Improved Arcane Missiles",
               "ranks": [
                 {
-                  "spellId": 900401,
-                  "name": "Improved Channeling",
+                  "spellId": 11237,
+                  "name": "Improved Arcane Missiles",
                   "description": "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 14% chance while casting Arcane Blast."
                 },
                 {
-                  "spellId": 900402,
-                  "name": "Improved Channeling",
-                  "description": "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 14% chance while casting Arcane Blast."
+                  "spellId": 12463,
+                  "name": "Improved Arcane Missiles",
+                  "description": "Gives you a 40% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 28% chance while casting Arcane Blast."
                 },
                 {
-                  "spellId": 900403,
-                  "name": "Improved Channeling",
-                  "description": "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 14% chance while casting Arcane Blast."
+                  "spellId": 12464,
+                  "name": "Improved Arcane Missiles",
+                  "description": "Gives you a 60% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 42% chance while casting Arcane Blast."
                 },
                 {
-                  "spellId": 900404,
-                  "name": "Improved Channeling",
-                  "description": "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 14% chance while casting Arcane Blast."
+                  "spellId": 16769,
+                  "name": "Improved Arcane Missiles",
+                  "description": "Gives you a 80% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 56% chance while casting Arcane Blast."
                 },
                 {
-                  "spellId": 900405,
-                  "name": "Improved Channeling",
-                  "description": "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 14% chance while casting Arcane Blast."
+                  "spellId": 16770,
+                  "name": "Improved Arcane Missiles",
+                  "description": "Gives you a 100% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 70% chance while casting Arcane Blast."
                 }
               ]
             },
             {
               "id": 78,
-              "row": 1,
+              "row": 0,
               "col": 0,
               "icon": "inv_wand_01",
               "maxRank": 2,
@@ -8151,7 +8151,7 @@
             },
             {
               "id": 90043,
-              "row": 1,
+              "row": 2,
               "col": 3,
               "icon": "spell_arcane_blast",
               "maxRank": 1,
@@ -8214,7 +8214,7 @@
             },
             {
               "id": 85,
-              "row": 2,
+              "row": 1,
               "col": 3,
               "icon": "spell_arcane_arcaneresilience",
               "maxRank": 1,
@@ -8305,7 +8305,7 @@
               "id": 90042,
               "row": 3,
               "col": 3,
-              "icon": "ability_mage_missiles",
+              "icon": "ability_mage_missilebarrage",
               "maxRank": 1,
               "requires": [],
               "name": "Missile Barrage",
@@ -8451,8 +8451,8 @@
             },
             {
               "id": 30,
-              "row": 0,
-              "col": 1,
+              "row": 1,
+              "col": 2,
               "icon": "spell_fire_meteorstorm",
               "maxRank": 5,
               "requires": [],
@@ -8561,7 +8561,7 @@
               "id": 27,
               "row": 1,
               "col": 1,
-              "icon": "spell_fire_fireball",
+              "icon": "spell_fire_flare",
               "maxRank": 3,
               "requires": [],
               "name": "Improved Fire Blast",
@@ -8585,8 +8585,8 @@
             },
             {
               "id": 1141,
-              "row": 1,
-              "col": 2,
+              "row": 0,
+              "col": 1,
               "icon": "spell_fire_flameshock",
               "maxRank": 2,
               "requires": [],
@@ -8628,15 +8628,10 @@
             {
               "id": 29,
               "row": 2,
-              "col": 1,
+              "col": 2,
               "icon": "spell_fire_fireball02",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 27,
-                  "qty": 3
-                }
-              ],
+              "requires": [],
               "name": "Pyroblast",
               "ranks": [
                 {
@@ -8649,7 +8644,7 @@
             {
               "id": 31,
               "row": 2,
-              "col": 2,
+              "col": 1,
               "icon": "spell_fire_selfdestruct",
               "maxRank": 3,
               "requires": [],
@@ -8676,7 +8671,7 @@
               "id": 25,
               "row": 3,
               "col": 0,
-              "icon": "spell_fire_soulburn",
+              "icon": "spell_fire_windsofwoe",
               "maxRank": 3,
               "requires": [],
               "name": "Improved Scorch",
@@ -8727,8 +8722,8 @@
               "maxRank": 1,
               "requires": [
                 {
-                  "id": 31,
-                  "qty": 3
+                  "id": 29,
+                  "qty": 1
                 }
               ],
               "name": "Hot Streak",
@@ -8789,6 +8784,25 @@
                   "spellId": 11368,
                   "name": "Critical Mass",
                   "description": "Increases the critical strike chance of your Fire spells by 6%."
+                }
+              ]
+            },
+            {
+              "id": 32,
+              "row": 4,
+              "col": 2,
+              "icon": "spell_holy_excorcism_02",
+              "maxRank": 1,
+              "requires": [],
+              "name": "Blast Wave",
+              "ranks": [
+                {
+                  "spellId": 11113,
+                  "name": "Blast Wave",
+                  "description": "A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for 160 to 191 Fire damage, and Dazing them for 50% reduced movement speed for 6 sec.",
+                  "mana": 215,
+                  "castTime": "Instant",
+                  "cooldown": "45 sec"
                 }
               ]
             },
@@ -9076,7 +9090,7 @@
             },
             {
               "id": 69,
-              "row": 2,
+              "row": 4,
               "col": 1,
               "icon": "spell_frost_wizardmark",
               "maxRank": 1,
@@ -9094,14 +9108,9 @@
               "id": 90004,
               "row": 2,
               "col": 2,
-              "icon": "inv_misc_questionmark",
+              "icon": "spell_frost_frostblast",
               "maxRank": 1,
-              "requires": [
-                {
-                  "id": 62,
-                  "qty": 2
-                }
-              ],
+              "requires": [],
               "name": "Ice Lance",
               "ranks": [
                 {
@@ -9139,8 +9148,8 @@
             },
             {
               "id": 66,
-              "row": 3,
-              "col": 0,
+              "row": 2,
+              "col": 1,
               "icon": "spell_frost_stun",
               "maxRank": 3,
               "requires": [],
@@ -9166,7 +9175,7 @@
             {
               "id": 741,
               "row": 3,
-              "col": 1,
+              "col": 0,
               "icon": "spell_shadow_darkritual",
               "maxRank": 2,
               "requires": [],
@@ -9248,7 +9257,7 @@
             },
             {
               "id": 72,
-              "row": 4,
+              "row": 3,
               "col": 1,
               "icon": "spell_frost_frost",
               "maxRank": 1,
@@ -9268,7 +9277,12 @@
               "col": 2,
               "icon": "ability_mage_wintersgrasp",
               "maxRank": 2,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 90004,
+                  "qty": 1
+                }
+              ],
               "name": "Fingers of Frost",
               "ranks": [
                 {
@@ -9325,7 +9339,12 @@
               "col": 1,
               "icon": "spell_ice_lament",
               "maxRank": 1,
-              "requires": [],
+              "requires": [
+                {
+                  "id": 69,
+                  "qty": 1
+                }
+              ],
               "name": "Ice Barrier",
               "ranks": [
                 {

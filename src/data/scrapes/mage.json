@@ -70,7 +70,7 @@
     "mage/brave_AvxLZRviJu.png",
     "mage/brave_hcdszJmi87.png"
   ],
-  "notes": "Layout authority is overview.png (+ fix1.png Arcane spent / Improved Channeling, fix2.png Hot Streak). Numbered mage/1.png\u201350.png are tooltip crops. brave_* + O2NJQmcycc.jpg are newer BlizzCon-stream captures (2026-09-12 evening). Columns 0-indexed. Classic talents.json used only for classicId/status.",
+  "notes": "Layout authority is overview.png (+ fix1.png Arcane spent / Improved Channeling, fix2.png Hot Streak). Numbered mage/1.png–50.png are tooltip crops. brave_* + O2NJQmcycc.jpg are newer BlizzCon-stream captures (2026-09-12 evening). Columns 0-indexed. Classic talents.json used only for classicId/status.",
   "trees": [
     {
       "name": "Arcane",
@@ -97,7 +97,7 @@
           "occupied": true,
           "guessName": "Improved Channeling",
           "iconHint": "Purple hand / arcane projectiles",
-          "notes": "Green border; rank badge 0; fix1.png tooltip; replaces Classic Improved Arcane Missiles; arrow down toward Concentration chain"
+          "notes": "fix1.png tooltip OCR confirms Improved Channeling; arrow down to Concentration"
         },
         {
           "row": 0,
@@ -112,7 +112,7 @@
           "col": 0,
           "occupied": true,
           "guessName": "Wand Specialization",
-          "iconHint": "Shield/wand / blue energy hand",
+          "iconHint": "Wooden wand",
           "notes": "mage/4.png"
         },
         {
@@ -120,7 +120,7 @@
           "col": 1,
           "occupied": true,
           "guessName": "Magic Absorption",
-          "iconHint": "Purple missile/bolt / absorption swirl",
+          "iconHint": "Purple absorption swirl / bubble",
           "notes": "mage/5.png mage/10.png"
         },
         {
@@ -129,15 +129,15 @@
           "occupied": true,
           "guessName": "Arcane Concentration",
           "iconHint": "Head silhouette with glowing energy",
-          "notes": "Long arrow down to Arcane Meditation row3 col2 (skips empty row2 col2); mage/3.png mage/9.png"
+          "notes": "Receives arrow from Improved Channeling; long arrow down to Meditation (skips empty r2c2)"
         },
         {
           "row": 1,
           "col": 3,
           "occupied": true,
           "guessName": "Arcane Blast",
-          "iconHint": "Purple eye / arcane blast orb",
-          "notes": "Overview r1c3 unnamed purple-eye slot; brave_nVqSnzi9VK.png identity"
+          "iconHint": "Purple arcane blast / vortex",
+          "notes": "overview r1c3; brave_nVqSnzi9VK.png"
         },
         {
           "row": 2,
@@ -152,7 +152,7 @@
           "col": 1,
           "occupied": true,
           "guessName": "Arcane Impact",
-          "iconHint": "Circular runic / purple swirl",
+          "iconHint": "Bright white/purple impact orb",
           "notes": "mage/13.png"
         },
         {
@@ -161,14 +161,14 @@
           "occupied": false,
           "guessName": null,
           "iconHint": null,
-          "notes": "Empty; Concentration\u2192Meditation dependency line passes through"
+          "notes": "Empty; Concentration→Meditation dependency line passes through"
         },
         {
           "row": 2,
           "col": 3,
           "occupied": true,
           "guessName": "Arcane Resilience",
-          "iconHint": "Gear-like / sunburst arcane seal",
+          "iconHint": "Gear-like / shield sunburst seal",
           "notes": "Moved from Classic row2 col2; mage/8.png"
         },
         {
@@ -184,7 +184,7 @@
           "col": 1,
           "occupied": true,
           "guessName": "Improved Counterspell",
-          "iconHint": "Small flame / energy spark",
+          "iconHint": "Silence / counterspell face",
           "notes": "mage/15.png"
         },
         {
@@ -192,15 +192,15 @@
           "col": 2,
           "occupied": true,
           "guessName": "Arcane Meditation",
-          "iconHint": "Profile/silhouette with arcane energy",
-          "notes": "Receives arrow from Concentration; maxRank 3 matches fix1 spent 3"
+          "iconHint": "Meditative silhouette",
+          "notes": "Receives arrow from Concentration; arrow down to Arcane Mind (fix1)"
         },
         {
           "row": 3,
           "col": 3,
           "occupied": true,
           "guessName": "Missile Barrage",
-          "iconHint": "Cluster of white missile streaks",
+          "iconHint": "Cluster of purple missile streaks",
           "notes": "mage/17.png adjacent to Fire divider = col3"
         },
         {
@@ -217,7 +217,7 @@
           "occupied": true,
           "guessName": "Presence of Mind",
           "iconHint": "Hooded figure / glowing head",
-          "notes": "Long arrow down to Arcane Power row6 col1; mage/19.png"
+          "notes": "Long arrow down to Arcane Power (skips empty r5c1)"
         },
         {
           "row": 4,
@@ -225,7 +225,7 @@
           "occupied": true,
           "guessName": "Arcane Mind",
           "iconHint": "Face silhouette with forehead energy",
-          "notes": "mage/6.png mage/18.png mage/20.png"
+          "notes": "Receives arrow from Meditation; arrow down to Instability"
         },
         {
           "row": 4,
@@ -249,15 +249,15 @@
           "occupied": false,
           "guessName": null,
           "iconHint": null,
-          "notes": "Dependency line from Presence of Mind passes through"
+          "notes": "Empty; Presence of Mind→Arcane Power dependency line passes through"
         },
         {
           "row": 5,
           "col": 2,
           "occupied": true,
           "guessName": "Arcane Instability",
-          "iconHint": "Bright white/purple orb",
-          "notes": "mage/7.png mage/21.png"
+          "iconHint": "Bright white/purple starburst",
+          "notes": "Receives arrow from Arcane Mind"
         },
         {
           "row": 5,
@@ -280,8 +280,8 @@
           "col": 1,
           "occupied": true,
           "guessName": "Arcane Power",
-          "iconHint": "Zig-zag arcane energy line",
-          "notes": "Receives arrow from row4 col1; brave_4Ntj8pV1e3.png brave_92KLRTDv0f.png"
+          "iconHint": "Zig-zag arcane lightning",
+          "notes": "Receives arrow from Presence of Mind; overview r6c1"
         },
         {
           "row": 6,
@@ -318,7 +318,7 @@
           "occupied": true,
           "guessName": "Impact",
           "iconHint": "Black flaming claw/hand",
-          "notes": "Green border; middle of Fire row0"
+          "notes": "Green border; middle of Fire row0; restored after bad Incineration swap"
         },
         {
           "row": 0,
@@ -380,7 +380,7 @@
           "row": 2,
           "col": 1,
           "occupied": true,
-          "guessName": "Pyroblast",
+          "guessName": "Improved Flamestrike",
           "iconHint": "Figure engulfed in flames",
           "notes": "Receives arrow from row1 col1; moved from Classic row2 col2; mage/23.png"
         },
@@ -388,7 +388,7 @@
           "row": 2,
           "col": 2,
           "occupied": true,
-          "guessName": "Improved Flamestrike",
+          "guessName": "Pyroblast",
           "iconHint": "Fire blast / shockwave",
           "notes": "Arrow down to Hot Streak row3 col2; no tooltip (Classic Pyroblast was here)"
         },
@@ -452,9 +452,9 @@
           "row": 4,
           "col": 2,
           "occupied": false,
-          "guessName": null,
+          "guessName": "Blast Wave",
           "iconHint": null,
-          "notes": "Empty in overview/fix2; Classic Blast Wave slot vacant \u2014 Blast Wave tooltip captured but unmatched"
+          "notes": "Blast Wave placed per user correction (right of Critical Mass)."
         },
         {
           "row": 4,
@@ -641,7 +641,7 @@
           "row": 3,
           "col": 1,
           "occupied": true,
-          "guessName": "Arctic Reach",
+          "guessName": "Ice Block",
           "iconHint": "Blue sphere / orb / reaching hand",
           "notes": "Forever col1 (Classic Frost Channeling was here); mage/44.png"
         },
@@ -651,7 +651,7 @@
           "occupied": true,
           "guessName": null,
           "iconHint": "Large cluster of ice shards",
-          "notes": "Arrow down to Fingers of Frost row4 col2; no tooltip (Classic Shatter was here \u2014 name not screenshot-confirmed)"
+          "notes": "Arrow down to Fingers of Frost row4 col2; no tooltip (Classic Shatter was here — name not screenshot-confirmed)"
         },
         {
           "row": 3,
@@ -659,7 +659,7 @@
           "occupied": true,
           "guessName": "Shatter",
           "iconHint": "Snowflake / sunburst frost",
-          "notes": "No tooltip screenshot \u2014 Classic Shatter name guessed from icon; Classic was row3 col2"
+          "notes": "No tooltip screenshot — Classic Shatter name guessed from icon; Classic was row3 col2"
         },
         {
           "row": 4,
@@ -673,7 +673,7 @@
           "row": 4,
           "col": 1,
           "occupied": true,
-          "guessName": "Ice Block",
+          "guessName": "Arctic Reach",
           "iconHint": "Eye with blue energy / ice ring",
           "notes": "mage/45.png"
         },
@@ -784,7 +784,13 @@
       ],
       "iconHint": "Spiky frosty face / ice-crest mask (visible in 50.png)",
       "status": "unchanged",
-      "diffNotes": "Absorb/text matches talents.json; tooltip also lists 305 mana, Instant, 30 sec cooldown."
+      "diffNotes": "Absorb/text matches talents.json; tooltip also lists 305 mana, Instant, 30 sec cooldown. Requires Ice Block.",
+      "requires": [
+        {
+          "id": 72,
+          "qty": 1
+        }
+      ]
     },
     {
       "screenshots": [
@@ -1008,7 +1014,7 @@
       ],
       "iconHint": "Purple/white swirling energy blast",
       "status": "updated",
-      "diffNotes": "Rank-1 text matches Classic. Classic ranks 2\u20133 were Arcane Explosion-specific; Forever ranks 2\u20133 not captured."
+      "diffNotes": "Rank-1 text matches Classic. Classic ranks 2–3 were Arcane Explosion-specific; Forever ranks 2–3 not captured."
     },
     {
       "screenshots": [
@@ -1126,7 +1132,7 @@
         "mage/brave_fWi9iK6evW.png"
       ],
       "name": "Improved Channeling",
-      "classicId": null,
+      "classicId": 80,
       "tree": "Arcane",
       "row": 0,
       "col": 2,
@@ -1137,9 +1143,9 @@
           "description": "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 14% chance while casting Arcane Blast."
         }
       ],
-      "iconHint": "Purple hand reaching up with arcane bolts",
-      "status": "new",
-      "diffNotes": "No Classic name match (replaces Improved Arcane Missiles slot). Adds Arcane Blast pushback resist; Classic IAM was Missiles-only."
+      "iconHint": "Arcane missiles / starfall",
+      "status": "updated",
+      "diffNotes": "Forever updated Improved Arcane Missiles (was mislabeled Improved Channeling); adds Arcane Blast pushback resist vs Classic Missiles-only."
     },
     {
       "screenshots": [
@@ -1170,7 +1176,7 @@
       "classicId": 29,
       "tree": "Fire",
       "row": 2,
-      "col": 1,
+      "col": 2,
       "maxRank": 1,
       "ranks": [
         {
@@ -1221,7 +1227,7 @@
           "description": "Your Scorch spell has a 33% chance to cause your target to be vulnerable to Fire damage. This vulnerability increases all Fire damage you deal to your target by 3% and lasts 30 sec, stacking up to 5 times."
         }
       ],
-      "iconHint": "Scorch head silhouette with heat wisps",
+      "iconHint": "spell_burningsoul (Classic Scorch silhouette; spell_fire_soulburn remapped to Warlock Soulburn)",
       "status": "unchanged",
       "diffNotes": "Rank 1 text matches talents.json foundation."
     },
@@ -1314,8 +1320,8 @@
       "name": "Blast Wave",
       "classicId": 32,
       "tree": "Fire",
-      "row": null,
-      "col": null,
+      "row": 4,
+      "col": 2,
       "maxRank": 1,
       "ranks": [
         {
@@ -1328,7 +1334,7 @@
       ],
       "iconHint": "Circular fiery explosion / radiating wave",
       "status": "updated",
-      "diffNotes": "Tooltip text matches talents.json, but overview/fix2 leave Classic row4 col2 empty \u2014 Forever layout position unmatched."
+      "diffNotes": "Placed at Forever r4c2 (right of Critical Mass); tooltip from mage/30.png."
     },
     {
       "screenshots": [
@@ -1615,7 +1621,7 @@
       "name": "Arctic Reach",
       "classicId": 741,
       "tree": "Frost",
-      "row": 3,
+      "row": 4,
       "col": 1,
       "maxRank": 2,
       "ranks": [
@@ -1636,7 +1642,7 @@
       "name": "Ice Block",
       "classicId": 72,
       "tree": "Frost",
-      "row": 4,
+      "row": 3,
       "col": 1,
       "maxRank": 1,
       "ranks": [
@@ -1736,7 +1742,13 @@
       ],
       "iconHint": "Pale blue/grey icy claw / three-fingered hand; arrow from above",
       "status": "unchanged",
-      "diffNotes": "Matches talents.json Fingers of Frost entry; Forever position row4 col2 under Ice Lance chain."
+      "diffNotes": "Matches talents.json; Forever r4c2 requires Ice Lance (90004).",
+      "requires": [
+        {
+          "id": 90004,
+          "qty": 1
+        }
+      ]
     },
     {
       "screenshots": [
@@ -1828,11 +1840,9 @@
   ],
   "unmatchedScreenshots": [],
   "layoutNotes": [
-    "Layout from overview.png / overview-focus.png; fix1.png Arcane spent; fix2.png Hot Streak; mage/22.png Wake leftmost.",
-    "P0: Fire r0 = Wake of Fire | Impact | Improved Fireball.",
-    "P0: Arcane Meditation r3c2 (Concentration arrow, maxRank 3); Missile Barrage r3c3 (mage/17).",
-    "P0: Arcane Blast at r1c3 (overview unnamed purple-eye). r2c2 remains empty.",
-    "Blast Wave tooltip exists but Forever overview r4c2 empty \u2014 not placed.",
-    "Frost r3c2 occupied unnamed (no tooltip) \u2014 Shatter at r3c3 from icon/scrape guess."
+    "Layout authority: overview.png / overview-focus.png / fix1.png (Improved Channeling tooltip).",
+    "Arcane occupied map restored after bad Wand/Subtlety and Blast/Resilience swap.",
+    "Requires: Channeling→Concentration, Concentration→Meditation, Meditation→Mind, Mind→Instability, PoM→Power.",
+    "r2c2 empty (Concentration→Meditation line). r5c1 empty (PoM→Power line)."
   ]
 }
