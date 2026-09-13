@@ -5926,7 +5926,7 @@
                 {
                   "spellId": 900240,
                   "name": "Penance",
-                  "description": "Launches a volley of holy light at the target, causing 98 Holy damage to an enemy, or 258 healing to an ally, instantly and every 1 sec for 2 sec."
+                  "description": "Launches a volley of holy light at the target, causing 93 Holy damage to an enemy, or 223 healing to an ally, instantly and every 1 sec for 2 sec."
                 }
               ]
             },
@@ -6197,7 +6197,7 @@
                 {
                   "spellId": 15237,
                   "name": "Holy Nova",
-                  "description": "Causes an explosion of holy light around the caster, causing 32 to 37 Holy damage to all enemy targets within 11 yards and healing all party members within 11 yards for 75 to 85. These effects cause no threat."
+                  "description": "Causes an explosion of holy light around the caster, causing 30 to 35 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 64 to 73. These effects cause no threat."
                 }
               ]
             },
@@ -6338,7 +6338,7 @@
                 {
                   "spellId": 900280,
                   "name": "Binding Heal",
-                  "description": "Heals a friendly target and the caster for 382 to 443. Low threat."
+                  "description": "Heals a friendly target and the caster for 330 to 387. Low threat."
                 }
               ]
             },
@@ -6391,27 +6391,27 @@
                 {
                   "spellId": 14901,
                   "name": "Spiritual Guidance",
-                  "description": "Increases your spell healing by up to 5% of your total Spirit and your spell damage by up to 2% of your total Spirit."
+                  "description": "Increases your spell healing by up to 5% of your total Spirit and your spell damage by up to 1% of your total Spirit."
                 },
                 {
                   "spellId": 15028,
                   "name": "Spiritual Guidance",
-                  "description": "Increases your spell healing by up to 10% of your total Spirit and your spell damage by up to 3% of your total Spirit."
+                  "description": "Increases your spell healing by up to 10% of your total Spirit and your spell damage by up to 2% of your total Spirit."
                 },
                 {
                   "spellId": 15029,
                   "name": "Spiritual Guidance",
-                  "description": "Increases your spell healing by up to 15% of your total Spirit and your spell damage by up to 4% of your total Spirit."
+                  "description": "Increases your spell healing by up to 15% of your total Spirit and your spell damage by up to 3% of your total Spirit."
                 },
                 {
                   "spellId": 15030,
                   "name": "Spiritual Guidance",
-                  "description": "Increases your spell healing by up to 20% of your total Spirit and your spell damage by up to 6% of your total Spirit."
+                  "description": "Increases your spell healing by up to 20% of your total Spirit and your spell damage by up to 4% of your total Spirit."
                 },
                 {
                   "spellId": 15031,
                   "name": "Spiritual Guidance",
-                  "description": "Increases your spell healing by up to 25% of your total Spirit and your spell damage by up to 8% of your total Spirit."
+                  "description": "Increases your spell healing by up to 25% of your total Spirit and your spell damage by up to 5% of your total Spirit."
                 }
               ]
             },
@@ -6427,17 +6427,17 @@
                 {
                   "spellId": 14898,
                   "name": "Spiritual Healing",
-                  "description": "Increases the amount healed by your spells by 4%."
+                  "description": "Increases the amount healed by your spells by 3%."
                 },
                 {
                   "spellId": 15349,
                   "name": "Spiritual Healing",
-                  "description": "Increases the amount healed by your spells by 7%."
+                  "description": "Increases the amount healed by your spells by 6%."
                 },
                 {
                   "spellId": 15354,
                   "name": "Spiritual Healing",
-                  "description": "Increases the amount healed by your spells by 10%."
+                  "description": "Increases the amount healed by your spells by 9%."
                 }
               ]
             },
@@ -6458,7 +6458,7 @@
                 {
                   "spellId": 900300,
                   "name": "Prayer of Mending",
-                  "description": "Places a spell on the target that heals them for 263 the next time they take damage or receive non-periodic healing. When the heal occurs, Prayer of Mending jumps to a party or raid member within 20 yards. Jumps up to 5 times and lasts 30 sec after each jump. This spell can only be placed on one target at a time per caster."
+                  "description": "Places a spell on the target that heals them for 231 the next time they take damage or receive non-periodic healing. When the heal occurs, Prayer of Mending jumps to a party or raid member within 20 yards. Jumps up to 5 times and lasts 30 sec after each jump. This spell can only be placed on one target at a time per caster."
                 }
               ]
             }
@@ -6719,7 +6719,7 @@
                 {
                   "spellId": 15407,
                   "name": "Mind Flay",
-                  "description": "Assault the target's mind with Shadow energy, causing 108 Shadow damage over 3 sec and slowing their movement speed by 50%."
+                  "description": "Assault the target's mind with Shadow energy, causing 119 Shadow damage over 3 sec and slowing their movement speed by 50%."
                 }
               ]
             },
@@ -10557,17 +10557,17 @@
                 {
                   "spellId": 900840,
                   "name": "Demonic Knowledge",
-                  "description": "Increases your spell damage and healing by up to 3% of your level while you have a summoned Demon pet active."
+                  "description": "Increases your spell damage and healing by up to 33% of your level while you have a summoned Demon pet active."
                 },
                 {
                   "spellId": 900841,
                   "name": "Demonic Knowledge",
-                  "description": "Increases your spell damage and healing by up to 6% of your level while you have a summoned Demon pet active."
+                  "description": "Increases your spell damage and healing by up to 66% of your level while you have a summoned Demon pet active."
                 },
                 {
                   "spellId": 900842,
                   "name": "Demonic Knowledge",
-                  "description": "Increases your spell damage and healing by up to 9% of your level while you have a summoned Demon pet active."
+                  "description": "Increases your spell damage and healing by up to 99% of your level while you have a summoned Demon pet active."
                 }
               ]
             },
