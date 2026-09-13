@@ -466,6 +466,23 @@ body {
   text-align: center;
 }
 
+/* Legacy tree names (esp. Resourcefulness) are longer than Classic specs. */
+.tree-card[data-class="legacy"] .tree-header {
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  padding: 6px 20px;
+}
+
+.tree-card[data-class="legacy"] .tree-spec {
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.tree-card[data-class="legacy"] .tree-spec img {
+  width: 15px;
+  height: 15px;
+}
+
 .tree-grid {
   position: relative;
   isolation: isolate;
