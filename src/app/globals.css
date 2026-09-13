@@ -69,28 +69,29 @@ body {
 
 .masthead-selectors {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 0.75rem 1.25rem;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.75rem;
   min-width: 0;
 }
 
+/* Real flex column (not display:contents) so Race / Profs always sit
+   under Class. Percentage flex-basis on contents children was unreliable
+   and left Race + Profs on the same row, shoved far right. */
 .masthead-selectors .extras-controls {
-  display: contents;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.75rem;
+  width: 100%;
+  min-width: 0;
 }
 
-.extras-group-race {
-  flex: 1 1 100%;
-  order: 2;
-}
-
-.extras-group-class {
-  order: 1;
-}
-
+.extras-group-race,
+.extras-group-class,
 .extras-group-professions {
-  flex: 1 1 100%;
-  order: 3;
+  width: 100%;
+  min-width: 0;
 }
 
 .class-select {
@@ -398,6 +399,8 @@ body {
   justify-content: center;
   gap: 8px;
   width: min(var(--shell), 100%);
+  max-width: 100%;
+  min-width: 0;
 }
 
 .tree-card {
@@ -669,9 +672,9 @@ body {
 
 .extras-controls {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 0.75rem 1.25rem;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.75rem;
   min-width: 0;
 }
 
@@ -824,8 +827,8 @@ body {
     margin-top: 0;
   }
 
-  .masthead-selectors {
-    flex-direction: column;
+  .masthead-selectors,
+  .masthead-selectors .extras-controls {
     gap: 0.55rem;
   }
 
@@ -833,6 +836,22 @@ body {
     grid-template-columns: minmax(0, 1fr);
     row-gap: 0.25rem;
     justify-items: start;
+  }
+
+  /* Three fixed-width tree cards: scroll sideways instead of wrapping. */
+  .trees {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-gutter: stable;
+    padding-bottom: 0.35rem;
+  }
+
+  .tree-card {
+    flex: 0 0 244px;
   }
 
   .site-footer {
