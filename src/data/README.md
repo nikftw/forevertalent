@@ -16,12 +16,12 @@ To add a talent, give it a unique `id` (use 90001+ for Forever-only nodes) and p
 
 ## Reference screenshots
 
-Keep Forever tooltip crops in `public/{class}new/`:
+Keep Forever tooltip crops in `public/{class}new/` only (e.g. `public/magenew/`):
 
 - `overview.png` — full three-tree view
 - `{talent-slug}.png` — one crop per talent (kebab-case spell name, e.g. `flame-throwing.png`)
 
-Do not invent `row`/`col` for new talents until the overview shows the slot. Prefer renaming crops to spell names before committing; leave untitled `brave_*.png` out of git.
+Do not invent `row`/`col` for new talents until the overview shows the slot. Do not keep untitled `brave_*.png` or numbered crops in `public/{class}/`.
 
 ## Review dots
 
